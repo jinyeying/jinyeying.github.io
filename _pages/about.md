@@ -85,6 +85,43 @@ Research
 <tbody>
   
 <!-- ###################################################################################################-->
+<!-- Paper IV Reflectance, AAAI'23 -->
+<tr onmouseout="aaai23_reflectance_stop()" onmouseover="aaai23_reflectance_start()" >
+<td width="20%">
+<div class="one">
+<div class="two" id = 'aaai23_reflectance_image'><img src='./files/aaai23_after.png'></div>
+<img src='./files/aaai23_before.png'>
+</div>
+<script type="text/javascript">
+function aaai23_reflectance_start() {
+document.getElementById('aaai23_reflectance_image').style.opacity = "1";
+}
+function aaai23_reflectance_stop() {
+document.getElementById('aaai23_reflectance_image').style.opacity = "0";
+}
+aaai23_reflectance_stop()
+</script>
+</td>
+<td valign="top" width="80%">
+  <a href="https://www.ecva.net/papers/eccv_2022/papers_ECCV/papers/136970396.pdf">
+    <papertitle_just>Unsupervised Night Image Enhancement: When Layer Decomposition Meets Light-Effects Suppression</papertitle_just>     
+  </a>
+  <br>
+  <strong>Yeying Jin</strong>, Ruoteng Li, Wenhan Yang, Robby T. Tan
+  <br>
+<em>Association for the Advancement of Artificial Intelligence (AAAI)</em>, 2023, Washington DC, USA <br>
+<a href="">arXiv</a>
+|
+<a href="./files/aaai23_reflectance_bibtex.txt">bibtex</a>
+<p></p>
+<p></p>
+</td>
+</tr>
+<!-- Paper IV Reflectance, AAAI'23 -->
+<!-- ###################################################################################################-->
+  
+  
+<!-- ###################################################################################################-->
 <!-- Paper II NightEnhance, ECCV'22 -->
 <tr onmouseout="eccv22_nightenhance_stop()" onmouseover="eccv22_nightenhance_start()" >
 <td width="20%">
@@ -99,25 +136,29 @@ document.getElementById('eccv22_nightenhance_image').style.opacity = "1";
 function eccv22_nightenhance_stop() {
 document.getElementById('eccv22_nightenhance_image').style.opacity = "0";
 }
-cvpr21_nightenhance_stop()
+eccv22_nightenhance_stop()
 </script>
 </td>
 <td valign="top" width="80%">
-  <a href="https://arxiv.org/abs/2207.10564">
+  <a href="https://www.ecva.net/papers/eccv_2022/papers_ECCV/papers/136970396.pdf">
     <papertitle_just>Unsupervised Night Image Enhancement: When Layer Decomposition Meets Light-Effects Suppression</papertitle_just>     
   </a>
   <br>
   <strong>Yeying Jin</strong>, Wenhan Yang, Robby T. Tan
   <br>
 <em>European Conference on Computer Vision (ECCV)</em>, 2022, Tel Aviv, Israel <br>
-<a href="https://arxiv.org/abs/2207.10564">ArXiv</a>
-|
 <a href="https://www.ecva.net/papers/eccv_2022/papers_ECCV/papers/136970396.pdf">paper</a>
 |
-<a href="./files/eccv22_nightenhance_bibtex.txt">bibtex</a>
+<a href="https://arxiv.org/abs/2207.10564">arXiv</a>
 |
 <a href="https://github.com/jinyeying/night-enhancement">code</a>
 |  
+<a href="https://github.com/jinyeying/night-enhancement/blob/main/poster_video/0982_poster.pdf">poster</a>
+|
+<a href="https://github.com/jinyeying/night-enhancement/blob/main/poster_video/0982_release.pdf">slides</a>
+|
+<a href="./files/eccv22_nightenhance_bibtex.txt">bibtex</a>
+|
 <a href="https://www.dropbox.com/sh/ro8fs629ldebzc2/AAD1BnNSR51_tCq7DVaLSC3Fa/light-effects?dl=0&subfolder_nav_tracking=1">data</a>
 <p></p>
 <p></p>
@@ -125,7 +166,52 @@ cvpr21_nightenhance_stop()
 </tr>
 <!-- Paper II NightEnhance, ECCV'22 -->
 <!-- ###################################################################################################-->
-  
+
+<!-- ###################################################################################################-->
+<!-- Paper III defog, ACCV'22 -->
+<tr onmouseout="accv22_defog_stop()" onmouseover="accv22_defog_start()" >
+<td width="20%">
+<div class="one">
+<div class="two" id = 'accv22_defog_image'><img src='./files/accv22_after.png'></div>
+<img src='./files/accv22_before.png'>
+</div>
+<script type="text/javascript">
+function accv22_defog_start() {
+document.getElementById('accv22_defog_image').style.opacity = "1";
+}
+function accv22_defog_stop() {
+document.getElementById('accv22_defog_image').style.opacity = "0";
+}
+accv22_defog_stop()
+</script>
+</td>
+<td valign="top" width="80%">
+  <a href="https://openaccess.thecvf.com/content/ACCV2022/html/Jin_Structure_Representation_Network_and_Uncertainty_Feedback_Learning_for_Dense_Non-Uniform_ACCV_2022_paper.html">
+    <papertitle_just>Structure Representation Network and Uncertainty Feedback Learning for Dense Non-Uniform Fog Removal</papertitle_just>     
+  </a>
+  <br>
+  <strong>Yeying Jin</strong>, Wending Yan, Wenhan Yang, Robby T. Tan
+  <br>
+<em>Asian Conference on Computer Vision (ACCV)</em>, 2022, Macau, China <br>
+<a href="https://openaccess.thecvf.com/content/ACCV2022/papers/Jin_Structure_Representation_Network_and_Uncertainty_Feedback_Learning_for_Dense_Non-Uniform_ACCV_2022_paper.pdf">paper</a>
+|
+<a href="https://arxiv.org/abs/2210.03061">arXiv</a>
+|
+<a href="https://openaccess.thecvf.com/content/ACCV2022/supplemental/Jin_Structure_Representation_Network_ACCV_2022_supplemental.pdf">supp</a>
+|
+<a href="https://github.com/jinyeying/FogRemoval">code</a>
+|
+<a href="https://www.dropbox.com/s/f3qjxx9jf3o7b6j/0393_poster.pdf?dl=0">poster</a>
+|
+<a href="https://www.dropbox.com/s/fowkes8wnyr6rb1/0393_release.pdf?dl=0">slides</a>
+|  
+<a href="./files/accv22_defog_bibtex.txt">bibtex</a>
+<p></p>
+<p></p>
+</td>
+</tr>
+<!-- Paper III defog, ACCV'22 -->
+<!-- ###################################################################################################-->
   
 <!-- ###################################################################################################-->
 <!-- Paper I DC-ShadowNet, ICCV'21 -->
@@ -146,28 +232,33 @@ iccv21_dcshadownet_stop()
 </script>
 </td>
 <td valign="top" width="80%">
-  <a href="">
+  <a href="https://openaccess.thecvf.com/content/ICCV2021/html/Jin_DC-ShadowNet_Single-Image_Hard_and_Soft_Shadow_Removal_Using_Unsupervised_Domain-Classifier_ICCV_2021_paper.html">
     <papertitle_just>DC-ShadowNet: Single-Image Hard and Soft Shadow Removal Using Unsupervised Domain-Classifier Guided Network</papertitle_just>     
   </a>
   <br>
   <strong>Yeying Jin</strong>, Aashish Sharma, Robby T. Tan
   <br>
 <em>International Conference on Computer Vision (ICCV)</em>, 2021, Montreal, Canada <br>
-<a href="">paper</a>
+<a href="https://openaccess.thecvf.com/content/ICCV2021/papers/Jin_DC-ShadowNet_Single-Image_Hard_and_Soft_Shadow_Removal_Using_Unsupervised_Domain-Classifier_ICCV_2021_paper.pdf">paper</a>
 |
-<a href="./files/iccv21_shadow_bibtex.txt">bibtex</a>
+<a href="https://arxiv.org/abs/2207.10434">arXiv</a>
 |
+<a href="https://openaccess.thecvf.com/content/ICCV2021/supplemental/Jin_DC-ShadowNet_Single-Image_Hard_ICCV_2021_supplemental.pdf">supp</a>
+|  
 <a href="https://github.com/jinyeying/DC-ShadowNet-Hard-and-Soft-Shadow-Removal">code</a>
+|
+<a href="https://www.dropbox.com/s/9iza4dcv3vf7v7p/iccv21_DC-ShadowNet-poster.pdf?dl=0">poster</a>
+|
+<a href="https://www.dropbox.com/s/8v8ppqve74wido8/DC-ShadowNet_release.pdf?dl=0">slides</a>
+|  
+<a href="./files/iccv21_shadow_bibtex.txt">bibtex</a>
 <p></p>
 <p></p>
 </td>
 </tr>
-<!-- DC-ShadowNet, ICCV'21 -->
+<!-- Paper I DC-ShadowNet, ICCV'21 -->
 <!-- ###################################################################################################-->
   
-
-
-<!-- ###################################################################################################-->
 
 <!-- ############################ Put your publications above this! ####################################-->
 </tbody></table>
@@ -184,12 +275,12 @@ Awards and Fellowships
 
 Education
 ======
-- Jan'2020-May'2024: Ph.D. (Computer Vision and Deep Learning), NUS, Singapore (Overall CAP: 4.75/5.00)
+- Jan'2020-May'2024: Ph.D. (Computer Vision and Deep Learning), NUS, Singapore (CAP: 4.75/5.00)
 - Aug'2017-Aug'2018: M.S. (Electrical and Computer Engineering), NUS, Singapore
-- Sep'2013-Jul'2017: B.Eng (Electrical and Computer Engineering), UESTC, China (Overall GPA: 3.93/4.00)
+- Sep'2013-Jul'2017: B.Eng (Electrical and Computer Engineering), UESTC, China (GPA: 3.93/4.00)
 
 Work Experience
 ======
 May'2018-Jan'2020: Machine Learning Research Engineer at [BioMind](https://biomind.ai/), Singapore, advised by [Prof. Polina Golland](http://people.csail.mit.edu/polina/) and [Prof. Feng Jiashi](https://sites.google.com/site/jshfeng/)
-- Biomedical Image Translation, Synthesis, Super-resolution using GAN; Tumor Segmentation and Classification
-- NIPS'19 expo demo for "Deep Learning-Based End-to-end Automatic Contouring and Automated Radiation Therapy Treatment Planning System."
+- Biomedical Image Translation, Synthesis, Super-resolution; Tumor Segmentation and Classification
+- NIPS'19 expo for "Deep Learning-Based End-to-end Automatic Contouring and Automated Radiation Therapy Treatment Planning System."
