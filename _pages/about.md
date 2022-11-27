@@ -83,11 +83,9 @@ Research
 <!-- ################################  CONTENT START  ##################################################-->
 <table width="100%" align="center" border="0" cellspacing="0" cellpadding="10">
 <tbody>
-<!-- ############################ Put your publications below this! ####################################-->
-
   
 <!-- ###################################################################################################-->
-<!-- NightEnhance, ECCV'22 -->
+<!-- Paper II NightEnhance, ECCV'22 -->
 <tr onmouseout="eccv22_nightenhance_stop()" onmouseover="eccv22_nightenhance_start()" >
 <td width="20%">
 <div class="one">
@@ -105,28 +103,32 @@ cvpr21_nightenhance_stop()
 </script>
 </td>
 <td valign="top" width="80%">
-  <a href="https://openaccess.thecvf.com/content/CVPR2021/html/Sharma_Nighttime_Visibility_Enhancement_by_Increasing_the_Dynamic_Range_and_Suppression_CVPR_2021_paper.html">
+  <a href="https://arxiv.org/abs/2207.10564">
     <papertitle_just>Unsupervised Night Image Enhancement: When Layer Decomposition Meets Light-Effects Suppression</papertitle_just>     
   </a>
   <br>
-  <strong>Yeying Jin</strong>, Robby T. Tan
+  <strong>Yeying Jin</strong>, Wenhan Yang, Robby T. Tan
   <br>
 <em>European Conference on Computer Vision (ECCV)</em>, 2022, Tel Aviv, Israel <br>
-<a href="https://www.ecva.net/papers/eccv_2022/papers_ECCV/papers/136970396.pdf.pdf">paper</a>
+<a href="https://arxiv.org/abs/2207.10564">ArXiv</a>
+|
+<a href="https://www.ecva.net/papers/eccv_2022/papers_ECCV/papers/136970396.pdf">paper</a>
 |
 <a href="./files/eccv22_nightenhance_bibtex.txt">bibtex</a>
 |
+<a href="https://github.com/jinyeying/night-enhancement">code</a>
+|  
 <a href="https://www.dropbox.com/sh/ro8fs629ldebzc2/AAD1BnNSR51_tCq7DVaLSC3Fa/light-effects?dl=0&subfolder_nav_tracking=1">data</a>
 <p></p>
 <p></p>
 </td>
 </tr>
-<!-- NightEnhance, ECCV'22 -->
+<!-- Paper II NightEnhance, ECCV'22 -->
 <!-- ###################################################################################################-->
   
   
 <!-- ###################################################################################################-->
-<!-- DC-ShadowNet, ICCV'21 -->
+<!-- Paper I DC-ShadowNet, ICCV'21 -->
 <tr onmouseout="iccv21_dcshadownet_stop()" onmouseover="iccv21_dcshadownet_start()" >
 <td width="20%">
 <div class="one">
@@ -153,7 +155,7 @@ iccv21_dcshadownet_stop()
 <em>International Conference on Computer Vision (ICCV)</em>, 2021, Montreal, Canada <br>
 <a href="">paper</a>
 |
-<a href="">bibtex</a>
+<a href="./files/iccv21_shadow_bibtex.txt">bibtex</a>
 |
 <a href="https://github.com/jinyeying/DC-ShadowNet-Hard-and-Soft-Shadow-Removal">code</a>
 <p></p>
