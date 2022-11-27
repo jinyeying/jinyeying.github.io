@@ -1,0 +1,8 @@
+@InProceedings{Jin_2021_ICCV,
+    author    = {Jin, Yeying and Sharma, Aashish and Tan, Robby T.},
+    title     = {DC-ShadowNet: Single-Image Hard and Soft Shadow Removal Using Unsupervised Domain-Classifier Guided Network},
+    booktitle = {Proceedings of the IEEE/CVF International Conference on Computer Vision (ICCV)},
+    month     = {October},
+    year      = {2021},
+    pages     = {5027-5036}
+}

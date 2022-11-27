@@ -1,0 +1,7 @@
+@inproceedings{jin2022structure,
+  title={Structure Representation Network and Uncertainty Feedback Learning for Dense Non-Uniform Fog Removal},
+  author={Jin, Yeying and Yan, Wending and Yang, Wenhan and Tan, Robby T},
+  booktitle={Proceedings of the Asian Conference on Computer Vision},
+  pages={2041--2058},
+  year={2022}
+}

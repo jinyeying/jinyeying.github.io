@@ -1,0 +1,8 @@
+@inproceedings{jin2022unsupervised,
+  title={Unsupervised night image enhancement: When layer decomposition meets light-effects suppression},
+  author={Jin, Yeying and Yang, Wenhan and Tan, Robby T},
+  booktitle={European Conference on Computer Vision},
+  pages={404--421},
+  year={2022},
+  organization={Springer}
+}
