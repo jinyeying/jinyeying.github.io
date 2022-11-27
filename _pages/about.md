@@ -9,12 +9,12 @@ redirect_from:
 ---
 
 I am Yeying JIN, a Ph.D. student at the [Department of Electrical and Computer Engineering](https://cde.nus.edu.sg/ece/), National University of Singapore (NUS), supervised by [Prof. Robby T. Tan](http://tanrobby.github.io/). 
-Previously, I completed my M.S. degree from ECE, NUS and received my B.Eng degree from the [University of Electronic Science and Technology of China (UESTC)](https://en.uestc.edu.cn/). I also have 1.5 years of working experience as a Machine Learning Research Engineer in Singapore.
+Previously, I completed my M.S. degree from ECE, NUS and received my B.Eng degree from the [University of Electronic Science and Technology of China (UESTC)](https://en.uestc.edu.cn/). I also have 1.5 years of working experience as a Machine Learning Research Engineer.
 My primary research interests include computer vision and deep learning, mainly focusing on image translation/generation, image/video enhancement.
 
 Research
 ======
-<p style='text-align: justify;'> My previous research works were dedicated to: (1) Handling low-level vision problems and (2) Performing visibility enhancement, under degraded visibility conditions such as nighttime and daytime fog. Related publications are presented below.</p>
+<p style='text-align: justify;'> My previous research works were dedicated to: (1) Handling low-level vision problems and (2) Performing visibility enhancement, under degraded visibility conditions such as shadow, nighttime and daytime fog. </p>
 
 <style type="text/css">
     /* Color scheme stolen from Sergey Karayev */
@@ -103,8 +103,8 @@ aaai23_reflectance_stop()
 </script>
 </td>
 <td valign="top" width="80%">
-  <a href="https://www.ecva.net/papers/eccv_2022/papers_ECCV/papers/136970396.pdf">
-    <papertitle_just>Unsupervised Night Image Enhancement: When Layer Decomposition Meets Light-Effects Suppression</papertitle_just>     
+  <a href="">
+    <papertitle_just>Estimating Reflectance Layer from A Single Image: Integrating Reflectance Guidance and Shadow/Specular Aware Learning</papertitle_just>     
   </a>
   <br>
   <strong>Yeying Jin</strong>, Ruoteng Li, Wenhan Yang, Robby T. Tan
@@ -114,7 +114,7 @@ aaai23_reflectance_stop()
 |
 <a href="./files/aaai23_reflectance_bibtex.txt">bibtex</a>
 <p></p>
-<p></p>
+<p>First reflectance layer estimation that performs robustly even in the presence of shadows and specularities.</p>
 </td>
 </tr>
 <!-- Paper IV Reflectance, AAAI'23 -->
@@ -149,6 +149,8 @@ eccv22_nightenhance_stop()
 <em>European Conference on Computer Vision (ECCV)</em>, 2022, Tel Aviv, Israel <br>
 <a href="https://www.ecva.net/papers/eccv_2022/papers_ECCV/papers/136970396.pdf">paper</a>
 |
+<a href="https://www.ecva.net/papers/eccv_2022/papers_ECCV/papers/136970396-supp.pdf">supp</a>  
+|
 <a href="https://arxiv.org/abs/2207.10564">arXiv</a>
 |
 <a href="https://github.com/jinyeying/night-enhancement">code</a>
@@ -161,7 +163,7 @@ eccv22_nightenhance_stop()
 |
 <a href="https://www.dropbox.com/sh/ro8fs629ldebzc2/AAD1BnNSR51_tCq7DVaLSC3Fa/light-effects?dl=0&subfolder_nav_tracking=1">data</a>
 <p></p>
-<p></p>
+<p>Night image enhancement by enhancing low-light regions and suppressing light-effects regions.</p>
 </td>
 </tr>
 <!-- Paper II NightEnhance, ECCV'22 -->
@@ -195,9 +197,9 @@ accv22_defog_stop()
 <em>Asian Conference on Computer Vision (ACCV)</em>, 2022, Macau, China <br>
 <a href="https://openaccess.thecvf.com/content/ACCV2022/papers/Jin_Structure_Representation_Network_and_Uncertainty_Feedback_Learning_for_Dense_Non-Uniform_ACCV_2022_paper.pdf">paper</a>
 |
-<a href="https://arxiv.org/abs/2210.03061">arXiv</a>
-|
 <a href="https://openaccess.thecvf.com/content/ACCV2022/supplemental/Jin_Structure_Representation_Network_ACCV_2022_supplemental.pdf">supp</a>
+|  
+<a href="https://arxiv.org/abs/2210.03061">arXiv</a>
 |
 <a href="https://github.com/jinyeying/FogRemoval">code</a>
 |
@@ -206,8 +208,10 @@ accv22_defog_stop()
 <a href="https://www.dropbox.com/s/fowkes8wnyr6rb1/0393_release.pdf?dl=0">slides</a>
 |  
 <a href="./files/accv22_defog_bibtex.txt">bibtex</a>
+|  
+<a href="https://www.dropbox.com/home/badweather/ACCV2022_defog/Dataset_day/Smoke">data</a>
 <p></p>
-<p></p>
+<p>Dense and/or non-uniform fog removal.</p>
 </td>
 </tr>
 <!-- Paper III defog, ACCV'22 -->
@@ -241,9 +245,9 @@ iccv21_dcshadownet_stop()
 <em>International Conference on Computer Vision (ICCV)</em>, 2021, Montreal, Canada <br>
 <a href="https://openaccess.thecvf.com/content/ICCV2021/papers/Jin_DC-ShadowNet_Single-Image_Hard_and_Soft_Shadow_Removal_Using_Unsupervised_Domain-Classifier_ICCV_2021_paper.pdf">paper</a>
 |
-<a href="https://arxiv.org/abs/2207.10434">arXiv</a>
-|
 <a href="https://openaccess.thecvf.com/content/ICCV2021/supplemental/Jin_DC-ShadowNet_Single-Image_Hard_ICCV_2021_supplemental.pdf">supp</a>
+|
+<a href="https://arxiv.org/abs/2207.10434">arXiv</a>
 |  
 <a href="https://github.com/jinyeying/DC-ShadowNet-Hard-and-Soft-Shadow-Removal">code</a>
 |
@@ -253,7 +257,7 @@ iccv21_dcshadownet_stop()
 |  
 <a href="./files/iccv21_shadow_bibtex.txt">bibtex</a>
 <p></p>
-<p></p>
+<p>First unsupervised hard and soft shadow removal.</p>
 </td>
 </tr>
 <!-- Paper I DC-ShadowNet, ICCV'21 -->
@@ -281,6 +285,4 @@ Education
 
 Work Experience
 ======
-May'2018-Jan'2020: Machine Learning Research Engineer at [BioMind](https://biomind.ai/), Singapore, advised by [Prof. Polina Golland](http://people.csail.mit.edu/polina/) and [Prof. Feng Jiashi](https://sites.google.com/site/jshfeng/)
-- Biomedical Image Translation, Synthesis, Super-resolution; Tumor Segmentation and Classification
-- NIPS'19 expo for "Deep Learning-Based End-to-end Automatic Contouring and Automated Radiation Therapy Treatment Planning System."
+- May'2018-Jan'2020: Machine Learning Research Engineer at [BioMind](https://biomind.ai/), Singapore, advised by [Prof. Polina Golland](http://people.csail.mit.edu/polina/) and [Prof. Feng Jiashi](https://sites.google.com/site/jshfeng/), worked intensively on Biomedical Image Translation, Synthesis, Super-resolution, Tumor Segmentation and Classification, expo demo for "Deep Learning-Based End-to-end Automatic Contouring and Automated Radiation Therapy Treatment Planning System" in Neural Information Processing Systems (NeurIPS)'2019. 
