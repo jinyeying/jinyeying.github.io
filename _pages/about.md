@@ -89,8 +89,8 @@ Research
 <tr onmouseout="aaai23_reflectance_stop()" onmouseover="aaai23_reflectance_start()" >
 <td width="20%">
 <div class="one">
-<div class="two" id = 'aaai23_reflectance_image'><img src='./files/aaai23_after.png'></div>
-<img src='./files/aaai23_before.png'>
+<div class="two" id = 'aaai23_reflectance_image'><img src='./files/aaai23_after.jpg'></div>
+<img src='./files/aaai23_before.jpg'>
 </div>
 <script type="text/javascript">
 function aaai23_reflectance_start() {
@@ -126,8 +126,8 @@ aaai23_reflectance_stop()
 <tr onmouseout="eccv22_nightenhance_stop()" onmouseover="eccv22_nightenhance_start()" >
 <td width="20%">
 <div class="one">
-<div class="two" id = 'eccv22_nightenhance_image'><img src='./files/eccv22_after.png'></div>
-<img src='./files/eccv22_before.png'>
+<div class="two" id = 'eccv22_nightenhance_image'><img src='./files/eccv22_after.jpg'></div>
+<img src='./files/eccv22_before.jpg'>
 </div>
 <script type="text/javascript">
 function eccv22_nightenhance_start() {
