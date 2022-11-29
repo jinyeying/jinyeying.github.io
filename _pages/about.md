@@ -110,7 +110,7 @@ aaai23_reflectance_stop()
   <strong>Yeying Jin</strong>, Ruoteng Li, Wenhan Yang, Robby T. Tan
   <br>
 <em>Association for the Advancement of Artificial Intelligence (AAAI)</em>, 2023, Washington DC, USA <br>
-<a href="">arXiv</a>
+<a href="https://arxiv.org/pdf/2211.14751.pdf">arXiv</a>
 |
 <a href="./files/aaai23_reflectance_bibtex.txt">bibtex</a>
 <p></p>
