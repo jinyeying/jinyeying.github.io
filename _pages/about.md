@@ -103,7 +103,7 @@ aaai23_reflectance_stop()
 </script>
 </td>
 <td valign="top" width="80%">
-  <a href="">
+  <a href="https://arxiv.org/pdf/2211.14751.pdf">
     <papertitle_just>Estimating Reflectance Layer from A Single Image: Integrating Reflectance Guidance and Shadow/Specular Aware Learning</papertitle_just>     
   </a>
   <br>
