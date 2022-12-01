@@ -269,9 +269,10 @@ iccv21_dcshadownet_stop()
 
 Academic Services
 ======
+- Invited Talk: Unsupervised Image Restoration and Generation, AI TIME, Nov 2022
 - Reviewer: CVPR'23, AAAI'23, ACCV'22, ECCV'22, CVPR'22, IJCAI'22, IJCNN'21
-
 - Teaching Assistant: [EE5731 Visual Computing](https://tanrobby.github.io/teaching/ece_visual/index.html), EE5904 Neural Network (NUS ECE)
+
 
 Awards and Fellowships
 ======
