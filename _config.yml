@@ -88,7 +88,7 @@ author:
   pubmed           : 
   googlescholar    : "https://scholar.google.com/citations?user=Z8PYhA4AAAAJ&hl=en&oi=ao"
   email            : "jinyeying715@gmail.com"
-  researchgate     : "https://www.researchgate.net/profile/Yeying_Jin"
+  researchgate     : #"https://www.researchgate.net/profile/Yeying_Jin"
   uri              :
   bitbucket        :
   codepen          :
@@ -104,7 +104,7 @@ author:
   lastfm           :
   linkedin         : "jinyeying/"
   dblp             : "https://dblp.org/pid/315/5270.html"
-  semanticscholar  : "https://www.semanticscholar.org/author/Yeying-Jin/2141507823"
+  semanticscholar  : # "https://www.semanticscholar.org/author/Yeying-Jin/2141507823"
   orcid            : "https://orcid.org/0000-0001-7818-9534"
   pinterest        :
   soundcloud       :
