@@ -9,12 +9,12 @@ redirect_from:
 ---
 
 I am Yeying JIN, a Ph.D. student at the [Department of Electrical and Computer Engineering](https://cde.nus.edu.sg/ece/), National University of Singapore (NUS), supervised by [Prof. Robby T. Tan](http://tanrobby.github.io/). 
-Previously, I completed my M.S. degree from ECE, NUS and received my B.Eng degree from the [University of Electronic Science and Technology of China (UESTC)](https://en.uestc.edu.cn/). I also have 1.5 years of working experience as a Machine Learning Research Engineer.
+Previously, I completed my M.S. degree from ECE, NUS and received my B.Eng degree from the [University of Electronic Science and Technology of China (UESTC)](https://en.uestc.edu.cn/). I also have 1.5 years working experience as a Machine Learning Research Engineer.
 My primary research interests include computer vision and deep learning, mainly focusing on image translation/generation, image/video enhancement.
 
 Research
 ======
-<p style='text-align: justify;'> My previous research works were dedicated to: (1) Handling low-level vision problems and (2) Performing visibility enhancement, under degraded visibility conditions such as shadow, nighttime and daytime fog. </p>
+<p style='text-align: justify;'> My previous research works were dedicated to: (1) Handling low-level vision problems and (2) Performing visibility enhancement, under adverse weather and lighting conditions (e.g. shadow, nighttime, fog/rain), (3) Deep learning and its applications (e.g. medical image) </p>
 
 <style type="text/css">
     /* Color scheme stolen from Sergey Karayev */
@@ -275,7 +275,7 @@ Academic Services
 
 Awards and Fellowships
 ======
-- [AISG Ph.D. Fellowship](https://aisingapore.org/research/phd-fellowship-programme/), 2021
+- [AISG Ph.D. Fellowship](https://aisingapore.org/research/phd-fellowship-programme/), Theme: Continuous Learning AI, Self-supervised Learning, 2021, 
 
 Education
 ======
@@ -285,4 +285,4 @@ Education
 
 Work Experience
 ======
-- May'2018-Jan'2020: Machine Learning Research Engineer at [BioMind](https://biomind.ai/), Singapore, advised by [Prof. Polina Golland](http://people.csail.mit.edu/polina/) and [Prof. Feng Jiashi](https://sites.google.com/site/jshfeng/), worked intensively on Biomedical Image Translation, Synthesis, Super-resolution, Tumor Segmentation and Classification, expo demo for "Deep Learning-Based End-to-end Automatic Contouring and Automated Radiation Therapy Treatment Planning System" in Neural Information Processing Systems (NeurIPS)'2019. 
+- May'2018-Jan'2020: Machine Learning Research Engineer at [BioMind](https://biomind.ai/), Singapore, advised by [Prof. Polina Golland](http://people.csail.mit.edu/polina/) and [Prof. Feng Jiashi](https://sites.google.com/site/jshfeng/), worked intensively on Biomedical Image Translation, Synthesis, Super-resolution, Tumor Segmentation and Classification, expo demo for ["Deep Learning-Based End-to-end Automatic Contouring and Automated Radiation Therapy Treatment Planning System"](https://media.neurips.cc/Conferences/NeurIPS2019/NeurIPS_Expo_Book_2019.pdf) in [Neural Information Processing Systems (NeurIPS)'2019](https://nips.cc/Conferences/2019). 
