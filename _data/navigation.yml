@@ -1,13 +1,13 @@
 # main links links
 main:
-  - title: "About Me"
-    url: "/#about-me"
+  #- title: "About Me"
+  #  url: "/#about-me"
     
-  - title: "Publications"
-   url: "/#-publications"
+  #- title: "Publications"
+  #url: "/#-publications"
   
-  - title: "Educations"
-    url: "/#-educations"
+  #- title: "Educations"
+  # url: "/#-educations"
 
   # - title: "Talks"
   #   url: /talks/    
@@ -15,8 +15,8 @@ main:
   # - title: "Teaching"
   #   url: /teaching/    
     
-   - title: "CV"
-     url: "/#cv/"
+  # - title: "CV"
+  #   url: "/#cv/"
     
   # - title: "Guide"
   #   url: /markdown/
