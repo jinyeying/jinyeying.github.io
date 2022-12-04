@@ -12,8 +12,7 @@ Previously, I completed my M.S. degree from ECE, NUS and received my B.Eng degre
 My primary research interests include computer vision and deep learning, mainly focusing on image translation/generation, image/video enhancement.
 Please see my latest [CV](https://www.dropbox.com/s/l5cwwato0uidv0k/jinyeying_cv.pdf?dl=0).
 
-# Publications
-======
+# 📝 Publications
 <p style='text-align: justify;'> My previous research works were dedicated to: (1) Handling low-level vision problems and (2) Performing visibility enhancement, under adverse weather and lighting conditions (e.g. shadow, nighttime, fog/rain), (3) Deep learning and its applications (e.g. medical image) </p>
 
 <style type="text/css">
@@ -267,23 +266,19 @@ iccv21_dcshadownet_stop()
 <!-- ############################ Put your publications above this! ####################################-->
 </tbody></table>
 
-# Academic Services
-======
+# 💬 Academic Services
 - Invited Talk: Unsupervised Image Restoration and Generation, AI TIME, Nov 2022
 - Reviewer: CVPR'23, AAAI'23, ACCV'22, ECCV'22, CVPR'22, IJCAI'22, IJCNN'21
 - Teaching Assistant: [EE5731 Visual Computing](https://tanrobby.github.io/teaching/ece_visual/index.html), EE5904 Neural Network (NUS ECE)
 
 
-# Honors and Awards
-======
+# 🎖 Honors and Awards
 - [AISG Ph.D. Fellowship](https://aisingapore.org/research/phd-fellowship-programme/), Theme: Continuous Learning AI, Self-supervised Learning, 2021, 
 
-# Educations
-======
+# 📖 Educations
 - Jan'2020-May'2024: Ph.D. (Computer Vision and Deep Learning), NUS, Singapore (CAP: 4.75/5.00)
 - Aug'2017-Aug'2018: M.S. (Electrical and Computer Engineering), NUS, Singapore
 - Sep'2013-Jul'2017: B.Eng (Electrical and Computer Engineering), UESTC, China (GPA: 3.93/4.00)
 
-# Internships and Work Experience
-======
+# 💻 Internships and Work Experience
 - Jan'2019-Jan'2020: Machine Learning Research Engineer at [BioMind](https://biomind.ai/), Singapore, advised by [Prof. Polina Golland](http://people.csail.mit.edu/polina/) and [Prof. Feng Jiashi](https://sites.google.com/site/jshfeng/), worked intensively on Biomedical Image Translation, Synthesis, Super-resolution, Tumor Segmentation and Classification, expo demo for ["Deep Learning-Based End-to-end Automatic Contouring and Automated Radiation Therapy Treatment Planning System"](https://media.neurips.cc/Conferences/NeurIPS2019/NeurIPS_Expo_Book_2019.pdf) in [Neural Information Processing Systems (NeurIPS)'2019](https://nips.cc/Conferences/2019). 
