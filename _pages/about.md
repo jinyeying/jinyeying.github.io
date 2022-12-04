@@ -8,6 +8,15 @@ redirect_from:
   - /about.html
 ---
 
+{% if site.google_scholar_stats_use_cdn %}
+{% assign gsDataBaseUrl = "https://cdn.jsdelivr.net/gh/" | append: site.repository | append: "@" %}
+{% else %}
+{% assign gsDataBaseUrl = "https://raw.githubusercontent.com/" | append: site.repository | append: "/" %}
+{% endif %}
+{% assign url = gsDataBaseUrl | append: "google-scholar-stats/gs_data_shieldsio.json" %}
+
+<span class='anchor' id='about-me'></span>
+
 I am Yeying JIN, a Ph.D. student at the [Department of Electrical and Computer Engineering](https://cde.nus.edu.sg/ece/), National University of Singapore (NUS), supervised by [Prof. Robby T. Tan](http://tanrobby.github.io/). 
 Previously, I completed my M.S. degree from ECE, NUS and received my B.Eng degree from the [University of Electronic Science and Technology of China (UESTC)](https://en.uestc.edu.cn/). I also have 1 year working experience as a Machine Learning Research Engineer.
 My primary research interests include computer vision and deep learning, mainly focusing on image translation/generation, image/video enhancement.
