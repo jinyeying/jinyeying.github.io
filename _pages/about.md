@@ -283,9 +283,4 @@ iccv21_dcshadownet_stop()
 # 💻 Internships and Work Experience
 - Jan'2019-Jan'2020: Machine Learning Research Engineer at [BioMind](https://biomind.ai/), Singapore, advised by [Prof. Polina Golland](http://people.csail.mit.edu/polina/) and [Prof. Feng Jiashi](https://sites.google.com/site/jshfeng/), worked intensively on Biomedical Image Translation, Synthesis, Super-resolution, Tumor Segmentation and Classification, expo demo for ["Deep Learning-Based End-to-end Automatic Contouring and Automated Radiation Therapy Treatment Planning System"](https://media.neurips.cc/Conferences/NeurIPS2019/NeurIPS_Expo_Book_2019.pdf) in [Neural Information Processing Systems (NeurIPS)'2019](https://nips.cc/Conferences/2019). 
 
-<a href="https://www.easycounter.com/">
-<img src="https://www.easycounter.com/counter.php?yeying"
-border="0" alt="Web Site Hit Counter"></a>
-<br><a href="https://www.easycounter.com/">unique visitors since Dec 2022</a>
-</body>
-</html>
+
