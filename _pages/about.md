@@ -10,7 +10,7 @@ redirect_from:
 I am Yeying JIN, a Ph.D. student at the [Department of Electrical and Computer Engineering](https://cde.nus.edu.sg/ece/), National University of Singapore (NUS), supervised by [Prof. Robby T. Tan](http://tanrobby.github.io/). 
 Previously, I completed my M.S. degree from ECE, NUS and received my B.Eng degree from the [University of Electronic Science and Technology of China (UESTC)](https://en.uestc.edu.cn/). I also have 1 year working experience as a Machine Learning Research Engineer.
 My primary research interests include computer vision and deep learning, mainly focusing on image translation/generation, image/video enhancement.
-Please see my latest [CV](https://www.dropbox.com/s/l5cwwato0uidv0k/jinyeying_cv.pdf?dl=0).
+Please see my latest [CV](https://www.dropbox.com/s/u2jdgfez1nm9qqz/jinyeying_cv_public.pdf?dl=0).
 
 # 📝 Publications
 <p style='text-align: justify;'> My previous research works were dedicated to: (1) Handling low-level vision problems and (2) Performing visibility enhancement, under adverse weather and lighting conditions (e.g. shadow, nighttime, fog/rain), (3) Deep learning and its applications (e.g. medical image) </p>
@@ -82,6 +82,42 @@ Please see my latest [CV](https://www.dropbox.com/s/l5cwwato0uidv0k/jinyeying_cv
 <!-- ################################  CONTENT START  ##################################################-->
 <table width="100%" align="center" border="0" cellspacing="0" cellpadding="10">
 <tbody>
+  
+ <!-- ###################################################################################################-->
+<!-- Paper V, ShadowDiffusion-->
+<tr onmouseout="submit23_shadowdiffusion_stop()" onmouseover="submit23_shadowdiffusion_start()" >
+<td width="20%">
+<div class="one">
+<div class="two" id = 'submit23_shadowdiffusion_image'><img src='./files/submit23_after.jpg'></div>
+<img src='./files/submit23_before.jpg'>
+</div>
+<script type="text/javascript">
+function submit23_shadowdiffusion_start() {
+document.getElementById('submit23_shadowdiffusion_image').style.opacity = "1";
+}
+function submit23_shadowdiffusion_stop() {
+document.getElementById('submit23_shadowdiffusion_image').style.opacity = "0";
+}
+submit23_shadowdiffusion_stop()
+</script>
+</td>
+<td valign="top" width="80%">
+  <a href="https://arxiv.org/abs/2211.08089">
+    <papertitle_just>ShadowDiffusion: Diffusion-based Shadow Removal using Classifier-driven Attention and Structure Preservation</papertitle_just>     
+  </a>
+  <br>
+  <strong>Yeying Jin</strong>, Wenhan Yang, Wei Ye, Yuan Yuan, Robby T. Tan
+  <br>
+<em>arXiv preprint, 2022 <br>
+<a href="https://arxiv.org/abs/2211.08089">arXiv</a>
+|
+<a href="./files/submit23_shadowdiffusion_bibtex.txt">bibtex</a>
+<p></p>
+<p>First diffusion-based shadow removal performs robustly on hard, soft and self shadows.</p>
+</td>
+</tr>
+<!-- Paper V, ShadowDiffusion -->
+<!-- ###################################################################################################-->
   
 <!-- ###################################################################################################-->
 <!-- Paper IV Reflectance, AAAI'23 -->
