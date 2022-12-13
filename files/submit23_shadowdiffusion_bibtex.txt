@@ -1,0 +1,6 @@
+@article{jin2022shadowdiffusion,
+  title={ShadowDiffusion: Diffusion-based Shadow Removal using Classifier-driven Attention and Structure Preservation},
+  author={Jin, Yeying and Yang, Wenhan and Ye, Wei and Yuan, Yuan and Tan, Robby T},
+  journal={arXiv preprint arXiv:2211.08089},
+  year={2022}
+}
