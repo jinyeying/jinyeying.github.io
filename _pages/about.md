@@ -82,8 +82,9 @@ Please see my latest [CV](https://www.dropbox.com/s/u2jdgfez1nm9qqz/jinyeying_cv
 <!-- ################################  CONTENT START  ##################################################-->
 <table width="100%" align="center" border="0" cellspacing="0" cellpadding="10">
 <tbody>
+<!-- ############################ Put your publications below this! ####################################-->  
   
- <!-- ###################################################################################################-->
+<!-- ###################################################################################################-->
 <!-- Paper V, ShadowDiffusion-->
 <tr onmouseout="submit23_shadowdiffusion_stop()" onmouseover="submit23_shadowdiffusion_start()" >
 <td width="20%">
@@ -300,6 +301,7 @@ iccv21_dcshadownet_stop()
   
 
 <!-- ############################ Put your publications above this! ####################################-->
+</tbody></table>
 
 # 💬 Academic Services
 - Invited Talk: Unsupervised Image Restoration and Generation, AI TIME, Nov 2022
