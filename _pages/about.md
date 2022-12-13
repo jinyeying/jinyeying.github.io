@@ -88,8 +88,8 @@ Please see my latest [CV](https://www.dropbox.com/s/u2jdgfez1nm9qqz/jinyeying_cv
 <tr onmouseout="submit23_shadowdiffusion_stop()" onmouseover="submit23_shadowdiffusion_start()" >
 <td width="20%">
 <div class="one">
-<div class="two" id = 'submit23_shadowdiffusion_image'><img src='./files/submit23_after.jpg'></div>
-<img src='./files/submit23_before.jpg'>
+<div class="two" id = 'submit23_shadowdiffusion_image'><img src='./files/submit23_after.png'></div>
+<img src='./files/submit23_before.png'>
 </div>
 <script type="text/javascript">
 function submit23_shadowdiffusion_start() {
