@@ -82,7 +82,7 @@ Please see my latest [CV](https://www.dropbox.com/s/u2jdgfez1nm9qqz/jinyeying_cv
 <!-- ################################  CONTENT START  ##################################################-->
 <table width="100%" align="center" border="0" cellspacing="0" cellpadding="10">
 <tbody>
-<!-- ############################ Put your publications below this! ####################################-->  
+<!-- ############################ Put your publications below this! ####################################-->
   
 <!-- ###################################################################################################-->
 <!-- Paper V, ShadowDiffusion-->
@@ -109,10 +109,11 @@ submit23_shadowdiffusion_stop()
   <br>
   <strong>Yeying Jin</strong>, Wenhan Yang, Wei Ye, Yuan Yuan, Robby T. Tan
   <br>
-<em>arXiv preprint, 2022 <br>
+<em>arXiv preprint</em>, 2022 <br>
 <a href="https://arxiv.org/abs/2211.08089">arXiv</a>
 |
 <a href="./files/submit23_shadowdiffusion_bibtex.txt">bibtex</a>
+<p></p>
 <p></p>
 <p>First diffusion-based shadow removal performs robustly on hard, soft and self shadows.</p>
 </td>
