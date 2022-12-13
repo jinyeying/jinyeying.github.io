@@ -300,7 +300,6 @@ iccv21_dcshadownet_stop()
   
 
 <!-- ############################ Put your publications above this! ####################################-->
-</tbody></table>
 
 # 💬 Academic Services
 - Invited Talk: Unsupervised Image Restoration and Generation, AI TIME, Nov 2022
