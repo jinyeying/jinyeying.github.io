@@ -85,7 +85,7 @@ Please see my latest [CV](https://www.dropbox.com/s/u2jdgfez1nm9qqz/jinyeying_cv
 <!-- ############################ Put your publications below this! ####################################-->
   
 <!-- ###################################################################################################-->
-<!-- Paper V, ShadowDiffusion-->
+<!-- Paper V ShadowDiffusion-->
 <tr onmouseout="submit23_shadowdiffusion_stop()" onmouseover="submit23_shadowdiffusion_start()" >
 <td width="20%">
 <div class="one">
@@ -114,11 +114,10 @@ submit23_shadowdiffusion_stop()
 |
 <a href="./files/submit23_shadowdiffusion_bibtex.txt">bibtex</a>
 <p></p>
-<p></p>
 <p>First diffusion-based shadow removal performs robustly on hard, soft and self shadows.</p>
 </td>
 </tr>
-<!-- Paper V, ShadowDiffusion -->
+<!-- Paper V ShadowDiffusion -->
 <!-- ###################################################################################################-->
   
 <!-- ###################################################################################################-->
