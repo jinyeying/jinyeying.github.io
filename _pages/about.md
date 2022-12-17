@@ -112,9 +112,9 @@ submit23_shadowdiffusion_stop()
 <em>arXiv preprint</em>, 2022 <br>
 <a href="https://arxiv.org/abs/2211.08089">arXiv</a>
 |
-<a href="./files/submit23_shadowdiffusion_bibtex.txt">bibtex</a>
+<a href="">code</a>
 |
-<a href="https://github.com/jinyeying/FogRemoval">code</a>
+<a href="./files/submit23_shadowdiffusion_bibtex.txt">bibtex</a>
 <p></p>
 <p>First diffusion-based shadow removal performs robustly on hard, soft and self shadows.</p>
 </td>
@@ -150,9 +150,9 @@ aaai23_reflectance_stop()
 <em>Association for the Advancement of Artificial Intelligence (AAAI)</em>, 2023, Washington DC, USA <br>
 <a href="https://arxiv.org/pdf/2211.14751.pdf">arXiv</a>
 |
-<a href="./files/aaai23_reflectance_bibtex.txt">bibtex</a>
+<a href="https://github.com/jinyeying/S-Aware-network">code</a> 
 |
-<a href="https://github.com/jinyeying/S-Aware-network">code</a>  
+<a href="./files/aaai23_reflectance_bibtex.txt">bibtex</a> 
 <p></p>
 <p>First reflectance layer estimation that performs robustly even in the presence of shadows and specularities.</p>
 </td>
@@ -308,7 +308,7 @@ iccv21_dcshadownet_stop()
 </tbody></table>
 
 # 💬 Academic Services
-- Invited Talk: [Unsupervised Image Restoration and Generation](https://www.bilibili.com/video/BV1c44y1D769/?share_source=copy_web&vd_source=de01cad5025255c4901de808728937c0)(start from 0:40:45 to 0:55:25) , AI TIME, Nov 2022
+- Invited Talk: [Unsupervised Image Restoration and Generation](https://www.bilibili.com/video/BV1c44y1D769/?share_source=copy_web&vd_source=de01cad5025255c4901de808728937c0) (start from 0:40:45 to 0:55:25) , AI TIME, Nov 2022
 - Reviewer: CVPR'23, AAAI'23, ACCV'22, ECCV'22, CVPR'22, IJCAI'22, IJCNN'21
 - Teaching Assistant: [EE5731 Visual Computing](https://tanrobby.github.io/teaching/ece_visual/index.html), EE5904 Neural Network (NUS ECE)
 
