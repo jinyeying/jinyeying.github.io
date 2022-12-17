@@ -1,0 +1,6 @@
+@article{jin2022estimating,
+  title={Estimating Reflectance Layer from A Single Image: Integrating Reflectance Guidance and Shadow/Specular Aware Learning},
+  author={Jin, Yeying and Li, Ruoteng and Yang, Wenhan and Tan, Robby T},
+  journal={arXiv preprint arXiv:2211.14751},
+  year={2022}
+}
