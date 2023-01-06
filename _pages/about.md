@@ -197,7 +197,7 @@ eccv22_nightenhance_stop()
 |  
 <a href="https://github.com/jinyeying/night-enhancement/blob/main/poster_video/0982_poster.pdf">poster</a>
 |
-<a href="https://github.com/jinyeying/night-enhancement/blob/main/poster_video/0982_release.pdf">slides</a>
+<a href="https://www.dropbox.com/s/t53xlojok9h3p3p/0982_poster.pdf?dl=0">slides</a>
 |
 <a href="./files/eccv22_nightenhance_bibtex.txt">bibtex</a>
 |
