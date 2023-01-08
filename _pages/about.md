@@ -148,9 +148,13 @@ aaai23_reflectance_stop()
   <strong>Yeying Jin</strong>, Ruoteng Li, Wenhan Yang, Robby T. Tan
   <br>
 <em>Association for the Advancement of Artificial Intelligence (AAAI)</em>, 2023, Washington DC, USA <br>
-<a href="https://arxiv.org/pdf/2211.14751.pdf">arXiv</a>
+<a href="https://arxiv.org/abs/2211.14751">arXiv</a>
 |
 <a href="https://github.com/jinyeying/S-Aware-network">code</a> 
+|  
+<a href="https://www.dropbox.com/s/epc69nk2aqsdi7v/SAware_poster.pdf?dl=0">poster</a>
+|
+<a href="https://www.dropbox.com/s/7f3j2d5ugifpftv/SAware_ppt.pdf?dl=0">slides</a> 
 |
 <a href="./files/aaai23_reflectance_bibtex.txt">bibtex</a> 
 <p></p>
@@ -195,9 +199,9 @@ eccv22_nightenhance_stop()
 |
 <a href="https://github.com/jinyeying/night-enhancement">code</a>
 |  
-<a href="https://github.com/jinyeying/night-enhancement/blob/main/poster_video/0982_poster.pdf">poster</a>
+<a href="https://www.dropbox.com/s/t53xlojok9h3p3p/0982_poster.pdf?dl=0">poster</a>
 |
-<a href="https://www.dropbox.com/s/t53xlojok9h3p3p/0982_poster.pdf?dl=0">slides</a>
+<a href="https://www.dropbox.com/s/z2u4zx6u1aojiuz/0982_slides.pdf?dl=0">slides</a>
 |
 <a href="./files/eccv22_nightenhance_bibtex.txt">bibtex</a>
 |
@@ -291,9 +295,9 @@ iccv21_dcshadownet_stop()
 |  
 <a href="https://github.com/jinyeying/DC-ShadowNet-Hard-and-Soft-Shadow-Removal">code</a>
 |
-<a href="https://www.dropbox.com/s/9iza4dcv3vf7v7p/iccv21_DC-ShadowNet-poster.pdf?dl=0">poster</a>
+<a href="https://www.dropbox.com/s/f0roq0kkoq9ha1x/DC-ShadowNet_poster.pdf?dl=0">poster</a>
 |
-<a href="https://www.dropbox.com/s/8v8ppqve74wido8/DC-ShadowNet_release.pdf?dl=0">slides</a>
+<a href="https://www.dropbox.com/s/ymgf7mld0j5zrjw/DC-ShadowNet_slides.pdf?dl=0">slides</a>
 |  
 <a href="./files/iccv21_shadow_bibtex.txt">bibtex</a>
 <p></p>
