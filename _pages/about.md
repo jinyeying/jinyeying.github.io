@@ -206,6 +206,9 @@ eccv22_nightenhance_stop()
 <a href="./files/eccv22_nightenhance_bibtex.txt">bibtex</a>
 |
 <a href="https://www.dropbox.com/sh/ro8fs629ldebzc2/AAD1BnNSR51_tCq7DVaLSC3Fa/light-effects?dl=0&subfolder_nav_tracking=1">data</a>
+|
+<a href="https://mp.weixin.qq.com/s/5wjV6R95SrQHXxqMnENAAw">link</a> 
+
 <p></p>
 <p>Night image enhancement by enhancing low-light regions and suppressing light-effects regions.</p>
 </td>
@@ -313,11 +316,11 @@ iccv21_dcshadownet_stop()
 
 # 💬 Academic Services
 - Invited Talk: [Unsupervised Image Restoration and Generation](https://www.bilibili.com/video/BV1c44y1D769/?share_source=copy_web&vd_source=de01cad5025255c4901de808728937c0) (start from 0:40:45 to 0:55:25) , AI TIME, Nov 2022
-- Reviewer: CVPR'23, AAAI'23, ACCV'22, ECCV'22, CVPR'22, IJCAI'22, IJCNN'21
+- Reviewer: TIP'23, CVPR'23, AAAI'23, TCSVT'23, ACCV'22, ECCV'22, CVPR'22, IJCAI'22, IJCNN'21
 - Teaching Assistant: [EE5731 Visual Computing](https://tanrobby.github.io/teaching/ece_visual/index.html), EE5904 Neural Network (NUS ECE)
 
 # 🎖 Honors and Awards
-- [AISG Ph.D. Fellowship](https://aisingapore.org/research/phd-fellowship-programme/), Theme: Continuous Learning AI, Self-supervised Learning, 2021, 
+- [AISG Ph.D. Fellowship](https://aisingapore.org/research/phd-fellowship-programme/), Theme: Continuous Learning AI, Self-supervised Learning 
 
 # 📖 Educations
 - Jan'2020-May'2024: Ph.D. (Computer Vision and Deep Learning), NUS, Singapore (CAP: 4.75/5.00)
