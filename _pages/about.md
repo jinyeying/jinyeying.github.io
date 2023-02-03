@@ -315,7 +315,6 @@ iccv21_dcshadownet_stop()
 </tbody></table>
 
 # 💬 Academic Services
-- Invited Talk: [Unsupervised Image Restoration and Generation](https://www.bilibili.com/video/BV1c44y1D769/?share_source=copy_web&vd_source=de01cad5025255c4901de808728937c0) (start from 0:40:45 to 0:55:25) , AI TIME, Nov 2022
 - Reviewer: TIP'23, CVPR'23, AAAI'23, TCSVT'23, ACCV'22, ECCV'22, CVPR'22, IJCAI'22, IJCNN'21
 - Teaching Assistant: [EE5731 Visual Computing](https://tanrobby.github.io/teaching/ece_visual/index.html), EE5904 Neural Network (NUS ECE)
 
