@@ -14,17 +14,11 @@ Previously, I completed my M.S. degree from ECE, NUS and received my B.Eng degre
 Please see my latest [CV](https://www.dropbox.com/s/djji87cnxqnbcz9/jinyeying_cv_public.pdf?dl=0).
 
 # 📜 Research Area
-<table style="border-collapse: collapse; border: none;">
-  <tr style="border: none;">
-    <td style="border: none;"> <font color="#0b5394"> Generative Model (e.g., GAN, diffusion), Image/Video Translation/Enhancement</td>
-    <td style="border: none;"> <font color="#0b5394"> Image/Video Decomposition (e.g., Intrinsic Image Decomposition)</td>
-  </tr>
-  <tr style="border: none;">
-    <td style="border: none;"> <font color="#0b5394"> Low-Level Vision in Adverse Lighting and Weather Conditions (e.g., shadow/night, rain/raindrop/fog/night rain/night fog)</td>
-    <td style="border: none;"> <font color="#0b5394"> Deep learning and its applications (e.g. medical images) </td>
-  </tr>
-</table>
-      
+1. Generative Model (e.g., GAN, diffusion), Image/Video Translation/Enhancement</td>
+2. Image/Video Decomposition (e.g., Intrinsic Image Decomposition)</td>
+3. Low-Level Vision in Adverse Lighting and Weather Conditions (e.g., shadow/night, rain/raindrop/fog/night rain/night fog)
+4. Deep learning and its applications (e.g. medical images) </td>
+
 # 📝 Publications
 <style type="text/css">
     /* Color scheme stolen from Sergey Karayev */
@@ -331,8 +325,7 @@ iccv21_dcshadownet_stop()
 - Sep'2013-Jul'2017: B.Eng (Electrical and Computer Engineering), UESTC, China (GPA: 3.93/4.00)
 
 # 👔 Internships and Work Experience
-- Jun'2023-Sep'2023: [Adobe Research Intern](https://www.adobe.com/), Seattle, USA, Creative Intelligence Lab, mentored by [Connelly Barnes](http://www.connellybarnes.com/work/), worked with [Yuqian Zhou](https://yzhouas.github.io/), [Lingzhi Zhang](https://owenzlz.github.io/), [Sohrab Amirghodsi](https://www.linkedin.com/in/sohrab-amirghodsi-a89548a3/), [Eric kee](https://www.erickee.com/)
-- Jan'2023-Apri'2023: Huawei Research Center, Singapore, Audio and Video Algorithm Algorithm Department 
+- Jun'2023-Sep'2023: [Adobe Research Intern](https://www.adobe.com/), Creative Intelligence Lab, mentored by [Connelly Barnes](http://www.connellybarnes.com/work/), worked with [Yuqian Zhou](https://yzhouas.github.io/), [Lingzhi Zhang](https://owenzlz.github.io/), [Sohrab Amirghodsi](https://www.linkedin.com/in/sohrab-amirghodsi-a89548a3/), [Eric kee](https://www.erickee.com/)
 - Jan'2019-Jan'2020: Machine Learning Research Engineer at [BioMind](https://biomind.ai/), Singapore, advised by [Prof. Feng Jiashi](https://sites.google.com/site/jshfeng/), worked intensively on Biomedical Image Translation, Synthesis, Super-resolution, Tumor Segmentation and Classification, expo demo for ["Deep Learning-Based End-to-end Automatic Contouring and Automated Radiation Therapy Treatment Planning System"](https://media.neurips.cc/Conferences/NeurIPS2019/NeurIPS_Expo_Book_2019.pdf) in [Neural Information Processing Systems (NeurIPS)'2019](https://nips.cc/Conferences/2019).
 
 # 🎖 Honors and Awards
