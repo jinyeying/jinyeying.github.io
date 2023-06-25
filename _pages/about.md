@@ -8,7 +8,7 @@ redirect_from:
   - /about.html
 ---
 I am Yeying JIN, a Ph.D. student at the [Department of Electrical and Computer Engineering](https://cde.nus.edu.sg/ece/), National University of Singapore (NUS), supervised by [Prof. Robby T. Tan](http://tanrobby.github.io/). 
-I had my research internship in Adobe, USA, mentored by [Connelly Barnes](http://www.connellybarnes.com/work/). I also have 1 year working experience as a Machine Learning Research Engineer.
+I had my research internship in Adobe, mentored by [Connelly Barnes](http://www.connellybarnes.com/work/). I also have 1 year working experience as a Machine Learning Research Engineer.
 
 Previously, I completed my M.S. degree from ECE, NUS and received my B.Eng degree from the [University of Electronic Science and Technology of China (UESTC)](https://en.uestc.edu.cn/). My primary research interests include computer vision and deep learning, mainly focusing on image translation/generation, image/video enhancement.
 Please see my latest [CV](https://www.dropbox.com/s/a2b6opoi0tm6bxw/jinyeying_cv_public.pdf?dl=0).
