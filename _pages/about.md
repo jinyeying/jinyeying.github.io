@@ -11,13 +11,13 @@ I am Yeying JIN, a Ph.D. student at the [Department of Electrical and Computer E
 I had my research internship in Adobe, USA, mentored by [Connelly Barnes](http://www.connellybarnes.com/work/). I also have 1 year working experience as a Machine Learning Research Engineer.
 
 Previously, I completed my M.S. degree from ECE, NUS and received my B.Eng degree from the [University of Electronic Science and Technology of China (UESTC)](https://en.uestc.edu.cn/). My primary research interests include computer vision and deep learning, mainly focusing on image translation/generation, image/video enhancement.
-Please see my latest [CV](https://www.dropbox.com/s/djji87cnxqnbcz9/jinyeying_cv_public.pdf?dl=0).
+Please see my latest [CV](https://www.dropbox.com/s/a2b6opoi0tm6bxw/jinyeying_cv_public.pdf?dl=0).
 
 # 📜 Research Area
-1. Generative Model (e.g., GAN, diffusion), Image/Video Translation/Enhancement</td>
-2. Image/Video Decomposition (e.g., Intrinsic Image Decomposition)</td>
+1. Generative Model (e.g., GAN, diffusion), Image/Video Translation/Enhancement
+2. Image/Video Decomposition (e.g., Intrinsic Image Decomposition)
 3. Low-Level Vision in Adverse Lighting and Weather Conditions (e.g., shadow/night, rain/raindrop/fog/night rain/night fog)
-4. Deep learning and its applications (e.g. medical images) </td>
+4. Deep learning and its applications (e.g. medical images) 
 
 # 📝 Publications
 <style type="text/css">
