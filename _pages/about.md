@@ -326,7 +326,7 @@ iccv21_dcshadownet_stop()
 - Sep'2013-Jul'2017: B.Eng (Electrical and Computer Engineering), UESTC, China (GPA: 3.93/4.00)
 
 # 👔 Internships and Work Experience
-- Jun'2023-Sep'2023: [Adobe Research Intern](https://www.adobe.com/), Creative Intelligence Lab, mentored by [Connelly Barnes](http://www.connellybarnes.com/work/), worked with [Yuqian Zhou](https://yzhouas.github.io/), [Lingzhi Zhang](https://owenzlz.github.io/), [Sohrab Amirghodsi](https://www.linkedin.com/in/sohrab-amirghodsi-a89548a3/), [Eric kee](https://www.erickee.com/)
+- Jun'2023-Sep'2023: [Adobe Research Intern](https://www.adobe.com/), Creative Intelligence Lab, mentored by [Connelly Barnes](http://www.connellybarnes.com/work/), worked with [Yuqian Zhou](https://yzhouas.github.io/), [Lingzhi Zhang](https://owenzlz.github.io/), [Sohrab Amirghodsi](https://www.linkedin.com/in/sohrab-amirghodsi-a89548a3/), [Eric Kee](https://www.erickee.com/)
 - Jan'2019-Jan'2020: Machine Learning Research Engineer at [BioMind](https://biomind.ai/), Singapore, advised by [Prof. Feng Jiashi](https://sites.google.com/site/jshfeng/), worked intensively on Biomedical Image Translation, Synthesis, Super-resolution, Tumor Segmentation and Classification, expo demo for ["Deep Learning-Based End-to-end Automatic Contouring and Automated Radiation Therapy Treatment Planning System"](https://media.neurips.cc/Conferences/NeurIPS2019/NeurIPS_Expo_Book_2019.pdf) in [Neural Information Processing Systems (NeurIPS)'2019](https://nips.cc/Conferences/2019).
 
 # 🎖 Honors and Awards
@@ -335,5 +335,15 @@ iccv21_dcshadownet_stop()
 # 💬 Academic Services
 - Reviewer: AAAI'24, NeurIPS'23, ICCV'23, TIP'23, CVPR'23, AAAI'23, CVIU'23, TCSVT'23, NEUCOM'23, ACCV'22, ECCV'22, CVPR'22, IJCAI'22, IJCNN'21, etc.
 - Teaching Assistant: [EE5731 Visual Computing](https://tanrobby.github.io/teaching/ece_visual/index.html), EE5904 Neural Network (NUS ECE)
+
+# 💬 Invited Talk
+- Visibility Enhancement in Adverse Lighting Conditions, Huawei Singapore, Jul 2023
+- Reading Group: Light-effects Suppression, Adobe, Jul 2023
+- Poster Present at Singapore Vision Day, May 2023
+- Intrinsic Image Decomposition, AI TIME, Feb 2023
+- Poster Present at AI Research Symposium, Jan 2023
+- Diffusion Model in Image Processing, ByteDance Singapore, Jan 2023
+- Visibility Enhancement in Nighttime, Huawei Singapore, Dec 2022
+- Unsupervised Image Restoration and Generation, AI TIME, Nov 2022
 
 
