@@ -337,13 +337,16 @@ iccv21_dcshadownet_stop()
 - Teaching Assistant: [EE5731 Visual Computing](https://tanrobby.github.io/teaching/ece_visual/index.html), EE5904 Neural Network (NUS ECE)
 
 # 💬 Invited Talk
-- Visibility Enhancement in Adverse Lighting Conditions, Huawei Singapore, Jul 2023
-- Reading Group: Light-effects Suppression, Adobe, Jul 2023
+- Visibility Enhancement in Adverse Lighting Conditions, Huawei Shanghai HiSilicon, Jul 2023
+- Reading Group: Light-effects Suppression, Adobe, USA, Jul 2023
 - Poster Present at Singapore Vision Day, May 2023
+- Image/Video Restoration, Huawei Shanghai HiSilicon, March 2023
 - Intrinsic Image Decomposition, AI TIME, Feb 2023
+- Poster Present at AAAI'23, Washington DC, USA, Feb 2023
 - Poster Present at AI Research Symposium, Jan 2023
-- Diffusion Model in Image Processing, ByteDance Singapore, Jan 2023
+- Diffusion Model in Image Processing, ByteDance Singapore (invited by [Hanshu Yan](https://hanshuyan.github.io/)), Jan 2023
 - Visibility Enhancement in Nighttime, Huawei Singapore, Dec 2022
 - Unsupervised Image Restoration and Generation, AI TIME, Nov 2022
+- Poster Present at ECCV'22, Tel Aviv, Israel, Oct 2022
 
 
