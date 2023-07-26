@@ -15,7 +15,7 @@ Previously, I completed my M.S. degree from ECE, NUS and received my B.Eng degre
 Please see my latest [CV](https://www.dropbox.com/s/a2b6opoi0tm6bxw/jinyeying_cv_public.pdf?dl=0).
 
 # 📜 Research Area
-1. Generative Model (e.g., GAN, diffusion), Image/Video Translation/Enhancement
+1. Generative Model (e.g., GAN, diffusion), Image/Video Translation/Enhancement/Editing
 2. Image/Video Decomposition (e.g., Intrinsic Image Decomposition)
 3. Low-Level Vision in Adverse Lighting and Weather Conditions (e.g., shadow/night, rain/raindrop/fog/night rain/night fog)
 4. Deep learning and its applications (e.g. medical images) 
@@ -89,6 +89,44 @@ Please see my latest [CV](https://www.dropbox.com/s/a2b6opoi0tm6bxw/jinyeying_cv
 <table width="100%" align="center" border="0" cellspacing="0" cellpadding="10">
 <tbody>
 <!-- ############################ Put your publications below this! ####################################-->
+
+<!-- ###################################################################################################-->
+<!-- Paper VI NightFog-->
+<tr onmouseout="acmmm23_nightdehaze_stop()" onmouseover="acmmm23_nightdehaze_start()" >
+<td width="20%">
+<div class="one">
+<div class="two" id = 'acmmm23_nightdehaze_image'><img src='./files/acmmm23_after.png'></div>
+<img src='./files/acmmm23_before.png'>
+</div>
+<script type="text/javascript">
+function acmmm23_nightdehaze_start() {
+document.getElementById('acmmm23_nightdehaze_image').style.opacity = "1";
+}
+function acmmm23_nightdehaze_stop() {
+document.getElementById('acmmm23_nightdehaze_image').style.opacity = "0";
+}
+acmmm23_nightdehaze_stop()
+</script>
+</td>
+<td valign="top" width="80%">
+  <a href="">
+    <papertitle_just>Enhancing Visibility in Nighttime Haze Images Using Guided APSF and Gradient Adaptive Convolution</papertitle_just>     
+  </a>
+  <br>
+  <strong>Yeying Jin</strong>, Beibei Lin*, Wending Yan, Wei Ye, Yuan Yuan, Robby T. Tan (Equal-first author)
+  <br>
+<em>ACMMM</em>, 2023 <br>
+<a href="">arXiv</a>
+|
+<a href="">code</a>
+|
+<a href="">bibtex</a>
+<p></p>
+<p>First learning-based network handling night glow and low-light.</p>
+</td>
+</tr>
+<!-- Paper VI NightFog -->
+<!-- ###################################################################################################-->
   
 <!-- ###################################################################################################-->
 <!-- Paper V ShadowDiffusion-->
