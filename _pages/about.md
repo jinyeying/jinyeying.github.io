@@ -12,13 +12,13 @@ Currently, I am a fourth-year Ph.D. student at the [Department of Electrical and
 I had my research internship in Adobe, mentored by [Connelly Barnes](http://www.connellybarnes.com/work/). I also have 1 year working experience as a Machine Learning Research Engineer.
 
 Previously, I completed my M.S. degree from ECE, NUS and received my B.Eng degree from the [University of Electronic Science and Technology of China (UESTC)](https://en.uestc.edu.cn/). My primary research interests include computer vision and deep learning, mainly focusing on image translation/generation, image/video enhancement.
-Please see my latest [CV](https://www.dropbox.com/s/a2b6opoi0tm6bxw/jinyeying_cv_public.pdf?dl=0).
+Please see my latest [CV](https://www.dropbox.com/scl/fi/9h34208x3hspdtrpwxco9/jinyeying_cv_public.pdf?rlkey=p7mbd71xjpfaq4ww34n31c9k8&dl=0).
 
 # 📜 Research Area
-1. Generative Model (e.g., GAN, diffusion), Image/Video Translation/Enhancement/Editing
+1. Generative Model (e.g., GAN, Diffusion), Image/Video Translation/Enhancement/Editing
 2. Image/Video Decomposition (e.g., Intrinsic Image Decomposition)
-3. Low-Level Vision in Adverse Lighting and Weather Conditions (e.g., shadow/night, rain/raindrop/fog/night rain/night fog)
-4. Deep learning and its applications (e.g. medical images) 
+3. Low-Level Vision in Adverse Lighting and Weather Conditions (e.g., Shadow/Night, Rain/Raindrop/Fog/Night Rain/Night Fog)
+4. Deep Learning and its Applications (e.g., Medical Images) 
 
 # 📝 Publications
 <style type="text/css">
@@ -375,16 +375,18 @@ iccv21_dcshadownet_stop()
 - Teaching Assistant: [EE5731 Visual Computing](https://tanrobby.github.io/teaching/ece_visual/index.html), EE5904 Neural Network (NUS ECE)
 
 # 💬 Invited Talk
-- Visibility Enhancement in Adverse Lighting Conditions, Huawei Shanghai HiSilicon, Jul 2023
-- Reading Group: Light-effects Suppression, Adobe, USA, Jul 2023
-- Poster Present at Singapore Vision Day, May 2023
-- Image/Video Restoration, Huawei Shanghai HiSilicon, March 2023
-- Intrinsic Image Decomposition, AI TIME, Feb 2023
-- Poster Present at AAAI'23, Washington DC, USA, Feb 2023
-- Poster Present at AI Research Symposium, Jan 2023
-- Diffusion Model in Image Processing, ByteDance Singapore (invited by [Hanshu Yan](https://hanshuyan.github.io/)), Jan 2023
-- Visibility Enhancement in Nighttime, Huawei Singapore, Dec 2022
-- Unsupervised Image Restoration and Generation, AI TIME, Nov 2022
-- Poster Present at ECCV'22, Tel Aviv, Israel, Oct 2022
+| | | |
+|--- |---|---:|
+|Visibility Enhancement using Generative Model | Huawei Shanghai HiSilicon| Jul 2023|
+|NextCam Reading Group: Light-effects Suppression | Adobe, USA| Jul 2023|
+|Image/Video Restoration | Huawei Shanghai HiSilicon | Mar 2023|
+|Intrinsic Image Decomposition | AI TIME | Feb 2023|
+|Diffusion Model in Image Processing | ByteDance Singapore (invited by [Hanshu Yan](https://hanshuyan.github.io/))| Jan 2023|
+|Visibility Enhancement in Nighttime | Huawei Singapore | Dec 2022|
+|Unsupervised Image Restoration and Generation| AI TIME | Nov 2022|
+|Poster Present at Singapore Vision Day| Singapore | May 2023|
+|Poster Present at AAAI'23| Washington DC, USA| Feb 2023 |
+|Poster Present at AI Research Symposium| AISG | Jan 2023|
+|Poster Present at ECCV'22| Tel Aviv, Israel| Oct 2022|
 
 
