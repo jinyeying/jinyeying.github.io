@@ -375,18 +375,71 @@ iccv21_dcshadownet_stop()
 - Teaching Assistant: [EE5731 Visual Computing](https://tanrobby.github.io/teaching/ece_visual/index.html), EE5904 Neural Network (NUS ECE)
 
 # 💬 Invited Talk
-| | | |
-|--- |---|---:|
-|Visibility Enhancement using Generative Model | Huawei Shanghai HiSilicon| Jul 2023|
-|NextCam Reading Group: Light-effects Suppression | Adobe, USA| Jul 2023|
-|Image/Video Restoration | Huawei Shanghai HiSilicon | Mar 2023|
-|Intrinsic Image Decomposition | AI TIME | Feb 2023|
-|Diffusion Model in Image Processing | ByteDance Singapore (invited by [Hanshu Yan](https://hanshuyan.github.io/))| Jan 2023|
-|Visibility Enhancement in Nighttime | Huawei Singapore | Dec 2022|
-|Unsupervised Image Restoration and Generation| AI TIME | Nov 2022|
-|Poster Present at Singapore Vision Day| Singapore | May 2023|
-|Poster Present at AAAI'23| Washington DC, USA| Feb 2023 |
-|Poster Present at AI Research Symposium| AISG | Jan 2023|
-|Poster Present at ECCV'22| Tel Aviv, Israel| Oct 2022|
+<table>
+  <tr>
+    <th>Topic</th>
+    <th>Location</th>
+    <th>Date</th>
+  </tr>
+  <tr>
+    <td>Visibility Enhancement using Generative Model</td>
+    <td>Huawei Shanghai HiSilicon</td>
+    <td>Jul 2023</td>
+  </tr>
+  <tr>
+    <td>NextCam Reading Group: Light-effects Suppression</td>
+    <td>Adobe, USA</td>
+    <td>Jul 2023</td>
+  </tr>
+  <tr>
+    <td>Image/Video Restoration</td>
+    <td>Huawei Shanghai HiSilicon</td>
+    <td>Mar 2023</td>
+  </tr>
+  <tr>
+    <td>Intrinsic Image Decomposition</td>
+    <td>AI TIME</td>
+    <td>Feb 2023</td>
+  </tr>
+  <tr>
+    <td>Diffusion Model in Image Processing</td>
+    <td>ByteDance Singapore (<a href="https://hanshuyan.github.io/">invited by Hanshu Yan</a>)</td>
+    <td>Jan 2023</td>
+  </tr>
+  <tr>
+    <td>Visibility Enhancement in Nighttime</td>
+    <td>Huawei Singapore</td>
+    <td>Dec 2022</td>
+  </tr>
+  <tr>
+    <td>Unsupervised Image Restoration and Generation</td>
+    <td>AI TIME</td>
+    <td>Nov 2022</td>
+  </tr>
+  <tr>
+    <td>Poster Present at Singapore Vision Day</td>
+    <td>Singapore</td>
+    <td>May 2023</td>
+  </tr>
+  <tr>
+    <td>Poster Present at AAAI'23</td>
+    <td>Washington DC, USA</td>
+    <td>Feb 2023</td>
+  </tr>
+  <tr>
+    <td>Poster Present at AI Research Symposium</td>
+    <td>AISG</td>
+    <td>Jan 2023</td>
+  </tr>
+  <tr>
+    <td>Poster Present at ECCV'22</td>
+    <td>Tel Aviv, Israel</td>
+    <td>Oct 2022</td>
+  </tr>
+</table>
+
+
+
+
 
 
