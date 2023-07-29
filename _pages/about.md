@@ -118,7 +118,7 @@ acmmm23_nightdehaze_stop()
 <em>ACMMM</em>, 2023 <br>
 <a href="">arXiv</a>
 |
-<a href="">code</a>
+<a href="https://github.com/jinyeying/nighttime_dehaze">code</a>
 |
 <a href="">bibtex</a>
 <p></p>
