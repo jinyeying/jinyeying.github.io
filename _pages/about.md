@@ -91,42 +91,6 @@ Please see my latest [CV](https://www.dropbox.com/scl/fi/9h34208x3hspdtrpwxco9/j
 <!-- ############################ Put your publications below this! ####################################-->
 
 <!-- ###################################################################################################-->
-<!-- Paper VI NightFog-->
-<tr onmouseout="acmmm23_nightdehaze_stop()" onmouseover="acmmm23_nightdehaze_start()" >
-<td width="20%">
-<div class="one">
-<div class="two" id = 'acmmm23_nightdehaze_image'><img src='./files/acmmm23_after.png'></div>
-<img src='./files/acmmm23_before.png'>
-</div>
-<script type="text/javascript">
-function acmmm23_nightdehaze_start() {
-document.getElementById('acmmm23_nightdehaze_image').style.opacity = "1";
-}
-function acmmm23_nightdehaze_stop() {
-document.getElementById('acmmm23_nightdehaze_image').style.opacity = "0";
-}
-acmmm23_nightdehaze_stop()
-</script>
-</td>
-<td valign="top" width="80%">
-  <a href="">
-    <papertitle_just>Enhancing Visibility in Nighttime Haze Images Using Guided APSF and Gradient Adaptive Convolution</papertitle_just>     
-  </a>
-  <br>
-  <strong>Yeying Jin</strong>, Beibei Lin*, Wending Yan, Wei Ye, Yuan Yuan, Robby T. Tan (Equal-first author)
-  <br>
-<em>ACMMM</em>, 2023 <br>
-<a href="">arXiv</a>
-|
-<a href="https://github.com/jinyeying/nighttime_dehaze">code</a>
-|
-<a href="">bibtex</a>
-<p></p>
-<p>First learning-based network handling night glow and low-light.</p>
-</td>
-</tr>
-<!-- Paper VI NightFog -->
-<!-- ###################################################################################################-->
   
 <!-- ###################################################################################################-->
 <!-- Paper V ShadowDiffusion-->
@@ -153,7 +117,7 @@ submit23_shadowdiffusion_stop()
   <br>
   <strong>Yeying Jin</strong>, Wenhan Yang, Wei Ye, Yuan Yuan, Robby T. Tan
   <br>
-<em>arXiv preprint</em>, 2022 <br>
+<em>arXiv preprint</em>, 2023 <br>
 <a href="https://arxiv.org/abs/2211.08089">arXiv</a>
 |
 <a href="">code</a>
@@ -165,50 +129,7 @@ submit23_shadowdiffusion_stop()
 </tr>
 <!-- Paper V ShadowDiffusion -->
 <!-- ###################################################################################################-->
-  
-<!-- ###################################################################################################-->
-<!-- Paper IV Reflectance, AAAI'23 -->
-<tr onmouseout="aaai23_reflectance_stop()" onmouseover="aaai23_reflectance_start()" >
-<td width="20%">
-<div class="one">
-<div class="two" id = 'aaai23_reflectance_image'><img src='./files/aaai23_after.jpg'></div>
-<img src='./files/aaai23_before.jpg'>
-</div>
-<script type="text/javascript">
-function aaai23_reflectance_start() {
-document.getElementById('aaai23_reflectance_image').style.opacity = "1";
-}
-function aaai23_reflectance_stop() {
-document.getElementById('aaai23_reflectance_image').style.opacity = "0";
-}
-aaai23_reflectance_stop()
-</script>
-</td>
-<td valign="top" width="80%">
-  <a href="https://arxiv.org/pdf/2211.14751.pdf">
-    <papertitle_just>Estimating Reflectance Layer from A Single Image: Integrating Reflectance Guidance and Shadow/Specular Aware Learning</papertitle_just>     
-  </a>
-  <br>
-  <strong>Yeying Jin</strong>, Ruoteng Li, Wenhan Yang, Robby T. Tan
-  <br>
-<em>Association for the Advancement of Artificial Intelligence (AAAI)</em>, 2023, Washington DC, USA <br>
-<a href="https://arxiv.org/abs/2211.14751">arXiv</a>
-|
-<a href="https://github.com/jinyeying/S-Aware-network">code</a> 
-|  
-<a href="https://www.dropbox.com/s/epc69nk2aqsdi7v/SAware_poster.pdf?dl=0">poster</a>
-|
-<a href="https://www.dropbox.com/s/7f3j2d5ugifpftv/SAware_ppt.pdf?dl=0">slides</a> 
-|
-<a href="./files/aaai23_reflectance_bibtex.txt">bibtex</a> 
-<p></p>
-<p>First reflectance layer estimation that performs robustly even in the presence of shadows and specularities.</p>
-</td>
-</tr>
-<!-- Paper IV Reflectance, AAAI'23 -->
-<!-- ###################################################################################################-->
-  
-  
+
 <!-- ###################################################################################################-->
 <!-- Paper II NightEnhance, ECCV'22 -->
 <tr onmouseout="eccv22_nightenhance_stop()" onmouseover="eccv22_nightenhance_start()" >
@@ -260,6 +181,134 @@ eccv22_nightenhance_stop()
 <!-- Paper II NightEnhance, ECCV'22 -->
 <!-- ###################################################################################################-->
 
+
+<!-- ###################################################################################################-->
+<!-- Paper I DC-ShadowNet, ICCV'21 -->
+<tr onmouseout="iccv21_dcshadownet_stop()" onmouseover="iccv21_dcshadownet_start()" >
+<td width="20%">
+<div class="one">
+<div class="two" id = 'iccv21_dcshadownet_image'><img src='./files/iccv21_after.png'></div>
+<img src='./files/iccv21_before.png'>
+</div>
+<script type="text/javascript">
+function iccv21_dcshadownet_start() {
+document.getElementById('iccv21_dcshadownet_image').style.opacity = "1";
+}
+function iccv21_dcshadownet_stop() {
+document.getElementById('iccv21_dcshadownet_image').style.opacity = "0";
+}
+iccv21_dcshadownet_stop()
+</script>
+</td>
+<td valign="top" width="80%">
+  <a href="https://openaccess.thecvf.com/content/ICCV2021/html/Jin_DC-ShadowNet_Single-Image_Hard_and_Soft_Shadow_Removal_Using_Unsupervised_Domain-Classifier_ICCV_2021_paper.html">
+    <papertitle_just>DC-ShadowNet: Single-Image Hard and Soft Shadow Removal Using Unsupervised Domain-Classifier Guided Network</papertitle_just>     
+  </a>
+  <br>
+  <strong>Yeying Jin</strong>, Aashish Sharma, Robby T. Tan
+  <br>
+<em>International Conference on Computer Vision (ICCV)</em>, 2021, Montreal, Canada <br>
+<a href="https://openaccess.thecvf.com/content/ICCV2021/papers/Jin_DC-ShadowNet_Single-Image_Hard_and_Soft_Shadow_Removal_Using_Unsupervised_Domain-Classifier_ICCV_2021_paper.pdf">paper</a>
+|
+<a href="https://openaccess.thecvf.com/content/ICCV2021/supplemental/Jin_DC-ShadowNet_Single-Image_Hard_ICCV_2021_supplemental.pdf">supp</a>
+|
+<a href="https://arxiv.org/abs/2207.10434">arXiv</a>
+|  
+<a href="https://github.com/jinyeying/DC-ShadowNet-Hard-and-Soft-Shadow-Removal">code</a>
+|
+<a href="https://www.dropbox.com/s/f0roq0kkoq9ha1x/DC-ShadowNet_poster.pdf?dl=0">poster</a>
+|
+<a href="https://www.dropbox.com/s/ymgf7mld0j5zrjw/DC-ShadowNet_slides.pdf?dl=0">slides</a>
+|  
+<a href="./files/iccv21_shadow_bibtex.txt">bibtex</a>
+<p></p>
+<p>First unsupervised hard and soft shadow removal.</p>
+</td>
+</tr>
+<!-- Paper I DC-ShadowNet, ICCV'21 -->
+<!-- ###################################################################################################-->
+
+
+<!-- Paper VI NightFog-->
+<tr onmouseout="acmmm23_nightdehaze_stop()" onmouseover="acmmm23_nightdehaze_start()" >
+<td width="20%">
+<div class="one">
+<div class="two" id = 'acmmm23_nightdehaze_image'><img src='./files/acmmm23_after.png'></div>
+<img src='./files/acmmm23_before.png'>
+</div>
+<script type="text/javascript">
+function acmmm23_nightdehaze_start() {
+document.getElementById('acmmm23_nightdehaze_image').style.opacity = "1";
+}
+function acmmm23_nightdehaze_stop() {
+document.getElementById('acmmm23_nightdehaze_image').style.opacity = "0";
+}
+acmmm23_nightdehaze_stop()
+</script>
+</td>
+<td valign="top" width="80%">
+  <a href="">
+    <papertitle_just>Enhancing Visibility in Nighttime Haze Images Using Guided APSF and Gradient Adaptive Convolution</papertitle_just>     
+  </a>
+  <br>
+  <strong>Yeying Jin</strong>, Beibei Lin*, Wending Yan, Wei Ye, Yuan Yuan, Robby T. Tan (Equal-first author)
+  <br>
+<em>ACM Multimedia (ACMMM)</em>, 2023, Ottawa, Canada <br>
+<a href="">arXiv</a>
+|
+<a href="https://github.com/jinyeying/nighttime_dehaze">code</a>
+|
+<a href="">bibtex</a>
+<p></p>
+<p>First learning-based network handling night glow and low-light.</p>
+</td>
+</tr>
+<!-- Paper VI NightFog -->
+<!-- ###################################################################################################-->
+  
+<!-- ###################################################################################################-->
+<!-- Paper IV Reflectance, AAAI'23 -->
+<tr onmouseout="aaai23_reflectance_stop()" onmouseover="aaai23_reflectance_start()" >
+<td width="20%">
+<div class="one">
+<div class="two" id = 'aaai23_reflectance_image'><img src='./files/aaai23_after.jpg'></div>
+<img src='./files/aaai23_before.jpg'>
+</div>
+<script type="text/javascript">
+function aaai23_reflectance_start() {
+document.getElementById('aaai23_reflectance_image').style.opacity = "1";
+}
+function aaai23_reflectance_stop() {
+document.getElementById('aaai23_reflectance_image').style.opacity = "0";
+}
+aaai23_reflectance_stop()
+</script>
+</td>
+<td valign="top" width="80%">
+  <a href="https://arxiv.org/pdf/2211.14751.pdf">
+    <papertitle_just>Estimating Reflectance Layer from A Single Image: Integrating Reflectance Guidance and Shadow/Specular Aware Learning</papertitle_just>     
+  </a>
+  <br>
+  <strong>Yeying Jin</strong>, Ruoteng Li, Wenhan Yang, Robby T. Tan
+  <br>
+<em>Association for the Advancement of Artificial Intelligence (AAAI)</em>, 2023, Washington DC, USA <br>
+<a href="https://arxiv.org/abs/2211.14751">arXiv</a>
+|
+<a href="https://github.com/jinyeying/S-Aware-network">code</a> 
+|  
+<a href="https://www.dropbox.com/s/epc69nk2aqsdi7v/SAware_poster.pdf?dl=0">poster</a>
+|
+<a href="https://www.dropbox.com/s/7f3j2d5ugifpftv/SAware_ppt.pdf?dl=0">slides</a> 
+|
+<a href="./files/aaai23_reflectance_bibtex.txt">bibtex</a> 
+<p></p>
+<p>First reflectance layer estimation that performs robustly even in the presence of shadows and specularities.</p>
+</td>
+</tr>
+<!-- Paper IV Reflectance, AAAI'23 -->
+<!-- ###################################################################################################-->
+  
+  
 <!-- ###################################################################################################-->
 <!-- Paper III defog, ACCV'22 -->
 <tr onmouseout="accv22_defog_stop()" onmouseover="accv22_defog_start()" >
@@ -307,53 +356,7 @@ accv22_defog_stop()
 </tr>
 <!-- Paper III defog, ACCV'22 -->
 <!-- ###################################################################################################-->
-  
-<!-- ###################################################################################################-->
-<!-- Paper I DC-ShadowNet, ICCV'21 -->
-<tr onmouseout="iccv21_dcshadownet_stop()" onmouseover="iccv21_dcshadownet_start()" >
-<td width="20%">
-<div class="one">
-<div class="two" id = 'iccv21_dcshadownet_image'><img src='./files/iccv21_after.png'></div>
-<img src='./files/iccv21_before.png'>
-</div>
-<script type="text/javascript">
-function iccv21_dcshadownet_start() {
-document.getElementById('iccv21_dcshadownet_image').style.opacity = "1";
-}
-function iccv21_dcshadownet_stop() {
-document.getElementById('iccv21_dcshadownet_image').style.opacity = "0";
-}
-iccv21_dcshadownet_stop()
-</script>
-</td>
-<td valign="top" width="80%">
-  <a href="https://openaccess.thecvf.com/content/ICCV2021/html/Jin_DC-ShadowNet_Single-Image_Hard_and_Soft_Shadow_Removal_Using_Unsupervised_Domain-Classifier_ICCV_2021_paper.html">
-    <papertitle_just>DC-ShadowNet: Single-Image Hard and Soft Shadow Removal Using Unsupervised Domain-Classifier Guided Network</papertitle_just>     
-  </a>
-  <br>
-  <strong>Yeying Jin</strong>, Aashish Sharma, Robby T. Tan
-  <br>
-<em>International Conference on Computer Vision (ICCV)</em>, 2021, Montreal, Canada <br>
-<a href="https://openaccess.thecvf.com/content/ICCV2021/papers/Jin_DC-ShadowNet_Single-Image_Hard_and_Soft_Shadow_Removal_Using_Unsupervised_Domain-Classifier_ICCV_2021_paper.pdf">paper</a>
-|
-<a href="https://openaccess.thecvf.com/content/ICCV2021/supplemental/Jin_DC-ShadowNet_Single-Image_Hard_ICCV_2021_supplemental.pdf">supp</a>
-|
-<a href="https://arxiv.org/abs/2207.10434">arXiv</a>
-|  
-<a href="https://github.com/jinyeying/DC-ShadowNet-Hard-and-Soft-Shadow-Removal">code</a>
-|
-<a href="https://www.dropbox.com/s/f0roq0kkoq9ha1x/DC-ShadowNet_poster.pdf?dl=0">poster</a>
-|
-<a href="https://www.dropbox.com/s/ymgf7mld0j5zrjw/DC-ShadowNet_slides.pdf?dl=0">slides</a>
-|  
-<a href="./files/iccv21_shadow_bibtex.txt">bibtex</a>
-<p></p>
-<p>First unsupervised hard and soft shadow removal.</p>
-</td>
-</tr>
-<!-- Paper I DC-ShadowNet, ICCV'21 -->
-<!-- ###################################################################################################-->
-  
+    
 
 <!-- ############################ Put your publications above this! ####################################-->
 </tbody></table>
@@ -368,7 +371,7 @@ iccv21_dcshadownet_stop()
 - Jan'2019-Jan'2020: Machine Learning Research Engineer at [BioMind](https://biomind.ai/), Singapore, advised by [Prof. Feng Jiashi](https://sites.google.com/site/jshfeng/), worked intensively on Biomedical Image Translation, Synthesis, Super-resolution, Tumor Segmentation and Classification, expo demo for ["Deep Learning-Based End-to-end Automatic Contouring and Automated Radiation Therapy Treatment Planning System"](https://media.neurips.cc/Conferences/NeurIPS2019/NeurIPS_Expo_Book_2019.pdf) in [Neural Information Processing Systems (NeurIPS)'2019](https://nips.cc/Conferences/2019).
 
 # 🎖 Honors and Awards
-- [AISG Ph.D. Fellowship](https://aisingapore.org/research/phd-fellowship-programme/), Theme: Continuous Learning AI, Self-supervised Learning 
+- [AI Singapore (AISG) Ph.D. Fellowship](https://aisingapore.org/research/phd-fellowship-programme/), Theme: Continuous Learning AI, Self-supervised Learning 
 
 # 💬 Academic Services
 - Reviewer: AAAI'24, NeurIPS'23, ICCV'23, TIP'23, CVPR'23, AAAI'23, CVIU'23, TCSVT'23, NEUCOM'23, ACCV'22, ECCV'22, CVPR'22, IJCAI'22, IJCNN'21, etc.
