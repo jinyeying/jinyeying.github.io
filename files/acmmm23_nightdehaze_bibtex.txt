@@ -1,0 +1,8 @@
+@misc{jin2023enhancing,
+      title={Enhancing Visibility in Nighttime Haze Images Using Guided APSF and Gradient Adaptive Convolution}, 
+      author={Yeying Jin and Beibei Lin and Wending Yan and Wei Ye and Yuan Yuan and Robby T. Tan},
+      year={2023},
+      eprint={2308.01738},
+      archivePrefix={arXiv},
+      primaryClass={cs.CV}
+}
