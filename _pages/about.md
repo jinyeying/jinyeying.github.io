@@ -254,13 +254,13 @@ acmmm23_nightdehaze_stop()
   <strong>Yeying Jin</strong>, Beibei Lin*, Wending Yan, Wei Ye, Yuan Yuan, Robby T. Tan (Equal-first author)
   <br>
 <em>ACM Multimedia (ACMMM)</em>, 2023, Ottawa, Canada <br>
-<a href="">arXiv</a>
+<a href="https://arxiv.org/abs/2308.01738">arXiv</a>
 |
 <a href="https://github.com/jinyeying/nighttime_dehaze">code</a>
 |
-<a href="">bibtex</a>
+<a href="./files/acmmm23_nightdehaze_bibtex.txt">bibtex</a>
 <p></p>
-<p>First learning-based network handling night glow and low-light.</p>
+<p>First learning-based network handling night glow using APSF.</p>
 </td>
 </tr>
 <!-- Paper VI NightFog -->
