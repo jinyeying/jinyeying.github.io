@@ -296,6 +296,8 @@ aaai23_reflectance_stop()
 <a href="https://github.com/jinyeying/S-Aware-network">code</a> 
 |
 <a href="./files/aaai23_reflectance_bibtex.txt">bibtex</a> 
+|
+<a href="https://ojs.aaai.org/index.php/AAAI/article/view/25188">paper</a> 
 |  
 <a href="https://www.dropbox.com/s/epc69nk2aqsdi7v/SAware_poster.pdf?dl=0">poster</a>
 |
