@@ -149,7 +149,7 @@ eccv22_nightenhance_stop()
 </script>
 </td>
 <td valign="top" width="80%">
-  <a href="https://www.ecva.net/papers/eccv_2022/papers_ECCV/papers/136970396.pdf">
+  <a href="https://arxiv.org/abs/2207.10564">
     <papertitle_just>Unsupervised Night Image Enhancement: When Layer Decomposition Meets Light-Effects Suppression</papertitle_just>     
   </a>
   <br>
@@ -201,7 +201,7 @@ iccv21_dcshadownet_stop()
 </script>
 </td>
 <td valign="top" width="80%">
-  <a href="https://openaccess.thecvf.com/content/ICCV2021/html/Jin_DC-ShadowNet_Single-Image_Hard_and_Soft_Shadow_Removal_Using_Unsupervised_Domain-Classifier_ICCV_2021_paper.html">
+  <a href="https://arxiv.org/abs/2207.10434">
     <papertitle_just>DC-ShadowNet: Single-Image Hard and Soft Shadow Removal Using Unsupervised Domain-Classifier Guided Network</papertitle_just>     
   </a>
   <br>
@@ -247,7 +247,7 @@ acmmm23_nightdehaze_stop()
 </script>
 </td>
 <td valign="top" width="80%">
-  <a href="">
+  <a href="https://arxiv.org/abs/2308.01738">
     <papertitle_just>Enhancing Visibility in Nighttime Haze Images Using Guided APSF and Gradient Adaptive Convolution</papertitle_just>     
   </a>
   <br>
@@ -260,7 +260,7 @@ acmmm23_nightdehaze_stop()
 |
 <a href="./files/acmmm23_nightdehaze_bibtex.txt">bibtex</a>
 <p></p>
-<p>First learning-based network handling night glow using APSF.</p>
+<p>First learning-based network handling nighttime haze and glow using APSF.</p>
 </td>
 </tr>
 <!-- Paper VI NightFog -->
@@ -285,7 +285,7 @@ aaai23_reflectance_stop()
 </script>
 </td>
 <td valign="top" width="80%">
-  <a href="https://arxiv.org/pdf/2211.14751.pdf">
+  <a href="https://arxiv.org/abs/2211.14751">
     <papertitle_just>Estimating Reflectance Layer from A Single Image: Integrating Reflectance Guidance and Shadow/Specular Aware Learning</papertitle_just>     
   </a>
   <br>
@@ -328,7 +328,7 @@ accv22_defog_stop()
 </script>
 </td>
 <td valign="top" width="80%">
-  <a href="https://openaccess.thecvf.com/content/ACCV2022/html/Jin_Structure_Representation_Network_and_Uncertainty_Feedback_Learning_for_Dense_Non-Uniform_ACCV_2022_paper.html">
+  <a href="https://arxiv.org/abs/2210.03061">
     <papertitle_just>Structure Representation Network and Uncertainty Feedback Learning for Dense Non-Uniform Fog Removal</papertitle_just>     
   </a>
   <br>
