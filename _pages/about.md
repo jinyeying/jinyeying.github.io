@@ -156,24 +156,23 @@ eccv22_nightenhance_stop()
   <strong>Yeying Jin</strong>, Wenhan Yang, Robby T. Tan
   <br>
 <em>European Conference on Computer Vision (ECCV)</em>, 2022, Tel Aviv, Israel <br>
+<a href="https://arxiv.org/abs/2207.10564">arXiv</a>
+|
+<a href="https://github.com/jinyeying/night-enhancement">code</a>
+|
+<a href="./files/eccv22_nightenhance_bibtex.txt">bibtex</a>
+|  
 <a href="https://www.ecva.net/papers/eccv_2022/papers_ECCV/papers/136970396.pdf">paper</a>
 |
 <a href="https://www.ecva.net/papers/eccv_2022/papers_ECCV/papers/136970396-supp.pdf">supp</a>  
 |
-<a href="https://arxiv.org/abs/2207.10564">arXiv</a>
-|
-<a href="https://github.com/jinyeying/night-enhancement">code</a>
-|  
 <a href="https://www.dropbox.com/s/t53xlojok9h3p3p/0982_poster.pdf?dl=0">poster</a>
 |
 <a href="https://www.dropbox.com/s/z2u4zx6u1aojiuz/0982_slides.pdf?dl=0">slides</a>
 |
-<a href="./files/eccv22_nightenhance_bibtex.txt">bibtex</a>
-|
 <a href="https://www.dropbox.com/sh/ro8fs629ldebzc2/AAD1BnNSR51_tCq7DVaLSC3Fa/light-effects?dl=0&subfolder_nav_tracking=1">data</a>
 |
 <a href="https://mp.weixin.qq.com/s/5wjV6R95SrQHXxqMnENAAw">link</a> 
-
 <p></p>
 <p>Night image enhancement by enhancing low-light regions and suppressing light-effects regions.</p>
 </td>
@@ -208,19 +207,19 @@ iccv21_dcshadownet_stop()
   <strong>Yeying Jin</strong>, Aashish Sharma, Robby T. Tan
   <br>
 <em>International Conference on Computer Vision (ICCV)</em>, 2021, Montreal, Canada <br>
+<a href="https://arxiv.org/abs/2207.10434">arXiv</a>
+|  
+<a href="https://github.com/jinyeying/DC-ShadowNet-Hard-and-Soft-Shadow-Removal">code</a>
+|  
+<a href="./files/iccv21_shadow_bibtex.txt">bibtex</a>
+|
 <a href="https://openaccess.thecvf.com/content/ICCV2021/papers/Jin_DC-ShadowNet_Single-Image_Hard_and_Soft_Shadow_Removal_Using_Unsupervised_Domain-Classifier_ICCV_2021_paper.pdf">paper</a>
 |
 <a href="https://openaccess.thecvf.com/content/ICCV2021/supplemental/Jin_DC-ShadowNet_Single-Image_Hard_ICCV_2021_supplemental.pdf">supp</a>
 |
-<a href="https://arxiv.org/abs/2207.10434">arXiv</a>
-|  
-<a href="https://github.com/jinyeying/DC-ShadowNet-Hard-and-Soft-Shadow-Removal">code</a>
-|
 <a href="https://www.dropbox.com/s/f0roq0kkoq9ha1x/DC-ShadowNet_poster.pdf?dl=0">poster</a>
 |
 <a href="https://www.dropbox.com/s/ymgf7mld0j5zrjw/DC-ShadowNet_slides.pdf?dl=0">slides</a>
-|  
-<a href="./files/iccv21_shadow_bibtex.txt">bibtex</a>
 <p></p>
 <p>First unsupervised hard and soft shadow removal.</p>
 </td>
@@ -295,12 +294,12 @@ aaai23_reflectance_stop()
 <a href="https://arxiv.org/abs/2211.14751">arXiv</a>
 |
 <a href="https://github.com/jinyeying/S-Aware-network">code</a> 
+|
+<a href="./files/aaai23_reflectance_bibtex.txt">bibtex</a> 
 |  
 <a href="https://www.dropbox.com/s/epc69nk2aqsdi7v/SAware_poster.pdf?dl=0">poster</a>
 |
 <a href="https://www.dropbox.com/s/7f3j2d5ugifpftv/SAware_ppt.pdf?dl=0">slides</a> 
-|
-<a href="./files/aaai23_reflectance_bibtex.txt">bibtex</a> 
 <p></p>
 <p>First reflectance layer estimation that performs robustly even in the presence of shadows and specularities.</p>
 </td>
@@ -335,19 +334,19 @@ accv22_defog_stop()
   <strong>Yeying Jin</strong>, Wending Yan, Wenhan Yang, Robby T. Tan
   <br>
 <em>Asian Conference on Computer Vision (ACCV)</em>, 2022, Macau, China <br>
-<a href="https://openaccess.thecvf.com/content/ACCV2022/papers/Jin_Structure_Representation_Network_and_Uncertainty_Feedback_Learning_for_Dense_Non-Uniform_ACCV_2022_paper.pdf">paper</a>
-|
-<a href="https://openaccess.thecvf.com/content/ACCV2022/supplemental/Jin_Structure_Representation_Network_ACCV_2022_supplemental.pdf">supp</a>
-|  
 <a href="https://arxiv.org/abs/2210.03061">arXiv</a>
 |
 <a href="https://github.com/jinyeying/FogRemoval">code</a>
 |
+<a href="./files/accv22_defog_bibtex.txt">bibtex</a>
+|  
+<a href="https://openaccess.thecvf.com/content/ACCV2022/papers/Jin_Structure_Representation_Network_and_Uncertainty_Feedback_Learning_for_Dense_Non-Uniform_ACCV_2022_paper.pdf">paper</a>
+|
+<a href="https://openaccess.thecvf.com/content/ACCV2022/supplemental/Jin_Structure_Representation_Network_ACCV_2022_supplemental.pdf">supp</a>
+|  
 <a href="https://www.dropbox.com/s/f3qjxx9jf3o7b6j/0393_poster.pdf?dl=0">poster</a>
 |
 <a href="https://www.dropbox.com/s/fowkes8wnyr6rb1/0393_release.pdf?dl=0">slides</a>
-|  
-<a href="./files/accv22_defog_bibtex.txt">bibtex</a>
 |  
 <a href="https://www.dropbox.com/home/badweather/ACCV2022_defog/Dataset_day/Smoke">data</a>
 <p></p>
