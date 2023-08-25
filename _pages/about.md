@@ -16,13 +16,15 @@ redirect_from:
 {% assign url = gsDataBaseUrl | append: "google-scholar-stats/gs_data_shieldsio.json" %}
 <span class='anchor' id='about-me'></span>
 
-My name is Yeying Jin, and I am expecting to graduate in January 2024. 
-<span style="color:red"> I am actively seeking Research or Computer Vision Scientist/Engineer roles.</span>
-Currently, I am a fourth-year Ph.D. student at the [Department of Electrical and Computer Engineering](https://cde.nus.edu.sg/ece/), <img src="/files/NUS.png" alt="NUS" width="42.5" height="20"> National University of Singapore (NUS), supervised by [Prof. Robby T. Tan](http://tanrobby.github.io/). 
+My name is Yeying Jin. <span style="color:red"> I am actively seeking Research or Computer Vision Scientist/Engineer roles.</span>
+
+Currently, I am a fourth-year Ph.D. student at the <img src="/files/NUS.png" alt="NUS" width="42.5" height="20"> [Department of Electrical and Computer Engineering](https://cde.nus.edu.sg/ece/) (ECE), National University of Singapore (NUS), supervised by [Prof. Robby T. Tan](http://tanrobby.github.io/). 
 I had my research internship in <img src="/files/adobe.png" alt="Adobe" width="20" height="20"> Adobe, mentored by [Connelly Barnes](http://www.connellybarnes.com/work/). 
 I also have 1-year working experience as a Machine Learning Research Engineer.
 
-Previously, I completed my M.S. degree from ECE, NUS and received my B.Eng degree from the <img src="/files/UESTC.png" alt="UESTC" width="20.842" height="20"> [University of Electronic Science and Technology of China (UESTC)](https://en.uestc.edu.cn/). My primary research interests include computer vision and deep learning, mainly focusing on image translation/generation, image/video enhancement.
+Previously, I completed my M.S. degree from <img src="/files/NUS.png" alt="NUS" width="42.5" height="20"> ECE, NUS and received my B.Eng degree from <img src="/files/UESTC.png" alt="UESTC" width="20.842" height="20"> [University of Electronic Science and Technology of China (UESTC)](https://en.uestc.edu.cn/). 
+
+My primary research interests include computer vision and deep learning, mainly focusing on image translation/generation, image/video enhancement.
 Please see my latest [CV](https://www.dropbox.com/scl/fi/12v0qwjcebbt9rehbmg9i/jinyeying_cv_pub.pdf?rlkey=5twm92za8k8sx394m0p0gnnk0&dl=0).
 
 # 📜 Research Area
@@ -379,11 +381,11 @@ accv22_defog_stop()
 - Sep'2013-Jul'2017: B.Eng (Electrical and Computer Engineering), UESTC, China (GPA: 3.93/4.00)
 
 # 👔 Internships and Work Experience
-- Jun'2023-Sep'2023: [Adobe Research Intern](https://www.adobe.com/), Creative Intelligence Lab, mentored by [Connelly Barnes](http://www.connellybarnes.com/work/), worked with [Yuqian Zhou](https://yzhouas.github.io/), [Lingzhi Zhang](https://owenzlz.github.io/), [Sohrab Amirghodsi](https://www.linkedin.com/in/sohrab-amirghodsi-a89548a3/), [Eric Kee](https://www.erickee.com/)
+- Jun'2023-Sep'2023: <img src="/files/adobe.png" alt="Adobe" width="20" height="20"> [Adobe Research Intern](https://www.adobe.com/), Creative Intelligence Lab, mentored by [Connelly Barnes](http://www.connellybarnes.com/work/), worked with [Yuqian Zhou](https://yzhouas.github.io/), [Lingzhi Zhang](https://owenzlz.github.io/), [Sohrab Amirghodsi](https://www.linkedin.com/in/sohrab-amirghodsi-a89548a3/), [Eric Kee](https://www.erickee.com/)
 - Jan'2019-Jan'2020: Machine Learning Research Engineer at [BioMind](https://biomind.ai/), Singapore, advised by [Prof. Feng Jiashi](https://sites.google.com/site/jshfeng/), worked intensively on Biomedical Image Translation, Synthesis, Super-resolution, Tumor Segmentation and Classification, expo demo for ["Deep Learning-Based End-to-end Automatic Contouring and Automated Radiation Therapy Treatment Planning System"](https://media.neurips.cc/Conferences/NeurIPS2019/NeurIPS_Expo_Book_2019.pdf) in [Neural Information Processing Systems (NeurIPS)'2019](https://nips.cc/Conferences/2019).
 
 # 🎖 Honors and Awards
-- [AI Singapore (AISG) Ph.D. Fellowship](https://aisingapore.org/research/phd-fellowship-programme/), Theme: Continuous Learning AI, Self-supervised Learning 
+- <img src="/files/aisg.png" alt="AISG" width="20" height="20"> [AI Singapore (AISG) Ph.D. Fellowship](https://aisingapore.org/research/phd-fellowship-programme/), Theme: Continuous Learning AI, Self-supervised Learning 
 
 # 💻 Academic Services
 - Reviewer: AAAI'24, NeurIPS'23, ICCV'23, TIP'23, CVPR'23, AAAI'23, CVIU'23, TCSVT'23, NEUCOM'23, ACCV'22, ECCV'22, CVPR'22, IJCAI'22, IJCNN'21, etc.
@@ -398,17 +400,17 @@ accv22_defog_stop()
   </tr>
   <tr>
     <td>Visibility Enhancement using Generative Model</td>
-    <td>Huawei Shanghai HiSilicon</td>
+    <td><img src="/files/huawei.png" alt="Huawei" width="19.978" height="20"> Huawei Shanghai HiSilicon</td>
     <td>Jul 2023</td>
   </tr>
   <tr>
     <td>NextCam Reading Group: Light-effects Suppression</td>
-    <td>Adobe, USA</td>
+    <td><img src="/files/adobe.png" alt="Adobe" width="20" height="20"> Adobe, USA</td>
     <td>Jul 2023</td>
   </tr>
   <tr>
     <td>Image/Video Restoration</td>
-    <td>Huawei Shanghai HiSilicon</td>
+    <td><img src="/files/huawei.png" alt="Huawei" width="19.978" height="20"> Huawei Shanghai HiSilicon</td>
     <td>Mar 2023</td>
   </tr>
   <tr>
@@ -418,12 +420,12 @@ accv22_defog_stop()
   </tr>
   <tr>
     <td>Diffusion Model in Image Processing</td>
-    <td>ByteDance Singapore (<a href="https://hanshuyan.github.io/">invited by Hanshu Yan</a>)</td>
+    <td><img src="/files/ByteDance.png" alt="ByteDance" width="110.77" height="20">, Singapore (<a href="https://hanshuyan.github.io/">invited by Hanshu Yan</a>)</td>
     <td>Jan 2023</td>
   </tr>
   <tr>
     <td>Visibility Enhancement in Nighttime</td>
-    <td>Huawei Singapore</td>
+    <td><img src="/files/huawei.png" alt="Huawei" width="19.978" height="20"> Huawei, Singapore</td>
     <td>Dec 2022</td>
   </tr>
   <tr>
@@ -433,7 +435,7 @@ accv22_defog_stop()
   </tr>
   <tr>
     <td>Poster Present at Singapore Vision Day</td>
-    <td>Singapore</td>
+    <td><img src="/files/NUS.png" alt="NUS" width="42.5" height="20">, Singapore</td>
     <td>May 2023</td>
   </tr>
   <tr>
@@ -443,7 +445,7 @@ accv22_defog_stop()
   </tr>
   <tr>
     <td>Poster Present at AI Research Symposium</td>
-    <td>AISG</td>
+    <td><img src="/files/aisg.png" alt="AISG" width="20" height="20"> AISG, Singapore</td>
     <td>Jan 2023</td>
   </tr>
   <tr>
