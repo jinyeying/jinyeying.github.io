@@ -16,11 +16,13 @@ redirect_from:
 {% assign url = gsDataBaseUrl | append: "google-scholar-stats/gs_data_shieldsio.json" %}
 <span class='anchor' id='about-me'></span>
 
-My name is Yeying Jin, and I am expecting to graduate in January 2024. I am actively seeking Research or Computer Vision Scientist/Engineer roles.
-Currently, I am a fourth-year Ph.D. student at the [Department of Electrical and Computer Engineering](https://cde.nus.edu.sg/ece/), National University of Singapore (NUS), supervised by [Prof. Robby T. Tan](http://tanrobby.github.io/). 
-I had my research internship in Adobe, mentored by [Connelly Barnes](http://www.connellybarnes.com/work/). I also have 1 year working experience as a Machine Learning Research Engineer.
+My name is Yeying Jin, and I am expecting to graduate in January 2024. 
+<span style="color:red"> I am actively seeking Research or Computer Vision Scientist/Engineer roles.</span>
+Currently, I am a fourth-year Ph.D. student at the [Department of Electrical and Computer Engineering](https://cde.nus.edu.sg/ece/), <img src="/files/NUS.png" alt="NUS" height="20"> National University of Singapore (NUS), supervised by [Prof. Robby T. Tan](http://tanrobby.github.io/). 
+I had my research internship in <img src="/files/adobe.png" alt="Adobe" width="20" height="20"> Adobe, mentored by [Connelly Barnes](http://www.connellybarnes.com/work/). 
+I also have 1 year working experience as a Machine Learning Research Engineer.
 
-Previously, I completed my M.S. degree from ECE, NUS and received my B.Eng degree from the [University of Electronic Science and Technology of China (UESTC)](https://en.uestc.edu.cn/). My primary research interests include computer vision and deep learning, mainly focusing on image translation/generation, image/video enhancement.
+Previously, I completed my M.S. degree from ECE, NUS and received my B.Eng degree from the <img src="/files/UESTC.png" alt="UESTC" height="20"> [University of Electronic Science and Technology of China (UESTC)](https://en.uestc.edu.cn/). My primary research interests include computer vision and deep learning, mainly focusing on image translation/generation, image/video enhancement.
 Please see my latest [CV](https://www.dropbox.com/scl/fi/12v0qwjcebbt9rehbmg9i/jinyeying_cv_pub.pdf?rlkey=5twm92za8k8sx394m0p0gnnk0&dl=0).
 
 # 📜 Research Area
