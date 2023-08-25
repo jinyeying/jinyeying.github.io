@@ -158,7 +158,7 @@ eccv22_nightenhance_stop()
 <em>European Conference on Computer Vision (ECCV)</em>, 2022, Tel Aviv, Israel <br>
 <a href="https://arxiv.org/abs/2207.10564">arXiv</a>
 |
-<a href="https://github.com/jinyeying/night-enhancement">code</a>
+<a href="https://github.com/jinyeying/night-enhancement"><img src="https://img.shields.io/github/stars/jinyeying/night-enhancement?style=social&label=Code+Stars"></a>
 |
 <a href="./files/eccv22_nightenhance_bibtex.txt">bibtex</a>
 |  
@@ -209,7 +209,7 @@ iccv21_dcshadownet_stop()
 <em>International Conference on Computer Vision (ICCV)</em>, 2021, Montreal, Canada <br>
 <a href="https://arxiv.org/abs/2207.10434">arXiv</a>
 |  
-<a href="https://github.com/jinyeying/DC-ShadowNet-Hard-and-Soft-Shadow-Removal">code</a>
+<a href="https://github.com/jinyeying/DC-ShadowNet-Hard-and-Soft-Shadow-Removal"><img src="https://img.shields.io/github/stars/jinyeying/DC-ShadowNet-Hard-and-Soft-Shadow-Removal?style=social&label=Code+Stars"></a>
 |  
 <a href="./files/iccv21_shadow_bibtex.txt">bibtex</a>
 |
@@ -252,10 +252,10 @@ acmmm23_nightdehaze_stop()
   <br>
   <strong>Yeying Jin</strong>, Beibei Lin*, Wending Yan, Wei Ye, Yuan Yuan, Robby T. Tan (Equal-first author)
   <br>
-<em>ACM Multimedia (ACMMM)</em>, 2023, Ottawa, Canada <br>
+<em>ACM Multimedia (ACM'MM)</em>, 2023, Ottawa, Canada <br>
 <a href="https://arxiv.org/abs/2308.01738">arXiv</a>
 |
-<a href="https://github.com/jinyeying/nighttime_dehaze">code</a>
+<a href="https://github.com/jinyeying/nighttime_dehaze"><img src="https://img.shields.io/github/stars/jinyeying/nighttime_dehaze?style=social&label=Code+Stars"></a>
 |
 <a href="./files/acmmm23_nightdehaze_bibtex.txt">bibtex</a>
 <p></p>
@@ -293,7 +293,7 @@ aaai23_reflectance_stop()
 <em>Association for the Advancement of Artificial Intelligence (AAAI)</em>, 2023, Washington DC, USA <br>
 <a href="https://arxiv.org/abs/2211.14751">arXiv</a>
 |
-<a href="https://github.com/jinyeying/S-Aware-network">code</a> 
+<a href="https://github.com/jinyeying/S-Aware-network"><img src="https://img.shields.io/github/stars/jinyeying/S-Aware-network?style=social&label=Code+Stars"></a>
 |
 <a href="./files/aaai23_reflectance_bibtex.txt">bibtex</a> 
 |
@@ -338,7 +338,7 @@ accv22_defog_stop()
 <em>Asian Conference on Computer Vision (ACCV)</em>, 2022, Macau, China <br>
 <a href="https://arxiv.org/abs/2210.03061">arXiv</a>
 |
-<a href="https://github.com/jinyeying/FogRemoval">code</a>
+<a href="https://github.com/jinyeying/FogRemoval"><img src="https://img.shields.io/github/stars/jinyeying/FogRemoval?style=social&label=Code+Stars"></a>
 |
 <a href="./files/accv22_defog_bibtex.txt">bibtex</a>
 |  
