@@ -1,12 +1,21 @@
 ---
 permalink: /
-title: ""
-excerpt: "Bio"
+title: "Yeying Jin"
+excerpt: "About me"
 author_profile: true
 redirect_from: 
   - /about/
   - /about.html
 ---
+
+{% if site.google_scholar_stats_use_cdn %}
+{% assign gsDataBaseUrl = "https://cdn.jsdelivr.net/gh/" | append: site.repository | append: "@" %}
+{% else %}
+{% assign gsDataBaseUrl = "https://raw.githubusercontent.com/" | append: site.repository | append: "/" %}
+{% endif %}
+{% assign url = gsDataBaseUrl | append: "google-scholar-stats/gs_data_shieldsio.json" %}
+<span class='anchor' id='about-me'></span>
+
 My name is Yeying Jin, and I am expecting to graduate in January 2024. I am actively seeking Research or Computer Vision Scientist/Engineer roles.
 Currently, I am a fourth-year Ph.D. student at the [Department of Electrical and Computer Engineering](https://cde.nus.edu.sg/ece/), National University of Singapore (NUS), supervised by [Prof. Robby T. Tan](http://tanrobby.github.io/). 
 I had my research internship in Adobe, mentored by [Connelly Barnes](http://www.connellybarnes.com/work/). I also have 1 year working experience as a Machine Learning Research Engineer.
