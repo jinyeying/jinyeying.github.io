@@ -22,7 +22,7 @@ main:
     url: "/#-academic-services"
     
   - title: "Talks"
-    url: "/#-invited-talks/"    
+    url: "/#-invited-talks"   
 
   # - title: "Teaching"
   #   url: /teaching/    
