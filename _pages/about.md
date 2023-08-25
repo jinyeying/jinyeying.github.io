@@ -22,7 +22,7 @@ Currently, I am a fourth-year Ph.D. student at the <img src="/files/NUS.png" alt
 I had my research internship in <img src="/files/adobe.png" alt="Adobe" width="20" height="20"> Adobe, mentored by [Connelly Barnes](http://www.connellybarnes.com/work/). 
 I also have 1-year working experience as a Machine Learning Research Engineer.
 
-Previously, I completed my M.S. degree from <img src="/files/NUS.png" alt="NUS" width="42.5" height="20"> ECE, NUS and received my B.Eng degree from <img src="/files/UESTC.png" alt="UESTC" width="20.842" height="20"> [University of Electronic Science and Technology of China (UESTC)](https://en.uestc.edu.cn/). 
+Previously, I completed my M.S. degree from <img src="/files/NUS.png" alt="NUS" width="42.5" height="20"> ECE, NUS; received my B.Eng degree from <img src="/files/UESTC.png" alt="UESTC" width="20.842" height="20"> [University of Electronic Science and Technology of China (UESTC)](https://en.uestc.edu.cn/). 
 
 My primary research interests include computer vision and deep learning, mainly focusing on image translation/generation, image/video enhancement.
 Please see my latest [CV](https://www.dropbox.com/scl/fi/12v0qwjcebbt9rehbmg9i/jinyeying_cv_pub.pdf?rlkey=5twm92za8k8sx394m0p0gnnk0&dl=0).
@@ -376,13 +376,13 @@ accv22_defog_stop()
 </tbody></table>
 
 # 🏫 Educations
-- Jan'2020-Jan'2024: Ph.D. (Computer Vision and Deep Learning), NUS, Singapore (CAP: 4.75/5.00)
-- Aug'2017-Aug'2018: M.S. (Electrical and Computer Engineering), NUS, Singapore
-- Sep'2013-Jul'2017: B.Eng (Electrical and Computer Engineering), UESTC, China (GPA: 3.93/4.00)
+- Jan'2020-Jan'2024: Ph.D. (Computer Vision and Deep Learning), <img src="/files/NUS.png" alt="NUS" width="42.5" height="20"> NUS, Singapore (CAP: 4.75/5.00)
+- Aug'2017-Aug'2018: M.S. (Electrical and Computer Engineering), <img src="/files/NUS.png" alt="NUS" width="42.5" height="20"> NUS, Singapore
+- Sep'2013-Jul'2017: B.Eng (Electrical and Computer Engineering), <img src="/files/UESTC.png" alt="UESTC" width="20.842" height="20"> UESTC, China (GPA: 3.93/4.00)
 
 # 👔 Internships and Work Experience
 - Jun'2023-Sep'2023: <img src="/files/adobe.png" alt="Adobe" width="20" height="20"> [Adobe Research Intern](https://www.adobe.com/), Creative Intelligence Lab, mentored by [Connelly Barnes](http://www.connellybarnes.com/work/), worked with [Yuqian Zhou](https://yzhouas.github.io/), [Lingzhi Zhang](https://owenzlz.github.io/), [Sohrab Amirghodsi](https://www.linkedin.com/in/sohrab-amirghodsi-a89548a3/), [Eric Kee](https://www.erickee.com/)
-- Jan'2019-Jan'2020: Machine Learning Research Engineer at [BioMind](https://biomind.ai/), Singapore, advised by [Prof. Feng Jiashi](https://sites.google.com/site/jshfeng/), worked intensively on Biomedical Image Translation, Synthesis, Super-resolution, Tumor Segmentation and Classification, expo demo for ["Deep Learning-Based End-to-end Automatic Contouring and Automated Radiation Therapy Treatment Planning System"](https://media.neurips.cc/Conferences/NeurIPS2019/NeurIPS_Expo_Book_2019.pdf) in [Neural Information Processing Systems (NeurIPS)'2019](https://nips.cc/Conferences/2019).
+- Jan'2019-Jan'2020: Machine Learning Research Engineer at <img src="/files/biomind.png" alt="Biomind" width="80" height="20"> [BioMind](https://biomind.ai/), Singapore, advised by [Prof. Feng Jiashi](https://sites.google.com/site/jshfeng/), worked intensively on Biomedical Image Translation, Synthesis, Super-resolution, Tumor Segmentation and Classification, expo demo for ["Deep Learning-Based End-to-end Automatic Contouring and Automated Radiation Therapy Treatment Planning System"](https://media.neurips.cc/Conferences/NeurIPS2019/NeurIPS_Expo_Book_2019.pdf) in [Neural Information Processing Systems (NeurIPS)'2019](https://nips.cc/Conferences/2019).
 
 # 🎖 Honors and Awards
 - <img src="/files/aisg.png" alt="AISG" width="20" height="20"> [AI Singapore (AISG) Ph.D. Fellowship](https://aisingapore.org/research/phd-fellowship-programme/), Theme: Continuous Learning AI, Self-supervised Learning 
@@ -440,7 +440,7 @@ accv22_defog_stop()
   </tr>
   <tr>
     <td>Poster Present at AAAI'23</td>
-    <td>Washington DC, USA</td>
+    <td><img src="/files/AAAI.png" alt="AAAI" width="28.026" height="20">, Washington DC, USA</td>
     <td>Feb 2023</td>
   </tr>
   <tr>
@@ -450,7 +450,7 @@ accv22_defog_stop()
   </tr>
   <tr>
     <td>Poster Present at ECCV'22</td>
-    <td>Tel Aviv, Israel</td>
+    <td><img src="/files/ECCV.png" alt="ECCV" width="38.038" height="20">, Tel Aviv, Israel</td>
     <td>Oct 2022</td>
   </tr>
 </table>
