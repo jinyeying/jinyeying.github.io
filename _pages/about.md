@@ -395,7 +395,7 @@ accv22_defog_stop()
 <table>
   <tr>
     <th>Topic</th>
-    <th>Location</th>
+    <th>Host</th>
     <th>Date</th>
   </tr>
   <tr>
@@ -415,12 +415,12 @@ accv22_defog_stop()
   </tr>
   <tr>
     <td>Intrinsic Image Decomposition</td>
-    <td>AI TIME</td>
+    <td><img src="/files/AITIME.png" alt="AITIME" width="19.778" height="20"> AI TIME</td>
     <td>Feb 2023</td>
   </tr>
   <tr>
     <td>Diffusion Model in Image Processing</td>
-    <td><img src="/files/ByteDance.png" alt="ByteDance" width="110.77" height="20">, Singapore (<a href="https://hanshuyan.github.io/">invited by Hanshu Yan</a>)</td>
+    <td><img src="/files/ByteDance.png" alt="ByteDance" width="110.77" height="20">, (invited by <a href="https://hanshuyan.github.io/">Hanshu Yan</a>)</td>
     <td>Jan 2023</td>
   </tr>
   <tr>
@@ -430,7 +430,7 @@ accv22_defog_stop()
   </tr>
   <tr>
     <td>Unsupervised Image Restoration and Generation</td>
-    <td>AI TIME</td>
+    <td><img src="/files/AITIME.png" alt="AITIME" width="19.778" height="20"> AI TIME</td>
     <td>Nov 2022</td>
   </tr>
   <tr>
