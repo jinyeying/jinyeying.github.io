@@ -19,7 +19,6 @@ redirect_from:
 My name is Yeying Jin. <span style="color:red"> I am actively seeking Research or Computer Vision Scientist/Engineer roles.</span>
 
 Currently, I am a fourth-year Ph.D. student at the <img src="/files/NUS.png" alt="NUS" width="42.5" height="20"> [Department of Electrical and Computer Engineering](https://cde.nus.edu.sg/ece/) (ECE), National University of Singapore (NUS), supervised by [Prof. Robby T. Tan](http://tanrobby.github.io/). 
-I had my research internship in <img src="/files/adobe.png" alt="Adobe" width="20" height="20"> Adobe, mentored by [Connelly Barnes](http://www.connellybarnes.com/work/). 
 I also have 1-year working experience as a Machine Learning Research Engineer.
 
 Previously, I completed my M.S. degree from <img src="/files/NUS.png" alt="NUS" width="42.5" height="20"> ECE, NUS; received my B.Eng degree from <img src="/files/UESTC.png" alt="UESTC" width="20.842" height="20"> [University of Electronic Science and Technology of China (UESTC)](https://en.uestc.edu.cn/). 
@@ -381,7 +380,6 @@ accv22_defog_stop()
 - Sep'2013-Jul'2017: B.Eng (Electrical and Computer Engineering), <img src="/files/UESTC.png" alt="UESTC" width="20.842" height="20"> UESTC, China (GPA: 3.93/4.00)
 
 # 👔 Internships and Work Experience
-- Jun'2023-Sep'2023: <img src="/files/adobe.png" alt="Adobe" width="20" height="20"> [Adobe Research Intern](https://www.adobe.com/), Creative Intelligence Lab, mentored by [Connelly Barnes](http://www.connellybarnes.com/work/), worked with [Yuqian Zhou](https://yzhouas.github.io/), [Lingzhi Zhang](https://owenzlz.github.io/), [Sohrab Amirghodsi](https://www.linkedin.com/in/sohrab-amirghodsi-a89548a3/), [Eric Kee](https://www.erickee.com/)
 - Jan'2019-Jan'2020: Machine Learning Research Engineer at <img src="/files/biomind.png" alt="Biomind" width="80" height="20"> Singapore, advised by [Prof. Feng Jiashi](https://sites.google.com/site/jshfeng/), worked intensively on Biomedical Image Translation, Synthesis, Super-resolution, Tumor Segmentation and Classification, expo demo for ["Deep Learning-Based End-to-end Automatic Contouring and Automated Radiation Therapy Treatment Planning System"](https://media.neurips.cc/Conferences/NeurIPS2019/NeurIPS_Expo_Book_2019.pdf) in [Neural Information Processing Systems (NeurIPS)'2019](https://nips.cc/Conferences/2019).
 
 # 🎖 Honors and Awards
@@ -405,7 +403,7 @@ accv22_defog_stop()
   </tr>
   <tr>
     <td>NextCam Reading Group: Light-effects Suppression</td>
-    <td><img src="/files/adobe.png" alt="Adobe" width="20" height="20"> Adobe, USA</td>
+    <td><img src="/files/adobe.png" alt="Adobe" width="20" height="20"> Adobe</td>
     <td>Jul 2023</td>
   </tr>
   <tr>
