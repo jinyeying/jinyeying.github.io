@@ -402,11 +402,6 @@ accv22_defog_stop()
     <td>Jul 2023</td>
   </tr>
   <tr>
-    <td>NextCam Reading Group: Light-effects Suppression</td>
-    <td><img src="/files/adobe.png" alt="Adobe" width="20" height="20"> Adobe</td>
-    <td>Jul 2023</td>
-  </tr>
-  <tr>
     <td>Image/Video Restoration</td>
     <td><img src="/files/huawei.png" alt="Huawei" width="19.978" height="20"> Huawei Shanghai HiSilicon</td>
     <td>Mar 2023</td>
