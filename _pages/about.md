@@ -24,7 +24,6 @@ I also have 1-year working experience as a Machine Learning Research Engineer.
 Previously, I completed my M.S. degree from <img src="/files/NUS.png" alt="NUS" width="42.5" height="20"> ECE, NUS; received my B.Eng degree from <img src="/files/UESTC.png" alt="UESTC" width="20.842" height="20"> [University of Electronic Science and Technology of China (UESTC)](https://en.uestc.edu.cn/). 
 
 My primary research interests include computer vision and deep learning, mainly focusing on image translation/generation, image/video enhancement.
-Please see my latest [CV](https://www.dropbox.com/scl/fi/12v0qwjcebbt9rehbmg9i/jinyeying_cv_pub.pdf?rlkey=5twm92za8k8sx394m0p0gnnk0&dl=0).
 
 # 📜 Research Area
 1. Generative Model (e.g., GAN, Diffusion), Image/Video Translation/Enhancement/Editing
