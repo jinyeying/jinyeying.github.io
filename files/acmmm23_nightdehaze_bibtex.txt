@@ -1,6 +1,7 @@
-@article{jin2023enhancing,
-  title={Enhancing Visibility in Nighttime Haze Images Using Guided APSF and Gradient Adaptive Convolution},
-  author={Jin, Yeying and Lin, Beibei and Yan, Wending and Ye, Wei and Yuan, Yuan and Tan, Robby T},
-  journal={arXiv preprint arXiv:2308.01738},
+@inproceedings{jin2023enhancing,
+  title={Enhancing visibility in nighttime haze images using guided apsf and gradient adaptive convolution},
+  author={Jin, Yeying and Lin, Beibei and Yan, Wending and Yuan, Yuan and Ye, Wei and Tan, Robby T},
+  booktitle={Proceedings of the 31st ACM International Conference on Multimedia},
+  pages={2446--2457},
   year={2023}
 }
