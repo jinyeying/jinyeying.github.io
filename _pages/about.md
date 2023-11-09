@@ -270,6 +270,13 @@ acmmm23_nightdehaze_stop()
 <a href="https://github.com/jinyeying/nighttime_dehaze"><img src="https://img.shields.io/github/stars/jinyeying/nighttime_dehaze?style=social&label=Stars"></a>
 |
 <a href="./files/acmmm23_nightdehaze_bibtex.txt">bibtex</a>
+|
+<a href="https://dl.acm.org/doi/10.1145/3581783.3611884">paper</a>
+|  
+<a href="https://www.dropbox.com/scl/fi/2wo8q4y2la58a3f2kvum0/0859_poster.pdf?rlkey=7x8jbdh0o550r8pvzqugt4szs&dl=0">poster</a>
+|
+<a href="https://www.dropbox.com/scl/fi/2wo8q4y2la58a3f2kvum0/0859_poster.pdf?rlkey=7x8jbdh0o550r8pvzqugt4szs&dl=0">slides</a>
+|  
 <p></p>
 <p>First learning-based network handling nighttime haze and glow using APSF.</p>
 </td>
