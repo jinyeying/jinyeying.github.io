@@ -16,7 +16,7 @@ redirect_from:
 {% assign url = gsDataBaseUrl | append: "google-scholar-stats/gs_data_shieldsio.json" %}
 <span class='anchor' id='about-me'></span>
 
-My name is Yeying Jin. <span style="color:red"> I am actively seeking Research or Computer Vision Scientist/Engineer roles.</span>
+My name is Yeying Jin. <span style="color:red"> I am actively seeking Research or Computer Vision Scientist/Engineer roles. I am a Singapore PR (Permanent Resident), eligible for a US O1 visa. </span>
 
 Currently, I am a fourth-year Ph.D. student at the <img src="/files/NUS.png" alt="NUS" width="42.5" height="20"> [Department of Electrical and Computer Engineering](https://cde.nus.edu.sg/ece/) (ECE), National University of Singapore (NUS), supervised by [Prof. Robby T. Tan](http://tanrobby.github.io/). 
 I had my research internship in <img src="/files/adobe.png" alt="Adobe" width="20" height="20"> Adobe, mentored by [Connelly Barnes](http://www.connellybarnes.com/work/). 
