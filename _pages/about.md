@@ -105,31 +105,31 @@ My primary research interests include computer vision and deep learning, mainly 
 <!-- ###################################################################################################-->
   
 <!-- ###################################################################################################-->
-<!-- Paper V ShadowDiffusion-->
-<tr onmouseout="submit23_shadowdiffusion_stop()" onmouseover="submit23_shadowdiffusion_start()" >
+<!-- Paper V DeS3-->
+<tr onmouseout="aaai24_des3_stop()" onmouseover="aaai24_des3_start()" >
 <td width="20%">
 <div class="one">
 <div class="two" id = 'submit23_shadowdiffusion_image'><img src='./files/submit23_after.png'></div>
 <img src='./files/submit23_before.png'>
 </div>
 <script type="text/javascript">
-function submit23_shadowdiffusion_start() {
+function aaai24_des3_start() {
 document.getElementById('submit23_shadowdiffusion_image').style.opacity = "1";
 }
-function submit23_shadowdiffusion_stop() {
+function aaai24_des3_stop() {
 document.getElementById('submit23_shadowdiffusion_image').style.opacity = "0";
 }
-submit23_shadowdiffusion_stop()
+aaai24_des3_stop()
 </script>
 </td>
 <td valign="top" width="80%">
   <a href="https://arxiv.org/abs/2211.08089">
-    <papertitle_just>ShadowDiffusion: Diffusion-based Shadow Removal using Classifier-driven Attention and Structure Preservation</papertitle_just>     
+    <papertitle_just>DeS3: Adaptive Attention-driven Self and Soft Shadow Removal using ViT Similarity</papertitle_just>     
   </a>
   <br>
-  <strong>Yeying Jin</strong>, Wenhan Yang, Wei Ye, Yuan Yuan, Robby T. Tan
+  <strong>Yeying Jin</strong>, Wenhan Yang, Yuan Yuan, Wei Ye, Robby T. Tan
   <br>
-<em>arXiv preprint</em>, 2023 <br>
+<em>Association for the Advancement of Artificial Intelligence (AAAI)</em>, 2024, Vancouver, Canada <br>
 <a href="https://arxiv.org/abs/2211.08089">arXiv</a>
 |
 <a href="">code</a>
@@ -139,8 +139,9 @@ submit23_shadowdiffusion_stop()
 <p>First diffusion-based shadow removal performs robustly on hard, soft and self shadows.</p>
 </td>
 </tr>
-<!-- Paper V ShadowDiffusion -->
+<!-- Paper V DeS3 -->
 <!-- ###################################################################################################-->
+
 
 <!-- ###################################################################################################-->
 <!-- Paper II NightEnhance, ECCV'22 -->
@@ -388,6 +389,8 @@ accv22_defog_stop()
 - Sep'2013-Jul'2017: B.Eng (Electrical and Computer Engineering), <img src="/files/UESTC.png" alt="UESTC" width="20.842" height="20"> UESTC, China (GPA: 3.93/4.00)
 
 # 👔 Internships and Work Experience
+- Jun'2023-Sep'2023: <img src="/files/adobe.png" alt="Adobe" width="20" height="20"> [Adobe Research Intern](https://www.adobe.com/), Creative Intelligence Lab, mentored by [Connelly Barnes](http://www.connellybarnes.com/work/), worked with [Yuqian Zhou](https://yzhouas.github.io/), [Lingzhi Zhang](https://owenzlz.github.io/), [Sohrab Amirghodsi](https://www.linkedin.com/in/sohrab-amirghodsi-a89548a3/), [Eric Kee](https://www.erickee.com/)
+
 - Jan'2019-Jan'2020: Machine Learning Research Engineer at <img src="/files/biomind.png" alt="Biomind" width="80" height="20"> Singapore, advised by [Prof. Feng Jiashi](https://sites.google.com/site/jshfeng/), worked intensively on Biomedical Image Translation, Synthesis, Super-resolution, Tumor Segmentation and Classification, expo demo for ["Deep Learning-Based End-to-end Automatic Contouring and Automated Radiation Therapy Treatment Planning System"](https://media.neurips.cc/Conferences/NeurIPS2019/NeurIPS_Expo_Book_2019.pdf) in [Neural Information Processing Systems (NeurIPS)'2019](https://nips.cc/Conferences/2019).
 
 # 🎖 Honors and Awards
