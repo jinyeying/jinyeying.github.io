@@ -18,7 +18,7 @@ redirect_from:
 
 My name is Yeying Jin. <span style="color:red"> I am actively seeking Research or Computer Vision Scientist/Engineer roles. I am a Singapore PR (Permanent Resident), eligible for a US O1 visa. </span>
 
-Currently, I am a fourth-year Ph.D. student at the <img src="/files/NUS.png" alt="NUS" width="42.5" height="20"> [Department of Electrical and Computer Engineering](https://cde.nus.edu.sg/ece/) (ECE), National University of Singapore (NUS). 
+Currently, I am a fourth-year Ph.D. student at the <img src="/files/NUS.png" alt="NUS" width="42.5" height="20"> [Department of Electrical and Computer Engineering](https://cde.nus.edu.sg/ece/) (ECE), National University of Singapore (NUS), supervised by [Prof. Robby T. Tan](http://tanrobby.github.io/). 
 I had my research internship in <img src="/files/adobe.png" alt="Adobe" width="20" height="20"> Adobe, mentored by [Connelly Barnes](http://www.connellybarnes.com/work/). 
 I also have 1-year working experience as a Machine Learning Research Engineer.
 
@@ -27,7 +27,7 @@ Previously, I completed my M.S. degree from <img src="/files/NUS.png" alt="NUS" 
 My primary research interests include computer vision and deep learning, mainly focusing on image translation/generation, image/video enhancement.
 
 # 📜 Research Area
-1. Generative Model (e.g., GAN, Diffusion), Image/Video Translation/Enhancement/Editing
+1. AIGC (e.g., GAN, Diffusion), Talking Face
 2. Image/Video Decomposition (e.g., Intrinsic Image Decomposition)
 3. Low-Level Vision in Adverse Lighting and Weather Conditions (e.g., Shadow/Night, Rain/Raindrop/Fog/Night Rain/Night Fog)
 4. Deep Learning and its Applications (e.g., Medical Images) 
@@ -132,7 +132,7 @@ aaai24_des3_stop()
 <em>Association for the Advancement of Artificial Intelligence (AAAI)</em>, 2024, Vancouver, Canada <br>
 <a href="https://arxiv.org/abs/2211.08089">arXiv</a>
 |
-<a href="">code</a>
+<a href="https://github.com/jinyeying/DeS3_Deshadow">code</a>
 |
 <a href="./files/submit23_shadowdiffusion_bibtex.txt">bibtex</a>
 <p></p>
@@ -397,7 +397,7 @@ accv22_defog_stop()
 - <img src="/files/aisg.png" alt="AISG" width="20" height="20"> [AI Singapore (AISG) Ph.D. Fellowship](https://aisingapore.org/research/phd-fellowship-programme/), Theme: Continuous Learning AI, Self-supervised Learning 
 
 # 💻 Academic Services
-- Reviewer: CVPR'24, TPAMI'23, AAAI'24, NeurIPS'23, ICCV'23, TIP'23, CVPR'23, AAAI'23, CVIU'23, TCSVT'23, TVCJ'23, NEUCOM'23, ACCV'22, ECCV'22, CVPR'22, IJCAI'22, IJCNN'21, etc.
+- Reviewer: IJCV'24, CVPR'24, TPAMI'23, AAAI'24, NeurIPS'23, ICCV'23, TIP'23, CVPR'23, AAAI'23, CVIU'23, TCSVT'23, TVCJ'23, NEUCOM'23, ACCV'22, ECCV'22, CVPR'22, IJCAI'22, IJCNN'21, etc.
 - Teaching Assistant: [EE5731 Visual Computing](https://tanrobby.github.io/teaching/ece_visual/index.html), EE5904 Neural Network (NUS ECE)
 
 # 💬 Invited Talks
