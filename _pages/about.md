@@ -18,12 +18,12 @@ redirect_from:
 
 My name is Yeying Jin. <span style="color:red"> I am actively seeking a Research Scientist role. I am a Singapore PR (Permanent Resident). </span>
 
-Currently, I am a Senior Researcher at [Tencent](https://www.tencent.com/en-us/about.html). I am pursuing my Ph.D. degree at the <img src="/files/NUS.png" alt="NUS" width="42.5" height="20"> [Department of Electrical and Computer Engineering](https://cde.nus.edu.sg/ece/) (ECE), National University of Singapore (NUS), supervised by [Prof. Robby T. Tan](http://tanrobby.github.io/). 
-I had my research internship in <img src="/files/adobe.png" alt="Adobe" width="20" height="20"> Adobe, mentored by [Connelly Barnes](http://www.connellybarnes.com/work/).
+Currently, I am a Senior Researcher at [Tencent](https://www.tencent.com/en-us/about.html). I am pursuing my Ph.D. degree at the <img src="/files/NUS.png" alt="NUS" width="42.5" height="20"> National University of Singapore (NUS), [Department of Electrical and Computer Engineering (ECE)](https://cde.nus.edu.sg/ece/), supervised by [Prof. Robby T. Tan](http://tanrobby.github.io/). 
+I had my research internship in <img src="/files/adobe.png" alt="Adobe" width="20" height="20"> Adobe, mentored by [Prof. Connelly Barnes](http://www.connellybarnes.com/work/).
 
-Previously, I completed my M.S. degree from <img src="/files/NUS.png" alt="NUS" width="42.5" height="20"> ECE, NUS; received my B.Eng degree from <img src="/files/UESTC.png" alt="UESTC" width="20.842" height="20"> [University of Electronic Science and Technology of China (UESTC)](https://en.uestc.edu.cn/). 
+Previously, I completed my M.S. degree from <img src="/files/NUS.png" alt="NUS" width="42.5" height="20"> National University of Singapore (NUS); received my B.Eng degree from <img src="/files/UESTC.png" alt="UESTC" width="20.842" height="20"> [University of Electronic Science and Technology of China (UESTC)](https://en.uestc.edu.cn/). 
 
-My primary research interests include computer vision and deep learning, mainly focusing on image translation/generation, image/video enhancement.
+My primary research interests include computer vision and deep learning, mainly focusing on image/video generation and enhancement.
 
 # 📜 Research Area
 1. AIGC (e.g., GAN, Diffusion, ControlNet, LoRA), Talking Face Generation
@@ -431,7 +431,7 @@ accv22_defog_stop()
 - Sep'2013-Jul'2017: B.Eng (Electrical and Computer Engineering), <img src="/files/UESTC.png" alt="UESTC" width="20.842" height="20"> UESTC, China (GPA: 3.93/4.00)
 
 # 👔 Internship and Work Experience
-- Jan'2024: Senior Researcher at <img src="/files/tencent.png" alt="Tencent" width="80" height="20"> Singapore.
+- Jan'2024: Senior Researcher at <img src="/files/tencent.png" alt="Tencent" width="85" height="20"> Singapore, working on AIGC.
 
 - Jun'2023-Sep'2023: <img src="/files/adobe.png" alt="Adobe" width="20" height="20"> [Adobe Research Intern](https://www.adobe.com/), Creative Intelligence Lab, mentored by [Connelly Barnes](http://www.connellybarnes.com/work/), worked with [Yuqian Zhou](https://yzhouas.github.io/), [Lingzhi Zhang](https://owenzlz.github.io/), [Sohrab Amirghodsi](https://www.linkedin.com/in/sohrab-amirghodsi-a89548a3/), [Eric Kee](https://www.erickee.com/).
 
@@ -463,7 +463,7 @@ accv22_defog_stop()
   </tr>
   <tr>
     <td>Poster Present at ACM'MM'24</td>
-    <td><img src="/files/ACM.png" alt="ACM" width="28.026" height="20">, Ottawa, Canada</td>
+    <td><img src="/files/ACM.png" alt="ACM" width="39.524" height="20">, Ottawa, Canada</td>
     <td>Feb 2024</td>
   </tr>
   <tr>
@@ -488,7 +488,7 @@ accv22_defog_stop()
   </tr>
   <tr>
     <td>Diffusion Model in Image Processing</td>
-    <td><img src="/files/ByteDance.png" alt="ByteDance" width="110.77" height="20">, (invited by <a href="https://hanshuyan.github.io/">Hanshu Yan</a>)</td>
+    <td><img src="/files/ByteDance.png" alt="ByteDance" width="100" height="20">, (invited by <a href="https://hanshuyan.github.io/">Hanshu Yan</a>)</td>
     <td>Jan 2023</td>
   </tr>
   <tr>
@@ -523,7 +523,7 @@ accv22_defog_stop()
   </tr>
   <tr>
     <td>Expo Demo at NeurIPS'19</td>
-    <td><img src="/files/NeurIPS.png" alt="NeurIPS" width="38.038" height="20">, Vancouver, Canada</td>
+    <td><img src="/files/NeurIPS.png" alt="NeurIPS" width="44.444" height="20">, Vancouver, Canada</td>
     <td>Dec 2019</td>
   </tr>
 </table>
