@@ -16,20 +16,19 @@ redirect_from:
 {% assign url = gsDataBaseUrl | append: "google-scholar-stats/gs_data_shieldsio.json" %}
 <span class='anchor' id='about-me'></span>
 
-My name is Yeying Jin. <span style="color:red"> I am actively seeking Research or Computer Vision Scientist/Engineer roles. I am a Singapore PR (Permanent Resident), eligible for a US O1 visa. </span>
+My name is Yeying Jin. <span style="color:red"> I am actively seeking a Research Scientist role. I am a Singapore PR (Permanent Resident). </span>
 
-Currently, I am a fourth-year Ph.D. student at the <img src="/files/NUS.png" alt="NUS" width="42.5" height="20"> [Department of Electrical and Computer Engineering](https://cde.nus.edu.sg/ece/) (ECE), National University of Singapore (NUS), supervised by [Prof. Robby T. Tan](http://tanrobby.github.io/). 
-I had my research internship in <img src="/files/adobe.png" alt="Adobe" width="20" height="20"> Adobe, mentored by [Connelly Barnes](http://www.connellybarnes.com/work/). 
-I also have 1-year working experience as a Machine Learning Research Engineer.
+Currently, I am a Senior Researcher at [Tencent](https://www.tencent.com/en-us/about.html). I am pursuing my Ph.D. degree at the <img src="/files/NUS.png" alt="NUS" width="42.5" height="20"> [Department of Electrical and Computer Engineering](https://cde.nus.edu.sg/ece/) (ECE), National University of Singapore (NUS), supervised by [Prof. Robby T. Tan](http://tanrobby.github.io/). 
+I had my research internship in <img src="/files/adobe.png" alt="Adobe" width="20" height="20"> Adobe, mentored by [Connelly Barnes](http://www.connellybarnes.com/work/).
 
 Previously, I completed my M.S. degree from <img src="/files/NUS.png" alt="NUS" width="42.5" height="20"> ECE, NUS; received my B.Eng degree from <img src="/files/UESTC.png" alt="UESTC" width="20.842" height="20"> [University of Electronic Science and Technology of China (UESTC)](https://en.uestc.edu.cn/). 
 
 My primary research interests include computer vision and deep learning, mainly focusing on image translation/generation, image/video enhancement.
 
 # 📜 Research Area
-1. AIGC (e.g., GAN, Diffusion), Talking Face
-2. Image/Video Decomposition (e.g., Intrinsic Image Decomposition)
-3. Low-Level Vision in Adverse Lighting and Weather Conditions (e.g., Shadow/Night, Rain/Raindrop/Fog/Night Rain/Night Fog)
+1. AIGC (e.g., GAN, Diffusion, ControlNet, LoRA), Talking Face Generation
+2. Enhancement and Restoration in Adverse Lighting and Weather Conditions
+3. Image/Video Decomposition (e.g., Intrinsic Image Decomposition)
 4. Deep Learning and its Applications (e.g., Medical Images) 
 
 # 📝 Publications
@@ -105,7 +104,7 @@ My primary research interests include computer vision and deep learning, mainly 
 <!-- ###################################################################################################-->
   
 <!-- ###################################################################################################-->
-<!-- Paper V DeS3-->
+<!-- Paper V DeS3 -->
 <tr onmouseout="aaai24_des3_stop()" onmouseover="aaai24_des3_start()" >
 <td width="20%">
 <div class="one">
@@ -127,19 +126,62 @@ aaai24_des3_stop()
     <papertitle_just>DeS3: Adaptive Attention-driven Self and Soft Shadow Removal using ViT Similarity</papertitle_just>     
   </a>
   <br>
-  <strong>Yeying Jin</strong>, Wenhan Yang, Yuan Yuan, Wei Ye, Robby T. Tan
+  <strong>Yeying Jin</strong>, Yuan Yuan, Wenhan Yang, Wei Ye, Robby T. Tan
   <br>
 <em>Association for the Advancement of Artificial Intelligence (AAAI)</em>, 2024, Vancouver, Canada <br>
 <a href="https://arxiv.org/abs/2211.08089">arXiv</a>
 |
-<a href="https://github.com/jinyeying/DeS3_Deshadow">code</a>
+<a href="https://github.com/jinyeying/DeS3_Deshadow"><img src="https://img.shields.io/github/stars/jinyeying/DeS3_Deshadow?style=social&label=Stars"></a>
 |
 <a href="./files/submit23_shadowdiffusion_bibtex.txt">bibtex</a>
+|
+<a href="https://ojs.aaai.org/index.php/AAAI/article/view/28041">paper</a>
+|
+<a href="https://www.dropbox.com/scl/fi/tutat8lsd2qc172tvq0ak/DeS3_poster.pdf?rlkey=71arx5ph6cnqez6yclqtmolay&dl=0">poster</a>
+|  
+<a href="https://www.dropbox.com/scl/fi/x0hup1n9veohk6olc8j5e/DeS3_slides.pdf?rlkey=kquyhmx67lrs2st52324283o5&dl=0">slides</a>
 <p></p>
 <p>First diffusion-based shadow removal performs robustly on hard, soft and self shadows.</p>
 </td>
 </tr>
 <!-- Paper V DeS3 -->
+<!-- ###################################################################################################-->
+
+<!-- ###################################################################################################-->
+<!-- Paper V NightRain -->
+<tr onmouseout="aaai24_nightrain_stop()" onmouseover="aaai24_nightrain_start()" >
+<td width="20%">
+<div class="one">
+<div class="two" id = 'nightrain_image'><img src='./files/nightrain_after.png'></div>
+<img src='./files/nightrain_before.png'>
+</div>
+<script type="text/javascript">
+function aaai24_nightrain_start() {
+document.getElementById('aaai24_nightrain_image').style.opacity = "1";
+}
+function aaai24_nightrain_stop() {
+document.getElementById('aaai24_nightrain_image').style.opacity = "0";
+}
+aaai24_nightrain_stop()
+</script>
+</td>
+<td valign="top" width="80%">
+  <a href="https://arxiv.org/abs/2401.00729">
+    <papertitle_just>NightRain: Nighttime Video Deraining via Adaptive-Rain-Removal and Adaptive-Correction</papertitle_just>     
+  </a>
+  <br>
+  Beibei Lin, <strong>Yeying Jin</strong>, Wending Yan, Wei Ye, Yuan Yuan, Sunli Zhang, Robby T. Tan
+  <br>
+<em>Association for the Advancement of Artificial Intelligence (AAAI)</em>, 2024, Vancouver, Canada <br>
+<a href="https://arxiv.org/abs/2401.00729">arXiv</a>
+|
+<a href="./files/aaai24_nightrain_bibtex.txt">bibtex</a>
+|
+<a href="https://www.dropbox.com/scl/fi/pe8qn2cw9lb90shfxhxp5/nightrain_poster.pdf?rlkey=dzr1wtdyxc9aq4wlc1pnucr3y&dl=0">poster</a>
+<p></p>
+</td>
+</tr>
+<!-- Paper V NightRain -->
 <!-- ###################################################################################################-->
 
 
@@ -388,16 +430,18 @@ accv22_defog_stop()
 - Aug'2017-Aug'2018: M.S. (Electrical and Computer Engineering), <img src="/files/NUS.png" alt="NUS" width="42.5" height="20"> NUS, Singapore
 - Sep'2013-Jul'2017: B.Eng (Electrical and Computer Engineering), <img src="/files/UESTC.png" alt="UESTC" width="20.842" height="20"> UESTC, China (GPA: 3.93/4.00)
 
-# 👔 Internships and Work Experience
-- Jun'2023-Sep'2023: <img src="/files/adobe.png" alt="Adobe" width="20" height="20"> [Adobe Research Intern](https://www.adobe.com/), Creative Intelligence Lab, mentored by [Connelly Barnes](http://www.connellybarnes.com/work/), worked with [Yuqian Zhou](https://yzhouas.github.io/), [Lingzhi Zhang](https://owenzlz.github.io/), [Sohrab Amirghodsi](https://www.linkedin.com/in/sohrab-amirghodsi-a89548a3/), [Eric Kee](https://www.erickee.com/)
+# 👔 Internship and Work Experience
+- Jan'2024: Senior Researcher at <img src="/files/tencent.png" alt="Tencent" width="80" height="20"> Singapore.
 
-- Jan'2019-Jan'2020: Machine Learning Research Engineer at <img src="/files/biomind.png" alt="Biomind" width="80" height="20"> Singapore, advised by [Prof. Feng Jiashi](https://sites.google.com/site/jshfeng/), worked intensively on Biomedical Image Translation, Synthesis, Super-resolution, Tumor Segmentation and Classification, expo demo for ["Deep Learning-Based End-to-end Automatic Contouring and Automated Radiation Therapy Treatment Planning System"](https://media.neurips.cc/Conferences/NeurIPS2019/NeurIPS_Expo_Book_2019.pdf) in [Neural Information Processing Systems (NeurIPS)'2019](https://nips.cc/Conferences/2019).
+- Jun'2023-Sep'2023: <img src="/files/adobe.png" alt="Adobe" width="20" height="20"> [Adobe Research Intern](https://www.adobe.com/), Creative Intelligence Lab, mentored by [Connelly Barnes](http://www.connellybarnes.com/work/), worked with [Yuqian Zhou](https://yzhouas.github.io/), [Lingzhi Zhang](https://owenzlz.github.io/), [Sohrab Amirghodsi](https://www.linkedin.com/in/sohrab-amirghodsi-a89548a3/), [Eric Kee](https://www.erickee.com/).
+
+- Jan'2019-Jan'2020: Machine Learning Researcher at <img src="/files/biomind.png" alt="Biomind" width="80" height="20"> Singapore, advised by [Prof. Feng Jiashi](https://sites.google.com/site/jshfeng/), worked on Biomedical Image Synthesis, Super-resolution, Tumor Segmentation and Classification, expo demo for ["Deep Learning-Based End-to-end Automatic Contouring and Automated Radiation Therapy Treatment Planning System"](https://media.neurips.cc/Conferences/NeurIPS2019/NeurIPS_Expo_Book_2019.pdf).
 
 # 🎖 Honors and Awards
 - <img src="/files/aisg.png" alt="AISG" width="20" height="20"> [AI Singapore (AISG) Ph.D. Fellowship](https://aisingapore.org/research/phd-fellowship-programme/), Theme: Continuous Learning AI, Self-supervised Learning 
 
 # 💻 Academic Services
-- Reviewer: IJCV'24, CVPR'24, TPAMI'23, AAAI'24, NeurIPS'23, ICCV'23, TIP'23, CVPR'23, AAAI'23, CVIU'23, TCSVT'23, TVCJ'23, NEUCOM'23, ACCV'22, ECCV'22, CVPR'22, IJCAI'22, IJCNN'21, etc.
+- Reviewer: ECCV'24, IJCV'24, CVPR'24, TPAMI'23, AAAI'24, NeurIPS'23, ICCV'23, TIP'23, CVPR'23, AAAI'23, CVIU'23, TCSVT'23, TVCJ'23, NEUCOM'23, ACCV'22, ECCV'22, CVPR'22, IJCAI'22, IJCNN'21, etc.
 - Teaching Assistant: [EE5731 Visual Computing](https://tanrobby.github.io/teaching/ece_visual/index.html), EE5904 Neural Network (NUS ECE)
 
 # 💬 Invited Talks
@@ -406,6 +450,21 @@ accv22_defog_stop()
     <th>Topic</th>
     <th>Host</th>
     <th>Date</th>
+  </tr>
+  <tr>
+    <td>Poster Present at AAAI'24</td>
+    <td><img src="/files/AAAI.png" alt="AAAI" width="28.026" height="20">, Vancouver, Canada</td>
+    <td>Feb 2024</td>
+  </tr>
+  <tr>
+    <td>Shadow Removal using Diffusion Model</td>
+    <td><img src="/files/AITIME.png" alt="AITIME" width="19.778" height="20"> AI TIME</td>
+    <td>Jan 2024</td>
+  </tr>
+  <tr>
+    <td>Poster Present at ACM'MM'24</td>
+    <td><img src="/files/ACM.png" alt="ACM" width="28.026" height="20">, Ottawa, Canada</td>
+    <td>Feb 2024</td>
   </tr>
   <tr>
     <td>Visibility Enhancement using Generative Model</td>
@@ -461,6 +520,11 @@ accv22_defog_stop()
     <td>Poster Present at ECCV'22</td>
     <td><img src="/files/ECCV.png" alt="ECCV" width="38.038" height="20">, Tel Aviv, Israel</td>
     <td>Oct 2022</td>
+  </tr>
+  <tr>
+    <td>Expo Demo at NeurIPS'19</td>
+    <td><img src="/files/NeurIPS.png" alt="NeurIPS" width="38.038" height="20">, Vancouver, Canada</td>
+    <td>Dec 2019</td>
   </tr>
 </table>
 
