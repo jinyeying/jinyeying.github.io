@@ -1,0 +1,6 @@
+@article{li2024sed,
+  title={SeD: Semantic-Aware Discriminator for Image Super-Resolution},
+  author={Li, Bingchen and Li, Xin and Zhu, Hanxin and Jin, Yeying and Feng, Ruoyu and Zhang, Zhizheng and Chen, Zhibo},
+  journal={arXiv preprint arXiv:2402.19387},
+  year={2024}
+}

@@ -1,0 +1,9 @@
+@inproceedings{lin2024nightrain,
+  title={NightRain: Nighttime Video Deraining via Adaptive-Rain-Removal and Adaptive-Correction},
+  author={Lin, Beibei and Jin, Yeying and Yan, Wending and Ye, Wei and Yuan, Yuan and Zhang, Shunli and Tan, Robby T},
+  booktitle={Proceedings of the AAAI Conference on Artificial Intelligence},
+  volume={38},
+  number={4},
+  pages={3378--3385},
+  year={2024}
+}
