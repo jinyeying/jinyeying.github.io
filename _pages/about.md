@@ -16,7 +16,7 @@ redirect_from:
 {% assign url = gsDataBaseUrl | append: "google-scholar-stats/gs_data_shieldsio.json" %}
 <span class='anchor' id='about-me'></span>
 
-My name is Yeying Jin. <span style="color:red"> I am actively seeking a Research Scientist role. I am a Singapore PR (Permanent Resident). </span>
+My name is Yeying Jin. <span style="color:red"> I am seeking a Research Scientist role. I am a Singapore PR (Permanent Resident). </span>
 
 Currently, I am a Senior Researcher at [Tencent](https://www.tencent.com/en-us/about.html). I am pursuing my Ph.D. degree at the <img src="/files/NUS.png" alt="NUS" width="42.5" height="20"> National University of Singapore (NUS), [Department of Electrical and Computer Engineering (ECE)](https://cde.nus.edu.sg/ece/), supervised by [Prof. Robby T. Tan](http://tanrobby.github.io/). 
 I had my research internship in <img src="/files/adobe.png" alt="Adobe" width="20" height="20"> Adobe, mentored by [Prof. Connelly Barnes](http://www.connellybarnes.com/work/).
@@ -102,7 +102,75 @@ My primary research interests include computer vision and deep learning, mainly 
 <!-- ############################ Put your publications below this! ####################################-->
 
 <!-- ###################################################################################################-->
-  
+<!-- Paper VIII NightHaze -->
+<tr onmouseout="submit24_nighthaze_stop()" onmouseover="submit24_nighthaze_start()" >
+<td width="20%">
+<div class="one">
+<div class="two" id = 'submit24_nighthaze_image'><img src='./files/submit24_after.png'></div>
+<img src='./files/submit24_before.png'>
+</div>
+<script type="text/javascript">
+function submit24_nighthaze_start() {
+document.getElementById('submit24_nighthaze_image').style.opacity = "1";
+}
+function submit24_nighthaze_stop() {
+document.getElementById('submit24_nighthaze_image').style.opacity = "0";
+}
+submit24_nighthaze_stop()
+</script>
+</td>
+<td valign="top" width="80%">
+  <a href="https://arxiv.org/abs/2403.07408">
+    <papertitle_just>NightHaze: Nighttime Image Dehazing via Self-Prior Learning</papertitle_just>     
+  </a>
+  <br>
+  Beibei Lin*, <strong>Yeying Jin*</strong>, Wending Yan, Wei Ye, Yuan Yuan, Robby T. Tan (Equal-first author)
+  <br>
+<em>In review</em>, 2024 <br>
+<a href="https://arxiv.org/abs/2403.07408">arXiv</a>
+|
+<a href="./files/submit24_nighthaze_bibtex.txt">bibtex</a>
+<p></p>
+</td>
+</tr>
+<!-- Paper VIII NightHaze -->
+<!-- ###################################################################################################-->
+
+<!-- ###################################################################################################-->
+<!-- Paper VII Super-resolution -->
+<tr onmouseout="cvpr24_sr_stop()" onmouseover="cvpr24_sr_start()" >
+<td width="20%">
+<div class="one">
+<div class="two" id = 'cvpr24_sr_image'><img src='./files/cvpr24_after.png'></div>
+<img src='./files/cvpr24_before.png'>
+</div>
+<script type="text/javascript">
+function cvpr24_sr_start() {
+document.getElementById('cvpr24_sr_image').style.opacity = "1";
+}
+function cvpr24_sr_stop() {
+document.getElementById('cvpr24_sr_image').style.opacity = "0";
+}
+cvpr24_sr_stop()
+</script>
+</td>
+<td valign="top" width="80%">
+  <a href="https://arxiv.org/abs/2402.19387">
+    <papertitle_just>SeD: Semantic-Aware Discriminator for Image Super-Resolution</papertitle_just>     
+  </a>
+  <br>
+  Bingchen Li, Xin Li, Hanxin Zhu, <strong>Yeying Jin</strong>, Ruoyu Feng, Zhizheng Zhang, Zhibo Chen
+  <br>
+<em>Conference on Computer Vision and Pattern Recognition (CVPR)</em>, 2024, Seattle, USA <br>
+<a href="https://arxiv.org/abs/2402.19387">arXiv</a>
+|
+<a href="./files/cvpr24_sr_bibtex.txt">bibtex</a>
+<p></p>
+</td>
+</tr>
+<!-- Paper VII Super-resolution -->
+<!-- ###################################################################################################-->
+
 <!-- ###################################################################################################-->
 <!-- Paper V DeS3 -->
 <tr onmouseout="aaai24_des3_stop()" onmouseover="aaai24_des3_start()" >
@@ -148,11 +216,11 @@ aaai24_des3_stop()
 <!-- ###################################################################################################-->
 
 <!-- ###################################################################################################-->
-<!-- Paper V NightRain -->
+<!-- Paper VI NightRain -->
 <tr onmouseout="aaai24_nightrain_stop()" onmouseover="aaai24_nightrain_start()" >
 <td width="20%">
 <div class="one">
-<div class="two" id = 'nightrain_image'><img src='./files/nightrain_after.png'></div>
+<div class="two" id = 'aaai24_nightrain_image'><img src='./files/nightrain_after.png'></div>
 <img src='./files/nightrain_before.png'>
 </div>
 <script type="text/javascript">
@@ -170,7 +238,7 @@ aaai24_nightrain_stop()
     <papertitle_just>NightRain: Nighttime Video Deraining via Adaptive-Rain-Removal and Adaptive-Correction</papertitle_just>     
   </a>
   <br>
-  Beibei Lin, <strong>Yeying Jin</strong>, Wending Yan, Wei Ye, Yuan Yuan, Sunli Zhang, Robby T. Tan
+  Beibei Lin*, <strong>Yeying Jin*</strong>, Wending Yan, Wei Ye, Yuan Yuan, Sunli Zhang, Robby T. Tan
   <br>
 <em>Association for the Advancement of Artificial Intelligence (AAAI)</em>, 2024, Vancouver, Canada <br>
 <a href="https://arxiv.org/abs/2401.00729">arXiv</a>
@@ -181,9 +249,8 @@ aaai24_nightrain_stop()
 <p></p>
 </td>
 </tr>
-<!-- Paper V NightRain -->
+<!-- Paper VI NightRain -->
 <!-- ###################################################################################################-->
-
 
 <!-- ###################################################################################################-->
 <!-- Paper II NightEnhance, ECCV'22 -->
@@ -235,7 +302,6 @@ eccv22_nightenhance_stop()
 <!-- Paper II NightEnhance, ECCV'22 -->
 <!-- ###################################################################################################-->
 
-
 <!-- ###################################################################################################-->
 <!-- Paper I DC-ShadowNet, ICCV'21 -->
 <tr onmouseout="iccv21_dcshadownet_stop()" onmouseover="iccv21_dcshadownet_start()" >
@@ -282,7 +348,6 @@ iccv21_dcshadownet_stop()
 <!-- Paper I DC-ShadowNet, ICCV'21 -->
 <!-- ###################################################################################################-->
 
-
 <!-- Paper VI NightFog-->
 <tr onmouseout="acmmm23_nightdehaze_stop()" onmouseover="acmmm23_nightdehaze_start()" >
 <td width="20%">
@@ -305,7 +370,7 @@ acmmm23_nightdehaze_stop()
     <papertitle_just>Enhancing Visibility in Nighttime Haze Images Using Guided APSF and Gradient Adaptive Convolution</papertitle_just>     
   </a>
   <br>
-  <strong>Yeying Jin</strong>, Beibei Lin*, Wending Yan, Wei Ye, Yuan Yuan, Robby T. Tan (Equal-first author)
+  <strong>Yeying Jin*</strong>, Beibei Lin*, Wending Yan, Wei Ye, Yuan Yuan, Robby T. Tan
   <br>
 <em>ACM Multimedia (ACM'MM)</em>, 2023, Ottawa, Canada <br>
 <a href="https://arxiv.org/abs/2308.01738">arXiv</a>
@@ -431,6 +496,7 @@ accv22_defog_stop()
 - Sep'2013-Jul'2017: B.Eng (Electrical and Computer Engineering), <img src="/files/UESTC.png" alt="UESTC" width="20.842" height="20"> UESTC, China (GPA: 3.93/4.00)
 
 # 👔 Internship and Work Experience
+
 - Jan'2024: Senior Researcher at <img src="/files/tencent.png" alt="Tencent" width="85" height="20"> Singapore, working on AIGC.
 
 - Jun'2023-Sep'2023: <img src="/files/adobe.png" alt="Adobe" width="20" height="20"> [Adobe Research Intern](https://www.adobe.com/), Creative Intelligence Lab, mentored by [Connelly Barnes](http://www.connellybarnes.com/work/), worked with [Yuqian Zhou](https://yzhouas.github.io/), [Lingzhi Zhang](https://owenzlz.github.io/), [Sohrab Amirghodsi](https://www.linkedin.com/in/sohrab-amirghodsi-a89548a3/), [Eric Kee](https://www.erickee.com/).
