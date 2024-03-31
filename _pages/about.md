@@ -141,8 +141,8 @@ submit24_nighthaze_stop()
 <tr onmouseout="cvpr24_sr_stop()" onmouseover="cvpr24_sr_start()" >
 <td width="20%">
 <div class="one">
-<div class="two" id = 'cvpr24_sr_image'><img src='./files/cvpr24_after.jpg'></div>
-<img src='./files/cvpr24_before.jpg'>
+<div class="two" id = 'cvpr24_sr_image'><img src='./files/cvpr24_after.png'></div>
+<img src='./files/cvpr24_before.png'>
 </div>
 <script type="text/javascript">
 function cvpr24_sr_start() {
