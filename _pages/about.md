@@ -164,6 +164,8 @@ cvpr24_sr_stop()
 <em>Conference on Computer Vision and Pattern Recognition (CVPR)</em>, 2024, Seattle, USA <br>
 <a href="https://arxiv.org/abs/2402.19387">arXiv</a>
 |
+<a href="https://github.com/lbc12345/SeD"><img src="https://img.shields.io/github/stars/lbc12345/SeD?style=social&label=Stars"></a>
+|
 <a href="./files/cvpr24_sr_bibtex.txt">bibtex</a>
 <p></p>
 </td>
