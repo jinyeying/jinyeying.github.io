@@ -16,7 +16,7 @@ redirect_from:
 {% assign url = gsDataBaseUrl | append: "google-scholar-stats/gs_data_shieldsio.json" %}
 <span class='anchor' id='about-me'></span>
 
-My name is Yeying Jin. <span style="color:red"> I am seeking a Research Scientist role. I am a Singapore PR (Permanent Resident). </span>
+My name is Yeying Jin. <span style="color:black"> I am a Singapore PR (Permanent Resident). </span>
 
 Currently, I am a Senior Researcher at [Tencent](https://www.tencent.com/en-us/about.html). I am pursuing my Ph.D. degree at the <img src="/files/NUS.png" alt="NUS" width="42.5" height="20"> National University of Singapore (NUS), [Department of Electrical and Computer Engineering (ECE)](https://cde.nus.edu.sg/ece/), supervised by [Prof. Robby T. Tan](http://tanrobby.github.io/). 
 I had my research internship in <img src="/files/adobe.png" alt="Adobe" width="20" height="20"> Adobe, mentored by [Prof. Connelly Barnes](http://www.connellybarnes.com/work/).
