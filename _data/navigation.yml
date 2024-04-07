@@ -13,7 +13,7 @@ main:
     url: "/#-educations"
   
   - title: "Work"
-    url: "/#-internships-and-work-experience"
+    url: "/#-internship-and-visiting-experience"
 
   - title: "Awards"
     url: "/#-honors-and-awards"
@@ -27,8 +27,8 @@ main:
   # - title: "Teaching"
   #   url: /teaching/    
     
-  - title: "CV"
-    url: "/#cv/"
+  # - title: "CV"
+  #   url: "/#cv/"
     
   # - title: "Guide"
   #   url: /markdown/
