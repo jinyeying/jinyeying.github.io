@@ -8,13 +8,15 @@
 # Site Settings
 locale                   : "en-US"
 title                    : "JIN YEYING"
-title_separator          : 
 name                     : &name "Jin Yeying"
 description              : "PhD at NUS | Tencent"
 URL                      : "https://jinyeying.github.io"
-baseurl                  : "" # the subpath of your site, e.g. "/blog"
-repository               : "jinyeying/jinyeying.github.io"
-teaser                   :  # filename of teaser fallback teaser image placed in /images/, .e.g. "500x300.png"
+repository               : "jinyeying.github.io"
+google_scholar_stats_use_cdn : true
+
+# google analytics
+google_analytics_id      :  # get google_analytics_id from https://analytics.google.com/analytics/
+
 breadcrumbs              : false # true, false (default)
 words_per_minute         : 160
 future                   : true
@@ -108,7 +110,7 @@ author:
   orcid            : "https://orcid.org/0000-0001-7818-9534"
   pinterest        :
   soundcloud       :
-  stackoverflow    : # http://stackoverflow.com/users/123456/username
+  stackoverflow    : 
   steam            :
   tumblr           :
   twitter          : 
