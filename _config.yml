@@ -80,7 +80,7 @@ analytics:
 
 # Site Author
 author:
-  name             : "Jin Yeying (金晔莹)"
+  name             : "Jin Yeying"
   avatar           : "my_pic.jpg"
   bio              : "[Curriculum Vitae]"
   location         : "Singapore"
@@ -89,7 +89,7 @@ author:
   googlescholar    : "https://scholar.google.com/citations?user=Z8PYhA4AAAAJ&hl=en&oi=ao"
   email            : "jinyeying715@gmail.com"
   researchgate     : #"https://www.researchgate.net/profile/Yeying_Jin"
-  uri              :
+  uri              : "https://www.zhihu.com/people/jinyeying"
   bitbucket        :
   codepen          :
   dribbble         :
