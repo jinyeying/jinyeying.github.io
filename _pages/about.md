@@ -16,14 +16,12 @@ redirect_from:
 {% assign url = gsDataBaseUrl | append: "google-scholar-stats/gs_data_shieldsio.json" %}
 <span class='anchor' id='about-me'></span>
 
-My name is Yeying Jin. <span style="color:black"> I am a Singapore PR (Permanent Resident). </span>
-
 Currently, I am a Senior Researcher at [Tencent](https://www.tencent.com/en-us/about.html). I am pursuing my Ph.D. degree at the <img src="/files/NUS.png" alt="NUS" width="42.5" height="20"> [National University of Singapore (NUS), Department of Electrical and Computer Engineering (ECE)](https://cde.nus.edu.sg/ece/), supervised by [Prof. Robby T. Tan](http://tanrobby.github.io/). 
 I had my research internship in <img src="/files/adobe.png" alt="Adobe" width="20" height="20"> Adobe, mentored by [Prof. Connelly Barnes](http://www.connellybarnes.com/work/).
 
 Previously, I completed my M.Sc. degree at the <img src="/files/NUS.png" alt="NUS" width="42.5" height="20"> [National University of Singapore (NUS)](https://cde.nus.edu.sg/ece/); received my B.Eng. degree from the <img src="/files/UESTC.png" alt="UESTC" width="20.842" height="20"> [University of Electronic Science and Technology of China (UESTC)](https://en.uestc.edu.cn/). 
 
-My primary research interests include computer vision and deep learning, mainly focusing on image/video generation and enhancement.
+My primary research interests include computer vision and deep learning, mainly focusing on image/video generation and enhancement. 
 
 # 📜 Research Area
 1. AIGC (e.g., GAN, Diffusion, ControlNet, LoRA), Talking Face Generation
@@ -522,77 +520,77 @@ accv22_defog_stop()
   <tr>
     <td>Poster Present at AAAI'24</td>
     <td><img src="/files/AAAI.png" alt="AAAI" width="28.026" height="20"> Vancouver, Canada</td>
-    <td>Feb 2024</td>
+    <td>Feb'2024</td>
   </tr>
   <tr>
     <td>Shadow Removal using Diffusion Model</td>
     <td><img src="/files/AITIME.png" alt="AITIME" width="19.778" height="20"> AI TIME</td>
-    <td>Jan 2024</td>
+    <td>Jan'2024</td>
   </tr>
   <tr>
     <td>Poster Present at ACM'MM'24</td>
     <td><img src="/files/ACM.png" alt="ACM" width="39.524" height="20"> Ottawa, Canada</td>
-    <td>Feb 2024</td>
+    <td>Feb'2024</td>
   </tr>
   <tr>
     <td>Visibility Enhancement using Generative Model</td>
     <td><img src="/files/huawei.png" alt="Huawei" width="19.978" height="20"> Huawei Shanghai HiSilicon</td>
-    <td>Jul 2023</td>
+    <td>Jul'2023</td>
   </tr>
   <tr>
     <td>NextCam Reading Group: Light-effects Suppression</td>
     <td><img src="/files/adobe.png" alt="Adobe" width="20" height="20"> Adobe, USA</td>
-    <td>Jul 2023</td>
+    <td>Jul'2023</td>
   </tr>
   <tr>
     <td>Image/Video Restoration</td>
     <td><img src="/files/huawei.png" alt="Huawei" width="19.978" height="20"> Huawei Shanghai HiSilicon</td>
-    <td>Mar 2023</td>
+    <td>Mar'2023</td>
   </tr>
   <tr>
     <td>Intrinsic Image Decomposition</td>
     <td><img src="/files/AITIME.png" alt="AITIME" width="19.778" height="20"> AI TIME</td>
-    <td>Feb 2023</td>
+    <td>Feb'2023</td>
   </tr>
   <tr>
     <td>Diffusion Model in Image Processing</td>
     <td><img src="/files/ByteDance.png" alt="ByteDance" width="100" height="20"> (invited by <a href="https://hanshuyan.github.io/">Hanshu Yan</a>)</td>
-    <td>Jan 2023</td>
+    <td>Jan'2023</td>
   </tr>
   <tr>
     <td>Visibility Enhancement in Nighttime</td>
     <td><img src="/files/huawei.png" alt="Huawei" width="19.978" height="20"> Huawei, Singapore</td>
-    <td>Dec 2022</td>
+    <td>Dec'2022</td>
   </tr>
   <tr>
     <td>Unsupervised Image Restoration and Generation</td>
     <td><img src="/files/AITIME.png" alt="AITIME" width="19.778" height="20"> AI TIME</td>
-    <td>Nov 2022</td>
+    <td>Nov'2022</td>
   </tr>
   <tr>
     <td>Poster Present at Singapore Vision Day</td>
     <td><img src="/files/NUS.png" alt="NUS" width="42.5" height="20">NUS Singapore</td>
-    <td>May 2023</td>
+    <td>May'2023</td>
   </tr>
   <tr>
     <td>Poster Present at AAAI'23</td>
     <td><img src="/files/AAAI.png" alt="AAAI" width="28.026" height="20"> Washington DC, USA</td>
-    <td>Feb 2023</td>
+    <td>Feb'2023</td>
   </tr>
   <tr>
     <td>Poster Present at AI Research Symposium</td>
     <td><img src="/files/aisg.png" alt="AISG" width="20" height="20"> AISG, Singapore</td>
-    <td>Jan 2023</td>
+    <td>Jan'2023</td>
   </tr>
   <tr>
     <td>Poster Present at ECCV'22</td>
     <td><img src="/files/ECCV.png" alt="ECCV" width="38.038" height="20"> Tel Aviv, Israel</td>
-    <td>Oct 2022</td>
+    <td>Oct'2022</td>
   </tr>
   <tr>
     <td>Expo Demo at NeurIPS'19</td>
     <td><img src="/files/NeurIPS.png" alt="NeurIPS" width="44.444" height="20"> Vancouver, Canada</td>
-    <td>Dec 2019</td>
+    <td>Dec'2019</td>
   </tr>
 </table>
 
