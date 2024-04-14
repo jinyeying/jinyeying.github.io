@@ -491,17 +491,17 @@ accv22_defog_stop()
 </tbody></table>
 
 # 🏫 Educations
-- Jan'2020-Jan'2024: Ph.D. (Computer Vision and Deep Learning), <img src="/files/NUS.png" alt="NUS" width="42.5" height="20"> NUS, Singapore (CAP: 4.75/5.00)
-- Aug'2017-Aug'2018: M.S. (Electrical and Computer Engineering), <img src="/files/NUS.png" alt="NUS" width="42.5" height="20"> NUS, Singapore
-- Sep'2013-Jul'2017: B.Eng (Electrical and Computer Engineering), <img src="/files/UESTC.png" alt="UESTC" width="20.842" height="20"> UESTC, China (GPA: 3.93/4.00)
+- 01.2020-01.2024: Ph.D. (Computer Vision and Deep Learning), <img src="/files/NUS.png" alt="NUS" width="42.5" height="20"> NUS, Singapore (CAP: 4.75/5.00)
+- 08.2017-08.2018: M.S. (Electrical and Computer Engineering), <img src="/files/NUS.png" alt="NUS" width="42.5" height="20"> NUS, Singapore
+- 09.2013-07.2017: B.Eng (Electrical and Computer Engineering), <img src="/files/UESTC.png" alt="UESTC" width="20.842" height="20"> UESTC, China (GPA: 3.93/4.00)
 
 # 👔 Internship and Work Experience
 
-- Jan'2024: Senior Researcher at <img src="/files/tencent.png" alt="Tencent" width="85" height="20"> Singapore, working on AIGC.
+- 01.2024: Senior Researcher at <img src="/files/tencent.png" alt="Tencent" width="85" height="20"> Singapore, working on AIGC.
 
-- Jun'2023-Sep'2023: <img src="/files/adobe.png" alt="Adobe" width="20" height="20"> [Adobe Research Intern](https://www.adobe.com/), Creative Intelligence Lab, mentored by [Connelly Barnes](http://www.connellybarnes.com/work/), worked with [Yuqian Zhou](https://yzhouas.github.io/), [Lingzhi Zhang](https://owenzlz.github.io/), [Sohrab Amirghodsi](https://www.linkedin.com/in/sohrab-amirghodsi-a89548a3/), [Eric Kee](https://www.erickee.com/).
+- 06.2023-09.2023: <img src="/files/adobe.png" alt="Adobe" width="20" height="20"> [Adobe Research Intern](https://www.adobe.com/), Creative Intelligence Lab, mentored by [Connelly Barnes](http://www.connellybarnes.com/work/), worked with [Yuqian Zhou](https://yzhouas.github.io/), [Lingzhi Zhang](https://owenzlz.github.io/), [Sohrab Amirghodsi](https://www.linkedin.com/in/sohrab-amirghodsi-a89548a3/), [Eric Kee](https://www.erickee.com/).
 
-- Jan'2019-Jan'2020: Machine Learning Researcher at <img src="/files/biomind.png" alt="Biomind" width="80" height="20"> Singapore, advised by [Prof. Feng Jiashi](https://sites.google.com/site/jshfeng/), worked on Biomedical Image Synthesis, Super-resolution, Tumor Segmentation and Classification, expo demo for ["Deep Learning-Based End-to-end Automatic Contouring and Automated Radiation Therapy Treatment Planning System"](https://media.neurips.cc/Conferences/NeurIPS2019/NeurIPS_Expo_Book_2019.pdf).
+- 01.2019-01.2020: Machine Learning Researcher at <img src="/files/biomind.png" alt="Biomind" width="80" height="20"> Singapore, advised by [Prof. Jiashi Feng](https://sites.google.com/site/jshfeng/), worked on Biomedical Image Synthesis, Super-resolution, Tumor Segmentation and Classification, expo demo for ["Deep Learning-Based End-to-end Automatic Contouring and Automated Radiation Therapy Treatment Planning System"](https://media.neurips.cc/Conferences/NeurIPS2019/NeurIPS_Expo_Book_2019.pdf).
 
 # 🎖 Honors and Awards
 - <img src="/files/aisg.png" alt="AISG" width="20" height="20"> [AI Singapore (AISG) Ph.D. Fellowship](https://aisingapore.org/research/phd-fellowship-programme/), Theme: Continuous Learning AI, Self-supervised Learning 
@@ -518,79 +518,59 @@ accv22_defog_stop()
     <th>Date</th>
   </tr>
   <tr>
-    <td>Poster Present at AAAI'24</td>
-    <td><img src="/files/AAAI.png" alt="AAAI" width="28.026" height="20"> Vancouver, Canada</td>
-    <td>Feb'2024</td>
-  </tr>
-  <tr>
-    <td>Shadow Removal using Diffusion Model</td>
+    <td><a href="https://www.bilibili.com/video/BV1wc411v7zf/?spm_id_from=333.999.0.0&vd_source=8ae1cd92e40b380c0296eb6843da79a4">Shadow Removal using Diffusion Model</a></td>
     <td><img src="/files/AITIME.png" alt="AITIME" width="19.778" height="20"> AI TIME</td>
-    <td>Jan'2024</td>
-  </tr>
-  <tr>
-    <td>Poster Present at ACM'MM'24</td>
-    <td><img src="/files/ACM.png" alt="ACM" width="39.524" height="20"> Ottawa, Canada</td>
-    <td>Feb'2024</td>
+    <td>01.2024</td>
   </tr>
   <tr>
     <td>Visibility Enhancement using Generative Model</td>
     <td><img src="/files/huawei.png" alt="Huawei" width="19.978" height="20"> Huawei Shanghai HiSilicon</td>
-    <td>Jul'2023</td>
+    <td>07.2023</td>
   </tr>
   <tr>
     <td>NextCam Reading Group: Light-effects Suppression</td>
     <td><img src="/files/adobe.png" alt="Adobe" width="20" height="20"> Adobe, USA</td>
-    <td>Jul'2023</td>
+    <td>07.2023</td>
   </tr>
   <tr>
-    <td>Image/Video Restoration</td>
+    <td>Image/Video Restoration and Generation</td>
     <td><img src="/files/huawei.png" alt="Huawei" width="19.978" height="20"> Huawei Shanghai HiSilicon</td>
-    <td>Mar'2023</td>
+    <td>03.2023</td>
   </tr>
   <tr>
-    <td>Intrinsic Image Decomposition</td>
+    <td><a href="https://www.bilibili.com/video/BV1Ca4y1C7xi/?spm_id_from=333.999.0.0&vd_source=8ae1cd92e40b380c0296eb6843da79a4">Intrinsic Image Decomposition</a></td>
     <td><img src="/files/AITIME.png" alt="AITIME" width="19.778" height="20"> AI TIME</td>
-    <td>Feb'2023</td>
+    <td>02.2023</td>
   </tr>
   <tr>
     <td>Diffusion Model in Image Processing</td>
     <td><img src="/files/ByteDance.png" alt="ByteDance" width="100" height="20"> (invited by <a href="https://hanshuyan.github.io/">Hanshu Yan</a>)</td>
-    <td>Jan'2023</td>
+    <td>01.2023</td>
   </tr>
   <tr>
     <td>Visibility Enhancement in Nighttime</td>
     <td><img src="/files/huawei.png" alt="Huawei" width="19.978" height="20"> Huawei, Singapore</td>
-    <td>Dec'2022</td>
+    <td>12.2022</td>
   </tr>
   <tr>
-    <td>Unsupervised Image Restoration and Generation</td>
+    <td><a href="https://www.bilibili.com/video/BV1Ec411s7at/?spm_id_from=333.999.0.0&vd_source=8ae1cd92e40b380c0296eb6843da79a4">Unsupervised Image Restoration and Generation</a></td>
     <td><img src="/files/AITIME.png" alt="AITIME" width="19.778" height="20"> AI TIME</td>
-    <td>Nov'2022</td>
+    <td>11.2022</td>
+  </tr>
+  <tr>
+    <th>Poster</th>
+    <th>Venue</th>
+    <th>Date</th>
   </tr>
   <tr>
     <td>Poster Present at Singapore Vision Day</td>
-    <td><img src="/files/NUS.png" alt="NUS" width="42.5" height="20">NUS Singapore</td>
-    <td>May'2023</td>
-  </tr>
-  <tr>
-    <td>Poster Present at AAAI'23</td>
-    <td><img src="/files/AAAI.png" alt="AAAI" width="28.026" height="20"> Washington DC, USA</td>
-    <td>Feb'2023</td>
+    <td><img src="/files/NUS.png" alt="NUS" width="42.5" height="20"> NUS, Singapore</td>
+    <td>05.2023</td>
   </tr>
   <tr>
     <td>Poster Present at AI Research Symposium</td>
     <td><img src="/files/aisg.png" alt="AISG" width="20" height="20"> AISG, Singapore</td>
-    <td>Jan'2023</td>
-  </tr>
-  <tr>
-    <td>Poster Present at ECCV'22</td>
-    <td><img src="/files/ECCV.png" alt="ECCV" width="38.038" height="20"> Tel Aviv, Israel</td>
-    <td>Oct'2022</td>
-  </tr>
-  <tr>
-    <td>Expo Demo at NeurIPS'19</td>
-    <td><img src="/files/NeurIPS.png" alt="NeurIPS" width="44.444" height="20"> Vancouver, Canada</td>
-    <td>Dec'2019</td>
+    <td>01.2023</td>
   </tr>
 </table>
 
