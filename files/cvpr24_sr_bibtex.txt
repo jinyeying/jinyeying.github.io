@@ -1,0 +1,6 @@
+@inproceedings{li2024sed,
+  title={SeD: Semantic-Aware Discriminator for Image Super-Resolution},
+  author={Li, Bingchen and Li, Xin and Zhu, Hanxin and Jin, Yeying and Feng, Ruoyu and Zhang, Zhizheng and Chen, Zhibo},
+  booktitle={Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition},
+  year={2024}
+}
