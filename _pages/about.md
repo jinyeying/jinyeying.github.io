@@ -507,7 +507,7 @@ accv22_defog_stop()
 - <img src="/files/aisg.png" alt="AISG" width="20" height="20"> [AI Singapore (AISG) Ph.D. Fellowship](https://aisingapore.org/research/phd-fellowship-programme/), Theme: Continuous Learning AI, Self-supervised Learning 
 
 # 💻 Academic Services
-- Reviewer: ECCV'24, IJCV'24, CVPR'24, TPAMI'23, AAAI'24, NeurIPS'23, ICCV'23, TIP'23, CVPR'23, AAAI'23, CVIU'23, TCSVT'23, TVCJ'23, NEUCOM'23, ACCV'22, ECCV'22, CVPR'22, IJCAI'22, IJCNN'21, etc.
+- Reviewer: NeurIPS'24, ECCV'24, IJCV'24, CVPR'24, TPAMI'23, AAAI'24, NeurIPS'23, ICCV'23, TIP'23, CVPR'23, AAAI'23, CVIU'23, TCSVT'23, TVCJ'23, NEUCOM'23, ACCV'22, ECCV'22, CVPR'22, IJCAI'22, IJCNN'21, etc.
 - Teaching Assistant: [EE5731 Visual Computing](https://tanrobby.github.io/teaching/ece_visual/index.html), EE5904 Neural Network (NUS ECE)
 
 # 💬 Invited Talks
@@ -561,6 +561,11 @@ accv22_defog_stop()
     <th>Poster</th>
     <th>Venue</th>
     <th>Date</th>
+  </tr>
+  <tr>
+    <td>Poster Present at VALSE</td>
+    <td><img src="/files/VALSE.png" alt="VALSE" width="23.2" height="20"> Chongqing, China</td>
+    <td>05.2024</td>
   </tr>
   <tr>
     <td>Poster Present at Singapore Vision Day</td>
