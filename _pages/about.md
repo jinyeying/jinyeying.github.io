@@ -100,6 +100,76 @@ My primary research interests include computer vision and deep learning, mainly 
 <!-- ############################ Put your publications below this! ####################################-->
 
 <!-- ###################################################################################################-->
+<!-- Paper XI RaindropClarity -->
+<tr onmouseout="eccv24_rd_stop()" onmouseover="eccv24_rd_start()" >
+<td width="20%">
+<div class="one">
+<div class="two" id = 'eccv24_rd_image'><img src='./files/eccv24_raindropclarify_after.png'></div>
+<img src='./files/eccv24_raindropclarify_before.png'>
+</div>
+<script type="text/javascript">
+function eccv24_rd_start() {
+document.getElementById('eccv24_rd_image').style.opacity = "1";
+}
+function eccv24_rd_stop() {
+document.getElementById('eccv24_rd_image').style.opacity = "0";
+}
+eccv24_rd_stop()
+</script>
+</td>
+<td valign="top" width="80%">
+  <a href="">
+    <papertitle_just>Raindrop Clarity: A Dual-Focused Dataset for Day and Night Raindrop Removal</papertitle_just>     
+  </a>
+  <br>
+  <strong>Yeying Jin*</strong>, Xin Li, Jiadong Wang, Yan Zhang, Malu Zhang
+  <br>
+<em>European Conference on Computer Vision (ECCV)</em>, 2024, Milan, Italy <br>
+<a href="">arXiv</a>
+|
+<a href="./files/eccv24_raindropclarify_bibtex.txt">bibtex</a>
+<p></p>
+</td>
+</tr>
+<!-- Paper XI RaindropClarity -->
+<!-- ###################################################################################################-->
+
+<!-- ###################################################################################################-->
+<!-- Paper X Dualrain -->
+<tr onmouseout="eccv24_dualrain_stop()" onmouseover="eccv24_dualrain_start()" >
+<td width="20%">
+<div class="one">
+<div class="two" id = 'eccv24_dualrain_image'><img src='./files/eccv24_dualrain_after.png'></div>
+<img src='./files/eccv24_dualrain_before.png'>
+</div>
+<script type="text/javascript">
+function eccv24_dualrain_start() {
+document.getElementById('eccv24_dualrain_image').style.opacity = "1";
+}
+function eccv24_dualrain_stop() {
+document.getElementById('eccv24_dualrain_image').style.opacity = "0";
+}
+eccv24_deualrain_stop()
+</script>
+</td>
+<td valign="top" width="80%">
+  <a href="">
+    <papertitle_just>Dual-Rain: Video Rain Removal using Assertive and Gentle Teachers</papertitle_just>     
+  </a>
+  <br>
+  Tingting Chen*, Beibei Lin*, <strong>Yeying Jin*</strong>, Wending Yan, Wei Ye, Yuan Yuan, Robby T. Tan (Equal-first author)
+  <br>
+<em>European Conference on Computer Vision (ECCV)</em>, 2024, Milan, Italy <br>
+<a href="">arXiv</a>
+|
+<a href="./files/eccv24_dualrain_bibtex.txt">bibtex</a>
+<p></p>
+</td>
+</tr>
+<!-- Paper X Dualrain -->
+<!-- ###################################################################################################-->
+
+<!-- ###################################################################################################-->
 <!-- Paper IX Super-resolution -->
 <tr onmouseout="eccv24_sr_stop()" onmouseover="eccv24_sr_start()" >
 <td width="20%">
@@ -135,7 +205,6 @@ eccv24_sr_stop()
 </tr>
 <!-- Paper IX Super-resolution -->
 <!-- ###################################################################################################-->
-
 
 <!-- ###################################################################################################-->
 <!-- Paper VIII NightHaze -->
