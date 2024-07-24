@@ -100,6 +100,44 @@ My primary research interests include computer vision and deep learning, mainly 
 <!-- ############################ Put your publications below this! ####################################-->
 
 <!-- ###################################################################################################-->
+<!-- Paper IX Super-resolution -->
+<tr onmouseout="eccv24_sr_stop()" onmouseover="eccv24_sr_start()" >
+<td width="20%">
+<div class="one">
+<div class="two" id = 'eccv24_sr_image'><img src='./files/eccv24_ucip_after.png'></div>
+<img src='./files/eccv24_ucip_before.png'>
+</div>
+<script type="text/javascript">
+function eccv24_sr_start() {
+document.getElementById('eccv24_sr_image').style.opacity = "1";
+}
+function eccv24_sr_stop() {
+document.getElementById('eccv24_sr_image').style.opacity = "0";
+}
+eccv24_sr_stop()
+</script>
+</td>
+<td valign="top" width="80%">
+  <a href="https://arxiv.org/abs/2407.13108">
+    <papertitle_just>UCIP: A Universal Framework for Compressed Image Super-Resolution using Dynamic Prompt</papertitle_just>     
+  </a>
+  <br>
+  Xin Li, Bingchen Li, <strong>Yeying Jin</strong>, Cuiling Lan, Hanxin Zhu, Yulin Ren, Zhibo Chen
+  <br>
+<em>European Conference on Computer Vision (ECCV)</em>, 2024, Milan, Italy <br>
+<a href="https://arxiv.org/abs/2407.13108">arXiv</a>
+|
+<a href="https://github.com/lixinustc/UCIP"><img src="https://img.shields.io/github/stars/lixinustc/UCIP?style=social&label=Stars"></a>
+|
+<a href="./files/eccv24_ucip_bibtex.txt">bibtex</a>
+<p></p>
+</td>
+</tr>
+<!-- Paper IX Super-resolution -->
+<!-- ###################################################################################################-->
+
+
+<!-- ###################################################################################################-->
 <!-- Paper VIII NightHaze -->
 <tr onmouseout="submit24_nighthaze_stop()" onmouseover="submit24_nighthaze_start()" >
 <td width="20%">
