@@ -1,0 +1,6 @@
+@article{li2024ucip,
+  title={UCIP: A Universal Framework for Compressed Image Super-Resolution using Dynamic Prompt},
+  author={Li, Xin and Li, Bingchen and Jin, Yeying and Lan, Cuiling and Zhu, Hanxin and Ren, Yulin and Chen, Zhibo},
+  journal={arXiv preprint arXiv:2407.13108},
+  year={2024}
+}
