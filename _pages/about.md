@@ -127,6 +127,8 @@ eccv24_rd_stop()
 <em>European Conference on Computer Vision (ECCV)</em>, 2024, Milan, Italy <br>
 <a href="">arXiv</a>
 |
+<a href="https://github.com/jinyeying/RaindropClarity"><img src="https://img.shields.io/github/stars/jinyeying/RaindropClarity?style=social&label=Stars"></a>
+|
 <a href="./files/eccv24_raindropclarify_bibtex.txt">bibtex</a>
 <p></p>
 </td>
