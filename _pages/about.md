@@ -100,40 +100,48 @@ My primary research interests include computer vision and deep learning, mainly 
 <!-- ############################ Put your publications below this! ####################################-->
 
 <!-- ###################################################################################################-->
-<!-- Paper XI RaindropClarity -->
-<tr onmouseout="eccv24_rd_stop()" onmouseover="eccv24_rd_start()" >
+<tr onmouseout="eccv24_rd_stop()" onmouseover="eccv24_rd_start()">
 <td width="20%">
-<div class="one">
-<div class="two" id = 'eccv24_rd_image'><img src='./files/eccv24_raindropclarify_after.png'></div>
-<img src='./files/eccv24_raindropclarify_before.png'>
-</div>
-<script type="text/javascript">
-function eccv24_rd_start() {
-document.getElementById('eccv24_rd_image').style.opacity = "1";
-}
-function eccv24_rd_stop() {
-document.getElementById('eccv24_rd_image').style.opacity = "0";
-}
-eccv24_rd_stop()
-</script>
+  <div class="one">
+    <div class="two" id='eccv24_rd_image1'><img src='./files/eccv24_raindropclarify_after.png'></div>
+    <div class="two" id='eccv24_rd_image2'><img src='./files/eccv24_raindropclarify_before.png'></div>
+    <div class="two" id='eccv24_rd_image3'><img src='./files/eccv24_raindropclarify_middle.png'></div>
+  </div>
+  <script type="text/javascript">
+    var currentImage = 0;
+    var images = ['eccv24_rd_image1', 'eccv24_rd_image2', 'eccv24_rd_image3'];
+    function eccv24_rd_start() {
+      for (var i = 0; i < images.length; i++) {
+        document.getElementById(images[i]).style.opacity = (i === currentImage) ? "1" : "0";
+      }
+      currentImage = (currentImage + 1) % images.length;
+      setTimeout(eccv24_rd_start, 1000); // Change image every second
+    }
+    function eccv24_rd_stop() {
+      for (var i = 0; i < images.length; i++) {
+        document.getElementById(images[i]).style.opacity = "0";
+      }
+      currentImage = 0;
+    }
+    eccv24_rd_stop();
+  </script>
 </td>
 <td valign="top" width="80%">
-  <a href="">
-    <papertitle_just>Raindrop Clarity: A Dual-Focused Dataset for Day and Night Raindrop Removal</papertitle_just>     
+  <a href="https://arxiv.org/abs/2407.16957">
+    <papertitle_just>Raindrop Clarity: A Dual-Focused Dataset for Day and Night Raindrop Removal</papertitle_just>
   </a>
   <br>
   <strong>Yeying Jin*</strong>, Xin Li, Jiadong Wang, Yan Zhang, Malu Zhang
   <br>
-<em>European Conference on Computer Vision (ECCV)</em>, 2024, Milan, Italy <br>
-<a href="">arXiv</a>
-|
-<a href="https://github.com/jinyeying/RaindropClarity"><img src="https://img.shields.io/github/stars/jinyeying/RaindropClarity?style=social&label=Stars"></a>
-|
-<a href="./files/eccv24_raindropclarify_bibtex.txt">bibtex</a>
-<p></p>
+  <em>European Conference on Computer Vision (ECCV)</em>, 2024, Milan, Italy <br>
+  <a href="https://arxiv.org/abs/2407.16957">arXiv</a>
+  |
+  <a href="https://github.com/jinyeying/RaindropClarity"><img src="https://img.shields.io/github/stars/jinyeying/RaindropClarity?style=social&label=Stars"></a>
+  |
+  <a href="./files/eccv24_raindropclarify_bibtex.txt">bibtex</a>
+  <p></p>
 </td>
 </tr>
-<!-- Paper XI RaindropClarity -->
 <!-- ###################################################################################################-->
 
 <!-- ###################################################################################################-->
