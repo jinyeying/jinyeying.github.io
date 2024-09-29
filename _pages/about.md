@@ -122,7 +122,44 @@ eccv24_rd_stop()
     <papertitle_just>Raindrop Clarity: A Dual-Focused Dataset for Day and Night Raindrop Removal</papertitle_just>
   </a>
   <br>
-  <strong>Yeying Jin*</strong>, Xin Li, Jiadong Wang, Yan Zhang, Malu Zhang
+  <strong>Yeying Jin</strong>, Xin Li, Jiadong Wang, Yan Zhang, Malu Zhang
+  <br>
+  <em>European Conference on Computer Vision (ECCV)</em>, 2024, Milan, Italy <br>
+  <a href="https://arxiv.org/abs/2407.16957">arXiv</a>
+  |
+  <a href="https://github.com/jinyeying/RaindropClarity"><img src="https://img.shields.io/github/stars/jinyeying/RaindropClarity?style=social&label=Stars"></a>
+  |
+  <a href="./files/eccv24_raindropclarify_bibtex.txt">bibtex</a>
+  <p></p>
+</td>
+</tr>
+<!-- ###################################################################################################-->
+
+
+<!-- ###################################################################################################-->
+<!-- Paper XI RaindropClarity -->
+<tr onmouseout="eccv24_rd_stop()" onmouseover="eccv24_rd_start()" >
+<td width="20%">
+<div class="one">
+<div class="two" id = 'eccv24_rd_image'><img src='./files/eccv24_raindropclarify_after.png'></div>
+<img src='./files/eccv24_raindropclarify_before.png'>
+</div>
+<script type="text/javascript">
+function eccv24_rd_start() {
+document.getElementById('eccv24_rd_image').style.opacity = "1";
+}
+function eccv24_rd_stop() {
+document.getElementById('eccv24_rd_image').style.opacity = "0";
+}
+eccv24_rd_stop()
+</script>
+</td>
+<td valign="top" width="80%">
+  <a href="https://arxiv.org/abs/2407.16957">
+    <papertitle_just>Raindrop Clarity: A Dual-Focused Dataset for Day and Night Raindrop Removal</papertitle_just>
+  </a>
+  <br>
+  <strong>Yeying Jin</strong>, Xin Li, Jiadong Wang, Yan Zhang, Malu Zhang
   <br>
   <em>European Conference on Computer Vision (ECCV)</em>, 2024, Milan, Italy <br>
   <a href="https://arxiv.org/abs/2407.16957">arXiv</a>
@@ -396,9 +433,11 @@ eccv22_nightenhance_stop()
 |
 <a href="https://www.ecva.net/papers/eccv_2022/papers_ECCV/papers/136970396-supp.pdf">supp</a>  
 |
-<a href="https://www.dropbox.com/s/t53xlojok9h3p3p/0982_poster.pdf?dl=0">poster</a>
+<a href="https://github.com/jinyeying/night-enhancement/blob/main/poster_slides/0982_poster.pdf">poster</a>
 |
-<a href="https://www.dropbox.com/s/z2u4zx6u1aojiuz/0982_slides.pdf?dl=0">slides</a>
+<a href="https://github.com/jinyeying/night-enhancement/blob/main/poster_slides/0982_slides.pdf">slides</a>
+|
+<a href="https://www.youtube.com/watch?v=0_3RiwQ8u20">video</a>
 |
 <a href="https://www.dropbox.com/sh/ro8fs629ldebzc2/AAD1BnNSR51_tCq7DVaLSC3Fa/light-effects?dl=0&subfolder_nav_tracking=1">data</a>
 |
@@ -446,9 +485,11 @@ iccv21_dcshadownet_stop()
 |
 <a href="https://openaccess.thecvf.com/content/ICCV2021/supplemental/Jin_DC-ShadowNet_Single-Image_Hard_ICCV_2021_supplemental.pdf">supp</a>
 |
-<a href="https://www.dropbox.com/s/f0roq0kkoq9ha1x/DC-ShadowNet_poster.pdf?dl=0">poster</a>
+<a href="https://github.com/jinyeying/DC-ShadowNet-Hard-and-Soft-Shadow-Removal/blob/main/poster_slides/DC-ShadowNet_poster.pdf">poster</a>
 |
-<a href="https://www.dropbox.com/s/ymgf7mld0j5zrjw/DC-ShadowNet_slides.pdf?dl=0">slides</a>
+<a href="https://github.com/jinyeying/DC-ShadowNet-Hard-and-Soft-Shadow-Removal/blob/main/poster_slides/DC-ShadowNet_slides.pdf">slides</a>
+|
+<a href="https://www.youtube.com/watch?v=NGftPijWLGA">video</a>
 <p></p>
 <p>First unsupervised hard and soft shadow removal.</p>
 </td>
