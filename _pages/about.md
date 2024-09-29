@@ -16,7 +16,7 @@ redirect_from:
 {% assign url = gsDataBaseUrl | append: "google-scholar-stats/gs_data_shieldsio.json" %}
 <span class='anchor' id='about-me'></span>
 
-Currently, I am a Senior Researcher at [Tencent](https://www.tencent.com/en-us/about.html). I am pursuing my Ph.D. degree at the <img src="/files/NUS.png" alt="NUS" width="42.5" height="20"> [National University of Singapore (NUS), Department of Electrical and Computer Engineering (ECE)](https://cde.nus.edu.sg/ece/), supervised by [Prof. Robby T. Tan](http://tanrobby.github.io/). 
+I am a Senior Researcher at [Tencent](https://www.tencent.com/en-us/about.html). I earned my PhD degree from <img src="/files/NUS.png" alt="NUS" width="42.5" height="20"> [National University of Singapore (NUS), Department of Electrical and Computer Engineering (ECE)](https://cde.nus.edu.sg/ece/), supervised by [Prof. Robby T. Tan](http://tanrobby.github.io/). 
 I had my research internship in <img src="/files/adobe.png" alt="Adobe" width="20" height="20"> Adobe, mentored by [Prof. Connelly Barnes](http://www.connellybarnes.com/work/).
 
 Previously, I completed my M.Sc. degree at the <img src="/files/NUS.png" alt="NUS" width="42.5" height="20"> [National University of Singapore (NUS)](https://cde.nus.edu.sg/ece/); received my B.Eng. degree from the <img src="/files/UESTC.png" alt="UESTC" width="20.842" height="20"> [University of Electronic Science and Technology of China (UESTC)](https://en.uestc.edu.cn/). 
@@ -25,7 +25,7 @@ My primary research interests include computer vision and deep learning, mainly 
 
 # 📜 Research Area
 1. AIGC (e.g., GAN, Diffusion, ControlNet, LoRA), Talking Face Generation
-2. Enhancement and Restoration in Adverse Lighting and Weather Conditions
+2. Enhancement and Restoration
 3. Image/Video Decomposition (e.g., Intrinsic Image Decomposition)
 4. Deep Learning and its Applications (e.g., Medical Images) 
 
@@ -137,36 +137,36 @@ eccv24_rd_stop()
 
 
 <!-- ###################################################################################################-->
-<!-- Paper XI RaindropClarity -->
-<tr onmouseout="eccv24_rd_stop()" onmouseover="eccv24_rd_start()" >
+<!-- Paper XI MoE-TinyMed -->
+<tr onmouseout="emnlp24_moe_stop()" onmouseover="emnlp24_moe_start()" >
 <td width="20%">
 <div class="one">
-<div class="two" id = 'eccv24_rd_image'><img src='./files/eccv24_raindropclarify_after.png'></div>
-<img src='./files/eccv24_raindropclarify_before.png'>
+<div class="two" id = 'emnlp24_moe_image'><img src='./files/emnlp24_moe_after.png'></div>
+<img src='./files/emnlp24_moe_before.png'>
 </div>
 <script type="text/javascript">
-function eccv24_rd_start() {
-document.getElementById('eccv24_rd_image').style.opacity = "1";
+function emnlp24_moe_start() {
+document.getElementById('emnlp24_moe_image').style.opacity = "1";
 }
-function eccv24_rd_stop() {
-document.getElementById('eccv24_rd_image').style.opacity = "0";
+function emnlp24_moe_stop() {
+document.getElementById('emnlp24_moe_image').style.opacity = "0";
 }
-eccv24_rd_stop()
+emnlp24_moe_stop()
 </script>
 </td>
 <td valign="top" width="80%">
-  <a href="https://arxiv.org/abs/2407.16957">
-    <papertitle_just>Raindrop Clarity: A Dual-Focused Dataset for Day and Night Raindrop Removal</papertitle_just>
+  <a href="https://arxiv.org/abs/2404.10237">
+    <papertitle_just>MoE-TinyMed: Mixture of Experts for Tiny Medical Large Vision-Language Models</papertitle_just>
   </a>
   <br>
-  <strong>Yeying Jin</strong>, Xin Li, Jiadong Wang, Yan Zhang, Malu Zhang
+  Songtao Jiang, Tuo Zheng, Yan Zhang, <strong>Yeying Jin</strong>, Zuozhu Liu
   <br>
-  <em>European Conference on Computer Vision (ECCV)</em>, 2024, Milan, Italy <br>
-  <a href="https://arxiv.org/abs/2407.16957">arXiv</a>
+  <em>EMNLP finding</em>, 2024, Miami, Florida <br>
+  <a href="https://arxiv.org/abs/2404.10237">arXiv</a>
   |
-  <a href="https://github.com/jinyeying/RaindropClarity"><img src="https://img.shields.io/github/stars/jinyeying/RaindropClarity?style=social&label=Stars"></a>
+  <a href="https://github.com/jiangsongtao/Med-MoE"><img src="https://img.shields.io/github/stars/jiangsongtao/Med-MoE?style=social&label=Stars"></a>
   |
-  <a href="./files/eccv24_raindropclarify_bibtex.txt">bibtex</a>
+  <a href="./files/emnlp24_moe_bibtex.txt">bibtex</a>
   <p></p>
 </td>
 </tr>
