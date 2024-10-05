@@ -1,0 +1,6 @@
+@article{jiang2024moe,
+  title={MoE-TinyMed: Mixture of Experts for Tiny Medical Large Vision-Language Models},
+  author={Jiang, Songtao and Zheng, Tuo and Zhang, Yan and Jin, Yeying and Liu, Zuozhu},
+  journal={arXiv preprint arXiv:2404.10237},
+  year={2024}
+}
