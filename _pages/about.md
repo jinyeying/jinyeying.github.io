@@ -129,6 +129,12 @@ eccv24_rd_stop()
   <a href="https://github.com/jinyeying/RaindropClarity"><img src="https://img.shields.io/github/stars/jinyeying/RaindropClarity?style=social&label=Stars"></a>
   |
   <a href="./files/eccv24_raindropclarify_bibtex.txt">bibtex</a>
+  |
+  <a href="https://github.com/jinyeying/RaindropClarity/blob/main/poster_slides/RaindropClarity_poster.pdf">poster</a>
+  |
+  <a href="https://github.com/jinyeying/RaindropClarity/blob/main/poster_slides/RaindropClarity_PPT.pdf">slides</a>
+  |
+  <a href="https://www.youtube.com/watch?v=LSGvCuT46XU">video</a>
   <p></p>
 </td>
 </tr>
@@ -655,7 +661,7 @@ accv22_defog_stop()
 - <img src="/files/aisg.png" alt="AISG" width="20" height="20"> [AI Singapore (AISG) Ph.D. Fellowship](https://aisingapore.org/research/phd-fellowship-programme/), Theme: Continuous Learning AI, Self-supervised Learning 
 
 # 💻 Academic Services
-- Reviewer: NeurIPS'24, ECCV'24, IJCV'24, CVPR'24, TPAMI'23, AAAI'24, NeurIPS'23, ICCV'23, TIP'23, CVPR'23, AAAI'23, CVIU'23, TCSVT'23, TVCJ'23, NEUCOM'23, ACCV'22, ECCV'22, CVPR'22, IJCAI'22, IJCNN'21, etc.
+- Reviewer: ICLR'25, NeurIPS'23-24, ECCV'22-24, CVPR'22-24, ICCV'23, TPAMI'23, IJCV'24, AAAI'23-25, TIP'23, CVIU'23, TCSVT'23, TVCJ'23, NEUCOM'23, ACCV'22-24, IJCAI'22, IJCNN'21, etc.
 - Teaching Assistant: [EE5731 Visual Computing](https://tanrobby.github.io/teaching/ece_visual/index.html), EE5904 Neural Network (NUS ECE)
 
 # 💬 Invited Talks
@@ -664,9 +670,8 @@ accv22_defog_stop()
     <th>Topic</th>
     <th>Host</th>
     <th>Date</th>
-  </tr>
   <tr>
-    <td><a href="https://www.bilibili.com/video/BV1p5bFevEgP/?spm_id_from=333.999.0.0&vd_source=8ae1cd92e40b380c0296eb6843da79a4">Raindrop Clarity: Dual-Focused, Day & Night Raindrop Removal</a></td>
+    <td><a href="https://www.bilibili.com/video/BV1p5bFevEgP/?spm_id_from=333.999.0.0&vd_source=8ae1cd92e40b380c0296eb6843da79a4">Raindrop Clarity: Dual-Focused, Day & Night</a></td>
     <td><img src="/files/AITIME.png" alt="AITIME" width="19.778" height="20"> AI TIME</td>
     <td>09.2024</td>
   </tr>
