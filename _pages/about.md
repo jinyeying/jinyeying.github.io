@@ -17,17 +17,16 @@ redirect_from:
 <span class='anchor' id='about-me'></span>
 
 I am a Senior Researcher at [Tencent](https://www.tencent.com/en-us/about.html). I earned my PhD degree from <img src="/files/NUS.png" alt="NUS" width="42.5" height="20"> [National University of Singapore (NUS), Department of Electrical and Computer Engineering (ECE)](https://cde.nus.edu.sg/ece/), supervised by [Prof. Robby T. Tan](http://tanrobby.github.io/). 
-I had my research internship in <img src="/files/adobe.png" alt="Adobe" width="20" height="20"> Adobe, mentored by [Prof. Connelly Barnes](http://www.connellybarnes.com/work/).
+I had my research internship in <img src="/files/adobe.png" alt="Adobe" width="20" height="20"> [Adobe](https://research.adobe.com/), mentored by [Prof. Connelly Barnes](http://www.connellybarnes.com/work/).
 
 Previously, I completed my M.Sc. degree at the <img src="/files/NUS.png" alt="NUS" width="42.5" height="20"> [National University of Singapore (NUS)](https://cde.nus.edu.sg/ece/); received my B.Eng. degree from the <img src="/files/UESTC.png" alt="UESTC" width="20.842" height="20"> [University of Electronic Science and Technology of China (UESTC)](https://en.uestc.edu.cn/). 
 
-My primary research interests include computer vision and deep learning, mainly focusing on image/video generation and enhancement. 
+My primary research interests include computer vision and deep learning, mainly focusing on AIGC. 
 
 # 📜 Research Area
 1. AIGC (e.g., GAN, Diffusion, ControlNet, LoRA), Talking Face Generation
-2. Enhancement and Restoration
-3. Image/Video Decomposition (e.g., Intrinsic Image Decomposition)
-4. Deep Learning and its Applications (e.g., Medical Images) 
+2. Image/Video Enhancement, Restoration and Decomposition (e.g., Intrinsic Image Decomposition)
+3. Deep Learning and its Applications (e.g., Medical Images) 
 
 # 📝 Publications
 <style type="text/css">
@@ -665,6 +664,12 @@ accv22_defog_stop()
     <th>Topic</th>
     <th>Host</th>
     <th>Date</th>
+  </tr>
+  <tr>
+    <td><a href="https://www.bilibili.com/video/BV1p5bFevEgP/?spm_id_from=333.999.0.0&vd_source=8ae1cd92e40b380c0296eb6843da79a4">Raindrop Clarity: Dual-Focused, Day & Night Raindrop Removal</a></td>
+    <td><img src="/files/AITIME.png" alt="AITIME" width="19.778" height="20"> AI TIME</td>
+    <td>09.2024</td>
+  </tr>
   </tr>
   <tr>
     <td><a href="https://www.bilibili.com/video/BV1wc411v7zf/?spm_id_from=333.999.0.0&vd_source=8ae1cd92e40b380c0296eb6843da79a4">Shadow Removal using Diffusion Model</a></td>
