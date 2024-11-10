@@ -25,8 +25,9 @@ My primary research interests include computer vision and deep learning, mainly 
 
 # 📜 Research Area
 1. AIGC (e.g., GAN, Diffusion, ControlNet, LoRA), Talking Face Generation
-2. Image/Video Enhancement, Restoration and Decomposition (e.g., Intrinsic Image Decomposition)
-3. Deep Learning and its Applications (e.g., Medical Images) 
+2. Multi-modal
+3. Image/Video Enhancement, Restoration and Decomposition (e.g., Intrinsic Image Decomposition)
+4. Deep Learning and its Applications (e.g., Medical Images) 
 
 # 📝 Publications
 <style type="text/css">
@@ -99,6 +100,42 @@ My primary research interests include computer vision and deep learning, mainly 
 <!-- ############################ Put your publications below this! ####################################-->
 
 <!-- ###################################################################################################-->
+<!-- Paper XI MoE-TinyMed -->
+<tr onmouseout="emnlp24_moe_stop()" onmouseover="emnlp24_moe_start()" >
+<td width="20%">
+<div class="one">
+<div class="two" id = 'emnlp24_moe_image'><img src='./files/emnlp24_moe_after.png'></div>
+<img src='./files/emnlp24_moe_before.png'>
+</div>
+<script type="text/javascript">
+function emnlp24_moe_start() {
+document.getElementById('emnlp24_moe_image').style.opacity = "1";
+}
+function emnlp24_moe_stop() {
+document.getElementById('emnlp24_moe_image').style.opacity = "0";
+}
+emnlp24_moe_stop()
+</script>
+</td>
+<td valign="top" width="80%">
+  <a href="https://arxiv.org/abs/2404.04514">
+    <papertitle_just>Joint Visual and Text Prompting for Improved Object-Centric Perception with Multimodal Large Language Models</papertitle_just>
+  </a>
+  <br>
+  Songtao Jiang, Yan Zhang, Chenyi Zhou, <strong>Yeying Jin</strong>, Yang Feng, Jian Wu, Zuozhu Liu
+  <br>
+  <em>arXiv</em>, 2024 <br>
+  <a href="https://arxiv.org/abs/2404.04514">arXiv</a>
+  |
+  <a href="https://github.com/jiangsongtao/VTprompt"><img src="https://img.shields.io/github/stars/jiangsongtao/VTprompt?style=social&label=Stars"></a>
+  |
+  <a href="./files/arxiv24_VTprompt_bibtex.txt">bibtex</a>
+  <p></p>
+</td>
+</tr>
+<!-- ###################################################################################################-->
+
+<!-- ###################################################################################################-->
 <!-- Paper XI RaindropClarity -->
 <tr onmouseout="eccv24_rd_stop()" onmouseover="eccv24_rd_start()" >
 <td width="20%">
@@ -140,7 +177,6 @@ eccv24_rd_stop()
 </tr>
 <!-- ###################################################################################################-->
 
-
 <!-- ###################################################################################################-->
 <!-- Paper XI MoE-TinyMed -->
 <tr onmouseout="emnlp24_moe_stop()" onmouseover="emnlp24_moe_start()" >
@@ -161,7 +197,7 @@ emnlp24_moe_stop()
 </td>
 <td valign="top" width="80%">
   <a href="https://arxiv.org/abs/2404.10237">
-    <papertitle_just>MoE-TinyMed: Mixture of Experts for Tiny Medical Large Vision-Language Models</papertitle_just>
+    <papertitle_just>Med-MoE: Mixture of Domain-Specific Experts for Lightweight Medical Vision-Language Models</papertitle_just>
   </a>
   <br>
   Songtao Jiang, Tuo Zheng, Yan Zhang, <strong>Yeying Jin</strong>, Zuozhu Liu
@@ -196,14 +232,14 @@ eccv24_deualrain_stop()
 </script>
 </td>
 <td valign="top" width="80%">
-  <a href="">
+  <a href="https://www.ecva.net/papers/eccv_2024/papers_ECCV/papers/08521.pdf">
     <papertitle_just>Dual-Rain: Video Rain Removal using Assertive and Gentle Teachers</papertitle_just>     
   </a>
   <br>
   Tingting Chen*, Beibei Lin*, <strong>Yeying Jin*</strong>, Wending Yan, Wei Ye, Yuan Yuan, Robby T. Tan (Equal-first author)
   <br>
 <em>European Conference on Computer Vision (ECCV)</em>, 2024, Milan, Italy <br>
-<a href="">arXiv</a>
+<a href="https://www.ecva.net/papers/eccv_2024/papers_ECCV/papers/08521.pdf">arXiv</a>
 |
 <a href="./files/eccv24_dualrain_bibtex.txt">bibtex</a>
 <p></p>
