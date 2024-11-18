@@ -21,13 +21,14 @@ I had my research internship in <img src="/files/adobe.png" alt="Adobe" width="2
 
 Previously, I completed my M.Sc. degree at the <img src="/files/NUS.png" alt="NUS" width="42.5" height="20"> [National University of Singapore (NUS)](https://cde.nus.edu.sg/ece/); received my B.Eng. degree from the <img src="/files/UESTC.png" alt="UESTC" width="20.842" height="20"> [University of Electronic Science and Technology of China (UESTC)](https://en.uestc.edu.cn/). 
 
-My primary research interests include computer vision and deep learning, mainly focusing on AIGC. 
+My primary research interests include computer vision and deep learning, mainly focusing on AIGC and Multimodal. <span style="color:red"> I'm looking for self-motivated interns and full-time researchers.</span>
 
 # 📜 Research Area
-1. AIGC (e.g., GAN, Diffusion, ControlNet, LoRA), Talking Face Generation
-2. Multi-modal
-3. Image/Video Enhancement, Restoration and Decomposition (e.g., Intrinsic Image Decomposition)
-4. Deep Learning and its Applications (e.g., Medical Images) 
+1. AIGC (e.g., GAN, Diffusion, LoRA training, FLUX, SDXL Lighting, SDXL Turbo, Hyper SD, SDXL, SD1.5, LCM, Midjourney)
+2. Talking Face Generation
+3. Multimodal, Direct Preference Optimization (DPO)
+4. Image/Video Enhancement, Restoration and Decomposition (e.g., Intrinsic Image Decomposition)
+5. Deep Learning and its Applications (e.g., Medical Images) 
 
 # 📝 Publications
 <style type="text/css">
@@ -100,7 +101,77 @@ My primary research interests include computer vision and deep learning, mainly 
 <!-- ############################ Put your publications below this! ####################################-->
 
 <!-- ###################################################################################################-->
-<!-- Paper XI MoE-TinyMed -->
+<!-- Paper 15 MFDPO -->
+<tr onmouseout="24_dpo_stop()" onmouseover="24_dpo_start()" >
+<td width="20%">
+<div class="one">
+<div class="two" id = '24_dpo_image'><img src='./files/MFDPO_after.png'></div>
+<img src='./files/MFDPO24_bibtex.png'>
+</div>
+<script type="text/javascript">
+function 24_dpo_start() {
+document.getElementById('24_dpo_image').style.opacity = "1";
+}
+function 24_dpo_stop() {
+document.getElementById('24_dpo_image').style.opacity = "0";
+}
+24_dpo_stop()
+</script>
+</td>
+<td valign="top" width="80%">
+  <a href="https://arxiv.org/abs/2410.15334">
+    <papertitle_just>Modality-Fair Preference Optimization for Trustworthy MLLM Alignment</papertitle_just>
+  </a>
+  <br>
+  Songtao Jiang, Yan Zhang, Ruizhe Chen, <strong>Yeying Jin</strong>, Zuozhu Liu
+  <br>
+  <em>arXiv</em>, 2024 <br>
+  <a href="https://arxiv.org/abs/2410.15334">arXiv</a>
+  |
+  <a href="./files/MFDPO24_bibtex.txt">bibtex</a>
+  <p></p>
+</td>
+</tr>
+<!-- ###################################################################################################-->
+
+<!-- ###################################################################################################-->
+<!-- Paper 14 CGSAM -->
+<tr onmouseout="24_CGSAM_stop()" onmouseover="24_CGSAM_start()" >
+<td width="20%">
+<div class="one">
+<div class="two" id = '24_CGSAM_image'><img src='./files/CGSAM_after.png'></div>
+<img src='./files/CGSAM_before.png'>
+</div>
+<script type="text/javascript">
+function 24_CGSAM_start() {
+document.getElementById('24_CGSAM_image').style.opacity = "1";
+}
+function 24_CGSAM_stop() {
+document.getElementById('24_CGSAM_image').style.opacity = "0";
+}
+24_CGSAM_stop()
+</script>
+</td>
+<td valign="top" width="80%">
+  <a href="https://arxiv.org/abs/2404.04514">
+    <papertitle_just>Joint Visual and Text Prompting for Improved Object-Centric Perception with Multimodal Large Language Models</papertitle_just>
+  </a>
+  <br>
+  Songtao Jiang, Yan Zhang, Chenyi Zhou, <strong>Yeying Jin</strong>, Yang Feng, Jian Wu, Zuozhu Liu
+  <br>
+  <em>arXiv</em>, 2024 <br>
+  <a href="https://arxiv.org/abs/2404.04514">arXiv</a>
+  |
+  <a href="https://github.com/jiangsongtao/VTprompt"><img src="https://img.shields.io/github/stars/jiangsongtao/VTprompt?style=social&label=Stars"></a>
+  |
+  <a href="./files/CGSAM24_bibtex.txt">bibtex</a>
+  <p></p>
+</td>
+</tr>
+<!-- ###################################################################################################-->
+
+<!-- ###################################################################################################-->
+<!-- Paper 13 Med-MoE -->
 <tr onmouseout="emnlp24_moe_stop()" onmouseover="emnlp24_moe_start()" >
 <td width="20%">
 <div class="one">
@@ -118,25 +189,25 @@ emnlp24_moe_stop()
 </script>
 </td>
 <td valign="top" width="80%">
-  <a href="https://arxiv.org/abs/2404.04514">
-    <papertitle_just>Joint Visual and Text Prompting for Improved Object-Centric Perception with Multimodal Large Language Models</papertitle_just>
+  <a href="https://arxiv.org/abs/2404.10237">
+    <papertitle_just>Med-MoE: Mixture of Domain-Specific Experts for Lightweight Medical Vision-Language Models</papertitle_just>
   </a>
   <br>
-  Songtao Jiang, Yan Zhang, Chenyi Zhou, <strong>Yeying Jin</strong>, Yang Feng, Jian Wu, Zuozhu Liu
+  Songtao Jiang, Tuo Zheng, Yan Zhang, <strong>Yeying Jin</strong>, Zuozhu Liu
   <br>
-  <em>arXiv</em>, 2024 <br>
-  <a href="https://arxiv.org/abs/2404.04514">arXiv</a>
+  <em>EMNLP finding</em>, 2024, Miami, Florida <br>
+  <a href="https://arxiv.org/abs/2404.10237">arXiv</a>
   |
-  <a href="https://github.com/jiangsongtao/VTprompt"><img src="https://img.shields.io/github/stars/jiangsongtao/VTprompt?style=social&label=Stars"></a>
+  <a href="https://github.com/jiangsongtao/Med-MoE"><img src="https://img.shields.io/github/stars/jiangsongtao/Med-MoE?style=social&label=Stars"></a>
   |
-  <a href="./files/arxiv24_VTprompt_bibtex.txt">bibtex</a>
+  <a href="./files/emnlp24_moe_bibtex.txt">bibtex</a>
   <p></p>
 </td>
 </tr>
 <!-- ###################################################################################################-->
 
 <!-- ###################################################################################################-->
-<!-- Paper XI RaindropClarity -->
+<!-- Paper 12 RaindropClarity -->
 <tr onmouseout="eccv24_rd_stop()" onmouseover="eccv24_rd_start()" >
 <td width="20%">
 <div class="one">
@@ -175,46 +246,11 @@ eccv24_rd_stop()
   <p></p>
 </td>
 </tr>
+<!-- Paper 12 RaindropClarity -->
 <!-- ###################################################################################################-->
 
 <!-- ###################################################################################################-->
-<!-- Paper XI MoE-TinyMed -->
-<tr onmouseout="emnlp24_moe_stop()" onmouseover="emnlp24_moe_start()" >
-<td width="20%">
-<div class="one">
-<div class="two" id = 'emnlp24_moe_image'><img src='./files/emnlp24_moe_after.png'></div>
-<img src='./files/emnlp24_moe_before.png'>
-</div>
-<script type="text/javascript">
-function emnlp24_moe_start() {
-document.getElementById('emnlp24_moe_image').style.opacity = "1";
-}
-function emnlp24_moe_stop() {
-document.getElementById('emnlp24_moe_image').style.opacity = "0";
-}
-emnlp24_moe_stop()
-</script>
-</td>
-<td valign="top" width="80%">
-  <a href="https://arxiv.org/abs/2404.10237">
-    <papertitle_just>Med-MoE: Mixture of Domain-Specific Experts for Lightweight Medical Vision-Language Models</papertitle_just>
-  </a>
-  <br>
-  Songtao Jiang, Tuo Zheng, Yan Zhang, <strong>Yeying Jin</strong>, Zuozhu Liu
-  <br>
-  <em>EMNLP finding</em>, 2024, Miami, Florida <br>
-  <a href="https://arxiv.org/abs/2404.10237">arXiv</a>
-  |
-  <a href="https://github.com/jiangsongtao/Med-MoE"><img src="https://img.shields.io/github/stars/jiangsongtao/Med-MoE?style=social&label=Stars"></a>
-  |
-  <a href="./files/emnlp24_moe_bibtex.txt">bibtex</a>
-  <p></p>
-</td>
-</tr>
-<!-- ###################################################################################################-->
-
-<!-- ###################################################################################################-->
-<!-- Paper X Dualrain -->
+<!-- Paper 11 Dualrain -->
 <tr onmouseout="eccv24_dualrain_stop()" onmouseover="eccv24_dualrain_start()" >
 <td width="20%">
 <div class="one">
@@ -245,11 +281,11 @@ eccv24_deualrain_stop()
 <p></p>
 </td>
 </tr>
-<!-- Paper X Dualrain -->
+<!-- Paper 11 Dualrain -->
 <!-- ###################################################################################################-->
 
 <!-- ###################################################################################################-->
-<!-- Paper IX Super-resolution -->
+<!-- Paper 10 Super-resolution -->
 <tr onmouseout="eccv24_sr_stop()" onmouseover="eccv24_sr_start()" >
 <td width="20%">
 <div class="one">
@@ -282,11 +318,11 @@ eccv24_sr_stop()
 <p></p>
 </td>
 </tr>
-<!-- Paper IX Super-resolution -->
+<!-- Paper 10 Super-resolution -->
 <!-- ###################################################################################################-->
 
 <!-- ###################################################################################################-->
-<!-- Paper VIII NightHaze -->
+<!-- Paper 9 NightHaze -->
 <tr onmouseout="submit24_nighthaze_stop()" onmouseover="submit24_nighthaze_start()" >
 <td width="20%">
 <div class="one">
@@ -317,11 +353,11 @@ submit24_nighthaze_stop()
 <p></p>
 </td>
 </tr>
-<!-- Paper VIII NightHaze -->
+<!-- Paper 9 NightHaze -->
 <!-- ###################################################################################################-->
 
 <!-- ###################################################################################################-->
-<!-- Paper VII Super-resolution -->
+<!-- Paper 8 Super-resolution -->
 <tr onmouseout="cvpr24_sr_stop()" onmouseover="cvpr24_sr_start()" >
 <td width="20%">
 <div class="one">
@@ -354,11 +390,11 @@ cvpr24_sr_stop()
 <p></p>
 </td>
 </tr>
-<!-- Paper VII Super-resolution -->
+<!-- Paper 8 Super-resolution -->
 <!-- ###################################################################################################-->
 
 <!-- ###################################################################################################-->
-<!-- Paper V DeS3 -->
+<!-- Paper 7 DeS3 -->
 <tr onmouseout="aaai24_des3_stop()" onmouseover="aaai24_des3_start()" >
 <td width="20%">
 <div class="one">
@@ -398,11 +434,11 @@ aaai24_des3_stop()
 <p>First diffusion-based shadow removal performs robustly on hard, soft and self shadows.</p>
 </td>
 </tr>
-<!-- Paper V DeS3 -->
+<!-- Paper 7 DeS3 -->
 <!-- ###################################################################################################-->
 
 <!-- ###################################################################################################-->
-<!-- Paper VI NightRain -->
+<!-- Paper 6 NightRain -->
 <tr onmouseout="aaai24_nightrain_stop()" onmouseover="aaai24_nightrain_start()" >
 <td width="20%">
 <div class="one">
@@ -435,11 +471,11 @@ aaai24_nightrain_stop()
 <p></p>
 </td>
 </tr>
-<!-- Paper VI NightRain -->
+<!-- Paper 6 NightRain -->
 <!-- ###################################################################################################-->
 
 <!-- ###################################################################################################-->
-<!-- Paper II NightEnhance, ECCV'22 -->
+<!-- Paper 5 NightEnhance, ECCV'22 -->
 <tr onmouseout="eccv22_nightenhance_stop()" onmouseover="eccv22_nightenhance_start()" >
 <td width="20%">
 <div class="one">
@@ -487,11 +523,11 @@ eccv22_nightenhance_stop()
 <p>Night image enhancement by enhancing low-light regions and suppressing light-effects regions.</p>
 </td>
 </tr>
-<!-- Paper II NightEnhance, ECCV'22 -->
+<!-- Paper 5 NightEnhance, ECCV'22 -->
 <!-- ###################################################################################################-->
 
 <!-- ###################################################################################################-->
-<!-- Paper I DC-ShadowNet, ICCV'21 -->
+<!-- Paper 4 DC-ShadowNet, ICCV'21 -->
 <tr onmouseout="iccv21_dcshadownet_stop()" onmouseover="iccv21_dcshadownet_start()" >
 <td width="20%">
 <div class="one">
@@ -535,10 +571,10 @@ iccv21_dcshadownet_stop()
 <p>First unsupervised hard and soft shadow removal.</p>
 </td>
 </tr>
-<!-- Paper I DC-ShadowNet, ICCV'21 -->
+<!-- Paper 4 DC-ShadowNet, ICCV'21 -->
 <!-- ###################################################################################################-->
 
-<!-- Paper VI NightFog-->
+<!-- Paper 3 NightFog-->
 <tr onmouseout="acmmm23_nightdehaze_stop()" onmouseover="acmmm23_nightdehaze_start()" >
 <td width="20%">
 <div class="one">
@@ -580,11 +616,11 @@ acmmm23_nightdehaze_stop()
 <p>First learning-based network handling nighttime haze and glow using APSF.</p>
 </td>
 </tr>
-<!-- Paper VI NightFog -->
+<!-- Paper 3 NightFog -->
 <!-- ###################################################################################################-->
   
 <!-- ###################################################################################################-->
-<!-- Paper IV Reflectance, AAAI'23 -->
+<!-- Paper 2 Reflectance, AAAI'23 -->
 <tr onmouseout="aaai23_reflectance_stop()" onmouseover="aaai23_reflectance_start()" >
 <td width="20%">
 <div class="one">
@@ -624,12 +660,12 @@ aaai23_reflectance_stop()
 <p>First reflectance layer estimation that performs robustly even in the presence of shadows and specularities.</p>
 </td>
 </tr>
-<!-- Paper IV Reflectance, AAAI'23 -->
+<!-- Paper 2 Reflectance, AAAI'23 -->
 <!-- ###################################################################################################-->
   
   
 <!-- ###################################################################################################-->
-<!-- Paper III defog, ACCV'22 -->
+<!-- Paper 1 defog, ACCV'22 -->
 <tr onmouseout="accv22_defog_stop()" onmouseover="accv22_defog_start()" >
 <td width="20%">
 <div class="one">
@@ -673,7 +709,7 @@ accv22_defog_stop()
 <p>Dense and/or non-uniform fog removal.</p>
 </td>
 </tr>
-<!-- Paper III defog, ACCV'22 -->
+<!-- Paper 1 defog, ACCV'22 -->
 <!-- ###################################################################################################-->
     
 
@@ -687,7 +723,7 @@ accv22_defog_stop()
 
 # 👔 Internship and Work Experience
 
-- 01.2024: Senior Researcher at <img src="/files/tencent.png" alt="Tencent" width="85" height="20"> Singapore, working on AIGC.
+- 11.2023: Senior Researcher at <img src="/files/tencent.png" alt="Tencent" width="85" height="20"> Singapore, working on AIGC.
 
 - 06.2023-09.2023: <img src="/files/adobe.png" alt="Adobe" width="20" height="20"> [Adobe Research Intern](https://www.adobe.com/), Creative Intelligence Lab, mentored by [Connelly Barnes](http://www.connellybarnes.com/work/), worked with [Yuqian Zhou](https://yzhouas.github.io/), [Lingzhi Zhang](https://owenzlz.github.io/), [Sohrab Amirghodsi](https://www.linkedin.com/in/sohrab-amirghodsi-a89548a3/), [Eric Kee](https://www.erickee.com/).
 
@@ -697,7 +733,7 @@ accv22_defog_stop()
 - <img src="/files/aisg.png" alt="AISG" width="20" height="20"> [AI Singapore (AISG) Ph.D. Fellowship](https://aisingapore.org/research/phd-fellowship-programme/), Theme: Continuous Learning AI, Self-supervised Learning 
 
 # 💻 Academic Services
-- Reviewer: ICLR'25, NeurIPS'23-24, ECCV'22-24, CVPR'22-24, ICCV'23, TPAMI'23, IJCV'24, AAAI'23-25, TIP'23, CVIU'23, TCSVT'23, TVCJ'23, NEUCOM'23, ACCV'22-24, IJCAI'22, IJCNN'21, etc.
+- Reviewer: ICLR'25, NeurIPS'23-24, ECCV'22-24, CVPR'22-25, ICCV'23, TPAMI'23, IJCV'24, AAAI'23-25, TIP'23, CVIU'23, TCSVT'23, TVCJ'23, NEUCOM'23, ACCV'22-24, IJCAI'22, IJCNN'21, etc.
 - Teaching Assistant: [EE5731 Visual Computing](https://tanrobby.github.io/teaching/ece_visual/index.html), EE5904 Neural Network (NUS ECE)
 
 # 💬 Invited Talks
