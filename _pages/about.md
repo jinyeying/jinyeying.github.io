@@ -106,7 +106,7 @@ My primary research interests include computer vision and deep learning, mainly 
 <td width="20%">
 <div class="one">
 <div class="two" id = 'arxiv24_dpo_image'><img src='./files/MFDPO_after.png'></div>
-<img src='./files/MFDPO24_bibtex.png'>
+<img src='./files/MFDPO_before.png'>
 </div>
 <script type="text/javascript">
 function arxiv24_dpo_start() {
