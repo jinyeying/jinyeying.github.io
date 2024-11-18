@@ -1,0 +1,6 @@
+@article{jiang2024joint,
+  title={Joint Visual and Text Prompting for Improved Object-Centric Perception with Multimodal Large Language Models},
+  author={Jiang, Songtao and Zhang, Yan and Zhou, Chenyi and Jin, Yeying and Feng, Yang and Wu, Jian and Liu, Zuozhu},
+  journal={arXiv preprint arXiv:2404.04514},
+  year={2024}
+}

@@ -1,0 +1,6 @@
+@article{jiang2024modality,
+  title={Modality-Fair Preference Optimization for Trustworthy MLLM Alignment},
+  author={Jiang, Songtao and Zhang, Yan and Chen, Ruizhe and Jin, Yeying and Liu, Zuozhu},
+  journal={arXiv preprint arXiv:2410.15334},
+  year={2024}
+}
