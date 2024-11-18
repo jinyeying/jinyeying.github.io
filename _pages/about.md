@@ -102,7 +102,7 @@ My primary research interests include computer vision and deep learning, mainly 
 
 <!-- ###################################################################################################-->
 <!-- Paper 15 MFDPO -->
-<tr onmouseout="24_dpo_stop()" onmouseover="24_dpo_start()" >
+<tr onmouseout="arxiv24_dpo_stop()" onmouseover="arxiv24_dpo_start()" >
 <td width="20%">
 <div class="one">
 <div class="two" id = 'arxiv24_dpo_image'><img src='./files/MFDPO_after.png'></div>
@@ -136,7 +136,7 @@ arxiv24_dpo_stop()
 
 <!-- ###################################################################################################-->
 <!-- Paper 14 CGSAM -->
-<tr onmouseout="24_CGSAM_stop()" onmouseover="24_CGSAM_start()" >
+<tr onmouseout="arxiv24_CGSAM_stop()" onmouseover="arxiv24_CGSAM_start()" >
 <td width="20%">
 <div class="one">
 <div class="two" id = 'arxiv24_CGSAM_image'><img src='./files/CGSAM_after.png'></div>
