@@ -105,17 +105,17 @@ My primary research interests include computer vision and deep learning, mainly 
 <tr onmouseout="24_dpo_stop()" onmouseover="24_dpo_start()" >
 <td width="20%">
 <div class="one">
-<div class="two" id = '24_dpo_image'><img src='./files/MFDPO_after.png'></div>
+<div class="two" id = 'arxiv24_dpo_image'><img src='./files/MFDPO_after.png'></div>
 <img src='./files/MFDPO24_bibtex.png'>
 </div>
 <script type="text/javascript">
-function 24_dpo_start() {
-document.getElementById('24_dpo_image').style.opacity = "1";
+function arxiv24_dpo_start() {
+document.getElementById('arxiv24_dpo_image').style.opacity = "1";
 }
-function 24_dpo_stop() {
-document.getElementById('24_dpo_image').style.opacity = "0";
+function arxiv24_dpo_stop() {
+document.getElementById('arxiv24_dpo_image').style.opacity = "0";
 }
-24_dpo_stop()
+arxiv24_dpo_stop()
 </script>
 </td>
 <td valign="top" width="80%">
@@ -139,17 +139,17 @@ document.getElementById('24_dpo_image').style.opacity = "0";
 <tr onmouseout="24_CGSAM_stop()" onmouseover="24_CGSAM_start()" >
 <td width="20%">
 <div class="one">
-<div class="two" id = '24_CGSAM_image'><img src='./files/CGSAM_after.png'></div>
+<div class="two" id = 'arxiv24_CGSAM_image'><img src='./files/CGSAM_after.png'></div>
 <img src='./files/CGSAM_before.png'>
 </div>
 <script type="text/javascript">
-function 24_CGSAM_start() {
-document.getElementById('24_CGSAM_image').style.opacity = "1";
+function arxiv24_CGSAM_start() {
+document.getElementById('arxiv24_CGSAM_image').style.opacity = "1";
 }
-function 24_CGSAM_stop() {
-document.getElementById('24_CGSAM_image').style.opacity = "0";
+function arxiv24_CGSAM_stop() {
+document.getElementById('arxiv24_CGSAM_image').style.opacity = "0";
 }
-24_CGSAM_stop()
+arxiv24_CGSAM_stop()
 </script>
 </td>
 <td valign="top" width="80%">
