@@ -346,7 +346,7 @@ submit24_nighthaze_stop()
   <br>
   Beibei Lin*, <strong>Yeying Jin*</strong>, Wending Yan, Wei Ye, Yuan Yuan, Robby T. Tan (Equal-first author)
   <br>
-<em>In review</em>, 2024 <br>
+<em>Association for the Advancement of Artificial Intelligence (AAAI)</em>, 2025, Philadelphia, USA <br>
 <a href="https://arxiv.org/abs/2403.07408">arXiv</a>
 |
 <a href="./files/submit24_nighthaze_bibtex.txt">bibtex</a>
