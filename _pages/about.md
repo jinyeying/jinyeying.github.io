@@ -24,9 +24,9 @@ Previously, I completed my M.Sc. degree at the <img src="/files/NUS.png" alt="NU
 My primary research interests include computer vision and deep learning, mainly focusing on AIGC and Multimodal. <span style="color:red"> I'm looking for self-motivated interns and full-time researchers.</span>
 
 # 📜 Research Area
-1. AIGC (e.g., GAN, Diffusion, LoRA training, FLUX, SDXL Lighting, SDXL Turbo, Hyper SD, SDXL, SD1.5, LCM, Midjourney)
+1. AIGC (e.g., GAN, Diffusion, LoRA training, FLUX, SDXL, SD1.5, LCM, Midjourney)
 2. Talking Face Generation
-3. Multimodal, Direct Preference Optimization (DPO)
+3. Multimodal, Direct Preference Optimization (DPO), VQA
 4. Image/Video Enhancement, Restoration and Decomposition (e.g., Intrinsic Image Decomposition)
 5. Deep Learning and its Applications (e.g., Medical Images) 
 
@@ -99,6 +99,49 @@ My primary research interests include computer vision and deep learning, mainly 
 <table width="100%" align="center" border="0" cellspacing="0" cellpadding="10">
 <tbody>
 <!-- ############################ Put your publications below this! ####################################-->
+
+<!-- ###################################################################################################-->
+<!-- Paper 12 RaindropClarity -->
+<tr onmouseout="eccv24_rd_stop()" onmouseover="eccv24_rd_start()" >
+<td width="20%">
+<div class="one">
+<div class="two" id = 'eccv24_rd_image'><img src='./files/eccv24_raindropclarify_after.png'></div>
+<img src='./files/eccv24_raindropclarify_before.png'>
+</div>
+<script type="text/javascript">
+function eccv24_rd_start() {
+document.getElementById('eccv24_rd_image').style.opacity = "1";
+}
+function eccv24_rd_stop() {
+document.getElementById('eccv24_rd_image').style.opacity = "0";
+}
+eccv24_rd_stop()
+</script>
+</td>
+<td valign="top" width="80%">
+  <a href="https://arxiv.org/abs/2407.16957">
+    <papertitle_just>Raindrop Clarity: A Dual-Focused Dataset for Day and Night Raindrop Removal</papertitle_just>
+  </a>
+  <br>
+  <strong>Yeying Jin</strong>, Xin Li, Jiadong Wang, Yan Zhang, Malu Zhang
+  <br>
+  <em>European Conference on Computer Vision (ECCV)</em>, 2024, Milan, Italy <br>
+  <a href="https://arxiv.org/abs/2407.16957">arXiv</a>
+  |
+  <a href="https://github.com/jinyeying/RaindropClarity"><img src="https://img.shields.io/github/stars/jinyeying/RaindropClarity?style=social&label=Stars"></a>
+  |
+  <a href="./files/eccv24_raindropclarify_bibtex.txt">bibtex</a>
+  |
+  <a href="https://github.com/jinyeying/RaindropClarity/blob/main/poster_slides/RaindropClarity_poster.pdf">poster</a>
+  |
+  <a href="https://github.com/jinyeying/RaindropClarity/blob/main/poster_slides/RaindropClarity_PPT.pdf">slides</a>
+  |
+  <a href="https://www.youtube.com/watch?v=LSGvCuT46XU">video</a>
+  <p></p>
+</td>
+</tr>
+<!-- Paper 12 RaindropClarity -->
+<!-- ###################################################################################################-->
 
 <!-- ###################################################################################################-->
 <!-- Paper 15 MFDPO -->
@@ -204,49 +247,6 @@ emnlp24_moe_stop()
   <p></p>
 </td>
 </tr>
-<!-- ###################################################################################################-->
-
-<!-- ###################################################################################################-->
-<!-- Paper 12 RaindropClarity -->
-<tr onmouseout="eccv24_rd_stop()" onmouseover="eccv24_rd_start()" >
-<td width="20%">
-<div class="one">
-<div class="two" id = 'eccv24_rd_image'><img src='./files/eccv24_raindropclarify_after.png'></div>
-<img src='./files/eccv24_raindropclarify_before.png'>
-</div>
-<script type="text/javascript">
-function eccv24_rd_start() {
-document.getElementById('eccv24_rd_image').style.opacity = "1";
-}
-function eccv24_rd_stop() {
-document.getElementById('eccv24_rd_image').style.opacity = "0";
-}
-eccv24_rd_stop()
-</script>
-</td>
-<td valign="top" width="80%">
-  <a href="https://arxiv.org/abs/2407.16957">
-    <papertitle_just>Raindrop Clarity: A Dual-Focused Dataset for Day and Night Raindrop Removal</papertitle_just>
-  </a>
-  <br>
-  <strong>Yeying Jin</strong>, Xin Li, Jiadong Wang, Yan Zhang, Malu Zhang
-  <br>
-  <em>European Conference on Computer Vision (ECCV)</em>, 2024, Milan, Italy <br>
-  <a href="https://arxiv.org/abs/2407.16957">arXiv</a>
-  |
-  <a href="https://github.com/jinyeying/RaindropClarity"><img src="https://img.shields.io/github/stars/jinyeying/RaindropClarity?style=social&label=Stars"></a>
-  |
-  <a href="./files/eccv24_raindropclarify_bibtex.txt">bibtex</a>
-  |
-  <a href="https://github.com/jinyeying/RaindropClarity/blob/main/poster_slides/RaindropClarity_poster.pdf">poster</a>
-  |
-  <a href="https://github.com/jinyeying/RaindropClarity/blob/main/poster_slides/RaindropClarity_PPT.pdf">slides</a>
-  |
-  <a href="https://www.youtube.com/watch?v=LSGvCuT46XU">video</a>
-  <p></p>
-</td>
-</tr>
-<!-- Paper 12 RaindropClarity -->
 <!-- ###################################################################################################-->
 
 <!-- ###################################################################################################-->
