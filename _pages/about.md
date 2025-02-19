@@ -137,6 +137,11 @@ eccv24_rd_stop()
   <a href="https://github.com/jinyeying/RaindropClarity/blob/main/poster_slides/RaindropClarity_PPT.pdf">slides</a>
   |
   <a href="https://www.youtube.com/watch?v=LSGvCuT46XU">video</a>
+  |
+  <a href="https://codalab.lisn.upsaclay.fr/competitions/21345">competition</a>
+  |
+  <a href="https://lixinustc.github.io/CVPR-NTIRE2025-RainDrop-Competition.github.io/">challenge</a>
+  
   <p></p>
 </td>
 </tr>
