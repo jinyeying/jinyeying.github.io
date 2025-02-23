@@ -738,7 +738,7 @@ accv22_defog_stop()
 - <img src="/files/aisg.png" alt="AISG" width="20" height="20"> [AI Singapore (AISG) Ph.D. Fellowship](https://aisingapore.org/research/phd-fellowship-programme/), Theme: Continuous Learning AI, Self-supervised Learning 
 
 # 💻 Academic Services
-- Reviewer: ICLR'25, NeurIPS'23-24, ECCV'22-24, CVPR'22-25, ICCV'23, TPAMI'23, IJCV'24, AAAI'23-25, TIP'23, CVIU'23, TCSVT'23, TVCJ'23, NEUCOM'23, ACCV'22-24, IJCAI'22, IJCNN'21, etc.
+- Reviewer: ARR'25, ICML‘25, ICLR'25, NeurIPS'23-25, CVPR'22-25, ICCV'23-25, ECCV'22-24, AAAI'23-25, ACMMM'23-25, TPAMI'23, IJCV'24, TIP'23, MICCAI'25, CVIU'23, TCSVT'23, TVCJ'23, NEUCOM'23, ACCV'22-24, IJCAI'22, IJCNN'21, etc.
 - Teaching Assistant: [EE5731 Visual Computing](https://tanrobby.github.io/teaching/ece_visual/index.html), EE5904 Neural Network (NUS ECE)
 
 # 💬 Invited Talks
