@@ -241,7 +241,7 @@ emnlp24_moe_stop()
     <papertitle_just>Med-MoE: Mixture of Domain-Specific Experts for Lightweight Medical Vision-Language Models</papertitle_just>
   </a>
   <br>
-  Songtao Jiang, Tuo Zheng, Yan Zhang, <strong>Yeying Jin</strong>, Zuozhu Liu
+  Songtao Jiang, Tuo Zheng, Yan Zhang, <strong>Yeying Jin</strong>, Li Yuan, Zuozhu Liu
   <br>
   <em>EMNLP finding</em>, 2024, Miami, Florida <br>
   <a href="https://arxiv.org/abs/2404.10237">arXiv</a>
