@@ -1,0 +1,8 @@
+@inproceedings{chen2024dual,
+  title={Dual-Rain: Video Rain Removal Using Assertive and Gentle Teachers},
+  author={Chen, Tingting and Lin, Beibei and Jin, Yeying and Yan, Wending and Ye, Wei and Yuan, Yuan and Tan, Robby T},
+  booktitle={European Conference on Computer Vision},
+  pages={127--143},
+  year={2024},
+  organization={Springer}
+}
