@@ -355,6 +355,8 @@ submit24_nighthaze_stop()
 <a href="https://arxiv.org/abs/2403.07408">arXiv</a>
 |
 <a href="./files/submit24_nighthaze_bibtex.txt">bibtex</a>
+|
+<a href="https://bb12346.github.io/NightHaze/">Project Page</a>  
 <p></p>
 </td>
 </tr>
