@@ -101,6 +101,41 @@ My primary research interests include computer vision and deep learning, mainly 
 <!-- ############################ Put your publications below this! ####################################-->
 
 <!-- ###################################################################################################-->
+<!-- Paper 13 JarvisIR -->
+<tr onmouseout="cvpr25_JarvisIR_stop()" onmouseover="cvpr25_JarvisIR_start()" >
+<td width="20%">
+<div class="one">
+<div class="two" id = 'cvpr25_JarvisIR_image'><img src='./files/cvpr25_JarvisIR_after.png'></div>
+<img src='./files/cvpr25_JarvisIR_before.png'>
+</div>
+<script type="text/javascript">
+function cvpr25_JarvisIR_start() {
+document.getElementById('cvpr25_JarvisIR_image').style.opacity = "1";
+}
+function cvpr25_JarvisIR_stop() {
+document.getElementById('cvpr25_JarvisIR_image').style.opacity = "0";
+}
+cvpr25_JarvisIR_stop()
+</script>
+</td>
+<td valign="top" width="80%">
+  <a href="https://arxiv.org/abs/2504.04158">
+    <papertitle_just>JarvisIR: Elevating Autonomous Driving Perception with Intelligent Image Restoration</papertitle_just>     
+  </a>
+  <br>
+  Yunlong Lin*, Zixu Lin*, Haoyu Chen*, Panwang Pan*, Chenxin Li, Sixiang Chen, Kairun Wen, <strong>Yeying Jin</strong>, Wenbo Li, Xinghao Ding
+  <br>
+<em>Computer Vision and Pattern Recognition (CVPR)</em>, 2025, Nashville, USA <br>
+<a href="https://arxiv.org/abs/2504.04158">arXiv</a>
+|
+<a href="./files/cvpr25_JarvisIR_bibtex.txt">bibtex</a>
+<p></p>
+</td>
+</tr>
+<!-- Paper 13 JarvisIR -->
+<!-- ###################################################################################################-->
+
+<!-- ###################################################################################################-->
 <!-- Paper 12 RaindropClarity -->
 <tr onmouseout="eccv24_rd_stop()" onmouseover="eccv24_rd_start()" >
 <td width="20%">
@@ -141,7 +176,6 @@ eccv24_rd_stop()
   <a href="https://codalab.lisn.upsaclay.fr/competitions/21345">competition</a>
   |
   <a href="https://lixinustc.github.io/CVPR-NTIRE2025-RainDrop-Competition.github.io/">challenge</a>
-  
   <p></p>
 </td>
 </tr>
