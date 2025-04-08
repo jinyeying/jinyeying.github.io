@@ -129,6 +129,8 @@ cvpr25_JarvisIR_stop()
 <a href="https://arxiv.org/abs/2504.04158">arXiv</a>
 |
 <a href="./files/cvpr25_JarvisIR_bibtex.txt">bibtex</a>
+|
+<a href="https://cvpr2025-jarvisir.github.io/">Project Page</a>  
 <p></p>
 </td>
 </tr>
@@ -241,7 +243,7 @@ arxiv24_CGSAM_stop()
   <br>
   Songtao Jiang, Yan Zhang, Chenyi Zhou, <strong>Yeying Jin</strong>, Yang Feng, Jian Wu, Zuozhu Liu
   <br>
-  <em>arXiv</em>, 2024 <br>
+  <em>ADHIP Best Paper Award</em>, 2024 <br>
   <a href="https://arxiv.org/abs/2404.04514">arXiv</a>
   |
   <a href="https://github.com/jiangsongtao/VTprompt"><img src="https://img.shields.io/github/stars/jiangsongtao/VTprompt?style=social&label=Stars"></a>
@@ -389,6 +391,8 @@ submit24_nighthaze_stop()
 <a href="https://arxiv.org/abs/2403.07408">arXiv</a>
 |
 <a href="./files/submit24_nighthaze_bibtex.txt">bibtex</a>
+|
+<a href="https://github.com/bb12346/nighthaze_codes"><img src="https://img.shields.io/github/stars/bb12346/nighthaze_codes?style=social&label=Stars"></a>  
 |
 <a href="https://bb12346.github.io/NightHaze/">Project Page</a>  
 <p></p>
