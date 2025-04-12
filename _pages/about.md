@@ -130,6 +130,8 @@ cvpr25_JarvisIR_stop()
 |
 <a href="./files/cvpr25_JarvisIR_bibtex.txt">bibtex</a>
 |
+<a href="https://github.com/LYL1015/JarvisIR"><img src="https://img.shields.io/github/stars/LYL1015/JarvisIR?style=social&label=Stars"></a>
+|  
 <a href="https://cvpr2025-jarvisir.github.io/">Project Page</a>  
 <p></p>
 </td>
