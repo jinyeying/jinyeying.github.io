@@ -1,8 +1,8 @@
-@inproceedings{jin2025raindrop,
+@inproceedings{jin2024raindrop,
   title={Raindrop Clarity: A Dual-Focused Dataset for Day and Night Raindrop Removal},
   author={Jin, Yeying and Li, Xin and Wang, Jiadong and Zhang, Yan and Zhang, Malu},
   booktitle={European Conference on Computer Vision},
   pages={1--17},
-  year={2025},
+  year={2024},
   organization={Springer}
 }
