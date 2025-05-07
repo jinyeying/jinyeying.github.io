@@ -245,7 +245,7 @@ arxiv24_CGSAM_stop()
   <br>
   Songtao Jiang, Yan Zhang, Chenyi Zhou, <strong>Yeying Jin</strong>, Yang Feng, Jian Wu, Zuozhu Liu
   <br>
-  <em>ADHIP Best Paper Award</em>, 2024 <br>
+  <em>ADHIP Best Paper Award</em>, 2024, Jiaxing, China <br>
   <a href="https://arxiv.org/abs/2404.04514">arXiv</a>
   |
   <a href="https://github.com/jiangsongtao/VTprompt"><img src="https://img.shields.io/github/stars/jiangsongtao/VTprompt?style=social&label=Stars"></a>
