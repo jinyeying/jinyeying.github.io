@@ -211,7 +211,7 @@ arxiv24_dpo_stop()
   <br>
   Songtao Jiang, Yan Zhang, Ruizhe Chen, <strong>Yeying Jin</strong>, Zuozhu Liu
   <br>
-  <em>arXiv</em>, 2024 <br>
+  <em>IJCAI</em>, 2025, Montreal, Canada <br>
   <a href="https://arxiv.org/abs/2410.15334">arXiv</a>
   |
   <a href="./files/MFDPO24_bibtex.txt">bibtex</a>
