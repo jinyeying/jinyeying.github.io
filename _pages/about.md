@@ -142,6 +142,51 @@ cvpr25_JarvisIR_stop()
 <!-- ###################################################################################################-->
 
 <!-- ###################################################################################################-->
+<!-- Paper 12 ntire -->
+<tr onmouseout="ntire25_rd_stop()" onmouseover="ntire25_rd_start()" >
+<td width="20%">
+<div class="one">
+<div class="two" id = 'eccv24_rd_image'><img src='./files/eccv24_raindropclarify_after.png'></div>
+<img src='./files/eccv24_raindropclarify_before.png'>
+</div>
+<script type="text/javascript">
+function ntire25_rd_start() {
+document.getElementById('ntire25_rd_image').style.opacity = "1";
+}
+function ntire25_rd_stop() {
+document.getElementById('ntire25_rd_image').style.opacity = "0";
+}
+ntire25_rd_stop()
+</script>
+</td>
+<td valign="top" width="80%">
+  <a href="https://arxiv.org/abs/2504.12711">
+    <papertitle_just>NTIRE 2025 challenge on day and night raindrop removal for dual-focused images: Methods and results</papertitle_just>
+  </a>
+  <br>
+  Xin Li, <strong>Yeying Jin</strong>, Xin Jin, etc. 
+  <br>
+  <em>Computer Vision and Pattern Recognition (CVPRW)</em>, 2025, Nashville, USA <br>
+  <a href="https://arxiv.org/abs/2504.12711">arXiv</a>
+  |
+  <a href="https://github.com/jinyeying/RaindropClarity"><img src="https://img.shields.io/github/stars/jinyeying/RaindropClarity?style=social&label=Stars"></a>
+  |
+  <a href="./files/ntire25_raindropclarify_bibtex.txt">bibtex</a>
+  |
+  <a href="https://github.com/jinyeying/RaindropClarity/blob/main/poster_slides/RaindropClarity_PPT.pdf">slides</a>
+  |
+  <a href="https://youtu.be/YaPL0dI5l0U?si=pVniAaheEXsf5CNW">video</a>
+  |
+  <a href="https://codalab.lisn.upsaclay.fr/competitions/21345">competition</a>
+  |
+  <a href="https://lixinustc.github.io/CVPR-NTIRE2025-RainDrop-Competition.github.io/">challenge</a>
+  <p></p>
+</td>
+</tr>
+<!-- Paper 12 RaindropClarity -->
+<!-- ###################################################################################################-->
+
+<!-- ###################################################################################################-->
 <!-- Paper 12 RaindropClarity -->
 <tr onmouseout="eccv24_rd_stop()" onmouseover="eccv24_rd_start()" >
 <td width="20%">
@@ -186,6 +231,74 @@ eccv24_rd_stop()
 </td>
 </tr>
 <!-- Paper 12 RaindropClarity -->
+<!-- ###################################################################################################-->
+
+<!-- ###################################################################################################-->
+<!-- Paper HSCR -->
+<tr onmouseout="acl25_hscr_stop()" onmouseover="acl25_hscr_start()" >
+<td width="20%">
+<div class="one">
+<div class="two" id = 'acl25_hscr_image'><img src='./files/HSCR_after.png'></div>
+<img src='./files/HSCR_before.png'>
+</div>
+<script type="text/javascript">
+function acl25_hscr_start() {
+document.getElementById('acl25_hscr_image').style.opacity = "1";
+}
+function acl25_hscr_stop() {
+document.getElementById('acl25_hscr_image').style.opacity = "0";
+}
+acl25_hscr_stop()
+</script>
+</td>
+<td valign="top" width="80%">
+  <a href="https://arxiv.org/abs/2506.00805">
+    <papertitle_just>HSCR: Hierarchical Self-Contrastive Rewarding for Aligning Medical Vision Language Models</papertitle_just>
+  </a>
+  <br>
+  Songtao Jiang, Yan Zhang, <strong>Yeying Jin</strong>, Zhihang Tang, Yangyang Wu, Yang Feng, Jian Wu, Zuozhu Liu
+  <br>
+  <em>ACL</em>, 2025, Vienna, Austria <br>
+  <a href="https://arxiv.org/abs/2506.00805">arXiv</a>
+  |
+  <a href="./files/HSCR25_bibtex.txt">bibtex</a>
+  <p></p>
+</td>
+</tr>
+<!-- ###################################################################################################-->
+
+<!-- ###################################################################################################-->
+<!-- Paper VQA -->
+<tr onmouseout="acl25_vqa_stop()" onmouseover="acl25_vqa_start()" >
+<td width="20%">
+<div class="one">
+<div class="two" id = 'acl25_vqa_image'><img src='./files/VQA_after.png'></div>
+<img src='./files/VQA_before.png'>
+</div>
+<script type="text/javascript">
+function acl25_vqa_start() {
+document.getElementById('acl25_vqa_image').style.opacity = "1";
+}
+function acl25_vqa_stop() {
+document.getElementById('acl25_vqa_image').style.opacity = "0";
+}
+acl25_vqa_stop()
+</script>
+</td>
+<td valign="top" width="80%">
+  <a href="https://arxiv.org/abs/2506.00806">
+    <papertitle_just>Fast or Slow? Integrating Fast Intuition and Deliberate Thinking for Enhancing Visual Question Answering</papertitle_just>
+  </a>
+  <br>
+  Songtao Jiang, Chenyi Zhou, Yan Zhang, <strong>Yeying Jin</strong>, Zuozhu Liu
+  <br>
+  <em>ACL</em>, 2025, Vienna, Austria <br>
+  <a href="https://arxiv.org/abs/2506.00806">arXiv</a>
+  |
+  <a href="./files/VQA25_bibtex.txt">bibtex</a>
+  <p></p>
+</td>
+</tr>
 <!-- ###################################################################################################-->
 
 <!-- ###################################################################################################-->
@@ -800,7 +913,7 @@ accv22_defog_stop()
   
   <tr>
     <td><a href="https://showlab.github.io/omg/">AI × Gaming: Creative Applications of AIGC</a></td>
-    <td><img src="/files/NUS.png" alt="NUS" width="42.5" height="20"> NUS, Singapore (invited by <a href="https://qhlin.me/">Kevin QH. Lin</a>)</td>
+    <td><img src="/files/NUS.png" alt="NUS" width="42.5" height="20"> , Singapore (invited by <a href="https://qhlin.me/">Kevin QH. Lin</a>)</td>
     <td>04.2025</td>
   </tr>
   
