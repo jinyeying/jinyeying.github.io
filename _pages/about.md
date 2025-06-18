@@ -128,11 +128,13 @@ cvpr25_JarvisIR_stop()
 <em>Computer Vision and Pattern Recognition (CVPR)</em>, 2025, Nashville, USA <br>
 <a href="https://arxiv.org/abs/2504.04158">arXiv</a>
 |
+<a href="https://github.com/LYL1015/JarvisIR"><img src="https://img.shields.io/github/stars/LYL1015/JarvisIR?style=social&label=Stars"></a>
+| 
 <a href="./files/cvpr25_JarvisIR_bibtex.txt">bibtex</a>
 |
-<a href="https://github.com/LYL1015/JarvisIR"><img src="https://img.shields.io/github/stars/LYL1015/JarvisIR?style=social&label=Stars"></a>
-|  
-<a href="https://cvpr2025-jarvisir.github.io/">Project Page</a>  
+<a href="https://cvpr2025-jarvisir.github.io/">project page</a>  
+|
+<a href="https://huggingface.co/spaces/LYL1015/JarvisIR">online demo</a>    
 <p></p>
 </td>
 </tr>
@@ -318,7 +320,7 @@ eccv24_deualrain_stop()
   Tingting Chen*, Beibei Lin*, <strong>Yeying Jin*</strong>, Wending Yan, Wei Ye, Yuan Yuan, Robby T. Tan (Equal-first author)
   <br>
 <em>European Conference on Computer Vision (ECCV)</em>, 2024, Milan, Italy <br>
-<a href="https://www.ecva.net/papers/eccv_2024/papers_ECCV/papers/08521.pdf">arXiv</a>
+<a href="https://www.ecva.net/papers/eccv_2024/papers_ECCV/papers/08521.pdf">paper</a>
 |
 <a href="./files/eccv24_dualrain_bibtex.txt">bibtex</a>
 <p></p>
@@ -392,11 +394,11 @@ submit24_nighthaze_stop()
 <em>Association for the Advancement of Artificial Intelligence (AAAI)</em>, 2025, Philadelphia, USA <br>
 <a href="https://arxiv.org/abs/2403.07408">arXiv</a>
 |
-<a href="./files/submit24_nighthaze_bibtex.txt">bibtex</a>
+<a href="https://github.com/bb12346/nighthaze_codes"><img src="https://img.shields.io/github/stars/bb12346/nighthaze_codes?style=social&label=Stars"></a> 
 |
-<a href="https://github.com/bb12346/nighthaze_codes"><img src="https://img.shields.io/github/stars/bb12346/nighthaze_codes?style=social&label=Stars"></a>  
+<a href="./files/submit24_nighthaze_bibtex.txt">bibtex</a> 
 |
-<a href="https://bb12346.github.io/NightHaze/">Project Page</a>  
+<a href="https://bb12346.github.io/NightHaze/">project page</a>  
 <p></p>
 </td>
 </tr>
@@ -566,6 +568,8 @@ eccv22_nightenhance_stop()
 <a href="https://www.dropbox.com/sh/ro8fs629ldebzc2/AAD1BnNSR51_tCq7DVaLSC3Fa/light-effects?dl=0&subfolder_nav_tracking=1">data</a>
 |
 <a href="https://mp.weixin.qq.com/s/5wjV6R95SrQHXxqMnENAAw">link</a> 
+|
+<a href="https://replicate.com/cjwbw/night-enhancement">online demo</a> 
 <p></p>
 <p>Night image enhancement by enhancing low-light regions and suppressing light-effects regions.</p>
 </td>
@@ -777,10 +781,12 @@ accv22_defog_stop()
 - 01.2019-01.2020: Machine Learning Researcher at <img src="/files/biomind.png" alt="Biomind" width="80" height="20"> Singapore, advised by [Prof. Jiashi Feng](https://sites.google.com/site/jshfeng/), worked on Biomedical Image Synthesis, Super-resolution, Tumor Segmentation and Classification, expo demo for ["Deep Learning-Based End-to-end Automatic Contouring and Automated Radiation Therapy Treatment Planning System"](https://media.neurips.cc/Conferences/NeurIPS2019/NeurIPS_Expo_Book_2019.pdf).
 
 # 🎖 Honors and Awards
+-  Tencent [Knowledge Award](https://zhuanlan.zhihu.com/p/686681635) in 2024.
+-  Tencent Excellent R&D Award in 2024.
 - <img src="/files/aisg.png" alt="AISG" width="20" height="20"> [AI Singapore (AISG) Ph.D. Fellowship](https://aisingapore.org/research/phd-fellowship-programme/), Theme: Continuous Learning AI, Self-supervised Learning 
 
 # 💻 Academic Services
-- Workshop/Competitions: Organizer of the First Challenge on Day and Night Raindrop Removal for Dual-Focused Images, CVPR 2025 NTIRE Workshop.
+- Workshop/Competitions: Organizer of [the First Challenge on Day and Night Raindrop Removal for Dual-Focused Images](https://lixinustc.github.io/CVPR-NTIRE2025-RainDrop-Competition.github.io/), CVPR 2025 NTIRE Workshop.
 - Reviewer: ACL ARR'25, ICML'25, ICLR'25, NeurIPS'23-25, CVPR'22-25, ICCV'23-25, ECCV'22-24, AAAI'23-25, ACMMM'23-25, TPAMI'23, IJCV'24, TIP'23, MICCAI'25, CVIU'23, TCSVT'23, TVCJ'23, NEUCOM'23, ACCV'22-24, IJCAI'22, IJCNN'21, etc.
 - Teaching Assistant: [EE5731 Visual Computing](https://tanrobby.github.io/teaching/ece_visual/index.html), EE5904 Neural Network (NUS ECE)
 
@@ -790,6 +796,12 @@ accv22_defog_stop()
     <th>Topic</th>
     <th>Host</th>
     <th>Date</th>
+      <tr>
+    <td><a href="https://showlab.github.io/omg/">AI × Gaming: Creative Applications of AIGC</a></td>
+    <td><img src="/files/NUS.png" alt="NUS" width="42.5" height="20"> NUS, Singapore (invited by <a href="https://qhlin.me/">Kevin QH. Lin</a>)</td>
+    <td>04.2025</td>
+  </tr>
+  <tr>
   <tr>
     <td><a href="https://www.bilibili.com/video/BV1p5bFevEgP/?spm_id_from=333.999.0.0&vd_source=8ae1cd92e40b380c0296eb6843da79a4">Raindrop Clarity: Dual-Focused, Day & Night</a></td>
     <td><img src="/files/AITIME.png" alt="AITIME" width="19.778" height="20"> AI TIME</td>
@@ -808,7 +820,7 @@ accv22_defog_stop()
   </tr>
   <tr>
     <td>NextCam Reading Group: Light-effects Suppression</td>
-    <td><img src="/files/adobe.png" alt="Adobe" width="20" height="20"> Adobe, USA</td>
+    <td><img src="/files/adobe.png" alt="Adobe" width="20" height="20"> Adobe, USA (invited by <a href="https://www.erickee.com/">Eric Kee</a>)</td>
     <td>07.2023</td>
   </tr>
   <tr>
@@ -842,17 +854,17 @@ accv22_defog_stop()
     <th>Date</th>
   </tr>
   <tr>
-    <td>Poster Present at VALSE</td>
+    <td>Poster Present at <a href="https://valser.org/2024/#/poster">VALSE</td>
     <td><img src="/files/VALSE.png" alt="VALSE" width="23.2" height="20"> Chongqing, China</td>
     <td>05.2024</td>
   </tr>
   <tr>
-    <td>Poster Present at Singapore Vision Day</td>
+    <td>Poster Present at <a href="https://www.comp.nus.edu.sg/~leegh/svd/">Singapore Vision Day</td>
     <td><img src="/files/NUS.png" alt="NUS" width="42.5" height="20"> NUS, Singapore</td>
     <td>05.2023</td>
   </tr>
   <tr>
-    <td>Poster Present at AI Research Symposium</td>
+    <td>Poster Present at <a href="https://aisingapore.org/ai-governance/aisg-ai-governance-research-symposium-2023/">AI Research Symposium</td>
     <td><img src="/files/aisg.png" alt="AISG" width="20" height="20"> AISG, Singapore</td>
     <td>01.2023</td>
   </tr>
