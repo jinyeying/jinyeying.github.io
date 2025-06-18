@@ -796,75 +796,88 @@ accv22_defog_stop()
     <th>Topic</th>
     <th>Host</th>
     <th>Date</th>
-      <tr>
+  </tr>
+  
+  <tr>
     <td><a href="https://showlab.github.io/omg/">AI × Gaming: Creative Applications of AIGC</a></td>
     <td><img src="/files/NUS.png" alt="NUS" width="42.5" height="20"> NUS, Singapore (invited by <a href="https://qhlin.me/">Kevin QH. Lin</a>)</td>
     <td>04.2025</td>
   </tr>
-  <tr>
+  
   <tr>
     <td><a href="https://www.bilibili.com/video/BV1p5bFevEgP/?spm_id_from=333.999.0.0&vd_source=8ae1cd92e40b380c0296eb6843da79a4">Raindrop Clarity: Dual-Focused, Day & Night</a></td>
     <td><img src="/files/AITIME.png" alt="AITIME" width="19.778" height="20"> AI TIME</td>
     <td>09.2024</td>
   </tr>
-  </tr>
+  
   <tr>
     <td><a href="https://www.bilibili.com/video/BV1wc411v7zf/?spm_id_from=333.999.0.0&vd_source=8ae1cd92e40b380c0296eb6843da79a4">Shadow Removal using Diffusion Model</a></td>
     <td><img src="/files/AITIME.png" alt="AITIME" width="19.778" height="20"> AI TIME</td>
     <td>01.2024</td>
   </tr>
+  
   <tr>
     <td>Visibility Enhancement using Generative Model</td>
     <td><img src="/files/huawei.png" alt="Huawei" width="19.978" height="20"> Huawei Shanghai HiSilicon</td>
     <td>07.2023</td>
   </tr>
+  
   <tr>
     <td>NextCam Reading Group: Light-effects Suppression</td>
     <td><img src="/files/adobe.png" alt="Adobe" width="20" height="20"> Adobe, USA (invited by <a href="https://www.erickee.com/">Eric Kee</a>)</td>
     <td>07.2023</td>
   </tr>
+  
   <tr>
     <td>Image/Video Restoration and Generation</td>
     <td><img src="/files/huawei.png" alt="Huawei" width="19.978" height="20"> Huawei Shanghai HiSilicon</td>
     <td>03.2023</td>
   </tr>
+  
   <tr>
     <td><a href="https://www.bilibili.com/video/BV1Ca4y1C7xi/?spm_id_from=333.999.0.0&vd_source=8ae1cd92e40b380c0296eb6843da79a4">Intrinsic Image Decomposition</a></td>
     <td><img src="/files/AITIME.png" alt="AITIME" width="19.778" height="20"> AI TIME</td>
     <td>02.2023</td>
   </tr>
+  
   <tr>
     <td>Diffusion Model in Image Processing</td>
     <td><img src="/files/ByteDance.png" alt="ByteDance" width="100" height="20"> (invited by <a href="https://hanshuyan.github.io/">Hanshu Yan</a>)</td>
     <td>01.2023</td>
   </tr>
+  
   <tr>
     <td>Visibility Enhancement in Nighttime</td>
     <td><img src="/files/huawei.png" alt="Huawei" width="19.978" height="20"> Huawei, Singapore</td>
     <td>12.2022</td>
   </tr>
+  
   <tr>
     <td><a href="https://www.bilibili.com/video/BV1Ec411s7at/?spm_id_from=333.999.0.0&vd_source=8ae1cd92e40b380c0296eb6843da79a4">Unsupervised Image Restoration and Generation</a></td>
     <td><img src="/files/AITIME.png" alt="AITIME" width="19.778" height="20"> AI TIME</td>
     <td>11.2022</td>
   </tr>
+  
   <tr>
     <th>Poster</th>
     <th>Venue</th>
     <th>Date</th>
   </tr>
+  
   <tr>
-    <td>Poster Present at <a href="https://valser.org/2024/#/poster">VALSE</td>
+    <td>Poster Present at <a href="https://valser.org/2024/#/poster">VALSE</a></td>
     <td><img src="/files/VALSE.png" alt="VALSE" width="23.2" height="20"> Chongqing, China</td>
     <td>05.2024</td>
   </tr>
+  
   <tr>
-    <td>Poster Present at <a href="https://www.comp.nus.edu.sg/~leegh/svd/">Singapore Vision Day</td>
+    <td>Poster Present at <a href="https://www.comp.nus.edu.sg/~leegh/svd/">Singapore Vision Day</a></td>
     <td><img src="/files/NUS.png" alt="NUS" width="42.5" height="20"> NUS, Singapore</td>
     <td>05.2023</td>
   </tr>
+  
   <tr>
-    <td>Poster Present at <a href="https://aisingapore.org/ai-governance/aisg-ai-governance-research-symposium-2023/">AI Research Symposium</td>
+    <td>Poster Present at <a href="https://aisingapore.org/ai-governance/aisg-ai-governance-research-symposium-2023/">AI Research Symposium</a></td>
     <td><img src="/files/aisg.png" alt="AISG" width="20" height="20"> AISG, Singapore</td>
     <td>01.2023</td>
   </tr>
