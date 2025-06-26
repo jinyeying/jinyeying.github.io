@@ -101,7 +101,85 @@ My primary research interests include computer vision and deep learning, mainly 
 <!-- ############################ Put your publications below this! ####################################-->
 
 <!-- ###################################################################################################-->
-<!-- Paper 13 JarvisIR -->
+<!-- Paper 21 PosterCraft -->
+<tr onmouseout="arxiv25_PosterCraft_stop()" onmouseover="arxiv25_PosterCraft_start()" >
+<td width="20%">
+<div class="one">
+<div class="two" id = 'arxiv25_PosterCraft_image'><img src='./files/arxiv25_PosterCraft_after.png'></div>
+<img src='./files/arxiv25_PosterCraft_before.png'>
+</div>
+<script type="text/javascript">
+function arxiv25_PosterCraft_start() {
+document.getElementById('arxiv25_PosterCraft_image').style.opacity = "1";
+}
+function arxiv25_PosterCraft_stop() {
+document.getElementById('arxiv25_PosterCraft_image').style.opacity = "0";
+}
+arxiv25_PosterCraft_stop()
+</script>
+</td>
+<td valign="top" width="80%">
+  <a href="https://arxiv.org/abs/2506.10741">
+    <papertitle_just>PosterCraft: Rethinking High-Quality Aesthetic Poster Generation in a Unified Framework</papertitle_just>     
+  </a>
+  <br>
+  Sixiang Chen*, Jianyu Lai*, Jialin Gao*, Tian Ye, Haoyu Chen, Hengyu Shi, Shitong Shao, Yunlong Lin, Song Fei, Zhaohu Xing, <strong>Yeying Jin</strong>, Junfeng Luo, Xiaoming Wei, Lei Zhu
+  <br>
+<em>arxiv</em>, 2025 <br>
+<a href="https://arxiv.org/abs/2506.10741">arXiv</a>
+|
+<a href="https://github.com/Ephemeral182/PosterCraft"><img src="https://img.shields.io/github/stars/Ephemeral182/PosterCraft?style=social&label=Stars"></a>
+| 
+<a href="./files/arxiv25_PosterCraft_bibtex.txt">bibtex</a>
+|
+<a href="https://ephemeral182.github.io/PosterCraft/">project page</a>  
+|
+<a href="https://huggingface.co/spaces/Ephemeral182/PosterCraft">online demo</a>    
+|
+<a href="https://www.youtube.com/watch?v=92wMU4D7qx0">video</a>
+<p></p>
+</td>
+</tr>
+<!-- ###################################################################################################-->
+
+
+<!-- ###################################################################################################-->
+<!-- Paper 20 GenHaze -->
+<tr onmouseout="iccv25_GenHaze_stop()" onmouseover="iccv25_GenHaze_start()" >
+<td width="20%">
+<div class="one">
+<div class="two" id = 'iccv25_GenHaze_image'><img src='./files/iccv25_GenHaze_after.png'></div>
+<img src='./files/iccv25_GenHaze_before.png'>
+</div>
+<script type="text/javascript">
+function iccv25_GenHaze_start() {
+document.getElementById('iccv25_GenHaze_image').style.opacity = "1";
+}
+function iccv25_GenHaze_stop() {
+document.getElementById('iccv25_GenHaze_image').style.opacity = "0";
+}
+iccv25_GenHaze_stop()
+</script>
+</td>
+<td valign="top" width="80%">
+  <a href="">
+    <papertitle_just>GenHaze: Pioneering Controllable One-Step Realistic Haze Generation for Real-World Dehazing</papertitle_just>     
+  </a>
+  <br>
+ Sixiang Chen, Tian Ye, Yunlong Lin, <strong>Yeying Jin</strong>, Yijun Yang, Haoyu Chen, Jianyu Lai, Song Fei, Zhaohu Xing, Fugee Tsung, Lei Zhu
+  <br>
+<em>International Conference on Computer Vision (ICCV)</em>, 2025, Hawaii, USA <br>
+<a href="">arXiv</a>
+| 
+<a href="./files/iccv25_GenHaze_bibtex.txt">bibtex</a>  
+<p></p>
+</td>
+</tr>
+<!-- ###################################################################################################-->
+
+
+<!-- ###################################################################################################-->
+<!-- Paper 19 JarvisIR -->
 <tr onmouseout="cvpr25_JarvisIR_stop()" onmouseover="cvpr25_JarvisIR_start()" >
 <td width="20%">
 <div class="one">
@@ -138,11 +216,10 @@ cvpr25_JarvisIR_stop()
 <p></p>
 </td>
 </tr>
-<!-- Paper 13 JarvisIR -->
 <!-- ###################################################################################################-->
 
 <!-- ###################################################################################################-->
-<!-- Paper 12 ntire -->
+<!-- Paper 18 ntire -->
 <tr onmouseout="ntire25_rd_stop()" onmouseover="ntire25_rd_start()" >
 <td width="20%">
 <div class="one">
@@ -164,7 +241,7 @@ ntire25_rd_stop()
     <papertitle_just>NTIRE 2025 challenge on day and night raindrop removal for dual-focused images: Methods and results</papertitle_just>
   </a>
   <br>
-  Xin Li, <strong>Yeying Jin</strong>, Xin Jin, etc. 
+  Xin Li*, <strong>Yeying Jin</strong>*, Xin Jin*, etc. (Corresponding authors) 
   <br>
   <em>Computer Vision and Pattern Recognition (CVPRW)</em>, 2025, Nashville, USA <br>
   <a href="https://arxiv.org/abs/2504.12711">arXiv</a>
@@ -183,11 +260,10 @@ ntire25_rd_stop()
   <p></p>
 </td>
 </tr>
-<!-- Paper 12 RaindropClarity -->
 <!-- ###################################################################################################-->
 
 <!-- ###################################################################################################-->
-<!-- Paper 12 RaindropClarity -->
+<!-- Paper 17 RaindropClarity -->
 <tr onmouseout="eccv24_rd_stop()" onmouseover="eccv24_rd_start()" >
 <td width="20%">
 <div class="one">
@@ -230,11 +306,10 @@ eccv24_rd_stop()
   <p></p>
 </td>
 </tr>
-<!-- Paper 12 RaindropClarity -->
 <!-- ###################################################################################################-->
 
 <!-- ###################################################################################################-->
-<!-- Paper HSCR -->
+<!-- Paper 16 HSCR -->
 <tr onmouseout="acl25_hscr_stop()" onmouseover="acl25_hscr_start()" >
 <td width="20%">
 <div class="one">
@@ -268,7 +343,7 @@ acl25_hscr_stop()
 <!-- ###################################################################################################-->
 
 <!-- ###################################################################################################-->
-<!-- Paper VQA -->
+<!-- Paper 15 VQA -->
 <tr onmouseout="acl25_vqa_stop()" onmouseover="acl25_vqa_start()" >
 <td width="20%">
 <div class="one">
@@ -302,7 +377,7 @@ acl25_vqa_stop()
 <!-- ###################################################################################################-->
 
 <!-- ###################################################################################################-->
-<!-- Paper 15 MFDPO -->
+<!-- Paper 14 MFDPO -->
 <tr onmouseout="arxiv24_dpo_stop()" onmouseover="arxiv24_dpo_start()" >
 <td width="20%">
 <div class="one">
@@ -336,7 +411,7 @@ arxiv24_dpo_stop()
 <!-- ###################################################################################################-->
 
 <!-- ###################################################################################################-->
-<!-- Paper 14 CGSAM -->
+<!-- Paper 13 CGSAM -->
 <tr onmouseout="arxiv24_CGSAM_stop()" onmouseover="arxiv24_CGSAM_start()" >
 <td width="20%">
 <div class="one">
@@ -372,7 +447,7 @@ arxiv24_CGSAM_stop()
 <!-- ###################################################################################################-->
 
 <!-- ###################################################################################################-->
-<!-- Paper 13 Med-MoE -->
+<!-- Paper 12 Med-MoE -->
 <tr onmouseout="emnlp24_moe_stop()" onmouseover="emnlp24_moe_start()" >
 <td width="20%">
 <div class="one">
@@ -430,7 +505,7 @@ eccv24_deualrain_stop()
     <papertitle_just>Dual-Rain: Video Rain Removal using Assertive and Gentle Teachers</papertitle_just>     
   </a>
   <br>
-  Tingting Chen*, Beibei Lin*, <strong>Yeying Jin*</strong>, Wending Yan, Wei Ye, Yuan Yuan, Robby T. Tan (Equal-first author)
+  Tingting Chen*, Beibei Lin*, <strong>Yeying Jin*</strong>, Wending Yan, Wei Ye, Yuan Yuan, Robby T. Tan (Equal-first authors)
   <br>
 <em>European Conference on Computer Vision (ECCV)</em>, 2024, Milan, Italy <br>
 <a href="https://www.ecva.net/papers/eccv_2024/papers_ECCV/papers/08521.pdf">paper</a>
@@ -439,7 +514,6 @@ eccv24_deualrain_stop()
 <p></p>
 </td>
 </tr>
-<!-- Paper 11 Dualrain -->
 <!-- ###################################################################################################-->
 
 <!-- ###################################################################################################-->
@@ -476,7 +550,6 @@ eccv24_sr_stop()
 <p></p>
 </td>
 </tr>
-<!-- Paper 10 Super-resolution -->
 <!-- ###################################################################################################-->
 
 <!-- ###################################################################################################-->
@@ -502,7 +575,7 @@ submit24_nighthaze_stop()
     <papertitle_just>NightHaze: Nighttime Image Dehazing via Self-Prior Learning</papertitle_just>     
   </a>
   <br>
-  Beibei Lin*, <strong>Yeying Jin*</strong>, Wending Yan, Wei Ye, Yuan Yuan, Robby T. Tan (Equal-first author)
+  Beibei Lin*, <strong>Yeying Jin*</strong>, Wending Yan, Wei Ye, Yuan Yuan, Robby T. Tan (Equal-first authors)
   <br>
 <em>Association for the Advancement of Artificial Intelligence (AAAI)</em>, 2025, Philadelphia, USA <br>
 <a href="https://arxiv.org/abs/2403.07408">arXiv</a>
@@ -515,7 +588,6 @@ submit24_nighthaze_stop()
 <p></p>
 </td>
 </tr>
-<!-- Paper 9 NightHaze -->
 <!-- ###################################################################################################-->
 
 <!-- ###################################################################################################-->
@@ -552,7 +624,6 @@ cvpr24_sr_stop()
 <p></p>
 </td>
 </tr>
-<!-- Paper 8 Super-resolution -->
 <!-- ###################################################################################################-->
 
 <!-- ###################################################################################################-->
@@ -596,7 +667,6 @@ aaai24_des3_stop()
 <p>First diffusion-based shadow removal performs robustly on hard, soft and self shadows.</p>
 </td>
 </tr>
-<!-- Paper 7 DeS3 -->
 <!-- ###################################################################################################-->
 
 <!-- ###################################################################################################-->
@@ -622,7 +692,7 @@ aaai24_nightrain_stop()
     <papertitle_just>NightRain: Nighttime Video Deraining via Adaptive-Rain-Removal and Adaptive-Correction</papertitle_just>     
   </a>
   <br>
-  Beibei Lin*, <strong>Yeying Jin*</strong>, Wending Yan, Wei Ye, Yuan Yuan, Sunli Zhang, Robby T. Tan
+  Beibei Lin*, <strong>Yeying Jin*</strong>, Wending Yan, Wei Ye, Yuan Yuan, Sunli Zhang, Robby T. Tan (Equal-first authors)
   <br>
 <em>Association for the Advancement of Artificial Intelligence (AAAI)</em>, 2024, Vancouver, Canada <br>
 <a href="https://arxiv.org/abs/2401.00729">arXiv</a>
@@ -633,7 +703,6 @@ aaai24_nightrain_stop()
 <p></p>
 </td>
 </tr>
-<!-- Paper 6 NightRain -->
 <!-- ###################################################################################################-->
 
 <!-- ###################################################################################################-->
@@ -687,7 +756,6 @@ eccv22_nightenhance_stop()
 <p>Night image enhancement by enhancing low-light regions and suppressing light-effects regions.</p>
 </td>
 </tr>
-<!-- Paper 5 NightEnhance, ECCV'22 -->
 <!-- ###################################################################################################-->
 
 <!-- ###################################################################################################-->
@@ -735,7 +803,6 @@ iccv21_dcshadownet_stop()
 <p>First unsupervised hard and soft shadow removal.</p>
 </td>
 </tr>
-<!-- Paper 4 DC-ShadowNet, ICCV'21 -->
 <!-- ###################################################################################################-->
 
 <!-- Paper 3 NightFog-->
@@ -780,7 +847,6 @@ acmmm23_nightdehaze_stop()
 <p>First learning-based network handling nighttime haze and glow using APSF.</p>
 </td>
 </tr>
-<!-- Paper 3 NightFog -->
 <!-- ###################################################################################################-->
   
 <!-- ###################################################################################################-->
@@ -824,7 +890,6 @@ aaai23_reflectance_stop()
 <p>First reflectance layer estimation that performs robustly even in the presence of shadows and specularities.</p>
 </td>
 </tr>
-<!-- Paper 2 Reflectance, AAAI'23 -->
 <!-- ###################################################################################################-->
   
   
@@ -873,7 +938,6 @@ accv22_defog_stop()
 <p>Dense and/or non-uniform fog removal.</p>
 </td>
 </tr>
-<!-- Paper 1 defog, ACCV'22 -->
 <!-- ###################################################################################################-->
     
 
