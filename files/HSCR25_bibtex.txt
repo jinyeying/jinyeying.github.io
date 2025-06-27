@@ -1,0 +1,6 @@
+@article{jiang2025hscr,
+  title={HSCR: Hierarchical Self-Contrastive Rewarding for Aligning Medical Vision Language Models},
+  author={Jiang, Songtao and Zhang, Yan and Jin, Yeying and Tang, Zhihang and Wu, Yangyang and Feng, Yang and Wu, Jian and Liu, Zuozhu},
+  journal={arXiv preprint arXiv:2506.00805},
+  year={2025}
+}

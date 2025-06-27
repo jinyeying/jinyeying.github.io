@@ -1,0 +1,7 @@
+@inproceedings{li2025ntire,
+  title={NTIRE 2025 challenge on day and night raindrop removal for dual-focused images: Methods and results},
+  author={Li, Xin and Jin, Yeying and Jin, Xin and Wu, Zongwei and Li, Bingchen and Wang, Yufei and Yang, Wenhan and Li, Yu and Chen, Zhibo and Wen, Bihan and others},
+  booktitle={Proceedings of the Computer Vision and Pattern Recognition Conference},
+  pages={1172--1183},
+  year={2025}
+}

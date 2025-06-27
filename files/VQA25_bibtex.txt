@@ -1,0 +1,6 @@
+@article{jiang2025fast,
+  title={Fast or Slow? Integrating Fast Intuition and Deliberate Thinking for Enhancing Visual Question Answering},
+  author={Jiang, Songtao and Zhou, Chenyi and Zhang, Yan and Jin, Yeying and Liu, Zuozhu},
+  journal={arXiv preprint arXiv:2506.00806},
+  year={2025}
+}
