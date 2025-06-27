@@ -1,6 +1,8 @@
-@article{li2024ucip,
-  title={UCIP: A Universal Framework for Compressed Image Super-Resolution using Dynamic Prompt},
+@inproceedings{li2024ucip,
+  title={UCIP: A universal framework for compressed image super-resolution using dynamic prompt},
   author={Li, Xin and Li, Bingchen and Jin, Yeying and Lan, Cuiling and Zhu, Hanxin and Ren, Yulin and Chen, Zhibo},
-  journal={arXiv preprint arXiv:2407.13108},
-  year={2024}
+  booktitle={European Conference on Computer Vision},
+  pages={107--125},
+  year={2024},
+  organization={Springer}
 }
