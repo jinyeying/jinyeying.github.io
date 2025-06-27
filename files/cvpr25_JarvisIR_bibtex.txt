@@ -1,6 +1,7 @@
-@inproceedings{jarvisir2025,
-  title={JarvisIR: Elevating Autonomous Driving Perception with Intelligent Image Restoration},
-  author={Lin, Yunlong and Lin, Zixu and Chen, Haoyu and Pan, Panwang and Li, Chenxin and Chen, Sixiang and Jin, Yeying and Li, Wenbo and Ding, Xinghao},
-  booktitle={Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)},
+@inproceedings{lin2025jarvisir,
+  title={Jarvisir: Elevating autonomous driving perception with intelligent image restoration},
+  author={Lin, Yunlong and Lin, Zixu and Chen, Haoyu and Pan, Panwang and Li, Chenxin and Chen, Sixiang and Wen, Kairun and Jin, Yeying and Li, Wenbo and Ding, Xinghao},
+  booktitle={Proceedings of the Computer Vision and Pattern Recognition Conference},
+  pages={22369--22380},
   year={2025}
 }
