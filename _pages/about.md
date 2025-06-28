@@ -24,7 +24,7 @@ Previously, I completed my M.Sc. degree at the <img src="/files/NUS.png" alt="NU
 My primary research interests include computer vision and deep learning, mainly focusing on AIGC and Multimodal. <span style="color:red"> I'm looking for self-motivated interns and full-time researchers.</span>
 
 # 📜 Research Area
-1. AIGC (e.g., GAN, Diffusion, LoRA training, FLUX, SDXL, SD1.5, LCM, Midjourney)
+1. AIGC, Image and Video Generation
 2. Talking Face Generation
 3. Multimodal, Direct Preference Optimization (DPO), VQA
 4. Image/Video Enhancement, Restoration and Decomposition (e.g., Intrinsic Image Decomposition)
@@ -223,8 +223,8 @@ cvpr25_JarvisIR_stop()
 <tr onmouseout="ntire25_rd_stop()" onmouseover="ntire25_rd_start()" >
 <td width="20%">
 <div class="one">
-<div class="two" id = 'eccv24_rd_image'><img src='./files/eccv24_raindropclarify_after.png'></div>
-<img src='./files/eccv24_raindropclarify_before.png'>
+<div class="two" id = 'ntire25_rd_image'><img src='./files/ntire25_raindropclarify_after.png'></div>
+<img src='./files/ntire25_raindropclarify_before.png'>
 </div>
 <script type="text/javascript">
 function ntire25_rd_start() {
@@ -264,7 +264,7 @@ ntire25_rd_stop()
 
 <!-- ###################################################################################################-->
 <!-- Paper 17 RaindropClarity -->
-<tr onmouseout="eccv24_rd_stop()" onmouseover="eccv24_rd_start()" >
+<tr onmouseout="eccv24_rd_stop()" onmouseover="eccv24_rd_start()" >  
 <td width="20%">
 <div class="one">
 <div class="two" id = 'eccv24_rd_image'><img src='./files/eccv24_raindropclarify_after.png'></div>
