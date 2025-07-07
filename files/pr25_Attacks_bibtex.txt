@@ -1,0 +1,6 @@
+@article{li2025unveiling,
+  title={Unveiling hidden vulnerabilities in digital human generation via adversarial attacks},
+  author={Li, Zhiying and Jin, Yeying and Shen, Fan and Liu, Zhi and Chen, Weibin and Zhang, Pengju and Zhang, Xiaomei and Chen, Boyu and Shen, Michael and Wu, Kejian and others},
+  journal={arXiv preprint arXiv:2504.17457},
+  year={2025}
+}

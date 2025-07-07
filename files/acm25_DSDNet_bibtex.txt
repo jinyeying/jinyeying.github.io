@@ -1,0 +1,6 @@
+@article{yang2025dsdnet,
+  title={DSDNet: Raw Domain Demoir$\backslash$'eing via Dual Color-Space Synergy},
+  author={Yang, Qirui and Zhang, Fangpu and Jin, Yeying and Cheng, Qihua and Jiang, Pengtao and Yue, Huanjing and Yang, Jingyu},
+  journal={arXiv preprint arXiv:2504.15756},
+  year={2025}
+}
