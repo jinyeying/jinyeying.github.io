@@ -1045,25 +1045,23 @@ accv22_defog_stop()
   </tr>
   
   <tr>
-    <td>AI Video Gen | When Wukong meets Yayoi Kusama</a></td>
+    <td>AI Video Gen | When Wukong meets Yayoi Kusama</td>
     <td><img src="/files/tencent.png" alt="Tencent" width="85" height="20"> , Singapore </td>
     <td>05.2025</td>
   </tr>
-  
   <tr>
     <td><a href="https://showlab.github.io/omg/">AI × Gaming: Creative Applications of AIGC</a></td>
     <td><img src="/files/NUS.png" alt="NUS" width="42.5" height="20"> , Singapore (invited by <a href="https://qhlin.me/">Kevin QH. Lin</a>)</td>
     <td>04.2025</td>
   </tr>
-
   <tr>
-    <td>AI Generation: Inspiring Game Marketing and Development</a></td>
+    <td>AI Generation: Inspiring Game Marketing and Development</td>
     <td><img src="/files/tencent.png" alt="Tencent" width="85" height="20"> , Singapore </td>
     <td>02.2025</td>
   </tr>
   
   <tr>
-    <td><a href="https://www.bilibili.com/video/BV1p5bFevEgP/?spm_id_from=333.999.0.0&vd_source=8ae1cd92e40b380c0296eb6843da79a4">Raindrop Clarity: Dual-Focused, Day & Night</a></td>
+    <td><a href="https://www.bilibili.com/video/BV1p5bFevEgP/?spm_id_from=333.999.0.0&vd_source=8ae1cd92e40b380c0296eb6843da79a4">Raindrop Clarity: Dual-Focused, Day & Night</td>
     <td><img src="/files/AITIME.png" alt="AITIME" width="19.778" height="20"> AI TIME</td>
     <td>09.2024</td>
   </tr>
@@ -1075,7 +1073,7 @@ accv22_defog_stop()
   </tr>
 
   <tr>
-    <td>Applications of Generative AI</a></td>
+    <td>Applications of Generative AI</td>
     <td><img src="/files/tencent.png" alt="Tencent" width="85" height="20"> , Singapore </td>
     <td>11.2023</td>
   </tr>
