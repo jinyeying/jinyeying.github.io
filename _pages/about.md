@@ -101,7 +101,7 @@ My primary research interests include computer vision and deep learning, mainly 
 <!-- ############################ Put your publications below this! ####################################-->
 
 <!-- ###################################################################################################-->
-<!-- Paper 21 PosterCraft -->
+<!-- Paper 23 PosterCraft -->
 <tr onmouseout="arxiv25_PosterCraft_stop()" onmouseover="arxiv25_PosterCraft_start()" >
 <td width="20%">
 <div class="one">
@@ -137,6 +137,74 @@ arxiv25_PosterCraft_stop()
 <a href="https://huggingface.co/spaces/Ephemeral182/PosterCraft">online demo</a>    
 |
 <a href="https://www.youtube.com/watch?v=92wMU4D7qx0">video</a>
+<p></p>
+</td>
+</tr>
+<!-- ###################################################################################################-->
+
+<!-- ###################################################################################################-->
+<!-- Paper 22 DSDNet -->
+<tr onmouseout="acm25_DSDNet_stop()" onmouseover="acm25_DSDNet_start()" >
+<td width="20%">
+<div class="one">
+<div class="two" id = 'acm25_DSDNet_image'><img src='./files/acm25_DSDNet_after.png'></div>
+<img src='./files/acm25_DSDNet_before.png'>
+</div>
+<script type="text/javascript">
+function acm25_DSDNet_start() {
+document.getElementById('acm25_DSDNet_image').style.opacity = "1";
+}
+function acm25_DSDNet_stop() {
+document.getElementById('acm25_DSDNet_image').style.opacity = "0";
+}
+acm25_DSDNet_stop()
+</script>
+</td>
+<td valign="top" width="80%">
+  <a href="">
+    <papertitle_just>DSDNet: Raw Domain Demoir\'eing via Dual Color-Space Synergy</papertitle_just>     
+  </a>
+  <br>
+  Qirui Yang, Fangpu Zhang, <strong>Yeying Jin</strong>, Qihua Cheng, Pengtao Jiang, Huanjing Yue, Jingyu Yang
+  <br>
+<em>ACM Multimedia (ACM'MM)</em>, 2025, Dublin, Ireland <br>
+<a href="">arXiv</a>
+| 
+<a href="./files/acm25_DSDNet_bibtex.txt">bibtex</a>  
+<p></p>
+</td>
+</tr>
+<!-- ###################################################################################################-->
+
+<!-- ###################################################################################################-->
+<!-- Paper 21 PR -->
+<tr onmouseout="pr25_Attacks_stop()" onmouseover="pr25_Attacks_start()" >
+<td width="20%">
+<div class="one">
+<div class="two" id = 'pr25_Attacks_image'><img src='./files/pr25_Attacks_after.png'></div>
+<img src='./files/pr25_Attacks_before.png'>
+</div>
+<script type="text/javascript">
+function pr25_Attacks_start() {
+document.getElementById('pr25_Attacks_image').style.opacity = "1";
+}
+function pr25_Attacks_stop() {
+document.getElementById('pr25_Attacks_image').style.opacity = "0";
+}
+pr25_Attacks_stop()
+</script>
+</td>
+<td valign="top" width="80%">
+  <a href="https://arxiv.org/abs/2504.17457">
+    <papertitle_just>Unveiling Hidden Vulnerabilities in Digital Human Generation via Adversarial Attacks</papertitle_just>     
+  </a>
+  <br>
+  Zhiying Li, <strong>Yeying Jin</strong>, Fan Shen, Zhi Liu, Weibin Chen, Pengju Zhang, Xiaomei Zhang, Boyu Chen, Michael Shen, Kejian Wu, Zhaoxin Fan, Jin Dong
+  <br>
+<em>Pattern Recognition (PR)</em>, 2025 <br>
+<a href="https://arxiv.org/abs/2504.17457">arXiv</a>
+| 
+<a href="./files/pr25_Attacks_bibtex.txt">bibtex</a>  
 <p></p>
 </td>
 </tr>
@@ -243,7 +311,7 @@ ntire25_rd_stop()
   <br>
   Xin Li*, <strong>Yeying Jin</strong>*, Xin Jin*, etc. (Corresponding authors) 
   <br>
-  <em>Computer Vision and Pattern Recognition (CVPRW)</em>, 2025, Nashville, USA <br>
+  <em>Computer Vision and Pattern Recognition (CVPR)</em>, 2025, Nashville, USA <br>
   <a href="https://arxiv.org/abs/2504.12711">arXiv</a>
   |
   <a href="https://github.com/jinyeying/RaindropClarity"><img src="https://img.shields.io/github/stars/jinyeying/RaindropClarity?style=social&label=Stars"></a>
@@ -333,7 +401,7 @@ acl25_hscr_stop()
   <br>
   Songtao Jiang, Yan Zhang, <strong>Yeying Jin</strong>, Zhihang Tang, Yangyang Wu, Yang Feng, Jian Wu, Zuozhu Liu
   <br>
-  <em>ACL</em>, 2025, Vienna, Austria <br>
+  <em>Association for Computational Linguistics (ACL)</em>, 2025, Vienna, Austria <br>
   <a href="https://arxiv.org/abs/2506.00805">arXiv</a>
   |
   <a href="./files/HSCR25_bibtex.txt">bibtex</a>
@@ -367,7 +435,7 @@ acl25_vqa_stop()
   <br>
   Songtao Jiang, Chenyi Zhou, Yan Zhang, <strong>Yeying Jin</strong>, Zuozhu Liu
   <br>
-  <em>ACL</em>, 2025, Vienna, Austria <br>
+  <em>Association for Computational Linguistics (ACL)</em>, 2025, Vienna, Austria <br>
   <a href="https://arxiv.org/abs/2506.00806">arXiv</a>
   |
   <a href="./files/VQA25_bibtex.txt">bibtex</a>
@@ -401,7 +469,7 @@ arxiv24_dpo_stop()
   <br>
   Songtao Jiang, Yan Zhang, Ruizhe Chen, <strong>Yeying Jin</strong>, Zuozhu Liu
   <br>
-  <em>IJCAI</em>, 2025, Montreal, Canada <br>
+  <em>International Joint Conference on Artificial Intelligence (IJCAI)</em>, 2025, Montreal, Canada <br>
   <a href="https://arxiv.org/abs/2410.15334">arXiv</a>
   |
   <a href="./files/MFDPO24_bibtex.txt">bibtex</a>
@@ -958,9 +1026,10 @@ accv22_defog_stop()
 - 01.2019-01.2020: Machine Learning Researcher at <img src="/files/biomind.png" alt="Biomind" width="80" height="20"> Singapore, advised by [Prof. Jiashi Feng](https://sites.google.com/site/jshfeng/), worked on Biomedical Image Synthesis, Super-resolution, Tumor Segmentation and Classification, expo demo for ["Deep Learning-Based End-to-end Automatic Contouring and Automated Radiation Therapy Treatment Planning System"](https://media.neurips.cc/Conferences/NeurIPS2019/NeurIPS_Expo_Book_2019.pdf).
 
 # 🎖 Honors and Awards
+-  2nd Place, [“Yayoi Kusama × Wukong”](https://modelscope.cn/brand/view/game-wan?branch=0&tree=4), ModelScope Wan 2.1 Video Generation Challenge, hosted by Alibaba in 2025.
 -  Tencent [Knowledge Award](https://zhuanlan.zhihu.com/p/686681635) in 2024.
 -  Tencent Excellent R&D Award in 2024.
-- <img src="/files/aisg.png" alt="AISG" width="20" height="20"> [AI Singapore (AISG) Ph.D. Fellowship](https://aisingapore.org/research/phd-fellowship-programme/), Theme: Continuous Learning AI, Self-supervised Learning 
+-  <img src="/files/aisg.png" alt="AISG" width="20" height="20"> [AI Singapore (AISG) Ph.D. Fellowship](https://aisingapore.org/research/phd-fellowship-programme/), Theme: Continuous Learning AI, Self-supervised Learning 
 
 # 💻 Academic Services
 - Workshop/Competitions: Organizer of [the First Challenge on Day and Night Raindrop Removal for Dual-Focused Images](https://lixinustc.github.io/CVPR-NTIRE2025-RainDrop-Competition.github.io/), CVPR 2025 NTIRE Workshop.
@@ -976,9 +1045,21 @@ accv22_defog_stop()
   </tr>
   
   <tr>
+    <td>AI Video Gen | When Wukong meets Yayoi Kusama</a></td>
+    <td><img src="/files/tencent.png" alt="Tencent" width="85" height="20"> , Singapore </td>
+    <td>05.2025</td>
+  </tr>
+  
+  <tr>
     <td><a href="https://showlab.github.io/omg/">AI × Gaming: Creative Applications of AIGC</a></td>
     <td><img src="/files/NUS.png" alt="NUS" width="42.5" height="20"> , Singapore (invited by <a href="https://qhlin.me/">Kevin QH. Lin</a>)</td>
     <td>04.2025</td>
+  </tr>
+
+  <tr>
+    <td>AI Generation: Inspiring Game Marketing and Development</a></td>
+    <td><img src="/files/tencent.png" alt="Tencent" width="85" height="20"> , Singapore </td>
+    <td>02.2025</td>
   </tr>
   
   <tr>
@@ -986,11 +1067,17 @@ accv22_defog_stop()
     <td><img src="/files/AITIME.png" alt="AITIME" width="19.778" height="20"> AI TIME</td>
     <td>09.2024</td>
   </tr>
-  
+
   <tr>
     <td><a href="https://www.bilibili.com/video/BV1wc411v7zf/?spm_id_from=333.999.0.0&vd_source=8ae1cd92e40b380c0296eb6843da79a4">Shadow Removal using Diffusion Model</a></td>
     <td><img src="/files/AITIME.png" alt="AITIME" width="19.778" height="20"> AI TIME</td>
     <td>01.2024</td>
+  </tr>
+
+  <tr>
+    <td>Applications of Generative AI</a></td>
+    <td><img src="/files/tencent.png" alt="Tencent" width="85" height="20"> , Singapore </td>
+    <td>11.2023</td>
   </tr>
   
   <tr>
