@@ -105,8 +105,8 @@ My primary research interests include computer vision and deep learning, mainly 
 <tr onmouseout="arxiv25_PosterCraft_stop()" onmouseover="arxiv25_PosterCraft_start()" >
 <td width="20%">
 <div class="one">
-<div class="two" id = 'arxiv25_PosterCraft_image'><img src='./files/arxiv25_PosterCraft_after.png'></div>
-<img src='./files/arxiv25_PosterCraft_before.png'>
+<div class="two" id = 'arxiv25_PosterCraft_image'><img src="./files/arxiv25_PosterCraft_after.png" style="width: 100%; aspect-ratio: 1 / 1; object-fit: cover;"></div>
+<img src="./files/arxiv25_PosterCraft_before.png" style="width: 100%; aspect-ratio: 1 / 1; object-fit: cover;">
 </div>
 <script type="text/javascript">
 function arxiv25_PosterCraft_start() {
@@ -178,21 +178,9 @@ acm25_DSDNet_stop()
 
 <!-- ###################################################################################################-->
 <!-- Paper 21 PR -->
-<tr onmouseout="pr25_Attacks_stop()" onmouseover="pr25_Attacks_start()" >
-<td width="20%">
 <div class="one">
-<div class="two" id = 'pr25_Attacks_image'><img src='./files/pr25_Attacks_after.png'></div>
-<img src='./files/pr25_Attacks_before.png'>
+  <img src="./files/pr25_Attacks.png" style="width: 100px; aspect-ratio: 1 / 1; object-fit: cover;">
 </div>
-<script type="text/javascript">
-function pr25_Attacks_start() {
-document.getElementById('pr25_Attacks_image').style.opacity = "1";
-}
-function pr25_Attacks_stop() {
-document.getElementById('pr25_Attacks_image').style.opacity = "0";
-}
-pr25_Attacks_stop()
-</script>
 </td>
 <td valign="top" width="80%">
   <a href="https://arxiv.org/abs/2504.17457">
