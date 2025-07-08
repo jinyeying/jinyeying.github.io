@@ -178,9 +178,22 @@ acm25_DSDNet_stop()
 
 <!-- ###################################################################################################-->
 <!-- Paper 21 PR -->
+<tr onmouseout="pr25_Attacks_stop()" onmouseover="pr25_Attacks_start()" >
+<td width="20%">
 <div class="one">
+<div class="two" id = 'pr25_Attacks_image'><img src='./files/pr25_Attacks.png'></div>
+<img src='./files/pr25_Attacks.png'>
   <img src="./files/pr25_Attacks.png" style="width: 100px; aspect-ratio: 1 / 1; object-fit: cover;">
 </div>
+<script type="text/javascript">
+function pr25_Attacks_start() {
+document.getElementById('pr25_Attacks_image').style.opacity = "1";
+}
+function pr25_Attacks_stop() {
+document.getElementById('pr25_Attacks_image').style.opacity = "0";
+}
+pr25_Attacks_stop()
+</script>
 </td>
 <td valign="top" width="80%">
   <a href="https://arxiv.org/abs/2504.17457">
@@ -1030,13 +1043,11 @@ accv22_defog_stop()
     <th>Topic</th>
     <th>Host</th>
     <th>Date</th>
-  </tr>
   <tr>
     <td>AI Video Gen | When Wukong meets Yayoi Kusama</td>
     <td><img src="/files/tencent.png" alt="Tencent" width="85" height="20"> , Singapore </td>
     <td>05.2025</td>
   </tr>
-  
   <tr>
     <td><a href="https://showlab.github.io/omg/">AI × Gaming: Creative Applications of AIGC</a></td>
     <td><img src="/files/NUS.png" alt="NUS" width="42.5" height="20"> (invited by <a href="https://qhlin.me/">Kevin QH. Lin</a>)</td>
