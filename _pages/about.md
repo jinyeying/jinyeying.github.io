@@ -105,7 +105,8 @@ My primary research interests include computer vision and deep learning, mainly 
 <tr onmouseout="arxiv25_PosterCraft_stop()" onmouseover="arxiv25_PosterCraft_start()" >
 <td width="20%">
 <div class="one">
-<div class="two" id = 'arxiv25_PosterCraft_image'><img src="./files/arxiv25_PosterCraft_after.png" style="width: 100%; aspect-ratio: 1 / 1; object-fit: cover;"></div>
+<div class="two" id = 'arxiv25_PosterCraft_image'>
+<img src="./files/arxiv25_PosterCraft_after.png" style="width: 100%; aspect-ratio: 1 / 1; object-fit: cover;"></div>
 <img src="./files/arxiv25_PosterCraft_before.png" style="width: 100%; aspect-ratio: 1 / 1; object-fit: cover;">
 </div>
 <script type="text/javascript">
@@ -181,10 +182,9 @@ acm25_DSDNet_stop()
 <tr onmouseout="pr25_Attacks_stop()" onmouseover="pr25_Attacks_start()" >
 <td width="20%">
 <div class="one">
-<div class="two" id = 'pr25_Attacks_image'><img src='./files/pr25_Attacks.png'></div>
-<img src='./files/pr25_Attacks.png'>
-  <img src="./files/pr25_Attacks.png" style="width: 100px; aspect-ratio: 1 / 1; object-fit: cover;">
-</div>
+<div class="two" id = 'pr25_Attacks_image'>
+<img src="./files/pr25_Attacks.png" style="width: 100%; aspect-ratio: 1 / 1; object-fit: cover;"></div>
+<img src="./files/pr25_Attacks.png" style="width: 100%; aspect-ratio: 1 / 1; object-fit: cover;"></div>
 <script type="text/javascript">
 function pr25_Attacks_start() {
 document.getElementById('pr25_Attacks_image').style.opacity = "1";
@@ -206,20 +206,21 @@ pr25_Attacks_stop()
 <a href="https://arxiv.org/abs/2504.17457">arXiv</a>
 | 
 <a href="./files/pr25_Attacks_bibtex.txt">bibtex</a>  
+|
+<a href="https://mp.weixin.qq.com/s/xviRfqXDHGhBUOHhYuiy9A">link</a> 
 <p></p>
 </td>
 </tr>
 <!-- ###################################################################################################-->
-
 
 <!-- ###################################################################################################-->
 <!-- Paper 20 GenHaze -->
 <tr onmouseout="iccv25_GenHaze_stop()" onmouseover="iccv25_GenHaze_start()" >
 <td width="20%">
 <div class="one">
-<div class="two" id = 'iccv25_GenHaze_image'><img src='./files/iccv25_GenHaze_after.png'></div>
-<img src='./files/iccv25_GenHaze_before.png'>
-</div>
+<div class="two" id = 'iccv25_GenHaze_image'>
+<img src="./files/iccv25_GenHaze_after.png" style="width: 100%; aspect-ratio: 1 / 1; object-fit: cover;"></div>
+<img src="./files/iccv25_GenHaze_before.png" style="width: 100%; aspect-ratio: 1 / 1; object-fit: cover;"></div>
 <script type="text/javascript">
 function iccv25_GenHaze_start() {
 document.getElementById('iccv25_GenHaze_image').style.opacity = "1";
@@ -382,9 +383,9 @@ eccv24_rd_stop()
 <tr onmouseout="acl25_hscr_stop()" onmouseover="acl25_hscr_start()" >
 <td width="20%">
 <div class="one">
-<div class="two" id = 'acl25_hscr_image'><img src='./files/HSCR_after.png'></div>
-<img src='./files/HSCR_before.png'>
-</div>
+<div class="two" id = 'acl25_hscr_image'>
+<img src='./files/HSCR_after.png' style="width: 100%; aspect-ratio: 1 / 1; object-fit: cover;"></div>
+<img src='./files/HSCR_before.png' style="width: 100%; aspect-ratio: 1 / 1; object-fit: cover;"></div>
 <script type="text/javascript">
 function acl25_hscr_start() {
 document.getElementById('acl25_hscr_image').style.opacity = "1";
@@ -416,9 +417,9 @@ acl25_hscr_stop()
 <tr onmouseout="acl25_vqa_stop()" onmouseover="acl25_vqa_start()" >
 <td width="20%">
 <div class="one">
-<div class="two" id = 'acl25_vqa_image'><img src='./files/VQA_after.png'></div>
-<img src='./files/VQA_before.png'>
-</div>
+<div class="two" id = 'acl25_vqa_image'>
+<img src="./files/VQA_after.png" style="width: 100%; aspect-ratio: 1 / 1; object-fit: cover;"></div>
+<img src="./files/VQA_before.png" style="width: 100%; aspect-ratio: 1 / 1; object-fit: cover;"></div>
 <script type="text/javascript">
 function acl25_vqa_start() {
 document.getElementById('acl25_vqa_image').style.opacity = "1";
@@ -450,9 +451,9 @@ acl25_vqa_stop()
 <tr onmouseout="arxiv24_dpo_stop()" onmouseover="arxiv24_dpo_start()" >
 <td width="20%">
 <div class="one">
-<div class="two" id = 'arxiv24_dpo_image'><img src='./files/MFDPO_after.png'></div>
-<img src='./files/MFDPO_before.png'>
-</div>
+<div class="two" id = 'arxiv24_dpo_image'>
+<img src="./files/MFDPO_after.png" style="width: 100%; aspect-ratio: 1 / 1; object-fit: cover;"></div>
+<img src="./files/MFDPO_before.png" style="width: 100%; aspect-ratio: 1 / 1; object-fit: cover;"></div>
 <script type="text/javascript">
 function arxiv24_dpo_start() {
 document.getElementById('arxiv24_dpo_image').style.opacity = "1";
@@ -484,9 +485,9 @@ arxiv24_dpo_stop()
 <tr onmouseout="arxiv24_CGSAM_stop()" onmouseover="arxiv24_CGSAM_start()" >
 <td width="20%">
 <div class="one">
-<div class="two" id = 'arxiv24_CGSAM_image'><img src='./files/CGSAM_after.png'></div>
-<img src='./files/CGSAM_before.png'>
-</div>
+<div class="two" id = 'arxiv24_CGSAM_image'>
+<img src="./files/CGSAM_after.png" style="width: 100%; aspect-ratio: 1 / 1; object-fit: cover;"></div>
+<img src="./files/CGSAM_before.png" style="width: 100%; aspect-ratio: 1 / 1; object-fit: cover;"></div>
 <script type="text/javascript">
 function arxiv24_CGSAM_start() {
 document.getElementById('arxiv24_CGSAM_image').style.opacity = "1";
@@ -520,9 +521,9 @@ arxiv24_CGSAM_stop()
 <tr onmouseout="emnlp24_moe_stop()" onmouseover="emnlp24_moe_start()" >
 <td width="20%">
 <div class="one">
-<div class="two" id = 'emnlp24_moe_image'><img src='./files/emnlp24_moe_after.png'></div>
-<img src='./files/emnlp24_moe_before.png'>
-</div>
+<div class="two" id = 'emnlp24_moe_image'>
+<img src="./files/emnlp24_moe_after.png" style="width: 100%; aspect-ratio: 1 / 1; object-fit: cover;"></div>
+<img src="./files/emnlp24_moe_before.png" style="width: 100%; aspect-ratio: 1 / 1; object-fit: cover;"></div>
 <script type="text/javascript">
 function emnlp24_moe_start() {
 document.getElementById('emnlp24_moe_image').style.opacity = "1";
@@ -1014,7 +1015,7 @@ accv22_defog_stop()
 </tbody></table>
 
 # 🏫 Educations
-- 01.2020-01.2024: Ph.D. (Computer Vision and Deep Learning), <img src="/files/NUS.png" alt="NUS" width="42.5" height="20"> NUS, Singapore (CAP: 4.75/5.00)
+- 01.2020-01.2024: Ph.D. (AI and Deep Learning), <img src="/files/NUS.png" alt="NUS" width="42.5" height="20"> NUS, Singapore (CAP: 4.75/5.00)
 - 08.2017-08.2018: M.S. (Electrical and Computer Engineering), <img src="/files/NUS.png" alt="NUS" width="42.5" height="20"> NUS, Singapore
 - 09.2013-07.2017: B.Eng (Electrical and Computer Engineering), <img src="/files/UESTC.png" alt="UESTC" width="20.842" height="20"> UESTC, China (GPA: 3.93/4.00)
 
@@ -1027,13 +1028,13 @@ accv22_defog_stop()
 - 01.2019-01.2020: Machine Learning Researcher at <img src="/files/biomind.png" alt="Biomind" width="80" height="20"> Singapore, advised by [Prof. Jiashi Feng](https://sites.google.com/site/jshfeng/), worked on Biomedical Image Synthesis, Super-resolution, Tumor Segmentation and Classification, expo demo for ["Deep Learning-Based End-to-end Automatic Contouring and Automated Radiation Therapy Treatment Planning System"](https://media.neurips.cc/Conferences/NeurIPS2019/NeurIPS_Expo_Book_2019.pdf).
 
 # 🎖 Honors and Awards
--  2nd Place, [“Yayoi Kusama × Wukong”](https://modelscope.cn/brand/view/game-wan?branch=0&tree=4), ModelScope Wan 2.1 Video Generation Challenge, hosted by Alibaba in 2025.
+-  2nd Place, [“Yayoi Kusama × Wukong”](https://modelscope.cn/brand/view/game-wan?branch=0&tree=4), ModelScope Wan 2.1 Video Generation Challenge in 2025.
 -  Tencent [Knowledge Award](https://zhuanlan.zhihu.com/p/686681635) in 2024.
 -  Tencent Excellent R&D Award in 2024.
 -  <img src="/files/aisg.png" alt="AISG" width="20" height="20"> [AI Singapore (AISG) Ph.D. Fellowship](https://aisingapore.org/research/phd-fellowship-programme/), Theme: Continuous Learning AI, Self-supervised Learning 
 
 # 💻 Academic Services
-- Workshop/Competitions: Organizer of [the First Challenge on Day and Night Raindrop Removal for Dual-Focused Images](https://lixinustc.github.io/CVPR-NTIRE2025-RainDrop-Competition.github.io/), CVPR 2025 NTIRE Workshop.
+- Organizer: [CVPR 2025 NTIRE](https://www.cvlai.net/ntire/2025/), [the First Challenge on Day and Night Raindrop Removal for Dual-Focused Images](https://lixinustc.github.io/CVPR-NTIRE2025-RainDrop-Competition.github.io/)
 - Reviewer: ACL ARR'25, ICML'25, ICLR'25, NeurIPS'23-25, CVPR'22-25, ICCV'23-25, ECCV'22-24, AAAI'23-25, ACMMM'23-25, TPAMI'23, IJCV'24, TIP'23, MICCAI'25, CVIU'23, TCSVT'23, TVCJ'23, NEUCOM'23, ACCV'22-24, IJCAI'22, IJCNN'21, etc.
 - Teaching Assistant: [EE5731 Visual Computing](https://tanrobby.github.io/teaching/ece_visual/index.html), EE5904 Neural Network (NUS ECE)
 
@@ -1043,11 +1044,14 @@ accv22_defog_stop()
     <th>Topic</th>
     <th>Host</th>
     <th>Date</th>
+  </tr>
+  
   <tr>
     <td>AI Video Gen | When Wukong meets Yayoi Kusama</td>
     <td><img src="/files/tencent.png" alt="Tencent" width="85" height="20"> , Singapore </td>
     <td>05.2025</td>
   </tr>
+  
   <tr>
     <td><a href="https://showlab.github.io/omg/">AI × Gaming: Creative Applications of AIGC</a></td>
     <td><img src="/files/NUS.png" alt="NUS" width="42.5" height="20"> (invited by <a href="https://qhlin.me/">Kevin QH. Lin</a>)</td>
