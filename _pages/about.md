@@ -138,6 +138,8 @@ arxiv25_PosterCraft_stop()
 <a href="https://huggingface.co/spaces/Ephemeral182/PosterCraft">online demo</a>    
 |
 <a href="https://www.youtube.com/watch?v=92wMU4D7qx0">video</a>
+|
+<a href="https://mp.weixin.qq.com/s/gq6DwohKP0z333OSDRe7Xw">link</a>  
 <p></p>
 </td>
 </tr>
@@ -162,16 +164,18 @@ acm25_DSDNet_stop()
 </script>
 </td>
 <td valign="top" width="80%">
-  <a href="">
-    <papertitle_just>DSDNet: Raw Domain Demoir\'eing via Dual Color-Space Synergy</papertitle_just>     
+  <a href="https://arxiv.org/abs/2504.15756">
+    <papertitle_just>DSDNet: Raw Domain Demoiréing via Dual Color-Space Synergy</papertitle_just>     
   </a>
   <br>
   Qirui Yang, Fangpu Zhang, <strong>Yeying Jin</strong>, Qihua Cheng, Pengtao Jiang, Huanjing Yue, Jingyu Yang
   <br>
 <em>ACM Multimedia (ACM'MM)</em>, 2025, Dublin, Ireland <br>
-<a href="">arXiv</a>
+<a href="https://arxiv.org/abs/2504.15756">arXiv</a>
 | 
-<a href="./files/acm25_DSDNet_bibtex.txt">bibtex</a>  
+<a href="./files/acm25_DSDNet_bibtex.txt">bibtex</a> 
+|
+<a href="https://xxxxxxxxdsdnet.github.io/DSDNet/">demo</a>  
 <p></p>
 </td>
 </tr>
@@ -282,7 +286,9 @@ cvpr25_JarvisIR_stop()
 |
 <a href="https://cvpr2025-jarvisir.github.io/">project page</a>  
 |
-<a href="https://huggingface.co/spaces/LYL1015/JarvisIR">online demo</a>    
+<a href="https://huggingface.co/spaces/LYL1015/JarvisIR">online demo</a>  
+|
+<a href="https://mp.weixin.qq.com/s/zYhqjMfThwwTK9nhXwYu4g">link</a>    
 <p></p>
 </td>
 </tr>
@@ -1065,7 +1071,7 @@ accv22_defog_stop()
   </tr>
   
   <tr>
-    <td><a href="https://www.bilibili.com/video/BV1p5bFevEgP/?spm_id_from=333.999.0.0&vd_source=8ae1cd92e40b380c0296eb6843da79a4">Raindrop Clarity: Dual-Focused, Day and Night</td>
+    <td><a href="https://www.bilibili.com/video/BV1p5bFevEgP/?spm_id_from=333.999.0.0&vd_source=8ae1cd92e40b380c0296eb6843da79a4">Raindrop Clarity: Dual-Focused, Day and Night</a></td>
     <td><img src="/files/AITIME.png" alt="AITIME" width="19.778" height="20"> AI TIME</td>
     <td>09.2024</td>
   </tr>
