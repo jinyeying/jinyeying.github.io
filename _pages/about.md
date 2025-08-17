@@ -17,18 +17,126 @@ redirect_from:
 <span class='anchor' id='about-me'></span>
 
 I am a Staff Researcher at [Tencent](https://www.tencent.com/en-us/about.html). I earned my PhD degree from <img src="/files/NUS.png" alt="NUS" width="42.5" height="20"> [National University of Singapore (NUS), Department of Electrical and Computer Engineering (ECE)](https://cde.nus.edu.sg/ece/), supervised by [Prof. Robby T. Tan](http://tanrobby.github.io/). 
-I had my research internship in <img src="/files/adobe.png" alt="Adobe" width="20" height="20"> [Adobe](https://research.adobe.com/), mentored by [Prof. Connelly Barnes](http://www.connellybarnes.com/work/).
-
+I had my research internship in <img src="/files/adobe.png" alt="Adobe" width="20" height="20"> [Adobe](https://research.adobe.com/), mentored by [Prof. Connelly Barnes](http://www.connellybarnes.com/work/) and [Prof. Eli Shechtman](https://scholar.google.com/citations?user=B_FTboQAAAAJ).
 Previously, I completed my M.Sc. degree at the <img src="/files/NUS.png" alt="NUS" width="42.5" height="20"> [National University of Singapore (NUS)](https://cde.nus.edu.sg/ece/); received my B.Eng. degree from the <img src="/files/UESTC.png" alt="UESTC" width="20.842" height="20"> [University of Electronic Science and Technology of China (UESTC)](https://en.uestc.edu.cn/). 
 
-My primary research interests include computer vision and deep learning, mainly focusing on AIGC and Multimodal. <span style="color:red"> I'm looking for self-motivated interns and full-time researchers.</span>
+My primary research interests include Artificial Intelligence, mainly focusing on AIGC, multimodal learning, and vision-language models (VLMs). <span style="color:red"> I'm looking for self-motivated interns and full-time researchers.</span>
 
 # 📜 Research Area
-1. AIGC, Image and Video Generation
-2. Talking Face Generation
-3. Multimodal, Direct Preference Optimization (DPO), VQA
-4. Image/Video Enhancement, Restoration and Decomposition (e.g., Intrinsic Image Decomposition)
-5. Deep Learning and its Applications (e.g., Medical Images) 
+1. AIGC, Image and Video Generation, Talking Face Generation
+2. Multimodal, Direct Preference Optimization (DPO), VQA
+3. Image/Video Enhancement, Restoration and Decomposition 
+4. Deep Learning and its Applications (e.g., Medical Images) 
+
+# 🔬 Project
+<style type="text/css">
+    /* Color scheme stolen from Sergey Karayev */
+    a {
+    color: #1772d0;
+    text-decoration:none !important;
+    }
+    a:focus, a:hover {
+    color: #f09228;
+    text-decoration:none !important;
+    }
+    table,td,th,tr{
+    	border:none !important;
+    }
+    body,td,th,tr,p,a {
+    font-family: 'Lato', Verdana, Helvetica, sans-serif;
+    font-size: 14px
+    }
+    strong {
+    font-family: 'Lato', Verdana, Helvetica, sans-serif;
+    font-size: 14px;
+    }
+    heading {
+    font-family: 'Lato', Verdana, Helvetica, sans-serif;
+    font-size: 22px;
+    }
+    papertitle {
+    font-family: 'Lato', Verdana, Helvetica, sans-serif;
+    font-size: 14px;
+    font-weight: 700
+    }
+    papertitle_just {
+    font-family: 'Lato', Verdana, Helvetica, sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+    text-align: justify
+    }
+    name {
+    font-family: 'Lato', Verdana, Helvetica, sans-serif;
+    font-size: 32px;
+    }
+    .one
+    {
+    width: 160px;
+    height: 160px;
+    position: relative;
+    }
+    .two
+    {
+    width: 160px;
+    height: 160px;
+    position: absolute;
+    transition: opacity .2s ease-in-out;
+    -moz-transition: opacity .2s ease-in-out;
+    -webkit-transition: opacity .2s ease-in-out;
+    }
+    .fade {
+     transition: opacity .2s ease-in-out;
+     -moz-transition: opacity .2s ease-in-out;
+     -webkit-transition: opacity .2s ease-in-out;
+    }
+    span.highlight {
+        background-color: #ffffd0;
+    }
+</style>
+<!-- ################################  CONTENT START  ##################################################-->
+<table width="100%" align="center" border="0" cellspacing="0" cellpadding="10">
+<tbody>
+<!-- ############################ Put your project below this! ####################################-->
+
+<!-- ###################################################################################################-->
+<!-- 1 HOK Camp -->
+<tr onmouseout="HOK25_Camp_stop()" onmouseover="HOK25_Camp_start()" >
+<td width="20%">
+<div class="one">
+<div class="two" id = 'HOK25_Camp_image'>
+<img src="./files/HOK25_Camp_after.png" style="width: 100%; aspect-ratio: 1 / 1; object-fit: cover;"></div>
+<img src="./files/HOK25_Camp_before.png" style="width: 100%; aspect-ratio: 1 / 1; object-fit: cover;">
+</div>
+<script type="text/javascript">
+function HOK25_Camp_start() {
+document.getElementById('HOK25_Camp_image').style.opacity = "1";
+}
+function HOK25_Camp_stop() {
+document.getElementById('HOK25_Camp_image').style.opacity = "0";
+}
+HOK25_Camp_stop()
+</script>
+</td>
+<td valign="top" width="80%">
+  <a href="https://arxiv.org/abs/2506.10741">
+    <papertitle_just>HOK AIUGC Online Hero Generation</papertitle_just>     
+  </a>
+  <br>
+  Project Lead: <strong>Yeying Jin</strong>
+  <br>
+<em>HOK Studio</em>, 2024 <br>
+<a href="https://camp.honorofkings.com/studio?creator-tools=%2Fout%2Fhok-tools#/create-tools">online generation</a>    
+|
+<a href="https://www.bilibili.com/video/BV1vDXhY9EDG/?share_source=copy_web&vd_source=2da049ce4677af057256ebc4a00a8292">video(cn)</a>
+|  
+<a href="https://youtu.be/yEi3F9aZaaU?si=2nJls3ACbN7gsabV">video(en)</a>
+|
+<a href="https://zhuanlan.zhihu.com/p/1925607245346996265">link</a>  
+<p></p>
+</td>
+</tr>
+<!-- ###################################################################################################-->
+
 
 # 📝 Publications
 <style type="text/css">
@@ -725,7 +833,7 @@ aaai24_des3_stop()
     <papertitle_just>DeS3: Adaptive Attention-driven Self and Soft Shadow Removal using ViT Similarity</papertitle_just>     
   </a>
   <br>
-  <strong>Yeying Jin</strong>, Yuan Yuan, Wenhan Yang, Wei Ye, Robby T. Tan
+  <strong>Yeying Jin</strong>, Wei Ye, Wenhan Yang, Yuan Yuan, Robby T. Tan
   <br>
 <em>Association for the Advancement of Artificial Intelligence (AAAI)</em>, 2024, Vancouver, Canada <br>
 <a href="https://arxiv.org/abs/2211.08089">arXiv</a>
