@@ -64,18 +64,28 @@ My primary research interests include Artificial Intelligence, mainly focusing o
       </td>
       <td class="info">
         <a href="https://camp.honorofkings.com/studio?creator-tools=%2Fout%2Fhok-tools#/create-tools">
-          <papertitle_just>HOK AIUGC Online Hero Generation</papertitle_just>
+          <papertitle_just>Honor of Kings (HOK) AIUGC Online Hero Generation</papertitle_just>
         </a><br>
         Project Lead: <strong>Yeying Jin</strong><br>
-        <em>Honor of Kings (HOK) Creator Studio</em>, 2024.12 – Present <br>
+        <em>HOK Creator Studio</em>, 2024.12 – Present <br>
+
+        <p class="kpis">
+          <strong>44,300+</strong> Generated AI images · <strong>22%</strong> Save Rate · <strong>11,400</strong> Active Users
+        </p>
+        <div class="metrics">
+          <span class="pill"><strong>98</strong> Heroes</span>
+          <span class="pill"><strong>12</strong> Styles</span>
+          <span class="pill"><strong>13s</strong> Generation Time</span>
+        </div>
+                
         <a href="https://camp.honorofkings.com/studio?creator-tools=%2Fout%2Fhok-tools#/create-tools">Online Generation</a> |
-        <a href="https://www.bilibili.com/video/BV1vDXhY9EDG/?share_source=copy_web&vd_source=2da049ce4677af057256ebc4a00a8292">Video(CN)</a> |
-        <a href="https://youtu.be/yEi3F9aZaaU?si=2nJls3ACbN7gsabV">Video(EN)</a> |
-        <a href="https://zhuanlan.zhihu.com/p/1925607245346996265">Zhihu Link</a>
+        <a href="https://www.bilibili.com/video/BV1vDXhY9EDG/?share_source=copy_web&vd_source=2da049ce4677af057256ebc4a00a8292">Video (CN)</a> |
+        <a href="https://youtu.be/yEi3F9aZaaU?si=2nJls3ACbN7gsabV">Video (EN)</a> |
+        <a href="https://zhuanlan.zhihu.com/p/1925607245346996265">Zhihu</a>
         <p></p>
       </td>
     </tr>
-    <!-- 1 HOK Creator -->
+    
   </tbody>
 </table>
 
