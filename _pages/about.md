@@ -29,44 +29,55 @@ My primary research interests include Artificial Intelligence, mainly focusing o
 4. Deep Learning and its Applications (e.g., Medical Images) 
 
 # 🔬 Project
-<!-- ###################################################################################################-->
-<!-- 1 HOK Camp -->
-<tr onmouseout="HOK25_Camp_stop()" onmouseover="HOK25_Camp_start()" >
-<td width="20%">
-<div class="one">
-<div class="two" id = 'HOK25_Camp_image'>
-<img src="./files/HOK25_Camp_after.png" style="width: 100%; aspect-ratio: 1 / 1; object-fit: cover;"></div>
-<img src="./files/HOK25_Camp_before.png" style="width: 100%; aspect-ratio: 1 / 1; object-fit: cover;">
-</div>
-<script type="text/javascript">
-function HOK25_Camp_start() {
-document.getElementById('HOK25_Camp_image').style.opacity = "1";
-}
-function HOK25_Camp_stop() {
-document.getElementById('HOK25_Camp_image').style.opacity = "0";
-}
-HOK25_Camp_stop()
-</script>
-</td>
-<td valign="top" width="80%">
-  <a href="https://camp.honorofkings.com/studio?creator-tools=%2Fout%2Fhok-tools#/create-tools">
-    <papertitle_just>HOK AIUGC Online Hero Generation</papertitle_just>     
-  </a>
-  <br>
-  Project Lead: <strong>Yeying Jin</strong>
-  <br>
-<em>HOK Studio</em>, 2024 <br>
-<a href="https://camp.honorofkings.com/studio?creator-tools=%2Fout%2Fhok-tools#/create-tools">online generation</a>    
-|
-<a href="https://www.bilibili.com/video/BV1vDXhY9EDG/?share_source=copy_web&vd_source=2da049ce4677af057256ebc4a00a8292">video(cn)</a>
-|  
-<a href="https://youtu.be/yEi3F9aZaaU?si=2nJls3ACbN7gsabV">video(en)</a>
-|
-<a href="https://zhuanlan.zhihu.com/p/1925607245346996265">link</a>  
-<p></p>
-</td>
-</tr>
-<!-- ###################################################################################################-->
+<!-- # 🔬 Project -->
+<style>
+  /* 左图右文基础布局 */
+  .project-table { width: 100%; border-collapse: collapse; }
+  .project-row td { vertical-align: top; }
+  .project-row .thumb { width: 160px; }      /* 缩略图列固定宽度 */
+  .project-row .info  { padding-left: 12px; }/* 右侧内容留间距 */
+
+  /* 悬停切图（CSS 版，无需 JS/唯一 ID） */
+  .one { width:160px; height:160px; position:relative; }
+  .two { position:absolute; inset:0; opacity:0; transition:opacity .2s ease-in-out; }
+  .one:hover .two { opacity:1; }
+
+  /* 移动端可选优化 */
+  @media (max-width: 600px) {
+    .project-row .thumb { width: 30%; }
+  }
+</style>
+
+<table class="project-table" cellspacing="0" cellpadding="10">
+  <tbody>
+    <!-- 1 HOK Creator -->
+    <tr class="project-row">
+      <td class="thumb">
+        <div class="one">
+          <div class="two">
+            <img src="./files/HOK_Creator_after.png"
+                 alt="HOK Creator after" style="width:100%;aspect-ratio:1/1;object-fit:cover;">
+          </div>
+          <img src="./files/HOK_Creator_before.png"
+               alt="HOK Creator before" style="width:100%;aspect-ratio:1/1;object-fit:cover;">
+        </div>
+      </td>
+      <td class="info">
+        <a href="https://camp.honorofkings.com/studio?creator-tools=%2Fout%2Fhok-tools#/create-tools">
+          <papertitle_just>HOK AIUGC Online Hero Generation</papertitle_just>
+        </a><br>
+        Project Lead: <strong>Yeying Jin</strong><br>
+        <em>Honor of Kings (HOK) Creator Studio</em>, 2024.12 – Present <br>
+        <a href="https://camp.honorofkings.com/studio?creator-tools=%2Fout%2Fhok-tools#/create-tools">Online Generation</a> |
+        <a href="https://www.bilibili.com/video/BV1vDXhY9EDG/?share_source=copy_web&vd_source=2da049ce4677af057256ebc4a00a8292">Video(CN)</a> |
+        <a href="https://youtu.be/yEi3F9aZaaU?si=2nJls3ACbN7gsabV">Video(EN)</a> |
+        <a href="https://zhuanlan.zhihu.com/p/1925607245346996265">Zhihu Link</a>
+        <p></p>
+      </td>
+    </tr>
+    <!-- 1 HOK Creator -->
+  </tbody>
+</table>
 
 
 # 📝 Publications
