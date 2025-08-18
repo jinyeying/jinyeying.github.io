@@ -29,22 +29,27 @@ My primary research interests include Artificial Intelligence, mainly focusing o
 4. Deep Learning and its Applications (e.g., Medical Images) 
 
 # 🔬 Project
-<!-- # 🔬 Project -->
 <style>
   /* 左图右文基础布局 */
   .project-table { width: 100%; border-collapse: collapse; }
   .project-row td { vertical-align: top; }
-  .project-row .thumb { width: 160px; }      /* 缩略图列固定宽度 */
-  .project-row .info  { padding-left: 12px; }/* 右侧内容留间距 */
+  .project-row .thumb { width: 160px; }
+  .project-row .info  { padding-left: 12px; }
 
-  /* 悬停切图（CSS 版，无需 JS/唯一 ID） */
+  /* 悬停切图 */
   .one { width:160px; height:160px; position:relative; }
   .two { position:absolute; inset:0; opacity:0; transition:opacity .2s ease-in-out; }
   .one:hover .two { opacity:1; }
 
-  /* 移动端可选优化 */
+  /* 标题 & KPI & 链接间距 */
+  .papertitle_just { font-weight: 700; font-size: 1.05em; }
+  .kpis { margin: 4px 0; line-height: 1.4; }
+  .info a { margin-right: 8px; }
+
+  /* 移动端：上下排更稳 */
   @media (max-width: 600px) {
-    .project-row .thumb { width: 30%; }
+    .project-row td { display:block; width:100% !important; }
+    .project-row .thumb { margin-bottom:12px; }
   }
 </style>
 
@@ -55,67 +60,70 @@ My primary research interests include Artificial Intelligence, mainly focusing o
       <td class="thumb">
         <div class="one">
           <div class="two">
-            <img src="./files/HOK_Creator_after.png"
-                 alt="HOK Creator after" style="width:100%;aspect-ratio:1/1;object-fit:cover;">
+            <img src="./files/HOK_Creator_after.png" alt="HOK Creator after"
+                 style="width:100%;aspect-ratio:1/1;object-fit:cover;">
           </div>
-          <img src="./files/HOK_Creator_before.png"
-               alt="HOK Creator before" style="width:100%;aspect-ratio:1/1;object-fit:cover;">
+          <img src="./files/HOK_Creator_before.png" alt="HOK Creator before"
+               style="width:100%;aspect-ratio:1/1;object-fit:cover;">
         </div>
       </td>
       <td class="info">
         <a href="https://camp.honorofkings.com/studio?creator-tools=%2Fout%2Fhok-tools#/create-tools">
-          <papertitle_just>Honor of Kings (HOK) AIUGC Online Hero Generation</papertitle_just>
+          <span class="papertitle_just">Honor of Kings (HOK) AIUGC Online Hero Generation</span>
         </a><br>
-        Project Lead: <strong>Yeying Jin</strong><br>
         <em>HOK Creator Studio</em>, 2024.12 – Present <br>
         <p class="kpis">
-          <strong>44,300+</strong> Generated AI Images · <strong>22%</strong> Save Rate · <strong>11,400+</strong> Active Users
+          <strong>44,300+</strong> Generated AI Images ·
+          <strong>22%</strong> Save Rate ·
+          <strong>11,400+</strong> Active Users<br>
+          <strong>98</strong> Heroes ·
+          <strong>12</strong> Styles ·
+          <strong>13s</strong> Generation Time
         </p>
-        <p class="kpis">
-          <strong>98</strong> Heroes ·  <strong>12</strong> Styles · <strong>13s</strong> Generation Time
-        </p>        
-        <a href="https://camp.honorofkings.com/studio?creator-tools=%2Fout%2Fhok-tools#/create-tools">Online Generation</a> |
-        <a href="https://www.bilibili.com/video/BV1vDXhY9EDG/?share_source=copy_web&vd_source=2da049ce4677af057256ebc4a00a8292">Video(CN)</a> |
-        <a href="https://youtu.be/yEi3F9aZaaU?si=2nJls3ACbN7gsabV">Video(EN)</a> |
+        <a href="https://camp.honorofkings.com/studio?creator-tools=%2Fout%2Fhok-tools#/create-tools">Online Generation</a>
+        <a href="https://www.bilibili.com/video/BV1vDXhY9EDG/?share_source=copy_web&vd_source=2da049ce4677af057256ebc4a00a8292">Video(CN)</a>
+        <a href="https://youtu.be/yEi3F9aZaaU?si=2nJls3ACbN7gsabV">Video(EN)</a>
         <a href="https://zhuanlan.zhihu.com/p/1925607245346996265">Zhihu</a>
-        <p></p>
       </td>
     </tr>
-
     <!-- 2 HOK Poster -->
     <tr class="project-row">
       <td class="thumb">
         <div class="one">
           <div class="two">
-            <img src="./files/HOK_Poster_after.png"
-                 alt="HOK Poster after" style="width:100%;aspect-ratio:1/1;object-fit:cover;">
+            <img src="./files/HOK_Poster_after.png" alt="HOK Poster after"
+                 style="width:100%;aspect-ratio:1/1;object-fit:cover;">
           </div>
-          <img src="./files/HOK_Poster_before.png"
-               alt="HOK Poster before" style="width:100%;aspect-ratio:1/1;object-fit:cover;">
+          <img src="./files/HOK_Poster_before.png" alt="HOK Poster before"
+               style="width:100%;aspect-ratio:1/1;object-fit:cover;">
         </div>
       </td>
       <td class="info">
         <a href="https://camp.honorofkings.com/h5/app/index.html#/poster-design/home">
-          <papertitle_just>Honor of Kings (HOK) AIUGC DIY Poster</papertitle_just>
+          <span class="papertitle_just">Honor of Kings (HOK) AIUGC DIY Poster</span>
         </a><br>
-        Project Lead: <strong>Yeying Jin</strong><br>
         <em>HOK Flowborn Dimensional Editor</em>, 2026.06 – Present <br>
         <p class="kpis">
-          <strong>1,890,000+</strong> Posters · <strong>1,020,000+</strong> AI Posters · <strong>87,000+</strong> 2D Native Posters · <strong>54%</strong> AI Rate 
+          <strong>1,890,000+</strong> Posters ·
+          <strong>1,020,000+</strong> AI Posters ·
+          <strong>87,000+</strong> 2D Native Posters ·
+          <strong>54%</strong> AI Rate<br>
+          <strong>4,500+</strong> Overseas Mentions ·
+          <strong>3,000+</strong> Domestic Mentions ·
+          <strong>99%</strong> Positive/Neutral Sentiment ·
+          <strong>80%</strong> In-Game Rate
         </p>
-        <p class="kpis">
-          <strong>4,500+</strong> Overseas Public Buzz ·  <strong>3,000+</strong> Domestic Public Buzz · <strong>99%</strong> Positive/Neutral Sentiment  · <strong>80%</strong> In-Game Rate 
-        </p>          
-        <a href="https://camp.honorofkings.com/h5/app/index.html#/poster-design/home">Online Generation</a> |
-        <a href="https://www.bilibili.com/video/BV1rS36zhEqD/?share_source=copy_web&vd_source=2da049ce4677af057256ebc4a00a8292">Video(CN)</a> |
-        <a href="https://youtu.be/BKT8AuaVNB8?si=GqO5OWlHhu5jNIL5">Video(EN)</a> |
+        <a href="https://camp.honorofkings.com/h5/app/index.html#/poster-design/home">Online Generation</a>
+        <a href="https://www.bilibili.com/video/BV1rS36zhEqD/?share_source=copy_web&vd_source=2da049ce4677af057256ebc4a00a8292">Video(CN)</a>
+        <a href="https://youtu.be/BKT8AuaVNB8?si=GqO5OWlHhu5jNIL5">Video(EN)</a>
         <a href="">Zhihu</a>
-        <p></p>
       </td>
     </tr>
-    
+
   </tbody>
 </table>
+
+
 
 
 # 📝 Publications
