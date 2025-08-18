@@ -68,20 +68,48 @@ My primary research interests include Artificial Intelligence, mainly focusing o
         </a><br>
         Project Lead: <strong>Yeying Jin</strong><br>
         <em>HOK Creator Studio</em>, 2024.12 – Present <br>
-
         <p class="kpis">
-          <strong>44,300+</strong> Generated AI images · <strong>22%</strong> Save Rate · <strong>11,400</strong> Active Users
+          <strong>44,300+</strong> Generated AI Images · <strong>22%</strong> Save Rate · <strong>11,400+</strong> Active Users
         </p>
-        <div class="metrics">
-          <span class="pill"><strong>98</strong> Heroes</span>
-          <span class="pill"><strong>12</strong> Styles</span>
-          <span class="pill"><strong>13s</strong> Generation Time</span>
-        </div>
-                
+        <p class="kpis">
+          <strong>98</strong> Heroes ·  <strong>12</strong> Styles · <strong>13s</strong> Generation Time
+        </p>        
         <a href="https://camp.honorofkings.com/studio?creator-tools=%2Fout%2Fhok-tools#/create-tools">Online Generation</a> |
-        <a href="https://www.bilibili.com/video/BV1vDXhY9EDG/?share_source=copy_web&vd_source=2da049ce4677af057256ebc4a00a8292">Video (CN)</a> |
-        <a href="https://youtu.be/yEi3F9aZaaU?si=2nJls3ACbN7gsabV">Video (EN)</a> |
+        <a href="https://www.bilibili.com/video/BV1vDXhY9EDG/?share_source=copy_web&vd_source=2da049ce4677af057256ebc4a00a8292">Video(CN)</a> |
+        <a href="https://youtu.be/yEi3F9aZaaU?si=2nJls3ACbN7gsabV">Video(EN)</a> |
         <a href="https://zhuanlan.zhihu.com/p/1925607245346996265">Zhihu</a>
+        <p></p>
+      </td>
+    </tr>
+
+    <!-- 2 HOK Poster -->
+    <tr class="project-row">
+      <td class="thumb">
+        <div class="one">
+          <div class="two">
+            <img src="./files/HOK_Poster_after.png"
+                 alt="HOK Poster after" style="width:100%;aspect-ratio:1/1;object-fit:cover;">
+          </div>
+          <img src="./files/HOK_Poster_before.png"
+               alt="HOK Poster before" style="width:100%;aspect-ratio:1/1;object-fit:cover;">
+        </div>
+      </td>
+      <td class="info">
+        <a href="https://camp.honorofkings.com/h5/app/index.html#/poster-design/home">
+          <papertitle_just>Honor of Kings (HOK) AIUGC DIY Poster</papertitle_just>
+        </a><br>
+        Project Lead: <strong>Yeying Jin</strong><br>
+        <em>HOK Flowborn Dimensional Editor</em>, 2026.06 – Present <br>
+        <p class="kpis">
+          <strong>1,890,000+</strong> Posters · <strong>1,020,000+</strong> AI Posters · <strong>87,000+</strong> 2D Native Posters · <strong>54%</strong> AI Rate 
+        </p>
+        <p class="kpis">
+          <strong>4,500+</strong> Overseas Public Buzz ·  <strong>3,000+</strong> Domestic Public Buzz · <strong>99%</strong> Positive/Neutral Sentiment  · <strong>80%</strong> In-Game Rate 
+        </p>          
+        <a href="https://camp.honorofkings.com/h5/app/index.html#/poster-design/home">Online Generation</a> |
+        <a href="https://www.bilibili.com/video/BV1rS36zhEqD/?share_source=copy_web&vd_source=2da049ce4677af057256ebc4a00a8292">Video(CN)</a> |
+        <a href="https://youtu.be/BKT8AuaVNB8?si=GqO5OWlHhu5jNIL5">Video(EN)</a> |
+        <a href="">Zhihu</a>
         <p></p>
       </td>
     </tr>
