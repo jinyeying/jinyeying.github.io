@@ -105,16 +105,16 @@ My primary research interests include Artificial Intelligence, mainly focusing o
         <em>HOK Flowborn Dimensional Editor</em>, 2025.06 – Present <br>
         <p class="kpis">
           <strong>1,890,000+</strong> Posters ·
-          <strong>1,020,000+</strong> Generated AI Posters (54%)·
-          <strong>80%</strong> In-Game Display<br>
+          <strong>1,020,000+</strong> Generated AI Posters (54%)<br>
           <strong>4,500+</strong> Overseas Buzz ·
-          <strong>3,000+</strong> Domestic Buzz ·
+          <strong>3,000+</strong> Domestic Buzz<br>
+          <strong>80%</strong> In-Game Display ·
           <strong>99%</strong> Positive/Neutral Sentiment<br>
         </p>
         <a href="https://camp.honorofkings.com/h5/app/index.html#/poster-design/home">Online Generation</a> |
         <a href="https://www.bilibili.com/video/BV1rS36zhEqD/?share_source=copy_web&vd_source=2da049ce4677af057256ebc4a00a8292">Video(CN)</a> |
         <a href="https://youtu.be/BKT8AuaVNB8?si=GqO5OWlHhu5jNIL5">Video(EN)</a> |
-        <a href="">Zhihu</a>
+        <a href="https://zhuanlan.zhihu.com/p/1925607245346996265">Zhihu</a>
       </td>
     </tr>
     <!-- 3 HOK Conan -->
@@ -139,15 +139,39 @@ My primary research interests include Artificial Intelligence, mainly focusing o
         <a href="https://camp.honorofkings.com/h5/app/index.html#/poster-design/home">Online Generation</a> |
         <a href="https://www.bilibili.com/video/BV1CpuPzxEGf/?share_source=copy_web&vd_source=2da049ce4677af057256ebc4a00a8292">Video(CN)</a> |
         <a href="https://youtube.com/shorts/AUhqPP_0NIU?si=jNKspwxoQAlRcjA-">Video(EN)</a> |
-        <a href="">Zhihu</a>
+        <a href="https://zhuanlan.zhihu.com/p/1925607245346996265">Zhihu</a>
       </td>
     </tr>
-    
+    <!-- 4 HOK PGC -->
+    <tr class="project-row">
+      <td class="thumb">
+        <div class="one">
+          <div class="two">
+            <img src="./files/HOK_PGC_after.png" alt="HOK PGC after"
+                 style="width:100%;aspect-ratio:1/1;object-fit:cover;">
+          </div>
+          <img src="./files/HOK_PGC_before.png" alt="HOK PGC before"
+               style="width:100%;aspect-ratio:1/1;object-fit:cover;">
+        </div>
+      </td>
+      <td class="info">
+        <a href="https://camp.honorofkings.com/studio?creator-tools=%2Fout%2Fhok-tools#/library?oneLevelTabs=51">
+          <span class="papertitle_just">Honor of Kings (HOK) AIPGC Avatar/Sticker</span>
+        </a><br>
+        <em>HOK </em>, 2024.07 – Present <br>
+        <p class="kpis">
+          <strong>600,000+</strong> Explosure ·
+          <strong>60,000+</strong> Engagement ·
+          <strong>10+</strong> Launch <br>
+        </p>
+        <a href="https://camp.honorofkings.com/studio?creator-tools=%2Fout%2Fhok-tools#/library?oneLevelTabs=51">Avatar Center</a> |
+        <a href="https://www.bilibili.com/video/BV1uCeFzXEkX/?share_source=copy_web&vd_source=2da049ce4677af057256ebc4a00a8292">Video(CN)</a> |
+        <a href="https://youtu.be/vdVQxsIBEes">Video(EN)</a> |
+        <a href="https://zhuanlan.zhihu.com/p/1925607245346996265">Zhihu</a>
+      </td>
+    </tr>    
   </tbody>
 </table>
-
-
-
 
 # 📝 Publications
 <style type="text/css">
