@@ -30,22 +30,30 @@ My primary research interests include Artificial Intelligence, mainly focusing o
 
 # 🔬 Project
 <style>
-  /* 左图右文基础布局 */
-  .project-table { width: 100%; border-collapse: collapse; }
+  .project-table {
+    width: 100%;
+    border-collapse: collapse;
+    table-layout: fixed;          /* 固定列宽 */
+  }
   .project-row td { vertical-align: top; }
-  .project-row .thumb { width: 320px; }
+  .project-row .thumb {
+    width: 280px;                 /* 固定第一列宽度 */
+    overflow: hidden;             /* 防止溢出 */
+  }
   .project-row .info  { padding-left: 12px; }
 
   /* side by side 图片容器 */
   .side-by-side {
     display: flex;
-    gap: 6px;                /* 图片间距 */
+    gap: 6px;                     /* 图片间距 */
     width: 100%;
   }
   .side-by-side img {
-    flex: 1;                 /* 两张图等宽 */
+    flex: 1;
+    display: block;
     object-fit: cover;
-    aspect-ratio: 1/1;       /* 保持正方形 */
+    aspect-ratio: 1/1;            /* 保持方形缩略图 */
+    min-width: 0;                 /* 防止撑破 */
   }
 
   /* 标题 & KPI & 链接间距 */
@@ -57,12 +65,16 @@ My primary research interests include Artificial Intelligence, mainly focusing o
   @media (max-width: 600px) {
     .project-row td { display:block; width:100% !important; }
     .project-row .thumb { width:100% !important; margin-bottom:12px; }
-    .side-by-side { flex-direction: column; }  /* 手机改为上下排 */
+    .side-by-side { flex-direction: column; }
     .side-by-side img { width:100%; }
   }
 </style>
 
 <table class="project-table" cellspacing="0" cellpadding="10">
+  <colgroup>
+    <col style="width:280px">
+    <col>
+  </colgroup>
   <tbody>
     <!-- 1 HOK Creator -->
     <tr class="project-row">
@@ -163,6 +175,7 @@ My primary research interests include Artificial Intelligence, mainly focusing o
     </tr>
   </tbody>
 </table>
+
 
 
 # 📝 Publications
