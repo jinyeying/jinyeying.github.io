@@ -33,23 +33,32 @@ My primary research interests include Artificial Intelligence, mainly focusing o
   /* 左图右文基础布局 */
   .project-table { width: 100%; border-collapse: collapse; }
   .project-row td { vertical-align: top; }
-  .project-row .thumb { width: 160px; }
+  .project-row .thumb { width: 320px; }          /* 桌面端缩略图更大些，便于并排对比 */
   .project-row .info  { padding-left: 12px; }
 
-  /* 悬停切图 */
-  .one { width:160px; height:160px; position:relative; }
-  .two { position:absolute; inset:0; opacity:0; transition:opacity .2s ease-in-out; }
-  .one:hover .two { opacity:1; }
+  /* 并排对比图（替代原来的 .one/.two 悬停切换） */
+  .side-by-side {
+    display: flex;
+    gap: 6px;               /* 两图间距 */
+    width: 100%;
+    aspect-ratio: 1 / 1;    /* 容器保持正方形 */
+    overflow: hidden;
+  }
+  .side-by-side img {
+    flex: 1;                /* 两图等宽 */
+    object-fit: cover;      /* 居中裁剪 */
+  }
 
   /* 标题 & KPI & 链接间距 */
   .papertitle_just { font-weight: 700; font-size: 1.05em; }
   .kpis { margin: 4px 0; line-height: 1.4; }
   .info a { margin-right: 8px; }
 
-  /* 移动端：上下排更稳 */
+  /* 移动端：上下排且缩略图占满宽度 */
   @media (max-width: 600px) {
     .project-row td { display:block; width:100% !important; }
-    .project-row .thumb { margin-bottom:12px; }
+    .project-row .thumb { width:100% !important; margin-bottom:12px; }
+    .side-by-side { aspect-ratio: auto; }  /* 让高度跟随宽度内容自适应，避免过高 */
   }
 </style>
 
@@ -58,13 +67,9 @@ My primary research interests include Artificial Intelligence, mainly focusing o
     <!-- 1 HOK Creator -->
     <tr class="project-row">
       <td class="thumb">
-        <div class="one">
-          <div class="two">
-            <img src="./files/HOK_Creator_after.png" alt="HOK Creator after"
-                 style="width:100%;aspect-ratio:1/1;object-fit:cover;">
-          </div>
-          <img src="./files/HOK_Creator_before.png" alt="HOK Creator before"
-               style="width:100%;aspect-ratio:1/1;object-fit:cover;">
+        <div class="side-by-side">
+          <img src="./files/HOK_Creator_before.png" alt="HOK Creator before">
+          <img src="./files/HOK_Creator_after.png"  alt="HOK Creator after">
         </div>
       </td>
       <td class="info">
@@ -82,20 +87,16 @@ My primary research interests include Artificial Intelligence, mainly focusing o
         </p>
         <a href="https://camp.honorofkings.com/studio?creator-tools=%2Fout%2Fhok-tools#/create-tools">Online Generation</a> |
         <a href="https://www.bilibili.com/video/BV1vDXhY9EDG/?share_source=copy_web&vd_source=2da049ce4677af057256ebc4a00a8292">Video(CN)</a> |
-        <a href="https://youtu.be/yEi3F9aZaaU?si=2nJls3ACbN7gsabV">Video(EN)</a> |
-        <a href="https://zhuanlan.zhihu.com/p/1925607245346996265">Zhihu</a>
+        <a href="https://youtu.be/yEi3F9aZaaU?si=2nJls3ACbN7gsabV">Video(EN)</a>
       </td>
     </tr>
+
     <!-- 2 HOK Poster -->
     <tr class="project-row">
       <td class="thumb">
-        <div class="one">
-          <div class="two">
-            <img src="./files/HOK_Poster_after.png" alt="HOK Poster after"
-                 style="width:100%;aspect-ratio:1/1;object-fit:cover;">
-          </div>
-          <img src="./files/HOK_Poster_before.png" alt="HOK Poster before"
-               style="width:100%;aspect-ratio:1/1;object-fit:cover;">
+        <div class="side-by-side">
+          <img src="./files/HOK_Poster_before.png" alt="HOK Poster before">
+          <img src="./files/HOK_Poster_after.png"  alt="HOK Poster after">
         </div>
       </td>
       <td class="info">
@@ -114,19 +115,15 @@ My primary research interests include Artificial Intelligence, mainly focusing o
         <a href="https://camp.honorofkings.com/h5/app/index.html#/poster-design/home">Online Generation</a> |
         <a href="https://www.bilibili.com/video/BV1rS36zhEqD/?share_source=copy_web&vd_source=2da049ce4677af057256ebc4a00a8292">Video(CN)</a> |
         <a href="https://youtu.be/BKT8AuaVNB8?si=GqO5OWlHhu5jNIL5">Video(EN)</a> |
-        <a href="https://zhuanlan.zhihu.com/p/1925607245346996265">Zhihu</a>
       </td>
     </tr>
+
     <!-- 3 HOK Conan -->
     <tr class="project-row">
       <td class="thumb">
-        <div class="one">
-          <div class="two">
-            <img src="./files/HOK_Conan_after.png" alt="HOK Conan after"
-                 style="width:100%;aspect-ratio:1/1;object-fit:cover;">
-          </div>
-          <img src="./files/HOK_Conan_before.png" alt="HOK Conan before"
-               style="width:100%;aspect-ratio:1/1;object-fit:cover;">
+        <div class="side-by-side">
+          <img src="./files/HOK_Conan_before.png" alt="HOK Conan before">
+          <img src="./files/HOK_Conan_after.png"  alt="HOK Conan after">
         </div>
       </td>
       <td class="info">
@@ -134,24 +131,19 @@ My primary research interests include Artificial Intelligence, mainly focusing o
           <span class="papertitle_just">Honor of Kings (HOK) AIUGC Deduction Poster</span>
         </a><br>
         <em>HOK Flowborn Dimensional Editor</em>, 2025.08 – Present <br>
-        <p class="kpis">
-        </p>
+        <p class="kpis"></p>
         <a href="https://camp.honorofkings.com/h5/app/index.html#/poster-design/home">Online Generation</a> |
         <a href="https://www.bilibili.com/video/BV1CpuPzxEGf/?share_source=copy_web&vd_source=2da049ce4677af057256ebc4a00a8292">Video(CN)</a> |
-        <a href="https://youtube.com/shorts/AUhqPP_0NIU?si=jNKspwxoQAlRcjA-">Video(EN)</a> |
-        <a href="https://zhuanlan.zhihu.com/p/1925607245346996265">Zhihu</a>
+        <a href="https://youtube.com/shorts/AUhqPP_0NIU?si=jNKspwxoQAlRcjA-">Video(EN)</a>
       </td>
     </tr>
+
     <!-- 4 HOK PGC -->
     <tr class="project-row">
       <td class="thumb">
-        <div class="one">
-          <div class="two">
-            <img src="./files/HOK_PGC_after.png" alt="HOK PGC after"
-                 style="width:100%;aspect-ratio:1/1;object-fit:cover;">
-          </div>
-          <img src="./files/HOK_PGC_before.png" alt="HOK PGC before"
-               style="width:100%;aspect-ratio:1/1;object-fit:cover;">
+        <div class="side-by-side">
+          <img src="./files/HOK_PGC_before.png" alt="HOK PGC before">
+          <img src="./files/HOK_PGC_after.png"  alt="HOK PGC after">
         </div>
       </td>
       <td class="info">
@@ -166,12 +158,12 @@ My primary research interests include Artificial Intelligence, mainly focusing o
         </p>
         <a href="https://camp.honorofkings.com/studio?creator-tools=%2Fout%2Fhok-tools#/library?oneLevelTabs=51">Avatar Center</a> |
         <a href="https://www.bilibili.com/video/BV1uCeFzXEkX/?share_source=copy_web&vd_source=2da049ce4677af057256ebc4a00a8292">Video(CN)</a> |
-        <a href="https://youtu.be/vdVQxsIBEes">Video(EN)</a> |
-        <a href="https://zhuanlan.zhihu.com/p/1925607245346996265">Zhihu</a>
+        <a href="https://youtu.be/vdVQxsIBEes">Video(EN)</a>
       </td>
-    </tr>    
+    </tr>
   </tbody>
 </table>
+
 
 # 📝 Publications
 <style type="text/css">
