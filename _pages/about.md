@@ -33,20 +33,19 @@ My primary research interests include Artificial Intelligence, mainly focusing o
   /* 左图右文基础布局 */
   .project-table { width: 100%; border-collapse: collapse; }
   .project-row td { vertical-align: top; }
-  .project-row .thumb { width: 320px; }          /* 桌面端缩略图更大些，便于并排对比 */
+  .project-row .thumb { width: 320px; }
   .project-row .info  { padding-left: 12px; }
 
-  /* 并排对比图（替代原来的 .one/.two 悬停切换） */
+  /* side by side 图片容器 */
   .side-by-side {
     display: flex;
-    gap: 6px;               /* 两图间距 */
+    gap: 6px;                /* 图片间距 */
     width: 100%;
-    aspect-ratio: 1 / 1;    /* 容器保持正方形 */
-    overflow: hidden;
   }
   .side-by-side img {
-    flex: 1;                /* 两图等宽 */
-    object-fit: cover;      /* 居中裁剪 */
+    flex: 1;                 /* 两张图等宽 */
+    object-fit: cover;
+    aspect-ratio: 1/1;       /* 保持正方形 */
   }
 
   /* 标题 & KPI & 链接间距 */
@@ -54,11 +53,12 @@ My primary research interests include Artificial Intelligence, mainly focusing o
   .kpis { margin: 4px 0; line-height: 1.4; }
   .info a { margin-right: 8px; }
 
-  /* 移动端：上下排且缩略图占满宽度 */
+  /* 移动端：上下排且宽度自适应 */
   @media (max-width: 600px) {
     .project-row td { display:block; width:100% !important; }
     .project-row .thumb { width:100% !important; margin-bottom:12px; }
-    .side-by-side { aspect-ratio: auto; }  /* 让高度跟随宽度内容自适应，避免过高 */
+    .side-by-side { flex-direction: column; }  /* 手机改为上下排 */
+    .side-by-side img { width:100%; }
   }
 </style>
 
@@ -114,7 +114,7 @@ My primary research interests include Artificial Intelligence, mainly focusing o
         </p>
         <a href="https://camp.honorofkings.com/h5/app/index.html#/poster-design/home">Online Generation</a> |
         <a href="https://www.bilibili.com/video/BV1rS36zhEqD/?share_source=copy_web&vd_source=2da049ce4677af057256ebc4a00a8292">Video(CN)</a> |
-        <a href="https://youtu.be/BKT8AuaVNB8?si=GqO5OWlHhu5jNIL5">Video(EN)</a> |
+        <a href="https://youtu.be/BKT8AuaVNB8?si=GqO5OWlHhu5jNIL5">Video(EN)</a>
       </td>
     </tr>
 
