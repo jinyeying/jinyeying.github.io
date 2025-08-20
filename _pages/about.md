@@ -33,35 +33,35 @@ My primary research interests include Artificial Intelligence, mainly focusing o
   .project-table {
     width: 100%;
     border-collapse: collapse;
-    table-layout: fixed;          /* 固定列宽 */
+    table-layout: fixed;
   }
   .project-row td { vertical-align: top; }
   .project-row .thumb {
-    width: 280px;                 /* 固定第一列宽度 */
-    overflow: hidden;             /* 防止溢出 */
+    width: 280px;
+    overflow: hidden;
   }
   .project-row .info  { padding-left: 12px; }
 
   /* side by side 图片容器 */
   .side-by-side {
     display: flex;
-    gap: 6px;                     /* 图片间距 */
+    gap: 6px;
     width: 100%;
   }
   .side-by-side img {
     flex: 1;
     display: block;
     object-fit: cover;
-    aspect-ratio: 1/1;            /* 保持方形缩略图 */
-    min-width: 0;                 /* 防止撑破 */
+    aspect-ratio: 1/1;
+    min-width: 0;
   }
 
   /* 标题 & KPI & 链接间距 */
   .papertitle_just { font-weight: 700; font-size: 1.05em; }
-  .kpis { margin: 4px 0; line-height: 1.4; }
+  .kpis { margin: 4px 0 2px 0; line-height: 1.4; }
   .info a { margin-right: 8px; }
 
-  /* 移动端：上下排且宽度自适应 */
+  /* 移动端：上下排 */
   @media (max-width: 600px) {
     .project-row td { display:block; width:100% !important; }
     .project-row .thumb { width:100% !important; margin-bottom:12px; }
@@ -91,18 +91,19 @@ My primary research interests include Artificial Intelligence, mainly focusing o
         <em>HOK Creator Studio</em>, 2024.12 – Present <br>
         <p class="kpis">
           <strong>44,300+</strong> Generated AI Images ·
-          <strong>22%</strong> Save Rate ·
+          <strong>22%</strong> Save Rate<br>
           <strong>11,400+</strong> Active Users<br>
           <strong>98</strong> Heroes ·
           <strong>12</strong> Styles ·
-          <strong>13s</strong> Generation Time
+          <strong>13s</strong> Generation Time<br>
+          <a href="https://camp.honorofkings.com/studio?creator-tools=%2Fout%2Fhok-tools#/create-tools">Online Generation</a>
+          |
+          <a href="https://www.bilibili.com/video/BV1vDXhY9EDG/?share_source=copy_web&vd_source=2da049ce4677af057256ebc4a00a8292">Video(CN)</a>
+          |
+          <a href="https://youtu.be/yEi3F9aZaaU?si=2nJls3ACbN7gsabV">Video(EN)</a>
         </p>
-        <a href="https://camp.honorofkings.com/studio?creator-tools=%2Fout%2Fhok-tools#/create-tools">Online Generation</a> |
-        <a href="https://www.bilibili.com/video/BV1vDXhY9EDG/?share_source=copy_web&vd_source=2da049ce4677af057256ebc4a00a8292">Video(CN)</a> |
-        <a href="https://youtu.be/yEi3F9aZaaU?si=2nJls3ACbN7gsabV">Video(EN)</a>
       </td>
     </tr>
-
     <!-- 2 HOK Poster -->
     <tr class="project-row">
       <td class="thumb">
@@ -123,10 +124,12 @@ My primary research interests include Artificial Intelligence, mainly focusing o
           <strong>3,000+</strong> Domestic Buzz<br>
           <strong>80%</strong> In-Game Display ·
           <strong>99%</strong> Positive/Neutral Sentiment<br>
+          <a href="https://camp.honorofkings.com/h5/app/index.html#/poster-design/home">Online Generation</a>
+          |
+          <a href="https://www.bilibili.com/video/BV1rS36zhEqD/?share_source=copy_web&vd_source=2da049ce4677af057256ebc4a00a8292">Video(CN)</a>
+          |
+          <a href="https://youtu.be/BKT8AuaVNB8?si=GqO5OWlHhu5jNIL5">Video(EN)</a>
         </p>
-        <a href="https://camp.honorofkings.com/h5/app/index.html#/poster-design/home">Online Generation</a> |
-        <a href="https://www.bilibili.com/video/BV1rS36zhEqD/?share_source=copy_web&vd_source=2da049ce4677af057256ebc4a00a8292">Video(CN)</a> |
-        <a href="https://youtu.be/BKT8AuaVNB8?si=GqO5OWlHhu5jNIL5">Video(EN)</a>
       </td>
     </tr>
 
@@ -143,10 +146,13 @@ My primary research interests include Artificial Intelligence, mainly focusing o
           <span class="papertitle_just">Honor of Kings (HOK) AIUGC Deduction Poster</span>
         </a><br>
         <em>HOK Flowborn Dimensional Editor</em>, 2025.08 – Present <br>
-        <p class="kpis"></p>
-        <a href="https://camp.honorofkings.com/h5/app/index.html#/poster-design/home">Online Generation</a> |
-        <a href="https://www.bilibili.com/video/BV1CpuPzxEGf/?share_source=copy_web&vd_source=2da049ce4677af057256ebc4a00a8292">Video(CN)</a> |
-        <a href="https://youtube.com/shorts/AUhqPP_0NIU?si=jNKspwxoQAlRcjA-">Video(EN)</a>
+        <p class="kpis">
+          <a href="https://camp.honorofkings.com/h5/app/index.html#/poster-design/home">Online Generation</a>
+          |
+          <a href="https://www.bilibili.com/video/BV1CpuPzxEGf/?share_source=copy_web&vd_source=2da049ce4677af057256ebc4a00a8292">Video(CN)</a>
+          |
+          <a href="https://youtube.com/shorts/AUhqPP_0NIU?si=jNKspwxoQAlRcjA-">Video(EN)</a>
+        </p>
       </td>
     </tr>
 
@@ -167,15 +173,16 @@ My primary research interests include Artificial Intelligence, mainly focusing o
           <strong>600,000+</strong> Explosure ·
           <strong>60,000+</strong> Engagement ·
           <strong>10+</strong> Launch <br>
+          <a href="https://camp.honorofkings.com/studio?creator-tools=%2Fout%2Fhok-tools#/library?oneLevelTabs=51">Avatar Center</a>
+          |
+          <a href="https://www.bilibili.com/video/BV1uCeFzXEkX/?share_source=copy_web&vd_source=2da049ce4677af057256ebc4a00a8292">Video(CN)</a>
+          |
+          <a href="https://youtu.be/vdVQxsIBEes">Video(EN)</a>
         </p>
-        <a href="https://camp.honorofkings.com/studio?creator-tools=%2Fout%2Fhok-tools#/library?oneLevelTabs=51">Avatar Center</a> |
-        <a href="https://www.bilibili.com/video/BV1uCeFzXEkX/?share_source=copy_web&vd_source=2da049ce4677af057256ebc4a00a8292">Video(CN)</a> |
-        <a href="https://youtu.be/vdVQxsIBEes">Video(EN)</a>
       </td>
     </tr>
   </tbody>
 </table>
-
 
 
 # 📝 Publications
