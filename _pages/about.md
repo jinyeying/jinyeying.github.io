@@ -175,7 +175,7 @@ My primary research interests include Artificial Intelligence, mainly focusing o
           <strong>10+</strong> Launch <br>
           <a href="https://camp.honorofkings.com/studio?creator-tools=%2Fout%2Fhok-tools#/library?oneLevelTabs=51">Avatar Center</a>
           |
-          <a href="https://www.bilibili.com/video/BV1uCeFzXEkX/?share_source=copy_web&vd_source=2da049ce4677af057256ebc4a00a8292">Video(CN)</a>
+          <a href="https://www.bilibili.com/video/BV1eHe5zPEVk/?share_source=copy_web&vd_source=2da049ce4677af057256ebc4a00a8292">Video(CN)</a>
           |
           <a href="https://youtu.be/vdVQxsIBEes">Video(EN)</a>
         </p>
