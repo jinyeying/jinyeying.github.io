@@ -136,9 +136,9 @@ My primary research interests include Artificial Intelligence, mainly focusing o
         </a><br>
         <span class="sub"><em>HOK Creator Studio</em> • 2024.12–Present</span><br>
         <p class="kpis">
-          <strong>45.2k+</strong> Generated AI Images · <strong>22%</strong> Save Rate<br>
-          <strong>25k+</strong> UV ·                    <strong>11.4k+</strong> Active Users<br>
-          <strong>98</strong> Heroes · <strong>12</strong> Styles · <strong>13s</strong> Generation Time
+          <strong>45.2K+</strong> Generated AI Images · <strong>22%</strong> Save Rate<br>
+          <strong>25K+</strong> UV ·                    <strong>11.4K+</strong> Active Users<br>
+          <strong>98</strong> Heroes · <strong>12</strong> Styles · <strong>13S</strong> Generation Time
         </p>
         <div class="links">
           <span class="label">Demo:</span>
