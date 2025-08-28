@@ -111,7 +111,7 @@ My primary research interests include Artificial Intelligence, mainly focusing o
         </a><br>
         <span class="sub"><em>HOK Flowborn Dimensional Editor</em> • 2025.08–Present</span><br>
         <p class="kpis">
-          <strong>3K+ Posters in 2 Days</strong> Posters
+          <strong>3K+ Posters in 2 Days</strong>
         </p>        
         <div class="links">
           <span class="label">Demo:</span>
@@ -163,7 +163,7 @@ My primary research interests include Artificial Intelligence, mainly focusing o
         </a><br>
         <span class="sub"><em>HOK Avatar Center</em> • 2024.07–Present</span><br>
         <p class="kpis">
-          <strong>600K+</strong> Exposure · <strong>60K+</strong> Engagement · <strong>12×</strong> Launch
+          <strong>600K+</strong> Exposure · <strong>60K+</strong> Engagement · <strong>12×</strong> Launch <br>
           <strong>98</strong> Heroes      · <strong>2</strong> Styles
         </p>
         <div class="links">
