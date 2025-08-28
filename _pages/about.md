@@ -30,36 +30,31 @@ My primary research interests include Artificial Intelligence, mainly focusing o
 
 # 🔬 Project
 <style>
-  .project-table {
-    width: 100%;
-    border-collapse: collapse;
-    table-layout: fixed;
-  }
+  .project-table { width: 100%; border-collapse: collapse; table-layout: fixed; }
   .project-row td { vertical-align: top; }
-  .project-row .thumb {
-    width: 280px;
-    overflow: hidden;
-  }
+  .project-row .thumb { width: 280px; overflow: hidden; }
   .project-row .info  { padding-left: 12px; }
 
   /* side by side 图片容器 */
-  .side-by-side {
-    display: flex;
-    gap: 6px;
-    width: 100%;
-  }
+  .side-by-side { display: flex; gap: 6px; width: 100%; }
   .side-by-side img {
-    flex: 1;
-    display: block;
-    object-fit: cover;
-    aspect-ratio: 1/1;
-    min-width: 0;
+    flex: 1; display: block; object-fit: cover; aspect-ratio: 1/1; min-width: 0;
+    border-radius: 12px;                 /* NEW: 圆角缩略图 */
   }
 
   /* 标题 & KPI & 链接间距 */
-  .papertitle_just { font-weight: 700; font-size: 1.05em; }
-  .kpis { margin: 4px 0 2px 0; line-height: 1.4; }
-  .info a { margin-right: 8px; }
+  .papertitle_just { font-weight: 700; font-size: 1.05em; display: inline-block; margin-bottom: 2px; }
+  .sub { color:#667085; margin: 0 0 8px; display: inline-block; }     /* NEW: 统一副标题样式 */
+  .kpis { margin: 6px 0; line-height: 1.5; }
+
+  /* 链接 pill */
+  .links { display:flex; align-items:center; gap:8px; margin-top: 4px; }
+  .links .label { color:#667085; }
+  .pill {
+    display:inline-block; padding:4px 10px; border-radius:999px;
+    background:#f2f4f7; text-decoration:none; font-size:14px;
+  }
+  .pill:hover { background:#e6e9ef; }
 
   /* 移动端：上下排 */
   @media (max-width: 600px) {
@@ -72,39 +67,10 @@ My primary research interests include Artificial Intelligence, mainly focusing o
 
 <table class="project-table" cellspacing="0" cellpadding="10">
   <colgroup>
-    <col style="width:280px">
-    <col>
+    <col style="width:280px"><col>
   </colgroup>
   <tbody>
-    <!-- 1 HOK Creator -->
-    <tr class="project-row">
-      <td class="thumb">
-        <div class="side-by-side">
-          <img src="./files/HOK_Creator_before.png" alt="HOK Creator before">
-          <img src="./files/HOK_Creator_after.png"  alt="HOK Creator after">
-        </div>
-      </td>
-      <td class="info">
-        <a href="https://camp.honorofkings.com/studio?creator-tools=%2Fout%2Fhok-tools#/create-tools">
-          <span class="papertitle_just">Honor of Kings (HOK) AIUGC Online Hero Generation</span>
-        </a><br>
-        <em>HOK Creator Studio</em>, 2024.12 – Present <br>
-        <p class="kpis">
-          <strong>44,300+</strong> Generated AI Images ·
-          <strong>22%</strong> Save Rate<br>
-          <strong>11,400+</strong> Active Users<br>
-          <strong>98</strong> Heroes ·
-          <strong>12</strong> Styles ·
-          <strong>13s</strong> Generation Time<br>
-          <a href="https://camp.honorofkings.com/studio?creator-tools=%2Fout%2Fhok-tools#/create-tools">Online Generation</a>
-          |
-          <a href="https://www.bilibili.com/video/BV1vDXhY9EDG/?share_source=copy_web&vd_source=2da049ce4677af057256ebc4a00a8292">Video(CN)</a>
-          |
-          <a href="https://youtu.be/yEi3F9aZaaU?si=2nJls3ACbN7gsabV">Video(EN)</a>
-        </p>
-      </td>
-    </tr>
-    <!-- 2 HOK Poster -->
+    <!--  HOK Poster -->
     <tr class="project-row">
       <td class="thumb">
         <div class="side-by-side">
@@ -116,24 +82,22 @@ My primary research interests include Artificial Intelligence, mainly focusing o
         <a href="https://camp.honorofkings.com/h5/app/index.html#/poster-design/home">
           <span class="papertitle_just">Honor of Kings (HOK) AIUGC DIY Poster</span>
         </a><br>
-        <em>HOK Flowborn Dimensional Editor</em>, 2025.06 – Present <br>
+        <span class="sub"><em>Honor of Kings (HOK) Flowborn Dimensional Editor</em> • 2025.06–Present</span><br>
         <p class="kpis">
-          <strong>1,890,000+</strong> Posters ·
-          <strong>1,020,000+</strong> Generated AI Posters (54%)<br>
-          <strong>4,500+</strong> Overseas Buzz ·
-          <strong>3,000+</strong> Domestic Buzz<br>
-          <strong>80%</strong> In-Game Display ·
-          <strong>99%</strong> Positive/Neutral Sentiment<br>
-          <a href="https://camp.honorofkings.com/h5/app/index.html#/poster-design/home">Online Generation</a>
-          |
-          <a href="https://www.bilibili.com/video/BV1rS36zhEqD/?share_source=copy_web&vd_source=2da049ce4677af057256ebc4a00a8292">Video(CN)</a>
-          |
-          <a href="https://youtu.be/BKT8AuaVNB8?si=GqO5OWlHhu5jNIL5">Video(EN)</a>
+          <strong>1.89M+</strong> Posters ·          <strong>1.02M+</strong> Generated AI Posters (54%)<br>
+          <strong>4.5K+</strong> Overseas Mentions · <strong>3K+</strong> Domestic Mentions<br>
+          <strong>80%</strong> In-Game Display ·     <strong>99%</strong> Positive/Neutral Sentiment
         </p>
+        <div class="links">
+          <span class="label">Demo:</span>
+          <a class="pill" href="https://camp.honorofkings.com/h5/app/index.html#/poster-design/home">Online Generation</a>
+          <a class="pill" href="https://www.bilibili.com/video/BV1rS36zhEqD/?share_source=copy_web&vd_source=2da049ce4677af057256ebc4a00a8292">Video (CN)</a>
+          <a class="pill" href="https://youtu.be/BKT8AuaVNB8?si=GqO5OWlHhu5jNIL5">Video (EN)</a>
+        </div>
       </td>
     </tr>
 
-    <!-- 3 HOK Conan -->
+    <!--  HOK Detective -->
     <tr class="project-row">
       <td class="thumb">
         <div class="side-by-side">
@@ -143,20 +107,49 @@ My primary research interests include Artificial Intelligence, mainly focusing o
       </td>
       <td class="info">
         <a href="https://camp.honorofkings.com/h5/app/index.html#/poster-design/home">
-          <span class="papertitle_just">Honor of Kings (HOK) AIUGC Deduction Poster</span>
+          <span class="papertitle_just">Honor of Kings (HOK) AIUGC Detective Poster</span>
         </a><br>
-        <em>HOK Flowborn Dimensional Editor</em>, 2025.08 – Present <br>
+        <span class="sub"><em>HOK Flowborn Dimensional Editor</em> • 2025.08–Present</span><br>
         <p class="kpis">
-          <a href="https://camp.honorofkings.com/h5/app/index.html#/poster-design/home">Online Generation</a>
-          |
-          <a href="https://www.bilibili.com/video/BV1CpuPzxEGf/?share_source=copy_web&vd_source=2da049ce4677af057256ebc4a00a8292">Video(CN)</a>
-          |
-          <a href="https://youtube.com/shorts/AUhqPP_0NIU?si=jNKspwxoQAlRcjA-">Video(EN)</a>
-        </p>
+          <strong>3K+ Posters in 2 Days</strong> Posters
+        </p>        
+        <div class="links">
+          <span class="label">Demo:</span>
+          <a class="pill" href="https://camp.honorofkings.com/h5/app/index.html#/poster-design/home">Online Generation</a>
+          <a class="pill" href="https://www.bilibili.com/video/BV1CpuPzxEGf/?share_source=copy_web&vd_source=2da049ce4677af057256ebc4a00a8292">Video (CN)</a>
+          <a class="pill" href="https://youtube.com/shorts/AUhqPP_0NIU?si=jNKspwxoQAlRcjA-">Video (EN)</a>
+        </div>
       </td>
     </tr>
 
-    <!-- 4 HOK PGC -->
+    <!-- HOK Creator -->
+    <tr class="project-row">
+      <td class="thumb">
+        <div class="side-by-side">
+          <img src="./files/HOK_Creator_before.png" alt="HOK Creator before">
+          <img src="./files/HOK_Creator_after.png"  alt="HOK Creator after">
+        </div>
+      </td>
+      <td class="info">
+        <a href="https://camp.honorofkings.com/studio?creator-tools=%2Fout%2Fhok-tools#/create-tools">
+          <span class="papertitle_just">Honor of Kings (HOK) AIUGC Online Hero Generation</span>
+        </a><br>
+        <span class="sub"><em>HOK Creator Studio</em> • 2024.12–Present</span><br>
+        <p class="kpis">
+          <strong>45.2k+</strong> Generated AI Images · <strong>22%</strong> Save Rate<br>
+          <strong>25k+</strong> UV ·                    <strong>11.4k+</strong> Active Users<br>
+          <strong>98</strong> Heroes · <strong>12</strong> Styles · <strong>13s</strong> Generation Time
+        </p>
+        <div class="links">
+          <span class="label">Demo:</span>
+          <a class="pill" href="https://camp.honorofkings.com/studio?creator-tools=%2Fout%2Fhok-tools#/create-tools">Online Generation</a>
+          <a class="pill" href="https://www.bilibili.com/video/BV1vDXhY9EDG/?share_source=copy_web&vd_source=2da049ce4677af057256ebc4a00a8292">Video (CN)</a>
+          <a class="pill" href="https://youtu.be/yEi3F9aZaaU?si=2nJls3ACbN7gsabV">Video (EN)</a>
+        </div>
+      </td>
+    </tr>
+
+    <!-- HOK PGC -->
     <tr class="project-row">
       <td class="thumb">
         <div class="side-by-side">
@@ -166,19 +159,19 @@ My primary research interests include Artificial Intelligence, mainly focusing o
       </td>
       <td class="info">
         <a href="https://camp.honorofkings.com/studio?creator-tools=%2Fout%2Fhok-tools#/library?oneLevelTabs=51">
-          <span class="papertitle_just">Honor of Kings (HOK) AIPGC Avatar/Sticker</span>
+          <span class="papertitle_just">Honor of Kings (HOK) AIPGC Avatars/Stickers</span>
         </a><br>
-        <em>HOK </em>, 2024.07 – Present <br>
+        <span class="sub"><em>HOK Avatar Center</em> • 2024.07–Present</span><br>
         <p class="kpis">
-          <strong>600,000+</strong> Explosure ·
-          <strong>60,000+</strong> Engagement ·
-          <strong>10+</strong> Launch <br>
-          <a href="https://camp.honorofkings.com/studio?creator-tools=%2Fout%2Fhok-tools#/library?oneLevelTabs=51">Avatar Center</a>
-          |
-          <a href="https://www.bilibili.com/video/BV1eHe5zPEVk/?share_source=copy_web&vd_source=2da049ce4677af057256ebc4a00a8292">Video(CN)</a>
-          |
-          <a href="https://youtu.be/vdVQxsIBEes">Video(EN)</a>
+          <strong>600K+</strong> Exposure · <strong>60K+</strong> Engagement · <strong>12×</strong> Launch
+          <strong>98</strong> Heroes      · <strong>2</strong> Styles
         </p>
+        <div class="links">
+          <span class="label">Demo:</span>
+          <a class="pill" href="https://camp.honorofkings.com/studio?creator-tools=%2Fout%2Fhok-tools#/library?oneLevelTabs=51">Avatar Center</a>
+          <a class="pill" href="https://www.bilibili.com/video/BV1eHe5zPEVk/?share_source=copy_web&vd_source=2da049ce4677af057256ebc4a00a8292">Video (CN)</a>
+          <a class="pill" href="https://youtu.be/vdVQxsIBEes">Video (EN)</a>
+        </div>
       </td>
     </tr>
   </tbody>
