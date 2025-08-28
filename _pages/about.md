@@ -82,7 +82,7 @@ My primary research interests include Artificial Intelligence, mainly focusing o
         <a href="https://camp.honorofkings.com/h5/app/index.html#/poster-design/home">
           <span class="papertitle_just">Honor of Kings (HOK) AIUGC DIY Poster</span>
         </a><br>
-        <span class="sub"><em>Honor of Kings (HOK) Flowborn Dimensional Editor</em> • 2025.06–Present</span><br>
+        <span class="sub"><em>HOK Flowborn Dimensional Editor</em> • 2025.06–Present</span><br>
         <p class="kpis">
           <strong>1.89M+</strong> Posters ·          <strong>1.02M+</strong> Generated AI Posters (54%)<br>
           <strong>4.5K+</strong> Overseas Mentions · <strong>3K+</strong> Domestic Mentions<br>
