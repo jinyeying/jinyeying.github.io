@@ -164,8 +164,9 @@ My primary research interests include Artificial Intelligence, mainly focusing o
         <span class="sub"><em>HOK Avatar Center</em> • 2024.07–Present</span><br>
         <p class="kpis">
           <strong>600K+</strong> Exposure · <strong>60K+</strong> Engagement · <strong>12×</strong> Launch <br>
-          <strong>98</strong> Heroes      · <strong>2</strong> Styles · HalloweenAvatar <br>
-          HOK Camp, VK, X, Instagram, Facebook, WhatsApp, Discord, Sticker
+          <strong>98</strong> Heroes      · <strong>2</strong> Styles · HalloweenAvatar <strong>2</strong> Topics <br>
+          HOK Camp, VK, X, Instagram, Facebook, WhatsApp, <br>
+          Discord and Sticker are all available.
         </p>
         <div class="links">
           <span class="label">Demo:</span>
