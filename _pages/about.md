@@ -84,8 +84,8 @@ My primary research interests include Artificial Intelligence, mainly focusing o
         </a><br>
         <span class="sub"><em>HOK Flowborn Dimensional Editor</em> • 2025.06–Present</span><br>
         <p class="kpis">
-          <strong>1.89M+</strong> Posters ·          <strong>1.02M+</strong> Generated AI Posters (54%)<br>
-          <strong>4.5K+</strong> Overseas Mentions · <strong>3K+</strong> Domestic Mentions<br>
+          <strong>Millions+</strong> Posters ·          <strong>Millions+</strong> Generated AI Posters (54%)<br>
+          <strong>Thousands+</strong> Overseas Mentions · <strong>Thousands+</strong> Domestic Mentions<br>
           <strong>80%</strong> In-Game Display ·     <strong>99%</strong> Positive/Neutral Sentiment
         </p>
         <div class="links">
@@ -111,7 +111,8 @@ My primary research interests include Artificial Intelligence, mainly focusing o
         </a><br>
         <span class="sub"><em>HOK Flowborn Dimensional Editor</em> • 2025.08–Present</span><br>
         <p class="kpis">
-          <strong>3K+ Posters in 2 Days</strong>
+          <strong>Hundreds of Thousands+</strong><br>
+          <strong>One-Click Social Sharing, HOK Camp, Instagram, Facebook, Twitter</strong>
         </p>        
         <div class="links">
           <span class="label">Demo:</span>
@@ -136,8 +137,8 @@ My primary research interests include Artificial Intelligence, mainly focusing o
         </a><br>
         <span class="sub"><em>HOK Creator Studio</em> • 2024.12–Present</span><br>
         <p class="kpis">
-          <strong>45.2K+</strong> Generated AI Images · <strong>22%</strong> Save Rate<br>
-          <strong>25K+</strong> UV ·                    <strong>11.4K+</strong> Active Users<br>
+          <strong>Tens of Thousands+</strong> Generated AI Images · <strong>22%</strong> Save Rate<br>
+          <strong>Tens of Thousands+</strong> UV ·                  <strong>Tens of Thousands+</strong> Active Users<br>
           <strong>98</strong> Heroes · <strong>12</strong> Styles · <strong>13S</strong> Generation Time
         </p>
         <div class="links">
@@ -163,7 +164,7 @@ My primary research interests include Artificial Intelligence, mainly focusing o
         </a><br>
         <span class="sub"><em>HOK Avatar Center</em> • 2024.07–Present</span><br>
         <p class="kpis">
-          <strong>600K+</strong> Exposure · <strong>60K+</strong> Engagement · <strong>12×</strong> Launch <br>
+          <strong>Over Half a Million+</strong> Exposure · <strong>Tens of Thousands+</strong> Engagement · <strong>12×</strong> Launch <br>
           <strong>98</strong> Heroes      · <strong>2</strong> Styles · HalloweenAvatar <strong>2</strong> Topics <br>
           HOK Camp, VK, X, Instagram, Facebook, WhatsApp, <br>
           Discord and Sticker are all available.
