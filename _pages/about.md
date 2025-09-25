@@ -85,7 +85,8 @@ My primary research interests include Artificial Intelligence, mainly focusing o
         <span class="sub"><em>HOK Flowborn Dimensional Editor</em> • 2025.06–Present</span><br>
         <p class="kpis">
           <strong>Millions+</strong> Posters ·          <strong>Millions+</strong> Generated AI Posters (54%)<br>
-          <strong>Thousands+</strong> Overseas Mentions · <strong>Thousands+</strong> Domestic Mentions<br>
+          <strong>Thousands+</strong> Overseas Mentions<br>
+          <strong>Thousands+</strong> Domestic Mentions<br>
           <strong>80%</strong> In-Game Display ·     <strong>99%</strong> Positive/Neutral Sentiment
         </p>
         <div class="links">
@@ -111,8 +112,9 @@ My primary research interests include Artificial Intelligence, mainly focusing o
         </a><br>
         <span class="sub"><em>HOK Flowborn Dimensional Editor</em> • 2025.08–Present</span><br>
         <p class="kpis">
-          <strong>Hundreds of Thousands+</strong><br>
-          <strong>One-Click Social Sharing, HOK Camp, Instagram, Facebook, Twitter</strong>
+          <strong>Hundreds of Thousands+</strong> Generated AI Posters<br>
+          <strong>One-Click</strong> Social Sharing<br>
+          HOK Camp, Instagram, Facebook, Twitter
         </p>        
         <div class="links">
           <span class="label">Demo:</span>
@@ -164,10 +166,11 @@ My primary research interests include Artificial Intelligence, mainly focusing o
         </a><br>
         <span class="sub"><em>HOK Avatar Center</em> • 2024.07–Present</span><br>
         <p class="kpis">
-          <strong>Over Half a Million+</strong> Exposure · <strong>Tens of Thousands+</strong> Engagement · <strong>12×</strong> Launch <br>
-          <strong>98</strong> Heroes      · <strong>2</strong> Styles · HalloweenAvatar <strong>2</strong> Topics <br>
-          HOK Camp, VK, X, Instagram, Facebook, WhatsApp, <br>
-          Discord and Sticker are all available.
+          <strong>Over Half a Million+</strong> Exposure <br>
+          <strong>Tens of Thousands+</strong> Engagement <br>
+          <strong>12×</strong> Launch ·<strong>98</strong> Heroes · <strong>2</strong> Styles · Halloween <strong>2</strong> Topics <br>
+          Available on HOK Camp, VK, X, Instagram, Facebook,<br>
+           WhatsApp, Discord, Sticker
         </p>
         <div class="links">
           <span class="label">Demo:</span>
