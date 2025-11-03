@@ -20,13 +20,12 @@ I am a Staff Researcher at [Tencent](https://www.tencent.com/en-us/about.html). 
 I had my research internship in <img src="/files/adobe.png" alt="Adobe" width="20" height="20"> [Adobe](https://research.adobe.com/), mentored by [Prof. Connelly Barnes](http://www.connellybarnes.com/work/) and [Prof. Eli Shechtman](https://scholar.google.com/citations?user=B_FTboQAAAAJ).
 Previously, I completed my M.Sc. degree at the <img src="/files/NUS.png" alt="NUS" width="42.5" height="20"> [National University of Singapore (NUS)](https://cde.nus.edu.sg/ece/); received my B.Eng. degree from the <img src="/files/UESTC.png" alt="UESTC" width="20.842" height="20"> [University of Electronic Science and Technology of China (UESTC)](https://en.uestc.edu.cn/). 
 
-My primary research interests include Artificial Intelligence, mainly focusing on AIGC, multimodal learning, and vision-language models (VLMs). <span style="color:red"> I'm looking for self-motivated interns and full-time researchers.</span>
+My primary research interests include Artificial Intelligence, mainly focusing on AIGC and multimodal learning. <span style="color:red"> I'm looking for self-motivated interns and full-time researchers.</span>
 
 # 📜 Research Area
-1. AIGC, Image and Video Generation, Talking Face Generation
-2. Multimodal, Direct Preference Optimization (DPO), VQA
-3. Image/Video Enhancement, Restoration and Decomposition 
-4. Deep Learning and its Applications (e.g., Medical Images) 
+1. AIGC, Image and Video Generation, Talking Face Generation, Multimodal Learning, and Vision-Language Models (VLMs)
+2. Image/Video Enhancement, Restoration and Decomposition 
+3. Deep Learning and Its Applications
 
 # 🔬 Project
 <style>
@@ -467,10 +466,10 @@ ntire25_rd_stop()
 </td>
 <td valign="top" width="80%">
   <a href="https://arxiv.org/abs/2504.12711">
-    <papertitle_just>NTIRE 2025 challenge on day and night raindrop removal for dual-focused images: Methods and results</papertitle_just>
+    <papertitle_just>NTIRE 2025 Challenge on Day and Night Raindrop Removal for Dual-focused Images: Methods and Results</papertitle_just>
   </a>
   <br>
-  Xin Li*, <strong>Yeying Jin</strong>*, Xin Jin*, etc. (Corresponding authors) 
+  Xin Li*, <strong>Yeying Jin</strong>*, Xin Jin*, etc. (Corresponding Authors) 
   <br>
   <em>Computer Vision and Pattern Recognition (CVPR)</em>, 2025, Nashville, USA <br>
   <a href="https://arxiv.org/abs/2504.12711">arXiv</a>
@@ -1180,7 +1179,7 @@ accv22_defog_stop()
 
 # 👔 Internship and Work Experience
 - 01.2024-Present: Staff Researcher at <img src="/files/tencent.png" alt="Tencent" width="85" height="20"> Singapore, working on AIGC.
-- 06.2023-09.2023: <img src="/files/adobe.png" alt="Adobe" width="20" height="20"> [Adobe Research Intern](https://www.adobe.com/), Creative Intelligence Lab, mentored by [Connelly Barnes](http://www.connellybarnes.com/work/), [Eli Shechtman](https://research.adobe.com/person/eli-shechtman/), worked with [Yuqian Zhou](https://yzhouas.github.io/), [Lingzhi Zhang](https://owenzlz.github.io/), [Sohrab Amirghodsi](https://www.linkedin.com/in/sohrab-amirghodsi-a89548a3/), [Eric Kee](https://www.erickee.com/).
+- 06.2023-09.2023: <img src="/files/adobe.png" alt="Adobe" width="20" height="20"> [Adobe Research Intern](https://www.adobe.com/), Creative Intelligence Lab, mentored by [Prof. Connelly Barnes](http://www.connellybarnes.com/work/), [Prof. Eli Shechtman](https://research.adobe.com/person/eli-shechtman/), worked with [Yuqian Zhou](https://yzhouas.github.io/), [Lingzhi Zhang](https://owenzlz.github.io/), [Sohrab Amirghodsi](https://www.linkedin.com/in/sohrab-amirghodsi-a89548a3/), [Eric Kee](https://www.erickee.com/).
 
 - 01.2019-01.2020: Machine Learning Researcher at <img src="/files/biomind.png" alt="Biomind" width="80" height="20"> Singapore, advised by [Prof. Jiashi Feng](https://sites.google.com/site/jshfeng/), worked on Biomedical Image Synthesis, Super-resolution, Tumor Segmentation and Classification, expo demo for ["Deep Learning-Based End-to-end Automatic Contouring and Automated Radiation Therapy Treatment Planning System"](https://media.neurips.cc/Conferences/NeurIPS2019/NeurIPS_Expo_Book_2019.pdf).
 
@@ -1200,19 +1199,22 @@ accv22_defog_stop()
     <th>Event</th>
     <th>Date</th>
   </tr>
+
   <tr>
-    <td><a href="https://www.cvlai.net/ntire/2025/" target="_blank">CVPR 2026 NTIRE Challenge</td>
-    <td><a href="" target="_blank">The 2st Challenge on Day and Night Raindrop Removal for Dual-Focused Images</td>
+    <td><a href="https://www.cvlai.net/ntire/2025/" target="_blank">CVPR 2026 NTIRE Challenge</a></td>
+    <td><a href="" target="_blank">The 2st Challenge on Day and Night Raindrop Removal for Dual-Focused Images</a></td>
     <td>06.2026, USA</td>
   </tr>
+
   <tr>
-    <td><a href="https://aaai.org/conference/aaai/aaai-26/tutorial-and-lab-list/" target="_blank">AAAI 2026 Workshop</td>
+    <td><a href="https://aaai.org/conference/aaai/aaai-26/tutorial-and-lab-list/" target="_blank">AAAI 2026 Workshop</a></td>
     <td><a href="https://aaai.org/conference/aaai/aaai-26/tutorial-and-lab-list/" target="_blank">The Application of Generative AI and Intelligent Agents in Low-level Vision</a></td>
     <td>01.2026, Singapore</td>
-  </tr>    
+  </tr>
+
   <tr>
-    <td><a href="https://www.cvlai.net/ntire/2025/" target="_blank">CVPR 2025 NTIRE Challenge</td>
-    <td><a href="https://lixinustc.github.io/CVPR-NTIRE2025-RainDrop-Competition.github.io" target="_blank">The 1st Challenge on Day and Night Raindrop Removal for Dual-Focused Images</td>
+    <td><a href="https://www.cvlai.net/ntire/2025/" target="_blank">CVPR 2025 NTIRE Challenge</a></td>
+    <td><a href="https://lixinustc.github.io/CVPR-NTIRE2025-RainDrop-Competition.github.io" target="_blank">The 1st Challenge on Day and Night Raindrop Removal for Dual-Focused Images</a></td>
     <td>06.2025, USA</td>
   </tr>
 
@@ -1221,33 +1223,37 @@ accv22_defog_stop()
     <th>Host</th>
     <th>Date</th>
   </tr>
-  
+
   <tr>
-    <td><a href="https://ai4streaming-workshop.github.io/">From Creation to Perception: Generative AI for Content Generation</a><span style="margin-left: 4px;">
-    [<a href="https://www.dropbox.com/scl/fi/3026mg38lhz6jlqasgox6/Generative-AI-for-Content-Generation_yeyingjin_102225.pdf?rlkey=8kfpi9chgtfyf4iudvlt5ca6f&st=9raoxwve&dl=0" target="_blank">Slide</a>]</td>
-    <td>ICCV(invited by <a href="https://mv-lab.github.io/">Marcos V. Conde</a>)</td>
+    <td>
+      <a href="https://ai4streaming-workshop.github.io/">From Creation to Perception: Generative AI for Content Generation</a>
+      [<a href="https://www.dropbox.com/scl/fi/3026mg38lhz6jlqasgox6/Generative-AI-for-Content-Generation_yeyingjin_102225.pdf?rlkey=8kfpi9chgtfyf4iudvlt5ca6f&st=9raoxwve&dl=0" target="_blank">Slide</a>]
+    </td>
+    <td>ICCV (invited by <a href="https://mv-lab.github.io/">Marcos V. Conde</a>)</td>
     <td>10.2025, USA</td>
   </tr>
-  
+
   <tr>
     <td>AI Video Gen | When Wukong meets Yayoi Kusama</td>
     <td><img src="/files/tencent.png" alt="Tencent" width="85" height="20"></td>
     <td>05.2025, Singapore</td>
   </tr>
-  
+
   <tr>
-    <td><a href="https://showlab.github.io/omg/">AI × Gaming: Creative Applications of AIGC</a><span style="margin-left: 4px;">
-    [<a href="https://www.bilibili.com/video/BV1dzJfzbEmh/?share_source=copy_web&vd_source=2da049ce4677af057256ebc4a00a8292" target="_blank">Video</a>]</td>
+    <td>
+      <a href="https://showlab.github.io/omg/">AI × Gaming: Creative Applications of AIGC</a>
+      [<a href="https://www.bilibili.com/video/BV1dzJfzbEmh/?share_source=copy_web&vd_source=2da049ce4677af057256ebc4a00a8292" target="_blank">Video</a>]
+    </td>
     <td>ICLR (invited by <a href="https://qhlin.me/">Kevin QH. Lin</a>)</td>
     <td>04.2025, Singapore</td>
   </tr>
-  
+
   <tr>
     <td>AI Generation: Inspiring Game Marketing and Development</td>
     <td><img src="/files/tencent.png" alt="Tencent" width="85" height="20"></td>
     <td>02.2025, Singapore</td>
   </tr>
-  
+
   <tr>
     <td><a href="https://www.bilibili.com/video/BV1p5bFevEgP/?spm_id_from=333.999.0.0&vd_source=8ae1cd92e40b380c0296eb6843da79a4">Raindrop Clarity: Dual-Focused, Day and Night</a></td>
     <td><img src="/files/AITIME.png" alt="AITIME" width="19.778" height="20"> AI TIME</td>
@@ -1262,76 +1268,78 @@ accv22_defog_stop()
 
   <tr>
     <td>Applications of Generative AI</td>
-    <td><img src="/files/tencent.png" alt="Tencent" width="85" height="20"> </td>
+    <td><img src="/files/tencent.png" alt="Tencent" width="85" height="20"></td>
     <td>11.2023, Singapore</td>
   </tr>
-  
+
   <tr>
     <td>Visibility Enhancement using Generative Model</td>
     <td><img src="/files/huawei.png" alt="Huawei" width="19.978" height="20"> Huawei</td>
     <td>07.2023</td>
   </tr>
-  
+
   <tr>
     <td>NextCam Reading Group: Light-effects Suppression</td>
     <td><img src="/files/adobe.png" alt="Adobe" width="20" height="20"> Adobe (invited by <a href="https://www.erickee.com/">Eric Kee</a>)</td>
     <td>07.2023, USA</td>
   </tr>
-  
+
   <tr>
     <td>Image/Video Restoration and Generation</td>
     <td><img src="/files/huawei.png" alt="Huawei" width="19.978" height="20"> Huawei</td>
     <td>03.2023</td>
   </tr>
-  
+
   <tr>
     <td><a href="https://www.bilibili.com/video/BV1Ca4y1C7xi/?spm_id_from=333.999.0.0&vd_source=8ae1cd92e40b380c0296eb6843da79a4">Intrinsic Image Decomposition</a></td>
     <td><img src="/files/AITIME.png" alt="AITIME" width="19.778" height="20"> AI TIME</td>
     <td>02.2023</td>
   </tr>
-  
+
   <tr>
     <td>Diffusion Model in Image Processing</td>
     <td><img src="/files/ByteDance.png" alt="ByteDance" width="100" height="20"> (invited by <a href="https://hanshuyan.github.io/">Hanshu Yan</a>)</td>
     <td>01.2023</td>
   </tr>
-  
+
   <tr>
     <td>Visibility Enhancement in Nighttime</td>
     <td><img src="/files/huawei.png" alt="Huawei" width="19.978" height="20"> Huawei</td>
     <td>12.2022, Singapore</td>
   </tr>
-  
+
   <tr>
     <td><a href="https://www.bilibili.com/video/BV1Ec411s7at/?spm_id_from=333.999.0.0&vd_source=8ae1cd92e40b380c0296eb6843da79a4">Unsupervised Image Restoration and Generation</a></td>
     <td><img src="/files/AITIME.png" alt="AITIME" width="19.778" height="20"> AI TIME</td>
     <td>11.2022</td>
   </tr>
-  
+
   <tr>
     <th>Poster</th>
     <th>Venue</th>
     <th>Date</th>
   </tr>
-  
+
   <tr>
     <td>Poster Present at <a href="https://valser.org/2024/#/poster">VALSE</a></td>
-    <td><img src="/files/VALSE.png" alt="VALSE" width="23.2" height="20">VALSE</td>
+    <td><img src="/files/VALSE.png" alt="VALSE" width="23.2" height="20"> VALSE</td>
     <td>05.2024, China</td>
   </tr>
-  
+
   <tr>
     <td>Poster Present at <a href="https://www.comp.nus.edu.sg/~leegh/svd/">Singapore Vision Day</a></td>
     <td><img src="/files/NUS.png" alt="NUS" width="42.5" height="20"> NUS</td>
     <td>05.2023, Singapore</td>
   </tr>
-  
+
   <tr>
     <td>Poster Present at <a href="https://aisingapore.org/ai-governance/aisg-ai-governance-research-symposium-2023/">AI Research Symposium</a></td>
     <td><img src="/files/aisg.png" alt="AISG" width="20" height="20"> AISG</td>
     <td>01.2023, Singapore</td>
   </tr>
+
 </table>
+
 
 
 
