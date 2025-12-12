@@ -1259,11 +1259,11 @@ accv22_defog_stop()
 
 # 🎖 Honors and Awards
 - [“Yayoi Kusama × Wukong”](https://modelscope.cn/brand/view/game-wan?branch=0&tree=4), *ModelScope Wan 2.1 Video Generation Challenge* — 2nd Place  
-- [Knowledge Award](https://zhuanlan.zhihu.com/p/686681635), Excellent R&D Award, Outstanding Mentor, Outstanding Contributor  
+- [Knowledge Award](https://zhuanlan.zhihu.com/p/686681635), [Excellent R&D Award](https://www.dropbox.com/scl/fi/h32jdvfrftrdls3rwjesi/Tencent_Excellent_R-D_Award.jpg?rlkey=xw5225oazo9kkoziuznsnhtpz&st=apklpn9u&dl=0), [Outstanding Mentor](https://www.dropbox.com/scl/fi/kcszrth49835tfvcirjot/Mentor.jpg?rlkey=mf4zo301alayou3tvr7yaedpk&st=je6i1qgd&dl=0), Outstanding Contributor 
 - [AI Singapore (AISG) Ph.D. Fellowship](https://aisingapore.org/research/phd-fellowship-programme/) *(Singapore’s most prestigious Ph.D. scholarship)* — Theme: Continuous Learning AI, Self-supervised Learning
 
 # 💻 Academic Services
-- Reviewer: ACL ARR'25, ICML'25, ICLR'25, NeurIPS'23-25, CVPR'22-25, ICCV'23-25, ECCV'22-24, AAAI'23-25, ACMMM'23-25, TPAMI'23, IJCV'24-25, TIP'23, MICCAI'25, CVIU'23, TCSVT'23, TVCJ'23, NEUCOM'23, ACCV'22-24, IJCAI'22, IJCNN'21, etc.
+- Reviewer: ACL ARR'25-26, ICML'25, ICLR'25, NeurIPS'23-25, CVPR'22-26, ICCV'23-25, ECCV'22-24, AAAI'23-26, ACMMM'23-26, TPAMI'23, IJCV'24-25, TIP'23, MICCAI'25, CVIU'23, TCSVT'23, TVCJ'23, NEUCOM'23, ACCV'22-24, IJCAI'22, IJCNN'21, etc.
 - Teaching Assistant: [EE5731 Visual Computing](https://tanrobby.github.io/teaching/ece_visual/index.html), EE5904 Neural Network (NUS ECE)
 
 # 💬 Organizer and Invited Talks
@@ -1298,6 +1298,7 @@ accv22_defog_stop()
     <th>Date</th>
   </tr>
 
+  
   <tr>
     <td>
       <a href="https://ai4streaming-workshop.github.io/">From Creation to Perception: Generative AI for Content Generation</a>
@@ -1393,7 +1394,6 @@ accv22_defog_stop()
     <th>Venue</th>
     <th>Date</th>
   </tr>
-
   <tr>
     <td>Poster Present at <a href="https://valser.org/2024/#/poster">VALSE</a></td>
     <td><img src="/files/VALSE.png" alt="VALSE" width="23.2" height="20"> VALSE</td>
