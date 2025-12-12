@@ -253,6 +253,80 @@ My primary research interests include Artificial Intelligence, mainly focusing o
 <!-- ############################ Put your publications below this! ####################################-->
 
 <!-- ###################################################################################################-->
+<!-- Paper UniFit -->
+<tr onmouseout="aaai26_UniFit_stop()" onmouseover="aaai26_UniFit_start()" >
+<td width="20%">
+<div class="one">
+<div class="two" id = 'aaai26_UniFit_image'>
+<img src="./files/aaai26_UniFit_after.png" style="width: 100%; aspect-ratio: 1 / 1; object-fit: cover;"></div>
+<img src="./files/aaai26_UniFit_before.png" style="width: 100%; aspect-ratio: 1 / 1; object-fit: cover;">
+</div>
+<script type="text/javascript">
+function aaai26_UniFit_start() {
+document.getElementById('aaai26_UniFit_image').style.opacity = "1";
+}
+function aaai26_UniFit_stop() {
+document.getElementById('aaai26_UniFit_image').style.opacity = "0";
+}
+aaai26_UniFit_stop()
+</script>
+</td>
+<td valign="top" width="80%">
+  <a href="https://arxiv.org/abs/2511.15831">
+    <papertitle_just>UniFit: Towards Universal Virtual Try-on with MLLM-Guided Semantic Alignment</papertitle_just>     
+  </a>
+  <br>
+  Wei Zhang*, <strong>Yeying Jin*</strong>, Xin Li, Yan Zhang, Xiaofeng Cong, Cong Wang, Fengcai Qiao, Zhichao Lian
+  <br>
+<em>Association for the Advancement of Artificial Intelligence (AAAI)</em>, 2026, Singapore <br>
+<a href="https://arxiv.org/abs/2511.15831">arXiv</a>
+|
+<a href="https://github.com/zwplus/UniFit"><img src="https://github.com/zwplus/UniFit?style=social&label=Stars"></a>
+| 
+<a href="./files/aaai26_UniFit_bibtex.txt">bibtex</a>
+<p></p>
+</td>
+</tr>
+<!-- ###################################################################################################-->
+
+<!-- ###################################################################################################-->
+<!-- Paper MMGT -->
+<tr onmouseout="tcsvt25_MMGT_stop()" onmouseover="tcsvt25_MMGT_start()" >
+<td width="20%">
+<div class="one">
+<div class="two" id = 'tcsvt25_MMGT_image'>
+<img src="./files/tcsvt25_MMGT_after.png" style="width: 100%; aspect-ratio: 1 / 1; object-fit: cover;"></div>
+<img src="./files/tcsvt25_MMGT_before.png" style="width: 100%; aspect-ratio: 1 / 1; object-fit: cover;">
+</div>
+<script type="text/javascript">
+function tcsvt25_MMGT_start() {
+document.getElementById('tcsvt25_MMGT_image').style.opacity = "1";
+}
+function tcsvt25_MMGT_stop() {
+document.getElementById('tcsvt25_MMGT_image').style.opacity = "0";
+}
+tcsvt25_MMGT_stop()
+</script>
+</td>
+<td valign="top" width="80%">
+  <a href="https://arxiv.org/abs/2505.23120">
+    <papertitle_just>MMGT: Motion Mask Guided Two-Stage Network for Co-Speech Gesture Video Generation</papertitle_just>     
+  </a>
+  <br>
+  Siyuan Wang, Jiawei Liu, Wei Wang, <strong>Yeying Jin</strong>, Jinsong Du, Zhi Han
+  <br>
+<em>IEEE Transactions on Circuits and Systems for Video Technology (TCSVT)</em>, 2025 <br>
+<a href="https://arxiv.org/abs/2505.23120">arXiv</a>
+|
+<a href="https://github.com/SIA-IDE/MMGT"><img src="https://github.com/SIA-IDE/MMGT?style=social&label=Stars"></a>
+| 
+<a href="./files/tcsvt25_MMGT_bibtex.txt">bibtex</a>
+<p></p>
+</td>
+</tr>
+<!-- ###################################################################################################-->
+
+
 <!-- Paper 23 PosterCraft -->
 <tr onmouseout="arxiv25_PosterCraft_stop()" onmouseover="arxiv25_PosterCraft_start()" >
 <td width="20%">
@@ -356,7 +430,7 @@ pr25_Attacks_stop()
     <papertitle_just>Unveiling Hidden Vulnerabilities in Digital Human Generation via Adversarial Attacks</papertitle_just>     
   </a>
   <br>
-  Zhiying Li, <strong>Yeying Jin</strong>, Fan Shen, Zhi Liu, Weibin Chen, Pengju Zhang, Xiaomei Zhang, Boyu Chen, Michael Shen, Kejian Wu, Zhaoxin Fan, Jin Dong
+  Zhiying Li*, <strong>Yeying Jin*</strong>, Fan Shen, Zhi Liu, Weibin Chen, Pengju Zhang, Xiaomei Zhang, Boyu Chen, Michael Shen, Kejian Wu, Zhaoxin Fan, Jin Dong
   <br>
 <em>Pattern Recognition (PR)</em>, 2025 <br>
 <a href="https://arxiv.org/abs/2504.17457">arXiv</a>
@@ -1178,7 +1252,7 @@ accv22_defog_stop()
 - 09.2013-07.2017: B.Eng (Electrical and Computer Engineering), <img src="/files/UESTC.png" alt="UESTC" width="20.842" height="20"> UESTC, China (GPA: 3.93/4.00)
 
 # 👔 Internship and Work Experience
-- 01.2024-Present: Staff Researcher at <img src="/files/tencent.png" alt="Tencent" width="85" height="20"> Singapore, working on AIGC.
+- 11.2023-Present: Staff Researcher at <img src="/files/tencent.png" alt="Tencent" width="85" height="20"> Singapore, working on AIGC.
 - 06.2023-09.2023: <img src="/files/adobe.png" alt="Adobe" width="20" height="20"> [Adobe Research Intern](https://www.adobe.com/), Creative Intelligence Lab, mentored by [Prof. Connelly Barnes](http://www.connellybarnes.com/work/), [Prof. Eli Shechtman](https://research.adobe.com/person/eli-shechtman/), worked with [Yuqian Zhou](https://yzhouas.github.io/), [Lingzhi Zhang](https://owenzlz.github.io/), [Sohrab Amirghodsi](https://www.linkedin.com/in/sohrab-amirghodsi-a89548a3/), [Eric Kee](https://www.erickee.com/).
 
 - 01.2019-01.2020: Machine Learning Researcher at <img src="/files/biomind.png" alt="Biomind" width="80" height="20"> Singapore, advised by [Prof. Jiashi Feng](https://sites.google.com/site/jshfeng/), worked on Biomedical Image Synthesis, Super-resolution, Tumor Segmentation and Classification, expo demo for ["Deep Learning-Based End-to-end Automatic Contouring and Automated Radiation Therapy Treatment Planning System"](https://media.neurips.cc/Conferences/NeurIPS2019/NeurIPS_Expo_Book_2019.pdf).
