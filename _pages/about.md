@@ -295,8 +295,8 @@ aaai26_UniFit_stop()
 <td width="20%">
 <div class="one">
 <div class="two" id = 'tcsvt25_MMGT_image'>
-<img src="./files/tcsvt25_MMGT_after.png" style="width: 100%; aspect-ratio: 1 / 1; object-fit: cover;"></div>
-<img src="./files/tcsvt25_MMGT_before.png" style="width: 100%; aspect-ratio: 1 / 1; object-fit: cover;">
+<img src="./files/tcsvt25_MMGT_after.gif" style="width: 100%; aspect-ratio: 1 / 1; object-fit: cover;"></div>
+<img src="./files/tcsvt25_MMGT_before.gif" style="width: 100%; aspect-ratio: 1 / 1; object-fit: cover;">
 </div>
 <script type="text/javascript">
 function tcsvt25_MMGT_start() {
@@ -1312,8 +1312,8 @@ accv22_defog_stop()
       <a href="https://ai4streaming-workshop.github.io/">Exploring SORA: Unlocking the Core of AI Video Creation</a>
       [<a href="https://www.bilibili.com/video/BV1Ymy7BJEmy/?share_source=copy_web&vd_source=2da049ce4677af057256ebc4a00a8292" target="_blank">Video</a>]
     </td>
-    <td>ICCV (invited by <a href="https://mv-lab.github.io/">Marcos V. Conde</a>)</td>
-    <td>10.2025, USA</td>
+    <td>Tencent Programmers Video</td>
+    <td>11.2025, Singapore</td>
  </tr>
 
   <tr>
