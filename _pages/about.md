@@ -846,7 +846,7 @@ eccv24_sr_stop()
 <em>European Conference on Computer Vision (ECCV)</em>, 2024, Milan, Italy <br>
 <a href="https://arxiv.org/abs/2407.13108">arXiv</a>
 |
-<a href="https://github.com/lixinustc/UCIP"><img src="https://img.shields.io/github/stars/lixinustc/UCIP?style=social&label=Stars"></a>
+<a href="https://github.com/lixinustc/UCIP_MLP_source_code/tree/main"><img src="https://img.shields.io/github/stars/lixinustc/UCIP?style=social&label=Stars" alt="GitHub stars"></a>
 |
 <a href="./files/eccv24_ucip_bibtex.txt">bibtex</a>
 <p></p>
@@ -1297,16 +1297,24 @@ accv22_defog_stop()
     <th>Host</th>
     <th>Date</th>
   </tr>
-
   
-  <tr>
+ <tr>
     <td>
       <a href="https://ai4streaming-workshop.github.io/">From Creation to Perception: Generative AI for Content Generation</a>
       [<a href="https://www.dropbox.com/scl/fi/3026mg38lhz6jlqasgox6/Generative-AI-for-Content-Generation_yeyingjin_102225.pdf?rlkey=8kfpi9chgtfyf4iudvlt5ca6f&st=9raoxwve&dl=0" target="_blank">Slide</a>]
     </td>
     <td>ICCV (invited by <a href="https://mv-lab.github.io/">Marcos V. Conde</a>)</td>
     <td>10.2025, USA</td>
-  </tr>
+ </tr>
+
+ <tr>
+    <td>
+      <a href="https://ai4streaming-workshop.github.io/">Exploring SORA: Unlocking the Core of AI Video Creation</a>
+      [<a href="https://www.bilibili.com/video/BV1Ymy7BJEmy/?share_source=copy_web&vd_source=2da049ce4677af057256ebc4a00a8292" target="_blank">Video</a>]
+    </td>
+    <td>ICCV (invited by <a href="https://mv-lab.github.io/">Marcos V. Conde</a>)</td>
+    <td>10.2025, USA</td>
+ </tr>
 
   <tr>
     <td>AI Video Gen | When Wukong meets Yayoi Kusama</td>
