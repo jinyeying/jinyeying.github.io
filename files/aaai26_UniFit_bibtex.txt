@@ -1,0 +1,6 @@
+@article{zhang2025unifit,
+  title={UniFit: Towards Universal Virtual Try-on with MLLM-Guided Semantic Alignment},
+  author={Zhang, Wei and Jin, Yeying and Li, Xin and Zhang, Yan and Cong, Xiaofeng and Wang, Cong and Qiao, Fengcai and others},
+  journal={arXiv preprint arXiv:2511.15831},
+  year={2025}
+}

@@ -1,0 +1,6 @@
+@article{wang2025mmgt,
+  title={MMGT: Motion Mask Guided Two-Stage Network for Co-Speech Gesture Video Generation},
+  author={Wang, Siyuan and Liu, Jiawei and Wang, Wei and Jin, Yeying and Du, Jinsong and Han, Zhi},
+  journal={arXiv preprint arXiv:2505.23120},
+  year={2025}
+}
