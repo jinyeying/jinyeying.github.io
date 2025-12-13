@@ -281,7 +281,7 @@ aaai26_UniFit_stop()
 <em>Association for the Advancement of Artificial Intelligence (AAAI)</em>, 2026, Singapore <br>
 <a href="https://arxiv.org/abs/2511.15831">arXiv</a>
 |
-<a href="https://github.com/zwplus/UniFit"><img src="https://github.com/zwplus/UniFit?style=social&label=Stars"></a>
+<a href="https://github.com/zwplus/UniFit"><img src="https://img.shields.io/github/stars/zwplus/UniFit?style=social&label=Stars"></a>
 | 
 <a href="./files/aaai26_UniFit_bibtex.txt">bibtex</a>
 <p></p>
@@ -318,7 +318,7 @@ tcsvt25_MMGT_stop()
 <em>IEEE Transactions on Circuits and Systems for Video Technology (TCSVT)</em>, 2025 <br>
 <a href="https://arxiv.org/abs/2505.23120">arXiv</a>
 |
-<a href="https://github.com/SIA-IDE/MMGT"><img src="https://github.com/SIA-IDE/MMGT?style=social&label=Stars"></a>
+<a href="https://github.com/SIA-IDE/MMGT"><img src="https://img.shields.io/github/stars/SIA-IDE/MMGT?style=social&label=Stars"></a> 
 | 
 <a href="./files/tcsvt25_MMGT_bibtex.txt">bibtex</a>
 <p></p>
@@ -398,7 +398,7 @@ acm25_DSDNet_stop()
   <br>
 <em>ACM Multimedia (ACM'MM)</em>, 2025, Dublin, Ireland <br>
 <a href="https://arxiv.org/abs/2504.15756">arXiv</a>
-| 
+|
 <a href="./files/acm25_DSDNet_bibtex.txt">bibtex</a> 
 |
 <a href="https://xxxxxxxxdsdnet.github.io/DSDNet/">demo</a>  
