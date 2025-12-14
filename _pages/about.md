@@ -126,10 +126,9 @@ My primary research interests include Artificial Intelligence, mainly focusing o
         </a><br>
         <span class="sub"><em>HOK Flowborn Dimensional Editor</em> • 2025.08–Present</span>
         <p class="kpis">
-          <strong>Millions+</strong> Generated AI Posters<br>
-          <strong>Battle Loading, In-Game Hero,</strong> In-Game Popup, Camp First Page<br>
-          <strong>One-Click</strong> Social Sharing<br>
-          HOK Camp, X, Instagram, Facebook
+          <strong>Millions+</strong> Generated AI Posters, Camp First Page<br>
+          <strong>Battle Loading, In-Game Hero,</strong> In-Game Popup<br>
+          <strong>One-Click</strong> Sharing<br> HOK Camp, X, Instagram, Facebook
         </p>
         <div class="links">
           <span class="label">Demo:</span>
@@ -182,8 +181,7 @@ My primary research interests include Artificial Intelligence, mainly focusing o
         <span class="sub"><em>HOK Avatar Center</em> • 2024.07–Present</span>
         <p class="kpis">
           <strong>12×</strong> Launch ·<strong>98</strong> Heroes · <strong>2</strong> Styles · <strong>2</strong> Halloween Topics <br>
-          <strong>Over Half a Million+</strong> Exposure, <br>
-          <strong>Tens of Thousands+</strong> Engagement (Likes, Comments, Shares) <br>
+          <strong>Over Half a Million+</strong> Exposure, <strong>Tens of K+</strong> Engagement <br>
           Available on HOK Camp, VK, X, Instagram, Facebook,<br>
           WhatsApp, Discord, Sticker
         </p>
