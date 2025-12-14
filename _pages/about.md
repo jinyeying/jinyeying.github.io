@@ -106,7 +106,7 @@ My primary research interests include Artificial Intelligence, mainly focusing o
         <div class="links">
           <span class="label">Demo:</span>
           <a class="pill" href="https://camp.honorofkings.com/h5/app/index.html#/poster-design/home">Online Generation</a>
-          <a class="pill" href="https://www.bilibili.com/video/BV1rS36zhEqD/?share_source=copy_web&vd_source=2da049ce4677af057256ebc4a00a8292">Video (CN)</a>
+          <a class="pill" href="https://www.douyin.com/video/7523274499287518523">Video (CN)</a>
           <a class="pill" href="https://youtu.be/BKT8AuaVNB8?si=GqO5OWlHhu5jNIL5">Video (EN)</a>
         </div>
       </td>
@@ -127,7 +127,7 @@ My primary research interests include Artificial Intelligence, mainly focusing o
         <span class="sub"><em>HOK Flowborn Dimensional Editor</em> • 2025.08–Present</span>
         <p class="kpis">
           <strong>Millions+</strong> Generated AI Posters<br>
-          <strong>Battle Loading Page, In-Game Hero, In-Game Popup, Camp First Page</strong><br>
+          <strong>Battle Loading, In-Game Hero,</strong> In-Game Popup, Camp First Page<br>
           <strong>One-Click</strong> Social Sharing<br>
           HOK Camp, X, Instagram, Facebook
         </p>
@@ -181,8 +181,9 @@ My primary research interests include Artificial Intelligence, mainly focusing o
         </a><br>
         <span class="sub"><em>HOK Avatar Center</em> • 2024.07–Present</span>
         <p class="kpis">
-          <strong>Over Half a Million+</strong> Exposure, <strong>Tens of Thousands+</strong> Engagement <br>
           <strong>12×</strong> Launch ·<strong>98</strong> Heroes · <strong>2</strong> Styles · <strong>2</strong> Halloween Topics <br>
+          <strong>Over Half a Million+</strong> Exposure, <br>
+          <strong>Tens of Thousands+</strong> Engagement (Likes, Comments, Shares) <br>
           Available on HOK Camp, VK, X, Instagram, Facebook,<br>
           WhatsApp, Discord, Sticker
         </p>
