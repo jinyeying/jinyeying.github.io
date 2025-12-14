@@ -38,16 +38,32 @@ My primary research interests include Artificial Intelligence, mainly focusing o
   .side-by-side { display: flex; gap: 6px; width: 100%; }
   .side-by-side img {
     flex: 1; display: block; object-fit: cover; aspect-ratio: 1/1; min-width: 0;
-    border-radius: 12px;                 /* NEW: 圆角缩略图 */
+    border-radius: 12px;
   }
 
-  /* 标题 & KPI & 链接间距 */
-  .papertitle_just { font-weight: 700; font-size: 1.05em; display: inline-block; margin-bottom: 2px; }
-  .sub { color:#667085; margin: 0 0 8px; display: inline-block; }     /* NEW: 统一副标题样式 */
-  .kpis { margin: 6px 0; line-height: 1.5; }
+  /* 标题 / 副标题 / KPI：让 Demo 更贴近、更紧凑 */
+  .papertitle_just {
+    font-weight: 700;
+    font-size: 1.05em;
+    display: inline-block;
+    margin-bottom: 2px;
+    line-height: 1.25;
+  }
+  .sub {
+    color:#667085;
+    margin: 0 0 4px;      /* 原来 8px -> 更紧凑 */
+    display: block;       /* 比 inline-block 更稳定 */
+    line-height: 1.3;
+  }
+  .kpis {
+    margin: 2px 0 4px;    /* 原来 6px 0 -> 压缩 KPI 与 Demo 的距离 */
+    line-height: 1.35;    /* 原来 1.5 -> 更紧凑 */
+  }
+  /* 去掉 <p> 默认 margin，避免把 Demo 顶下去（关键） */
+  .project-row .info p { margin-block-start: 0; margin-block-end: 0; }
 
   /* 链接 pill */
-  .links { display:flex; align-items:center; gap:8px; margin-top: 4px; }
+  .links { display:flex; align-items:center; gap:8px; margin-top: 4px; flex-wrap: wrap; }
   .links .label { color:#667085; }
   .pill {
     display:inline-block; padding:4px 10px; border-radius:999px;
@@ -69,7 +85,7 @@ My primary research interests include Artificial Intelligence, mainly focusing o
     <col style="width:280px"><col>
   </colgroup>
   <tbody>
-    <!--  HOK Poster -->
+    <!--  HOK Poster 1 -->
     <tr class="project-row">
       <td class="thumb">
         <div class="side-by-side">
@@ -79,13 +95,13 @@ My primary research interests include Artificial Intelligence, mainly focusing o
       </td>
       <td class="info">
         <a href="https://camp.honorofkings.com/h5/app/index.html#/poster-design/home">
-          <span class="papertitle_just">Honor of Kings (HOK) AIUGC DIY Poster</span>
+          <span class="papertitle_just">Honor of Kings (HOK) AIUGC Portrait Poster</span>
         </a><br>
-        <span class="sub"><em>HOK Flowborn Dimensional Editor</em> • 2025.06–Present</span><br>
+        <span class="sub"><em>HOK Flowborn Dimensional Editor</em> • 2025.06–Present</span>
         <p class="kpis">
-          <strong>Millions+</strong> Generated AI Posters (54%)<br>
+          <strong>Millions+</strong> Generated AI Posters <br>
           <strong>Thousands+</strong> Overseas & Domestic Mentions<br>
-          <strong>80%</strong> In-Game Display ·     <strong>99%</strong> Positive/Neutral Sentiment
+          <strong>80%</strong> In-Game Display · <strong>99%</strong> Positive/Neutral Sentiment
         </p>
         <div class="links">
           <span class="label">Demo:</span>
@@ -96,7 +112,7 @@ My primary research interests include Artificial Intelligence, mainly focusing o
       </td>
     </tr>
 
-    <!--  HOK Detective -->
+    <!--  HOK Poster 2, 3 -->
     <tr class="project-row">
       <td class="thumb">
         <div class="side-by-side">
@@ -106,14 +122,15 @@ My primary research interests include Artificial Intelligence, mainly focusing o
       </td>
       <td class="info">
         <a href="https://camp.honorofkings.com/h5/app/index.html#/poster-design/home">
-          <span class="papertitle_just">Honor of Kings (HOK) AIUGC Detective Poster</span>
+          <span class="papertitle_just">Honor of Kings (HOK) AIUGC Detective and Esports Poster</span>
         </a><br>
-        <span class="sub"><em>HOK Flowborn Dimensional Editor</em> • 2025.08–Present</span><br>
+        <span class="sub"><em>HOK Flowborn Dimensional Editor</em> • 2025.08–Present</span>
         <p class="kpis">
-          <strong>Hundreds of Thousands+</strong> Generated AI Posters<br>
+          <strong>Millions+</strong> Generated AI Posters<br>
+          <strong>Battle Loading Page, In-Game Hero, In-Game Popup, Camp First Page</strong><br>
           <strong>One-Click</strong> Social Sharing<br>
-          HOK Camp, Instagram, Facebook, Twitter
-        </p>        
+          HOK Camp, X, Instagram, Facebook
+        </p>
         <div class="links">
           <span class="label">Demo:</span>
           <a class="pill" href="https://camp.honorofkings.com/h5/app/index.html#/poster-design/home">Online Generation</a>
@@ -135,10 +152,10 @@ My primary research interests include Artificial Intelligence, mainly focusing o
         <a href="https://camp.honorofkings.com/studio?creator-tools=%2Fout%2Fhok-tools#/create-tools">
           <span class="papertitle_just">Honor of Kings (HOK) AIUGC Online Hero Generation</span>
         </a><br>
-        <span class="sub"><em>HOK Creator Studio</em> • 2024.12–Present</span><br>
+        <span class="sub"><em>HOK Creator Studio</em> • 2024.12–Present</span>
         <p class="kpis">
           <strong>Tens of Thousands+</strong> Generated AI Images · <strong>22%</strong> Save Rate<br>
-          <strong>Tens of Thousands+</strong> UV ·                  <strong>Tens of Thousands+</strong> Active Users<br>
+          <strong>Tens of Thousands+</strong> UV · <strong>Tens of Thousands+</strong> Active Users<br>
           <strong>98</strong> Heroes · <strong>12</strong> Styles · <strong>13S</strong> Generation Time
         </p>
         <div class="links">
@@ -162,10 +179,9 @@ My primary research interests include Artificial Intelligence, mainly focusing o
         <a href="https://camp.honorofkings.com/studio?creator-tools=%2Fout%2Fhok-tools#/library?oneLevelTabs=51">
           <span class="papertitle_just">Honor of Kings (HOK) AIPGC Avatars/Stickers</span>
         </a><br>
-        <span class="sub"><em>HOK Avatar Center</em> • 2024.07–Present</span><br>
+        <span class="sub"><em>HOK Avatar Center</em> • 2024.07–Present</span>
         <p class="kpis">
-          <strong>Over Half a Million+</strong> Exposure <br>
-          <strong>Tens of Thousands+</strong> Engagement <br>
+          <strong>Over Half a Million+</strong> Exposure, <strong>Tens of Thousands+</strong> Engagement <br>
           <strong>12×</strong> Launch ·<strong>98</strong> Heroes · <strong>2</strong> Styles · <strong>2</strong> Halloween Topics <br>
           Available on HOK Camp, VK, X, Instagram, Facebook,<br>
           WhatsApp, Discord, Sticker
@@ -180,6 +196,7 @@ My primary research interests include Artificial Intelligence, mainly focusing o
     </tr>
   </tbody>
 </table>
+
 
 
 # 📝 Publications
@@ -846,7 +863,7 @@ eccv24_sr_stop()
 <em>European Conference on Computer Vision (ECCV)</em>, 2024, Milan, Italy <br>
 <a href="https://arxiv.org/abs/2407.13108">arXiv</a>
 |
-<a href="https://github.com/lixinustc/UCIP_MLP_source_code/tree/main"><img src="https://img.shields.io/github/stars/lixinustc/UCIP?style=social&label=Stars" alt="GitHub stars"></a>
+<a href="https://github.com/lixinustc/UCIP_MLP_source_code/tree/main"><img src="https://img.shields.io/github/stars/lixinustc/UCIP_MLP_source_code?style=social&label=Stars"></a>
 |
 <a href="./files/eccv24_ucip_bibtex.txt">bibtex</a>
 <p></p>
