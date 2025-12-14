@@ -128,7 +128,7 @@ My primary research interests include Artificial Intelligence, mainly focusing o
         <p class="kpis">
           <strong>Millions+</strong> Generated AI Posters, Camp First Page<br>
           <strong>Battle Loading, In-Game Hero,</strong> In-Game Popup<br>
-          <strong>One-Click</strong> Sharing<br> HOK Camp, X, Instagram, Facebook
+          <strong>One-Click</strong> Sharing on HOK Camp, X, Instagram, Facebook<br>
         </p>
         <div class="links">
           <span class="label">Demo:</span>
