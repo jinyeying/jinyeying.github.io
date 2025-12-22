@@ -138,6 +138,33 @@ My primary research interests include Artificial Intelligence, mainly focusing o
         </div>
       </td>
     </tr>
+
+    <!--  HOK Poster 2, 3 -->
+    <tr class="project-row">
+      <td class="thumb">
+        <div class="side-by-side">
+          <img src="./files/HOK_AI_before.png" alt="HOK Conan before">
+          <img src="./files/HOK_Conan_after.png"  alt="HOK Conan after">
+        </div>
+      </td>
+      <td class="info">
+        <a href="https://camp.honorofkings.com/h5/app/index.html#/poster-design/home">
+          <span class="papertitle_just">Honor of Kings (HOK) AIUGC Detective & Esports Poster</span>
+        </a><br>
+        <span class="sub"><em>HOK Flowborn Dimensional Editor</em> • 2025.08–Present</span>
+        <p class="kpis">
+          <strong>Millions+</strong> Generated AI Posters, Camp First Page<br>
+          <strong>Battle Loading, In-Game Hero,</strong> In-Game Popup<br>
+          <strong>One-Click</strong> Sharing on HOK Camp, X, Instagram, Facebook<br>
+        </p>
+        <div class="links">
+          <span class="label">Demo:</span>
+          <a class="pill" href="https://camp.honorofkings.com/h5/app/index.html#/poster-design/home">Online Generation</a>
+          <a class="pill" href="https://www.bilibili.com/video/BV1CpuPzxEGf/?share_source=copy_web&vd_source=2da049ce4677af057256ebc4a00a8292">Video (CN)</a>
+          <a class="pill" href="https://youtube.com/shorts/AUhqPP_0NIU?si=jNKspwxoQAlRcjA-">Video (EN)</a>
+        </div>
+      </td>
+    </tr>
     
     <!--  HOK Poster 1 -->
     <tr class="project-row">
@@ -162,33 +189,6 @@ My primary research interests include Artificial Intelligence, mainly focusing o
           <a class="pill" href="https://camp.honorofkings.com/h5/app/index.html#/poster-design/home">Online Generation</a>
           <a class="pill" href="https://www.douyin.com/video/7523274499287518523">Video (CN)</a>
           <a class="pill" href="https://youtu.be/BKT8AuaVNB8?si=GqO5OWlHhu5jNIL5">Video (EN)</a>
-        </div>
-      </td>
-    </tr>
-
-    <!--  HOK Poster 2, 3 -->
-    <tr class="project-row">
-      <td class="thumb">
-        <div class="side-by-side">
-          <img src="./files/HOK_Conan_before.png" alt="HOK Conan before">
-          <img src="./files/HOK_Conan_after.png"  alt="HOK Conan after">
-        </div>
-      </td>
-      <td class="info">
-        <a href="https://camp.honorofkings.com/h5/app/index.html#/poster-design/home">
-          <span class="papertitle_just">Honor of Kings (HOK) AIUGC Detective & Esports Poster</span>
-        </a><br>
-        <span class="sub"><em>HOK Flowborn Dimensional Editor</em> • 2025.08–Present</span>
-        <p class="kpis">
-          <strong>Millions+</strong> Generated AI Posters, Camp First Page<br>
-          <strong>Battle Loading, In-Game Hero,</strong> In-Game Popup<br>
-          <strong>One-Click</strong> Sharing on HOK Camp, X, Instagram, Facebook<br>
-        </p>
-        <div class="links">
-          <span class="label">Demo:</span>
-          <a class="pill" href="https://camp.honorofkings.com/h5/app/index.html#/poster-design/home">Online Generation</a>
-          <a class="pill" href="https://www.bilibili.com/video/BV1CpuPzxEGf/?share_source=copy_web&vd_source=2da049ce4677af057256ebc4a00a8292">Video (CN)</a>
-          <a class="pill" href="https://youtube.com/shorts/AUhqPP_0NIU?si=jNKspwxoQAlRcjA-">Video (EN)</a>
         </div>
       </td>
     </tr>
