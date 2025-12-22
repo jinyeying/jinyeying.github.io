@@ -85,6 +85,60 @@ My primary research interests include Artificial Intelligence, mainly focusing o
     <col style="width:280px"><col>
   </colgroup>
   <tbody>
+
+
+    <!--  Hero 1 -->
+    <tr class="project-row">
+      <td class="thumb">
+        <div class="side-by-side">
+          <img src="./files/Hero_before.png" alt="Hero before">
+          <img src="./files/Hero_after.png"  alt="Hero after">
+        </div>
+      </td>
+      <td class="info">
+        <a href="http://16.78.125.86:7890/">
+          <span class="papertitle_just">AI Photobooth</span>
+        </a><br>
+        <span class="sub"><em>AI Photobooth</em> • 2025.12 </span>
+        <p class="kpis">
+          <strong>370+</strong> Generated AI Images in 1 hour · <strong>Top 3</strong> Popular<br>
+          <strong>6</strong> Heroes · <strong>2</strong> Styles · <strong>3</strong> Games
+        </p>
+        <div class="links">
+          <span class="label">Demo:</span>
+          <a class="pill" href="http://16.78.125.86:7890">Online Generation</a>
+          <a class="pill" href="">Video (CN)</a>
+          <a class="pill" href="">Video (EN)</a>
+        </div>
+      </td>
+    </tr>
+  
+    <!--  PUBGM Cover 1 -->
+    <tr class="project-row">
+      <td class="thumb">
+        <div class="side-by-side">
+          <img src="./files/PUBGM_Cover_before.png" alt="PUBGM Cover before">
+          <img src="./files/PUBGM_Cover_after.png"  alt="PUBGM Cover after">
+        </div>
+      </td>
+      <td class="info">
+        <a href="http://108.136.50.194:7800/">
+          <span class="papertitle_just">PUBGM AI Cover Generation</span>
+        </a><br>
+        <span class="sub"><em>PUBGM WOW</em> • 2025.11–Present</span>
+        <p class="kpis">
+          <strong>Hundreds of Thousands+</strong> Generated AI Covers <br>
+          <strong>6 + 4</strong> Styles <br>
+        </p>
+        <div class="links">
+          <span class="label">Demo:</span>
+          <a class="pill" href="http://108.136.50.194:7800/">Online Generation</a>
+          <a class="pill" href="https://www.bilibili.com/video/BV1LNqbBAENC/?share_source=copy_web&vd_source=2da049ce4677af057256ebc4a00a8292">Video (CN)</a>
+          <a class="pill" href="https://youtu.be/ZYCIhXnpcSU?si=-hDjA-TWZWMHXdMK">Video (EN)</a>
+        </div>
+      </td>
+    </tr>
+    
     <!--  HOK Poster 1 -->
     <tr class="project-row">
       <td class="thumb">
@@ -122,7 +176,7 @@ My primary research interests include Artificial Intelligence, mainly focusing o
       </td>
       <td class="info">
         <a href="https://camp.honorofkings.com/h5/app/index.html#/poster-design/home">
-          <span class="papertitle_just">Honor of Kings (HOK) AIUGC Detective and Esports Poster</span>
+          <span class="papertitle_just">Honor of Kings (HOK) AIUGC Detective & Esports Poster</span>
         </a><br>
         <span class="sub"><em>HOK Flowborn Dimensional Editor</em> • 2025.08–Present</span>
         <p class="kpis">
