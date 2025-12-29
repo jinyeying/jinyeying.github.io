@@ -1346,13 +1346,13 @@ accv22_defog_stop()
 
   <tr>
     <td><a href="https://cvpr.thecvf.com/" target="_blank">CVPR 2026 Workshop</a></td>
-    <td><a href="" target="_blank">The 1st Workshop on Low‑Level Vision Frontiers with Generative AI, Preference Optimization, and Agentic Systems</a></td>
+    <td><a href="https://lovif-cvpr2026-workshop.github.io/" target="_blank">The 1st Workshop on Low‑Level Vision Frontiers with Generative AI, Preference Optimization, and Agentic Systems</a></td>
     <td>06.2026, Denver CO, USA</td>
   </tr>
 
   <tr>
     <td><a href="https://www.cvlai.net/ntire/2025/" target="_blank">CVPR 2026 NTIRE Challenge</a></td>
-    <td><a href="" target="_blank">The 2st Challenge on Day and Night Raindrop Removal for Dual-Focused Images</a></td>
+    <td><a href="https://lixinustc.github.io/CVPR-NTIRE2025-RainDrop-Competition.github.io" target="_blank">The 2st Challenge on Day and Night Raindrop Removal for Dual-Focused Images</a></td>
     <td>06.2026, USA</td>
   </tr>
 
