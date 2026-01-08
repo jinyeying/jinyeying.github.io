@@ -113,32 +113,6 @@ My primary research interests include Artificial Intelligence, mainly focusing o
       </td>
     </tr>
   
-    <!--  PUBGM Cover 1 -->
-    <tr class="project-row">
-      <td class="thumb">
-        <div class="side-by-side">
-          <img src="./files/PUBGM_Cover_before.png" alt="PUBGM Cover before">
-          <img src="./files/PUBGM_Cover_after.png"  alt="PUBGM Cover after">
-        </div>
-      </td>
-      <td class="info">
-        <a href="http://108.136.50.194:7800/">
-          <span class="papertitle_just">PUBGM AI Cover Generation</span>
-        </a><br>
-        <span class="sub"><em>PUBGM WOW</em> • 2025.11–Present</span>
-        <p class="kpis">
-          <strong>Hundreds of Thousands+</strong> Generated AI Covers <br>
-          <strong>6 + 4</strong> Styles <br>
-        </p>
-        <div class="links">
-          <span class="label">Demo:</span>
-          <a class="pill" href="http://108.136.50.194:7800/">Online Generation</a>
-          <a class="pill" href="https://www.bilibili.com/video/BV1LNqbBAENC/?share_source=copy_web&vd_source=2da049ce4677af057256ebc4a00a8292">Video (CN)</a>
-          <a class="pill" href="https://youtu.be/ZYCIhXnpcSU?si=-hDjA-TWZWMHXdMK">Video (EN)</a>
-        </div>
-      </td>
-    </tr>
-
     <!--  HOK Poster 2, 3 -->
     <tr class="project-row">
       <td class="thumb">
