@@ -396,7 +396,7 @@ arxiv25_PosterCraft_stop()
   <br>
   Sixiang Chen*, Jianyu Lai*, Jialin Gao*, Tian Ye, Haoyu Chen, Hengyu Shi, Shitong Shao, Yunlong Lin, Song Fei, Zhaohu Xing, <strong>Yeying Jin</strong>, Junfeng Luo, Xiaoming Wei, Lei Zhu
   <br>
-<em>arxiv</em>, 2025 <br>
+<em>The International Conference on Learning Representations (ICLR)</em>, 2025, Brazil <br>
 <a href="https://arxiv.org/abs/2506.10741">arXiv</a>
 |
 <a href="https://github.com/Ephemeral182/PosterCraft"><img src="https://img.shields.io/github/stars/Ephemeral182/PosterCraft?style=social&label=Stars"></a>
@@ -1319,8 +1319,14 @@ accv22_defog_stop()
   </tr>
 
   <tr>
-    <td><a href="https://cvpr.thecvf.com/" target="_blank">CVPR 2026 Workshop</a></td>
+    <td><a href="https://cvpr.thecvf.com/" target="_blank">CVPR 2026 LoViF Workshop</a></td>
     <td><a href="https://lovif-cvpr2026-workshop.github.io/" target="_blank">The 1st Workshop on Low‑Level Vision Frontiers with Generative AI, Preference Optimization, and Agentic Systems</a></td>
+    <td>06.2026, Denver CO, USA</td>
+  </tr>
+
+  <tr>
+    <td><a href="https://cvpr.thecvf.com/" target="_blank">CVPR 2026 URVIS Workshop</a></td>
+    <td><a href="https://urvis-workshop.github.io/" target="_blank">Unified Robotic Vision with Cross-Modal Sensing and Alignment</a></td>
     <td>06.2026, Denver CO, USA</td>
   </tr>
 
@@ -1332,7 +1338,7 @@ accv22_defog_stop()
 
   <tr>
     <td><a href="https://aaai.org/conference/aaai/aaai-26/tutorial-and-lab-list/" target="_blank">AAAI 2026 Workshop</a></td>
-    <td><a href="https://aaai.org/conference/aaai/aaai-26/tutorial-and-lab-list/" target="_blank">The Application of Generative AI and Intelligent Agents in Low-level Vision</a></td>
+    <td><a href="https://lixinustc.github.io/GenAI-Agents-for-Low-level-Vision.github.io/" target="_blank">The Application of Generative AI and Intelligent Agents in Low-level Vision</a></td>
     <td>01.2026, Singapore</td>
   </tr>
 
