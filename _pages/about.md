@@ -1353,6 +1353,22 @@ accv22_defog_stop()
     <th>Host</th>
     <th>Date</th>
   </tr>
+
+ <tr>
+    <td>
+      <a href="https://lixinustc.github.io/GenAI-Agents-for-Low-level-Vision.github.io/">From Creation to Perception: Generative AI for Content Generation</a>
+    </td>
+    <td>AAAI (invited by <a href="https://lixinustc.github.io/">Xin Li</a>)</td>
+    <td>01.2026, Singapore</td>
+ </tr>  
+ 
+ <tr>
+    <td>
+      <a href="https://mp.weixin.qq.com/s/4hsDsLlJG-JAacAwvlm4XA">AIGC-Powered Game Marketing: From Generation to Deployment</a>
+    </td>
+    <td>Low-level Community (invited by <a href="https://cschenxiang.github.io/">Xiang Chen</a>)</td>
+    <td>01.2026, Singapore</td>
+ </tr>  
   
  <tr>
     <td>
