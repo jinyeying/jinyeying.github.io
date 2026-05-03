@@ -20,7 +20,7 @@ I am a Staff Researcher at [Tencent](https://www.tencent.com/en-us/about.html). 
 I had my research internship in <img src="/files/adobe.png" alt="Adobe" width="20" height="20"> [Adobe](https://research.adobe.com/), mentored by [Prof. Connelly Barnes](http://www.connellybarnes.com/work/) and [Prof. Eli Shechtman](https://scholar.google.com/citations?user=B_FTboQAAAAJ).
 Previously, I completed my M.Sc. degree at the <img src="/files/NUS.png" alt="NUS" width="42.5" height="20"> [National University of Singapore (NUS)](https://cde.nus.edu.sg/ece/); received my B.Eng. degree from the <img src="/files/UESTC.png" alt="UESTC" width="20.842" height="20"> [University of Electronic Science and Technology of China (UESTC)](https://en.uestc.edu.cn/). 
 
-My research interests include Artificial Intelligence, with a focus on World Model and AIGC. I have published papers with <a href='https://scholar.google.com/citations?user=Z8PYhA4AAAAJ' target="_blank"><img src="https://img.shields.io/endpoint?url={{ url | url_encode }}&logo=Google%20Scholar&labelColor=f6f6f6&color=9cf&style=flat&label=citations"></a> at top international venues. <span style="color:red"> I'm hiring self-motivated interns and full-time researchers.</span>
+I have published papers with <a href='https://scholar.google.com/citations?user=Z8PYhA4AAAAJ' target="_blank"><img src="https://img.shields.io/endpoint?url={{ url | url_encode }}&logo=Google%20Scholar&labelColor=f6f6f6&color=9cf&style=flat&label=citations"></a> at top international venues. <span style="color:red"> I'm hiring self-motivated interns and full-time researchers.</span>
 
 # 📜 Research {#research}
 1. World Model, Video Generation
@@ -63,7 +63,7 @@ My research interests include Artificial Intelligence, with a focus on World Mod
     <col style="width:14%">
   </colgroup>
   <tr>
-    <th>Workshop / Challenge</th>
+    <th>Workshop</th>
     <th>Title</th>
     <th>Date & Venue</th>
   </tr>
