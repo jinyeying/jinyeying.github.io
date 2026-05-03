@@ -2,39 +2,30 @@
 main:
   - title: "Biography"
     url: "/#about-me"
-  
+
   - title: "Research"
-    url: "/#-research"
-
-  - title: "Publications"
-    url: "/#-publications"
-
-  - title: "Projects"
-    url: "/#-project"
-
-  - title: "Education"
-    url: "/#-educations"
-
-  - title: "Work"
-    url: "/#-internship-and-work-experience"
-
-  - title: "Awards"
-    url: "/#-honors-and-awards"
-
-  - title: "Services"
-    url: "/#-academic-services"
+    url: "/#research"
 
   - title: "Organizer"
-    url: "/#-organizer"
+    url: "/#organizer"
 
   - title: "Talks"
-    url: "/#-invited-talks"
+    url: "/#invited-talks"
 
-  # - title: "Teaching"
-  #   url: /teaching/    
-    
-  # - title: "CV"
-  #   url: "/#cv/"
-    
-  # - title: "Guide"
-  #   url: /markdown/
+  - title: "Projects"
+    url: "/#project"
+
+  - title: "Publications"
+    url: "/#publications"
+
+  - title: "Education"
+    url: "/#education"
+
+  - title: "Work"
+    url: "/#work"
+
+  - title: "Awards"
+    url: "/#awards"
+
+  - title: "Services"
+    url: "/#services"

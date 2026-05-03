@@ -22,12 +22,12 @@ Previously, I completed my M.Sc. degree at the <img src="/files/NUS.png" alt="NU
 
 My research interests include Artificial Intelligence, with a focus on World Model and AIGC. I have published papers with <a href='https://scholar.google.com/citations?user=Z8PYhA4AAAAJ' target="_blank"><img src="https://img.shields.io/endpoint?url={{ url | url_encode }}&logo=Google%20Scholar&labelColor=f6f6f6&color=9cf&style=flat&label=citations"></a> at top international venues. <span style="color:red"> I'm hiring self-motivated interns and full-time researchers.</span>
 
-# 📜 Research 
+# 📜 Research {#research}
 1. World Model, Video Generation
 2. AIGC, Image and Video Generation, Multimodal Learning, and VLMs
 3. Image/Video Enhancement, Restoration and Decomposition
 
-# 💬 Organizer
+# 💬 Organizer {#organizer}
 <style>
   .talks-table {
     width: 100%;
@@ -111,7 +111,7 @@ My research interests include Artificial Intelligence, with a focus on World Mod
   </tr>
 </table>
 
-# 🎤 Invited Talks
+# 🎤 Invited Talks {#invited-talks}
 <table class="talks-table">
   <colgroup>
     <col style="width:25%">
@@ -265,7 +265,7 @@ My research interests include Artificial Intelligence, with a focus on World Mod
 
 </table>
 
-# 🔬 Project
+# 🔬 Project {#project}
 <style>
   .project-table { width: 100%; border-collapse: collapse; table-layout: fixed; }
   .project-row td { vertical-align: top; }
@@ -465,7 +465,7 @@ My research interests include Artificial Intelligence, with a focus on World Mod
 
 
 
-# 📝 Publications
+# 📝 Publications {#publications}
 <style type="text/css">
     /* Color scheme stolen from Sergey Karayev */
     a {
@@ -1519,22 +1519,22 @@ accv22_defog_stop()
 <!-- ############################ Put your publications above this! ####################################-->
 </tbody></table>
 
-# 🏫 Education
+# 🏫 Education {#education}
 - 01.2020-01.2024: Ph.D. (AI and Deep Learning), <img src="/files/NUS.png" alt="NUS" width="42.5" height="20"> NUS, Singapore (CAP: 4.75/5.00)
 - 08.2017-08.2018: M.S. (Electrical and Computer Engineering), <img src="/files/NUS.png" alt="NUS" width="42.5" height="20"> NUS, Singapore
 - 09.2013-07.2017: B.Eng (Electrical and Computer Engineering), <img src="/files/UESTC.png" alt="UESTC" width="20.842" height="20"> UESTC, China (GPA: 3.93/4.00)
 
-# 👔 Internship and Work Experience
+# 👔 Internship and Work Experience {#work}
 - 11.2023-Present: Staff Researcher at <img src="/files/tencent.png" alt="Tencent" width="85" height="20"> Singapore, working on AIGC.
 - 06.2023-09.2023: <img src="/files/adobe.png" alt="Adobe" width="20" height="20"> [Adobe Research Intern](https://www.adobe.com/), Creative Intelligence Lab, mentored by [Prof. Connelly Barnes](http://www.connellybarnes.com/work/), [Prof. Eli Shechtman](https://research.adobe.com/person/eli-shechtman/), worked with [Yuqian Zhou](https://yzhouas.github.io/), [Lingzhi Zhang](https://owenzlz.github.io/), [Sohrab Amirghodsi](https://www.linkedin.com/in/sohrab-amirghodsi-a89548a3/), [Eric Kee](https://www.erickee.com/).
 - 01.2019-01.2020: Machine Learning Researcher at <img src="/files/biomind.png" alt="Biomind" width="80" height="20"> Singapore, advised by [Prof. Jiashi Feng](https://sites.google.com/site/jshfeng/), worked on Biomedical Image Synthesis, Super-resolution, Tumor Segmentation and Classification, expo demo for ["Deep Learning-Based End-to-end Automatic Contouring and Automated Radiation Therapy Treatment Planning System"](https://media.neurips.cc/Conferences/NeurIPS2019/NeurIPS_Expo_Book_2019.pdf).
 
-# 🎖 Honors and Awards
+# 🎖 Honors and Awards {#awards}
 - [“Yayoi Kusama × Wukong”](https://modelscope.cn/brand/view/game-wan?branch=0&tree=4), *ModelScope Wan 2.1 Video Generation Challenge* — 2nd Place  
 - [Knowledge Award](https://zhuanlan.zhihu.com/p/686681635), [Excellent R&D Award](https://www.dropbox.com/scl/fi/h32jdvfrftrdls3rwjesi/Tencent_Excellent_R-D_Award.jpg?rlkey=xw5225oazo9kkoziuznsnhtpz&st=apklpn9u&dl=0), [Outstanding Mentor](https://www.dropbox.com/scl/fi/kcszrth49835tfvcirjot/Mentor.jpg?rlkey=mf4zo301alayou3tvr7yaedpk&st=je6i1qgd&dl=0), Outstanding Contributor 
 - [AI Singapore (AISG) Ph.D. Fellowship](https://aisingapore.org/research/phd-fellowship-programme/) *(Singapore’s most prestigious Ph.D. scholarship)* — Theme: Continuous Learning AI, Self-supervised Learning
 
-# 💻 Academic Services
+# 💻 Academic Services {#services}
 - Reviewer: ACL ARR'25-26, ICML'25, ICLR'25, NeurIPS'23-25, CVPR'22-26, ICCV'23-25, ECCV'22-24, AAAI'23-26, ACMMM'23-26, TPAMI'23, IJCV'24-25, TIP'23, MICCAI'25, CVIU'23, TCSVT'23, TVCJ'23, NEUCOM'23, ACCV'22-24, IJCAI'22, IJCNN'21, etc.
 - Teaching Assistant: [EE5731 Visual Computing](https://tanrobby.github.io/teaching/ece_visual/index.html), EE5904 Neural Network (NUS ECE)
 
