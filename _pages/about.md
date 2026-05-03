@@ -50,134 +50,134 @@ My research interests include Artificial Intelligence, with a focus on World Mod
     border-bottom: 1px solid #f0f0f0;
   }
   .talks-table td:last-child {
-    white-space: nowrap;
     color: #667085;
-    font-size: 0.9em;
+    font-size: 0.88em;
+    line-height: 1.4;
   }
   .talks-table tr:hover td { background: #fafbff; }
 </style>
 <table class="talks-table">
   <colgroup>
-    <col style="width:22%">
-    <col style="width:58%">
-    <col style="width:20%">
+    <col style="width:24%">
+    <col style="width:62%">
+    <col style="width:14%">
   </colgroup>
   <tr>
     <th>Organizer</th>
     <th>Event</th>
-    <th>Date</th>
+    <th>Date & Venue</th>
   </tr>
 
   <tr>
     <td><a href="https://lovif-eccv2026-workshop.github.io/" target="_blank">ECCV 2026 LoViF Workshop</a></td>
     <td><a href="https://lovif-eccv2026-workshop.github.io/" target="_blank">The 2nd Workshop on Low‑Level Vision Frontiers (Generative AI, Preference Optimization, and Agentic Systems)</a></td>
-    <td>09.2026, Malmö, Sweden</td>
+    <td>09.2026<br>Malmö, Sweden</td>
   </tr>
 
   <tr>
     <td><a href="https://lovif-cvpr2026-workshop.github.io/" target="_blank">CVPR 2026 LoViF Workshop</a></td>
     <td><a href="https://lovif-cvpr2026-workshop.github.io/" target="_blank">The 1st Workshop on Low‑Level Vision Frontiers (Generative AI, Preference Optimization, and Agentic Systems)</a></td>
-    <td>06.04.2026@504, Denver, USA</td>
+    <td>06.04.2026@504<br>Denver, USA</td>
   </tr>
 
   <tr>
     <td><a href="https://agentic-visual-media.insait.ai/" target="_blank">CVPR 2026 AGENTIC Workshop</a></td>
     <td><a href="https://agentic-visual-media.insait.ai/" target="_blank">Workshop on Agentic AI for Visual Media</a></td>
-    <td>06.03.2026@1EF, Denver, USA</td>
+    <td>06.03.2026@1EF<br>Denver, USA</td>
   </tr>
 
   <tr>
     <td><a href="https://urvis-workshop.github.io/" target="_blank">CVPR 2026 URVIS Workshop</a></td>
     <td><a href="https://urvis-workshop.github.io/" target="_blank">Unified Robotic Vision with Cross-Modal Sensing and Alignment</a></td>
-    <td>06.04.2026@4AB, Denver, USA</td>
+    <td>06.04.2026@4AB<br>Denver, USA</td>
   </tr>
 
   <tr>
     <td><a href="https://www.codabench.org/competitions/12808/" target="_blank">CVPR 2026 NTIRE Challenge</a></td>
     <td><a href="https://lixinustc.github.io/CVPR-NTIRE2026-RainDrop-Competition.github.io/" target="_blank">The 2nd Challenge on Day and Night Raindrop Removal for Dual-Focused Images</a></td>
-    <td>06.04.2026@504, Denver, USA</td>
+    <td>06.04.2026@504<br>Denver, USA</td>
   </tr>
 
   <tr>
     <td><a href="https://aaai.org/conference/aaai/aaai-26/tutorial-and-lab-list/" target="_blank">AAAI 2026 Workshop</a></td>
     <td><a href="https://lixinustc.github.io/GenAI-Agents-for-Low-level-Vision.github.io/" target="_blank">The Application of Generative AI and Intelligent Agents in Low-level Vision</a></td>
-    <td>01.2026, Singapore</td>
+    <td>01.2026<br>Singapore</td>
   </tr>
 
   <tr>
     <td><a href="https://codalab.lisn.upsaclay.fr/competitions/21345" target="_blank">CVPR 2025 NTIRE Challenge</a></td>
     <td><a href="https://lixinustc.github.io/CVPR-NTIRE2025-RainDrop-Competition.github.io" target="_blank">The 1st Challenge on Day and Night Raindrop Removal for Dual-Focused Images</a></td>
-    <td>06.2025, Nashville, USA</td>
+    <td>06.2025<br>Nashville, USA</td>
   </tr>
 </table>
 
 # 🎤 Invited Talks {#invited-talks}
 <table class="talks-table">
   <colgroup>
-    <col style="width:25%">
-    <col style="width:55%">
-    <col style="width:20%">
+    <col style="width:27%">
+    <col style="width:59%">
+    <col style="width:14%">
   </colgroup>
   <tr>
     <th>Host</th>
     <th>Topic</th>
-    <th>Date</th>
+    <th>Date & Venue</th>
   </tr>
 
  <tr>
     <td>Singapore Vision Day (invited by <a href="https://www.comp.nus.edu.sg/~leegh/">Prof. Gim Hee Lee</a>)</td>
     <td><a href="https://singaporevisionday.github.io/svd2026/">Game World Model</a></td>
-    <td>05.2026, Singapore</td>
+    <td>05.2026<br>Singapore</td>
  </tr>
 
  <tr>
     <td>ICLR Booth Talk, Tencent Game Session Talk</td>
     <td><a href="https://www.linkedin.com/posts/jinyeying_iclr-2026-sharing-our-work-on-world-activity-7454451566251765760-pHR1?utm_source=share&utm_medium=member_desktop&rcm=ACoAACNosSgBI_KUO4Duouy2mfHXSwk8Ap0YHFE">From AIGC to World Model</a></td>
-    <td>04.2026, Rio, Brazil</td>
+    <td>04.2026<br>Rio, Brazil</td>
  </tr>
 
  <tr>
     <td>AAAI (invited by <a href="https://lixinustc.github.io/">Xin Li</a>)</td>
     <td><a href="https://lixinustc.github.io/GenAI-Agents-for-Low-level-Vision.github.io/">From Creation to Perception: Generative AI for Content Generation</a></td>
-    <td>01.2026, Singapore</td>
+    <td>01.2026<br>Singapore</td>
  </tr>
 
  <tr>
     <td>Low-level Community (invited by <a href="https://cschenxiang.github.io/">Xiang Chen</a>)</td>
     <td><a href="https://mp.weixin.qq.com/s/4hsDsLlJG-JAacAwvlm4XA">AIGC-Powered Game Marketing: From Generation to Deployment</a></td>
-    <td>01.2026, Singapore</td>
+    <td>01.2026<br>Singapore</td>
  </tr>
 
  <tr>
     <td>ICCV (invited by <a href="https://mv-lab.github.io/">Marcos V. Conde</a>)</td>
     <td><a href="https://ai4streaming-workshop.github.io/">From Creation to Perception: Generative AI for Content Generation</a></td>
-    <td>10.2025, Hawaii, USA</td>
+    <td>10.2025<br>Hawaii, USA</td>
  </tr>
 
  <tr>
     <td>Tencent Programmers Video</td>
     <td><a href="https://ai4streaming-workshop.github.io/">Exploring SORA: Unlocking the Core of AI Video Creation</a>
       [<a href="https://www.bilibili.com/video/BV1Ymy7BJEmy/?share_source=copy_web&vd_source=2da049ce4677af057256ebc4a00a8292" target="_blank">Video</a>]</td>
-    <td>11.2025, Singapore</td>
+    <td>11.2025<br>Singapore</td>
  </tr>
 
   <tr>
     <td><img src="/files/tencent.png" alt="Tencent" width="85" height="20"></td>
     <td>AI Video Gen | When Wukong meets Yayoi Kusama</td>
-    <td>05.2025, Singapore</td>
+    <td>05.2025<br>Singapore</td>
   </tr>
 
   <tr>
     <td>ICLR (invited by <a href="https://qhlin.me/">Kevin QH. Lin</a>)</td>
     <td><a href="https://showlab.github.io/omg/">AI × Gaming: Creative Applications of AIGC</a>
       [<a href="https://www.bilibili.com/video/BV1dzJfzbEmh/?share_source=copy_web&vd_source=2da049ce4677af057256ebc4a00a8292" target="_blank">Video</a>]</td>
-    <td>04.2025, Singapore</td>
+    <td>04.2025<br>Singapore</td>
   </tr>
 
   <tr>
     <td><img src="/files/tencent.png" alt="Tencent" width="85" height="20"></td>
     <td>AI Generation: Inspiring Game Marketing and Development</td>
-    <td>02.2025, Singapore</td>
+    <td>02.2025<br>Singapore</td>
   </tr>
 
   <tr>
@@ -195,7 +195,7 @@ My research interests include Artificial Intelligence, with a focus on World Mod
   <tr>
     <td><img src="/files/tencent.png" alt="Tencent" width="85" height="20"></td>
     <td>Applications of Generative AI</td>
-    <td>11.2023, Singapore</td>
+    <td>11.2023<br>Singapore</td>
   </tr>
 
   <tr>
@@ -207,7 +207,7 @@ My research interests include Artificial Intelligence, with a focus on World Mod
   <tr>
     <td><img src="/files/adobe.png" alt="Adobe" width="20" height="20"> Adobe (invited by <a href="https://www.erickee.com/">Eric Kee</a>)</td>
     <td>NextCam Reading Group: Light-effects Suppression</td>
-    <td>07.2023, USA</td>
+    <td>07.2023<br>USA</td>
   </tr>
 
   <tr>
@@ -231,7 +231,7 @@ My research interests include Artificial Intelligence, with a focus on World Mod
   <tr>
     <td><img src="/files/huawei.png" alt="Huawei" width="19.978" height="20"> Huawei</td>
     <td>Visibility Enhancement in Nighttime</td>
-    <td>12.2022, Singapore</td>
+    <td>12.2022<br>Singapore</td>
   </tr>
 
   <tr>
@@ -243,24 +243,24 @@ My research interests include Artificial Intelligence, with a focus on World Mod
   <tr>
     <th>Poster</th>
     <th>Venue</th>
-    <th>Date</th>
+    <th>Date & Venue</th>
   </tr>
   <tr>
     <td><a href="https://valser.org/2024/#/poster">VALSE</a></td>
     <td><img src="/files/VALSE.png" alt="VALSE" width="23.2" height="20"> VALSE</td>
-    <td>05.2024, Chongqing, China</td>
+    <td>05.2024<br>Chongqing, China</td>
   </tr>
 
   <tr>
     <td><a href="https://www.comp.nus.edu.sg/~leegh/svd/">Singapore Vision Day</a></td>
     <td><img src="/files/NUS.png" alt="NUS" width="42.5" height="20"> NUS</td>
-    <td>05.2023, Singapore</td>
+    <td>05.2023<br>Singapore</td>
   </tr>
 
   <tr>
     <td><a href="https://aisingapore.org/ai-governance/aisg-ai-governance-research-symposium-2023/">AI Research Symposium</a></td>
     <td><img src="/files/aisg.png" alt="AISG" width="20" height="20"> AISG</td>
-    <td>01.2023, Singapore</td>
+    <td>01.2023<br>Singapore</td>
   </tr>
 
 </table>
