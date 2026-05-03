@@ -9,9 +9,9 @@
 locale                   : "en-US"
 title                    : "JIN YEYING"
 name                     : &name "Jin Yeying"
-description              : "PhD at NUS | Tencent"
+description              : "Tencent | PhD NUS"
 URL                      : "https://jinyeying.github.io"
-repository               : "jinyeying.github.io"
+repository               : "jinyeying/jinyeying.github.io"
 google_scholar_stats_use_cdn : true
 
 # google analytics
@@ -84,7 +84,7 @@ analytics:
 author:
   name             : "Jin Yeying"
   avatar           : "yeying.jpg"
-  bio              : "[Curriculum Vitae]"
+  bio              : "<a href='https://github.com/jinyeying/jinyeying.github.io/blob/master/files/yeyingjin_202602.pdf' target='_blank'>Curriculum Vitae</a>"
   location         : "Singapore"
   employer         :
   pubmed           : 

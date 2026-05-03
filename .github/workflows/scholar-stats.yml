@@ -1,0 +1,37 @@
+name: Update Google Scholar Stats
+
+on:
+  schedule:
+    - cron: "0 8 * * *"   # runs daily at 08:00 UTC
+  workflow_dispatch:        # allow manual trigger
+
+jobs:
+  update-scholar-stats:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install dependencies
+        run: pip install -r google_scholar_crawler/requirements.txt
+
+      - name: Fetch Google Scholar stats
+        env:
+          GOOGLE_SCHOLAR_ID: ${{ secrets.GOOGLE_SCHOLAR_ID }}
+        run: python google_scholar_crawler/main.py
+
+      - name: Publish stats to google-scholar-stats branch
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git checkout --orphan google-scholar-stats 2>/dev/null || git checkout google-scholar-stats
+          git reset
+          cp results/gs_data.json gs_data.json
+          cp results/gs_data_shieldsio.json gs_data_shieldsio.json
+          git add gs_data.json gs_data_shieldsio.json
+          git commit -m "Update Google Scholar stats $(date -u '+%Y-%m-%d')" || echo "No changes"
+          git push origin google-scholar-stats --force

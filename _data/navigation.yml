@@ -4,14 +4,14 @@ main:
     url: "/#about-me"
   
   - title: "Research"
-    url: "/#-research-area"
-    
+    url: "/#-research"
+
   - title: "Publications"
     url: "/#-publications"
-  
+
   - title: "Educations"
     url: "/#-educations"
-  
+
   - title: "Work"
     url: "/#-internship-and-work-experience"
 
@@ -20,9 +20,12 @@ main:
 
   - title: "Services"
     url: "/#-academic-services"
-    
+
+  - title: "Organizer"
+    url: "/#-organizer"
+
   - title: "Talks"
-    url: "/#-invited-talks"   
+    url: "/#-invited-talks"
 
   # - title: "Teaching"
   #   url: /teaching/    
