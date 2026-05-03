@@ -20,12 +20,12 @@ I am a Staff Researcher at [Tencent](https://www.tencent.com/en-us/about.html). 
 I had my research internship in <img src="/files/adobe.png" alt="Adobe" width="20" height="20"> [Adobe](https://research.adobe.com/), mentored by [Prof. Connelly Barnes](http://www.connellybarnes.com/work/) and [Prof. Eli Shechtman](https://scholar.google.com/citations?user=B_FTboQAAAAJ).
 Previously, I completed my M.Sc. degree at the <img src="/files/NUS.png" alt="NUS" width="42.5" height="20"> [National University of Singapore (NUS)](https://cde.nus.edu.sg/ece/); received my B.Eng. degree from the <img src="/files/UESTC.png" alt="UESTC" width="20.842" height="20"> [University of Electronic Science and Technology of China (UESTC)](https://en.uestc.edu.cn/). 
 
-My primary research interests include Artificial Intelligence, mainly focusing on AIGC and multimodal learning. <span style="color:red"> I'm looking for self-motivated interns and full-time researchers.</span>
+My primary research interests include Artificial Intelligence, mainly focusing on World Model and AIGC. <span style="color:red"> I'm looking for self-motivated interns and full-time researchers.</span>
 
 # 📜 Research Area
-1. AIGC, Image and Video Generation, Talking Face Generation, Multimodal Learning, and Vision-Language Models (VLMs)
-2. Image/Video Enhancement, Restoration and Decomposition 
-3. Deep Learning and Its Applications
+1. World Model
+2. AIGC, Image and Video Generation, Talking Face Generation, Multimodal Learning, and Vision-Language Models (VLMs)
+3. Image/Video Enhancement, Restoration and Decomposition 
 
 # 🔬 Project
 <style>
