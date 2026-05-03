@@ -13,7 +13,7 @@ main:
     url: "/#invited-talks"
 
   - title: "Projects"
-    url: "/#project"
+    url: "/#projects"
 
   - title: "Publications"
     url: "/#publications"

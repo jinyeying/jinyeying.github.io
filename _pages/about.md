@@ -63,8 +63,8 @@ My research interests include Artificial Intelligence, with a focus on World Mod
     <col style="width:14%">
   </colgroup>
   <tr>
-    <th>Organizer</th>
-    <th>Event</th>
+    <th>Workshop / Challenge</th>
+    <th>Title</th>
     <th>Date & Venue</th>
   </tr>
 
@@ -241,31 +241,27 @@ My research interests include Artificial Intelligence, with a focus on World Mod
   </tr>
 
   <tr>
-    <th>Poster</th>
-    <th>Venue</th>
+    <th colspan="2">Conference</th>
     <th>Date & Venue</th>
   </tr>
   <tr>
-    <td><a href="https://valser.org/2024/#/poster">VALSE</a></td>
-    <td><img src="/files/VALSE.png" alt="VALSE" width="23.2" height="20"> VALSE</td>
+    <td colspan="2"><img src="/files/VALSE.png" alt="VALSE" width="23.2" height="20"> <a href="https://valser.org/2024/#/poster">VALSE</a></td>
     <td>05.2024<br>Chongqing, China</td>
   </tr>
 
   <tr>
-    <td><a href="https://www.comp.nus.edu.sg/~leegh/svd/">Singapore Vision Day</a></td>
-    <td><img src="/files/NUS.png" alt="NUS" width="42.5" height="20"> NUS</td>
+    <td colspan="2"><img src="/files/NUS.png" alt="NUS" width="42.5" height="20"> <a href="https://www.comp.nus.edu.sg/~leegh/svd/">Singapore Vision Day</a></td>
     <td>05.2023<br>Singapore</td>
   </tr>
 
   <tr>
-    <td><a href="https://aisingapore.org/ai-governance/aisg-ai-governance-research-symposium-2023/">AI Research Symposium</a></td>
-    <td><img src="/files/aisg.png" alt="AISG" width="20" height="20"> AISG</td>
+    <td colspan="2"><img src="/files/aisg.png" alt="AISG" width="20" height="20"> <a href="https://aisingapore.org/ai-governance/aisg-ai-governance-research-symposium-2023/">AI Research Symposium</a></td>
     <td>01.2023<br>Singapore</td>
   </tr>
 
 </table>
 
-# 🔬 Project {#project}
+# 🔬 Projects {#projects}
 <style>
   .project-table { width: 100%; border-collapse: collapse; table-layout: fixed; }
   .project-row td { vertical-align: top; }
