@@ -298,12 +298,13 @@ My research interests include Artificial Intelligence, with a focus on World Mod
   }
   .pill:hover { background:#e6e9ef; }
 
-  /* 移动端：上下排 */
+  /* 移动端 */
   @media (max-width: 600px) {
     .project-row td { display:block; width:100% !important; }
-    .project-row .thumb { width:100% !important; margin-bottom:12px; }
-    .side-by-side { flex-direction: column; }
-    .side-by-side img { width:100%; }
+    .project-row .thumb { width:100% !important; margin-bottom:8px; }
+    .side-by-side { flex-direction: row; max-height: 150px; }
+    .side-by-side img { height: 150px; width: 50%; flex: none; object-fit: cover; }
+    .project-row .info { padding-left: 0; font-size: 0.9em; }
   }
 </style>
 

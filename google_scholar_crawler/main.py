@@ -1,23 +1,37 @@
-from scholarly import scholarly
-import jsonpickle
 import json
-from datetime import datetime
 import os
+import urllib.request
+from datetime import datetime
 
-author: dict = scholarly.search_author_id(os.environ['GOOGLE_SCHOLAR_ID'])
-scholarly.fill(author, sections=['basics', 'indices', 'counts', 'publications'])
-name = author['name']
-author['updated'] = str(datetime.now())
-author['publications'] = {v['author_pub_id']:v for v in author['publications']}
-print(json.dumps(author, indent=2))
-os.makedirs('results', exist_ok=True)
-with open(f'results/gs_data.json', 'w') as outfile:
-    json.dump(author, outfile, ensure_ascii=False)
+# Use Semantic Scholar API — free, reliable, no anti-bot blocking
+ss_id = "2141507823"
+url = f"https://api.semanticscholar.org/graph/v1/author/{ss_id}?fields=citationCount,paperCount,name,hIndex"
+
+req = urllib.request.Request(url, headers={"User-Agent": "Mozilla/5.0"})
+with urllib.request.urlopen(req) as resp:
+    data = json.loads(resp.read())
+
+cited_by = data.get("citationCount", 0)
+name = data.get("name", "")
+h_index = data.get("hIndex", 0)
+
+print(f"Name: {name}, Citations: {cited_by}, h-index: {h_index}")
+
+os.makedirs("results", exist_ok=True)
+
+gs_data = {
+    "name": name,
+    "citedby": cited_by,
+    "hindex": h_index,
+    "updated": str(datetime.now()),
+}
+with open("results/gs_data.json", "w") as f:
+    json.dump(gs_data, f, ensure_ascii=False, indent=2)
 
 shieldio_data = {
-  "schemaVersion": 1,
-  "label": "citations",
-  "message": f"{author['citedby']}",
+    "schemaVersion": 1,
+    "label": "citations",
+    "message": str(cited_by),
 }
-with open(f'results/gs_data_shieldsio.json', 'w') as outfile:
-    json.dump(shieldio_data, outfile, ensure_ascii=False)
+with open("results/gs_data_shieldsio.json", "w") as f:
+    json.dump(shieldio_data, f, ensure_ascii=False)
