@@ -240,25 +240,29 @@ I have published papers with <a href='https://scholar.google.com/citations?user=
     <td>11.2022</td>
   </tr>
 
+</table>
+
+<table class="talks-table" style="margin-top:6px;">
+  <colgroup>
+    <col style="width:80%">
+    <col style="width:20%">
+  </colgroup>
   <tr>
-    <th colspan="2">Conference</th>
+    <th>Presented at</th>
     <th>Date & Venue</th>
   </tr>
   <tr>
-    <td colspan="2"><img src="/files/VALSE.png" alt="VALSE" width="23.2" height="20"> <a href="https://valser.org/2024/#/poster">VALSE</a></td>
-    <td>05.2024<br>Chongqing, China</td>
+    <td><img src="/files/VALSE.png" alt="VALSE" width="23.2" height="20"> <a href="https://valser.org/2024/#/poster">VALSE</a></td>
+    <td>05.2024, Chongqing, China</td>
   </tr>
-
   <tr>
-    <td colspan="2"><img src="/files/NUS.png" alt="NUS" width="42.5" height="20"> <a href="https://www.comp.nus.edu.sg/~leegh/svd/">Singapore Vision Day</a></td>
-    <td>05.2023<br>Singapore</td>
+    <td><img src="/files/NUS.png" alt="NUS" width="42.5" height="20"> <a href="https://www.comp.nus.edu.sg/~leegh/svd/">Singapore Vision Day</a></td>
+    <td>05.2023, Singapore</td>
   </tr>
-
   <tr>
-    <td colspan="2"><img src="/files/aisg.png" alt="AISG" width="20" height="20"> <a href="https://aisingapore.org/ai-governance/aisg-ai-governance-research-symposium-2023/">AI Research Symposium</a></td>
-    <td>01.2023<br>Singapore</td>
+    <td><img src="/files/aisg.png" alt="AISG" width="20" height="20"> <a href="https://aisingapore.org/ai-governance/aisg-ai-governance-research-symposium-2023/">AI Research Symposium</a></td>
+    <td>01.2023, Singapore</td>
   </tr>
-
 </table>
 
 # 🔬 Projects {#projects}
