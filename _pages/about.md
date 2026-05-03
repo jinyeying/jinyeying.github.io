@@ -32,6 +32,7 @@ My research interests include Artificial Intelligence, with a focus on World Mod
   .talks-table {
     width: 100%;
     border-collapse: collapse;
+    table-layout: fixed;
     font-size: 0.88em;
     line-height: 1.35;
   }
@@ -56,6 +57,11 @@ My research interests include Artificial Intelligence, with a focus on World Mod
   .talks-table tr:hover td { background: #fafbff; }
 </style>
 <table class="talks-table">
+  <colgroup>
+    <col style="width:22%">
+    <col style="width:58%">
+    <col style="width:20%">
+  </colgroup>
   <tr>
     <th>Organizer</th>
     <th>Event</th>
@@ -107,6 +113,11 @@ My research interests include Artificial Intelligence, with a focus on World Mod
 
 # 🎤 Invited Talks
 <table class="talks-table">
+  <colgroup>
+    <col style="width:25%">
+    <col style="width:55%">
+    <col style="width:20%">
+  </colgroup>
   <tr>
     <th>Host</th>
     <th>Topic</th>
@@ -1508,7 +1519,7 @@ accv22_defog_stop()
 <!-- ############################ Put your publications above this! ####################################-->
 </tbody></table>
 
-# 🏫 Educations
+# 🏫 Education
 - 01.2020-01.2024: Ph.D. (AI and Deep Learning), <img src="/files/NUS.png" alt="NUS" width="42.5" height="20"> NUS, Singapore (CAP: 4.75/5.00)
 - 08.2017-08.2018: M.S. (Electrical and Computer Engineering), <img src="/files/NUS.png" alt="NUS" width="42.5" height="20"> NUS, Singapore
 - 09.2013-07.2017: B.Eng (Electrical and Computer Engineering), <img src="/files/UESTC.png" alt="UESTC" width="20.842" height="20"> UESTC, China (GPA: 3.93/4.00)
@@ -1516,7 +1527,6 @@ accv22_defog_stop()
 # 👔 Internship and Work Experience
 - 11.2023-Present: Staff Researcher at <img src="/files/tencent.png" alt="Tencent" width="85" height="20"> Singapore, working on AIGC.
 - 06.2023-09.2023: <img src="/files/adobe.png" alt="Adobe" width="20" height="20"> [Adobe Research Intern](https://www.adobe.com/), Creative Intelligence Lab, mentored by [Prof. Connelly Barnes](http://www.connellybarnes.com/work/), [Prof. Eli Shechtman](https://research.adobe.com/person/eli-shechtman/), worked with [Yuqian Zhou](https://yzhouas.github.io/), [Lingzhi Zhang](https://owenzlz.github.io/), [Sohrab Amirghodsi](https://www.linkedin.com/in/sohrab-amirghodsi-a89548a3/), [Eric Kee](https://www.erickee.com/).
-
 - 01.2019-01.2020: Machine Learning Researcher at <img src="/files/biomind.png" alt="Biomind" width="80" height="20"> Singapore, advised by [Prof. Jiashi Feng](https://sites.google.com/site/jshfeng/), worked on Biomedical Image Synthesis, Super-resolution, Tumor Segmentation and Classification, expo demo for ["Deep Learning-Based End-to-end Automatic Contouring and Automated Radiation Therapy Treatment Planning System"](https://media.neurips.cc/Conferences/NeurIPS2019/NeurIPS_Expo_Book_2019.pdf).
 
 # 🎖 Honors and Awards

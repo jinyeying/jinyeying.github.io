@@ -9,7 +9,10 @@ main:
   - title: "Publications"
     url: "/#-publications"
 
-  - title: "Educations"
+  - title: "Projects"
+    url: "/#-project"
+
+  - title: "Education"
     url: "/#-educations"
 
   - title: "Work"
