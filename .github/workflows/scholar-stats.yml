@@ -22,6 +22,7 @@ jobs:
       - name: Fetch Google Scholar stats
         env:
           GOOGLE_SCHOLAR_ID: ${{ secrets.GOOGLE_SCHOLAR_ID }}
+          SERPAPI_KEY: ${{ secrets.SERPAPI_KEY }}
         run: python google_scholar_crawler/main.py
 
       - name: Publish stats to google-scholar-stats branch
