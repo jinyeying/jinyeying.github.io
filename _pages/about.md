@@ -244,8 +244,8 @@ I have published papers with <a href='https://scholar.google.com/citations?user=
 
 <table class="talks-table" style="margin-top:6px;">
   <colgroup>
-    <col style="width:80%">
-    <col style="width:20%">
+    <col style="width:68%">
+    <col style="width:32%">
   </colgroup>
   <tr>
     <th>Presented at</th>
@@ -564,7 +564,7 @@ aaai26_UniFit_stop()
 <em>Association for the Advancement of Artificial Intelligence (AAAI)</em>, 2026, Singapore <br>
 <a href="https://arxiv.org/abs/2511.15831">arXiv</a>
 |
-<a href="https://github.com/zwplus/UniFit"><img src="https://img.shields.io/github/stars/zwplus/UniFit?style=social&label=Stars"></a>
+<a href="https://github.com/zwplus/UniFit"><img src="https://img.shields.io/github/stars/zwplus/UniFit?style=social"></a>
 | 
 <a href="./files/aaai26_UniFit_bibtex.txt">bibtex</a>
 <p></p>
@@ -1119,7 +1119,7 @@ eccv24_sr_stop()
 <em>European Conference on Computer Vision (ECCV)</em>, 2024, Milan, Italy <br>
 <a href="https://arxiv.org/abs/2407.13108">arXiv</a>
 |
-<a href="https://github.com/lixinustc/UCIP_MLP_source_code/tree/main"><img src="https://img.shields.io/github/stars/lixinustc/UCIP_MLP_source_code?style=social&label=Stars"></a>
+<a href="https://github.com/lixinustc/UCIP_MLP_source_code/tree/main"><img src="https://img.shields.io/github/stars/lixinustc/UCIP_MLP_source_code?style=social"></a>
 |
 <a href="./files/eccv24_ucip_bibtex.txt">bibtex</a>
 <p></p>
@@ -1229,7 +1229,7 @@ aaai24_des3_stop()
 <em>Association for the Advancement of Artificial Intelligence (AAAI)</em>, 2024, Vancouver, Canada <br>
 <a href="https://arxiv.org/abs/2211.08089">arXiv</a>
 |
-<a href="https://github.com/jinyeying/DeS3_Deshadow"><img src="https://img.shields.io/github/stars/jinyeying/DeS3_Deshadow?style=social&label=Stars"></a>
+<a href="https://github.com/jinyeying/DeS3_Deshadow"><img src="https://img.shields.io/github/stars/jinyeying/DeS3_Deshadow?style=social"></a>
 |
 <a href="./files/submit23_shadowdiffusion_bibtex.txt">bibtex</a>
 |
@@ -1538,9 +1538,7 @@ accv22_defog_stop()
 - Reviewer: ACL ARR'25-26, ICML'25, ICLR'25, NeurIPS'23-25, CVPR'22-26, ICCV'23-25, ECCV'22-24, AAAI'23-26, ACMMM'23-26, TPAMI'23, IJCV'24-25, TIP'23, MICCAI'25, CVIU'23, TCSVT'23, TVCJ'23, NEUCOM'23, ACCV'22-24, IJCAI'22, IJCNN'21, etc.
 - Teaching Assistant: [EE5731 Visual Computing](https://tanrobby.github.io/teaching/ece_visual/index.html), EE5904 Neural Network (NUS ECE)
 
-
-
-
+<div style="padding-bottom: 60vh;"></div>
 
 
 
