@@ -20,7 +20,9 @@ I am a Staff Researcher at [Tencent](https://www.tencent.com/en-us/about.html). 
 I had my research internship in <img src="/files/adobe.png" alt="Adobe" width="20" height="20"> [Adobe](https://research.adobe.com/), mentored by [Prof. Connelly Barnes](http://www.connellybarnes.com/work/) and [Prof. Eli Shechtman](https://scholar.google.com/citations?user=B_FTboQAAAAJ).
 Previously, I completed my M.Sc. degree at the <img src="/files/NUS.png" alt="NUS" width="42.5" height="20"> [National University of Singapore (NUS)](https://cde.nus.edu.sg/ece/); received my B.Eng. degree from the <img src="/files/UESTC.png" alt="UESTC" width="20.842" height="20"> [University of Electronic Science and Technology of China (UESTC)](https://en.uestc.edu.cn/). 
 
-I have published papers with <a href='https://scholar.google.com/citations?user=Z8PYhA4AAAAJ' target="_blank"><img src="https://img.shields.io/endpoint?url={{ url | url_encode }}&logo=Google%20Scholar&labelColor=f6f6f6&color=9cf&style=flat&label=citations"></a> at top international venues. <span style="color:red"> I'm hiring self-motivated interns and full-time researchers.</span>
+I have published papers with <a href='https://scholar.google.com/citations?user=Z8PYhA4AAAAJ' target="_blank"><img src="https://img.shields.io/endpoint?url={{ url | url_encode }}&logo=Google%20Scholar&labelColor=f6f6f6&color=9cf&style=flat&label=citations"></a> at top international venues.
+
+<p style="margin:6px 0 0 0; background:#fff5f5; border-left:3px solid #e74c3c; padding:5px 12px; border-radius:0 4px 4px 0; font-weight:600; color:#c0392b;">📢 I'm hiring self-motivated interns and full-time researchers.</p>
 
 # 📜 Research {#research}
 1. Video World Model
@@ -148,13 +150,13 @@ function filterTalks(cat) {
   </tr>
 
  <tr data-talk-cat="world-model">
-    <td>CVPR (invited by <a href="https://sites.google.com/view/zwwu/accueil">Zongwei Wu</a>)</td>
+    <td><a href="https://urvis-workshop.github.io/">CVPR URVIS</a> (invited by <a href="https://sites.google.com/view/zwwu/accueil">Zongwei Wu</a>)</td>
     <td>World Model</td>
     <td>06.04.2026@4AB<br>Denver, USA</td>
  </tr>
 
  <tr data-talk-cat="world-model">
-    <td>Singapore Vision Day (invited by <a href="https://www.comp.nus.edu.sg/~leegh/">Gim Hee Lee</a>)</td>
+    <td><a href="https://singaporevisionday.github.io/svd2026/">Singapore Vision Day</a> (invited by <a href="https://www.comp.nus.edu.sg/~leegh/">Gim Hee Lee</a>)</td>
     <td><a href="https://singaporevisionday.github.io/svd2026/">Game World Model</a></td>
     <td>05.2026<br>Singapore</td>
  </tr>
@@ -178,7 +180,7 @@ function filterTalks(cat) {
  </tr>
 
  <tr>
-    <td>ICCV (invited by <a href="https://mv-lab.github.io/">Marcos V. Conde</a>)</td>
+    <td><a href="https://ai4streaming-workshop.github.io/">ICCV AIGENS</a> (invited by <a href="https://mv-lab.github.io/">Marcos V. Conde</a>)</td>
     <td><a href="https://ai4streaming-workshop.github.io/">From Creation to Perception: Generative AI for Content Generation</a></td>
     <td>10.2025<br>Hawaii, USA</td>
  </tr>
@@ -666,11 +668,11 @@ function _applyProjFilter() {
   <button class="pub-filter-btn" data-cat="security" onclick="filterPubs('security')">Security</button>
 </div>
 <div class="pub-filters" style="margin-top:4px;">
-  <button class="role-filter-btn active" data-role="all" onclick="filterPubRole('all')">All Roles</button>
-  <button class="role-filter-btn" data-role="first-author" onclick="filterPubRole('first-author')">First Author</button>
-  <button class="role-filter-btn" data-role="eq-contrib" onclick="filterPubRole('eq-contrib')"><sup class="eq-contrib">*</sup> Equal Contribution</button>
-  <button class="role-filter-btn" data-role="corr-author" onclick="filterPubRole('corr-author')"><sup class="corr-lead">†</sup> Corresponding Author</button>
-  <button class="role-filter-btn" data-role="proj-lead" onclick="filterPubRole('proj-lead')"><sup class="corr-lead">‡</sup> Project Lead</button>
+  <button class="role-filter-btn pub-role-btn active" data-role="all" onclick="filterPubRole('all')">All Roles</button>
+  <button class="role-filter-btn pub-role-btn" data-role="first-author" onclick="filterPubRole('first-author')">First Author</button>
+  <button class="role-filter-btn pub-role-btn" data-role="eq-contrib" onclick="filterPubRole('eq-contrib')"><sup class="eq-contrib">*</sup> Equal Contribution</button>
+  <button class="role-filter-btn pub-role-btn" data-role="corr-author" onclick="filterPubRole('corr-author')"><sup class="corr-lead">†</sup> Corresponding Author</button>
+  <button class="role-filter-btn pub-role-btn" data-role="proj-lead" onclick="filterPubRole('proj-lead')"><sup class="corr-lead">‡</sup> Project Lead</button>
 </div>
 <script>
 var _pubTopic = 'all', _pubRole = 'all';
@@ -684,7 +686,7 @@ function filterPubs(cat) {
 function filterPubRole(role) {
   _pubRole = (_pubRole === role) ? 'all' : role;
   _applyPubFilter();
-  document.querySelectorAll('.role-filter-btn').forEach(function(btn) {
+  document.querySelectorAll('.pub-role-btn').forEach(function(btn) {
     btn.classList.toggle('active', btn.dataset.role === _pubRole);
   });
 }
