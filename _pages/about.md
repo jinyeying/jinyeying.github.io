@@ -23,9 +23,9 @@ Previously, I completed my M.Sc. degree at the <img src="/files/NUS.png" alt="NU
 I have published papers with <a href='https://scholar.google.com/citations?user=Z8PYhA4AAAAJ' target="_blank"><img src="https://img.shields.io/endpoint?url={{ url | url_encode }}&logo=Google%20Scholar&labelColor=f6f6f6&color=9cf&style=flat&label=citations"></a> at top international venues. <span style="color:red"> I'm hiring self-motivated interns and full-time researchers.</span>
 
 # 📜 Research {#research}
-1. World Model, Video Generation
-2. AIGC, Image and Video Generation, Multimodal Learning, and VLMs
-3. Image/Video Enhancement, Restoration and Decomposition
+1. Video World Model
+2. AIGC: Generation & Vision
+3. Multimodal Learning & VLMs
 
 # 💬 Organizer {#organizer}
 <style>
@@ -112,7 +112,24 @@ I have published papers with <a href='https://scholar.google.com/citations?user=
 </table>
 
 # 🎤 Invited Talks {#invited-talks}
-<table class="talks-table">
+<div class="pub-filters">
+  <button class="pub-filter-btn talk-filter-btn active" data-cat="all" onclick="filterTalks('all')">All</button>
+  <button class="pub-filter-btn talk-filter-btn" data-cat="world-model" onclick="filterTalks('world-model')">World Model</button>
+  <button class="pub-filter-btn talk-filter-btn" data-cat="gen-vision" onclick="filterTalks('gen-vision')">Generation & Vision</button>
+</div>
+<script>
+function filterTalks(cat) {
+  document.querySelectorAll('#talks-main-table tr:not(:first-child)').forEach(function(tr) {
+    if (cat === 'all') tr.style.display = '';
+    else if (cat === 'world-model') tr.style.display = tr.getAttribute('data-talk-cat') === 'world-model' ? '' : 'none';
+    else tr.style.display = tr.getAttribute('data-talk-cat') !== 'world-model' ? '' : 'none';
+  });
+  document.querySelectorAll('.talk-filter-btn').forEach(function(btn) {
+    btn.classList.toggle('active', btn.dataset.cat === cat);
+  });
+}
+</script>
+<table class="talks-table" id="talks-main-table">
   <colgroup>
     <col style="width:27%">
     <col style="width:59%">
@@ -124,13 +141,13 @@ I have published papers with <a href='https://scholar.google.com/citations?user=
     <th>Date & Venue</th>
   </tr>
 
- <tr>
+ <tr data-talk-cat="world-model">
     <td>Singapore Vision Day (invited by <a href="https://www.comp.nus.edu.sg/~leegh/">Prof. Gim Hee Lee</a>)</td>
     <td><a href="https://singaporevisionday.github.io/svd2026/">Game World Model</a></td>
     <td>05.2026<br>Singapore</td>
  </tr>
 
- <tr>
+ <tr data-talk-cat="world-model">
     <td>ICLR Booth Talk, Tencent Game Session Talk</td>
     <td><a href="https://www.linkedin.com/posts/jinyeying_iclr-2026-sharing-our-work-on-world-activity-7454451566251765760-pHR1?utm_source=share&utm_medium=member_desktop&rcm=ACoAACNosSgBI_KUO4Duouy2mfHXSwk8Ap0YHFE">From AIGC to World Model</a></td>
     <td>04.2026<br>Rio, Brazil</td>
@@ -544,9 +561,10 @@ I have published papers with <a href='https://scholar.google.com/citations?user=
 <!-- ################################  CONTENT START  ##################################################-->
 <div class="pub-filters">
   <button class="pub-filter-btn active" data-cat="all" onclick="filterPubs('all')">All</button>
-  <button class="pub-filter-btn" data-cat="generation" onclick="filterPubs('generation')">🎨 Generation</button>
-  <button class="pub-filter-btn" data-cat="restoration" onclick="filterPubs('restoration')">🔧 Restoration</button>
-  <button class="pub-filter-btn" data-cat="multimodal" onclick="filterPubs('multimodal')">🤖 Multimodal & VLM</button>
+  <button class="pub-filter-btn" data-cat="world-model" onclick="filterPubs('world-model')">World Model</button>
+  <button class="pub-filter-btn" data-cat="gen-vision" onclick="filterPubs('gen-vision')">Generation & Vision</button>
+  <button class="pub-filter-btn" data-cat="multimodal" onclick="filterPubs('multimodal')">Multimodal & VLM</button>
+  <button class="pub-filter-btn" data-cat="security" onclick="filterPubs('security')">Security</button>
 </div>
 <script>
 function filterPubs(cat) {
@@ -564,7 +582,7 @@ function filterPubs(cat) {
 
 <!-- ###################################################################################################-->
 <!-- Paper UniFit -->
-<tr data-category="generation" onmouseout="aaai26_UniFit_stop()" onmouseover="aaai26_UniFit_start()" >
+<tr data-category="gen-vision" onmouseout="aaai26_UniFit_stop()" onmouseover="aaai26_UniFit_start()" >
 <td width="20%">
 <div class="one">
 <div class="two" id = 'aaai26_UniFit_image'>
@@ -601,7 +619,7 @@ aaai26_UniFit_stop()
 
 <!-- ###################################################################################################-->
 <!-- Paper MMGT -->
-<tr data-category="generation" onmouseout="tcsvt25_MMGT_stop()" onmouseover="tcsvt25_MMGT_start()" >
+<tr data-category="gen-vision" onmouseout="tcsvt25_MMGT_stop()" onmouseover="tcsvt25_MMGT_start()" >
 <td width="20%">
 <div class="one">
 <div class="two" id = 'tcsvt25_MMGT_image'>
@@ -638,7 +656,7 @@ tcsvt25_MMGT_stop()
 
 
 <!-- Paper 23 PosterCraft -->
-<tr data-category="generation" onmouseout="arxiv25_PosterCraft_stop()" onmouseover="arxiv25_PosterCraft_start()" >
+<tr data-category="gen-vision" onmouseout="arxiv25_PosterCraft_stop()" onmouseover="arxiv25_PosterCraft_start()" >
 <td width="20%">
 <div class="one">
 <div class="two" id = 'arxiv25_PosterCraft_image'>
@@ -683,7 +701,7 @@ arxiv25_PosterCraft_stop()
 
 <!-- ###################################################################################################-->
 <!-- Paper 22 DSDNet -->
-<tr data-category="restoration" onmouseout="acm25_DSDNet_stop()" onmouseover="acm25_DSDNet_start()" >
+<tr data-category="gen-vision" onmouseout="acm25_DSDNet_stop()" onmouseover="acm25_DSDNet_start()" >
 <td width="20%">
 <div class="one">
 <div class="two" id = 'acm25_DSDNet_image'><img src='./files/acm25_DSDNet_after.png'></div>
@@ -718,8 +736,34 @@ acm25_DSDNet_stop()
 <!-- ###################################################################################################-->
 
 <!-- ###################################################################################################-->
+<!-- Paper Security: Adversarial Attacks -->
+<tr data-category="security" >
+<td width="20%">
+<div class="one">
+<img src="./files/pr25_Attacks.png" style="width: 100%; aspect-ratio: 1 / 1; object-fit: cover;">
+</div>
+</td>
+<td valign="top" width="80%">
+  <a href="https://arxiv.org/abs/2504.17457">
+    <papertitle_just>Unveiling Hidden Vulnerabilities in Digital Human Generation via Adversarial Attacks</papertitle_just>     
+  </a>
+  <br>
+  Zhiying Li*, <strong>Yeying Jin*</strong>, Fan Shen, Zhi Liu, Weibin Chen, Pengju Zhang, Xiaomei Zhang, Boyu Chen, Michael Shen, Kejian Wu, Zhaoxin Fan, Jin Dong
+  <br>
+<em>Pattern Recognition (PR)</em>, 2025 <br>
+<a href="https://arxiv.org/abs/2504.17457">arXiv</a>
+| 
+<a href="./files/pr25_Attacks_bibtex.txt">bibtex</a>  
+|
+<a href="https://mp.weixin.qq.com/s/xviRfqXDHGhBUOHhYuiy9A">link</a> 
+<p></p>
+</td>
+</tr>
+<!-- ###################################################################################################-->
+
+<!-- ###################################################################################################-->
 <!-- Paper 20 GenHaze -->
-<tr data-category="generation" onmouseout="iccv25_GenHaze_stop()" onmouseover="iccv25_GenHaze_start()" >
+<tr data-category="gen-vision" onmouseout="iccv25_GenHaze_stop()" onmouseover="iccv25_GenHaze_start()" >
 <td width="20%">
 <div class="one">
 <div class="two" id = 'iccv25_GenHaze_image'>
@@ -754,7 +798,7 @@ iccv25_GenHaze_stop()
 
 <!-- ###################################################################################################-->
 <!-- Paper 19 JarvisIR -->
-<tr data-category="restoration" onmouseout="cvpr25_JarvisIR_stop()" onmouseover="cvpr25_JarvisIR_start()" >
+<tr data-category="gen-vision" onmouseout="cvpr25_JarvisIR_stop()" onmouseover="cvpr25_JarvisIR_start()" >
 <td width="20%">
 <div class="one">
 <div class="two" id = 'cvpr25_JarvisIR_image'><img src='./files/cvpr25_JarvisIR_after.png'></div>
@@ -796,7 +840,7 @@ cvpr25_JarvisIR_stop()
 
 <!-- ###################################################################################################-->
 <!-- Paper 18 ntire -->
-<tr data-category="restoration" onmouseout="ntire25_rd_stop()" onmouseover="ntire25_rd_start()" >
+<tr data-category="gen-vision" onmouseout="ntire25_rd_stop()" onmouseover="ntire25_rd_start()" >
 <td width="20%">
 <div class="one">
 <div class="two" id = 'ntire25_rd_image'><img src='./files/ntire25_raindropclarify_after.png'></div>
@@ -840,7 +884,7 @@ ntire25_rd_stop()
 
 <!-- ###################################################################################################-->
 <!-- Paper 17 RaindropClarity -->
-<tr data-category="restoration" onmouseout="eccv24_rd_stop()" onmouseover="eccv24_rd_start()" >  
+<tr data-category="gen-vision" onmouseout="eccv24_rd_stop()" onmouseover="eccv24_rd_start()" >  
 <td width="20%">
 <div class="one">
 <div class="two" id = 'eccv24_rd_image'><img src='./files/eccv24_raindropclarify_after.png'></div>
@@ -1060,7 +1104,7 @@ emnlp24_moe_stop()
 
 <!-- ###################################################################################################-->
 <!-- Paper 11 Dualrain -->
-<tr data-category="restoration" onmouseout="eccv24_dualrain_stop()" onmouseover="eccv24_dualrain_start()" >
+<tr data-category="gen-vision" onmouseout="eccv24_dualrain_stop()" onmouseover="eccv24_dualrain_start()" >
 <td width="20%">
 <div class="one">
 <div class="two" id = 'eccv24_dualrain_image'><img src='./files/eccv24_dualrain_after.png'></div>
@@ -1094,7 +1138,7 @@ eccv24_dualrain_stop()
 
 <!-- ###################################################################################################-->
 <!-- Paper 10 Super-resolution -->
-<tr data-category="restoration" onmouseout="eccv24_sr_stop()" onmouseover="eccv24_sr_start()" >
+<tr data-category="gen-vision" onmouseout="eccv24_sr_stop()" onmouseover="eccv24_sr_start()" >
 <td width="20%">
 <div class="one">
 <div class="two" id = 'eccv24_sr_image'><img src='./files/eccv24_ucip_after.png'></div>
@@ -1130,7 +1174,7 @@ eccv24_sr_stop()
 
 <!-- ###################################################################################################-->
 <!-- Paper 9 NightHaze -->
-<tr data-category="restoration" onmouseout="submit24_nighthaze_stop()" onmouseover="submit24_nighthaze_start()" >
+<tr data-category="gen-vision" onmouseout="submit24_nighthaze_stop()" onmouseover="submit24_nighthaze_start()" >
 <td width="20%">
 <div class="one">
 <div class="two" id = 'submit24_nighthaze_image'><img src='./files/submit24_after.png'></div>
@@ -1168,7 +1212,7 @@ submit24_nighthaze_stop()
 
 <!-- ###################################################################################################-->
 <!-- Paper 8 Super-resolution -->
-<tr data-category="restoration" onmouseout="cvpr24_sr_stop()" onmouseover="cvpr24_sr_start()" >
+<tr data-category="gen-vision" onmouseout="cvpr24_sr_stop()" onmouseover="cvpr24_sr_start()" >
 <td width="20%">
 <div class="one">
 <div class="two" id = 'cvpr24_sr_image'><img src='./files/cvpr24_after.png'></div>
@@ -1204,7 +1248,7 @@ cvpr24_sr_stop()
 
 <!-- ###################################################################################################-->
 <!-- Paper 7 DeS3 -->
-<tr data-category="restoration" onmouseout="aaai24_des3_stop()" onmouseover="aaai24_des3_start()" >
+<tr data-category="gen-vision" onmouseout="aaai24_des3_stop()" onmouseover="aaai24_des3_start()" >
 <td width="20%">
 <div class="one">
 <div class="two" id = 'submit23_shadowdiffusion_image'><img src='./files/submit23_after.png'></div>
@@ -1247,7 +1291,7 @@ aaai24_des3_stop()
 
 <!-- ###################################################################################################-->
 <!-- Paper 6 NightRain -->
-<tr data-category="restoration" onmouseout="aaai24_nightrain_stop()" onmouseover="aaai24_nightrain_start()" >
+<tr data-category="gen-vision" onmouseout="aaai24_nightrain_stop()" onmouseover="aaai24_nightrain_start()" >
 <td width="20%">
 <div class="one">
 <div class="two" id = 'aaai24_nightrain_image'><img src='./files/nightrain_after.png'></div>
@@ -1283,7 +1327,7 @@ aaai24_nightrain_stop()
 
 <!-- ###################################################################################################-->
 <!-- Paper 5 NightEnhance, ECCV'22 -->
-<tr data-category="restoration" onmouseout="eccv22_nightenhance_stop()" onmouseover="eccv22_nightenhance_start()" >
+<tr data-category="gen-vision" onmouseout="eccv22_nightenhance_stop()" onmouseover="eccv22_nightenhance_start()" >
 <td width="20%">
 <div class="one">
 <div class="two" id = 'eccv22_nightenhance_image'><img src='./files/eccv22_after.jpg'></div>
@@ -1336,7 +1380,7 @@ eccv22_nightenhance_stop()
 
 <!-- ###################################################################################################-->
 <!-- Paper 4 DC-ShadowNet, ICCV'21 -->
-<tr data-category="restoration" onmouseout="iccv21_dcshadownet_stop()" onmouseover="iccv21_dcshadownet_start()" >
+<tr data-category="gen-vision" onmouseout="iccv21_dcshadownet_stop()" onmouseover="iccv21_dcshadownet_start()" >
 <td width="20%">
 <div class="one">
 <div class="two" id = 'iccv21_dcshadownet_image'><img src='./files/iccv21_after.png'></div>
@@ -1382,7 +1426,7 @@ iccv21_dcshadownet_stop()
 <!-- ###################################################################################################-->
 
 <!-- Paper 3 NightFog-->
-<tr data-category="restoration" onmouseout="acmmm23_nightdehaze_stop()" onmouseover="acmmm23_nightdehaze_start()" >
+<tr data-category="gen-vision" onmouseout="acmmm23_nightdehaze_stop()" onmouseover="acmmm23_nightdehaze_start()" >
 <td width="20%">
 <div class="one">
 <div class="two" id = 'acmmm23_nightdehaze_image'><img src='./files/acmmm23_after.png'></div>
@@ -1427,7 +1471,7 @@ acmmm23_nightdehaze_stop()
   
 <!-- ###################################################################################################-->
 <!-- Paper 2 Reflectance, AAAI'23 -->
-<tr data-category="restoration" onmouseout="aaai23_reflectance_stop()" onmouseover="aaai23_reflectance_start()" >
+<tr data-category="gen-vision" onmouseout="aaai23_reflectance_stop()" onmouseover="aaai23_reflectance_start()" >
 <td width="20%">
 <div class="one">
 <div class="two" id = 'aaai23_reflectance_image'><img src='./files/aaai23_after.jpg'></div>
@@ -1471,7 +1515,7 @@ aaai23_reflectance_stop()
   
 <!-- ###################################################################################################-->
 <!-- Paper 1 defog, ACCV'22 -->
-<tr data-category="restoration" onmouseout="accv22_defog_stop()" onmouseover="accv22_defog_start()" >
+<tr data-category="gen-vision" onmouseout="accv22_defog_stop()" onmouseover="accv22_defog_start()" >
 <td width="20%">
 <div class="one">
 <div class="two" id = 'accv22_defog_image'><img src='./files/accv22_after.png'></div>
