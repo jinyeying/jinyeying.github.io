@@ -142,7 +142,7 @@ function filterTalks(cat) {
   </tr>
 
  <tr data-talk-cat="world-model">
-    <td>Singapore Vision Day (invited by <a href="https://www.comp.nus.edu.sg/~leegh/">Prof. Gim Hee Lee</a>)</td>
+    <td>Singapore Vision Day (invited by <a href="https://www.comp.nus.edu.sg/~leegh/">Gim Hee Lee</a>)</td>
     <td><a href="https://singaporevisionday.github.io/svd2026/">Game World Model</a></td>
     <td>05.2026<br>Singapore</td>
  </tr>
@@ -368,7 +368,7 @@ function filterProjects(cat) {
       </td>
       <td class="info">
         <a href="http://16.78.125.86:7890/">
-          <span class="papertitle_just">AI Photobooth</span>
+          <span class="papertitle_just">AI Photobooth</span><sup class="corr-lead">†‡</sup>
         </a><br>
         <span class="sub"><em>AI Photobooth</em> • 2025.12 </span>
         <p class="kpis">
@@ -394,7 +394,7 @@ function filterProjects(cat) {
       </td>
       <td class="info">
         <a href="https://camp.honorofkings.com/h5/app/index.html#/poster-design/home">
-          <span class="papertitle_just">Honor of Kings (HOK) AIUGC Detective & Esports Poster</span>
+          <span class="papertitle_just">Honor of Kings (HOK) AIUGC Detective & Esports Poster</span><sup class="corr-lead">†‡</sup>
         </a><br>
         <span class="sub"><em>HOK Flowborn Dimensional Editor</em> • 2025.08–Present</span>
         <p class="kpis">
@@ -421,7 +421,7 @@ function filterProjects(cat) {
       </td>
       <td class="info">
         <a href="https://camp.honorofkings.com/h5/app/index.html#/poster-design/home">
-          <span class="papertitle_just">Honor of Kings (HOK) AIUGC Portrait Poster</span>
+          <span class="papertitle_just">Honor of Kings (HOK) AIUGC Portrait Poster</span><sup class="corr-lead">†‡</sup>
         </a><br>
         <span class="sub"><em>HOK Flowborn Dimensional Editor</em> • 2025.06–Present</span>
         <p class="kpis">
@@ -448,7 +448,7 @@ function filterProjects(cat) {
       </td>
       <td class="info">
         <a href="https://camp.honorofkings.com/studio?creator-tools=%2Fout%2Fhok-tools#/create-tools">
-          <span class="papertitle_just">Honor of Kings (HOK) AIUGC Online Hero Generation</span>
+          <span class="papertitle_just">Honor of Kings (HOK) AIUGC Online Hero Generation</span><sup class="corr-lead">†‡</sup>
         </a><br>
         <span class="sub"><em>HOK Creator Studio</em> • 2024.12–Present</span>
         <p class="kpis">
@@ -475,7 +475,7 @@ function filterProjects(cat) {
       </td>
       <td class="info">
         <a href="https://camp.honorofkings.com/studio?creator-tools=%2Fout%2Fhok-tools#/library?oneLevelTabs=51">
-          <span class="papertitle_just">Honor of Kings (HOK) AIPGC Avatars/Stickers</span>
+          <span class="papertitle_just">Honor of Kings (HOK) AIPGC Avatars/Stickers</span><sup class="corr-lead">†‡</sup>
         </a><br>
         <span class="sub"><em>HOK Avatar Center</em> • 2024.07–Present</span>
         <p class="kpis">
@@ -574,23 +574,53 @@ function filterProjects(cat) {
     .pub-filter-btn.active { background: #1772d0; color: #fff; border-color: #1772d0; }
     sup.eq-contrib { color: #f09228; font-weight: bold; }
     sup.corr-lead  { color: #1772d0; }
+    .role-filter-btn {
+        display: inline-block; margin: 2px 3px 2px 0;
+        padding: 2px 10px; border-radius: 20px; font-size: 12px;
+        cursor: pointer; border: 1px solid #ddd;
+        background: #fafafa; color: #666; font-weight: 500;
+        transition: all .15s;
+    }
+    .role-filter-btn:hover { border-color: #888; color: #333; }
+    .role-filter-btn.active { background: #eef3fb; color: #1772d0; border-color: #1772d0; font-weight: 600; }
 </style>
 <!-- ################################  CONTENT START  ##################################################-->
-<div class="pub-filters">
+<div class="pub-filters" id="pub-topic-filters">
   <button class="pub-filter-btn active" data-cat="all" onclick="filterPubs('all')">All</button>
   <button class="pub-filter-btn" data-cat="world-model" onclick="filterPubs('world-model')">World Model</button>
   <button class="pub-filter-btn" data-cat="gen-vision" onclick="filterPubs('gen-vision')">Generation & Vision</button>
   <button class="pub-filter-btn" data-cat="multimodal" onclick="filterPubs('multimodal')">Multimodal & VLM</button>
-  <button class="pub-filter-btn" data-cat="security" onclick="filterPubs('security')">Security</button>
   <button class="pub-filter-btn" data-cat="workshop" onclick="filterPubs('workshop')">Workshops</button>
+  <button class="pub-filter-btn" data-cat="security" onclick="filterPubs('security')">Security</button>
+</div>
+<div class="pub-filters" style="margin-top:4px;">
+  <button class="role-filter-btn active" data-role="all" onclick="filterPubRole('all')">All Roles</button>
+  <button class="role-filter-btn" data-role="first-author" onclick="filterPubRole('first-author')">First Author</button>
+  <button class="role-filter-btn" data-role="eq-contrib" onclick="filterPubRole('eq-contrib')"><sup class="eq-contrib">*</sup> Equal Contribution</button>
+  <button class="role-filter-btn" data-role="corr-author" onclick="filterPubRole('corr-author')"><sup class="corr-lead">†</sup> Corresponding Author</button>
+  <button class="role-filter-btn" data-role="proj-lead" onclick="filterPubRole('proj-lead')"><sup class="corr-lead">‡</sup> Project Lead</button>
 </div>
 <script>
+var _pubTopic = 'all', _pubRole = 'all';
 function filterPubs(cat) {
-  document.querySelectorAll('tr[data-category]').forEach(function(tr) {
-    tr.style.display = (cat === 'all' || tr.dataset.category === cat) ? '' : 'none';
-  });
-  document.querySelectorAll('.pub-filter-btn').forEach(function(btn) {
+  _pubTopic = cat;
+  _applyPubFilter();
+  document.querySelectorAll('#pub-topic-filters .pub-filter-btn').forEach(function(btn) {
     btn.classList.toggle('active', btn.dataset.cat === cat);
+  });
+}
+function filterPubRole(role) {
+  _pubRole = (_pubRole === role) ? 'all' : role;
+  _applyPubFilter();
+  document.querySelectorAll('.role-filter-btn').forEach(function(btn) {
+    btn.classList.toggle('active', btn.dataset.role === _pubRole);
+  });
+}
+function _applyPubFilter() {
+  document.querySelectorAll('tr[data-category]').forEach(function(tr) {
+    var topicOk = _pubTopic === 'all' || tr.dataset.category === _pubTopic;
+    var roleOk  = _pubRole  === 'all' || (tr.dataset.role || '').split(' ').indexOf(_pubRole) !== -1;
+    tr.style.display = (topicOk && roleOk) ? '' : 'none';
   });
 }
 </script>
@@ -604,8 +634,74 @@ function filterPubs(cat) {
 <!-- ############################ Put your publications below this! ####################################-->
 
 <!-- ###################################################################################################-->
+<!-- Paper CVPR26 Deraining -->
+<tr data-category="gen-vision" data-role="corr-author proj-lead" onmouseout="cvpr26_Deraining_stop()" onmouseover="cvpr26_Deraining_start()" >
+<td width="20%">
+<div class="one">
+<div class="two" id='cvpr26_Deraining_image'>
+<img src="./files/cvpr26_Deraining_after.png" style="width: 100%; aspect-ratio: 1 / 1; object-fit: cover;"></div>
+<img src="./files/cvpr26_Deraining_before.png" style="width: 100%; aspect-ratio: 1 / 1; object-fit: cover;">
+</div>
+<script type="text/javascript">
+function cvpr26_Deraining_start() {
+document.getElementById('cvpr26_Deraining_image').style.opacity = "1";
+}
+function cvpr26_Deraining_stop() {
+document.getElementById('cvpr26_Deraining_image').style.opacity = "0";
+}
+cvpr26_Deraining_stop()
+</script>
+</td>
+<td valign="top" width="80%">
+  <a href="https://arxiv.org/abs/2605.00719">
+    <papertitle_just>Unpaired Image Deraining Using Reward-Guided Self-Reinforcement Strategy</papertitle_just>
+  </a>
+  <br>
+  Yinghao Chen, <strong>Yeying Jin</strong><sup class="corr-lead">†‡</sup>, Xiang Chen, Yanyan Wei, Ziyang Yan, Yaowei Fu
+  <br>
+  <em>IEEE Conference on Computer Vision and Pattern Recognition (CVPR)</em>, 2026, Denver, USA<br>
+<a href="https://arxiv.org/abs/2605.00719">arXiv</a>
+<p></p>
+</td>
+</tr>
+<!-- ###################################################################################################-->
+
+<!-- ###################################################################################################-->
+<!-- Paper Z-Erase -->
+<tr data-category="gen-vision" onmouseout="icml26_zerase_stop()" onmouseover="icml26_zerase_start()" >
+<td width="20%">
+<div class="one">
+<div class="two" id='icml26_zerase_image'>
+<img src="./files/icml26_zerase_after.png" style="width: 100%; aspect-ratio: 1 / 1; object-fit: cover;"></div>
+<img src="./files/icml26_zerase_before.png" style="width: 100%; aspect-ratio: 1 / 1; object-fit: cover;">
+</div>
+<script type="text/javascript">
+function icml26_zerase_start() {
+document.getElementById('icml26_zerase_image').style.opacity = "1";
+}
+function icml26_zerase_stop() {
+document.getElementById('icml26_zerase_image').style.opacity = "0";
+}
+icml26_zerase_stop()
+</script>
+</td>
+<td valign="top" width="80%">
+  <a href="https://arxiv.org/abs/2603.25074">
+    <papertitle_just>Z-Erase: Enabling Concept Erasure in Single-Stream Diffusion Transformers</papertitle_just>
+  </a>
+  <br>
+  Nanxiang Jiang, Zhaoxin Fan, Baisen Wang, Daiheng Gao, Junhang Cheng, Jifeng Guo, Yalan Qin, <strong>Yeying Jin</strong>, Hongwei Zheng, Faguo Wu, Wenjun Wu
+  <br>
+  <em>International Conference on Machine Learning (ICML)</em>, 2026, Seoul, South Korea<br>
+  <a href="https://arxiv.org/abs/2603.25074">arXiv</a>
+  <p></p>
+</td>
+</tr>
+<!-- ###################################################################################################-->
+
+<!-- ###################################################################################################-->
 <!-- Paper UniFit -->
-<tr data-category="gen-vision" onmouseout="aaai26_UniFit_stop()" onmouseover="aaai26_UniFit_start()" >
+<tr data-category="gen-vision" data-role="eq-contrib" onmouseout="aaai26_UniFit_stop()" onmouseover="aaai26_UniFit_start()" >
 <td width="20%">
 <div class="one">
 <div class="two" id = 'aaai26_UniFit_image'>
@@ -723,39 +819,6 @@ arxiv25_PosterCraft_stop()
 <!-- ###################################################################################################-->
 
 <!-- ###################################################################################################-->
-<!-- Paper CVPR26 Deraining -->
-<tr data-category="gen-vision" onmouseout="cvpr26_Deraining_stop()" onmouseover="cvpr26_Deraining_start()" >
-<td width="20%">
-<div class="one">
-<div class="two" id='cvpr26_Deraining_image'>
-<img src="./files/cvpr26_Deraining_after.png" style="width: 100%; aspect-ratio: 1 / 1; object-fit: cover;"></div>
-<img src="./files/cvpr26_Deraining_before.png" style="width: 100%; aspect-ratio: 1 / 1; object-fit: cover;">
-</div>
-<script type="text/javascript">
-function cvpr26_Deraining_start() {
-document.getElementById('cvpr26_Deraining_image').style.opacity = "1";
-}
-function cvpr26_Deraining_stop() {
-document.getElementById('cvpr26_Deraining_image').style.opacity = "0";
-}
-cvpr26_Deraining_stop()
-</script>
-</td>
-<td valign="top" width="80%">
-  <a href="https://arxiv.org/abs/2605.00719">
-    <papertitle_just>Unpaired Image Deraining Using Reward-Guided Self-Reinforcement Strategy</papertitle_just>
-  </a>
-  <br>
-  Yinghao Chen, <strong>Yeying Jin</strong><sup class="corr-lead">†‡</sup>, Xiang Chen, Yanyan Wei, Ziyang Yan, Yaowei Fu
-  <br>
-  <em>IEEE Conference on Computer Vision and Pattern Recognition (CVPR)</em>, 2026, Denver, USA<br>
-<a href="https://arxiv.org/abs/2605.00719">arXiv</a>
-<p></p>
-</td>
-</tr>
-<!-- ###################################################################################################-->
-
-<!-- ###################################################################################################-->
 <!-- Paper 22 DSDNet -->
 <tr data-category="gen-vision" onmouseout="acm25_DSDNet_stop()" onmouseover="acm25_DSDNet_start()" >
 <td width="20%">
@@ -793,7 +856,7 @@ acm25_DSDNet_stop()
 
 <!-- ###################################################################################################-->
 <!-- Paper Security: Adversarial Attacks -->
-<tr data-category="security" >
+<tr data-category="security" data-role="eq-contrib" >
 <td width="20%">
 <div class="one">
 <img src="./files/pr25_Attacks.png" style="width: 100%; aspect-ratio: 1 / 1; object-fit: cover;">
@@ -895,8 +958,78 @@ cvpr25_JarvisIR_stop()
 <!-- ###################################################################################################-->
 
 <!-- ###################################################################################################-->
+<!-- Paper LoViF 2026 Challenge -->
+<tr data-category="workshop" data-role="corr-author proj-lead" onmouseout="cvpr26_lovif_stop()" onmouseover="cvpr26_lovif_start()" >
+<td width="20%">
+<div class="one">
+<div class="two" id='cvpr26_lovif_image'><img src='./files/cvpr26_LoViF_after.png' style="width:100%;aspect-ratio:1/1;object-fit:cover;"></div>
+<img src='./files/cvpr26_LoViF_before.png' style="width:100%;aspect-ratio:1/1;object-fit:cover;">
+</div>
+<script type="text/javascript">
+function cvpr26_lovif_start() {
+document.getElementById('cvpr26_lovif_image').style.opacity = "1";
+}
+function cvpr26_lovif_stop() {
+document.getElementById('cvpr26_lovif_image').style.opacity = "0";
+}
+cvpr26_lovif_stop()
+</script>
+</td>
+<td valign="top" width="80%">
+  <a href="https://arxiv.org/abs/2604.10655">
+    <papertitle_just>LoViF 2026: The First Challenge on Weather Removal in Videos</papertitle_just>
+  </a>
+  <br>
+  Chenghao Qian, Xin Li, <strong>Yeying Jin</strong><sup class="corr-lead">†</sup>, Shangguan Sun, Yilian Zhong, etc. <span style="color:#888;font-size:0.92em;">(Organizer & Corresponding Author)</span>
+  <br>
+  <em>Computer Vision and Pattern Recognition (CVPR)</em>, 2026, Denver, USA <br>
+  <a href="https://arxiv.org/abs/2604.10655">arXiv</a>
+  <p></p>
+</td>
+</tr>
+<!-- ###################################################################################################-->
+
+<!-- ###################################################################################################-->
+<!-- Paper NTIRE 2026 -->
+<tr data-category="workshop" data-role="corr-author" onmouseout="ntire26_rd_stop()" onmouseover="ntire26_rd_start()" >
+<td width="20%">
+<div class="one">
+<div class="two" id='ntire26_rd_image'><img src='./files/ntire26_raindropclarify_after.png'></div>
+<img src='./files/ntire26_raindropclarify_before.png'>
+</div>
+<script type="text/javascript">
+function ntire26_rd_start() {
+document.getElementById('ntire26_rd_image').style.opacity = "1";
+}
+function ntire26_rd_stop() {
+document.getElementById('ntire26_rd_image').style.opacity = "0";
+}
+ntire26_rd_stop()
+</script>
+</td>
+<td valign="top" width="80%">
+  <a href="https://arxiv.org/abs/2604.10634">
+    <papertitle_just>NTIRE 2026 The Second Challenge on Day and Night Raindrop Removal for Dual-Focused Images: Methods and Results</papertitle_just>
+  </a>
+  <br>
+  Xin Li, <strong>Yeying Jin</strong><sup class="corr-lead">†</sup>, Suhang Yao, etc. <span style="color:#888;font-size:0.92em;">(Organizer & Corresponding Author)</span>
+  <br>
+  <em>Computer Vision and Pattern Recognition (CVPR)</em>, 2026, Denver, USA <br>
+  <a href="https://arxiv.org/abs/2604.10634">arXiv</a>
+  |
+  <a href="https://github.com/jinyeying/RaindropClarity"><img src="https://img.shields.io/github/stars/jinyeying/RaindropClarity?style=social&label=Stars"></a>
+  |
+  <a href="https://www.codabench.org/competitions/12808/">competition</a>
+  |
+  <a href="https://lixinustc.github.io/CVPR-NTIRE2026-RainDrop-Competition.github.io/">challenge</a>
+  <p></p>
+</td>
+</tr>
+<!-- ###################################################################################################-->
+
+<!-- ###################################################################################################-->
 <!-- Paper 18 ntire -->
-<tr data-category="workshop" onmouseout="ntire25_rd_stop()" onmouseover="ntire25_rd_start()" >
+<tr data-category="workshop" data-role="corr-author" onmouseout="ntire25_rd_stop()" onmouseover="ntire25_rd_start()" >
 <td width="20%">
 <div class="one">
 <div class="two" id = 'ntire25_rd_image'><img src='./files/ntire25_raindropclarify_after.png'></div>
@@ -939,78 +1072,8 @@ ntire25_rd_stop()
 <!-- ###################################################################################################-->
 
 <!-- ###################################################################################################-->
-<!-- Paper NTIRE 2026 -->
-<tr data-category="workshop" onmouseout="ntire26_rd_stop()" onmouseover="ntire26_rd_start()" >
-<td width="20%">
-<div class="one">
-<div class="two" id='ntire26_rd_image'><img src='./files/ntire26_raindropclarify_after.png'></div>
-<img src='./files/ntire26_raindropclarify_before.png'>
-</div>
-<script type="text/javascript">
-function ntire26_rd_start() {
-document.getElementById('ntire26_rd_image').style.opacity = "1";
-}
-function ntire26_rd_stop() {
-document.getElementById('ntire26_rd_image').style.opacity = "0";
-}
-ntire26_rd_stop()
-</script>
-</td>
-<td valign="top" width="80%">
-  <a href="https://arxiv.org/abs/2604.10634">
-    <papertitle_just>NTIRE 2026 The Second Challenge on Day and Night Raindrop Removal for Dual-Focused Images: Methods and Results</papertitle_just>
-  </a>
-  <br>
-  Xin Li, <strong>Yeying Jin</strong><sup class="corr-lead">†</sup>, Suhang Yao, etc. <span style="color:#888;font-size:0.92em;">(Organizer & Corresponding Author)</span>
-  <br>
-  <em>Computer Vision and Pattern Recognition (CVPR)</em>, 2026, Denver, USA <br>
-  <a href="https://arxiv.org/abs/2604.10634">arXiv</a>
-  |
-  <a href="https://github.com/jinyeying/RaindropClarity"><img src="https://img.shields.io/github/stars/jinyeying/RaindropClarity?style=social&label=Stars"></a>
-  |
-  <a href="https://www.codabench.org/competitions/12808/">competition</a>
-  |
-  <a href="https://lixinustc.github.io/CVPR-NTIRE2026-RainDrop-Competition.github.io/">challenge</a>
-  <p></p>
-</td>
-</tr>
-<!-- ###################################################################################################-->
-
-<!-- ###################################################################################################-->
-<!-- Paper LoViF 2026 Challenge -->
-<tr data-category="workshop" onmouseout="cvpr26_lovif_stop()" onmouseover="cvpr26_lovif_start()" >
-<td width="20%">
-<div class="one">
-<div class="two" id='cvpr26_lovif_image'><img src='./files/cvpr26_LoViF_after.png' style="width:100%;aspect-ratio:1/1;object-fit:cover;"></div>
-<img src='./files/cvpr26_LoViF_before.png' style="width:100%;aspect-ratio:1/1;object-fit:cover;">
-</div>
-<script type="text/javascript">
-function cvpr26_lovif_start() {
-document.getElementById('cvpr26_lovif_image').style.opacity = "1";
-}
-function cvpr26_lovif_stop() {
-document.getElementById('cvpr26_lovif_image').style.opacity = "0";
-}
-cvpr26_lovif_stop()
-</script>
-</td>
-<td valign="top" width="80%">
-  <a href="https://arxiv.org/abs/2604.10655">
-    <papertitle_just>LoViF 2026: The First Challenge on Weather Removal in Videos</papertitle_just>
-  </a>
-  <br>
-  Chenghao Qian, Xin Li, <strong>Yeying Jin</strong><sup class="corr-lead">†</sup>, Shangguan Sun, Yilian Zhong, etc. <span style="color:#888;font-size:0.92em;">(Organizer & Corresponding Author)</span>
-  <br>
-  <em>Computer Vision and Pattern Recognition (CVPR)</em>, 2026, Denver, USA <br>
-  <a href="https://arxiv.org/abs/2604.10655">arXiv</a>
-  <p></p>
-</td>
-</tr>
-<!-- ###################################################################################################-->
-
-<!-- ###################################################################################################-->
 <!-- Paper 17 RaindropClarity -->
-<tr data-category="gen-vision" onmouseout="eccv24_rd_stop()" onmouseover="eccv24_rd_start()" >  
+<tr data-category="gen-vision" data-role="first-author" onmouseout="eccv24_rd_stop()" onmouseover="eccv24_rd_start()" >  
 <td width="20%">
 <div class="one">
 <div class="two" id = 'eccv24_rd_image'><img src='./files/eccv24_raindropclarify_after.png'></div>
@@ -1230,7 +1293,7 @@ emnlp24_moe_stop()
 
 <!-- ###################################################################################################-->
 <!-- Paper 11 Dualrain -->
-<tr data-category="gen-vision" onmouseout="eccv24_dualrain_stop()" onmouseover="eccv24_dualrain_start()" >
+<tr data-category="gen-vision" data-role="eq-contrib" onmouseout="eccv24_dualrain_stop()" onmouseover="eccv24_dualrain_start()" >
 <td width="20%">
 <div class="one">
 <div class="two" id = 'eccv24_dualrain_image'><img src='./files/eccv24_dualrain_after.png'></div>
@@ -1300,7 +1363,7 @@ eccv24_sr_stop()
 
 <!-- ###################################################################################################-->
 <!-- Paper 9 NightHaze -->
-<tr data-category="gen-vision" onmouseout="submit24_nighthaze_stop()" onmouseover="submit24_nighthaze_start()" >
+<tr data-category="gen-vision" data-role="eq-contrib" onmouseout="submit24_nighthaze_stop()" onmouseover="submit24_nighthaze_start()" >
 <td width="20%">
 <div class="one">
 <div class="two" id = 'submit24_nighthaze_image'><img src='./files/submit24_after.png'></div>
@@ -1374,7 +1437,7 @@ cvpr24_sr_stop()
 
 <!-- ###################################################################################################-->
 <!-- Paper 7 DeS3 -->
-<tr data-category="gen-vision" onmouseout="aaai24_des3_stop()" onmouseover="aaai24_des3_start()" >
+<tr data-category="gen-vision" data-role="first-author" onmouseout="aaai24_des3_stop()" onmouseover="aaai24_des3_start()" >
 <td width="20%">
 <div class="one">
 <div class="two" id = 'submit23_shadowdiffusion_image'><img src='./files/submit23_after.png'></div>
@@ -1417,7 +1480,7 @@ aaai24_des3_stop()
 
 <!-- ###################################################################################################-->
 <!-- Paper 6 NightRain -->
-<tr data-category="gen-vision" onmouseout="aaai24_nightrain_stop()" onmouseover="aaai24_nightrain_start()" >
+<tr data-category="gen-vision" data-role="eq-contrib" onmouseout="aaai24_nightrain_stop()" onmouseover="aaai24_nightrain_start()" >
 <td width="20%">
 <div class="one">
 <div class="two" id = 'aaai24_nightrain_image'><img src='./files/nightrain_after.png'></div>
@@ -1453,7 +1516,7 @@ aaai24_nightrain_stop()
 
 <!-- ###################################################################################################-->
 <!-- Paper 5 NightEnhance, ECCV'22 -->
-<tr data-category="gen-vision" onmouseout="eccv22_nightenhance_stop()" onmouseover="eccv22_nightenhance_start()" >
+<tr data-category="gen-vision" data-role="first-author" onmouseout="eccv22_nightenhance_stop()" onmouseover="eccv22_nightenhance_start()" >
 <td width="20%">
 <div class="one">
 <div class="two" id = 'eccv22_nightenhance_image'><img src='./files/eccv22_after.jpg'></div>
@@ -1506,7 +1569,7 @@ eccv22_nightenhance_stop()
 
 <!-- ###################################################################################################-->
 <!-- Paper 4 DC-ShadowNet, ICCV'21 -->
-<tr data-category="gen-vision" onmouseout="iccv21_dcshadownet_stop()" onmouseover="iccv21_dcshadownet_start()" >
+<tr data-category="gen-vision" data-role="first-author" onmouseout="iccv21_dcshadownet_stop()" onmouseover="iccv21_dcshadownet_start()" >
 <td width="20%">
 <div class="one">
 <div class="two" id = 'iccv21_dcshadownet_image'><img src='./files/iccv21_after.png'></div>
@@ -1552,7 +1615,7 @@ iccv21_dcshadownet_stop()
 <!-- ###################################################################################################-->
 
 <!-- Paper 3 NightFog-->
-<tr data-category="gen-vision" onmouseout="acmmm23_nightdehaze_stop()" onmouseover="acmmm23_nightdehaze_start()" >
+<tr data-category="gen-vision" data-role="first-author eq-contrib" onmouseout="acmmm23_nightdehaze_stop()" onmouseover="acmmm23_nightdehaze_start()" >
 <td width="20%">
 <div class="one">
 <div class="two" id = 'acmmm23_nightdehaze_image'><img src='./files/acmmm23_after.png'></div>
@@ -1597,7 +1660,7 @@ acmmm23_nightdehaze_stop()
   
 <!-- ###################################################################################################-->
 <!-- Paper 2 Reflectance, AAAI'23 -->
-<tr data-category="gen-vision" onmouseout="aaai23_reflectance_stop()" onmouseover="aaai23_reflectance_start()" >
+<tr data-category="gen-vision" data-role="first-author" onmouseout="aaai23_reflectance_stop()" onmouseover="aaai23_reflectance_start()" >
 <td width="20%">
 <div class="one">
 <div class="two" id = 'aaai23_reflectance_image'><img src='./files/aaai23_after.jpg'></div>
@@ -1641,7 +1704,7 @@ aaai23_reflectance_stop()
   
 <!-- ###################################################################################################-->
 <!-- Paper 1 defog, ACCV'22 -->
-<tr data-category="gen-vision" onmouseout="accv22_defog_stop()" onmouseover="accv22_defog_start()" >
+<tr data-category="gen-vision" data-role="first-author" onmouseout="accv22_defog_stop()" onmouseover="accv22_defog_start()" >
 <td width="20%">
 <div class="one">
 <div class="two" id = 'accv22_defog_image'><img src='./files/accv22_after.png'></div>
