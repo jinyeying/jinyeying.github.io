@@ -283,6 +283,21 @@ function filterTalks(cat) {
 </table>
 
 # 🔬 Projects {#projects}
+<div class="pub-filters">
+  <button class="pub-filter-btn proj-filter-btn active" data-cat="all" onclick="filterProjects('all')">All</button>
+  <button class="pub-filter-btn proj-filter-btn" data-cat="world-model" onclick="filterProjects('world-model')">World Model</button>
+  <button class="pub-filter-btn proj-filter-btn" data-cat="gen-vision" onclick="filterProjects('gen-vision')">Generation & Vision</button>
+</div>
+<script>
+function filterProjects(cat) {
+  document.querySelectorAll('tr.project-row[data-proj-cat]').forEach(function(tr) {
+    tr.style.display = (cat === 'all' || tr.getAttribute('data-proj-cat') === cat) ? '' : 'none';
+  });
+  document.querySelectorAll('.proj-filter-btn').forEach(function(btn) {
+    btn.classList.toggle('active', btn.dataset.cat === cat);
+  });
+}
+</script>
 <style>
   .project-table { width: 100%; border-collapse: collapse; table-layout: fixed; }
   .project-row td { vertical-align: top; }
@@ -344,7 +359,7 @@ function filterTalks(cat) {
 
 
     <!--  Hero 1 -->
-    <tr class="project-row">
+    <tr class="project-row" data-proj-cat="gen-vision">
       <td class="thumb">
         <div class="side-by-side">
           <img src="./files/Hero_before.png" alt="Hero before">
@@ -370,7 +385,7 @@ function filterTalks(cat) {
     </tr>
   
     <!--  HOK Poster 2, 3 -->
-    <tr class="project-row">
+    <tr class="project-row" data-proj-cat="gen-vision">
       <td class="thumb">
         <div class="side-by-side">
           <img src="./files/HOK_AI_before.png" alt="HOK Conan before">
@@ -397,7 +412,7 @@ function filterTalks(cat) {
     </tr>
     
     <!--  HOK Poster 1 -->
-    <tr class="project-row">
+    <tr class="project-row" data-proj-cat="gen-vision">
       <td class="thumb">
         <div class="side-by-side">
           <img src="./files/HOK_Poster_before.png" alt="HOK Poster before">
@@ -424,7 +439,7 @@ function filterTalks(cat) {
     </tr>
 
     <!-- HOK Creator -->
-    <tr class="project-row">
+    <tr class="project-row" data-proj-cat="gen-vision">
       <td class="thumb">
         <div class="side-by-side">
           <img src="./files/HOK_Creator_before.png" alt="HOK Creator before">
@@ -451,7 +466,7 @@ function filterTalks(cat) {
     </tr>
 
     <!-- HOK PGC -->
-    <tr class="project-row">
+    <tr class="project-row" data-proj-cat="gen-vision">
       <td class="thumb">
         <div class="side-by-side">
           <img src="./files/HOK_PGC_before.png" alt="HOK PGC before">
@@ -557,6 +572,8 @@ function filterTalks(cat) {
     }
     .pub-filter-btn:hover { border-color: #1772d0; color: #1772d0; background: #eef3fb; }
     .pub-filter-btn.active { background: #1772d0; color: #fff; border-color: #1772d0; }
+    sup.eq-contrib { color: #f09228; font-weight: bold; }
+    sup.corr-lead  { color: #1772d0; }
 </style>
 <!-- ################################  CONTENT START  ##################################################-->
 <div class="pub-filters">
@@ -565,6 +582,7 @@ function filterTalks(cat) {
   <button class="pub-filter-btn" data-cat="gen-vision" onclick="filterPubs('gen-vision')">Generation & Vision</button>
   <button class="pub-filter-btn" data-cat="multimodal" onclick="filterPubs('multimodal')">Multimodal & VLM</button>
   <button class="pub-filter-btn" data-cat="security" onclick="filterPubs('security')">Security</button>
+  <button class="pub-filter-btn" data-cat="workshop" onclick="filterPubs('workshop')">Workshops</button>
 </div>
 <script>
 function filterPubs(cat) {
@@ -576,6 +594,11 @@ function filterPubs(cat) {
   });
 }
 </script>
+<p style="font-size:0.88em; color:#888; margin:4px 0 10px 0;">
+  <sup class="eq-contrib">*</sup> equal contribution &nbsp;·&nbsp;
+  <sup class="corr-lead">†</sup> corresponding author &nbsp;·&nbsp;
+  <sup class="corr-lead">‡</sup> project lead
+</p>
 <table width="100%" align="center" border="0" cellspacing="0" cellpadding="10">
 <tbody>
 <!-- ############################ Put your publications below this! ####################################-->
@@ -604,7 +627,7 @@ aaai26_UniFit_stop()
     <papertitle_just>UniFit: Towards Universal Virtual Try-on with MLLM-Guided Semantic Alignment</papertitle_just>     
   </a>
   <br>
-  Wei Zhang*, <strong>Yeying Jin*</strong>, Xin Li, Yan Zhang, Xiaofeng Cong, Cong Wang, Fengcai Qiao, Zhichao Lian
+  Wei Zhang<sup class="eq-contrib">*</sup>, <strong>Yeying Jin</strong><sup class="eq-contrib">*</sup>, Xin Li, Yan Zhang, Xiaofeng Cong, Cong Wang, Fengcai Qiao, Zhichao Lian
   <br>
 <em>Association for the Advancement of Artificial Intelligence (AAAI)</em>, 2026, Singapore <br>
 <a href="https://arxiv.org/abs/2511.15831">arXiv</a>
@@ -700,6 +723,39 @@ arxiv25_PosterCraft_stop()
 <!-- ###################################################################################################-->
 
 <!-- ###################################################################################################-->
+<!-- Paper CVPR26 Deraining -->
+<tr data-category="gen-vision" onmouseout="cvpr26_Deraining_stop()" onmouseover="cvpr26_Deraining_start()" >
+<td width="20%">
+<div class="one">
+<div class="two" id='cvpr26_Deraining_image'>
+<img src="./files/cvpr26_Deraining_after.png" style="width: 100%; aspect-ratio: 1 / 1; object-fit: cover;"></div>
+<img src="./files/cvpr26_Deraining_before.png" style="width: 100%; aspect-ratio: 1 / 1; object-fit: cover;">
+</div>
+<script type="text/javascript">
+function cvpr26_Deraining_start() {
+document.getElementById('cvpr26_Deraining_image').style.opacity = "1";
+}
+function cvpr26_Deraining_stop() {
+document.getElementById('cvpr26_Deraining_image').style.opacity = "0";
+}
+cvpr26_Deraining_stop()
+</script>
+</td>
+<td valign="top" width="80%">
+  <a href="https://arxiv.org/abs/2605.00719">
+    <papertitle_just>Unpaired Image Deraining Using Reward-Guided Self-Reinforcement Strategy</papertitle_just>
+  </a>
+  <br>
+  Yinghao Chen, <strong>Yeying Jin</strong><sup class="corr-lead">†‡</sup>, Xiang Chen, Yanyan Wei, Ziyang Yan, Yaowei Fu
+  <br>
+  <em>IEEE Conference on Computer Vision and Pattern Recognition (CVPR)</em>, 2026, Denver, USA<br>
+<a href="https://arxiv.org/abs/2605.00719">arXiv</a>
+<p></p>
+</td>
+</tr>
+<!-- ###################################################################################################-->
+
+<!-- ###################################################################################################-->
 <!-- Paper 22 DSDNet -->
 <tr data-category="gen-vision" onmouseout="acm25_DSDNet_stop()" onmouseover="acm25_DSDNet_start()" >
 <td width="20%">
@@ -748,7 +804,7 @@ acm25_DSDNet_stop()
     <papertitle_just>Unveiling Hidden Vulnerabilities in Digital Human Generation via Adversarial Attacks</papertitle_just>     
   </a>
   <br>
-  Zhiying Li*, <strong>Yeying Jin*</strong>, Fan Shen, Zhi Liu, Weibin Chen, Pengju Zhang, Xiaomei Zhang, Boyu Chen, Michael Shen, Kejian Wu, Zhaoxin Fan, Jin Dong
+  Zhiying Li<sup class="eq-contrib">*</sup>, <strong>Yeying Jin</strong><sup class="eq-contrib">*</sup>, Fan Shen, Zhi Liu, Weibin Chen, Pengju Zhang, Xiaomei Zhang, Boyu Chen, Michael Shen, Kejian Wu, Zhaoxin Fan, Jin Dong
   <br>
 <em>Pattern Recognition (PR)</em>, 2025 <br>
 <a href="https://arxiv.org/abs/2504.17457">arXiv</a>
@@ -840,7 +896,7 @@ cvpr25_JarvisIR_stop()
 
 <!-- ###################################################################################################-->
 <!-- Paper 18 ntire -->
-<tr data-category="gen-vision" onmouseout="ntire25_rd_stop()" onmouseover="ntire25_rd_start()" >
+<tr data-category="workshop" onmouseout="ntire25_rd_stop()" onmouseover="ntire25_rd_start()" >
 <td width="20%">
 <div class="one">
 <div class="two" id = 'ntire25_rd_image'><img src='./files/ntire25_raindropclarify_after.png'></div>
@@ -861,7 +917,7 @@ ntire25_rd_stop()
     <papertitle_just>NTIRE 2025 Challenge on Day and Night Raindrop Removal for Dual-focused Images: Methods and Results</papertitle_just>
   </a>
   <br>
-  Xin Li*, <strong>Yeying Jin</strong>*, Xin Jin*, etc. (Corresponding Authors) 
+  Xin Li, <strong>Yeying Jin</strong><sup class="corr-lead">†</sup>, Xin Jin, etc. <span style="color:#888;font-size:0.92em;">(Organizer & Corresponding Author)</span>
   <br>
   <em>Computer Vision and Pattern Recognition (CVPR)</em>, 2025, Nashville, USA <br>
   <a href="https://arxiv.org/abs/2504.12711">arXiv</a>
@@ -877,6 +933,76 @@ ntire25_rd_stop()
   <a href="https://codalab.lisn.upsaclay.fr/competitions/21345">competition</a>
   |
   <a href="https://lixinustc.github.io/CVPR-NTIRE2025-RainDrop-Competition.github.io/">challenge</a>
+  <p></p>
+</td>
+</tr>
+<!-- ###################################################################################################-->
+
+<!-- ###################################################################################################-->
+<!-- Paper NTIRE 2026 -->
+<tr data-category="workshop" onmouseout="ntire26_rd_stop()" onmouseover="ntire26_rd_start()" >
+<td width="20%">
+<div class="one">
+<div class="two" id='ntire26_rd_image'><img src='./files/ntire26_raindropclarify_after.png'></div>
+<img src='./files/ntire26_raindropclarify_before.png'>
+</div>
+<script type="text/javascript">
+function ntire26_rd_start() {
+document.getElementById('ntire26_rd_image').style.opacity = "1";
+}
+function ntire26_rd_stop() {
+document.getElementById('ntire26_rd_image').style.opacity = "0";
+}
+ntire26_rd_stop()
+</script>
+</td>
+<td valign="top" width="80%">
+  <a href="https://arxiv.org/abs/2604.10634">
+    <papertitle_just>NTIRE 2026 The Second Challenge on Day and Night Raindrop Removal for Dual-Focused Images: Methods and Results</papertitle_just>
+  </a>
+  <br>
+  Xin Li, <strong>Yeying Jin</strong><sup class="corr-lead">†</sup>, Suhang Yao, etc. <span style="color:#888;font-size:0.92em;">(Organizer & Corresponding Author)</span>
+  <br>
+  <em>Computer Vision and Pattern Recognition (CVPR)</em>, 2026, Denver, USA <br>
+  <a href="https://arxiv.org/abs/2604.10634">arXiv</a>
+  |
+  <a href="https://github.com/jinyeying/RaindropClarity"><img src="https://img.shields.io/github/stars/jinyeying/RaindropClarity?style=social&label=Stars"></a>
+  |
+  <a href="https://www.codabench.org/competitions/12808/">competition</a>
+  |
+  <a href="https://lixinustc.github.io/CVPR-NTIRE2026-RainDrop-Competition.github.io/">challenge</a>
+  <p></p>
+</td>
+</tr>
+<!-- ###################################################################################################-->
+
+<!-- ###################################################################################################-->
+<!-- Paper LoViF 2026 Challenge -->
+<tr data-category="workshop" onmouseout="cvpr26_lovif_stop()" onmouseover="cvpr26_lovif_start()" >
+<td width="20%">
+<div class="one">
+<div class="two" id='cvpr26_lovif_image'><img src='./files/cvpr26_LoViF_after.png' style="width:100%;aspect-ratio:1/1;object-fit:cover;"></div>
+<img src='./files/cvpr26_LoViF_before.png' style="width:100%;aspect-ratio:1/1;object-fit:cover;">
+</div>
+<script type="text/javascript">
+function cvpr26_lovif_start() {
+document.getElementById('cvpr26_lovif_image').style.opacity = "1";
+}
+function cvpr26_lovif_stop() {
+document.getElementById('cvpr26_lovif_image').style.opacity = "0";
+}
+cvpr26_lovif_stop()
+</script>
+</td>
+<td valign="top" width="80%">
+  <a href="https://arxiv.org/abs/2604.10655">
+    <papertitle_just>LoViF 2026: The First Challenge on Weather Removal in Videos</papertitle_just>
+  </a>
+  <br>
+  Chenghao Qian, Xin Li, <strong>Yeying Jin</strong><sup class="corr-lead">†</sup>, Shangguan Sun, Yilian Zhong, etc. <span style="color:#888;font-size:0.92em;">(Organizer & Corresponding Author)</span>
+  <br>
+  <em>Computer Vision and Pattern Recognition (CVPR)</em>, 2026, Denver, USA <br>
+  <a href="https://arxiv.org/abs/2604.10655">arXiv</a>
   <p></p>
 </td>
 </tr>
@@ -1125,7 +1251,7 @@ eccv24_dualrain_stop()
     <papertitle_just>Dual-Rain: Video Rain Removal using Assertive and Gentle Teachers</papertitle_just>     
   </a>
   <br>
-  Tingting Chen*, Beibei Lin*, <strong>Yeying Jin*</strong>, Wending Yan, Wei Ye, Yuan Yuan, Robby T. Tan (Equal-first authors)
+  Tingting Chen<sup class="eq-contrib">*</sup>, Beibei Lin<sup class="eq-contrib">*</sup>, <strong>Yeying Jin</strong><sup class="eq-contrib">*</sup>, Wending Yan, Wei Ye, Yuan Yuan, Robby T. Tan
   <br>
 <em>European Conference on Computer Vision (ECCV)</em>, 2024, Milan, Italy <br>
 <a href="https://www.ecva.net/papers/eccv_2024/papers_ECCV/papers/08521.pdf">paper</a>
@@ -1195,7 +1321,7 @@ submit24_nighthaze_stop()
     <papertitle_just>NightHaze: Nighttime Image Dehazing via Self-Prior Learning</papertitle_just>     
   </a>
   <br>
-  Beibei Lin*, <strong>Yeying Jin*</strong>, Wending Yan, Wei Ye, Yuan Yuan, Robby T. Tan (Equal-first authors)
+  Beibei Lin<sup class="eq-contrib">*</sup>, <strong>Yeying Jin</strong><sup class="eq-contrib">*</sup>, Wending Yan, Wei Ye, Yuan Yuan, Robby T. Tan
   <br>
 <em>Association for the Advancement of Artificial Intelligence (AAAI)</em>, 2025, Philadelphia, USA <br>
 <a href="https://arxiv.org/abs/2403.07408">arXiv</a>
@@ -1312,7 +1438,7 @@ aaai24_nightrain_stop()
     <papertitle_just>NightRain: Nighttime Video Deraining via Adaptive-Rain-Removal and Adaptive-Correction</papertitle_just>     
   </a>
   <br>
-  Beibei Lin*, <strong>Yeying Jin*</strong>, Wending Yan, Wei Ye, Yuan Yuan, Sunli Zhang, Robby T. Tan (Equal-first authors)
+  Beibei Lin<sup class="eq-contrib">*</sup>, <strong>Yeying Jin</strong><sup class="eq-contrib">*</sup>, Wending Yan, Wei Ye, Yuan Yuan, Sunli Zhang, Robby T. Tan
   <br>
 <em>Association for the Advancement of Artificial Intelligence (AAAI)</em>, 2024, Vancouver, Canada <br>
 <a href="https://arxiv.org/abs/2401.00729">arXiv</a>
@@ -1447,7 +1573,7 @@ acmmm23_nightdehaze_stop()
     <papertitle_just>Enhancing Visibility in Nighttime Haze Images Using Guided APSF and Gradient Adaptive Convolution</papertitle_just>     
   </a>
   <br>
-  <strong>Yeying Jin*</strong>, Beibei Lin*, Wending Yan, Wei Ye, Yuan Yuan, Robby T. Tan
+  <strong>Yeying Jin</strong><sup class="eq-contrib">*</sup>, Beibei Lin<sup class="eq-contrib">*</sup>, Wending Yan, Wei Ye, Yuan Yuan, Robby T. Tan
   <br>
 <em>ACM Multimedia (ACM'MM)</em>, 2023, Ottawa, Canada <br>
 <a href="https://arxiv.org/abs/2308.01738">arXiv</a>
