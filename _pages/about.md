@@ -93,6 +93,12 @@ I have published papers with <a href='https://scholar.google.com/citations?user=
   </tr>
 
   <tr>
+    <td><a href="https://ai4streaming-workshop.github.io/" target="_blank">CVPR 2026 AIGENS Workshop</a></td>
+    <td><a href="https://ai4streaming-workshop.github.io/" target="_blank">The 3rd Workshop on AI for Content Generation, Quality Enhancement and Streaming</a></td>
+    <td>06.03.2026@105<br>Denver, USA</td>
+  </tr>
+
+  <tr>
     <td><a href="https://www.codabench.org/competitions/12808/" target="_blank">CVPR 2026 NTIRE Challenge</a></td>
     <td><a href="https://lixinustc.github.io/CVPR-NTIRE2026-RainDrop-Competition.github.io/" target="_blank">The 2nd Challenge on Day and Night Raindrop Removal for Dual-Focused Images</a></td>
     <td>06.04.2026@504<br>Denver, USA</td>
@@ -140,6 +146,12 @@ function filterTalks(cat) {
     <th>Topic</th>
     <th>Date & Venue</th>
   </tr>
+
+ <tr data-talk-cat="world-model">
+    <td>CVPR (invited by <a href="https://sites.google.com/view/zwwu/accueil">Zongwei Wu</a>)</td>
+    <td>World Model</td>
+    <td>06.04.2026@4AB<br>Denver, USA</td>
+ </tr>
 
  <tr data-talk-cat="world-model">
     <td>Singapore Vision Day (invited by <a href="https://www.comp.nus.edu.sg/~leegh/">Gim Hee Lee</a>)</td>
@@ -283,18 +295,38 @@ function filterTalks(cat) {
 </table>
 
 # 🔬 Projects {#projects}
-<div class="pub-filters">
+<div class="pub-filters" id="proj-topic-filters">
   <button class="pub-filter-btn proj-filter-btn active" data-cat="all" onclick="filterProjects('all')">All</button>
   <button class="pub-filter-btn proj-filter-btn" data-cat="world-model" onclick="filterProjects('world-model')">World Model</button>
   <button class="pub-filter-btn proj-filter-btn" data-cat="gen-vision" onclick="filterProjects('gen-vision')">Generation & Vision</button>
 </div>
+<div class="pub-filters" style="margin-top:4px;">
+  <button class="role-filter-btn proj-role-btn active" data-role="all" onclick="filterProjRole('all')">All Roles</button>
+  <button class="role-filter-btn proj-role-btn" data-role="first-author" onclick="filterProjRole('first-author')">First Author</button>
+  <button class="role-filter-btn proj-role-btn" data-role="corr-author" onclick="filterProjRole('corr-author')"><sup class="corr-lead">†</sup> Corresponding Author</button>
+  <button class="role-filter-btn proj-role-btn" data-role="proj-lead" onclick="filterProjRole('proj-lead')"><sup class="corr-lead">‡</sup> Project Lead</button>
+</div>
 <script>
+var _projTopic = 'all', _projRole = 'all';
 function filterProjects(cat) {
-  document.querySelectorAll('tr.project-row[data-proj-cat]').forEach(function(tr) {
-    tr.style.display = (cat === 'all' || tr.getAttribute('data-proj-cat') === cat) ? '' : 'none';
-  });
+  _projTopic = cat;
+  _applyProjFilter();
   document.querySelectorAll('.proj-filter-btn').forEach(function(btn) {
     btn.classList.toggle('active', btn.dataset.cat === cat);
+  });
+}
+function filterProjRole(role) {
+  _projRole = (_projRole === role) ? 'all' : role;
+  _applyProjFilter();
+  document.querySelectorAll('.proj-role-btn').forEach(function(btn) {
+    btn.classList.toggle('active', btn.dataset.role === _projRole);
+  });
+}
+function _applyProjFilter() {
+  document.querySelectorAll('tr.project-row[data-proj-cat]').forEach(function(tr) {
+    var topicOk = _projTopic === 'all' || tr.getAttribute('data-proj-cat') === _projTopic;
+    var roleOk  = _projRole  === 'all' || (tr.getAttribute('data-proj-role') || '').split(' ').indexOf(_projRole) !== -1;
+    tr.style.display = (topicOk && roleOk) ? '' : 'none';
   });
 }
 </script>
@@ -358,8 +390,48 @@ function filterProjects(cat) {
   <tbody>
 
 
+    <!-- ReactiveGWM -->
+    <tr class="project-row" data-proj-cat="world-model" data-proj-role="corr-author proj-lead">
+      <td class="thumb">
+        <div class="side-by-side">
+          <img src="./files/reactivegwm_before.png" alt="ReactiveGWM before">
+          <img src="./files/reactivegwm_after.png"  alt="ReactiveGWM after">
+        </div>
+      </td>
+      <td class="info">
+        <a href="https://dualparal.github.io/ReactiveGWM/">
+          <span class="papertitle_just">ReactiveGWM: Steering NPC in Reactive Game World Models</span><sup class="corr-lead">†‡</sup>
+        </a><br>
+        <span class="sub"><em>Game World Model</em> • 2025</span>
+        <div class="links">
+          <span class="label">Links:</span>
+          <a class="pill" href="https://dualparal.github.io/ReactiveGWM/">Project Page</a>
+        </div>
+      </td>
+    </tr>
+
+    <!-- SCOPE -->
+    <tr class="project-row" data-proj-cat="world-model" data-proj-role="corr-author proj-lead">
+      <td class="thumb">
+        <div class="side-by-side">
+          <img src="./files/scope_before.png" alt="SCOPE before">
+          <img src="./files/scope_after.png"  alt="SCOPE after">
+        </div>
+      </td>
+      <td class="info">
+        <a href="https://scopeanon.github.io/SCOPE/">
+          <span class="papertitle_just">SCOPE: Scalable World Model via Consistent Prediction</span><sup class="corr-lead">†‡</sup>
+        </a><br>
+        <span class="sub"><em>Game World Model</em> • 2025</span>
+        <div class="links">
+          <span class="label">Links:</span>
+          <a class="pill" href="https://scopeanon.github.io/SCOPE/">Project Page</a>
+        </div>
+      </td>
+    </tr>
+
     <!--  Hero 1 -->
-    <tr class="project-row" data-proj-cat="gen-vision">
+    <tr class="project-row" data-proj-cat="gen-vision" data-proj-role="first-author">
       <td class="thumb">
         <div class="side-by-side">
           <img src="./files/Hero_before.png" alt="Hero before">
@@ -385,7 +457,7 @@ function filterProjects(cat) {
     </tr>
   
     <!--  HOK Poster 2, 3 -->
-    <tr class="project-row" data-proj-cat="gen-vision">
+    <tr class="project-row" data-proj-cat="gen-vision" data-proj-role="first-author">
       <td class="thumb">
         <div class="side-by-side">
           <img src="./files/HOK_AI_before.png" alt="HOK Conan before">
@@ -412,7 +484,7 @@ function filterProjects(cat) {
     </tr>
     
     <!--  HOK Poster 1 -->
-    <tr class="project-row" data-proj-cat="gen-vision">
+    <tr class="project-row" data-proj-cat="gen-vision" data-proj-role="first-author">
       <td class="thumb">
         <div class="side-by-side">
           <img src="./files/HOK_Poster_before.png" alt="HOK Poster before">
@@ -439,7 +511,7 @@ function filterProjects(cat) {
     </tr>
 
     <!-- HOK Creator -->
-    <tr class="project-row" data-proj-cat="gen-vision">
+    <tr class="project-row" data-proj-cat="gen-vision" data-proj-role="first-author">
       <td class="thumb">
         <div class="side-by-side">
           <img src="./files/HOK_Creator_before.png" alt="HOK Creator before">
@@ -466,7 +538,7 @@ function filterProjects(cat) {
     </tr>
 
     <!-- HOK PGC -->
-    <tr class="project-row" data-proj-cat="gen-vision">
+    <tr class="project-row" data-proj-cat="gen-vision" data-proj-role="first-author">
       <td class="thumb">
         <div class="side-by-side">
           <img src="./files/HOK_PGC_before.png" alt="HOK PGC before">
@@ -624,11 +696,6 @@ function _applyPubFilter() {
   });
 }
 </script>
-<p style="font-size:0.88em; color:#888; margin:4px 0 10px 0;">
-  <sup class="eq-contrib">*</sup> equal contribution &nbsp;·&nbsp;
-  <sup class="corr-lead">†</sup> corresponding author &nbsp;·&nbsp;
-  <sup class="corr-lead">‡</sup> project lead
-</p>
 <table width="100%" align="center" border="0" cellspacing="0" cellpadding="10">
 <tbody>
 <!-- ############################ Put your publications below this! ####################################-->
