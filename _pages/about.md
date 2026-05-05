@@ -476,6 +476,30 @@ cvpr26_Deraining_stop()
 <!-- ###################################################################################################-->
 
 <!-- ###################################################################################################-->
+<!-- Paper CT-1 -->
+<tr data-category="gen-vision" >
+<td width="20%">
+<video autoplay loop muted playsinline style="width:100%; aspect-ratio:1/1; object-fit:cover; border-radius:4px;">
+  <source src="./files/ct1_demo.mp4" type="video/mp4">
+</video>
+</td>
+<td valign="top" width="80%">
+  <a href="https://arxiv.org/abs/2604.09201">
+    <papertitle_just>CT-1: Vision-Language-Camera Models Transfer Spatial Reasoning Knowledge to Camera-controllable Video Generation</papertitle_just>
+  </a>
+  <br>
+  Haoyu Zhao, Zihao Zhang, Jiaxi Gu, Haoran Chen, Qingping Zheng, Pin Tang, <strong>Yeying Jin</strong>, Yuang Zhang, Junqi Cheng, Zenghui Lu, Peng Shu, Zuxuan Wu, Yu-Gang Jiang
+  <br>
+  <em>arXiv preprint</em>, 2026<br>
+  <a href="https://arxiv.org/abs/2604.09201">arXiv</a> /
+  <a href="https://github.com/gulucaptain/Camera-Transformer-1">code</a>
+  <img src="https://img.shields.io/github/stars/gulucaptain/Camera-Transformer-1?style=social&label=Stars" style="vertical-align:middle; margin-left:4px;">
+  <p></p>
+</td>
+</tr>
+<!-- ###################################################################################################-->
+
+<!-- ###################################################################################################-->
 <!-- Paper Z-Erase -->
 <tr data-category="gen-vision" data-role="proj-lead" onmouseout="icml26_zerase_stop()" onmouseover="icml26_zerase_start()" >
 <td width="20%">
@@ -502,7 +526,8 @@ icml26_zerase_stop()
   Nanxiang Jiang, Zhaoxin Fan, Baisen Wang, Daiheng Gao, Junhang Cheng, Jifeng Guo, Yalan Qin, <strong>Yeying Jin</strong>, Hongwei Zheng, Faguo Wu, Wenjun Wu
   <br>
   <em>International Conference on Machine Learning (ICML)</em>, 2026, Seoul, South Korea<br>
-  <a href="https://arxiv.org/abs/2603.25074">arXiv</a>
+  <a href="https://arxiv.org/abs/2603.25074">arXiv</a> /
+  <a href="https://github.com/nxjiang-jnx/Z-Erase">code</a>
   <p></p>
 </td>
 </tr>
