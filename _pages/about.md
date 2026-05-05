@@ -466,7 +466,7 @@ cvpr26_Deraining_stop()
     <papertitle_just>Unpaired Image Deraining Using Reward-Guided Self-Reinforcement Strategy</papertitle_just>
   </a>
   <br>
-  Yinghao Chen, <strong>Yeying Jin</strong><sup class="corr-lead">†‡</sup>, Xiang Chen, Yanyan Wei, Ziyang Yan, Yaowei Fu
+  Yinghao Chen, <strong>Yeying Jin</strong><sup class="corr-lead">†‡</sup>, Xiang Chen, Yanyan Wei<sup class="corr-lead">†</sup>, Ziyang Yan, Yaowei Fu
   <br>
   <em>IEEE Conference on Computer Vision and Pattern Recognition (CVPR)</em>, 2026, Denver, USA<br>
 <a href="https://arxiv.org/abs/2605.00719">arXiv</a>
