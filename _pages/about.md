@@ -500,6 +500,41 @@ cvpr26_Deraining_stop()
 <!-- ###################################################################################################-->
 
 <!-- ###################################################################################################-->
+<!-- Paper InstanceAnimator -->
+<tr data-category="gen-vision" onmouseout="arxiv25_InstanceAnimator_stop()" onmouseover="arxiv25_InstanceAnimator_start()" >
+<td width="20%">
+<div class="one">
+<div class="two" id='arxiv25_InstanceAnimator_image'>
+<img src="./files/arxiv25_InstanceAnimator_after.png" style="width: 100%; aspect-ratio: 1 / 1; object-fit: cover;"></div>
+<img src="./files/arxiv25_InstanceAnimator_before.png" style="width: 100%; aspect-ratio: 1 / 1; object-fit: cover;">
+</div>
+<script type="text/javascript">
+function arxiv25_InstanceAnimator_start() {
+document.getElementById('arxiv25_InstanceAnimator_image').style.opacity = "1";
+}
+function arxiv25_InstanceAnimator_stop() {
+document.getElementById('arxiv25_InstanceAnimator_image').style.opacity = "0";
+}
+arxiv25_InstanceAnimator_stop()
+</script>
+</td>
+<td valign="top" width="80%">
+  <a href="https://arxiv.org/abs/2603.25357">
+    <papertitle_just>InstanceAnimator: Multi-Instance Sketch Video Colorization</papertitle_just>
+  </a>
+  <br>
+  Yinhan Zhang<sup class="eq-contrib">*</sup>, Yue Ma<sup class="eq-contrib">*</sup>, Bingyuan Wang, Kunyu Feng, <strong>Yeying Jin</strong>, Qifeng Chen, Anyi Rao, Zeyu Wang
+  <br>
+  <em>arXiv preprint</em>, 2026<br>
+  <a href="https://arxiv.org/abs/2603.25357">arXiv</a> /
+  <a href="https://github.com/YinHan-Zhang/InstanceAnimator">code</a>
+  <a href="https://github.com/YinHan-Zhang/InstanceAnimator"><img src="https://img.shields.io/github/stars/YinHan-Zhang/InstanceAnimator?style=social&label=Stars"></a>
+  <p></p>
+</td>
+</tr>
+<!-- ###################################################################################################-->
+
+<!-- ###################################################################################################-->
 <!-- Paper Z-Erase -->
 <tr data-category="gen-vision" data-role="proj-lead" onmouseout="icml26_zerase_stop()" onmouseover="icml26_zerase_start()" >
 <td width="20%">
