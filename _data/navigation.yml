@@ -6,17 +6,17 @@ main:
   - title: "Research"
     url: "/#research"
 
-  - title: "Organizer"
-    url: "/#organizer"
-
-  - title: "Talks"
-    url: "/#invited-talks"
-
   - title: "Projects"
     url: "/#projects"
 
   - title: "Publications"
     url: "/#publications"
+
+  - title: "Organizer"
+    url: "/#organizer"
+
+  - title: "Talks"
+    url: "/#invited-talks"
 
   - title: "Education"
     url: "/#education"

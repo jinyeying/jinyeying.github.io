@@ -21,280 +21,12 @@ I had my research internship in <img src="/files/adobe.png" alt="Adobe" width="2
 Previously, I completed my M.Sc. degree at the <img src="/files/NUS.png" alt="NUS" width="42.5" height="20"> [National University of Singapore (NUS)](https://cde.nus.edu.sg/ece/); received my B.Eng. degree from the <img src="/files/UESTC.png" alt="UESTC" width="20.842" height="20"> [University of Electronic Science and Technology of China (UESTC)](https://en.uestc.edu.cn/). 
 
 I have published papers with <a href='https://scholar.google.com/citations?user=Z8PYhA4AAAAJ' target="_blank"><img src="https://img.shields.io/endpoint?url={{ url | url_encode }}&logo=Google%20Scholar&labelColor=f6f6f6&color=9cf&style=flat&label=citations"></a> at top international venues.
-
-<p style="margin:6px 0 0 0; background:#fff5f5; border-left:3px solid #e74c3c; padding:5px 12px; border-radius:0 4px 4px 0; font-weight:600; color:#c0392b;">📢 I'm hiring self-motivated interns and full-time researchers.</p>
+📢 I'm hiring self-motivated interns and full-time researchers.
 
 # 📜 Research {#research}
 1. Video World Model
 2. AIGC: Generation & Vision
 3. Multimodal Learning & VLMs
-
-# 💬 Organizer {#organizer}
-<style>
-  .talks-table {
-    width: 100%;
-    border-collapse: collapse;
-    table-layout: fixed;
-    font-size: 0.88em;
-    line-height: 1.35;
-  }
-  .talks-table th {
-    background: #f5f6fa;
-    padding: 5px 4px;
-    text-align: left;
-    font-size: 0.85em;
-    letter-spacing: 0.02em;
-    white-space: nowrap;
-  }
-  .talks-table td {
-    padding: 4px 4px;
-    vertical-align: top;
-    border-bottom: 1px solid #f0f0f0;
-  }
-  .talks-table td:last-child {
-    color: #667085;
-    font-size: 0.88em;
-    line-height: 1.4;
-  }
-  .talks-table tr:hover td { background: #fafbff; }
-</style>
-<table class="talks-table">
-  <colgroup>
-    <col style="width:24%">
-    <col style="width:62%">
-    <col style="width:14%">
-  </colgroup>
-  <tr>
-    <th>Workshop</th>
-    <th>Title</th>
-    <th>Date & Venue</th>
-  </tr>
-
-  <tr>
-    <td><a href="https://lovif-eccv2026-workshop.github.io/" target="_blank">ECCV 2026 LoViF Workshop</a></td>
-    <td><a href="https://lovif-eccv2026-workshop.github.io/" target="_blank">The 2nd Workshop on Low‑Level Vision Frontiers (Generative AI, Preference Optimization, and Agentic Systems)</a></td>
-    <td>09.2026<br>Malmö, Sweden</td>
-  </tr>
-
-  <tr>
-    <td><a href="https://lovif-cvpr2026-workshop.github.io/" target="_blank">CVPR 2026 LoViF Workshop</a></td>
-    <td><a href="https://lovif-cvpr2026-workshop.github.io/" target="_blank">The 1st Workshop on Low‑Level Vision Frontiers (Generative AI, Preference Optimization, and Agentic Systems)</a></td>
-    <td>06.04.2026@504<br>Denver, USA</td>
-  </tr>
-
-  <tr>
-    <td><a href="https://agentic-visual-media.insait.ai/" target="_blank">CVPR 2026 AGENTIC Workshop</a></td>
-    <td><a href="https://agentic-visual-media.insait.ai/" target="_blank">Workshop on Agentic AI for Visual Media</a></td>
-    <td>06.03.2026@1EF<br>Denver, USA</td>
-  </tr>
-
-  <tr>
-    <td><a href="https://urvis-workshop.github.io/" target="_blank">CVPR 2026 URVIS Workshop</a></td>
-    <td><a href="https://urvis-workshop.github.io/" target="_blank">Unified Robotic Vision with Cross-Modal Sensing and Alignment</a></td>
-    <td>06.04.2026@4AB<br>Denver, USA</td>
-  </tr>
-
-  <tr>
-    <td><a href="https://ai4streaming-workshop.github.io/" target="_blank">CVPR 2026 AIGENS Workshop</a></td>
-    <td><a href="https://ai4streaming-workshop.github.io/" target="_blank">The 3rd Workshop on AI for Content Generation, Quality Enhancement and Streaming</a></td>
-    <td>06.03.2026@105<br>Denver, USA</td>
-  </tr>
-
-  <tr>
-    <td><a href="https://www.codabench.org/competitions/12808/" target="_blank">CVPR 2026 NTIRE Challenge</a></td>
-    <td><a href="https://lixinustc.github.io/CVPR-NTIRE2026-RainDrop-Competition.github.io/" target="_blank">The 2nd Challenge on Day and Night Raindrop Removal for Dual-Focused Images</a></td>
-    <td>06.04.2026@504<br>Denver, USA</td>
-  </tr>
-
-  <tr>
-    <td><a href="https://aaai.org/conference/aaai/aaai-26/tutorial-and-lab-list/" target="_blank">AAAI 2026 Workshop</a></td>
-    <td><a href="https://lixinustc.github.io/GenAI-Agents-for-Low-level-Vision.github.io/" target="_blank">The Application of Generative AI and Intelligent Agents in Low-level Vision</a></td>
-    <td>01.2026<br>Singapore</td>
-  </tr>
-
-  <tr>
-    <td><a href="https://codalab.lisn.upsaclay.fr/competitions/21345" target="_blank">CVPR 2025 NTIRE Challenge</a></td>
-    <td><a href="https://lixinustc.github.io/CVPR-NTIRE2025-RainDrop-Competition.github.io" target="_blank">The 1st Challenge on Day and Night Raindrop Removal for Dual-Focused Images</a></td>
-    <td>06.2025<br>Nashville, USA</td>
-  </tr>
-</table>
-
-# 🎤 Invited Talks {#invited-talks}
-<div class="pub-filters">
-  <button class="pub-filter-btn talk-filter-btn active" data-cat="all" onclick="filterTalks('all')">All</button>
-  <button class="pub-filter-btn talk-filter-btn" data-cat="world-model" onclick="filterTalks('world-model')">World Model</button>
-  <button class="pub-filter-btn talk-filter-btn" data-cat="gen-vision" onclick="filterTalks('gen-vision')">Generation & Vision</button>
-</div>
-<script>
-function filterTalks(cat) {
-  document.querySelectorAll('#talks-main-table tr:not(:first-child)').forEach(function(tr) {
-    if (cat === 'all') tr.style.display = '';
-    else if (cat === 'world-model') tr.style.display = tr.getAttribute('data-talk-cat') === 'world-model' ? '' : 'none';
-    else tr.style.display = tr.getAttribute('data-talk-cat') !== 'world-model' ? '' : 'none';
-  });
-  document.querySelectorAll('.talk-filter-btn').forEach(function(btn) {
-    btn.classList.toggle('active', btn.dataset.cat === cat);
-  });
-}
-</script>
-<table class="talks-table" id="talks-main-table">
-  <colgroup>
-    <col style="width:27%">
-    <col style="width:59%">
-    <col style="width:14%">
-  </colgroup>
-  <tr>
-    <th>Host</th>
-    <th>Topic</th>
-    <th>Date & Venue</th>
-  </tr>
-
- <tr data-talk-cat="world-model">
-    <td><a href="https://urvis-workshop.github.io/">CVPR URVIS</a> (invited by <a href="https://sites.google.com/view/zwwu/accueil">Zongwei Wu</a>)</td>
-    <td>World Model</td>
-    <td>06.04.2026@4AB<br>Denver, USA</td>
- </tr>
-
- <tr data-talk-cat="world-model">
-    <td><a href="https://singaporevisionday.github.io/svd2026/">Singapore Vision Day</a> (invited by <a href="https://www.comp.nus.edu.sg/~leegh/">Gim Hee Lee</a>)</td>
-    <td><a href="https://singaporevisionday.github.io/svd2026/">Game World Model</a></td>
-    <td>05.2026<br>Singapore</td>
- </tr>
-
- <tr data-talk-cat="world-model">
-    <td>ICLR Booth Talk, Tencent Game Session Talk</td>
-    <td><a href="https://www.linkedin.com/posts/jinyeying_iclr-2026-sharing-our-work-on-world-activity-7454451566251765760-pHR1?utm_source=share&utm_medium=member_desktop&rcm=ACoAACNosSgBI_KUO4Duouy2mfHXSwk8Ap0YHFE">From AIGC to World Model</a></td>
-    <td>04.2026<br>Rio, Brazil</td>
- </tr>
-
- <tr>
-    <td>AAAI (invited by <a href="https://lixinustc.github.io/">Xin Li</a>)</td>
-    <td><a href="https://lixinustc.github.io/GenAI-Agents-for-Low-level-Vision.github.io/">From Creation to Perception: Generative AI for Content Generation</a></td>
-    <td>01.2026<br>Singapore</td>
- </tr>
-
- <tr>
-    <td>Low-level Community (invited by <a href="https://cschenxiang.github.io/">Xiang Chen</a>)</td>
-    <td><a href="https://mp.weixin.qq.com/s/4hsDsLlJG-JAacAwvlm4XA">AIGC-Powered Game Marketing: From Generation to Deployment</a></td>
-    <td>01.2026<br>Singapore</td>
- </tr>
-
- <tr>
-    <td><a href="https://ai4streaming-workshop.github.io/">ICCV AIGENS</a> (invited by <a href="https://mv-lab.github.io/">Marcos V. Conde</a>)</td>
-    <td><a href="https://ai4streaming-workshop.github.io/">From Creation to Perception: Generative AI for Content Generation</a></td>
-    <td>10.2025<br>Hawaii, USA</td>
- </tr>
-
- <tr>
-    <td>Tencent Programmers Video</td>
-    <td><a href="https://ai4streaming-workshop.github.io/">Exploring SORA: Unlocking the Core of AI Video Creation</a>
-      [<a href="https://www.bilibili.com/video/BV1Ymy7BJEmy/?share_source=copy_web&vd_source=2da049ce4677af057256ebc4a00a8292" target="_blank">Video</a>]</td>
-    <td>11.2025<br>Singapore</td>
- </tr>
-
-  <tr>
-    <td><img src="/files/tencent.png" alt="Tencent" width="85" height="20"></td>
-    <td>AI Video Gen | When Wukong meets Yayoi Kusama</td>
-    <td>05.2025<br>Singapore</td>
-  </tr>
-
-  <tr>
-    <td>ICLR (invited by <a href="https://qhlin.me/">Kevin QH. Lin</a>)</td>
-    <td><a href="https://showlab.github.io/omg/">AI × Gaming: Creative Applications of AIGC</a>
-      [<a href="https://www.bilibili.com/video/BV1dzJfzbEmh/?share_source=copy_web&vd_source=2da049ce4677af057256ebc4a00a8292" target="_blank">Video</a>]</td>
-    <td>04.2025<br>Singapore</td>
-  </tr>
-
-  <tr>
-    <td><img src="/files/tencent.png" alt="Tencent" width="85" height="20"></td>
-    <td>AI Generation: Inspiring Game Marketing and Development</td>
-    <td>02.2025<br>Singapore</td>
-  </tr>
-
-  <tr>
-    <td><img src="/files/AITIME.png" alt="AITIME" width="19.778" height="20"> AI TIME</td>
-    <td><a href="https://www.bilibili.com/video/BV1p5bFevEgP/?spm_id_from=333.999.0.0&vd_source=8ae1cd92e40b380c0296eb6843da79a4">Raindrop Clarity: Dual-Focused, Day and Night</a></td>
-    <td>09.2024</td>
-  </tr>
-
-  <tr>
-    <td><img src="/files/AITIME.png" alt="AITIME" width="19.778" height="20"> AI TIME</td>
-    <td><a href="https://www.bilibili.com/video/BV1wc411v7zf/?spm_id_from=333.999.0.0&vd_source=8ae1cd92e40b380c0296eb6843da79a4">Shadow Removal using Diffusion Model</a></td>
-    <td>01.2024</td>
-  </tr>
-
-  <tr>
-    <td><img src="/files/tencent.png" alt="Tencent" width="85" height="20"></td>
-    <td>Applications of Generative AI</td>
-    <td>11.2023<br>Singapore</td>
-  </tr>
-
-  <tr>
-    <td><img src="/files/huawei.png" alt="Huawei" width="19.978" height="20"> Huawei</td>
-    <td>Visibility Enhancement using Generative Model</td>
-    <td>07.2023</td>
-  </tr>
-
-  <tr>
-    <td><img src="/files/adobe.png" alt="Adobe" width="20" height="20"> Adobe (invited by <a href="https://www.erickee.com/">Eric Kee</a>)</td>
-    <td>NextCam Reading Group: Light-effects Suppression</td>
-    <td>07.2023<br>USA</td>
-  </tr>
-
-  <tr>
-    <td><img src="/files/huawei.png" alt="Huawei" width="19.978" height="20"> Huawei</td>
-    <td>Image/Video Restoration and Generation</td>
-    <td>03.2023</td>
-  </tr>
-
-  <tr>
-    <td><img src="/files/AITIME.png" alt="AITIME" width="19.778" height="20"> AI TIME</td>
-    <td><a href="https://www.bilibili.com/video/BV1Ca4y1C7xi/?spm_id_from=333.999.0.0&vd_source=8ae1cd92e40b380c0296eb6843da79a4">Intrinsic Image Decomposition</a></td>
-    <td>02.2023</td>
-  </tr>
-
-  <tr>
-    <td><img src="/files/ByteDance.png" alt="ByteDance" width="100" height="20"> (invited by <a href="https://hanshuyan.github.io/">Hanshu Yan</a>)</td>
-    <td>Diffusion Model in Image Processing</td>
-    <td>01.2023</td>
-  </tr>
-
-  <tr>
-    <td><img src="/files/huawei.png" alt="Huawei" width="19.978" height="20"> Huawei</td>
-    <td>Visibility Enhancement in Nighttime</td>
-    <td>12.2022<br>Singapore</td>
-  </tr>
-
-  <tr>
-    <td><img src="/files/AITIME.png" alt="AITIME" width="19.778" height="20"> AI TIME</td>
-    <td><a href="https://www.bilibili.com/video/BV1Ec411s7at/?spm_id_from=333.999.0.0&vd_source=8ae1cd92e40b380c0296eb6843da79a4">Unsupervised Image Restoration and Generation</a></td>
-    <td>11.2022</td>
-  </tr>
-
-</table>
-
-<table class="talks-table" style="margin-top:6px;">
-  <colgroup>
-    <col style="width:68%">
-    <col style="width:32%">
-  </colgroup>
-  <tr>
-    <th>Presented at</th>
-    <th>Date & Venue</th>
-  </tr>
-  <tr>
-    <td><img src="/files/VALSE.png" alt="VALSE" width="23.2" height="20"> <a href="https://valser.org/2024/#/poster">VALSE</a></td>
-    <td>05.2024, Chongqing, China</td>
-  </tr>
-  <tr>
-    <td><img src="/files/NUS.png" alt="NUS" width="42.5" height="20"> <a href="https://www.comp.nus.edu.sg/~leegh/svd/">Singapore Vision Day</a></td>
-    <td>05.2023, Singapore</td>
-  </tr>
-  <tr>
-    <td><img src="/files/aisg.png" alt="AISG" width="20" height="20"> <a href="https://aisingapore.org/ai-governance/aisg-ai-governance-research-symposium-2023/">AI Research Symposium</a></td>
-    <td>01.2023, Singapore</td>
-  </tr>
-</table>
 
 # 🔬 Projects {#projects}
 <div class="pub-filters" id="proj-topic-filters">
@@ -737,7 +469,7 @@ cvpr26_Deraining_stop()
 
 <!-- ###################################################################################################-->
 <!-- Paper Z-Erase -->
-<tr data-category="gen-vision" onmouseout="icml26_zerase_stop()" onmouseover="icml26_zerase_start()" >
+<tr data-category="gen-vision" data-role="proj-lead" onmouseout="icml26_zerase_stop()" onmouseover="icml26_zerase_start()" >
 <td width="20%">
 <div class="one">
 <div class="two" id='icml26_zerase_image'>
@@ -1028,7 +760,7 @@ cvpr25_JarvisIR_stop()
 
 <!-- ###################################################################################################-->
 <!-- Paper LoViF 2026 Challenge -->
-<tr data-category="workshop" data-role="corr-author proj-lead" onmouseout="cvpr26_lovif_stop()" onmouseover="cvpr26_lovif_start()" >
+<tr data-category="workshop" data-role="corr-author" onmouseout="cvpr26_lovif_stop()" onmouseover="cvpr26_lovif_start()" >
 <td width="20%">
 <div class="one">
 <div class="two" id='cvpr26_lovif_image'><img src='./files/cvpr26_LoViF_after.png' style="width:100%;aspect-ratio:1/1;object-fit:cover;"></div>
@@ -1822,6 +1554,279 @@ accv22_defog_stop()
 <!-- ############################ Put your publications above this! ####################################-->
 </tbody></table>
 
+# 💬 Organizer {#organizer}
+<style>
+  .talks-table {
+    width: 100%;
+    border-collapse: collapse;
+    table-layout: fixed;
+    font-size: 0.88em;
+    line-height: 1.35;
+  }
+  .talks-table th {
+    background: #f5f6fa;
+    padding: 5px 4px;
+    text-align: left;
+    font-size: 0.85em;
+    letter-spacing: 0.02em;
+    white-space: nowrap;
+  }
+  .talks-table td {
+    padding: 4px 4px;
+    vertical-align: top;
+    border-bottom: 1px solid #f0f0f0;
+  }
+  .talks-table td:last-child {
+    color: #667085;
+    font-size: 0.88em;
+    line-height: 1.4;
+  }
+  .talks-table tr:hover td { background: #fafbff; }
+</style>
+<table class="talks-table">
+  <colgroup>
+    <col style="width:24%">
+    <col style="width:62%">
+    <col style="width:14%">
+  </colgroup>
+  <tr>
+    <th>Workshop</th>
+    <th>Title</th>
+    <th>Date & Venue</th>
+  </tr>
+
+  <tr>
+    <td><a href="https://lovif-eccv2026-workshop.github.io/" target="_blank">ECCV 2026 LoViF Workshop</a></td>
+    <td><a href="https://lovif-eccv2026-workshop.github.io/" target="_blank">The 2nd Workshop on Low‑Level Vision Frontiers (Generative AI, Preference Optimization, and Agentic Systems)</a></td>
+    <td>09.2026<br>Malmö, Sweden</td>
+  </tr>
+
+  <tr>
+    <td><a href="https://lovif-cvpr2026-workshop.github.io/" target="_blank">CVPR 2026 LoViF Workshop</a></td>
+    <td><a href="https://lovif-cvpr2026-workshop.github.io/" target="_blank">The 1st Workshop on Low‑Level Vision Frontiers (Generative AI, Preference Optimization, and Agentic Systems)</a></td>
+    <td>06.04.2026@504<br>Denver, USA</td>
+  </tr>
+
+  <tr>
+    <td><a href="https://agentic-visual-media.insait.ai/" target="_blank">CVPR 2026 AGENTIC Workshop</a></td>
+    <td><a href="https://agentic-visual-media.insait.ai/" target="_blank">Workshop on Agentic AI for Visual Media</a></td>
+    <td>06.03.2026@1EF<br>Denver, USA</td>
+  </tr>
+
+  <tr>
+    <td><a href="https://urvis-workshop.github.io/" target="_blank">CVPR 2026 URVIS Workshop</a></td>
+    <td><a href="https://urvis-workshop.github.io/" target="_blank">Unified Robotic Vision with Cross-Modal Sensing and Alignment</a></td>
+    <td>06.04.2026@4AB<br>Denver, USA</td>
+  </tr>
+
+  <tr>
+    <td><a href="https://ai4streaming-workshop.github.io/" target="_blank">CVPR 2026 AIGENS Workshop</a></td>
+    <td><a href="https://ai4streaming-workshop.github.io/" target="_blank">The 3rd Workshop on AI for Content Generation, Quality Enhancement and Streaming</a></td>
+    <td>06.03.2026@105<br>Denver, USA</td>
+  </tr>
+
+  <tr>
+    <td><a href="https://www.codabench.org/competitions/12808/" target="_blank">CVPR 2026 NTIRE Challenge</a></td>
+    <td><a href="https://lixinustc.github.io/CVPR-NTIRE2026-RainDrop-Competition.github.io/" target="_blank">The 2nd Challenge on Day and Night Raindrop Removal for Dual-Focused Images</a></td>
+    <td>06.04.2026@504<br>Denver, USA</td>
+  </tr>
+
+  <tr>
+    <td><a href="https://aaai.org/conference/aaai/aaai-26/tutorial-and-lab-list/" target="_blank">AAAI 2026 Workshop</a></td>
+    <td><a href="https://lixinustc.github.io/GenAI-Agents-for-Low-level-Vision.github.io/" target="_blank">The Application of Generative AI and Intelligent Agents in Low-level Vision</a></td>
+    <td>01.2026<br>Singapore</td>
+  </tr>
+
+  <tr>
+    <td><a href="https://codalab.lisn.upsaclay.fr/competitions/21345" target="_blank">CVPR 2025 NTIRE Challenge</a></td>
+    <td><a href="https://lixinustc.github.io/CVPR-NTIRE2025-RainDrop-Competition.github.io" target="_blank">The 1st Challenge on Day and Night Raindrop Removal for Dual-Focused Images</a></td>
+    <td>06.2025<br>Nashville, USA</td>
+  </tr>
+</table>
+
+# 🎤 Invited Talks {#invited-talks}
+<div class="pub-filters">
+  <button class="pub-filter-btn talk-filter-btn active" data-cat="all" onclick="filterTalks('all')">All</button>
+  <button class="pub-filter-btn talk-filter-btn" data-cat="world-model" onclick="filterTalks('world-model')">World Model</button>
+  <button class="pub-filter-btn talk-filter-btn" data-cat="gen-vision" onclick="filterTalks('gen-vision')">Generation & Vision</button>
+</div>
+<script>
+function filterTalks(cat) {
+  document.querySelectorAll('#talks-main-table tr:not(:first-child)').forEach(function(tr) {
+    if (cat === 'all') tr.style.display = '';
+    else if (cat === 'world-model') tr.style.display = tr.getAttribute('data-talk-cat') === 'world-model' ? '' : 'none';
+    else tr.style.display = tr.getAttribute('data-talk-cat') !== 'world-model' ? '' : 'none';
+  });
+  document.querySelectorAll('.talk-filter-btn').forEach(function(btn) {
+    btn.classList.toggle('active', btn.dataset.cat === cat);
+  });
+}
+</script>
+<table class="talks-table" id="talks-main-table">
+  <colgroup>
+    <col style="width:33%">
+    <col style="width:53%">
+    <col style="width:14%">
+  </colgroup>
+  <tr>
+    <th>Host</th>
+    <th>Topic</th>
+    <th>Date & Venue</th>
+  </tr>
+
+ <tr data-talk-cat="world-model">
+    <td><a href="https://urvis-workshop.github.io/">CVPR URVIS</a> (invited by <a href="https://sites.google.com/view/zwwu/accueil">Zongwei Wu</a>)</td>
+    <td>World Model</td>
+    <td>06.04.2026@4AB<br>Denver, USA</td>
+ </tr>
+
+ <tr data-talk-cat="world-model">
+    <td><a href="https://singaporevisionday.github.io/svd2026/">Singapore Vision Day</a> (invited by <a href="https://www.comp.nus.edu.sg/~leegh/">Gim Hee Lee</a>)</td>
+    <td><a href="https://singaporevisionday.github.io/svd2026/">Game World Model</a></td>
+    <td>05.2026<br>Singapore</td>
+ </tr>
+
+ <tr data-talk-cat="world-model">
+    <td>ICLR Booth Talk, Tencent Game Session Talk</td>
+    <td><a href="https://www.linkedin.com/posts/jinyeying_iclr-2026-sharing-our-work-on-world-activity-7454451566251765760-pHR1?utm_source=share&utm_medium=member_desktop&rcm=ACoAACNosSgBI_KUO4Duouy2mfHXSwk8Ap0YHFE">From AIGC to World Model</a></td>
+    <td>04.2026<br>Rio, Brazil</td>
+ </tr>
+
+ <tr data-talk-cat="world-model">
+    <td>NUS EE6934 Emerging Topics in AI Guest Lecture (invited by <a href="https://sites.google.com/site/sitexinchaowang/">Xinchao Wang</a>)</td>
+    <td>From AIGC to World Model</td>
+    <td>03.2026<br>Singapore</td>
+ </tr>
+
+ <tr>
+    <td>AAAI (invited by <a href="https://lixinustc.github.io/">Xin Li</a>)</td>
+    <td><a href="https://lixinustc.github.io/GenAI-Agents-for-Low-level-Vision.github.io/">From Creation to Perception: Generative AI for Content Generation</a></td>
+    <td>01.2026<br>Singapore</td>
+ </tr>
+
+ <tr>
+    <td>Low-level Community (invited by <a href="https://cschenxiang.github.io/">Xiang Chen</a>)</td>
+    <td><a href="https://mp.weixin.qq.com/s/4hsDsLlJG-JAacAwvlm4XA">AIGC-Powered Game Marketing: From Generation to Deployment</a></td>
+    <td>01.2026<br>Singapore</td>
+ </tr>
+
+ <tr>
+    <td><a href="https://ai4streaming-workshop.github.io/">ICCV AIGENS</a> (invited by <a href="https://mv-lab.github.io/">Marcos V. Conde</a>)</td>
+    <td><a href="https://ai4streaming-workshop.github.io/">From Creation to Perception: Generative AI for Content Generation</a></td>
+    <td>10.2025<br>Hawaii, USA</td>
+ </tr>
+
+ <tr>
+    <td>Tencent Programmers Video</td>
+    <td>Exploring SORA: Unlocking the Core of AI Video Creation
+      [<a href="https://www.bilibili.com/video/BV1Ymy7BJEmy/?share_source=copy_web&vd_source=2da049ce4677af057256ebc4a00a8292" target="_blank">Video</a>]</td>
+    <td>11.2025<br>Singapore</td>
+ </tr>
+
+  <tr>
+    <td><img src="/files/tencent.png" alt="Tencent" width="85" height="20"></td>
+    <td>AI Video Gen | When Wukong meets Yayoi Kusama</td>
+    <td>05.2025<br>Singapore</td>
+  </tr>
+
+  <tr>
+    <td>ICLR (invited by <a href="https://qhlin.me/">Kevin QH. Lin</a>)</td>
+    <td><a href="https://showlab.github.io/omg/">AI × Gaming: Creative Applications of AIGC</a>
+      [<a href="https://www.bilibili.com/video/BV1dzJfzbEmh/?share_source=copy_web&vd_source=2da049ce4677af057256ebc4a00a8292" target="_blank">Video</a>]</td>
+    <td>04.2025<br>Singapore</td>
+  </tr>
+
+  <tr>
+    <td><img src="/files/tencent.png" alt="Tencent" width="85" height="20"></td>
+    <td>AI Generation: Inspiring Game Marketing and Development</td>
+    <td>02.2025<br>Singapore</td>
+  </tr>
+
+  <tr>
+    <td><img src="/files/AITIME.png" alt="AITIME" width="19.778" height="20"> AI TIME</td>
+    <td><a href="https://www.bilibili.com/video/BV1p5bFevEgP/?spm_id_from=333.999.0.0&vd_source=8ae1cd92e40b380c0296eb6843da79a4">Raindrop Clarity: Dual-Focused, Day and Night</a></td>
+    <td>09.2024</td>
+  </tr>
+
+  <tr>
+    <td><img src="/files/AITIME.png" alt="AITIME" width="19.778" height="20"> AI TIME</td>
+    <td><a href="https://www.bilibili.com/video/BV1wc411v7zf/?spm_id_from=333.999.0.0&vd_source=8ae1cd92e40b380c0296eb6843da79a4">Shadow Removal using Diffusion Model</a></td>
+    <td>01.2024</td>
+  </tr>
+
+  <tr>
+    <td><img src="/files/tencent.png" alt="Tencent" width="85" height="20"></td>
+    <td>Applications of Generative AI</td>
+    <td>11.2023<br>Singapore</td>
+  </tr>
+
+  <tr>
+    <td><img src="/files/huawei.png" alt="Huawei" width="19.978" height="20"> Huawei</td>
+    <td>Visibility Enhancement using Generative Model</td>
+    <td>07.2023</td>
+  </tr>
+
+  <tr>
+    <td><img src="/files/adobe.png" alt="Adobe" width="20" height="20"> Adobe (invited by <a href="https://www.erickee.com/">Eric Kee</a>)</td>
+    <td>NextCam Reading Group: Light-effects Suppression</td>
+    <td>07.2023<br>USA</td>
+  </tr>
+
+  <tr>
+    <td><img src="/files/huawei.png" alt="Huawei" width="19.978" height="20"> Huawei</td>
+    <td>Image/Video Restoration and Generation</td>
+    <td>03.2023</td>
+  </tr>
+
+  <tr>
+    <td><img src="/files/AITIME.png" alt="AITIME" width="19.778" height="20"> AI TIME</td>
+    <td><a href="https://www.bilibili.com/video/BV1Ca4y1C7xi/?spm_id_from=333.999.0.0&vd_source=8ae1cd92e40b380c0296eb6843da79a4">Intrinsic Image Decomposition</a></td>
+    <td>02.2023</td>
+  </tr>
+
+  <tr>
+    <td><img src="/files/ByteDance.png" alt="ByteDance" width="100" height="20"> (invited by <a href="https://hanshuyan.github.io/">Hanshu Yan</a>)</td>
+    <td>Diffusion Model in Image Processing</td>
+    <td>01.2023</td>
+  </tr>
+
+  <tr>
+    <td><img src="/files/huawei.png" alt="Huawei" width="19.978" height="20"> Huawei</td>
+    <td>Visibility Enhancement in Nighttime</td>
+    <td>12.2022<br>Singapore</td>
+  </tr>
+
+  <tr>
+    <td><img src="/files/AITIME.png" alt="AITIME" width="19.778" height="20"> AI TIME</td>
+    <td><a href="https://www.bilibili.com/video/BV1Ec411s7at/?spm_id_from=333.999.0.0&vd_source=8ae1cd92e40b380c0296eb6843da79a4">Unsupervised Image Restoration and Generation</a></td>
+    <td>11.2022</td>
+  </tr>
+
+</table>
+
+<table class="talks-table" style="margin-top:6px;">
+  <colgroup>
+    <col style="width:68%">
+    <col style="width:32%">
+  </colgroup>
+  <tr>
+    <th>Presented at</th>
+    <th>Date & Venue</th>
+  </tr>
+  <tr>
+    <td><img src="/files/VALSE.png" alt="VALSE" width="23.2" height="20"> <a href="https://valser.org/2024/#/poster">VALSE</a></td>
+    <td>05.2024, Chongqing, China</td>
+  </tr>
+  <tr>
+    <td><img src="/files/NUS.png" alt="NUS" width="42.5" height="20"> <a href="https://www.comp.nus.edu.sg/~leegh/svd/">Singapore Vision Day</a></td>
+    <td>05.2023, Singapore</td>
+  </tr>
+  <tr>
+    <td><img src="/files/aisg.png" alt="AISG" width="20" height="20"> <a href="https://aisingapore.org/ai-governance/aisg-ai-governance-research-symposium-2023/">AI Research Symposium</a></td>
+    <td>01.2023, Singapore</td>
+  </tr>
+</table>
+
 # 🏫 Education {#education}
 - 01.2020-01.2024: Ph.D. (AI and Deep Learning), <img src="/files/NUS.png" alt="NUS" width="42.5" height="20"> NUS, Singapore (CAP: 4.75/5.00)
 - 08.2017-08.2018: M.S. (Electrical and Computer Engineering), <img src="/files/NUS.png" alt="NUS" width="42.5" height="20"> NUS, Singapore
@@ -1837,8 +1842,9 @@ accv22_defog_stop()
 - [Knowledge Award](https://zhuanlan.zhihu.com/p/686681635), [Excellent R&D Award](https://www.dropbox.com/scl/fi/h32jdvfrftrdls3rwjesi/Tencent_Excellent_R-D_Award.jpg?rlkey=xw5225oazo9kkoziuznsnhtpz&st=apklpn9u&dl=0), [Outstanding Mentor](https://www.dropbox.com/scl/fi/kcszrth49835tfvcirjot/Mentor.jpg?rlkey=mf4zo301alayou3tvr7yaedpk&st=je6i1qgd&dl=0), Outstanding Contributor 
 - [AI Singapore (AISG) Ph.D. Fellowship](https://aisingapore.org/research/phd-fellowship-programme/) *(Singapore’s most prestigious Ph.D. scholarship)* — Theme: Continuous Learning AI, Self-supervised Learning
 
-# 💻 Academic Services {#services}
-- Reviewer: ACL ARR'25-26, ICML'25, ICLR'25, NeurIPS'23-25, CVPR'22-26, ICCV'23-25, ECCV'22-24, AAAI'23-26, ACMMM'23-26, TPAMI'23, IJCV'24-25, TIP'23, MICCAI'25, CVIU'23, TCSVT'23, TVCJ'23, NEUCOM'23, ACCV'22-24, IJCAI'22, IJCNN'21, etc.
+# 💻 Professional Services {#services}
+- Journal Reviewer: TPAMI, IJCV, TIP, TNNLS, TMM, TCSVT, TVCJ, NEUCOM, CVIU, etc.
+- Conference Reviewer: ICML, NeurIPS, ICLR, CVPR, ICCV, ECCV, AAAI, ACM MM, ACL, MICCAI, ACCV, IJCAI, IJCNN, etc.
 - Teaching Assistant: [EE5731 Visual Computing](https://tanrobby.github.io/teaching/ece_visual/index.html), EE5904 Neural Network (NUS ECE)
 
 <div style="padding-bottom: 60vh;"></div>
