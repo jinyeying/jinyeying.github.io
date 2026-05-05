@@ -1901,6 +1901,61 @@ function filterTalks(cat) {
   </tr>
 </table>
 
+# ✍️ Blogs {#blogs}
+<div class="pub-filters" id="blog-topic-filters">
+  <button class="pub-filter-btn blog-filter-btn active" data-cat="all" onclick="filterBlogs('all')">All</button>
+  <button class="pub-filter-btn blog-filter-btn" data-cat="world-model" onclick="filterBlogs('world-model')">World Model</button>
+  <button class="pub-filter-btn blog-filter-btn" data-cat="gen-vision" onclick="filterBlogs('gen-vision')">Generation & Vision</button>
+</div>
+<script>
+function filterBlogs(cat) {
+  document.querySelectorAll('tr.blog-row').forEach(function(tr) {
+    tr.style.display = (cat === 'all' || tr.getAttribute('data-blog-cat') === cat) ? '' : 'none';
+  });
+  document.querySelectorAll('.blog-filter-btn').forEach(function(btn) {
+    btn.classList.toggle('active', btn.dataset.cat === cat);
+  });
+}
+</script>
+<table class="talks-table" id="blogs-table">
+  <colgroup>
+    <col style="width:78%">
+    <col style="width:22%">
+  </colgroup>
+  <tr>
+    <th>Title</th>
+    <th>Date</th>
+  </tr>
+  <tr class="blog-row" data-blog-cat="world-model">
+    <td><a href="https://zhuanlan.zhihu.com/p/2027169068495456204">世界模型再添王炸，Marble 1.1一手测评来了！</a></td>
+    <td>04.2026</td>
+  </tr>
+  <tr class="blog-row" data-blog-cat="world-model">
+    <td><a href="https://zhuanlan.zhihu.com/p/2004490330423174448">AI视频的大结局？Seedance 2.0掀桌子了! 下一站在哪?</a></td>
+    <td>02.2026</td>
+  </tr>
+  <tr class="blog-row" data-blog-cat="world-model">
+    <td><a href="https://zhuanlan.zhihu.com/p/1957164727273784702">Sora2：视频生成一年半的变化与展望</a></td>
+    <td>10.2025</td>
+  </tr>
+  <tr class="blog-row" data-blog-cat="world-model">
+    <td><a href="https://zhuanlan.zhihu.com/p/686681635">Sora揭秘: OpenAI文生视频模型, Diffusion+Transformer带来的思考</a></td>
+    <td>02.2024</td>
+  </tr>
+  <tr class="blog-row" data-blog-cat="gen-vision">
+    <td><a href="https://zhuanlan.zhihu.com/p/1925607245346996265">AI赋能UGC | 点亮每一位玩家的英雄梦</a></td>
+    <td>2025</td>
+  </tr>
+  <tr class="blog-row" data-blog-cat="gen-vision">
+    <td><a href="https://zhuanlan.zhihu.com/p/24492948611">CVPR 2025 NTIRE赛事 | 首届多场景雨滴去除挑战赛</a></td>
+    <td>06.2025</td>
+  </tr>
+  <tr class="blog-row" data-blog-cat="gen-vision">
+    <td><a href="https://zhuanlan.zhihu.com/p/595440529">ECCV 2022 | 夜间图像增强: 层分解遇到光效应抑制网络</a></td>
+    <td>10.2022</td>
+  </tr>
+</table>
+
 # 🏫 Education {#education}
 - 01.2020-01.2024: Ph.D. (AI and Deep Learning), <img src="/files/NUS.png" alt="NUS" width="42.5" height="20"> NUS, Singapore (CAP: 4.75/5.00)
 - 08.2017-08.2018: M.S. (Electrical and Computer Engineering), <img src="/files/NUS.png" alt="NUS" width="42.5" height="20"> NUS, Singapore
