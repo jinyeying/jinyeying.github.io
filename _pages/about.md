@@ -597,7 +597,7 @@ aaai26_UniFit_stop()
 <em>Association for the Advancement of Artificial Intelligence (AAAI)</em>, 2026, Singapore <br>
 <a href="https://arxiv.org/abs/2511.15831">arXiv</a>
 |
-<a href="https://github.com/zwplus/UniFit"><img src="https://img.shields.io/github/stars/zwplus/UniFit?style=social"></a>
+<a href="https://github.com/zwplus/UniFit"><img src="https://img.shields.io/github/stars/zwplus/UniFit?style=flat-square"></a>
 | 
 <a href="./files/aaai26_UniFit_bibtex.txt">bibtex</a>
 <p></p>
@@ -1222,7 +1222,7 @@ eccv24_sr_stop()
 <em>European Conference on Computer Vision (ECCV)</em>, 2024, Milan, Italy <br>
 <a href="https://arxiv.org/abs/2407.13108">arXiv</a>
 |
-<a href="https://github.com/lixinustc/UCIP_MLP_source_code/tree/main"><img src="https://img.shields.io/github/stars/lixinustc/UCIP_MLP_source_code?style=social"></a>
+<a href="https://github.com/lixinustc/UCIP_MLP_source_code/tree/main"><img src="https://img.shields.io/github/stars/lixinustc/UCIP_MLP_source_code?style=flat-square"></a>
 |
 <a href="./files/eccv24_ucip_bibtex.txt">bibtex</a>
 <p></p>
