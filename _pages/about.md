@@ -25,8 +25,9 @@ I have published papers with <a href='https://scholar.google.com/citations?user=
 
 # 📜 Research {#research}
 1. Video World Model
-2. AIGC: Generation & Vision
-3. Multimodal Learning & VLMs
+2. Agentic VLM, Agentic Video Generation
+3. AIGC: Generation & Vision
+4. Multimodal Learning & VLMs
 
 # 🔬 Projects {#projects}
 <div class="pub-filters" id="proj-topic-filters">
@@ -134,9 +135,10 @@ function _applyProjFilter() {
       </td>
       <td class="info">
         <a href="https://dualparal.github.io/ReactiveGWM/">
-          <span class="papertitle_just">ReactiveGWM: Steering NPC in Reactive Game World Models</span><sup class="corr-lead">†‡</sup>
+          <span class="papertitle_just">ReactiveGWM: Steering NPC in Reactive Game World Models</span>
         </a><br>
-        <span class="sub"><em>Game World Model</em> • 2025</span>
+        <strong>Yeying Jin</strong><sup class="corr-lead">†‡</sup> et al.<br>
+        <span class="sub"><em>Game World Model</em> • 2026</span>
         <div class="links">
           <span class="label">Links:</span>
           <a class="pill" href="https://dualparal.github.io/ReactiveGWM/">Project Page</a>
@@ -154,9 +156,10 @@ function _applyProjFilter() {
       </td>
       <td class="info">
         <a href="https://scopeanon.github.io/SCOPE/">
-          <span class="papertitle_just">SCOPE: Scalable World Model via Consistent Prediction</span><sup class="corr-lead">†‡</sup>
+          <span class="papertitle_just">SCOPE: Scalable World Model via Consistent Prediction</span>
         </a><br>
-        <span class="sub"><em>Game World Model</em> • 2025</span>
+        <strong>Yeying Jin</strong><sup class="corr-lead">†‡</sup> et al.<br>
+        <span class="sub"><em>Game World Model</em> • 2026</span>
         <div class="links">
           <span class="label">Links:</span>
           <a class="pill" href="https://scopeanon.github.io/SCOPE/">Project Page</a>
@@ -174,7 +177,7 @@ function _applyProjFilter() {
       </td>
       <td class="info">
         <a href="http://16.78.125.86:7890/">
-          <span class="papertitle_just">AI Photobooth</span><sup class="corr-lead">†‡</sup>
+          <span class="papertitle_just">AI Photobooth</span>
         </a><br>
         <span class="sub"><em>AI Photobooth</em> • 2025.12 </span>
         <p class="kpis">
@@ -200,7 +203,7 @@ function _applyProjFilter() {
       </td>
       <td class="info">
         <a href="https://camp.honorofkings.com/h5/app/index.html#/poster-design/home">
-          <span class="papertitle_just">Honor of Kings (HOK) AIUGC Detective & Esports Poster</span><sup class="corr-lead">†‡</sup>
+          <span class="papertitle_just">Honor of Kings (HOK) AIUGC Detective & Esports Poster</span>
         </a><br>
         <span class="sub"><em>HOK Flowborn Dimensional Editor</em> • 2025.08–Present</span>
         <p class="kpis">
@@ -227,7 +230,7 @@ function _applyProjFilter() {
       </td>
       <td class="info">
         <a href="https://camp.honorofkings.com/h5/app/index.html#/poster-design/home">
-          <span class="papertitle_just">Honor of Kings (HOK) AIUGC Portrait Poster</span><sup class="corr-lead">†‡</sup>
+          <span class="papertitle_just">Honor of Kings (HOK) AIUGC Portrait Poster</span>
         </a><br>
         <span class="sub"><em>HOK Flowborn Dimensional Editor</em> • 2025.06–Present</span>
         <p class="kpis">
@@ -254,7 +257,7 @@ function _applyProjFilter() {
       </td>
       <td class="info">
         <a href="https://camp.honorofkings.com/studio?creator-tools=%2Fout%2Fhok-tools#/create-tools">
-          <span class="papertitle_just">Honor of Kings (HOK) AIUGC Online Hero Generation</span><sup class="corr-lead">†‡</sup>
+          <span class="papertitle_just">Honor of Kings (HOK) AIUGC Online Hero Generation</span>
         </a><br>
         <span class="sub"><em>HOK Creator Studio</em> • 2024.12–Present</span>
         <p class="kpis">
@@ -281,7 +284,7 @@ function _applyProjFilter() {
       </td>
       <td class="info">
         <a href="https://camp.honorofkings.com/studio?creator-tools=%2Fout%2Fhok-tools#/library?oneLevelTabs=51">
-          <span class="papertitle_just">Honor of Kings (HOK) AIPGC Avatars/Stickers</span><sup class="corr-lead">†‡</sup>
+          <span class="papertitle_just">Honor of Kings (HOK) AIPGC Avatars/Stickers</span>
         </a><br>
         <span class="sub"><em>HOK Avatar Center</em> • 2024.07–Present</span>
         <p class="kpis">
@@ -394,6 +397,7 @@ function _applyProjFilter() {
 <div class="pub-filters" id="pub-topic-filters">
   <button class="pub-filter-btn active" data-cat="all" onclick="filterPubs('all')">All</button>
   <button class="pub-filter-btn" data-cat="world-model" onclick="filterPubs('world-model')">World Model</button>
+  <button class="pub-filter-btn" data-cat="agentic-vlm" onclick="filterPubs('agentic-vlm')">Agentic VLM</button>
   <button class="pub-filter-btn" data-cat="gen-vision" onclick="filterPubs('gen-vision')">Generation & Vision</button>
   <button class="pub-filter-btn" data-cat="multimodal" onclick="filterPubs('multimodal')">Multimodal & VLM</button>
   <button class="pub-filter-btn" data-cat="workshop" onclick="filterPubs('workshop')">Workshops</button>
@@ -576,7 +580,7 @@ tcsvt25_MMGT_stop()
 
 
 <!-- Paper 23 PosterCraft -->
-<tr data-category="gen-vision" onmouseout="arxiv25_PosterCraft_stop()" onmouseover="arxiv25_PosterCraft_start()" >
+<tr data-category="agentic-vlm" onmouseout="arxiv25_PosterCraft_stop()" onmouseover="arxiv25_PosterCraft_start()" >
 <td width="20%">
 <div class="one">
 <div class="two" id = 'arxiv25_PosterCraft_image'>
@@ -718,7 +722,7 @@ iccv25_GenHaze_stop()
 
 <!-- ###################################################################################################-->
 <!-- Paper 19 JarvisIR -->
-<tr data-category="gen-vision" onmouseout="cvpr25_JarvisIR_stop()" onmouseover="cvpr25_JarvisIR_start()" >
+<tr data-category="agentic-vlm" onmouseout="cvpr25_JarvisIR_stop()" onmouseover="cvpr25_JarvisIR_start()" >
 <td width="20%">
 <div class="one">
 <div class="two" id = 'cvpr25_JarvisIR_image'><img src='./files/cvpr25_JarvisIR_after.png'></div>
