@@ -110,11 +110,15 @@ function _applyProjFilter() {
 
   /* 移动端 */
   @media (max-width: 600px) {
-    .project-row td { display:block; width:100% !important; }
-    .project-row .thumb { width:100% !important; margin-bottom:8px; }
-    .side-by-side { flex-direction: row; max-height: 150px; }
-    .side-by-side img { height: 150px; width: 50%; flex: none; object-fit: cover; }
-    .project-row .info { padding-left: 0; font-size: 0.9em; }
+    .project-table { display:block; width:100% !important; overflow-x:hidden; }
+    .project-table colgroup { display:none; }
+    .project-table tbody { display:block; width:100%; }
+    .project-row { display:block; width:100%; margin-bottom:16px; }
+    .project-row td { display:block; width:100% !important; box-sizing:border-box; }
+    .project-row .thumb { width:100% !important; margin-bottom:8px; padding:0; }
+    .side-by-side { flex-direction: row; width:100%; }
+    .side-by-side img { height: 140px; width: 50%; flex: none; object-fit: cover; }
+    .project-row .info { padding-left: 0; padding-top:0; font-size: 0.9em; }
   }
 </style>
 
@@ -398,8 +402,8 @@ function _applyProjFilter() {
   <button class="pub-filter-btn active" data-cat="all" onclick="filterPubs('all')">All</button>
   <button class="pub-filter-btn" data-cat="world-model" onclick="filterPubs('world-model')">World Model</button>
   <button class="pub-filter-btn" data-cat="agentic-vlm" onclick="filterPubs('agentic-vlm')">Agentic VLM</button>
-  <button class="pub-filter-btn" data-cat="gen-vision" onclick="filterPubs('gen-vision')">Generation & Vision</button>
-  <button class="pub-filter-btn" data-cat="multimodal" onclick="filterPubs('multimodal')">Multimodal & VLM</button>
+  <button class="pub-filter-btn" data-cat="gen-vision" onclick="filterPubs('gen-vision')">Gen & Vision</button>
+  <button class="pub-filter-btn" data-cat="multimodal" onclick="filterPubs('multimodal')">Multimodal</button>
   <button class="pub-filter-btn" data-cat="workshop" onclick="filterPubs('workshop')">Workshops</button>
   <button class="pub-filter-btn" data-cat="security" onclick="filterPubs('security')">Security</button>
 </div>
@@ -1682,6 +1686,12 @@ function filterTalks(cat) {
     <td><a href="https://urvis-workshop.github.io/">CVPR URVIS</a> (invited by <a href="https://sites.google.com/view/zwwu/accueil">Zongwei Wu</a>)</td>
     <td>World Model</td>
     <td>06.04.2026@4AB<br>Denver, USA</td>
+ </tr>
+
+ <tr data-talk-cat="world-model">
+    <td><a href="https://ai4streaming-workshop.github.io/">CVPR AIGENS</a> (invited by <a href="https://mv-lab.github.io/">Marcos V. Conde</a>)</td>
+    <td>Game World Model for Video Generation</td>
+    <td>06.03.2026@105<br>Denver, USA</td>
  </tr>
 
  <tr data-talk-cat="world-model">
