@@ -138,14 +138,14 @@ function _applyProjFilter() {
         </div>
       </td>
       <td class="info">
-        <a href="https://dualparal.github.io/ReactiveGWM/">
+        <a href="https://reactivegwm.github.io/ReactiveGWM/">
           <span class="papertitle_just">ReactiveGWM: Steering NPC in Reactive Game World Models</span>
         </a><br>
         <strong>Yeying Jin</strong><sup class="corr-lead">†‡</sup> et al.<br>
         <span class="sub"><em>Game World Model</em> • 2026</span>
         <div class="links">
           <span class="label">Links:</span>
-          <a class="pill" href="https://dualparal.github.io/ReactiveGWM/">Project Page</a>
+          <a class="pill" href="https://reactivegwm.github.io/ReactiveGWM/">Project Page</a>
         </div>
       </td>
     </tr>
@@ -1755,21 +1755,27 @@ function filterTalks(cat) {
  </tr>
 
  <tr data-talk-cat="world-model">
+    <td><img src="/files/tencent.png" alt="Tencent" width="85" height="20"> SPARK Share</td>
+    <td>From Video Generation to World Model</td>
+    <td>05.22.2026<br>Singapore</td>
+ </tr>
+
+ <tr data-talk-cat="world-model">
     <td><a href="https://singaporevisionday.github.io/svd2026/">Singapore Vision Day</a> (invited by <a href="https://www.comp.nus.edu.sg/~leegh/">Gim Hee Lee</a>)</td>
-    <td><a href="https://singaporevisionday.github.io/svd2026/">Game World Model</a></td>
-    <td>05.2026<br>Singapore</td>
+    <td><a href="https://singaporevisionday.github.io/svd2026/">Game World Model</a><br>World Model Panel Discussion</td>
+    <td>05.16.2026<br>Singapore</td>
  </tr>
 
  <tr data-talk-cat="world-model">
-    <td>ICLR Booth Talk, Tencent Game Session Talk</td>
+    <td><img src="/files/tencent.png" alt="Tencent" width="85" height="20"> ICLR Booth Talk<br><img src="/files/tencent.png" alt="Tencent" width="85" height="20"> Game Session Talk</td>
     <td><a href="https://www.linkedin.com/posts/jinyeying_iclr-2026-sharing-our-work-on-world-activity-7454451566251765760-pHR1?utm_source=share&utm_medium=member_desktop&rcm=ACoAACNosSgBI_KUO4Duouy2mfHXSwk8Ap0YHFE">From AIGC to World Model</a></td>
-    <td>04.2026<br>Rio, Brazil</td>
+    <td>04.25.2026<br>Rio, Brazil</td>
  </tr>
 
  <tr data-talk-cat="world-model">
-    <td>NUS EE6934 Emerging Topics in AI Guest Lecture (invited by <a href="https://sites.google.com/site/sitexinchaowang/">Xinchao Wang</a>)</td>
+    <td>NUS EE6934 Emerging Topics in AI and Deep Learning Guest Lecture (invited by <a href="https://sites.google.com/site/sitexinchaowang/">Xinchao Wang</a>)</td>
     <td>From AIGC to World Model</td>
-    <td>03.2026<br>Singapore</td>
+    <td>03.17.2026<br>Singapore</td>
  </tr>
 
  <tr>
@@ -1791,7 +1797,7 @@ function filterTalks(cat) {
  </tr>
 
  <tr>
-    <td>Tencent Programmers Video</td>
+    <td><img src="/files/tencent.png" alt="Tencent" width="85" height="20"> Programmers Video</td>
     <td>Exploring SORA: Unlocking the Core of AI Video Creation
       [<a href="https://www.bilibili.com/video/BV1Ymy7BJEmy/?share_source=copy_web&vd_source=2da049ce4677af057256ebc4a00a8292" target="_blank">Video</a>]</td>
     <td>11.2025<br>Singapore</td>
