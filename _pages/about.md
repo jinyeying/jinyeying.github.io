@@ -1933,6 +1933,10 @@ function filterBlogs(cat) {
     <th>Date</th>
   </tr>
   <tr class="blog-row" data-blog-cat="world-model">
+    <td><a href="https://zhuanlan.zhihu.com/p/2035741904558634682">一键创世，遥遥领先？快乐生蚝HappyOyster到底有多快乐</a></td>
+    <td>04.2026</td>
+  </tr>
+  <tr class="blog-row" data-blog-cat="world-model">
     <td><a href="https://zhuanlan.zhihu.com/p/2027169068495456204">世界模型再添王炸，Marble 1.1一手测评来了！</a></td>
     <td>04.2026</td>
   </tr>
