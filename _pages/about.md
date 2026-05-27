@@ -132,20 +132,25 @@ function _applyProjFilter() {
     <!-- ReactiveGWM -->
     <tr class="project-row" data-proj-cat="world-model" data-proj-role="corr-author proj-lead">
       <td class="thumb">
-        <div class="side-by-side">
-          <img src="./files/reactivegwm_before.png" alt="ReactiveGWM before">
-          <img src="./files/reactivegwm_after.png"  alt="ReactiveGWM after">
-        </div>
+        <video autoplay loop muted playsinline
+          style="width:100%; aspect-ratio:1/1; object-fit:cover;">
+          <source src="./files/reactivegwm_demo.mp4" type="video/mp4" />
+        </video>
       </td>
       <td class="info">
-        <a href="https://reactivegwm.github.io/ReactiveGWM/">
+        <a href="https://inv-wzq.github.io/ReactiveGWM/">
           <span class="papertitle_just">ReactiveGWM: Steering NPC in Reactive Game World Models</span>
         </a><br>
         <strong>Yeying Jin</strong><sup class="corr-lead">†‡</sup> et al.<br>
         <span class="sub"><em>Game World Model</em> • 2026</span>
         <div class="links">
           <span class="label">Links:</span>
-          <a class="pill" href="https://reactivegwm.github.io/ReactiveGWM/">Project Page</a>
+          <a class="pill" href="https://inv-wzq.github.io/ReactiveGWM/">Project Page</a>
+          <a class="pill" href="https://arxiv.org/abs/2605.15256">arXiv</a>
+          <a class="pill" href="https://github.com/INV-WZQ/ReactiveGWM">Code</a>
+          <a class="pill" href="https://github.com/INV-WZQ/ReactiveGWM">
+            <img src="https://img.shields.io/github/stars/INV-WZQ/ReactiveGWM?style=social" alt="GitHub stars">
+          </a>
         </div>
       </td>
     </tr>
@@ -153,20 +158,27 @@ function _applyProjFilter() {
     <!-- SCOPE -->
     <tr class="project-row" data-proj-cat="world-model" data-proj-role="corr-author proj-lead">
       <td class="thumb">
-        <div class="side-by-side">
-          <img src="./files/scope_before.png" alt="SCOPE before">
-          <img src="./files/scope_after.png"  alt="SCOPE after">
-        </div>
+        <video autoplay loop muted playsinline
+          style="width:100%; aspect-ratio:1/1; object-fit:cover;">
+          <source src="./files/scope_demo.mp4" type="video/mp4" />
+        </video>
       </td>
       <td class="info">
-        <a href="https://scopeanon.github.io/SCOPE/">
+        <a href="https://z2tong.github.io/SCOPE/">
           <span class="papertitle_just">SCOPE: Scalable World Model via Consistent Prediction</span>
         </a><br>
         <strong>Yeying Jin</strong><sup class="corr-lead">†‡</sup> et al.<br>
         <span class="sub"><em>Game World Model</em> • 2026</span>
         <div class="links">
           <span class="label">Links:</span>
-          <a class="pill" href="https://scopeanon.github.io/SCOPE/">Project Page</a>
+          <a class="pill" href="https://z2tong.github.io/SCOPE/">Project Page</a>
+          <a class="pill" href="https://arxiv.org/abs/2605.23345">arXiv</a>
+          <a class="pill" href="https://github.com/z2tong/SCOPE">Code</a>
+          <a class="pill" href="https://github.com/z2tong/SCOPE">
+            <img src="https://img.shields.io/github/stars/z2tong/SCOPE?style=social" alt="GitHub stars">
+          </a>
+          <a class="pill" href="https://huggingface.co/zizhaotong/SCOPE">Model</a>
+          <a class="pill" href="https://huggingface.co/collections/zizhaotong/crossfps">Dataset</a>
         </div>
       </td>
     </tr>
@@ -479,7 +491,7 @@ cvpr26_Deraining_stop()
 <!-- Paper CT-1 -->
 <tr data-category="gen-vision" >
 <td width="20%">
-<video autoplay loop muted playsinline style="width:100%; aspect-ratio:1/1; object-fit:cover; border-radius:4px;">
+<video autoplay loop muted playsinline style="width:100%; aspect-ratio:1/1; object-fit:cover;">
   <source src="./files/ct1_demo.mp4" type="video/mp4">
 </video>
 </td>
