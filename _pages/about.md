@@ -141,16 +141,15 @@ function _applyProjFilter() {
         <a href="https://inv-wzq.github.io/ReactiveGWM/">
           <span class="papertitle_just">ReactiveGWM: Steering NPC in Reactive Game World Models</span>
         </a><br>
-        <strong>Yeying Jin</strong><sup class="corr-lead">†‡</sup> et al.<br>
+        Zeqing Wang, Danze Chen, Zhaohu Xing, Zizhao Tong, Yinhan Zhang, Xingyi Yang, <strong>Yeying Jin</strong><br>
         <span class="sub"><em>Game World Model</em> • 2026</span>
         <div class="links">
           <span class="label">Links:</span>
           <a class="pill" href="https://inv-wzq.github.io/ReactiveGWM/">Project Page</a>
           <a class="pill" href="https://arxiv.org/abs/2605.15256">arXiv</a>
-          <a class="pill" href="https://github.com/INV-WZQ/ReactiveGWM">Code</a>
-          <a class="pill" href="https://github.com/INV-WZQ/ReactiveGWM">
-            <img src="https://img.shields.io/github/stars/INV-WZQ/ReactiveGWM?style=social" alt="GitHub stars">
-          </a>
+          <a href="https://github.com/INV-WZQ/ReactiveGWM"><img src="https://img.shields.io/github/stars/INV-WZQ/ReactiveGWM?style=social" alt="GitHub stars"></a>
+          <a class="pill" href="https://huggingface.co/INV-WZQ/ReactiveGWM-Models">Model</a>
+          <a class="pill" href="https://huggingface.co/datasets/INV-WZQ/ReactiveGWM-Datasets">Dataset</a>
         </div>
       </td>
     </tr>
@@ -167,18 +166,39 @@ function _applyProjFilter() {
         <a href="https://z2tong.github.io/SCOPE/">
           <span class="papertitle_just">SCOPE: Scalable World Model via Consistent Prediction</span>
         </a><br>
-        <strong>Yeying Jin</strong><sup class="corr-lead">†‡</sup> et al.<br>
+        Zizhao Tong, Hongfeng Lai, Zeqing Wang, Zhaohu Xing, Kexu Cheng, Haoran Xu, Zhao Pu, Shangwen Zhu, Ruili Feng, Jian Zhao, Yan Zhang, Hao Tang, <strong>Yeying Jin</strong>, Ling Shao<br>
         <span class="sub"><em>Game World Model</em> • 2026</span>
         <div class="links">
           <span class="label">Links:</span>
           <a class="pill" href="https://z2tong.github.io/SCOPE/">Project Page</a>
           <a class="pill" href="https://arxiv.org/abs/2605.23345">arXiv</a>
-          <a class="pill" href="https://github.com/z2tong/SCOPE">Code</a>
-          <a class="pill" href="https://github.com/z2tong/SCOPE">
-            <img src="https://img.shields.io/github/stars/z2tong/SCOPE?style=social" alt="GitHub stars">
-          </a>
+          <a href="https://github.com/z2tong/SCOPE"><img src="https://img.shields.io/github/stars/z2tong/SCOPE?style=social" alt="GitHub stars"></a>
           <a class="pill" href="https://huggingface.co/zizhaotong/SCOPE">Model</a>
           <a class="pill" href="https://huggingface.co/collections/zizhaotong/crossfps">Dataset</a>
+        </div>
+      </td>
+    </tr>
+
+    <!-- Incantation -->
+    <tr class="project-row" data-proj-cat="world-model" data-proj-role="corr-author proj-lead">
+      <td class="thumb">
+        <video autoplay loop muted playsinline
+          style="width:100%; aspect-ratio:1/1; object-fit:cover;">
+          <source src="./files/incantation_demo.mp4" type="video/mp4" />
+        </video>
+      </td>
+      <td class="info">
+        <a href="https://matrixteam-ai.github.io/pages/Incanation">
+          <span class="papertitle_just">Incantation: Natural Language as the Action Interface for Multi-Entity Video World Models</span>
+        </a><br>
+        Shangwen Zhu, Qianyu Peng, Zhao Pu, Zhilei Shu, Xiangrui Ke, Zhaohu Xing, Zizhao Tong, Zeqing Wang, Xinyu Cui, Huangji Wang, Jian Zhao, <strong>Yeying Jin</strong>, Fan Cheng, Ruili Feng<br>
+        <span class="sub"><em>Game World Model</em> • 2026</span>
+        <div class="links">
+          <span class="label">Links:</span>
+          <a class="pill" href="https://matrixteam-ai.github.io/pages/Incanation">Project Page</a>
+          <a class="pill" href="https://arxiv.org/abs/2605.18601">arXiv</a>
+          <a href="https://github.com/zhushangwen/Incantation"><img src="https://img.shields.io/github/stars/zhushangwen/Incantation?style=social" alt="GitHub stars"></a>
+          <a class="pill" href="https://huggingface.co/datasets/zhush/incantation-elden-ring-scenes">Dataset</a>
         </div>
       </td>
     </tr>
@@ -504,8 +524,7 @@ cvpr26_Deraining_stop()
   <br>
   <em>arXiv preprint</em>, 2026<br>
   <a href="https://arxiv.org/abs/2604.09201">arXiv</a> /
-  <a href="https://github.com/gulucaptain/Camera-Transformer-1">code</a>
-  <img src="https://img.shields.io/github/stars/gulucaptain/Camera-Transformer-1?style=social" style="vertical-align:middle; margin-left:4px;">
+  <a href="https://github.com/gulucaptain/Camera-Transformer-1"><img src="https://img.shields.io/github/stars/gulucaptain/Camera-Transformer-1?style=social"></a>
   <p></p>
 </td>
 </tr>
