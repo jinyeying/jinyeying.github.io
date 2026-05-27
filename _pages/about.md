@@ -142,15 +142,14 @@ function _applyProjFilter() {
           <span class="papertitle_just">ReactiveGWM: Steering NPC in Reactive Game World Models</span>
         </a><br>
         Zeqing Wang, Danze Chen, Zhaohu Xing, Zizhao Tong, Yinhan Zhang, Xingyi Yang<sup class="corr-lead">†</sup>, <strong>Yeying Jin</strong><sup class="corr-lead">†‡</sup><br>
-        <span class="sub">NPCs follow high-level strategies (Offense / Defense / Control) via cross-attention, enabling zero-shot strategy transfer to new games without retraining.</span>
         <div class="links">
-          <span class="label">Links:</span>
           <a class="pill" href="https://inv-wzq.github.io/ReactiveGWM/">Project Page</a>
           <a class="pill" href="https://arxiv.org/abs/2605.15256">arXiv</a>
-          <a href="https://github.com/INV-WZQ/ReactiveGWM"><img src="https://img.shields.io/github/stars/INV-WZQ/ReactiveGWM?style=social" alt="GitHub stars"></a>
+          <a href="https://github.com/INV-WZQ/ReactiveGWM"><img src="https://img.shields.io/github/stars/INV-WZQ/ReactiveGWM?style=social&cacheSeconds=86400" alt="GitHub stars"></a>
           <a class="pill" href="https://huggingface.co/INV-WZQ/ReactiveGWM-Models">Model</a>
           <a class="pill" href="https://huggingface.co/datasets/INV-WZQ/ReactiveGWM-Datasets">Dataset</a>
         </div>
+        <span class="sub">NPCs follow high-level strategies (Offense / Defense / Control) via cross-attention.<br>Zero-shot strategy transfer to new games without retraining.</span>
       </td>
     </tr>
 
@@ -167,15 +166,14 @@ function _applyProjFilter() {
           <span class="papertitle_just">SCOPE: Scalable World Model via Consistent Prediction</span>
         </a><br>
         Zizhao Tong, Hongfeng Lai, Zeqing Wang, Zhaohu Xing, Kexu Cheng, Haoran Xu, Zhao Pu, Shangwen Zhu, Ruili Feng, Jian Zhao, Yan Zhang, Hao Tang, <strong>Yeying Jin</strong><sup class="corr-lead">†‡</sup>, Ling Shao<sup class="corr-lead">†</sup><br>
-        <span class="sub">An interactive world model for FPS games. Handles dense controls by learning per-pixel temporal action responses. Includes CrossFPS: the first multi-game FPS dataset (69K clips, 7 titles, 10-DoF).</span>
         <div class="links">
-          <span class="label">Links:</span>
           <a class="pill" href="https://z2tong.github.io/SCOPE/">Project Page</a>
           <a class="pill" href="https://arxiv.org/abs/2605.23345">arXiv</a>
-          <a href="https://github.com/z2tong/SCOPE"><img src="https://img.shields.io/github/stars/z2tong/SCOPE?style=social" alt="GitHub stars"></a>
+          <a href="https://github.com/z2tong/SCOPE"><img src="https://img.shields.io/github/stars/z2tong/SCOPE?style=social&cacheSeconds=86400" alt="GitHub stars"></a>
           <a class="pill" href="https://huggingface.co/zizhaotong/SCOPE">Model</a>
           <a class="pill" href="https://huggingface.co/collections/zizhaotong/crossfps">Dataset</a>
         </div>
+        <span class="sub">An interactive world model for FPS games.<br>Handles dense controls by learning per-pixel temporal action responses.<br>Includes CrossFPS: the first multi-game FPS dataset (69K clips, 7 titles, 10-DoF).</span>
       </td>
     </tr>
 
@@ -192,14 +190,13 @@ function _applyProjFilter() {
           <span class="papertitle_just">Incantation: Natural Language as the Action Interface for Multi-Entity Video World Models</span>
         </a><br>
         Shangwen Zhu, Qianyu Peng, Zhao Pu, Zhilei Shu, Xiangrui Ke, Zhaohu Xing, Zizhao Tong, Zeqing Wang, Xinyu Cui, Huangji Wang, Jian Zhao, <strong>Yeying Jin</strong><sup class="corr-lead">‡</sup>, Fan Cheng<sup class="corr-lead">†</sup>, Ruili Feng<sup class="corr-lead">†</sup><br>
-        <span class="sub">Natural language as the action interface for multi-entity control. Enables cross-entity transfer (89% vs 43% for action IDs) and out-of-vocabulary control that fixed action spaces cannot achieve.</span>
         <div class="links">
-          <span class="label">Links:</span>
           <a class="pill" href="https://matrixteam-ai.github.io/pages/Incanation">Project Page</a>
           <a class="pill" href="https://arxiv.org/abs/2605.18601">arXiv</a>
-          <a href="https://github.com/zhushangwen/Incantation"><img src="https://img.shields.io/github/stars/zhushangwen/Incantation?style=social" alt="GitHub stars"></a>
+          <a href="https://github.com/zhushangwen/Incantation"><img src="https://img.shields.io/github/stars/zhushangwen/Incantation?style=social&cacheSeconds=86400" alt="GitHub stars"></a>
           <a class="pill" href="https://huggingface.co/datasets/zhush/incantation-elden-ring-scenes">Dataset</a>
         </div>
+        <span class="sub">Natural language as the action interface for multi-entity control.<br>Enables cross-entity transfer (89% vs 43% for action IDs) and out-of-vocabulary control.</span>
       </td>
     </tr>
 
@@ -525,7 +522,7 @@ cvpr26_Deraining_stop()
   <em>arXiv preprint</em>, 2026<br>
   <a href="https://arxiv.org/abs/2604.09201">arXiv</a> /
   <a href="https://gulucaptain.github.io/Camera-Transformer-1/">Project Page</a> /
-  <a href="https://github.com/gulucaptain/Camera-Transformer-1"><img src="https://img.shields.io/github/stars/gulucaptain/Camera-Transformer-1?style=social"></a>
+  <a href="https://github.com/gulucaptain/Camera-Transformer-1"><img src="https://img.shields.io/github/stars/gulucaptain/Camera-Transformer-1?style=social&cacheSeconds=86400"></a>
   <p></p>
 </td>
 </tr>
@@ -533,7 +530,7 @@ cvpr26_Deraining_stop()
 
 <!-- ###################################################################################################-->
 <!-- Paper InstanceAnimator -->
-<tr data-category="gen-vision" onmouseout="arxiv25_InstanceAnimator_stop()" onmouseover="arxiv25_InstanceAnimator_start()" >
+<tr data-category="gen-vision" data-role="proj-lead" onmouseout="arxiv25_InstanceAnimator_stop()" onmouseover="arxiv25_InstanceAnimator_start()" >
 <td width="20%">
 <div class="one">
 <div class="two" id='arxiv25_InstanceAnimator_image'>
@@ -555,11 +552,11 @@ arxiv25_InstanceAnimator_stop()
     <papertitle_just>InstanceAnimator: Multi-Instance Sketch Video Colorization</papertitle_just>
   </a>
   <br>
-  Yinhan Zhang<sup class="eq-contrib">*</sup>, Yue Ma<sup class="eq-contrib">*</sup>, Bingyuan Wang, Kunyu Feng, <strong>Yeying Jin</strong>, Qifeng Chen, Anyi Rao, Zeyu Wang
+  Yinhan Zhang<sup class="eq-contrib">*</sup>, Yue Ma<sup class="eq-contrib">*</sup>, Bingyuan Wang, Kunyu Feng, <strong>Yeying Jin</strong><sup class="corr-lead">‡</sup>, Qifeng Chen, Anyi Rao, Zeyu Wang<sup class="corr-lead">†</sup>
   <br>
   <em>arXiv preprint</em>, 2026<br>
   <a href="https://arxiv.org/abs/2603.25357">arXiv</a> /
-  <a href="https://github.com/YinHan-Zhang/InstanceAnimator"><img src="https://img.shields.io/github/stars/YinHan-Zhang/InstanceAnimator?style=social"></a>
+  <a href="https://github.com/YinHan-Zhang/InstanceAnimator"><img src="https://img.shields.io/github/stars/YinHan-Zhang/InstanceAnimator?style=social&cacheSeconds=86400"></a>
   <p></p>
 </td>
 </tr>
@@ -589,11 +586,11 @@ icml26_zerase_stop()
     <papertitle_just>Z-Erase: Enabling Concept Erasure in Single-Stream Diffusion Transformers</papertitle_just>
   </a>
   <br>
-  Nanxiang Jiang, Zhaoxin Fan, Baisen Wang, Daiheng Gao, Junhang Cheng, Jifeng Guo, Yalan Qin, <strong>Yeying Jin</strong>, Hongwei Zheng, Faguo Wu, Wenjun Wu
+  Nanxiang Jiang, Zhaoxin Fan<sup class="corr-lead">†</sup>, Baisen Wang, Daiheng Gao, Junhang Cheng, Jifeng Guo, Yalan Qin, <strong>Yeying Jin</strong><sup class="corr-lead">‡</sup>, Hongwei Zheng, Faguo Wu<sup class="corr-lead">†</sup>, Wenjun Wu
   <br>
   <em>International Conference on Machine Learning (ICML)</em>, 2026, Seoul, South Korea<br>
   <a href="https://arxiv.org/abs/2603.25074">arXiv</a> /
-  <a href="https://github.com/nxjiang-jnx/Z-Erase"><img src="https://img.shields.io/github/stars/nxjiang-jnx/Z-Erase?style=social"></a>
+  <a href="https://github.com/nxjiang-jnx/Z-Erase"><img src="https://img.shields.io/github/stars/nxjiang-jnx/Z-Erase?style=social&cacheSeconds=86400"></a>
   <p></p>
 </td>
 </tr>
@@ -623,12 +620,12 @@ aaai26_UniFit_stop()
     <papertitle_just>UniFit: Towards Universal Virtual Try-on with MLLM-Guided Semantic Alignment</papertitle_just>     
   </a>
   <br>
-  Wei Zhang<sup class="eq-contrib">*</sup>, <strong>Yeying Jin</strong><sup class="eq-contrib">*</sup>, Xin Li, Yan Zhang, Xiaofeng Cong, Cong Wang, Fengcai Qiao, Zhichao Lian
+  Wei Zhang<sup class="eq-contrib">*</sup>, <strong>Yeying Jin</strong><sup class="eq-contrib">*</sup>, Xin Li, Yan Zhang, Xiaofeng Cong, Cong Wang, Fengcai Qiao, Zhichao Lian<sup class="corr-lead">†</sup>
   <br>
 <em>Association for the Advancement of Artificial Intelligence (AAAI)</em>, 2026, Singapore <br>
 <a href="https://arxiv.org/abs/2511.15831">arXiv</a>
 |
-<a href="https://github.com/zwplus/UniFit"><img src="https://img.shields.io/github/stars/zwplus/UniFit?style=social"></a>
+<a href="https://github.com/zwplus/UniFit"><img src="https://img.shields.io/github/stars/zwplus/UniFit?style=social&cacheSeconds=86400"></a>
 | 
 <a href="./files/aaai26_UniFit_bibtex.txt">bibtex</a>
 <p></p>
@@ -660,12 +657,12 @@ tcsvt25_MMGT_stop()
     <papertitle_just>MMGT: Motion Mask Guided Two-Stage Network for Co-Speech Gesture Video Generation</papertitle_just>     
   </a>
   <br>
-  Siyuan Wang, Jiawei Liu, Wei Wang, <strong>Yeying Jin</strong>, Jinsong Du, Zhi Han
+  Siyuan Wang<sup class="eq-contrib">*</sup>, Jiawei Liu<sup class="eq-contrib">*</sup>, Wei Wang<sup class="corr-lead">†</sup>, <strong>Yeying Jin</strong>, Jinsong Du, Zhi Han
   <br>
 <em>IEEE Transactions on Circuits and Systems for Video Technology (TCSVT)</em>, 2025 <br>
 <a href="https://arxiv.org/abs/2505.23120">arXiv</a>
 |
-<a href="https://github.com/SIA-IDE/MMGT"><img src="https://img.shields.io/github/stars/SIA-IDE/MMGT?style=social"></a> 
+<a href="https://github.com/SIA-IDE/MMGT"><img src="https://img.shields.io/github/stars/SIA-IDE/MMGT?style=social&cacheSeconds=86400"></a> 
 | 
 <a href="./files/tcsvt25_MMGT_bibtex.txt">bibtex</a>
 <p></p>
@@ -697,12 +694,12 @@ arxiv25_PosterCraft_stop()
     <papertitle_just>PosterCraft: Rethinking High-Quality Aesthetic Poster Generation in a Unified Framework</papertitle_just>     
   </a>
   <br>
-  Sixiang Chen*, Jianyu Lai*, Jialin Gao*, Tian Ye, Haoyu Chen, Hengyu Shi, Shitong Shao, Yunlong Lin, Song Fei, Zhaohu Xing, <strong>Yeying Jin</strong>, Junfeng Luo, Xiaoming Wei, Lei Zhu
+  Sixiang Chen<sup class="eq-contrib">*</sup>, Jianyu Lai<sup class="eq-contrib">*</sup>, Jialin Gao<sup class="eq-contrib">*</sup>, Tian Ye, Haoyu Chen, Hengyu Shi, Shitong Shao, Yunlong Lin, Song Fei, Zhaohu Xing, <strong>Yeying Jin</strong>, Junfeng Luo, Xiaoming Wei, Lei Zhu<sup class="corr-lead">†</sup>
   <br>
 <em>The International Conference on Learning Representations (ICLR)</em>, 2026, Rio, Brazil <br>
 <a href="https://arxiv.org/abs/2506.10741">arXiv</a>
 |
-<a href="https://github.com/Ephemeral182/PosterCraft"><img src="https://img.shields.io/github/stars/Ephemeral182/PosterCraft?style=social"></a>
+<a href="https://github.com/Ephemeral182/PosterCraft"><img src="https://img.shields.io/github/stars/Ephemeral182/PosterCraft?style=social&cacheSeconds=86400"></a>
 | 
 <a href="./files/arxiv25_PosterCraft_bibtex.txt">bibtex</a>
 |
@@ -741,14 +738,16 @@ acm25_DSDNet_stop()
     <papertitle_just>DSDNet: Raw Domain Demoiréing via Dual Color-Space Synergy</papertitle_just>     
   </a>
   <br>
-  Qirui Yang, Fangpu Zhang, <strong>Yeying Jin</strong>, Qihua Cheng, Pengtao Jiang, Huanjing Yue, Jingyu Yang
+  Qirui Yang<sup class="eq-contrib">*</sup>, Fangpu Zhang<sup class="eq-contrib">*</sup>, <strong>Yeying Jin</strong>, Qihua Cheng, Pengtao Jiang, Huanjing Yue<sup class="corr-lead">†</sup>, Jingyu Yang<sup class="corr-lead">†</sup>
   <br>
 <em>ACM Multimedia (ACM'MM)</em>, 2025, Dublin, Ireland <br>
 <a href="https://arxiv.org/abs/2504.15756">arXiv</a>
 |
+<a href="https://github.com/xxxxxxxxDSDNet/DSDNet-official"><img src="https://img.shields.io/github/stars/xxxxxxxxDSDNet/DSDNet-official?style=social&cacheSeconds=86400"></a>
+|
 <a href="./files/acm25_DSDNet_bibtex.txt">bibtex</a> 
 |
-<a href="https://xxxxxxxxdsdnet.github.io/DSDNet/">demo</a>  
+<a href="https://xxxxxxxxdsdnet.github.io/DSDNet/">project page</a>  
 <p></p>
 </td>
 </tr>
@@ -767,7 +766,7 @@ acm25_DSDNet_stop()
     <papertitle_just>Unveiling Hidden Vulnerabilities in Digital Human Generation via Adversarial Attacks</papertitle_just>     
   </a>
   <br>
-  Zhiying Li<sup class="eq-contrib">*</sup>, <strong>Yeying Jin</strong><sup class="eq-contrib">*</sup>, Fan Shen, Zhi Liu, Weibin Chen, Pengju Zhang, Xiaomei Zhang, Boyu Chen, Michael Shen, Kejian Wu, Zhaoxin Fan, Jin Dong
+  Zhiying Li<sup class="eq-contrib">*</sup>, <strong>Yeying Jin</strong><sup class="eq-contrib">*</sup>, Fan Shen, Zhi Liu, Weibin Chen, Pengju Zhang, Xiaomei Zhang, Boyu Chen, Michael Shen, Kejian Wu, Zhaoxin Fan<sup class="corr-lead">†</sup>, Jin Dong<sup class="corr-lead">†</sup>
   <br>
 <em>Pattern Recognition (PR)</em>, 2025 <br>
 <a href="https://arxiv.org/abs/2504.17457">arXiv</a>
@@ -803,7 +802,7 @@ iccv25_GenHaze_stop()
     <papertitle_just>GenHaze: Pioneering Controllable One-Step Realistic Haze Generation for Real-World Dehazing</papertitle_just>     
   </a>
   <br>
- Sixiang Chen, Tian Ye, Yunlong Lin, <strong>Yeying Jin</strong>, Yijun Yang, Haoyu Chen, Jianyu Lai, Song Fei, Zhaohu Xing, Fugee Tsung, Lei Zhu
+ Sixiang Chen, Tian Ye, Yunlong Lin, <strong>Yeying Jin</strong>, Yijun Yang, Haoyu Chen, Jianyu Lai, Song Fei, Zhaohu Xing, Fugee Tsung, Lei Zhu<sup class="corr-lead">†</sup>
   <br>
 <em>International Conference on Computer Vision (ICCV)</em>, 2025, Hawaii, USA <br>
 <a href="https://openaccess.thecvf.com/content/ICCV2025/papers/Chen_GenHaze_Pioneering_Controllable_One-Step_Realistic_Haze_Generation_for_Real-World_Dehazing_ICCV_2025_paper.pdf">arXiv</a>
@@ -838,12 +837,12 @@ cvpr25_JarvisIR_stop()
     <papertitle_just>JarvisIR: Elevating Autonomous Driving Perception with Intelligent Image Restoration</papertitle_just>     
   </a>
   <br>
-  Yunlong Lin*, Zixu Lin*, Haoyu Chen*, Panwang Pan*, Chenxin Li, Sixiang Chen, Kairun Wen, <strong>Yeying Jin</strong>, Wenbo Li, Xinghao Ding
+  Yunlong Lin<sup class="eq-contrib">*</sup>, Zixu Lin<sup class="eq-contrib">*</sup>, Haoyu Chen<sup class="eq-contrib">*</sup>, Panwang Pan<sup class="eq-contrib">*</sup>, Chenxin Li, Sixiang Chen, Kairun Wen, <strong>Yeying Jin</strong>, Wenbo Li<sup class="corr-lead">†</sup>, Xinghao Ding<sup class="corr-lead">†</sup>
   <br>
 <em>Computer Vision and Pattern Recognition (CVPR)</em>, 2025, Nashville, USA <br>
 <a href="https://arxiv.org/abs/2504.04158">arXiv</a>
 |
-<a href="https://github.com/LYL1015/JarvisIR"><img src="https://img.shields.io/github/stars/LYL1015/JarvisIR?style=social"></a>
+<a href="https://github.com/LYL1015/JarvisIR"><img src="https://img.shields.io/github/stars/LYL1015/JarvisIR?style=social&cacheSeconds=86400"></a>
 | 
 <a href="./files/cvpr25_JarvisIR_bibtex.txt">bibtex</a>
 |
@@ -917,7 +916,7 @@ ntire26_rd_stop()
   <em>Computer Vision and Pattern Recognition (CVPR)</em>, 2026, Denver, USA <br>
   <a href="https://arxiv.org/abs/2604.10634">arXiv</a>
   |
-  <a href="https://github.com/jinyeying/RaindropClarity"><img src="https://img.shields.io/github/stars/jinyeying/RaindropClarity?style=social"></a>
+  <a href="https://github.com/jinyeying/RaindropClarity"><img src="https://img.shields.io/github/stars/jinyeying/RaindropClarity?style=social&cacheSeconds=86400"></a>
   |
   <a href="https://www.codabench.org/competitions/12808/">competition</a>
   |
@@ -955,7 +954,7 @@ ntire25_rd_stop()
   <em>Computer Vision and Pattern Recognition (CVPR)</em>, 2025, Nashville, USA <br>
   <a href="https://arxiv.org/abs/2504.12711">arXiv</a>
   |
-  <a href="https://github.com/jinyeying/RaindropClarity"><img src="https://img.shields.io/github/stars/jinyeying/RaindropClarity?style=social"></a>
+  <a href="https://github.com/jinyeying/RaindropClarity"><img src="https://img.shields.io/github/stars/jinyeying/RaindropClarity?style=social&cacheSeconds=86400"></a>
   |
   <a href="./files/ntire25_raindropclarify_bibtex.txt">bibtex</a>
   |
@@ -999,7 +998,7 @@ eccv24_rd_stop()
   <em>European Conference on Computer Vision (ECCV)</em>, 2024, Milan, Italy <br>
   <a href="https://arxiv.org/abs/2407.16957">arXiv</a>
   |
-  <a href="https://github.com/jinyeying/RaindropClarity"><img src="https://img.shields.io/github/stars/jinyeying/RaindropClarity?style=social"></a>
+  <a href="https://github.com/jinyeying/RaindropClarity"><img src="https://img.shields.io/github/stars/jinyeying/RaindropClarity?style=social&cacheSeconds=86400"></a>
   |
   <a href="./files/eccv24_raindropclarify_bibtex.txt">bibtex</a>
   |
@@ -1040,7 +1039,7 @@ acl25_hscr_stop()
     <papertitle_just>HSCR: Hierarchical Self-Contrastive Rewarding for Aligning Medical Vision Language Models</papertitle_just>
   </a>
   <br>
-  Songtao Jiang, Yan Zhang, <strong>Yeying Jin</strong>, Zhihang Tang, Yangyang Wu, Yang Feng, Jian Wu, Zuozhu Liu
+  Songtao Jiang, Yan Zhang, <strong>Yeying Jin</strong>, Zhihang Tang, Yangyang Wu, Yang Feng, Jian Wu, Zuozhu Liu<sup class="corr-lead">†</sup>
   <br>
   <em>Association for Computational Linguistics (ACL)</em>, 2025, Vienna, Austria <br>
   <a href="https://arxiv.org/abs/2506.00805">arXiv</a>
@@ -1074,7 +1073,7 @@ acl25_vqa_stop()
     <papertitle_just>Fast or Slow? Integrating Fast Intuition and Deliberate Thinking for Enhancing Visual Question Answering</papertitle_just>
   </a>
   <br>
-  Songtao Jiang, Chenyi Zhou, Yan Zhang, <strong>Yeying Jin</strong>, Zuozhu Liu
+  Songtao Jiang<sup class="eq-contrib">*</sup>, Chenyi Zhou<sup class="eq-contrib">*</sup>, Yan Zhang, <strong>Yeying Jin</strong>, Zuozhu Liu<sup class="corr-lead">†</sup>
   <br>
   <em>Association for Computational Linguistics (ACL)</em>, 2025, Vienna, Austria <br>
   <a href="https://arxiv.org/abs/2506.00806">arXiv</a>
@@ -1108,7 +1107,7 @@ arxiv24_dpo_stop()
     <papertitle_just>Modality-Fair Preference Optimization for Trustworthy MLLM Alignment</papertitle_just>
   </a>
   <br>
-  Songtao Jiang, Yan Zhang, Ruizhe Chen, <strong>Yeying Jin</strong>, Zuozhu Liu
+  Songtao Jiang, Yan Zhang, Ruizhe Chen, <strong>Yeying Jin</strong>, Zuozhu Liu<sup class="corr-lead">†</sup>
   <br>
   <em>International Joint Conference on Artificial Intelligence (IJCAI)</em>, 2025, Montreal, Canada <br>
   <a href="https://arxiv.org/abs/2410.15334">arXiv</a>
@@ -1142,12 +1141,12 @@ arxiv24_CGSAM_stop()
     <papertitle_just>Joint Visual and Text Prompting for Improved Object-Centric Perception with Multimodal Large Language Models</papertitle_just>
   </a>
   <br>
-  Songtao Jiang, Yan Zhang, Chenyi Zhou, <strong>Yeying Jin</strong>, Yang Feng, Jian Wu, Zuozhu Liu
+  Songtao Jiang<sup class="eq-contrib">*</sup>, Yan Zhang<sup class="eq-contrib">*</sup>, Chenyi Zhou, <strong>Yeying Jin</strong>, Yang Feng, Jian Wu, Zuozhu Liu<sup class="corr-lead">†</sup>
   <br>
   <em>ADHIP Best Paper Award</em>, 2024, Jiaxing, China <br>
   <a href="https://arxiv.org/abs/2404.04514">arXiv</a>
   |
-  <a href="https://github.com/jiangsongtao/VTprompt"><img src="https://img.shields.io/github/stars/jiangsongtao/VTprompt?style=social"></a>
+  <a href="https://github.com/jiangsongtao/VTprompt"><img src="https://img.shields.io/github/stars/jiangsongtao/VTprompt?style=social&cacheSeconds=86400"></a>
   |
   <a href="./files/CGSAM24_bibtex.txt">bibtex</a>
   <p></p>
@@ -1178,12 +1177,12 @@ emnlp24_moe_stop()
     <papertitle_just>Med-MoE: Mixture of Domain-Specific Experts for Lightweight Medical Vision-Language Models</papertitle_just>
   </a>
   <br>
-  Songtao Jiang, Tuo Zheng, Yan Zhang, <strong>Yeying Jin</strong>, Li Yuan, Zuozhu Liu
+  Songtao Jiang<sup class="eq-contrib">*</sup>, Tuo Zheng<sup class="eq-contrib">*</sup>, Yan Zhang, <strong>Yeying Jin</strong>, Li Yuan, Zuozhu Liu<sup class="corr-lead">†</sup>
   <br>
   <em>EMNLP finding</em>, 2024, Miami, Florida <br>
   <a href="https://arxiv.org/abs/2404.10237">arXiv</a>
   |
-  <a href="https://github.com/jiangsongtao/Med-MoE"><img src="https://img.shields.io/github/stars/jiangsongtao/Med-MoE?style=social"></a>
+  <a href="https://github.com/jiangsongtao/Med-MoE"><img src="https://img.shields.io/github/stars/jiangsongtao/Med-MoE?style=social&cacheSeconds=86400"></a>
   |
   <a href="./files/emnlp24_moe_bibtex.txt">bibtex</a>
   <p></p>
@@ -1248,12 +1247,12 @@ eccv24_sr_stop()
     <papertitle_just>UCIP: A Universal Framework for Compressed Image Super-Resolution using Dynamic Prompt</papertitle_just>     
   </a>
   <br>
-  Xin Li, Bingchen Li, <strong>Yeying Jin</strong>, Cuiling Lan, Hanxin Zhu, Yulin Ren, Zhibo Chen
+  Xin Li<sup class="eq-contrib">*</sup>, Bingchen Li<sup class="eq-contrib">*</sup>, <strong>Yeying Jin</strong>, Cuiling Lan, Hanxin Zhu, Yulin Ren, Zhibo Chen<sup class="corr-lead">†</sup>
   <br>
 <em>European Conference on Computer Vision (ECCV)</em>, 2024, Milan, Italy <br>
 <a href="https://arxiv.org/abs/2407.13108">arXiv</a>
 |
-<a href="https://github.com/lixinustc/UCIP_MLP_source_code/tree/main"><img src="https://img.shields.io/github/stars/lixinustc/UCIP_MLP_source_code?style=social"></a>
+<a href="https://github.com/lixinustc/UCIP_MLP_source_code/tree/main"><img src="https://img.shields.io/github/stars/lixinustc/UCIP_MLP_source_code?style=social&cacheSeconds=86400"></a>
 |
 <a href="./files/eccv24_ucip_bibtex.txt">bibtex</a>
 <p></p>
@@ -1289,7 +1288,7 @@ submit24_nighthaze_stop()
 <em>Association for the Advancement of Artificial Intelligence (AAAI)</em>, 2025, Philadelphia, USA <br>
 <a href="https://arxiv.org/abs/2403.07408">arXiv</a>
 |
-<a href="https://github.com/bb12346/nighthaze_codes"><img src="https://img.shields.io/github/stars/bb12346/nighthaze_codes?style=social"></a> 
+<a href="https://github.com/bb12346/nighthaze_codes"><img src="https://img.shields.io/github/stars/bb12346/nighthaze_codes?style=social&cacheSeconds=86400"></a> 
 |
 <a href="./files/submit24_nighthaze_bibtex.txt">bibtex</a> 
 |
@@ -1322,12 +1321,12 @@ cvpr24_sr_stop()
     <papertitle_just>SeD: Semantic-Aware Discriminator for Image Super-Resolution</papertitle_just>     
   </a>
   <br>
-  Bingchen Li, Xin Li, Hanxin Zhu, <strong>Yeying Jin</strong>, Ruoyu Feng, Zhizheng Zhang, Zhibo Chen
+  Bingchen Li<sup class="eq-contrib">*</sup>, Xin Li<sup class="eq-contrib">*</sup>, Hanxin Zhu, <strong>Yeying Jin</strong>, Ruoyu Feng, Zhizheng Zhang, Zhibo Chen<sup class="corr-lead">†</sup>
   <br>
 <em>Conference on Computer Vision and Pattern Recognition (CVPR)</em>, 2024, Seattle, USA <br>
 <a href="https://arxiv.org/abs/2402.19387">arXiv</a>
 |
-<a href="https://github.com/lbc12345/SeD"><img src="https://img.shields.io/github/stars/lbc12345/SeD?style=social"></a>
+<a href="https://github.com/lbc12345/SeD"><img src="https://img.shields.io/github/stars/lbc12345/SeD?style=social&cacheSeconds=86400"></a>
 |
 <a href="./files/cvpr24_sr_bibtex.txt">bibtex</a>
 <p></p>
@@ -1363,7 +1362,7 @@ aaai24_des3_stop()
 <em>Association for the Advancement of Artificial Intelligence (AAAI)</em>, 2024, Vancouver, Canada <br>
 <a href="https://arxiv.org/abs/2211.08089">arXiv</a>
 |
-<a href="https://github.com/jinyeying/DeS3_Deshadow"><img src="https://img.shields.io/github/stars/jinyeying/DeS3_Deshadow?style=social"></a>
+<a href="https://github.com/jinyeying/DeS3_Deshadow"><img src="https://img.shields.io/github/stars/jinyeying/DeS3_Deshadow?style=social&cacheSeconds=86400"></a>
 |
 <a href="./files/submit23_shadowdiffusion_bibtex.txt">bibtex</a>
 |
@@ -1442,7 +1441,7 @@ eccv22_nightenhance_stop()
 <em>European Conference on Computer Vision (ECCV)</em>, 2022, Tel Aviv, Israel <br>
 <a href="https://arxiv.org/abs/2207.10564">arXiv</a>
 |
-<a href="https://github.com/jinyeying/night-enhancement"><img src="https://img.shields.io/github/stars/jinyeying/night-enhancement?style=social"></a>
+<a href="https://github.com/jinyeying/night-enhancement"><img src="https://img.shields.io/github/stars/jinyeying/night-enhancement?style=social&cacheSeconds=86400"></a>
 |
 <a href="./files/eccv22_nightenhance_bibtex.txt">bibtex</a>
 |  
@@ -1495,7 +1494,7 @@ iccv21_dcshadownet_stop()
 <em>International Conference on Computer Vision (ICCV)</em>, 2021, Montreal, Canada <br>
 <a href="https://arxiv.org/abs/2207.10434">arXiv</a>
 |  
-<a href="https://github.com/jinyeying/DC-ShadowNet-Hard-and-Soft-Shadow-Removal"><img src="https://img.shields.io/github/stars/jinyeying/DC-ShadowNet-Hard-and-Soft-Shadow-Removal?style=social"></a>
+<a href="https://github.com/jinyeying/DC-ShadowNet-Hard-and-Soft-Shadow-Removal"><img src="https://img.shields.io/github/stars/jinyeying/DC-ShadowNet-Hard-and-Soft-Shadow-Removal?style=social&cacheSeconds=86400"></a>
 |  
 <a href="./files/iccv21_shadow_bibtex.txt">bibtex</a>
 |
@@ -1541,7 +1540,7 @@ acmmm23_nightdehaze_stop()
 <em>ACM Multimedia (ACM'MM)</em>, 2023, Ottawa, Canada <br>
 <a href="https://arxiv.org/abs/2308.01738">arXiv</a>
 |
-<a href="https://github.com/jinyeying/nighttime_dehaze"><img src="https://img.shields.io/github/stars/jinyeying/nighttime_dehaze?style=social"></a>
+<a href="https://github.com/jinyeying/nighttime_dehaze"><img src="https://img.shields.io/github/stars/jinyeying/nighttime_dehaze?style=social&cacheSeconds=86400"></a>
 |
 <a href="./files/acmmm23_nightdehaze_bibtex.txt">bibtex</a>
 |
@@ -1586,7 +1585,7 @@ aaai23_reflectance_stop()
 <em>Association for the Advancement of Artificial Intelligence (AAAI)</em>, 2023, Washington DC, USA <br>
 <a href="https://arxiv.org/abs/2211.14751">arXiv</a>
 |
-<a href="https://github.com/jinyeying/S-Aware-network"><img src="https://img.shields.io/github/stars/jinyeying/S-Aware-network?style=social"></a>
+<a href="https://github.com/jinyeying/S-Aware-network"><img src="https://img.shields.io/github/stars/jinyeying/S-Aware-network?style=social&cacheSeconds=86400"></a>
 |
 <a href="./files/aaai23_reflectance_bibtex.txt">bibtex</a> 
 |
@@ -1630,7 +1629,7 @@ accv22_defog_stop()
 <em>Asian Conference on Computer Vision (ACCV)</em>, 2022, Macau, China <br>
 <a href="https://arxiv.org/abs/2210.03061">arXiv</a>
 |
-<a href="https://github.com/jinyeying/FogRemoval"><img src="https://img.shields.io/github/stars/jinyeying/FogRemoval?style=social"></a>
+<a href="https://github.com/jinyeying/FogRemoval"><img src="https://img.shields.io/github/stars/jinyeying/FogRemoval?style=social&cacheSeconds=86400"></a>
 |
 <a href="./files/accv22_defog_bibtex.txt">bibtex</a>
 |  
