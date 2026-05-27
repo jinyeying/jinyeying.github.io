@@ -149,7 +149,7 @@ function _applyProjFilter() {
           <a class="pill" href="https://huggingface.co/INV-WZQ/ReactiveGWM-Models">Model</a>
           <a class="pill" href="https://huggingface.co/datasets/INV-WZQ/ReactiveGWM-Datasets">Dataset</a>
         </div>
-        <span class="sub">NPCs follow high-level strategies (Offense / Defense / Control) via cross-attention.<br>Zero-shot strategy transfer to new games without retraining.</span>
+        <span class="sub" style="display:block; margin-top:8px; line-height:1.5;">A game world model where NPCs follow high-level strategies (Offense / Defense / Control) via cross-attention — not just background pixels.<br>The strategy module transfers zero-shot to a new game without retraining.</span>
       </td>
     </tr>
 
@@ -173,7 +173,7 @@ function _applyProjFilter() {
           <a class="pill" href="https://huggingface.co/zizhaotong/SCOPE">Model</a>
           <a class="pill" href="https://huggingface.co/collections/zizhaotong/crossfps">Dataset</a>
         </div>
-        <span class="sub">An interactive world model for FPS games.<br>Handles dense controls by learning per-pixel temporal action responses.<br>Includes CrossFPS: the first multi-game FPS dataset (69K clips, 7 titles, 10-DoF).</span>
+        <span class="sub" style="display:block; margin-top:8px; line-height:1.5;">An interactive world model for FPS games.<br>Handles dense controls by learning per-pixel temporal action responses.<br>Includes CrossFPS: the first multi-game FPS dataset (69K clips, 7 titles, 10-DoF).</span>
       </td>
     </tr>
 
@@ -196,7 +196,7 @@ function _applyProjFilter() {
           <a href="https://github.com/zhushangwen/Incantation"><img src="https://img.shields.io/github/stars/zhushangwen/Incantation?style=social&cacheSeconds=86400" alt="GitHub stars"></a>
           <a class="pill" href="https://huggingface.co/datasets/zhush/incantation-elden-ring-scenes">Dataset</a>
         </div>
-        <span class="sub">Natural language as the action interface for multi-entity control.<br>Enables cross-entity transfer (89% vs 43% for action IDs) and out-of-vocabulary control.</span>
+        <span class="sub" style="display:block; margin-top:8px; line-height:1.5;">Natural language as the action interface for multi-entity control.<br>Enables cross-entity transfer (89% vs 43% for action IDs) and out-of-vocabulary control.</span>
       </td>
     </tr>
 
@@ -916,7 +916,7 @@ ntire26_rd_stop()
   <em>Computer Vision and Pattern Recognition (CVPR)</em>, 2026, Denver, USA <br>
   <a href="https://arxiv.org/abs/2604.10634">arXiv</a>
   |
-  <a href="https://github.com/jinyeying/RaindropClarity"><img src="https://img.shields.io/github/stars/jinyeying/RaindropClarity?style=social&cacheSeconds=86400"></a>
+  <a href="https://github.com/jinyeying/RaindropClarity"><img src="https://img.shields.io/github/stars/jinyeying/RaindropClarity?style=social&cacheSeconds=3600"></a>
   |
   <a href="https://www.codabench.org/competitions/12808/">competition</a>
   |
@@ -954,7 +954,7 @@ ntire25_rd_stop()
   <em>Computer Vision and Pattern Recognition (CVPR)</em>, 2025, Nashville, USA <br>
   <a href="https://arxiv.org/abs/2504.12711">arXiv</a>
   |
-  <a href="https://github.com/jinyeying/RaindropClarity"><img src="https://img.shields.io/github/stars/jinyeying/RaindropClarity?style=social&cacheSeconds=86400"></a>
+  <a href="https://github.com/jinyeying/RaindropClarity"><img src="https://img.shields.io/github/stars/jinyeying/RaindropClarity?style=social&cacheSeconds=3600"></a>
   |
   <a href="./files/ntire25_raindropclarify_bibtex.txt">bibtex</a>
   |
@@ -998,7 +998,7 @@ eccv24_rd_stop()
   <em>European Conference on Computer Vision (ECCV)</em>, 2024, Milan, Italy <br>
   <a href="https://arxiv.org/abs/2407.16957">arXiv</a>
   |
-  <a href="https://github.com/jinyeying/RaindropClarity"><img src="https://img.shields.io/github/stars/jinyeying/RaindropClarity?style=social&cacheSeconds=86400"></a>
+  <a href="https://github.com/jinyeying/RaindropClarity"><img src="https://img.shields.io/github/stars/jinyeying/RaindropClarity?style=social&cacheSeconds=3600"></a>
   |
   <a href="./files/eccv24_raindropclarify_bibtex.txt">bibtex</a>
   |
@@ -2002,19 +2002,21 @@ function filterBlogs(cat) {
 - 09.2013-07.2017: B.Eng (Electrical and Computer Engineering), <img src="/files/UESTC.png" alt="UESTC" width="20.842" height="20"> UESTC, China (GPA: 3.93/4.00)
 
 # 👔 Internship and Work Experience {#work}
-- 11.2023-Present: Staff Researcher at <img src="/files/tencent.png" alt="Tencent" width="85" height="20"> Singapore, working on AIGC.
+- 11.2023-Present: Staff Researcher at <img src="/files/tencent.png" alt="Tencent" width="85" height="20"> Singapore.
 - 06.2023-09.2023: <img src="/files/adobe.png" alt="Adobe" width="20" height="20"> [Adobe Research Intern](https://www.adobe.com/), Creative Intelligence Lab, mentored by [Prof. Connelly Barnes](http://www.connellybarnes.com/work/), [Prof. Eli Shechtman](https://research.adobe.com/person/eli-shechtman/), worked with [Yuqian Zhou](https://yzhouas.github.io/), [Lingzhi Zhang](https://owenzlz.github.io/), [Sohrab Amirghodsi](https://www.linkedin.com/in/sohrab-amirghodsi-a89548a3/), [Eric Kee](https://www.erickee.com/).
 - 01.2019-01.2020: Machine Learning Researcher at <img src="/files/biomind.png" alt="Biomind" width="80" height="20"> Singapore, advised by [Prof. Jiashi Feng](https://sites.google.com/site/jshfeng/), worked on Biomedical Image Synthesis, Super-resolution, Tumor Segmentation and Classification, expo demo for ["Deep Learning-Based End-to-end Automatic Contouring and Automated Radiation Therapy Treatment Planning System"](https://media.neurips.cc/Conferences/NeurIPS2019/NeurIPS_Expo_Book_2019.pdf).
 
 # 🎖 Honors and Awards {#awards}
 - [“Yayoi Kusama × Wukong”](https://modelscope.cn/brand/view/game-wan?branch=0&tree=4), *ModelScope Wan 2.1 Video Generation Challenge* — 2nd Place  
 - [Knowledge Award](https://zhuanlan.zhihu.com/p/686681635), [Excellent R&D Award](https://www.dropbox.com/scl/fi/h32jdvfrftrdls3rwjesi/Tencent_Excellent_R-D_Award.jpg?rlkey=xw5225oazo9kkoziuznsnhtpz&st=apklpn9u&dl=0), [Outstanding Mentor](https://www.dropbox.com/scl/fi/kcszrth49835tfvcirjot/Mentor.jpg?rlkey=mf4zo301alayou3tvr7yaedpk&st=je6i1qgd&dl=0), Outstanding Contributor 
+- CVPR Student Mentor, Tencent Outstanding Mentor Award
 - [AI Singapore (AISG) Ph.D. Fellowship](https://aisingapore.org/research/phd-fellowship-programme/) *(Singapore’s most prestigious Ph.D. scholarship)* — Theme: Continuous Learning AI, Self-supervised Learning
 
 # 💻 Professional Services {#services}
 - Journal Reviewer: TPAMI, IJCV, TIP, TNNLS, TMM, TCSVT, TVCJ, NEUCOM, CVIU, etc.
-- Conference Reviewer: ICML, NeurIPS, ICLR, CVPR, ICCV, ECCV, AAAI, ACM MM, ACL, MICCAI, ACCV, IJCAI, IJCNN, etc.
+- Conference Reviewer: ICML (Gold Reviewer Award), NeurIPS, ICLR, CVPR, ICCV, ECCV, AAAI, ACM MM, ACL, MICCAI, ACCV, IJCAI, IJCNN, etc.
 - Teaching Assistant: [EE5731 Visual Computing](https://tanrobby.github.io/teaching/ece_visual/index.html), EE5904 Neural Network (NUS ECE)
+- NUS ECE Adjunct Faculty
 
 <div style="padding-bottom: 60vh;"></div>
 
