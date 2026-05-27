@@ -141,8 +141,8 @@ function _applyProjFilter() {
         <a href="https://inv-wzq.github.io/ReactiveGWM/">
           <span class="papertitle_just">ReactiveGWM: Steering NPC in Reactive Game World Models</span>
         </a><br>
-        Zeqing Wang, Danze Chen, Zhaohu Xing, Zizhao Tong, Yinhan Zhang, Xingyi Yang, <strong>Yeying Jin</strong><br>
-        <span class="sub"><em>Game World Model</em> • 2026</span>
+        Zeqing Wang, Danze Chen, Zhaohu Xing, Zizhao Tong, Yinhan Zhang, Xingyi Yang<sup class="corr-lead">†</sup>, <strong>Yeying Jin</strong><sup class="corr-lead">†‡</sup><br>
+        <span class="sub">NPCs follow high-level strategies (Offense / Defense / Control) via cross-attention, enabling zero-shot strategy transfer to new games without retraining.</span>
         <div class="links">
           <span class="label">Links:</span>
           <a class="pill" href="https://inv-wzq.github.io/ReactiveGWM/">Project Page</a>
@@ -166,8 +166,8 @@ function _applyProjFilter() {
         <a href="https://z2tong.github.io/SCOPE/">
           <span class="papertitle_just">SCOPE: Scalable World Model via Consistent Prediction</span>
         </a><br>
-        Zizhao Tong, Hongfeng Lai, Zeqing Wang, Zhaohu Xing, Kexu Cheng, Haoran Xu, Zhao Pu, Shangwen Zhu, Ruili Feng, Jian Zhao, Yan Zhang, Hao Tang, <strong>Yeying Jin</strong>, Ling Shao<br>
-        <span class="sub"><em>Game World Model</em> • 2026</span>
+        Zizhao Tong, Hongfeng Lai, Zeqing Wang, Zhaohu Xing, Kexu Cheng, Haoran Xu, Zhao Pu, Shangwen Zhu, Ruili Feng, Jian Zhao, Yan Zhang, Hao Tang, <strong>Yeying Jin</strong><sup class="corr-lead">†‡</sup>, Ling Shao<sup class="corr-lead">†</sup><br>
+        <span class="sub">An interactive world model for FPS games. Handles dense controls by learning per-pixel temporal action responses. Includes CrossFPS: the first multi-game FPS dataset (69K clips, 7 titles, 10-DoF).</span>
         <div class="links">
           <span class="label">Links:</span>
           <a class="pill" href="https://z2tong.github.io/SCOPE/">Project Page</a>
@@ -191,8 +191,8 @@ function _applyProjFilter() {
         <a href="https://matrixteam-ai.github.io/pages/Incanation">
           <span class="papertitle_just">Incantation: Natural Language as the Action Interface for Multi-Entity Video World Models</span>
         </a><br>
-        Shangwen Zhu, Qianyu Peng, Zhao Pu, Zhilei Shu, Xiangrui Ke, Zhaohu Xing, Zizhao Tong, Zeqing Wang, Xinyu Cui, Huangji Wang, Jian Zhao, <strong>Yeying Jin</strong>, Fan Cheng, Ruili Feng<br>
-        <span class="sub"><em>Game World Model</em> • 2026</span>
+        Shangwen Zhu, Qianyu Peng, Zhao Pu, Zhilei Shu, Xiangrui Ke, Zhaohu Xing, Zizhao Tong, Zeqing Wang, Xinyu Cui, Huangji Wang, Jian Zhao, <strong>Yeying Jin</strong><sup class="corr-lead">‡</sup>, Fan Cheng<sup class="corr-lead">†</sup>, Ruili Feng<sup class="corr-lead">†</sup><br>
+        <span class="sub">Natural language as the action interface for multi-entity control. Enables cross-entity transfer (89% vs 43% for action IDs) and out-of-vocabulary control that fixed action spaces cannot achieve.</span>
         <div class="links">
           <span class="label">Links:</span>
           <a class="pill" href="https://matrixteam-ai.github.io/pages/Incanation">Project Page</a>
@@ -520,10 +520,11 @@ cvpr26_Deraining_stop()
     <papertitle_just>CT-1: Vision-Language-Camera Models Transfer Spatial Reasoning Knowledge to Camera-controllable Video Generation</papertitle_just>
   </a>
   <br>
-  Haoyu Zhao, Zihao Zhang, Jiaxi Gu, Haoran Chen, Qingping Zheng, Pin Tang, <strong>Yeying Jin</strong>, Yuang Zhang, Junqi Cheng, Zenghui Lu, Peng Shu, Zuxuan Wu, Yu-Gang Jiang
+  Haoyu Zhao, Zihao Zhang, Jiaxi Gu, Haoran Chen, Qingping Zheng, Pin Tang, <strong>Yeying Jin</strong>, Yuang Zhang, Junqi Cheng, Zenghui Lu, Peng Shu, Zuxuan Wu<sup class="corr-lead">†</sup>, Yu-Gang Jiang<sup class="corr-lead">†</sup>
   <br>
   <em>arXiv preprint</em>, 2026<br>
   <a href="https://arxiv.org/abs/2604.09201">arXiv</a> /
+  <a href="https://gulucaptain.github.io/Camera-Transformer-1/">Project Page</a> /
   <a href="https://github.com/gulucaptain/Camera-Transformer-1"><img src="https://img.shields.io/github/stars/gulucaptain/Camera-Transformer-1?style=social"></a>
   <p></p>
 </td>
@@ -558,7 +559,6 @@ arxiv25_InstanceAnimator_stop()
   <br>
   <em>arXiv preprint</em>, 2026<br>
   <a href="https://arxiv.org/abs/2603.25357">arXiv</a> /
-  <a href="https://github.com/YinHan-Zhang/InstanceAnimator">code</a>
   <a href="https://github.com/YinHan-Zhang/InstanceAnimator"><img src="https://img.shields.io/github/stars/YinHan-Zhang/InstanceAnimator?style=social"></a>
   <p></p>
 </td>
@@ -593,7 +593,7 @@ icml26_zerase_stop()
   <br>
   <em>International Conference on Machine Learning (ICML)</em>, 2026, Seoul, South Korea<br>
   <a href="https://arxiv.org/abs/2603.25074">arXiv</a> /
-  <a href="https://github.com/nxjiang-jnx/Z-Erase">code</a>
+  <a href="https://github.com/nxjiang-jnx/Z-Erase"><img src="https://img.shields.io/github/stars/nxjiang-jnx/Z-Erase?style=social"></a>
   <p></p>
 </td>
 </tr>
