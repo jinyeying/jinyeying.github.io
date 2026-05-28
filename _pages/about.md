@@ -165,7 +165,7 @@ function _applyProjFilter() {
         <a href="https://z2tong.github.io/SCOPE/">
           <span class="papertitle_just">SCOPE: Scalable World Model via Consistent Prediction</span>
         </a><br>
-        Zizhao Tong, Hongfeng Lai, Zeqing Wang, Zhaohu Xing, Kexu Cheng, Haoran Xu, Zhao Pu, Shangwen Zhu, Ruili Feng, Jian Zhao, Yan Zhang, Hao Tang, <strong>Yeying Jin</strong><sup class="corr-lead">†‡</sup>, Ling Shao<sup class="corr-lead">†</sup><br>
+        Zizhao Tong, <strong>Yeying Jin</strong><sup class="corr-lead">†‡</sup>, Hongfeng Lai, Zeqing Wang, Zhaohu Xing, Kexu Cheng, Haoran Xu, Zhao Pu, Shangwen Zhu, Ruili Feng, Jian Zhao, Yan Zhang, Hao Tang, Ling Shao<sup class="corr-lead">†</sup><br>
         <div class="links">
           <a class="pill" href="https://z2tong.github.io/SCOPE/">Project Page</a>
           <a class="pill" href="https://arxiv.org/abs/2605.23345">arXiv</a>
@@ -505,6 +505,43 @@ cvpr26_Deraining_stop()
 <!-- ###################################################################################################-->
 
 <!-- ###################################################################################################-->
+<!-- Paper Agentic World Modeling -->
+<tr data-category="world-model" onmouseout="arxiv26_AgenticWM_stop()" onmouseover="arxiv26_AgenticWM_start()" >
+<td width="20%">
+<div class="one">
+<div class="two" id='arxiv26_AgenticWM_image'>
+<img src="./files/arxiv26_AgenticWM.png" style="width: 100%; aspect-ratio: 1 / 1; object-fit: cover;"></div>
+<img src="./files/arxiv26_AgenticWM.png" style="width: 100%; aspect-ratio: 1 / 1; object-fit: cover;">
+</div>
+<script type="text/javascript">
+function arxiv26_AgenticWM_start() {
+document.getElementById('arxiv26_AgenticWM_image').style.opacity = "1";
+}
+function arxiv26_AgenticWM_stop() {
+document.getElementById('arxiv26_AgenticWM_image').style.opacity = "0";
+}
+arxiv26_AgenticWM_stop()
+</script>
+</td>
+<td valign="top" width="80%">
+  <a href="https://arxiv.org/abs/2604.22748">
+    <papertitle_just>Agentic World Modeling: Foundations, Capabilities, Laws, and Beyond</papertitle_just>
+  </a>
+  <br>
+  Meng Chu<sup class="eq-contrib">*</sup>, Xuan Billy Zhang<sup class="eq-contrib">*</sup>, Kevin Qinghong Lin<sup class="eq-contrib">*</sup>, Lingdong Kong<sup class="eq-contrib">*</sup>, Jize Zhang<sup class="eq-contrib">*</sup>, Teng Tu<sup class="eq-contrib">*</sup>, Weijian Ma<sup class="eq-contrib">*</sup>, Ziqi Huang, Senqiao Yang, Wei Huang, <strong>Yeying Jin</strong>, Zhefan Rao, Jinhui Ye, Xinyu Lin, Xichen Zhang, Qisheng Hu, Shuai Yang, Leyang Shen, Wei Chow, Yifei Dong, Fengyi Wu, Quanyu Long, Bin Xia, Shaozuo Yu, Mingkang Zhu, Wenhu Zhang, Jiehui Huang, Haokun Gui, Haoxuan Che<sup class="corr-lead">†</sup>, Long Chen<sup class="corr-lead">†</sup>, Qifeng Chen<sup class="corr-lead">†</sup>, Wenxuan Zhang<sup class="corr-lead">†</sup>, Wenya Wang<sup class="corr-lead">†</sup>, Xiaojuan Qi<sup class="corr-lead">†</sup>, Yang Deng<sup class="corr-lead">†</sup>, Yanwei Li<sup class="corr-lead">†</sup>, Mike Zheng Shou<sup class="corr-lead">†</sup>, Zhi-Qi Cheng<sup class="corr-lead">†</sup>, See-Kiong Ng<sup class="corr-lead">†</sup>, Ziwei Liu<sup class="corr-lead">†</sup>, Philip Torr<sup class="corr-lead">†</sup>, Jiaya Jia<sup class="corr-lead">†</sup>
+  <br>
+  <em>arXiv preprint</em>, 2026<br>
+<a href="https://arxiv.org/abs/2604.22748">arXiv</a>
+|
+<a href="https://github.com/matrix-agent/awesome-agentic-world-modeling"><img src="https://img.shields.io/github/stars/matrix-agent/awesome-agentic-world-modeling?style=social&cacheSeconds=86400"></a>
+|
+<a href="https://agentic-world-modeling.xyz/">Project Page</a>
+<p></p>
+</td>
+</tr>
+<!-- ###################################################################################################-->
+
+<!-- ###################################################################################################-->
 <!-- Paper CT-1 -->
 <tr data-category="gen-vision" >
 <td width="20%">
@@ -520,9 +557,11 @@ cvpr26_Deraining_stop()
   Haoyu Zhao, Zihao Zhang, Jiaxi Gu, Haoran Chen, Qingping Zheng, Pin Tang, <strong>Yeying Jin</strong>, Yuang Zhang, Junqi Cheng, Zenghui Lu, Peng Shu, Zuxuan Wu<sup class="corr-lead">†</sup>, Yu-Gang Jiang<sup class="corr-lead">†</sup>
   <br>
   <em>arXiv preprint</em>, 2026<br>
-  <a href="https://arxiv.org/abs/2604.09201">arXiv</a> /
-  <a href="https://gulucaptain.github.io/Camera-Transformer-1/">Project Page</a> /
+  <a href="https://arxiv.org/abs/2604.09201">arXiv</a>
+  |
   <a href="https://github.com/gulucaptain/Camera-Transformer-1"><img src="https://img.shields.io/github/stars/gulucaptain/Camera-Transformer-1?style=social&cacheSeconds=86400"></a>
+  |
+  <a href="https://gulucaptain.github.io/Camera-Transformer-1/">Project Page</a>
   <p></p>
 </td>
 </tr>
@@ -555,7 +594,7 @@ arxiv25_InstanceAnimator_stop()
   Yinhan Zhang<sup class="eq-contrib">*</sup>, Yue Ma<sup class="eq-contrib">*</sup>, Bingyuan Wang, Kunyu Feng, <strong>Yeying Jin</strong><sup class="corr-lead">‡</sup>, Qifeng Chen, Anyi Rao, Zeyu Wang<sup class="corr-lead">†</sup>
   <br>
   <em>arXiv preprint</em>, 2026<br>
-  <a href="https://arxiv.org/abs/2603.25357">arXiv</a> /
+  <a href="https://arxiv.org/abs/2603.25357">arXiv</a> |
   <a href="https://github.com/YinHan-Zhang/InstanceAnimator"><img src="https://img.shields.io/github/stars/YinHan-Zhang/InstanceAnimator?style=social&cacheSeconds=86400"></a>
   <p></p>
 </td>
@@ -589,7 +628,7 @@ icml26_zerase_stop()
   Nanxiang Jiang, Zhaoxin Fan<sup class="corr-lead">†</sup>, Baisen Wang, Daiheng Gao, Junhang Cheng, Jifeng Guo, Yalan Qin, <strong>Yeying Jin</strong><sup class="corr-lead">‡</sup>, Hongwei Zheng, Faguo Wu<sup class="corr-lead">†</sup>, Wenjun Wu
   <br>
   <em>International Conference on Machine Learning (ICML)</em>, 2026, Seoul, South Korea<br>
-  <a href="https://arxiv.org/abs/2603.25074">arXiv</a> /
+  <a href="https://arxiv.org/abs/2603.25074">arXiv</a> |
   <a href="https://github.com/nxjiang-jnx/Z-Erase"><img src="https://img.shields.io/github/stars/nxjiang-jnx/Z-Erase?style=social&cacheSeconds=86400"></a>
   <p></p>
 </td>
@@ -703,7 +742,7 @@ arxiv25_PosterCraft_stop()
 | 
 <a href="./files/arxiv25_PosterCraft_bibtex.txt">bibtex</a>
 |
-<a href="https://ephemeral182.github.io/PosterCraft/">project page</a>  
+<a href="https://ephemeral182.github.io/PosterCraft/">Project Page</a>  
 |
 <a href="https://huggingface.co/spaces/Ephemeral182/PosterCraft">online demo</a>    
 |
@@ -747,7 +786,7 @@ acm25_DSDNet_stop()
 |
 <a href="./files/acm25_DSDNet_bibtex.txt">bibtex</a> 
 |
-<a href="https://xxxxxxxxdsdnet.github.io/DSDNet/">project page</a>  
+<a href="https://xxxxxxxxdsdnet.github.io/DSDNet/">Project Page</a>  
 <p></p>
 </td>
 </tr>
@@ -846,7 +885,7 @@ cvpr25_JarvisIR_stop()
 | 
 <a href="./files/cvpr25_JarvisIR_bibtex.txt">bibtex</a>
 |
-<a href="https://cvpr2025-jarvisir.github.io/">project page</a>  
+<a href="https://cvpr2025-jarvisir.github.io/">Project Page</a>  
 |
 <a href="https://huggingface.co/spaces/LYL1015/JarvisIR">online demo</a>  
 |
@@ -1292,7 +1331,7 @@ submit24_nighthaze_stop()
 |
 <a href="./files/submit24_nighthaze_bibtex.txt">bibtex</a> 
 |
-<a href="https://bb12346.github.io/NightHaze/">project page</a>  
+<a href="https://bb12346.github.io/NightHaze/">Project Page</a>  
 <p></p>
 </td>
 </tr>
