@@ -636,6 +636,74 @@ icml26_zerase_stop()
 <!-- ###################################################################################################-->
 
 <!-- ###################################################################################################-->
+<!-- Paper ReFlux -->
+<tr data-category="gen-vision" onmouseout="cvpr26_ReFlux_stop()" onmouseover="cvpr26_ReFlux_start()" >
+<td width="20%">
+<div class="one">
+<div class="two" id='cvpr26_ReFlux_image'>
+<img src="./files/cvpr26_ReFlux_after.png" style="width: 100%; aspect-ratio: 1 / 1; object-fit: cover;"></div>
+<img src="./files/cvpr26_ReFlux_before.png" style="width: 100%; aspect-ratio: 1 / 1; object-fit: cover;">
+</div>
+<script type="text/javascript">
+function cvpr26_ReFlux_start() {
+document.getElementById('cvpr26_ReFlux_image').style.opacity = "1";
+}
+function cvpr26_ReFlux_stop() {
+document.getElementById('cvpr26_ReFlux_image').style.opacity = "0";
+}
+cvpr26_ReFlux_stop()
+</script>
+</td>
+<td valign="top" width="80%">
+  <a href="https://arxiv.org/abs/2510.00635">
+    <papertitle_just>Erased, But Not Forgotten: Erased Rectified Flow Transformers Still Remain Unsafe Under Concept Attack</papertitle_just>
+  </a>
+  <br>
+  Nanxiang Jiang, Zhaoxin Fan<sup class="corr-lead">†</sup>, Enhan Kang, Daiheng Gao, Yun Zhou, Yanxia Chang, Zheng Zhu, <strong>Yeying Jin</strong>, Wenjun Wu
+  <br>
+  <em>IEEE Conference on Computer Vision and Pattern Recognition (CVPR) Findings</em>, 2026, Denver, USA<br>
+<a href="https://arxiv.org/abs/2510.00635">arXiv</a> |
+<a href="https://github.com/nxjiang-jnx/ReFlux"><img src="https://img.shields.io/github/stars/nxjiang-jnx/ReFlux?style=social&cacheSeconds=86400"></a>
+<p></p>
+</td>
+</tr>
+<!-- ###################################################################################################-->
+
+<!-- ###################################################################################################-->
+<!-- Paper VLM-IMI -->
+<tr data-category="gen-vision" data-role="proj-lead" onmouseout="cvpr26_VLM_stop()" onmouseover="cvpr26_VLM_start()" >
+<td width="20%">
+<div class="one">
+<div class="two" id='cvpr26_VLM_image'>
+<img src="./files/cvpr26_VLM_after.png" style="width: 100%; aspect-ratio: 1 / 1; object-fit: cover;"></div>
+<img src="./files/cvpr26_VLM_before.png" style="width: 100%; aspect-ratio: 1 / 1; object-fit: cover;">
+</div>
+<script type="text/javascript">
+function cvpr26_VLM_start() {
+document.getElementById('cvpr26_VLM_image').style.opacity = "1";
+}
+function cvpr26_VLM_stop() {
+document.getElementById('cvpr26_VLM_image').style.opacity = "0";
+}
+cvpr26_VLM_stop()
+</script>
+</td>
+<td valign="top" width="80%">
+  <a href="https://arxiv.org/abs/2507.18064">
+    <papertitle_just>Adapting Large VLMs with Iterative and Manual Instructions for Generative Low-light Enhancement</papertitle_just>
+  </a>
+  <br>
+  Xiaoran Sun<sup class="eq-contrib">*</sup>, Liyan Wang<sup class="eq-contrib">*</sup>, <strong>Yeying Jin</strong><sup class="corr-lead">‡</sup>, Kin-man Lam, Zhixun Su<sup class="corr-lead">†</sup>, Yang Yang, Jinshan Pan, Cong Wang
+  <br>
+  <em>IEEE Conference on Computer Vision and Pattern Recognition (CVPR) Findings</em>, 2026, Denver, USA<br>
+<a href="https://arxiv.org/abs/2507.18064">arXiv</a> |
+<a href="https://github.com/sunxiaoran01/VLM-IMI"><img src="https://img.shields.io/github/stars/sunxiaoran01/VLM-IMI?style=social&cacheSeconds=86400"></a>
+<p></p>
+</td>
+</tr>
+<!-- ###################################################################################################-->
+
+<!-- ###################################################################################################-->
 <!-- Paper UniFit -->
 <tr data-category="gen-vision" data-role="eq-contrib" onmouseout="aaai26_UniFit_stop()" onmouseover="aaai26_UniFit_start()" >
 <td width="20%">
@@ -1811,6 +1879,12 @@ function filterTalks(cat) {
     <th>Date & Venue</th>
   </tr>
 
+ <tr data-talk-cat="gen-vision">
+    <td><a href="https://www.jiqizhixin.com/">CVPR 机器之心</a></td>
+    <td>Invited Talk (w/ <a href="https://liuziwei7.github.io/">Ziwei Liu</a> (NTU), <a href="https://sites.google.com/view/showlab">Mike Zheng Shou</a> (NUS), <a href="https://ruoshiliu.github.io/">Ruoshi Liu</a> (UMD))</td>
+    <td>06.2026<br>Denver, USA</td>
+ </tr>
+
  <tr data-talk-cat="world-model">
     <td><a href="https://urvis-workshop.github.io/">CVPR URVIS</a> (invited by <a href="https://sites.google.com/view/zwwu/accueil">Zongwei Wu</a>)</td>
     <td>World Model</td>
@@ -1831,7 +1905,7 @@ function filterTalks(cat) {
 
  <tr data-talk-cat="world-model">
     <td><a href="https://singaporevisionday.github.io/svd2026/">Singapore Vision Day</a> (invited by <a href="https://www.comp.nus.edu.sg/~leegh/">Gim Hee Lee</a>)</td>
-    <td><a href="https://singaporevisionday.github.io/svd2026/">Game World Model</a><br>World Model Panel Discussion</td>
+    <td><a href="https://singaporevisionday.github.io/svd2026/">Game World Model</a><br>World Model Panel Discussion (w/ <a href="https://v3alab.github.io/#about">Qi Wu</a> (U Adelaide), <a href="https://www.3dunderstanding.org/">Angela Dai</a> (TUM), <a href="https://xingangpan.github.io/">Xingang Pan</a> (NTU))</td>
     <td>05.16.2026<br>Singapore</td>
  </tr>
 
