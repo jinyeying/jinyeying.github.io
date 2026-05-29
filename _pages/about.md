@@ -172,6 +172,7 @@ function _applyProjFilter() {
           <a href="https://github.com/z2tong/SCOPE"><img src="https://img.shields.io/github/stars/z2tong/SCOPE?style=social&cacheSeconds=86400" alt="GitHub stars"></a>
           <a class="pill" href="https://huggingface.co/zizhaotong/SCOPE">Model</a>
           <a class="pill" href="https://huggingface.co/collections/zizhaotong/crossfps">Dataset</a>
+          <a class="pill" href="https://mp.weixin.qq.com/s/G-MkB84-rH8rEVT3m4UPTw">Link</a>
         </div>
         <span class="sub" style="display:block; margin-top:8px; line-height:1.5;">An interactive world model for FPS games.<br>Handles dense controls by learning per-pixel temporal action responses.<br>Includes CrossFPS: the first multi-game FPS dataset (69K clips, 7 titles, 10-DoF).</span>
       </td>
@@ -1879,7 +1880,7 @@ function filterTalks(cat) {
     <th>Date & Venue</th>
   </tr>
 
- <tr data-talk-cat="gen-vision">
+ <tr data-talk-cat="world-model">
     <td><a href="https://www.jiqizhixin.com/">CVPR 机器之心</a></td>
     <td>Invited Talk (w/ <a href="https://liuziwei7.github.io/">Ziwei Liu</a> (NTU), <a href="https://sites.google.com/view/showlab">Mike Zheng Shou</a> (NUS), <a href="https://ruoshiliu.github.io/">Ruoshi Liu</a> (UMD))</td>
     <td>06.06.2026<br>Denver, USA</td>
