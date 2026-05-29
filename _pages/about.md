@@ -1508,7 +1508,7 @@ aaai24_nightrain_stop()
     <papertitle_just>NightRain: Nighttime Video Deraining via Adaptive-Rain-Removal and Adaptive-Correction</papertitle_just>     
   </a>
   <br>
-  Beibei Lin<sup class="eq-contrib">*</sup>, <strong>Yeying Jin</strong><sup class="eq-contrib">*</sup>, Wending Yan, Wei Ye, Yuan Yuan, Sunli Zhang, Robby T. Tan
+  Beibei Lin<sup class="eq-contrib">*</sup>, <strong>Yeying Jin</strong><sup class="eq-contrib">*</sup>, Wending Yan, Wei Ye, Yuan Yuan, Shunli Zhang, Robby T. Tan
   <br>
 <em>Association for the Advancement of Artificial Intelligence (AAAI)</em>, 2024, Vancouver, Canada <br>
 <a href="https://arxiv.org/abs/2401.00729">arXiv</a>
