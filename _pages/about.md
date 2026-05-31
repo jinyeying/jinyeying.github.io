@@ -1882,7 +1882,7 @@ function filterTalks(cat) {
 
  <tr data-talk-cat="world-model">
     <td><a href="https://www.jiqizhixin.com/">CVPR 机器之心</a></td>
-    <td>Invited Talk (w/ <a href="https://liuziwei7.github.io/">Ziwei Liu</a> (NTU), <a href="https://sites.google.com/view/showlab">Mike Zheng Shou</a> (NUS), <a href="https://ruoshiliu.github.io/">Ruoshi Liu</a> (UMD))</td>
+    <td>Invited Talk (w/ <a href="https://liuziwei7.github.io/">Ziwei Liu</a><sup style="color:#888;font-size:0.75em;"> NTU</sup>, <a href="https://sites.google.com/view/showlab">Mike Zheng Shou</a><sup style="color:#888;font-size:0.75em;"> NUS</sup>, <a href="https://ruoshiliu.github.io/">Ruoshi Liu</a><sup style="color:#888;font-size:0.75em;"> UMD</sup>)</td>
     <td>06.06.2026<br>Denver, USA</td>
  </tr>
 
@@ -1906,7 +1906,7 @@ function filterTalks(cat) {
 
  <tr data-talk-cat="world-model">
     <td><a href="https://singaporevisionday.github.io/svd2026/">Singapore Vision Day</a> (invited by <a href="https://www.comp.nus.edu.sg/~leegh/">Gim Hee Lee</a>)</td>
-    <td><a href="https://singaporevisionday.github.io/svd2026/">Game World Model</a><br>World Model Panel Discussion (w/ <a href="https://v3alab.github.io/#about">Qi Wu</a> (U Adelaide), <a href="https://www.3dunderstanding.org/">Angela Dai</a> (TUM), <a href="https://xingangpan.github.io/">Xingang Pan</a> (NTU))</td>
+    <td><a href="https://singaporevisionday.github.io/svd2026/">Game World Model</a><br>World Model Panel Discussion (w/ <a href="https://v3alab.github.io/#about">Qi Wu</a><sup style="color:#888;font-size:0.75em;"> U Adelaide</sup>, <a href="https://www.3dunderstanding.org/">Angela Dai</a><sup style="color:#888;font-size:0.75em;"> TUM</sup>, <a href="https://xingangpan.github.io/">Xingang Pan</a><sup style="color:#888;font-size:0.75em;"> NTU</sup>)</td>
     <td>05.16.2026<br>Singapore</td>
  </tr>
 
