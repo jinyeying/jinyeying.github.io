@@ -543,6 +543,32 @@ arxiv26_AgenticWM_stop()
 <!-- ###################################################################################################-->
 
 <!-- ###################################################################################################-->
+<!-- Paper CameraNoise -->
+<tr data-category="gen-vision" >
+<td width="20%">
+<video autoplay loop muted playsinline style="width:100%; aspect-ratio:1/1; object-fit:cover;">
+  <source src="./files/cameranoise_demo.mp4" type="video/mp4">
+</video>
+</td>
+<td valign="top" width="80%">
+  <a href="https://arxiv.org/abs/2605.30774">
+    <papertitle_just>CameraNoise: Enabling Faithful Camera Control in Video Diffusion through Geometry-Flow-Guided Noise Warping</papertitle_just>
+  </a>
+  <br>
+  Haoyu Zhao, Jiaxi Gu, Haoran Chen, Qingping Zheng, <strong>Yeying Jin</strong>, Hongyi Yang, Junqi Cheng, Yuang Zhang, Zenghui Lu, Huan Yu, Jie Jiang, Peng Shu, Zuxuan Wu<sup class="corr-lead">†</sup>, Yu-Gang Jiang<sup class="corr-lead">†</sup>
+  <br>
+  <em>arXiv preprint</em>, 2026<br>
+  <a href="https://arxiv.org/abs/2605.30774">arXiv</a>
+  |
+  <a href="https://github.com/gulucaptain/CameraNoise"><img src="https://img.shields.io/github/stars/gulucaptain/CameraNoise?style=social&cacheSeconds=86400"></a>
+  |
+  <a href="https://gulucaptain.github.io/CameraNoise/">Project Page</a>
+  <p></p>
+</td>
+</tr>
+<!-- ###################################################################################################-->
+
+<!-- ###################################################################################################-->
 <!-- Paper CT-1 -->
 <tr data-category="gen-vision" >
 <td width="20%">
@@ -1887,15 +1913,21 @@ function filterTalks(cat) {
  </tr>
 
  <tr data-talk-cat="world-model">
-    <td><a href="https://urvis-workshop.github.io/">CVPR URVIS</a> (invited by <a href="https://sites.google.com/view/zwwu/accueil">Zongwei Wu</a>)</td>
+    <td><a href="https://urvis-workshop.github.io/">CVPR 2026 URVIS</a> (invited by <a href="https://sites.google.com/view/zwwu/accueil">Zongwei Wu</a>)</td>
     <td>World Model</td>
-    <td>06.04.2026@4AB<br>Denver, USA</td>
+    <td>06.04.2026 10:30-11:00@4AB<br>Denver, USA</td>
  </tr>
 
  <tr data-talk-cat="world-model">
-    <td><a href="https://ai4streaming-workshop.github.io/">CVPR AIGENS</a> (invited by <a href="https://mv-lab.github.io/">Marcos V. Conde</a>)</td>
+    <td><a href="https://agentic-visual-media.insait.ai/">CVPR 2026 AGENTIC</a> (invited by <a href="https://www.jasongt.com/">Jinjin Gu</a>)</td>
+    <td>Game World Model</td>
+    <td>06.03.2026 14:25-15:05@205 A<br>Denver, USA</td>
+ </tr>
+
+ <tr data-talk-cat="world-model">
+    <td><a href="https://ai4streaming-workshop.github.io/">CVPR 2026 AIGENS</a> (invited by <a href="https://mv-lab.github.io/">Marcos V. Conde</a>)</td>
     <td>Game World Model for Video Generation</td>
-    <td>06.03.2026@105<br>Denver, USA</td>
+    <td>06.03.2026 12:00–12:20@105<br>Denver, USA</td>
  </tr>
 
  <tr data-talk-cat="world-model">
