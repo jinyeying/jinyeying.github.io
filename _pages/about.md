@@ -145,7 +145,7 @@ function _applyProjFilter() {
         <div class="links">
           <a class="pill" href="https://inv-wzq.github.io/ReactiveGWM/">Project Page</a>
           <a class="pill" href="https://arxiv.org/abs/2605.15256">arXiv</a>
-          <a href="https://github.com/INV-WZQ/ReactiveGWM"><img src="https://img.shields.io/github/stars/INV-WZQ/ReactiveGWM?style=social&cacheSeconds=86400" alt="GitHub stars"></a>
+          <a href="https://github.com/INV-WZQ/ReactiveGWM"><img src="https://img.shields.io/badge/%E2%98%85-75-blue?style=social&logo=github" alt="GitHub stars"></a>
           <a class="pill" href="https://huggingface.co/INV-WZQ/ReactiveGWM-Models">Model</a>
           <a class="pill" href="https://huggingface.co/datasets/INV-WZQ/ReactiveGWM-Datasets">Dataset</a>
         </div>
@@ -169,7 +169,7 @@ function _applyProjFilter() {
         <div class="links">
           <a class="pill" href="https://z2tong.github.io/SCOPE/">Project Page</a>
           <a class="pill" href="https://arxiv.org/abs/2605.23345">arXiv</a>
-          <a href="https://github.com/z2tong/SCOPE"><img src="https://img.shields.io/github/stars/z2tong/SCOPE?style=social&cacheSeconds=86400" alt="GitHub stars"></a>
+          <a href="https://github.com/z2tong/SCOPE"><img src="https://img.shields.io/badge/%E2%98%85-72-blue?style=social&logo=github" alt="GitHub stars"></a>
           <a class="pill" href="https://huggingface.co/zizhaotong/SCOPE">Model</a>
           <a class="pill" href="https://huggingface.co/collections/zizhaotong/crossfps">Dataset</a>
           <a class="pill" href="https://mp.weixin.qq.com/s/G-MkB84-rH8rEVT3m4UPTw">Link</a>
@@ -194,7 +194,7 @@ function _applyProjFilter() {
         <div class="links">
           <a class="pill" href="https://matrixteam-ai.github.io/pages/Incanation">Project Page</a>
           <a class="pill" href="https://arxiv.org/abs/2605.18601">arXiv</a>
-          <a href="https://github.com/zhushangwen/Incantation"><img src="https://img.shields.io/github/stars/zhushangwen/Incantation?style=social&cacheSeconds=86400" alt="GitHub stars"></a>
+          <a href="https://github.com/zhushangwen/Incantation"><img src="https://img.shields.io/badge/%E2%98%85-9-blue?style=social&logo=github" alt="GitHub stars"></a>
           <a class="pill" href="https://huggingface.co/datasets/zhush/incantation-elden-ring-scenes">Dataset</a>
         </div>
         <span class="sub" style="display:block; margin-top:8px; line-height:1.5;">Natural language as the action interface for multi-entity control.<br>Enables cross-entity transfer (89% vs 43% for action IDs) and out-of-vocabulary control.</span>
@@ -534,7 +534,7 @@ arxiv26_AgenticWM_stop()
   <em>arXiv preprint</em>, 2026<br>
 <a href="https://arxiv.org/abs/2604.22748">arXiv</a>
 |
-<a href="https://github.com/matrix-agent/awesome-agentic-world-modeling"><img src="https://img.shields.io/github/stars/matrix-agent/awesome-agentic-world-modeling?style=social&cacheSeconds=86400"></a>
+<a href="https://github.com/matrix-agent/awesome-agentic-world-modeling"><img src="https://img.shields.io/badge/%E2%98%85-262-blue?style=social&logo=github"></a>
 |
 <a href="https://agentic-world-modeling.xyz/">Project Page</a>
 <p></p>
@@ -560,7 +560,7 @@ arxiv26_AgenticWM_stop()
   <em>International Conference on Machine Learning (ICML)</em>, 2026, Seoul, South Korea<br>
   <a href="https://arxiv.org/abs/2605.30774">arXiv</a>
   |
-  <a href="https://github.com/gulucaptain/CameraNoise"><img src="https://img.shields.io/github/stars/gulucaptain/CameraNoise?style=social&cacheSeconds=86400"></a>
+  <a href="https://github.com/gulucaptain/CameraNoise"><img src="https://img.shields.io/badge/%E2%98%85-207-blue?style=social&logo=github"></a>
   |
   <a href="https://gulucaptain.github.io/CameraNoise/">Project Page</a>
   <p></p>
@@ -586,7 +586,7 @@ arxiv26_AgenticWM_stop()
   <em>arXiv preprint</em>, 2026<br>
   <a href="https://arxiv.org/abs/2604.09201">arXiv</a>
   |
-  <a href="https://github.com/gulucaptain/Camera-Transformer-1"><img src="https://img.shields.io/github/stars/gulucaptain/Camera-Transformer-1?style=social&cacheSeconds=86400"></a>
+  <a href="https://github.com/gulucaptain/Camera-Transformer-1"><img src="https://img.shields.io/badge/%E2%98%85-308-blue?style=social&logo=github"></a>
   |
   <a href="https://gulucaptain.github.io/Camera-Transformer-1/">Project Page</a>
   <p></p>
@@ -622,7 +622,7 @@ arxiv25_InstanceAnimator_stop()
   <br>
   <em>arXiv preprint</em>, 2026<br>
   <a href="https://arxiv.org/abs/2603.25357">arXiv</a> |
-  <a href="https://github.com/YinHan-Zhang/InstanceAnimator"><img src="https://img.shields.io/github/stars/YinHan-Zhang/InstanceAnimator?style=social&cacheSeconds=86400"></a>
+  <a href="https://github.com/YinHan-Zhang/InstanceAnimator"><img src="https://img.shields.io/badge/%E2%98%85-8-blue?style=social&logo=github"></a>
   <p></p>
 </td>
 </tr>
@@ -656,7 +656,7 @@ icml26_zerase_stop()
   <br>
   <em>International Conference on Machine Learning (ICML)</em>, 2026, Seoul, South Korea<br>
   <a href="https://arxiv.org/abs/2603.25074">arXiv</a> |
-  <a href="https://github.com/nxjiang-jnx/Z-Erase"><img src="https://img.shields.io/github/stars/nxjiang-jnx/Z-Erase?style=social&cacheSeconds=86400"></a>
+  <a href="https://github.com/nxjiang-jnx/Z-Erase"><img src="https://img.shields.io/badge/%E2%98%85-34-blue?style=social&logo=github"></a>
   <p></p>
 </td>
 </tr>
@@ -690,7 +690,7 @@ cvpr26_ReFlux_stop()
   <br>
   <em>IEEE Conference on Computer Vision and Pattern Recognition (CVPR) Findings</em>, 2026, Denver, USA<br>
 <a href="https://arxiv.org/abs/2510.00635">arXiv</a> |
-<a href="https://github.com/nxjiang-jnx/ReFlux"><img src="https://img.shields.io/github/stars/nxjiang-jnx/ReFlux?style=social&cacheSeconds=86400"></a>
+<a href="https://github.com/nxjiang-jnx/ReFlux"><img src="https://img.shields.io/badge/%E2%98%85-17-blue?style=social&logo=github"></a>
 <p></p>
 </td>
 </tr>
@@ -724,7 +724,7 @@ cvpr26_VLM_stop()
   <br>
   <em>IEEE Conference on Computer Vision and Pattern Recognition (CVPR) Findings</em>, 2026, Denver, USA<br>
 <a href="https://arxiv.org/abs/2507.18064">arXiv</a> |
-<a href="https://github.com/sunxiaoran01/VLM-IMI"><img src="https://img.shields.io/github/stars/sunxiaoran01/VLM-IMI?style=social&cacheSeconds=86400"></a>
+<a href="https://github.com/sunxiaoran01/VLM-IMI"><img src="https://img.shields.io/badge/%E2%98%85-5-blue?style=social&logo=github"></a>
 <p></p>
 </td>
 </tr>
@@ -759,7 +759,7 @@ aaai26_UniFit_stop()
 <em>Association for the Advancement of Artificial Intelligence (AAAI)</em>, 2026, Singapore <br>
 <a href="https://arxiv.org/abs/2511.15831">arXiv</a>
 |
-<a href="https://github.com/zwplus/UniFit"><img src="https://img.shields.io/github/stars/zwplus/UniFit?style=social&cacheSeconds=86400"></a>
+<a href="https://github.com/zwplus/UniFit"><img src="https://img.shields.io/badge/%E2%98%85-10-blue?style=social&logo=github"></a>
 | 
 <a href="./files/aaai26_UniFit_bibtex.txt">bibtex</a>
 <p></p>
@@ -796,7 +796,7 @@ tcsvt25_MMGT_stop()
 <em>IEEE Transactions on Circuits and Systems for Video Technology (TCSVT)</em>, 2025 <br>
 <a href="https://arxiv.org/abs/2505.23120">arXiv</a>
 |
-<a href="https://github.com/SIA-IDE/MMGT"><img src="https://img.shields.io/github/stars/SIA-IDE/MMGT?style=social&cacheSeconds=86400"></a> 
+<a href="https://github.com/SIA-IDE/MMGT"><img src="https://img.shields.io/badge/%E2%98%85-16-blue?style=social&logo=github"></a> 
 | 
 <a href="./files/tcsvt25_MMGT_bibtex.txt">bibtex</a>
 <p></p>
@@ -833,7 +833,7 @@ arxiv25_PosterCraft_stop()
 <em>The International Conference on Learning Representations (ICLR)</em>, 2026, Rio, Brazil <br>
 <a href="https://arxiv.org/abs/2506.10741">arXiv</a>
 |
-<a href="https://github.com/Ephemeral182/PosterCraft"><img src="https://img.shields.io/github/stars/Ephemeral182/PosterCraft?style=social&cacheSeconds=86400"></a>
+<a href="https://github.com/Ephemeral182/PosterCraft"><img src="https://img.shields.io/badge/%E2%98%85-539-blue?style=social&logo=github"></a>
 | 
 <a href="./files/arxiv25_PosterCraft_bibtex.txt">bibtex</a>
 |
@@ -877,7 +877,7 @@ acm25_DSDNet_stop()
 <em>ACM Multimedia (ACM'MM)</em>, 2025, Dublin, Ireland <br>
 <a href="https://arxiv.org/abs/2504.15756">arXiv</a>
 |
-<a href="https://github.com/xxxxxxxxDSDNet/DSDNet-official"><img src="https://img.shields.io/github/stars/xxxxxxxxDSDNet/DSDNet-official?style=social&cacheSeconds=86400"></a>
+<a href="https://github.com/xxxxxxxxDSDNet/DSDNet-official"><img src="https://img.shields.io/badge/%E2%98%85-3-blue?style=social&logo=github"></a>
 |
 <a href="./files/acm25_DSDNet_bibtex.txt">bibtex</a> 
 |
@@ -976,7 +976,7 @@ cvpr25_JarvisIR_stop()
 <em>Computer Vision and Pattern Recognition (CVPR)</em>, 2025, Nashville, USA <br>
 <a href="https://arxiv.org/abs/2504.04158">arXiv</a>
 |
-<a href="https://github.com/LYL1015/JarvisIR"><img src="https://img.shields.io/github/stars/LYL1015/JarvisIR?style=social&cacheSeconds=86400"></a>
+<a href="https://github.com/LYL1015/JarvisIR"><img src="https://img.shields.io/badge/%E2%98%85-247-blue?style=social&logo=github"></a>
 | 
 <a href="./files/cvpr25_JarvisIR_bibtex.txt">bibtex</a>
 |
@@ -1050,7 +1050,7 @@ ntire26_rd_stop()
   <em>Computer Vision and Pattern Recognition (CVPR)</em>, 2026, Denver, USA <br>
   <a href="https://arxiv.org/abs/2604.10634">arXiv</a>
   |
-  <a href="https://github.com/jinyeying/RaindropClarity"><img src="https://img.shields.io/github/stars/jinyeying/RaindropClarity?style=social&cacheSeconds=3600"></a>
+  <a href="https://github.com/jinyeying/RaindropClarity"><img src="https://img.shields.io/badge/%E2%98%85-74-blue?style=social&logo=github"></a>
   |
   <a href="https://www.codabench.org/competitions/12808/">competition</a>
   |
@@ -1088,7 +1088,7 @@ ntire25_rd_stop()
   <em>Computer Vision and Pattern Recognition (CVPR)</em>, 2025, Nashville, USA <br>
   <a href="https://arxiv.org/abs/2504.12711">arXiv</a>
   |
-  <a href="https://github.com/jinyeying/RaindropClarity"><img src="https://img.shields.io/github/stars/jinyeying/RaindropClarity?style=social&cacheSeconds=3600"></a>
+  <a href="https://github.com/jinyeying/RaindropClarity"><img src="https://img.shields.io/badge/%E2%98%85-74-blue?style=social&logo=github"></a>
   |
   <a href="./files/ntire25_raindropclarify_bibtex.txt">bibtex</a>
   |
@@ -1132,7 +1132,7 @@ eccv24_rd_stop()
   <em>European Conference on Computer Vision (ECCV)</em>, 2024, Milan, Italy <br>
   <a href="https://arxiv.org/abs/2407.16957">arXiv</a>
   |
-  <a href="https://github.com/jinyeying/RaindropClarity"><img src="https://img.shields.io/github/stars/jinyeying/RaindropClarity?style=social&cacheSeconds=3600"></a>
+  <a href="https://github.com/jinyeying/RaindropClarity"><img src="https://img.shields.io/badge/%E2%98%85-74-blue?style=social&logo=github"></a>
   |
   <a href="./files/eccv24_raindropclarify_bibtex.txt">bibtex</a>
   |
@@ -1280,7 +1280,7 @@ arxiv24_CGSAM_stop()
   <em>ADHIP Best Paper Award</em>, 2024, Jiaxing, China <br>
   <a href="https://arxiv.org/abs/2404.04514">arXiv</a>
   |
-  <a href="https://github.com/jiangsongtao/VTprompt"><img src="https://img.shields.io/github/stars/jiangsongtao/VTprompt?style=social&cacheSeconds=86400"></a>
+  <a href="https://github.com/jiangsongtao/VTprompt"><img src="https://img.shields.io/badge/%E2%98%85-4-blue?style=social&logo=github"></a>
   |
   <a href="./files/CGSAM24_bibtex.txt">bibtex</a>
   <p></p>
@@ -1316,7 +1316,7 @@ emnlp24_moe_stop()
   <em>EMNLP finding</em>, 2024, Miami, Florida <br>
   <a href="https://arxiv.org/abs/2404.10237">arXiv</a>
   |
-  <a href="https://github.com/jiangsongtao/Med-MoE"><img src="https://img.shields.io/github/stars/jiangsongtao/Med-MoE?style=social&cacheSeconds=86400"></a>
+  <a href="https://github.com/jiangsongtao/Med-MoE"><img src="https://img.shields.io/badge/%E2%98%85-158-blue?style=social&logo=github"></a>
   |
   <a href="./files/emnlp24_moe_bibtex.txt">bibtex</a>
   <p></p>
@@ -1386,7 +1386,7 @@ eccv24_sr_stop()
 <em>European Conference on Computer Vision (ECCV)</em>, 2024, Milan, Italy <br>
 <a href="https://arxiv.org/abs/2407.13108">arXiv</a>
 |
-<a href="https://github.com/lixinustc/UCIP_MLP_source_code/tree/main"><img src="https://img.shields.io/github/stars/lixinustc/UCIP_MLP_source_code?style=social&cacheSeconds=86400"></a>
+<a href="https://github.com/lixinustc/UCIP_MLP_source_code/tree/main"><img src="https://img.shields.io/badge/%E2%98%85-5-blue?style=social&logo=github"></a>
 |
 <a href="./files/eccv24_ucip_bibtex.txt">bibtex</a>
 <p></p>
@@ -1422,7 +1422,7 @@ submit24_nighthaze_stop()
 <em>Association for the Advancement of Artificial Intelligence (AAAI)</em>, 2025, Philadelphia, USA <br>
 <a href="https://arxiv.org/abs/2403.07408">arXiv</a>
 |
-<a href="https://github.com/bb12346/nighthaze_codes"><img src="https://img.shields.io/github/stars/bb12346/nighthaze_codes?style=social&cacheSeconds=86400"></a> 
+<a href="https://github.com/bb12346/nighthaze_codes"><img src="https://img.shields.io/badge/%E2%98%85-10-blue?style=social&logo=github"></a> 
 |
 <a href="./files/submit24_nighthaze_bibtex.txt">bibtex</a> 
 |
@@ -1460,7 +1460,7 @@ cvpr24_sr_stop()
 <em>Conference on Computer Vision and Pattern Recognition (CVPR)</em>, 2024, Seattle, USA <br>
 <a href="https://arxiv.org/abs/2402.19387">arXiv</a>
 |
-<a href="https://github.com/lbc12345/SeD"><img src="https://img.shields.io/github/stars/lbc12345/SeD?style=social&cacheSeconds=86400"></a>
+<a href="https://github.com/lbc12345/SeD"><img src="https://img.shields.io/badge/%E2%98%85-164-blue?style=social&logo=github"></a>
 |
 <a href="./files/cvpr24_sr_bibtex.txt">bibtex</a>
 <p></p>
@@ -1496,7 +1496,7 @@ aaai24_des3_stop()
 <em>Association for the Advancement of Artificial Intelligence (AAAI)</em>, 2024, Vancouver, Canada <br>
 <a href="https://arxiv.org/abs/2211.08089">arXiv</a>
 |
-<a href="https://github.com/jinyeying/DeS3_Deshadow"><img src="https://img.shields.io/github/stars/jinyeying/DeS3_Deshadow?style=social&cacheSeconds=86400"></a>
+<a href="https://github.com/jinyeying/DeS3_Deshadow"><img src="https://img.shields.io/badge/%E2%98%85-26-blue?style=social&logo=github"></a>
 |
 <a href="./files/submit23_shadowdiffusion_bibtex.txt">bibtex</a>
 |
@@ -1575,7 +1575,7 @@ eccv22_nightenhance_stop()
 <em>European Conference on Computer Vision (ECCV)</em>, 2022, Tel Aviv, Israel <br>
 <a href="https://arxiv.org/abs/2207.10564">arXiv</a>
 |
-<a href="https://github.com/jinyeying/night-enhancement"><img src="https://img.shields.io/github/stars/jinyeying/night-enhancement?style=social&cacheSeconds=86400"></a>
+<a href="https://github.com/jinyeying/night-enhancement"><img src="https://img.shields.io/badge/%E2%98%85-461-blue?style=social&logo=github"></a>
 |
 <a href="./files/eccv22_nightenhance_bibtex.txt">bibtex</a>
 |  
@@ -1628,7 +1628,7 @@ iccv21_dcshadownet_stop()
 <em>International Conference on Computer Vision (ICCV)</em>, 2021, Montreal, Canada <br>
 <a href="https://arxiv.org/abs/2207.10434">arXiv</a>
 |  
-<a href="https://github.com/jinyeying/DC-ShadowNet-Hard-and-Soft-Shadow-Removal"><img src="https://img.shields.io/github/stars/jinyeying/DC-ShadowNet-Hard-and-Soft-Shadow-Removal?style=social&cacheSeconds=86400"></a>
+<a href="https://github.com/jinyeying/DC-ShadowNet-Hard-and-Soft-Shadow-Removal"><img src="https://img.shields.io/badge/%E2%98%85-255-blue?style=social&logo=github"></a>
 |  
 <a href="./files/iccv21_shadow_bibtex.txt">bibtex</a>
 |
@@ -1674,7 +1674,7 @@ acmmm23_nightdehaze_stop()
 <em>ACM Multimedia (ACM'MM)</em>, 2023, Ottawa, Canada <br>
 <a href="https://arxiv.org/abs/2308.01738">arXiv</a>
 |
-<a href="https://github.com/jinyeying/nighttime_dehaze"><img src="https://img.shields.io/github/stars/jinyeying/nighttime_dehaze?style=social&cacheSeconds=86400"></a>
+<a href="https://github.com/jinyeying/nighttime_dehaze"><img src="https://img.shields.io/badge/%E2%98%85-183-blue?style=social&logo=github"></a>
 |
 <a href="./files/acmmm23_nightdehaze_bibtex.txt">bibtex</a>
 |
@@ -1719,7 +1719,7 @@ aaai23_reflectance_stop()
 <em>Association for the Advancement of Artificial Intelligence (AAAI)</em>, 2023, Washington DC, USA <br>
 <a href="https://arxiv.org/abs/2211.14751">arXiv</a>
 |
-<a href="https://github.com/jinyeying/S-Aware-network"><img src="https://img.shields.io/github/stars/jinyeying/S-Aware-network?style=social&cacheSeconds=86400"></a>
+<a href="https://github.com/jinyeying/S-Aware-network"><img src="https://img.shields.io/badge/%E2%98%85-89-blue?style=social&logo=github"></a>
 |
 <a href="./files/aaai23_reflectance_bibtex.txt">bibtex</a> 
 |
@@ -1763,7 +1763,7 @@ accv22_defog_stop()
 <em>Asian Conference on Computer Vision (ACCV)</em>, 2022, Macau, China <br>
 <a href="https://arxiv.org/abs/2210.03061">arXiv</a>
 |
-<a href="https://github.com/jinyeying/FogRemoval"><img src="https://img.shields.io/github/stars/jinyeying/FogRemoval?style=social&cacheSeconds=86400"></a>
+<a href="https://github.com/jinyeying/FogRemoval"><img src="https://img.shields.io/badge/%E2%98%85-164-blue?style=social&logo=github"></a>
 |
 <a href="./files/accv22_defog_bibtex.txt">bibtex</a>
 |  
@@ -2107,6 +2107,14 @@ function filterBlogs(cat) {
   <tr>
     <th>Title</th>
     <th>Date</th>
+  </tr>
+  <tr class="blog-row" data-blog-cat="world-model">
+    <td><a href="https://zhuanlan.zhihu.com/p/2048576625860670425">Google 又放大招：Gemini Omni 和 Gemini 3.5 同日登场，文生视频屠榜</a></td>
+    <td>05.2026</td>
+  </tr>
+  <tr class="blog-row" data-blog-cat="world-model">
+    <td><a href="https://zhuanlan.zhihu.com/p/2049628105157895122">一图胜千言！GPT Image 2 联手 HappyOyster 秒出世界模型，再战 Nano Banana 2 谁更能打？</a></td>
+    <td>04.2026</td>
   </tr>
   <tr class="blog-row" data-blog-cat="world-model">
     <td><a href="https://zhuanlan.zhihu.com/p/2035741904558634682">一键创世，遥遥领先？快乐生蚝HappyOyster到底有多快乐</a></td>
