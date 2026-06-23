@@ -1931,6 +1931,12 @@ function filterTalks(cat) {
  </tr>
 
  <tr data-talk-cat="world-model">
+    <td><a href="https://cvlai.net/ntire/2026/">CVPR 2026 NTIRE</a> (invited by <a href="https://sites.google.com/view/zwwu/accueil">Zongwei Wu</a>)</td>
+    <td>Game World Model</td>
+    <td>06.03.2026<br>Denver, USA</td>
+ </tr>
+
+ <tr data-talk-cat="world-model">
     <td><img src="/files/tencent.png" alt="Tencent" width="85" height="20"> SPARK Share</td>
     <td>From Video Generation to World Model</td>
     <td>05.22.2026<br>Singapore</td>
