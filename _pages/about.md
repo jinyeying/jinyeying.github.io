@@ -1907,6 +1907,12 @@ function filterTalks(cat) {
   </tr>
 
  <tr data-talk-cat="world-model">
+    <td>Invited by <a href="https://www.linkedin.com/in/robin-kahlow/">Robin Kahlow</a></td>
+    <td>Game World Model</td>
+    <td>06.26.2026<br>Singapore</td>
+ </tr>
+
+ <tr data-talk-cat="world-model">
     <td><a href="https://www.jiqizhixin.com/">CVPR 机器之心</a></td>
     <td>Invited Talk (w/ <a href="https://liuziwei7.github.io/">Ziwei Liu</a><sup style="color:#888;font-size:0.75em;"> NTU</sup>, <a href="https://sites.google.com/view/showlab">Mike Zheng Shou</a><sup style="color:#888;font-size:0.75em;"> NUS</sup>, <a href="https://ruoshiliu.github.io/">Ruoshi Liu</a><sup style="color:#888;font-size:0.75em;"> UMD</sup>)</td>
     <td>06.06.2026<br>Denver, USA</td>
