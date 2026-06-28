@@ -1907,7 +1907,7 @@ function filterTalks(cat) {
   </tr>
 
  <tr data-talk-cat="world-model">
-    <td>Invited by <a href="https://www.linkedin.com/in/robin-kahlow/">Robin Kahlow</a></td>
+    <td><a href="https://runwayml.com/">Runway</a> (invited by <a href="https://www.linkedin.com/in/robin-kahlow/">Robin Kahlow</a>)</td>
     <td>Game World Model</td>
     <td>06.26.2026<br>Singapore</td>
  </tr>
