@@ -808,7 +808,7 @@ cvpr26_VLM_stop()
 <tr data-category="gen-vision" data-role="corr-author" >
 <td width="20%">
 <div style="position:relative;">
-<span class="venue-badge" style="background:#ffffff; color:#1f2937; border:1px solid rgba(0,0,0,0.15);">ECCV 2026</span>
+<span class="venue-badge">ECCV 2026</span>
 <video autoplay loop muted playsinline style="width:100%; height:auto; display:block;">
   <source src="./files/magicprompt_demo.mp4" type="video/mp4">
 </video>
