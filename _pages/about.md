@@ -70,12 +70,19 @@ function _applyProjFilter() {
   .project-row td { vertical-align: top; }
   .project-row .thumb { width: 280px; overflow: hidden; }
   .project-row .info  { padding-left: 12px; }
+  .venue-badge {
+    position: absolute; top: 6px; left: 6px; z-index: 3;
+    background: rgba(0,0,0,0.62); color: #fff;
+    font-size: 11px; font-weight: 600; line-height: 1;
+    padding: 4px 8px; border-radius: 4px; letter-spacing: 0.02em;
+    pointer-events: none;
+  }
 
   /* side by side 图片容器 */
   .side-by-side { display: flex; gap: 6px; width: 100%; }
   .side-by-side img {
-    flex: 1; display: block; object-fit: cover; aspect-ratio: 1/1; min-width: 0;
-    border-radius: 12px;
+    flex: 1; display: block; min-width: 0; height: auto;
+    border-radius: 0;
   }
 
   /* 标题 / 副标题 / KPI：让 Demo 更贴近、更紧凑 */
@@ -117,7 +124,7 @@ function _applyProjFilter() {
     .project-row td { display:block; width:100% !important; box-sizing:border-box; }
     .project-row .thumb { width:100% !important; margin-bottom:8px; padding:0; }
     .side-by-side { flex-direction: row; width:100%; }
-    .side-by-side img { height: 140px; width: 50%; flex: none; object-fit: cover; }
+    .side-by-side img { height: auto; width: 50%; flex: none; }
     .project-row .info { padding-left: 0; padding-top:0; font-size: 0.9em; }
   }
 </style>
@@ -132,10 +139,12 @@ function _applyProjFilter() {
     <!-- StatePlay -->
     <tr class="project-row" data-proj-cat="world-model" data-proj-role="corr-author proj-lead">
       <td class="thumb">
-        <video autoplay loop muted playsinline
-          style="width:100%; aspect-ratio:1/1; object-fit:cover;">
-          <source src="./files/stateplay_demo.mp4" type="video/mp4" />
-        </video>
+        <div class="video-wrap" style="position:relative;">
+          <span class="venue-badge">arXiv 2026</span>
+          <video autoplay loop muted playsinline style="width:100%; height:auto; display:block;">
+            <source src="./files/stateplay_demo.mp4" type="video/mp4" />
+          </video>
+        </div>
       </td>
       <td class="info">
         <a href="https://jimntu.github.io/stateplay_page/">
@@ -149,17 +158,19 @@ function _applyProjFilter() {
           <a class="pill" href="https://huggingface.co/onepiece1999/StatePlay">Model</a>
           <a class="pill" href="https://huggingface.co/datasets/onepiece1999/StatePlay-Dataset">Dataset</a>
         </div>
-        <span class="sub" style="display:block; margin-top:8px; line-height:1.5;">A game world model that generates gameplay frames and internal game states (health, skill meters, timers) jointly via a mixture-of-transformers.<br>State-aware prediction keeps generated content consistent with game mechanics (+18.6% mechanics fidelity vs. visual-only baselines).<br>Evaluated on Street Fighter 3 with synchronized state–frame–action data.</span>
+        <span class="sub" style="display:block; margin-top:8px; line-height:1.5;">A state-aware game world model that jointly generates frames and internal game states (health, meters, timers) for mechanics-consistent gameplay.</span>
       </td>
     </tr>
 
     <!-- ReactiveGWM -->
     <tr class="project-row" data-proj-cat="world-model" data-proj-role="corr-author proj-lead">
       <td class="thumb">
-        <video autoplay loop muted playsinline
-          style="width:100%; aspect-ratio:1/1; object-fit:cover;">
-          <source src="./files/reactivegwm_demo.mp4" type="video/mp4" />
-        </video>
+        <div class="video-wrap" style="position:relative;">
+          <span class="venue-badge">arXiv 2026</span>
+          <video autoplay loop muted playsinline style="width:100%; height:auto; display:block;">
+            <source src="./files/reactivegwm_demo.mp4" type="video/mp4" />
+          </video>
+        </div>
       </td>
       <td class="info">
         <a href="https://inv-wzq.github.io/ReactiveGWM/">
@@ -180,10 +191,12 @@ function _applyProjFilter() {
     <!-- SCOPE -->
     <tr class="project-row" data-proj-cat="world-model" data-proj-role="corr-author proj-lead">
       <td class="thumb">
-        <video autoplay loop muted playsinline
-          style="width:100%; aspect-ratio:1/1; object-fit:cover;">
-          <source src="./files/scope_demo.mp4" type="video/mp4" />
-        </video>
+        <div class="video-wrap" style="position:relative;">
+          <span class="venue-badge">arXiv 2026</span>
+          <video autoplay loop muted playsinline style="width:100%; height:auto; display:block;">
+            <source src="./files/scope_demo.mp4" type="video/mp4" />
+          </video>
+        </div>
       </td>
       <td class="info">
         <a href="https://z2tong.github.io/SCOPE/">
@@ -205,10 +218,12 @@ function _applyProjFilter() {
     <!-- Incantation -->
     <tr class="project-row" data-proj-cat="world-model" data-proj-role="corr-author proj-lead">
       <td class="thumb">
-        <video autoplay loop muted playsinline
-          style="width:100%; aspect-ratio:1/1; object-fit:cover;">
-          <source src="./files/incantation_demo.mp4" type="video/mp4" />
-        </video>
+        <div class="video-wrap" style="position:relative;">
+          <span class="venue-badge">arXiv 2026</span>
+          <video autoplay loop muted playsinline style="width:100%; height:auto; display:block;">
+            <source src="./files/incantation_demo.mp4" type="video/mp4" />
+          </video>
+        </div>
       </td>
       <td class="info">
         <a href="https://matrixteam-ai.github.io/pages/Incanation">
@@ -572,9 +587,12 @@ arxiv26_AgenticWM_stop()
 <!-- Paper CameraNoise -->
 <tr data-category="gen-vision" >
 <td width="20%">
-<video autoplay loop muted playsinline style="width:100%; aspect-ratio:1/1; object-fit:cover;">
+<div style="position:relative;">
+<span class="venue-badge">ICML 2026</span>
+<video autoplay loop muted playsinline style="width:100%; height:auto; display:block;">
   <source src="./files/cameranoise_demo.mp4" type="video/mp4">
 </video>
+</div>
 </td>
 <td valign="top" width="80%">
   <a href="https://arxiv.org/abs/2605.30774">
@@ -598,9 +616,12 @@ arxiv26_AgenticWM_stop()
 <!-- Paper CT-1 -->
 <tr data-category="gen-vision" >
 <td width="20%">
-<video autoplay loop muted playsinline style="width:100%; aspect-ratio:1/1; object-fit:cover;">
+<div style="position:relative;">
+<span class="venue-badge">ACM MM 2026</span>
+<video autoplay loop muted playsinline style="width:100%; height:auto; display:block;">
   <source src="./files/ct1_demo.mp4" type="video/mp4">
 </video>
+</div>
 </td>
 <td valign="top" width="80%">
   <a href="https://arxiv.org/abs/2604.09201">
