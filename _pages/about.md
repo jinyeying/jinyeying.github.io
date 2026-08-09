@@ -16,7 +16,7 @@ redirect_from:
 {% assign url = gsDataBaseUrl | append: "google-scholar-stats/gs_data_shieldsio.json" %}
 <span class='anchor' id='about-me'></span>
 
-I am a Staff Researcher at [Tencent](https://www.tencent.com/en-us/about.html). I earned my PhD degree from <img src="/files/NUS.png" alt="NUS" width="42.5" height="20"> [National University of Singapore (NUS), Department of Electrical and Computer Engineering (ECE)](https://cde.nus.edu.sg/ece/), supervised by [Prof. Robby T. Tan](http://tanrobby.github.io/). 
+I am a Staff Researcher at [Tencent](https://www.tencent.com/en-us/about.html) and an Adjunct Faculty at [NUS ECE](https://cde.nus.edu.sg/ece/). I earned my PhD degree from <img src="/files/NUS.png" alt="NUS" width="42.5" height="20"> [National University of Singapore (NUS), Department of Electrical and Computer Engineering (ECE)](https://cde.nus.edu.sg/ece/), supervised by [Prof. Robby T. Tan](http://tanrobby.github.io/). 
 I had my research internship in <img src="/files/adobe.png" alt="Adobe" width="20" height="20"> [Adobe](https://research.adobe.com/), mentored by [Prof. Connelly Barnes](http://www.connellybarnes.com/work/) and [Prof. Eli Shechtman](https://scholar.google.com/citations?user=B_FTboQAAAAJ).
 Previously, I completed my M.Sc. degree at the <img src="/files/NUS.png" alt="NUS" width="42.5" height="20"> [National University of Singapore (NUS)](https://cde.nus.edu.sg/ece/); received my B.Eng. degree from the <img src="/files/UESTC.png" alt="UESTC" width="20.842" height="20"> [University of Electronic Science and Technology of China (UESTC)](https://en.uestc.edu.cn/). 
 
@@ -129,6 +129,30 @@ function _applyProjFilter() {
   <tbody>
 
 
+    <!-- StatePlay -->
+    <tr class="project-row" data-proj-cat="world-model" data-proj-role="corr-author proj-lead">
+      <td class="thumb">
+        <video autoplay loop muted playsinline
+          style="width:100%; aspect-ratio:1/1; object-fit:cover;">
+          <source src="./files/stateplay_demo.mp4" type="video/mp4" />
+        </video>
+      </td>
+      <td class="info">
+        <a href="https://jimntu.github.io/stateplay_page/">
+          <span class="papertitle_just">StatePlay: State-Aware Game World Models for Mechanics-Consistent Generation</span>
+        </a><br>
+        Zijun Lin, Zeqing Wang, Cheston Tan, Bihan Wen, <strong>Yeying Jin</strong><sup class="corr-lead">†‡</sup><br>
+        <div class="links">
+          <a class="pill" href="https://jimntu.github.io/stateplay_page/">Project Page</a>
+          <a class="pill" href="https://arxiv.org/abs/2607.26754">arXiv</a>
+          <a href="https://github.com/Jimntu/StatePlay"><img src="https://img.shields.io/badge/%E2%98%85-15-blue?style=social&logo=github" alt="GitHub stars"></a>
+          <a class="pill" href="https://huggingface.co/onepiece1999/StatePlay">Model</a>
+          <a class="pill" href="https://huggingface.co/datasets/onepiece1999/StatePlay-Dataset">Dataset</a>
+        </div>
+        <span class="sub" style="display:block; margin-top:8px; line-height:1.5;">A game world model that generates gameplay frames and internal game states (health, skill meters, timers) jointly via a mixture-of-transformers.<br>State-aware prediction keeps generated content consistent with game mechanics (+18.6% mechanics fidelity vs. visual-only baselines).<br>Evaluated on Street Fighter 3 with synchronized state–frame–action data.</span>
+      </td>
+    </tr>
+
     <!-- ReactiveGWM -->
     <tr class="project-row" data-proj-cat="world-model" data-proj-role="corr-author proj-lead">
       <td class="thumb">
@@ -195,7 +219,9 @@ function _applyProjFilter() {
           <a class="pill" href="https://matrixteam-ai.github.io/pages/Incanation">Project Page</a>
           <a class="pill" href="https://arxiv.org/abs/2605.18601">arXiv</a>
           <a href="https://github.com/zhushangwen/Incantation"><img src="https://img.shields.io/badge/%E2%98%85-9-blue?style=social&logo=github" alt="GitHub stars"></a>
-          <a class="pill" href="https://huggingface.co/datasets/zhush/incantation-elden-ring-scenes">Dataset</a>
+          <a class="pill" href="https://www.reactor.inc/incantation">Play</a>
+          <a class="pill" href="https://huggingface.co/MatrixTeam/Incantation_preview_margit">Model</a>
+          <a class="pill" href="https://huggingface.co/datasets/MatrixTeam/incantation-elden-ring-scenes">Dataset</a>
         </div>
         <span class="sub" style="display:block; margin-top:8px; line-height:1.5;">Natural language as the action interface for multi-entity control.<br>Enables cross-entity transfer (89% vs 43% for action IDs) and out-of-vocabulary control.</span>
       </td>
@@ -297,7 +323,7 @@ function _applyProjFilter() {
         <p class="kpis">
           <strong>Tens of Thousands+</strong> Generated AI Images · <strong>22%</strong> Save Rate<br>
           <strong>Tens of Thousands+</strong> UV · <strong>Tens of Thousands+</strong> Active Users<br>
-          <strong>98</strong> Heroes · <strong>12</strong> Styles · <strong>13S</strong> Generation Time
+          <strong>98</strong> Heroes · <strong>12</strong> Styles · <strong>13s</strong> Generation Time
         </p>
         <div class="links">
           <span class="label">Demo:</span>
@@ -322,7 +348,7 @@ function _applyProjFilter() {
         </a><br>
         <span class="sub"><em>HOK Avatar Center</em> • 2024.07–Present</span>
         <p class="kpis">
-          <strong>12×</strong> Launch ·<strong>98</strong> Heroes · <strong>2</strong> Styles · <strong>2</strong> Halloween Topics <br>
+          <strong>12×</strong> Launch · <strong>98</strong> Heroes · <strong>2</strong> Styles · <strong>2</strong> Halloween Topics <br>
           <strong>Over Half a Million+</strong> Exposure, <strong>Tens of K+</strong> Engagement <br>
           Available on HOK Camp, VK, X, Instagram, Facebook,<br>
           WhatsApp, Discord, Sticker
@@ -498,7 +524,7 @@ cvpr26_Deraining_stop()
   <br>
   Yinghao Chen, <strong>Yeying Jin</strong><sup class="corr-lead">†‡</sup>, Xiang Chen, Yanyan Wei<sup class="corr-lead">†</sup>, Ziyang Yan, Yaowei Fu
   <br>
-  <em>IEEE Conference on Computer Vision and Pattern Recognition (CVPR)</em>, 2026, Denver, USA<br>
+  <em>Computer Vision and Pattern Recognition (CVPR)</em>, 2026, Denver, USA<br>
 <a href="https://arxiv.org/abs/2605.00719">arXiv</a>
 <p></p>
 </td>
@@ -583,7 +609,7 @@ arxiv26_AgenticWM_stop()
   <br>
   Haoyu Zhao, Zihao Zhang, Jiaxi Gu, Haoran Chen, Qingping Zheng, Pin Tang, <strong>Yeying Jin</strong>, Yuang Zhang, Junqi Cheng, Zenghui Lu, Peng Shu, Zuxuan Wu<sup class="corr-lead">†</sup>, Yu-Gang Jiang<sup class="corr-lead">†</sup>
   <br>
-  <em>arXiv preprint</em>, 2026<br>
+  <em>ACM Multimedia (ACM'MM)</em>, 2026, Rio, Brazil<br>
   <a href="https://arxiv.org/abs/2604.09201">arXiv</a>
   |
   <a href="https://github.com/gulucaptain/Camera-Transformer-1"><img src="https://img.shields.io/badge/%E2%98%85-308-blue?style=social&logo=github"></a>
@@ -688,7 +714,7 @@ cvpr26_ReFlux_stop()
   <br>
   Nanxiang Jiang, Zhaoxin Fan<sup class="corr-lead">†</sup>, Enhan Kang, Daiheng Gao, Yun Zhou, Yanxia Chang, Zheng Zhu, <strong>Yeying Jin</strong>, Wenjun Wu
   <br>
-  <em>IEEE Conference on Computer Vision and Pattern Recognition (CVPR) Findings</em>, 2026, Denver, USA<br>
+  <em>Computer Vision and Pattern Recognition (CVPR) Findings</em>, 2026, Denver, USA<br>
 <a href="https://arxiv.org/abs/2510.00635">arXiv</a> |
 <a href="https://github.com/nxjiang-jnx/ReFlux"><img src="https://img.shields.io/badge/%E2%98%85-17-blue?style=social&logo=github"></a>
 <p></p>
@@ -722,7 +748,7 @@ cvpr26_VLM_stop()
   <br>
   Xiaoran Sun<sup class="eq-contrib">*</sup>, Liyan Wang<sup class="eq-contrib">*</sup>, <strong>Yeying Jin</strong><sup class="corr-lead">‡</sup>, Kin-man Lam, Zhixun Su<sup class="corr-lead">†</sup>, Yang Yang, Jinshan Pan, Cong Wang
   <br>
-  <em>IEEE Conference on Computer Vision and Pattern Recognition (CVPR) Findings</em>, 2026, Denver, USA<br>
+  <em>Computer Vision and Pattern Recognition (CVPR) Findings</em>, 2026, Denver, USA<br>
 <a href="https://arxiv.org/abs/2507.18064">arXiv</a> |
 <a href="https://github.com/sunxiaoran01/VLM-IMI"><img src="https://img.shields.io/badge/%E2%98%85-5-blue?style=social&logo=github"></a>
 <p></p>
@@ -939,7 +965,7 @@ iccv25_GenHaze_stop()
  Sixiang Chen, Tian Ye, Yunlong Lin, <strong>Yeying Jin</strong>, Yijun Yang, Haoyu Chen, Jianyu Lai, Song Fei, Zhaohu Xing, Fugee Tsung, Lei Zhu<sup class="corr-lead">†</sup>
   <br>
 <em>International Conference on Computer Vision (ICCV)</em>, 2025, Hawaii, USA <br>
-<a href="https://openaccess.thecvf.com/content/ICCV2025/papers/Chen_GenHaze_Pioneering_Controllable_One-Step_Realistic_Haze_Generation_for_Real-World_Dehazing_ICCV_2025_paper.pdf">arXiv</a>
+<a href="https://openaccess.thecvf.com/content/ICCV2025/papers/Chen_GenHaze_Pioneering_Controllable_One-Step_Realistic_Haze_Generation_for_Real-World_Dehazing_ICCV_2025_paper.pdf">paper</a>
 | 
 <a href="./files/iccv25_GenHaze_bibtex.txt">bibtex</a>  
 <p></p>
@@ -1013,7 +1039,7 @@ cvpr26_lovif_stop()
     <papertitle_just>LoViF 2026: The First Challenge on Weather Removal in Videos</papertitle_just>
   </a>
   <br>
-  Chenghao Qian, Xin Li, <strong>Yeying Jin</strong><sup class="corr-lead">†</sup>, Shangguan Sun, Yilian Zhong, etc. <span style="color:#888;font-size:0.92em;">(Organizer & Corresponding Author)</span>
+  Chenghao Qian, Xin Li, <strong>Yeying Jin</strong><sup class="corr-lead">†</sup>, Shangguan Sun, Yilian Zhong, et al. <span style="color:#888;font-size:0.92em;">(Organizer & Corresponding Author)</span>
   <br>
   <em>Computer Vision and Pattern Recognition (CVPR)</em>, 2026, Denver, USA <br>
   <a href="https://arxiv.org/abs/2604.10655">arXiv</a>
@@ -1045,7 +1071,7 @@ ntire26_rd_stop()
     <papertitle_just>NTIRE 2026 The Second Challenge on Day and Night Raindrop Removal for Dual-Focused Images: Methods and Results</papertitle_just>
   </a>
   <br>
-  Xin Li, <strong>Yeying Jin</strong><sup class="corr-lead">†</sup>, Suhang Yao, etc. <span style="color:#888;font-size:0.92em;">(Organizer & Corresponding Author)</span>
+  Xin Li, <strong>Yeying Jin</strong><sup class="corr-lead">†</sup>, Suhang Yao, et al. <span style="color:#888;font-size:0.92em;">(Organizer & Corresponding Author)</span>
   <br>
   <em>Computer Vision and Pattern Recognition (CVPR)</em>, 2026, Denver, USA <br>
   <a href="https://arxiv.org/abs/2604.10634">arXiv</a>
@@ -1080,10 +1106,10 @@ ntire25_rd_stop()
 </td>
 <td valign="top" width="80%">
   <a href="https://arxiv.org/abs/2504.12711">
-    <papertitle_just>NTIRE 2025 Challenge on Day and Night Raindrop Removal for Dual-focused Images: Methods and Results</papertitle_just>
+    <papertitle_just>NTIRE 2025 Challenge on Day and Night Raindrop Removal for Dual-Focused Images: Methods and Results</papertitle_just>
   </a>
   <br>
-  Xin Li, <strong>Yeying Jin</strong><sup class="corr-lead">†</sup>, Xin Jin, etc. <span style="color:#888;font-size:0.92em;">(Organizer & Corresponding Author)</span>
+  Xin Li, <strong>Yeying Jin</strong><sup class="corr-lead">†</sup>, Xin Jin, et al. <span style="color:#888;font-size:0.92em;">(Organizer & Corresponding Author)</span>
   <br>
   <em>Computer Vision and Pattern Recognition (CVPR)</em>, 2025, Nashville, USA <br>
   <a href="https://arxiv.org/abs/2504.12711">arXiv</a>
@@ -1313,7 +1339,7 @@ emnlp24_moe_stop()
   <br>
   Songtao Jiang<sup class="eq-contrib">*</sup>, Tuo Zheng<sup class="eq-contrib">*</sup>, Yan Zhang, <strong>Yeying Jin</strong>, Li Yuan, Zuozhu Liu<sup class="corr-lead">†</sup>
   <br>
-  <em>EMNLP finding</em>, 2024, Miami, Florida <br>
+  <em>EMNLP Findings</em>, 2024, Miami, Florida <br>
   <a href="https://arxiv.org/abs/2404.10237">arXiv</a>
   |
   <a href="https://github.com/jiangsongtao/Med-MoE"><img src="https://img.shields.io/badge/%E2%98%85-158-blue?style=social&logo=github"></a>
@@ -1457,7 +1483,7 @@ cvpr24_sr_stop()
   <br>
   Bingchen Li<sup class="eq-contrib">*</sup>, Xin Li<sup class="eq-contrib">*</sup>, Hanxin Zhu, <strong>Yeying Jin</strong>, Ruoyu Feng, Zhizheng Zhang, Zhibo Chen<sup class="corr-lead">†</sup>
   <br>
-<em>Conference on Computer Vision and Pattern Recognition (CVPR)</em>, 2024, Seattle, USA <br>
+<em>Computer Vision and Pattern Recognition (CVPR)</em>, 2024, Seattle, USA <br>
 <a href="https://arxiv.org/abs/2402.19387">arXiv</a>
 |
 <a href="https://github.com/lbc12345/SeD"><img src="https://img.shields.io/badge/%E2%98%85-164-blue?style=social&logo=github"></a>
@@ -2182,7 +2208,6 @@ function filterBlogs(cat) {
 - Journal Reviewer: TPAMI, IJCV, TIP, TNNLS, TMM, TCSVT, TVCJ, NEUCOM, CVIU, etc.
 - Conference Reviewer: ICML (Gold Reviewer Award), NeurIPS, ICLR, CVPR, ICCV, ECCV, AAAI, ACM MM, ACL, MICCAI, ACCV, IJCAI, IJCNN, etc.
 - Teaching Assistant: [EE5731 Visual Computing](https://tanrobby.github.io/teaching/ece_visual/index.html), EE5904 Neural Network (NUS ECE)
-- NUS ECE Adjunct Faculty
 
 <div style="padding-bottom: 60vh;"></div>
 
