@@ -184,7 +184,7 @@ function _applyProjFilter() {
           <a class="pill" href="https://huggingface.co/INV-WZQ/ReactiveGWM-Models">Model</a>
           <a class="pill" href="https://huggingface.co/datasets/INV-WZQ/ReactiveGWM-Datasets">Dataset</a>
         </div>
-        <span class="sub" style="display:block; margin-top:8px; line-height:1.5;">A game world model where NPCs follow high-level strategies (Offense / Defense / Control) via cross-attention — not just background pixels.<br>The strategy module transfers zero-shot to a new game without retraining.</span>
+        <span class="sub" style="display:block; margin-top:8px; line-height:1.5;">A game world model where NPCs follow high-level strategies (Offense / Defense / Control) via cross-attention, transferring zero-shot to new games without retraining.</span>
       </td>
     </tr>
 
@@ -211,7 +211,7 @@ function _applyProjFilter() {
           <a class="pill" href="https://huggingface.co/collections/zizhaotong/crossfps">Dataset</a>
           <a class="pill" href="https://mp.weixin.qq.com/s/G-MkB84-rH8rEVT3m4UPTw">Link</a>
         </div>
-        <span class="sub" style="display:block; margin-top:8px; line-height:1.5;">An interactive world model for FPS games.<br>Handles dense controls by learning per-pixel temporal action responses.<br>Includes CrossFPS: the first multi-game FPS dataset (69K clips, 7 titles, 10-DoF).</span>
+        <span class="sub" style="display:block; margin-top:8px; line-height:1.5;">An interactive world model for FPS games.</span>
       </td>
     </tr>
 
@@ -238,7 +238,7 @@ function _applyProjFilter() {
           <a class="pill" href="https://huggingface.co/MatrixTeam/Incantation_preview_margit">Model</a>
           <a class="pill" href="https://huggingface.co/datasets/MatrixTeam/incantation-elden-ring-scenes">Dataset</a>
         </div>
-        <span class="sub" style="display:block; margin-top:8px; line-height:1.5;">Natural language as the action interface for multi-entity control.<br>Enables cross-entity transfer (89% vs 43% for action IDs) and out-of-vocabulary control.</span>
+        <span class="sub" style="display:block; margin-top:8px; line-height:1.5;">Natural language as the action interface for multi-entity control.</span>
       </td>
     </tr>
 
@@ -778,6 +778,59 @@ cvpr26_VLM_stop()
 <!-- ###################################################################################################-->
 
 <!-- ###################################################################################################-->
+<!-- Paper ECCV26 W-Crafter (Weather Video Synthesis) -->
+<tr data-category="gen-vision" >
+<td width="20%">
+<div class="one">
+<img src="./files/eccv26_wcrafter_teaser.png" style="width: 100%; aspect-ratio: 1 / 1; object-fit: cover;">
+</div>
+</td>
+<td valign="top" width="80%">
+  <a href="https://arxiv.org/abs/2606.29020">
+    <papertitle_just>Semantic-Aware, Physics-Informed, Geometry-Grounded Weather Video Synthesis</papertitle_just>
+  </a>
+  <br>
+  Chenghao Qian, Nedko Savov, Lingdong Kong, <strong>Yeying Jin</strong>, Rui Song, Wenjing Li, Zhun Zhong, Jiaqi Ma, Gustav Markkula, Luc Van Gool
+  <br>
+  <em>European Conference on Computer Vision (ECCV)</em>, 2026, Malmö, Sweden <br>
+<a href="https://arxiv.org/abs/2606.29020">arXiv</a>
+|
+<a href="https://github.com/Jumponthemoon/WeatherVideo"><img src="https://img.shields.io/badge/%E2%98%85-14-blue?style=social&logo=github"></a>
+|
+<a href="https://jumponthemoon.github.io/w-crafter/">Project Page</a>
+<p></p>
+</td>
+</tr>
+<!-- ###################################################################################################-->
+
+<!-- ###################################################################################################-->
+<!-- Paper ECCV26 MagicPrompt -->
+<tr data-category="gen-vision" data-role="corr-author" >
+<td width="20%">
+<div style="position:relative;">
+<span class="venue-badge" style="background:#ffffff; color:#1f2937; border:1px solid rgba(0,0,0,0.15);">ECCV 2026</span>
+<video autoplay loop muted playsinline style="width:100%; height:auto; display:block;">
+  <source src="./files/magicprompt_demo.mp4" type="video/mp4">
+</video>
+</div>
+</td>
+<td valign="top" width="80%">
+  <a href="https://arxiv.org/abs/2607.14595">
+    <papertitle_just>MagicPrompt: Ultra-Lightweight Prompt Tuning for Video Generation</papertitle_just>
+  </a>
+  <br>
+  Yinhan Zhang, Dingwei Tan, Xianghao Kong, Yue Ma, <strong>Yeying Jin</strong><sup class="corr-lead">†</sup>, Anyi Rao<sup class="corr-lead">†</sup>
+  <br>
+  <em>European Conference on Computer Vision (ECCV)</em>, 2026, Malmö, Sweden <br>
+<a href="https://arxiv.org/abs/2607.14595">arXiv</a>
+|
+<a href="https://github.com/YinHan-Zhang/MagicPrompt"><img src="https://img.shields.io/badge/%E2%98%85-8-blue?style=social&logo=github"></a>
+<p></p>
+</td>
+</tr>
+<!-- ###################################################################################################-->
+
+<!-- ###################################################################################################-->
 <!-- Paper UniFit -->
 <tr data-category="gen-vision" data-role="eq-contrib" onmouseout="aaai26_UniFit_stop()" onmouseover="aaai26_UniFit_start()" >
 <td width="20%">
@@ -819,6 +872,7 @@ aaai26_UniFit_stop()
 <tr data-category="gen-vision" onmouseout="tcsvt25_MMGT_stop()" onmouseover="tcsvt25_MMGT_start()" >
 <td width="20%">
 <div class="one">
+<span class="venue-badge">TCSVT 2025</span>
 <div class="two" id = 'tcsvt25_MMGT_image'>
 <img src="./files/tcsvt25_MMGT_after.gif" style="width: 100%; aspect-ratio: 1 / 1; object-fit: cover;"></div>
 <img src="./files/tcsvt25_MMGT_before.gif" style="width: 100%; aspect-ratio: 1 / 1; object-fit: cover;">
