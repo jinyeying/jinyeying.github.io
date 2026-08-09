@@ -514,39 +514,6 @@ function _applyPubFilter() {
 <!-- ############################ Put your publications below this! ####################################-->
 
 <!-- ###################################################################################################-->
-<!-- Paper CVPR26 Deraining -->
-<tr data-category="gen-vision" data-role="corr-author proj-lead" onmouseout="cvpr26_Deraining_stop()" onmouseover="cvpr26_Deraining_start()" >
-<td width="20%">
-<div class="one">
-<div class="two" id='cvpr26_Deraining_image'>
-<img src="./files/cvpr26_Deraining_after.png" style="width: 100%; aspect-ratio: 1 / 1; object-fit: cover;"></div>
-<img src="./files/cvpr26_Deraining_before.png" style="width: 100%; aspect-ratio: 1 / 1; object-fit: cover;">
-</div>
-<script type="text/javascript">
-function cvpr26_Deraining_start() {
-document.getElementById('cvpr26_Deraining_image').style.opacity = "1";
-}
-function cvpr26_Deraining_stop() {
-document.getElementById('cvpr26_Deraining_image').style.opacity = "0";
-}
-cvpr26_Deraining_stop()
-</script>
-</td>
-<td valign="top" width="80%">
-  <a href="https://arxiv.org/abs/2605.00719">
-    <papertitle_just>Unpaired Image Deraining Using Reward-Guided Self-Reinforcement Strategy</papertitle_just>
-  </a>
-  <br>
-  Yinghao Chen, <strong>Yeying Jin</strong><sup class="corr-lead">†‡</sup>, Xiang Chen, Yanyan Wei<sup class="corr-lead">†</sup>, Ziyang Yan, Yaowei Fu
-  <br>
-  <em>Computer Vision and Pattern Recognition (CVPR)</em>, 2026, Denver, USA<br>
-<a href="https://arxiv.org/abs/2605.00719">arXiv</a>
-<p></p>
-</td>
-</tr>
-<!-- ###################################################################################################-->
-
-<!-- ###################################################################################################-->
 <!-- Paper Agentic World Modeling -->
 <tr data-category="world-model" onmouseout="arxiv26_AgenticWM_stop()" onmouseover="arxiv26_AgenticWM_start()" >
 <td width="20%">
@@ -578,6 +545,33 @@ arxiv26_AgenticWM_stop()
 <a href="https://github.com/matrix-agent/awesome-agentic-world-modeling"><img src="https://img.shields.io/badge/%E2%98%85-262-blue?style=social&logo=github"></a>
 |
 <a href="https://agentic-world-modeling.xyz/">Project Page</a>
+<p></p>
+</td>
+</tr>
+<!-- ###################################################################################################-->
+
+<!-- ###################################################################################################-->
+<!-- Paper ECCV26 MagicPrompt -->
+<tr data-category="gen-vision" data-role="corr-author" >
+<td width="20%">
+<div style="position:relative;">
+<span class="venue-badge">ECCV 2026</span>
+<video autoplay loop muted playsinline style="width:100%; height:auto; display:block;">
+  <source src="./files/magicprompt_demo.mp4" type="video/mp4">
+</video>
+</div>
+</td>
+<td valign="top" width="80%">
+  <a href="https://arxiv.org/abs/2607.14595">
+    <papertitle_just>MagicPrompt: Ultra-Lightweight Prompt Tuning for Video Generation</papertitle_just>
+  </a>
+  <br>
+  Yinhan Zhang<sup class="eq-contrib">*</sup>, Dingwei Tan<sup class="eq-contrib">*</sup>, Xianghao Kong, Yue Ma<sup class="corr-lead">‡</sup>, <strong>Yeying Jin</strong><sup class="corr-lead">†</sup>, Anyi Rao<sup class="corr-lead">†</sup>
+  <br>
+  <em>European Conference on Computer Vision (ECCV)</em>, 2026, Malmö, Sweden <br>
+<a href="https://arxiv.org/abs/2607.14595">arXiv</a>
+|
+<a href="https://github.com/YinHan-Zhang/MagicPrompt"><img src="https://img.shields.io/badge/%E2%98%85-8-blue?style=social&logo=github"></a>
 <p></p>
 </td>
 </tr>
@@ -767,7 +761,7 @@ cvpr26_VLM_stop()
     <papertitle_just>Adapting Large VLMs with Iterative and Manual Instructions for Generative Low-light Enhancement</papertitle_just>
   </a>
   <br>
-  Xiaoran Sun<sup class="eq-contrib">*</sup>, Liyan Wang<sup class="eq-contrib">*</sup>, <strong>Yeying Jin</strong><sup class="corr-lead">‡</sup>, Kin-man Lam, Zhixun Su<sup class="corr-lead">†</sup>, Yang Yang, Jinshan Pan, Cong Wang
+  Xiaoran Sun<sup class="eq-contrib">*</sup>, Liyan Wang<sup class="eq-contrib">*</sup>, <strong>Yeying Jin</strong><sup class="corr-lead">‡</sup>, Kin-man Lam, Zhixun Su<sup class="corr-lead">†</sup>, Yang Yang, Jinshan Pan, Cong Wang<sup class="corr-lead">‡</sup>
   <br>
   <em>Computer Vision and Pattern Recognition (CVPR) Findings</em>, 2026, Denver, USA<br>
 <a href="https://arxiv.org/abs/2507.18064">arXiv</a> |
@@ -798,33 +792,6 @@ cvpr26_VLM_stop()
 <a href="https://github.com/Jumponthemoon/WeatherVideo"><img src="https://img.shields.io/badge/%E2%98%85-14-blue?style=social&logo=github"></a>
 |
 <a href="https://jumponthemoon.github.io/w-crafter/">Project Page</a>
-<p></p>
-</td>
-</tr>
-<!-- ###################################################################################################-->
-
-<!-- ###################################################################################################-->
-<!-- Paper ECCV26 MagicPrompt -->
-<tr data-category="gen-vision" data-role="corr-author" >
-<td width="20%">
-<div style="position:relative;">
-<span class="venue-badge">ECCV 2026</span>
-<video autoplay loop muted playsinline style="width:100%; height:auto; display:block;">
-  <source src="./files/magicprompt_demo.mp4" type="video/mp4">
-</video>
-</div>
-</td>
-<td valign="top" width="80%">
-  <a href="https://arxiv.org/abs/2607.14595">
-    <papertitle_just>MagicPrompt: Ultra-Lightweight Prompt Tuning for Video Generation</papertitle_just>
-  </a>
-  <br>
-  Yinhan Zhang, Dingwei Tan, Xianghao Kong, Yue Ma, <strong>Yeying Jin</strong><sup class="corr-lead">†</sup>, Anyi Rao<sup class="corr-lead">†</sup>
-  <br>
-  <em>European Conference on Computer Vision (ECCV)</em>, 2026, Malmö, Sweden <br>
-<a href="https://arxiv.org/abs/2607.14595">arXiv</a>
-|
-<a href="https://github.com/YinHan-Zhang/MagicPrompt"><img src="https://img.shields.io/badge/%E2%98%85-8-blue?style=social&logo=github"></a>
 <p></p>
 </td>
 </tr>
@@ -905,7 +872,7 @@ tcsvt25_MMGT_stop()
 </tr>
 <!-- ###################################################################################################-->
 
-
+<!-- ###################################################################################################-->
 <!-- Paper 23 PosterCraft -->
 <tr data-category="agentic-vlm" onmouseout="arxiv25_PosterCraft_stop()" onmouseover="arxiv25_PosterCraft_start()" >
 <td width="20%">
@@ -950,45 +917,7 @@ arxiv25_PosterCraft_stop()
 </tr>
 <!-- ###################################################################################################-->
 
-<!-- ###################################################################################################-->
-<!-- Paper 22 DSDNet -->
-<tr data-category="gen-vision" onmouseout="acm25_DSDNet_stop()" onmouseover="acm25_DSDNet_start()" >
-<td width="20%">
-<div class="one">
-<div class="two" id = 'acm25_DSDNet_image'><img src='./files/acm25_DSDNet_after.png'></div>
-<img src='./files/acm25_DSDNet_before.png'>
-</div>
-<script type="text/javascript">
-function acm25_DSDNet_start() {
-document.getElementById('acm25_DSDNet_image').style.opacity = "1";
-}
-function acm25_DSDNet_stop() {
-document.getElementById('acm25_DSDNet_image').style.opacity = "0";
-}
-acm25_DSDNet_stop()
-</script>
-</td>
-<td valign="top" width="80%">
-  <a href="https://arxiv.org/abs/2504.15756">
-    <papertitle_just>DSDNet: Raw Domain Demoiréing via Dual Color-Space Synergy</papertitle_just>     
-  </a>
-  <br>
-  Qirui Yang<sup class="eq-contrib">*</sup>, Fangpu Zhang<sup class="eq-contrib">*</sup>, <strong>Yeying Jin</strong>, Qihua Cheng, Pengtao Jiang, Huanjing Yue<sup class="corr-lead">†</sup>, Jingyu Yang<sup class="corr-lead">†</sup>
-  <br>
-<em>ACM Multimedia (ACM'MM)</em>, 2025, Dublin, Ireland <br>
-<a href="https://arxiv.org/abs/2504.15756">arXiv</a>
-|
-<a href="https://github.com/xxxxxxxxDSDNet/DSDNet-official"><img src="https://img.shields.io/badge/%E2%98%85-3-blue?style=social&logo=github"></a>
-|
-<a href="./files/acm25_DSDNet_bibtex.txt">bibtex</a> 
-|
-<a href="https://xxxxxxxxdsdnet.github.io/DSDNet/">Project Page</a>  
-<p></p>
-</td>
-</tr>
-<!-- ###################################################################################################-->
 
-<!-- ###################################################################################################-->
 <!-- Paper Security: Adversarial Attacks -->
 <tr data-category="security" data-role="eq-contrib" >
 <td width="20%">
@@ -1009,6 +938,39 @@ acm25_DSDNet_stop()
 <a href="./files/pr25_Attacks_bibtex.txt">bibtex</a>  
 |
 <a href="https://mp.weixin.qq.com/s/xviRfqXDHGhBUOHhYuiy9A">link</a> 
+<p></p>
+</td>
+</tr>
+<!-- ###################################################################################################-->
+
+<!-- ###################################################################################################-->
+<!-- Paper CVPR26 Deraining -->
+<tr data-category="gen-vision" data-role="corr-author proj-lead" onmouseout="cvpr26_Deraining_stop()" onmouseover="cvpr26_Deraining_start()" >
+<td width="20%">
+<div class="one">
+<div class="two" id='cvpr26_Deraining_image'>
+<img src="./files/cvpr26_Deraining_after.png" style="width: 100%; aspect-ratio: 1 / 1; object-fit: cover;"></div>
+<img src="./files/cvpr26_Deraining_before.png" style="width: 100%; aspect-ratio: 1 / 1; object-fit: cover;">
+</div>
+<script type="text/javascript">
+function cvpr26_Deraining_start() {
+document.getElementById('cvpr26_Deraining_image').style.opacity = "1";
+}
+function cvpr26_Deraining_stop() {
+document.getElementById('cvpr26_Deraining_image').style.opacity = "0";
+}
+cvpr26_Deraining_stop()
+</script>
+</td>
+<td valign="top" width="80%">
+  <a href="https://arxiv.org/abs/2605.00719">
+    <papertitle_just>Unpaired Image Deraining Using Reward-Guided Self-Reinforcement Strategy</papertitle_just>
+  </a>
+  <br>
+  Yinghao Chen, <strong>Yeying Jin</strong><sup class="corr-lead">†‡</sup>, Xiang Chen, Yanyan Wei<sup class="corr-lead">†</sup>, Ziyang Yan, Yaowen Fu
+  <br>
+  <em>Computer Vision and Pattern Recognition (CVPR)</em>, 2026, Denver, USA<br>
+<a href="https://arxiv.org/abs/2605.00719">arXiv</a>
 <p></p>
 </td>
 </tr>
@@ -1048,6 +1010,44 @@ iccv25_GenHaze_stop()
 </tr>
 <!-- ###################################################################################################-->
 
+<!-- ###################################################################################################-->
+<!-- Paper 22 DSDNet -->
+<tr data-category="gen-vision" onmouseout="acm25_DSDNet_stop()" onmouseover="acm25_DSDNet_start()" >
+<td width="20%">
+<div class="one">
+<div class="two" id = 'acm25_DSDNet_image'><img src='./files/acm25_DSDNet_after.png'></div>
+<img src='./files/acm25_DSDNet_before.png'>
+</div>
+<script type="text/javascript">
+function acm25_DSDNet_start() {
+document.getElementById('acm25_DSDNet_image').style.opacity = "1";
+}
+function acm25_DSDNet_stop() {
+document.getElementById('acm25_DSDNet_image').style.opacity = "0";
+}
+acm25_DSDNet_stop()
+</script>
+</td>
+<td valign="top" width="80%">
+  <a href="https://arxiv.org/abs/2504.15756">
+    <papertitle_just>DSDNet: Raw Domain Demoiréing via Dual Color-Space Synergy</papertitle_just>     
+  </a>
+  <br>
+  Qirui Yang<sup class="eq-contrib">*</sup>, Fangpu Zhang<sup class="eq-contrib">*</sup>, <strong>Yeying Jin</strong>, Qihua Cheng, Pengtao Jiang, Huanjing Yue<sup class="corr-lead">†</sup>, Jingyu Yang<sup class="corr-lead">†</sup>
+  <br>
+<em>ACM Multimedia (ACM'MM)</em>, 2025, Dublin, Ireland <br>
+<a href="https://arxiv.org/abs/2504.15756">arXiv</a>
+|
+<a href="https://github.com/xxxxxxxxDSDNet/DSDNet-official"><img src="https://img.shields.io/badge/%E2%98%85-3-blue?style=social&logo=github"></a>
+|
+<a href="./files/acm25_DSDNet_bibtex.txt">bibtex</a> 
+|
+<a href="https://xxxxxxxxdsdnet.github.io/DSDNet/">Project Page</a>  
+<p></p>
+</td>
+</tr>
+<!-- ###################################################################################################-->
+
 
 <!-- ###################################################################################################-->
 <!-- Paper 19 JarvisIR -->
@@ -1072,7 +1072,7 @@ cvpr25_JarvisIR_stop()
     <papertitle_just>JarvisIR: Elevating Autonomous Driving Perception with Intelligent Image Restoration</papertitle_just>     
   </a>
   <br>
-  Yunlong Lin<sup class="eq-contrib">*</sup>, Zixu Lin<sup class="eq-contrib">*</sup>, Haoyu Chen<sup class="eq-contrib">*</sup>, Panwang Pan<sup class="eq-contrib">*</sup>, Chenxin Li, Sixiang Chen, Kairun Wen, <strong>Yeying Jin</strong>, Wenbo Li<sup class="corr-lead">†</sup>, Xinghao Ding<sup class="corr-lead">†</sup>
+  Yunlong Lin<sup class="eq-contrib">*</sup>, Zixu Lin<sup class="eq-contrib">*</sup>, Haoyu Chen<sup class="eq-contrib">*</sup>, Panwang Pan<sup class="eq-contrib">*</sup>, Chenxin Li, Sixiang Chen, <strong>Yeying Jin</strong>, Wenbo Li<sup class="corr-lead">†</sup>, Xinghao Ding<sup class="corr-lead">†</sup>
   <br>
 <em>Computer Vision and Pattern Recognition (CVPR)</em>, 2025, Nashville, USA <br>
 <a href="https://arxiv.org/abs/2504.04158">arXiv</a>
@@ -1114,7 +1114,7 @@ cvpr26_lovif_stop()
     <papertitle_just>LoViF 2026: The First Challenge on Weather Removal in Videos</papertitle_just>
   </a>
   <br>
-  Chenghao Qian, Xin Li, <strong>Yeying Jin</strong><sup class="corr-lead">†</sup>, Shangguan Sun, Yilian Zhong, et al. <span style="color:#888;font-size:0.92em;">(Organizer & Corresponding Author)</span>
+  Chenghao Qian, Xin Li, <strong>Yeying Jin</strong><sup class="corr-lead">†</sup>, Shangquan Sun, Yilian Zhong, et al. <span style="color:#888;font-size:0.92em;">(Organizer & Corresponding Author)</span>
   <br>
   <em>Computer Vision and Pattern Recognition (CVPR)</em>, 2026, Denver, USA <br>
   <a href="https://arxiv.org/abs/2604.10655">arXiv</a>
@@ -1342,7 +1342,7 @@ arxiv24_dpo_stop()
     <papertitle_just>Modality-Fair Preference Optimization for Trustworthy MLLM Alignment</papertitle_just>
   </a>
   <br>
-  Songtao Jiang, Yan Zhang, Ruizhe Chen, <strong>Yeying Jin</strong>, Zuozhu Liu<sup class="corr-lead">†</sup>
+  Songtao Jiang, Yan Zhang, Ruizhe Chen, Tianxiang Hu, <strong>Yeying Jin</strong>, Qinglin He, Yang Feng, Jian Wu, Zuozhu Liu<sup class="corr-lead">†</sup>
   <br>
   <em>International Joint Conference on Artificial Intelligence (IJCAI)</em>, 2025, Montreal, Canada <br>
   <a href="https://arxiv.org/abs/2410.15334">arXiv</a>
@@ -1770,7 +1770,7 @@ acmmm23_nightdehaze_stop()
     <papertitle_just>Enhancing Visibility in Nighttime Haze Images Using Guided APSF and Gradient Adaptive Convolution</papertitle_just>     
   </a>
   <br>
-  <strong>Yeying Jin</strong><sup class="eq-contrib">*</sup>, Beibei Lin<sup class="eq-contrib">*</sup>, Wending Yan, Wei Ye, Yuan Yuan, Robby T. Tan
+  <strong>Yeying Jin</strong><sup class="eq-contrib">*</sup>, Beibei Lin<sup class="eq-contrib">*</sup>, Wending Yan, Yuan Yuan, Wei Ye, Robby T. Tan
   <br>
 <em>ACM Multimedia (ACM'MM)</em>, 2023, Ottawa, Canada <br>
 <a href="https://arxiv.org/abs/2308.01738">arXiv</a>
