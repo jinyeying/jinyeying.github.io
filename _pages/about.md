@@ -17,11 +17,11 @@ redirect_from:
 <span class='anchor' id='about-me'></span>
 
 I am a Staff Researcher at [Tencent](https://www.tencent.com/en-us/about.html), joined via The 'Project Up' (青云计划) Talent Programme, and an Adjunct Faculty at [NUS ECE](https://cde.nus.edu.sg/ece/). I earned my PhD degree from <img src="/files/NUS.png" alt="NUS" width="42.5" height="20"> [National University of Singapore (NUS), Department of Electrical and Computer Engineering (ECE)](https://cde.nus.edu.sg/ece/), supervised by [Prof. Robby T. Tan](http://tanrobby.github.io/). 
-📢 I'm hiring self-motivated interns and full-time researchers — see [腾讯招聘｜游戏世界模型 & Agentic Video 实习生（新加坡 / 深圳 / 北京）](https://zhuanlan.zhihu.com/p/2070315664162689467).
 I had my research internship in <img src="/files/adobe.png" alt="Adobe" width="20" height="20"> [Adobe](https://research.adobe.com/), mentored by [Prof. Connelly Barnes](http://www.connellybarnes.com/work/) and [Prof. Eli Shechtman](https://scholar.google.com/citations?user=B_FTboQAAAAJ).
 Previously, I completed my M.Sc. degree at the <img src="/files/NUS.png" alt="NUS" width="42.5" height="20"> [National University of Singapore (NUS)](https://cde.nus.edu.sg/ece/); received my B.Eng. degree from the <img src="/files/UESTC.png" alt="UESTC" width="20.842" height="20"> [University of Electronic Science and Technology of China (UESTC)](https://en.uestc.edu.cn/). 
 
 I have published papers with <a href='https://scholar.google.com/citations?user=Z8PYhA4AAAAJ' target="_blank"><img src="https://img.shields.io/endpoint?url={{ url | url_encode }}&logo=Google%20Scholar&labelColor=f6f6f6&color=9cf&style=flat&label=citations"></a> at top international venues.
+📢 I'm [hiring](https://zhuanlan.zhihu.com/p/2070315664162689467) self-motivated interns and full-time researchers.
 
 # 📜 Research {#research}
 1. Video World Model
