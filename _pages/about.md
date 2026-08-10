@@ -775,8 +775,11 @@ cvpr26_VLM_stop()
 <!-- Paper ECCV26 W-Crafter (Weather Video Synthesis) -->
 <tr data-category="gen-vision" >
 <td width="20%">
-<div class="one">
-<img src="./files/eccv26_wcrafter_teaser.png" style="width: 100%; aspect-ratio: 1 / 1; object-fit: cover;">
+<div style="position:relative;">
+<span class="venue-badge">ECCV 2026</span>
+<video autoplay loop muted playsinline style="width:100%; height:auto; display:block;">
+  <source src="./files/wcrafter_demo.mp4" type="video/mp4">
+</video>
 </div>
 </td>
 <td valign="top" width="80%">
