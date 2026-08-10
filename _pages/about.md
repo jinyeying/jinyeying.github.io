@@ -503,7 +503,7 @@ function filterPubRole(role) {
 }
 function _applyPubFilter() {
   document.querySelectorAll('tr[data-category]').forEach(function(tr) {
-    var topicOk = _pubTopic === 'all' || tr.dataset.category === _pubTopic;
+    var topicOk = _pubTopic === 'all' || (tr.dataset.category || '').split(' ').indexOf(_pubTopic) !== -1;
     var roleOk  = _pubRole  === 'all' || (tr.dataset.role || '').split(' ').indexOf(_pubRole) !== -1;
     tr.style.display = (topicOk && roleOk) ? '' : 'none';
   });
@@ -671,7 +671,7 @@ arxiv25_InstanceAnimator_stop()
 
 <!-- ###################################################################################################-->
 <!-- Paper Z-Erase -->
-<tr data-category="gen-vision" data-role="proj-lead" onmouseout="icml26_zerase_stop()" onmouseover="icml26_zerase_start()" >
+<tr data-category="gen-vision security" data-role="proj-lead" onmouseout="icml26_zerase_stop()" onmouseover="icml26_zerase_start()" >
 <td width="20%">
 <div class="one">
 <div class="two" id='icml26_zerase_image'>
@@ -705,7 +705,7 @@ icml26_zerase_stop()
 
 <!-- ###################################################################################################-->
 <!-- Paper ReFlux -->
-<tr data-category="gen-vision" onmouseout="cvpr26_ReFlux_stop()" onmouseover="cvpr26_ReFlux_start()" >
+<tr data-category="gen-vision security" onmouseout="cvpr26_ReFlux_stop()" onmouseover="cvpr26_ReFlux_start()" >
 <td width="20%">
 <div class="one">
 <div class="two" id='cvpr26_ReFlux_image'>
@@ -874,7 +874,7 @@ tcsvt25_MMGT_stop()
 
 <!-- ###################################################################################################-->
 <!-- Paper 23 PosterCraft -->
-<tr data-category="agentic-vlm" onmouseout="arxiv25_PosterCraft_stop()" onmouseover="arxiv25_PosterCraft_start()" >
+<tr data-category="agentic-vlm gen-vision" onmouseout="arxiv25_PosterCraft_stop()" onmouseover="arxiv25_PosterCraft_start()" >
 <td width="20%">
 <div class="one">
 <div class="two" id = 'arxiv25_PosterCraft_image'>
