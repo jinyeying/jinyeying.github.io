@@ -16,17 +16,19 @@ redirect_from:
 {% assign url = gsDataBaseUrl | append: "google-scholar-stats/gs_data_shieldsio.json" %}
 <span class='anchor' id='about-me'></span>
 
-I am a Staff Researcher at [Tencent](https://www.tencent.com/en-us/about.html), joined via The 'Project Up' (青云计划) Talent Programme, and an Adjunct Faculty at <img src="/files/NUS.png" alt="NUS" width="42.5" height="20"> [National University of Singapore (NUS), Department of Electrical and Computer Engineering (ECE)](https://cde.nus.edu.sg/ece/). I earned my PhD degree from NUS ECE, supervised by [Prof. Robby T. Tan](http://tanrobby.github.io/). 
-I had my research internship in <img src="/files/adobe.png" alt="Adobe" width="20" height="20"> [Adobe](https://research.adobe.com/), mentored by [Prof. Connelly Barnes](http://www.connellybarnes.com/work/) and [Prof. Eli Shechtman](https://scholar.google.com/citations?user=B_FTboQAAAAJ).
-I hold an M.Sc. from NUS ECE and a B.Eng. degree from the <img src="/files/UESTC.png" alt="UESTC" width="20.842" height="20"> [UESTC](https://en.uestc.edu.cn/). 
+I am a Staff Researcher at [Tencent](https://www.tencent.com/en-us/about.html), joined via The 'Project Up' (青云计划) Talent Programme, where I serve as Research Lead for World Models, Agentic AI, and AIGC for large-scale game content creation. I am also Adjunct Faculty at <img src="/files/NUS.png" alt="NUS" width="42.5" height="20"> [National University of Singapore (NUS), Department of Electrical and Computer Engineering (ECE)](https://cde.nus.edu.sg/ece/).
 
-I have published papers with <a href='https://scholar.google.com/citations?user=Z8PYhA4AAAAJ' target="_blank"><img src="https://img.shields.io/endpoint?url={{ url | url_encode }}&logo=Google%20Scholar&labelColor=f6f6f6&color=9cf&style=flat&label=citations"></a> at top international venues.
+I lead research from model architecture and evaluation to large-scale deployment. Our AIUGC platforms for global game products have generated **2.1M+ creatives**, while our AIGC production pipeline delivers **200+ localized video assets monthly** at **5x production efficiency**. I have mentored **20+ junior researchers** across Tencent and NUS.
+
+I earned my PhD degree from NUS ECE, supervised by [Prof. Robby T. Tan](http://tanrobby.github.io/), and previously interned at <img src="/files/adobe.png" alt="Adobe" width="20" height="20"> [Adobe Research](https://research.adobe.com/), mentored by [Prof. Connelly Barnes](http://www.connellybarnes.com/work/) and [Prof. Eli Shechtman](https://scholar.google.com/citations?user=B_FTboQAAAAJ). I hold an M.Sc. from NUS ECE and a B.Eng. degree from the <img src="/files/UESTC.png" alt="UESTC" width="20.842" height="20"> [UESTC](https://en.uestc.edu.cn/).
+
+I have published **70+ papers** at top international venues, with <a href='https://scholar.google.com/citations?user=Z8PYhA4AAAAJ' target="_blank"><img src="https://img.shields.io/endpoint?url={{ url | url_encode }}&logo=Google%20Scholar&labelColor=f6f6f6&color=9cf&style=flat&label=citations" alt="Google Scholar citations"></a>.
 📢 I'm [hiring](https://zhuanlan.zhihu.com/p/2070315664162689467) self-motivated interns and full-time researchers.
 
 # 📜 Research {#research}
-1. Video World Model
-2. Agentic VLM, Agentic Video Generation
-3. AIGC: Generation & Vision
+1. Game World Models: Persistent State, Mechanics Consistency, and Controllable Agents
+2. Agentic VLMs and Agentic Video Generation
+3. AIGC for Game Content Creation and Deployment
 4. Multimodal Learning & VLMs
 
 # 🔬 Projects {#projects}
@@ -136,6 +138,30 @@ function _applyProjFilter() {
   <tbody>
 
 
+    <!-- WorldMind -->
+    <tr class="project-row" data-proj-cat="world-model" data-proj-role="corr-author proj-lead">
+      <td class="thumb">
+        <div class="video-wrap" style="position:relative;">
+          <span class="venue-badge">arXiv 2026</span>
+          <video autoplay loop muted playsinline style="width:100%; height:auto; display:block;">
+            <source src="./files/worldmind_demo.mp4" type="video/mp4" />
+          </video>
+        </div>
+      </td>
+      <td class="info">
+        <a href="https://teawhite.cn/worldmind_projectpage/">
+          <span class="papertitle_just">WorldMind: Decoupled Game World Model for State-Aware NPC Behavior</span>
+        </a><br>
+        Zhiyang Deng, Boran Zhang, Danze Chen, <strong>Yeying Jin</strong><sup class="corr-lead">†‡</sup><br>
+        <div class="links">
+          <a class="pill" href="https://teawhite.cn/worldmind_projectpage/">Project Page</a>
+          <a class="pill" href="https://arxiv.org/abs/2608.21439">arXiv</a>
+          <a href="https://github.com/TeaWhiteBro/WorldMind"><img src="https://img.shields.io/badge/%E2%98%85-9-blue?style=social&logo=github" alt="GitHub stars"></a>
+        </div>
+        <span class="sub" style="display:block; margin-top:8px; line-height:1.5;">The first decoupled game world model that splits understanding, decision, control, and generation into a closed loop, preferred over baselines in ~70% of pairwise comparisons for state-aware NPC behavior; released with BOSS-140K.</span>
+      </td>
+    </tr>
+
     <!-- StatePlay -->
     <tr class="project-row" data-proj-cat="world-model" data-proj-role="corr-author proj-lead">
       <td class="thumb">
@@ -158,7 +184,7 @@ function _applyProjFilter() {
           <a class="pill" href="https://huggingface.co/onepiece1999/StatePlay">Model</a>
           <a class="pill" href="https://huggingface.co/datasets/onepiece1999/StatePlay-Dataset">Dataset</a>
         </div>
-        <span class="sub" style="display:block; margin-top:8px; line-height:1.5;">A state-aware game world model that jointly generates frames and internal game states (health, meters, timers) for mechanics-consistent gameplay.</span>
+        <span class="sub" style="display:block; margin-top:8px; line-height:1.5;">A state-aware game world model that jointly generates frames and internal game states (health, meters, timers), achieving below 0.06 normalized L1 state-prediction error and improving mechanics fidelity by 18.6%.</span>
       </td>
     </tr>
 
@@ -211,7 +237,7 @@ function _applyProjFilter() {
           <a class="pill" href="https://huggingface.co/collections/zizhaotong/crossfps">Dataset</a>
           <a class="pill" href="https://mp.weixin.qq.com/s/G-MkB84-rH8rEVT3m4UPTw">Link</a>
         </div>
-        <span class="sub" style="display:block; margin-top:8px; line-height:1.5;">An interactive world model for FPS games.</span>
+        <span class="sub" style="display:block; margin-top:8px; line-height:1.5;">An interactive FPS world model trained with CrossFPS, the first multi-game FPS dataset with 69K clips across 7 titles and 10-DoF controls.</span>
       </td>
     </tr>
 
@@ -238,7 +264,7 @@ function _applyProjFilter() {
           <a class="pill" href="https://huggingface.co/MatrixTeam/Incantation_preview_margit">Model</a>
           <a class="pill" href="https://huggingface.co/datasets/MatrixTeam/incantation-elden-ring-scenes">Dataset</a>
         </div>
-        <span class="sub" style="display:block; margin-top:8px; line-height:1.5;">Natural language as the action interface for multi-entity control.</span>
+        <span class="sub" style="display:block; margin-top:8px; line-height:1.5;">A natural-language action interface for multi-entity control, achieving 89% cross-entity transfer success versus 43% for action-ID baselines.</span>
       </td>
     </tr>
 
@@ -282,7 +308,7 @@ function _applyProjFilter() {
         </a><br>
         <span class="sub"><em>HOK Flowborn Dimensional Editor</em> • 2025.08–Present</span>
         <p class="kpis">
-          <strong>Millions+</strong> Generated AI Posters, Camp First Page<br>
+          <strong>Shared DIY Poster platform:</strong> <strong>22.5K</strong> players · <strong>2.1M</strong> posters across Portrait, Detective & Esports<br>
           <strong>Battle Loading, In-Game Hero,</strong> In-Game Popup<br>
           <strong>One-Click</strong> Sharing on HOK Camp, X, Instagram, Facebook<br>
         </p>
@@ -309,9 +335,8 @@ function _applyProjFilter() {
         </a><br>
         <span class="sub"><em>HOK Flowborn Dimensional Editor</em> • 2025.06–Present</span>
         <p class="kpis">
-          <strong>Millions+</strong> Generated AI Posters <br>
-          <strong>Thousands+</strong> Overseas & Domestic Mentions<br>
-          <strong>80%</strong> In-Game Display · <strong>99%</strong> Positive/Neutral Sentiment
+          <strong>Avg. 9</strong> AI posters per player · <strong>Thousands+</strong> overseas & domestic mentions<br>
+          <strong>80%</strong> In-Game Display · <strong>99%</strong> Positive Sentiment
         </p>
         <div class="links">
           <span class="label">Demo:</span>
@@ -336,8 +361,8 @@ function _applyProjFilter() {
         </a><br>
         <span class="sub"><em>HOK Creator Studio</em> • 2024.12–Present</span>
         <p class="kpis">
-          <strong>Tens of Thousands+</strong> Generated AI Images · <strong>22%</strong> Save Rate<br>
-          <strong>Tens of Thousands+</strong> UV · <strong>Tens of Thousands+</strong> Active Users<br>
+          <strong>58K</strong> Generated AI Images · <strong>22%</strong> Save Rate<br>
+          <strong>35K+</strong> Active Users<br>
           <strong>98</strong> Heroes · <strong>12</strong> Styles · <strong>13s</strong> Generation Time
         </p>
         <div class="links">
@@ -361,10 +386,10 @@ function _applyProjFilter() {
         <a href="https://camp.honorofkings.com/studio?creator-tools=%2Fout%2Fhok-tools#/library?oneLevelTabs=51">
           <span class="papertitle_just">Honor of Kings (HOK) AIPGC Avatars/Stickers</span>
         </a><br>
-        <span class="sub"><em>HOK Avatar Center</em> • 2024.07–Present</span>
+        <span class="sub"><em>HOK Avatar Center</em> • 2024.07–2024.11</span>
         <p class="kpis">
           <strong>12×</strong> Launch · <strong>98</strong> Heroes · <strong>2</strong> Styles · <strong>2</strong> Halloween Topics <br>
-          <strong>Over Half a Million+</strong> Exposure, <strong>Tens of K+</strong> Engagement <br>
+          <strong>600K+</strong> Exposure · <strong>60K</strong> Engagements <br>
           Available on HOK Camp, VK, X, Instagram, Facebook,<br>
           WhatsApp, Discord, Sticker
         </p>
@@ -2275,10 +2300,10 @@ function filterBlogs(cat) {
 # 🏫 Education {#education}
 - 01.2020-01.2024: Ph.D. (AI and Deep Learning), <img src="/files/NUS.png" alt="NUS" width="42.5" height="20"> NUS, Singapore (CAP: 4.75/5.00)
 - 08.2017-08.2018: M.S. (Electrical and Computer Engineering), <img src="/files/NUS.png" alt="NUS" width="42.5" height="20"> NUS, Singapore
-- 09.2013-07.2017: B.Eng (Electrical and Computer Engineering), <img src="/files/UESTC.png" alt="UESTC" width="20.842" height="20"> UESTC, China (GPA: 3.93/4.00)
+- 09.2013-07.2017: B.Eng (Electronic Information Engineering), <img src="/files/UESTC.png" alt="UESTC" width="20.842" height="20"> UESTC, China (GPA: 3.93/4.00)
 
 # 👔 Internship and Work Experience {#work}
-- 11.2023-Present: Staff Researcher at <img src="/files/tencent.png" alt="Tencent" width="85" height="20"> Singapore.
+- 11.2023-Present: Staff Researcher and Research Lead for World Models, Agentic AI, and AIGC at <img src="/files/tencent.png" alt="Tencent" width="85" height="20"> IEG Global, Singapore.
 - 06.2023-09.2023: <img src="/files/adobe.png" alt="Adobe" width="20" height="20"> [Adobe Research Intern](https://www.adobe.com/), Creative Intelligence Lab, mentored by [Prof. Connelly Barnes](http://www.connellybarnes.com/work/), [Prof. Eli Shechtman](https://research.adobe.com/person/eli-shechtman/), worked with [Yuqian Zhou](https://yzhouas.github.io/), [Lingzhi Zhang](https://owenzlz.github.io/), [Sohrab Amirghodsi](https://www.linkedin.com/in/sohrab-amirghodsi-a89548a3/), [Eric Kee](https://www.erickee.com/).
 - 01.2019-01.2020: Machine Learning Researcher at <img src="/files/biomind.png" alt="Biomind" width="80" height="20"> Singapore, advised by [Prof. Jiashi Feng](https://sites.google.com/site/jshfeng/), worked on Biomedical Image Synthesis, Super-resolution, Tumor Segmentation and Classification, expo demo for ["Deep Learning-Based End-to-end Automatic Contouring and Automated Radiation Therapy Treatment Planning System"](https://media.neurips.cc/Conferences/NeurIPS2019/NeurIPS_Expo_Book_2019.pdf).
 
@@ -2294,7 +2319,6 @@ function filterBlogs(cat) {
 - Teaching Assistant: [EE5731 Visual Computing](https://tanrobby.github.io/teaching/ece_visual/index.html), EE5904 Neural Network (NUS ECE)
 
 <div style="padding-bottom: 60vh;"></div>
-
 
 
 
