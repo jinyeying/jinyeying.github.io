@@ -16,19 +16,17 @@ redirect_from:
 {% assign url = gsDataBaseUrl | append: "google-scholar-stats/gs_data_shieldsio.json" %}
 <span class='anchor' id='about-me'></span>
 
-I am a Staff Researcher at [Tencent](https://www.tencent.com/en-us/about.html), joined via The 'Project Up' (青云计划) Talent Programme, where I serve as Research Lead for World Models, Agentic AI, and AIGC for large-scale game content creation. I am also Adjunct Faculty at <img src="/files/NUS.png" alt="NUS" width="42.5" height="20"> [National University of Singapore (NUS), Department of Electrical and Computer Engineering (ECE)](https://cde.nus.edu.sg/ece/).
+I am a Staff Researcher at [Tencent](https://www.tencent.com/en-us/about.html) (青云计划 'Project Up' Talent Programme), where I serve as Research Lead for World Models, Agentic AI, and AIGC for Games. I am also Adjunct Faculty at <img src="/files/NUS.png" alt="NUS" width="42.5" height="20"> [National University of Singapore (NUS), Department of Electrical and Computer Engineering (ECE)](https://cde.nus.edu.sg/ece/).
 
-I lead research from model architecture and evaluation to large-scale deployment. Our AIUGC platforms for global game products have generated **2.1M+ creatives**, while our AIGC production pipeline delivers **200+ localized video assets monthly** at **5x production efficiency**. I have mentored **20+ junior researchers** across Tencent and NUS.
+I earned my PhD degree from NUS ECE, supervised by [Prof. Robby T. Tan](http://tanrobby.github.io/), and previously interned at <img src="/files/adobe.png" alt="Adobe" width="20" height="20"> [Adobe Research](https://research.adobe.com/), mentored by [Prof. Connelly Barnes](http://www.connellybarnes.com/work/) and [Prof. Eli Shechtman](https://scholar.google.com/citations?user=B_FTboQAAAAJ). I hold an M.Sc. from NUS ECE and a B.Eng. from the <img src="/files/UESTC.png" alt="UESTC" width="20.842" height="20"> [UESTC](https://en.uestc.edu.cn/).
 
-I earned my PhD degree from NUS ECE, supervised by [Prof. Robby T. Tan](http://tanrobby.github.io/), and previously interned at <img src="/files/adobe.png" alt="Adobe" width="20" height="20"> [Adobe Research](https://research.adobe.com/), mentored by [Prof. Connelly Barnes](http://www.connellybarnes.com/work/) and [Prof. Eli Shechtman](https://scholar.google.com/citations?user=B_FTboQAAAAJ). I hold an M.Sc. from NUS ECE and a B.Eng. degree from the <img src="/files/UESTC.png" alt="UESTC" width="20.842" height="20"> [UESTC](https://en.uestc.edu.cn/).
-
-I have published **70+ papers** at top international venues, with <a href='https://scholar.google.com/citations?user=Z8PYhA4AAAAJ' target="_blank"><img src="https://img.shields.io/endpoint?url={{ url | url_encode }}&logo=Google%20Scholar&labelColor=f6f6f6&color=9cf&style=flat&label=citations" alt="Google Scholar citations"></a>.
-📢 I'm [hiring](https://zhuanlan.zhihu.com/p/2070315664162689467) self-motivated interns and full-time researchers.
+I have published **70+ papers** at top international venues including CVPR, ICCV, ECCV, ICML, NeurIPS, ICLR and ACL, with <a href='https://scholar.google.com/citations?user=Z8PYhA4AAAAJ' target="_blank"><img src="https://img.shields.io/endpoint?url={{ url | url_encode }}&logo=Google%20Scholar&labelColor=f6f6f6&color=9cf&style=flat&label=citations" alt="Google Scholar citations"></a>.
+📢 Having mentored **20+ junior researchers** across Tencent and NUS, I'm [hiring](https://zhuanlan.zhihu.com/p/2070315664162689467) self-motivated interns and full-time researchers.
 
 # 📜 Research {#research}
 1. Game World Models: Persistent State, Mechanics Consistency, and Controllable Agents
-2. Agentic VLMs and Agentic Video Generation
-3. AIGC for Game Content Creation and Deployment
+2. Agentic AI: Coding Agents, Agentic VLMs, and Video Generation
+3. AIGC for Games
 4. Multimodal Learning & VLMs
 
 # 🔬 Projects {#projects}
@@ -138,6 +136,30 @@ function _applyProjFilter() {
   <tbody>
 
 
+    <!-- H3-World -->
+    <tr class="project-row" data-proj-cat="world-model" data-proj-role="corr-author proj-lead">
+      <td class="thumb">
+        <div class="video-wrap" style="position:relative;">
+          <span class="venue-badge">arXiv 2026</span>
+          <video autoplay loop muted playsinline style="width:100%; height:auto; display:block;">
+            <source src="./files/h3world_demo.mp4" type="video/mp4" />
+          </video>
+        </div>
+      </td>
+      <td class="info">
+        <a href="https://danzer1xxxxchan.github.io/H3-World/">
+          <span class="papertitle_just">H3-World: Turning Language Understanding into World Control</span>
+        </a><br>
+        Danze Chen<sup class="eq-contrib">*</sup>, Zeqing Wang<sup class="eq-contrib">*</sup>, Ziyue Lin, Xingyi Yang<sup class="corr-lead">†</sup>, <strong>Yeying Jin</strong><sup class="corr-lead">†‡</sup><br>
+        <div class="links">
+          <a class="pill" href="https://danzer1xxxxchan.github.io/H3-World/">Project Page</a>
+          <a class="pill" href="https://arxiv.org/abs/2609.01560">arXiv</a>
+          <a href="https://github.com/Danzer1xxxxChan/H3-World"><img src="https://img.shields.io/badge/%E2%98%85-240-blue?style=social&logo=github" alt="GitHub stars"></a>
+        </div>
+        <span class="sub" style="display:block; margin-top:8px; line-height:1.5;">Turns the language understanding already inside a video generator into temporally grounded character and camera control, at 0.199% trainable parameters.</span>
+      </td>
+    </tr>
+
     <!-- WorldMind -->
     <tr class="project-row" data-proj-cat="world-model" data-proj-role="corr-author proj-lead">
       <td class="thumb">
@@ -158,7 +180,7 @@ function _applyProjFilter() {
           <a class="pill" href="https://arxiv.org/abs/2608.21439">arXiv</a>
           <a href="https://github.com/TeaWhiteBro/WorldMind"><img src="https://img.shields.io/badge/%E2%98%85-9-blue?style=social&logo=github" alt="GitHub stars"></a>
         </div>
-        <span class="sub" style="display:block; margin-top:8px; line-height:1.5;">The first decoupled game world model that splits understanding, decision, control, and generation into a closed loop, preferred over baselines in ~70% of pairwise comparisons for state-aware NPC behavior; released with BOSS-140K.</span>
+        <span class="sub" style="display:block; margin-top:8px; line-height:1.5;">The first decoupled game world model, closing the loop from understanding to generation; preferred in ~70% of comparisons.</span>
       </td>
     </tr>
 
@@ -184,7 +206,7 @@ function _applyProjFilter() {
           <a class="pill" href="https://huggingface.co/onepiece1999/StatePlay">Model</a>
           <a class="pill" href="https://huggingface.co/datasets/onepiece1999/StatePlay-Dataset">Dataset</a>
         </div>
-        <span class="sub" style="display:block; margin-top:8px; line-height:1.5;">A state-aware game world model that jointly generates frames and internal game states (health, meters, timers), achieving below 0.06 normalized L1 state-prediction error and improving mechanics fidelity by 18.6%.</span>
+        <span class="sub" style="display:block; margin-top:8px; line-height:1.5;">A state-aware game world model that jointly generates frames and internal game states (health, meters, timers), improving mechanics fidelity by 18.6%.</span>
       </td>
     </tr>
 
@@ -210,7 +232,7 @@ function _applyProjFilter() {
           <a class="pill" href="https://huggingface.co/INV-WZQ/ReactiveGWM-Models">Model</a>
           <a class="pill" href="https://huggingface.co/datasets/INV-WZQ/ReactiveGWM-Datasets">Dataset</a>
         </div>
-        <span class="sub" style="display:block; margin-top:8px; line-height:1.5;">A game world model where NPCs follow high-level strategies (Offense / Defense / Control) via cross-attention, transferring zero-shot to new games without retraining.</span>
+        <span class="sub" style="display:block; margin-top:8px; line-height:1.5;">A game world model where NPCs follow high-level strategies (Offense / Defense / Control), transferring zero-shot to unseen games.</span>
       </td>
     </tr>
 
@@ -237,7 +259,7 @@ function _applyProjFilter() {
           <a class="pill" href="https://huggingface.co/collections/zizhaotong/crossfps">Dataset</a>
           <a class="pill" href="https://mp.weixin.qq.com/s/G-MkB84-rH8rEVT3m4UPTw">Link</a>
         </div>
-        <span class="sub" style="display:block; margin-top:8px; line-height:1.5;">An interactive FPS world model trained with CrossFPS, the first multi-game FPS dataset with 69K clips across 7 titles and 10-DoF controls.</span>
+        <span class="sub" style="display:block; margin-top:8px; line-height:1.5;">An interactive FPS world model trained on CrossFPS, the first multi-game FPS dataset: 69K clips, 7 titles, 10-DoF controls.</span>
       </td>
     </tr>
 
@@ -264,7 +286,7 @@ function _applyProjFilter() {
           <a class="pill" href="https://huggingface.co/MatrixTeam/Incantation_preview_margit">Model</a>
           <a class="pill" href="https://huggingface.co/datasets/MatrixTeam/incantation-elden-ring-scenes">Dataset</a>
         </div>
-        <span class="sub" style="display:block; margin-top:8px; line-height:1.5;">A natural-language action interface for multi-entity control, achieving 89% cross-entity transfer success versus 43% for action-ID baselines.</span>
+        <span class="sub" style="display:block; margin-top:8px; line-height:1.5;">A natural-language action interface for multi-entity control: 89% cross-entity transfer success vs. 43% for action-ID baselines.</span>
       </td>
     </tr>
 
