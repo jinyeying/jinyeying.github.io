@@ -20,8 +20,8 @@ I am a Staff Researcher at [Tencent](https://www.tencent.com/en-us/about.html) (
 
 I earned my PhD degree from NUS ECE, supervised by [Prof. Robby T. Tan](http://tanrobby.github.io/), and previously interned at <img src="/files/adobe.png" alt="Adobe" width="20" height="20"> [Adobe Research](https://research.adobe.com/), mentored by [Prof. Connelly Barnes](http://www.connellybarnes.com/work/) and [Prof. Eli Shechtman](https://scholar.google.com/citations?user=B_FTboQAAAAJ). I hold an M.Sc. from NUS ECE and a B.Eng. from the <img src="/files/UESTC.png" alt="UESTC" width="20.842" height="20"> [UESTC](https://en.uestc.edu.cn/).
 
-I have published **70+ papers** at top international venues including CVPR, ICCV, ECCV, ICML, NeurIPS, ICLR and ACL, with <a href='https://scholar.google.com/citations?user=Z8PYhA4AAAAJ' target="_blank"><img src="https://img.shields.io/endpoint?url={{ url | url_encode }}&logo=Google%20Scholar&labelColor=f6f6f6&color=9cf&style=flat&label=citations" alt="Google Scholar citations"></a>.
-📢 Having mentored **20+ junior researchers** across Tencent and NUS, I'm [hiring](https://zhuanlan.zhihu.com/p/2070315664162689467) self-motivated interns and full-time researchers.
+I have published papers at top international venues including CVPR, ICCV, ECCV, ICML, NeurIPS, ICLR and ACL, with <a href='https://scholar.google.com/citations?user=Z8PYhA4AAAAJ' target="_blank"><img src="https://img.shields.io/endpoint?url={{ url | url_encode }}&logo=Google%20Scholar&labelColor=f6f6f6&color=9cf&style=flat&label=citations" alt="Google Scholar citations"></a>.
+📢 I'm [hiring](https://zhuanlan.zhihu.com/p/2070315664162689467) self-motivated interns.
 
 # 📜 Research {#research}
 1. Game World Models: Persistent State, Mechanics Consistency, and Controllable Agents
@@ -156,7 +156,7 @@ function _applyProjFilter() {
           <a class="pill" href="https://arxiv.org/abs/2609.01560">arXiv</a>
           <a href="https://github.com/Danzer1xxxxChan/H3-World"><img src="https://img.shields.io/badge/%E2%98%85-240-blue?style=social&logo=github" alt="GitHub stars"></a>
         </div>
-        <span class="sub" style="display:block; margin-top:8px; line-height:1.5;">Turns the language understanding already inside a video generator into temporally grounded character and camera control, at 0.199% trainable parameters.</span>
+        <span class="sub" style="display:block; margin-top:8px; line-height:1.5;">Turns the language understanding already inside a video generator into grounded character and camera control, at 0.199% params.</span>
       </td>
     </tr>
 
@@ -206,7 +206,7 @@ function _applyProjFilter() {
           <a class="pill" href="https://huggingface.co/onepiece1999/StatePlay">Model</a>
           <a class="pill" href="https://huggingface.co/datasets/onepiece1999/StatePlay-Dataset">Dataset</a>
         </div>
-        <span class="sub" style="display:block; margin-top:8px; line-height:1.5;">A state-aware game world model that jointly generates frames and internal game states (health, meters, timers), improving mechanics fidelity by 18.6%.</span>
+        <span class="sub" style="display:block; margin-top:8px; line-height:1.5;">Jointly generates frames and internal game states (health, meters, timers), improving mechanics fidelity by 18.6%.</span>
       </td>
     </tr>
 
@@ -232,7 +232,7 @@ function _applyProjFilter() {
           <a class="pill" href="https://huggingface.co/INV-WZQ/ReactiveGWM-Models">Model</a>
           <a class="pill" href="https://huggingface.co/datasets/INV-WZQ/ReactiveGWM-Datasets">Dataset</a>
         </div>
-        <span class="sub" style="display:block; margin-top:8px; line-height:1.5;">A game world model where NPCs follow high-level strategies (Offense / Defense / Control), transferring zero-shot to unseen games.</span>
+        <span class="sub" style="display:block; margin-top:8px; line-height:1.5;">NPCs follow high-level strategies (Offense / Defense / Control), transferring zero-shot to unseen games.</span>
       </td>
     </tr>
 
@@ -559,6 +559,36 @@ function _applyPubFilter() {
 <table width="100%" align="center" border="0" cellspacing="0" cellpadding="10">
 <tbody>
 <!-- ############################ Put your publications below this! ####################################-->
+
+<!-- ###################################################################################################-->
+<!-- Paper SIGGRAPH26 LatentDance -->
+<tr data-category="gen-vision" data-role="eq-contrib" >
+<td width="20%">
+<div style="position:relative;">
+<span class="venue-badge">SIGGRAPH 2026</span>
+<video autoplay loop muted playsinline style="width:100%; height:auto; display:block;">
+  <source src="./files/latentdance_demo.mp4" type="video/mp4">
+</video>
+</div>
+</td>
+<td valign="top" width="80%">
+  <a href="https://yyang181.github.io/LatentDance">
+    <papertitle_just>LatentDance: Towards Realistic and Dynamic Character Animation via Identity-Aware Motion Representation</papertitle_just>
+  </a>
+  <br>
+  Yixin Yang<sup class="eq-contrib">*</sup>, <strong>Yeying Jin</strong><sup class="eq-contrib">*</sup>, Jiawei Zhang, Long Sun, Xu Cheng<sup class="corr-lead">‡</sup>, Jinshan Pan<sup class="corr-lead">†</sup>
+  <br>
+  <em>ACM SIGGRAPH</em>, 2026 <br>
+<a href="https://github.com/yyang181/LatentDance/blob/main/assets/paper/LatentDance_paper.pdf">Paper</a>
+|
+<a href="https://github.com/yyang181/LatentDance"><img src="https://img.shields.io/badge/%E2%98%85-4-blue?style=social&logo=github"></a>
+|
+<a href="https://yyang181.github.io/LatentDance">Project Page</a>
+<p></p>
+<p>Warps the reference character's own latents along the skeleton instead of sparse-to-dense pose alignment; best FVD on TikTok.</p>
+</td>
+</tr>
+<!-- ###################################################################################################-->
 
 <!-- ###################################################################################################-->
 <!-- Paper Agentic World Modeling -->
