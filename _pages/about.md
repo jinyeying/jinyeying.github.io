@@ -115,6 +115,37 @@ function _applyProjFilter() {
   }
   .pill:hover { background:#e6e9ef; }
 
+  /* ===== 缩略图宽高比统一 =====
+     Projects 一律 16:9，Publications 一律 1:1（与既有图片缩略图一致）。
+     内联 style 优先级高于此处，故对尺寸相关属性使用 !important。 */
+  .project-row .thumb .video-wrap,
+  .project-row .thumb .side-by-side {
+    aspect-ratio: 16 / 9;
+    overflow: hidden;
+  }
+  .project-row .thumb video {
+    width: 100% !important;
+    height: 100% !important;
+    object-fit: cover;
+    display: block;
+  }
+  .project-row .thumb .side-by-side img {
+    height: 100% !important;
+    object-fit: cover;
+  }
+  tr[data-category] td[width="20%"] video {
+    width: 100% !important;
+    height: auto !important;
+    aspect-ratio: 1 / 1;
+    object-fit: cover;
+    display: block;
+  }
+  /* 例外：加 class="native-ar" 的视频保持素材原始比例，不做 1:1 裁切 */
+  tr[data-category] td[width="20%"] video.native-ar {
+    aspect-ratio: auto !important;
+    object-fit: fill;
+  }
+
   /* 移动端 */
   @media (max-width: 600px) {
     .project-table { display:block; width:100% !important; overflow-x:hidden; }
@@ -124,7 +155,7 @@ function _applyProjFilter() {
     .project-row td { display:block; width:100% !important; box-sizing:border-box; }
     .project-row .thumb { width:100% !important; margin-bottom:8px; padding:0; }
     .side-by-side { flex-direction: row; width:100%; }
-    .side-by-side img { height: auto; width: 50%; flex: none; }
+    .side-by-side img { width:50%; flex: none; }
     .project-row .info { padding-left: 0; padding-top:0; font-size: 0.9em; }
   }
 </style>
@@ -156,7 +187,7 @@ function _applyProjFilter() {
           <a class="pill" href="https://arxiv.org/abs/2609.01560">arXiv</a>
           <a href="https://github.com/Danzer1xxxxChan/H3-World"><img src="https://img.shields.io/badge/%E2%98%85-240-blue?style=social&logo=github" alt="GitHub stars"></a>
         </div>
-        <span class="sub" style="display:block; margin-top:8px; line-height:1.5;">Turns the language understanding already inside a video generator into grounded character and camera control, at 0.199% params.</span>
+        <span class="sub" style="display:block; margin-top:8px; line-height:1.5;">Turns a video generator's own language understanding into grounded character and camera control, at 0.199% params.</span>
       </td>
     </tr>
 
@@ -565,7 +596,7 @@ function _applyPubFilter() {
 <tr data-category="gen-vision" data-role="eq-contrib" >
 <td width="20%">
 <div style="position:relative;">
-<span class="venue-badge">SIGGRAPH 2026</span>
+<span class="venue-badge">SIGGRAPH Asia 2026</span>
 <video autoplay loop muted playsinline style="width:100%; height:auto; display:block;">
   <source src="./files/latentdance_demo.mp4" type="video/mp4">
 </video>
@@ -578,7 +609,7 @@ function _applyPubFilter() {
   <br>
   Yixin Yang<sup class="eq-contrib">*</sup>, <strong>Yeying Jin</strong><sup class="eq-contrib">*</sup>, Jiawei Zhang, Long Sun, Xu Cheng<sup class="corr-lead">‡</sup>, Jinshan Pan<sup class="corr-lead">†</sup>
   <br>
-  <em>ACM SIGGRAPH</em>, 2026 <br>
+  <em>ACM SIGGRAPH Asia</em>, 2026, Kuala Lumpur, Malaysia <br>
 <a href="https://github.com/yyang181/LatentDance/blob/main/assets/paper/LatentDance_paper.pdf">Paper</a>
 |
 <a href="https://github.com/yyang181/LatentDance"><img src="https://img.shields.io/badge/%E2%98%85-4-blue?style=social&logo=github"></a>
@@ -586,6 +617,34 @@ function _applyPubFilter() {
 <a href="https://yyang181.github.io/LatentDance">Project Page</a>
 <p></p>
 <p>Warps the reference character's own latents along the skeleton instead of sparse-to-dense pose alignment; best FVD on TikTok.</p>
+</td>
+</tr>
+<!-- ###################################################################################################-->
+
+<!-- ###################################################################################################-->
+<!-- Paper ACMMM26 BooM-VVT -->
+<tr data-category="gen-vision" data-role="corr-author proj-lead" >
+<td width="20%">
+<div style="position:relative;">
+<span class="venue-badge">ACM MM 2026</span>
+<video autoplay loop muted playsinline style="width:100%; height:auto; display:block;">
+  <source src="./files/acmmm26_boomvvt_demo.mp4" type="video/mp4">
+</video>
+</div>
+</td>
+<td valign="top" width="80%">
+  <a href="https://arxiv.org/abs/2609.04120">
+    <papertitle_just>BooM-VVT: Boosting Mask-Free Video Virtual Try-On with Image-Level Pseudo Data</papertitle_just>
+  </a>
+  <br>
+  Wei Zhang, Xin Li, Peishu Shi, Jialin Gao, Xuekang Peng, Zhichao Lian<sup class="corr-lead">†</sup>, <strong>Yeying Jin</strong><sup class="corr-lead">†‡</sup>
+  <br>
+  <em>ACM Multimedia (ACM'MM)</em>, 2026, Rio, Brazil <br>
+<a href="https://arxiv.org/abs/2609.04120">arXiv</a>
+|
+<a href="https://boomvvt.github.io/boomvvt/">Project Page</a>
+<p></p>
+<p>Mask-free video try-on learned from image-level pseudo data; released with the OmniView dataset.</p>
 </td>
 </tr>
 <!-- ###################################################################################################-->
@@ -633,7 +692,7 @@ arxiv26_AgenticWM_stop()
 <td width="20%">
 <div style="position:relative;">
 <span class="venue-badge">ECCV 2026</span>
-<video autoplay loop muted playsinline style="width:100%; height:auto; display:block;">
+<video autoplay loop muted playsinline class="native-ar" style="width:100%; height:auto; display:block;">
   <source src="./files/magicprompt_demo.mp4" type="video/mp4">
 </video>
 </div>
