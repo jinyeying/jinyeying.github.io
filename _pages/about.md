@@ -1266,9 +1266,7 @@ acm25_DSDNet_stop()
 |
 <a href="https://github.com/FangpuZhang/DSDNet-official"><img src="https://img.shields.io/badge/%E2%98%85-3-blue?style=social&logo=github"></a>
 |
-<a href="./files/acm25_DSDNet_bibtex.txt">bibtex</a> 
-|
-<a href="https://fangpuzhang.github.io/DSDNet/">Project Page</a>  
+<a href="./files/acm25_DSDNet_bibtex.txt">bibtex</a>   
 <p></p>
 </td>
 </tr>
