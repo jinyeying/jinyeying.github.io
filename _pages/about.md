@@ -2110,6 +2110,13 @@ accv22_defog_stop()
 
 # 💬 Organizer {#organizer}
 <style>
+  .section-count {
+    margin: -2px 0 10px; color: #667085; font-size: 0.92em; line-height: 1.45;
+  }
+  .section-count strong { color: #1772d0; font-weight: 700; }
+</style>
+<p class="section-count"><strong>6</strong> workshops and <strong>2</strong> NTIRE challenges at CVPR, ECCV and AAAI.</p>
+<style>
   .talks-table {
     width: 100%;
     border-collapse: collapse;
@@ -2224,6 +2231,7 @@ accv22_defog_stop()
 </table>
 
 # 🎤 Invited Talks {#invited-talks}
+<p class="section-count"><strong>9</strong> talks at CVPR, ICCV, ICLR and AAAI, among <strong>33</strong> invited talks in total.</p>
 <div class="pub-filters">
   <button class="pub-filter-btn talk-filter-btn active" data-cat="all" onclick="filterTalks('all')">All</button>
   <button class="pub-filter-btn talk-filter-btn" data-cat="world-model" onclick="filterTalks('world-model')">World Model</button>
@@ -2525,7 +2533,6 @@ function filterBlogs(cat) {
 - [AI Singapore (AISG) Ph.D. Fellowship](https://aisingapore.org/research/phd-fellowship-programme/) *(Singapore’s most prestigious Ph.D. scholarship)* — Theme: Continuous Learning AI, Self-supervised Learning
 
 # 💻 Professional Services {#services}
-- Organizer: 6 workshops and 2 NTIRE challenges at CVPR / ICCV / ECCV / AAAI; 9 invited talks at top-tier venues.
 - Journal Reviewer: TPAMI, IJCV, TIP, TNNLS, TMM, TCSVT, TVCJ, NEUCOM, CVIU, etc.
 - Conference Reviewer: ICML, NeurIPS, ICLR, CVPR, ICCV, ECCV, AAAI, ACM MM, ACL, MICCAI, ACCV, IJCAI, IJCNN, etc.
 - Teaching Assistant: [EE5731 Visual Computing](https://tanrobby.github.io/teaching/ece_visual/index.html), EE5904 Neural Networks (NUS ECE)
