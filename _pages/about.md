@@ -2530,7 +2530,7 @@ function filterBlogs(cat) {
 - ICML 2026 Gold Reviewer Award
 - Best Paper Award, ADHIP 2024 (co-author, *Joint Visual and Text Prompting for Improved Object-Centric Perception with MLLMs*)
 - CVPR Student Mentor
-- [AI Singapore (AISG) Ph.D. Fellowship](https://aisingapore.org/research/phd-fellowship-programme/) *(Singapore’s most prestigious Ph.D. scholarship)* — Theme: Continuous Learning AI, Self-supervised Learning
+- [AI Singapore (AISG) Ph.D. Fellowship](https://aisingapore.org/research/phd-fellowship-programme/) — Theme: Continuous Learning AI, Self-supervised Learning
 
 # 💻 Professional Services {#services}
 - Journal Reviewer: TPAMI, IJCV, TIP, TNNLS, TMM, TCSVT, TVCJ, NEUCOM, CVIU, etc.
