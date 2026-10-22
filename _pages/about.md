@@ -353,7 +353,7 @@ function _applyProjFilter() {
     </tr>
 
     <!-- Incantation -->
-    <tr class="project-row" data-proj-cat="world-model" data-proj-role="corr-author proj-lead">
+    <tr class="project-row" data-proj-cat="world-model" data-proj-role="proj-lead">
       <td class="thumb">
         <div class="video-wrap" style="position:relative;">
           <span class="venue-badge">arXiv 2026</span>
