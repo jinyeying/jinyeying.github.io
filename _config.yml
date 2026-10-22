@@ -9,7 +9,7 @@
 locale                   : "en-US"
 title                    : "JIN YEYING"
 name                     : &name "Jin Yeying"
-description              : "Tencent | PhD NUS"
+description              : "Staff Researcher at Tencent and Adjunct Faculty at NUS, leading research on game world models, agentic AI, and AIGC for games."
 URL                      : "https://jinyeying.github.io"
 repository               : "jinyeying/jinyeying.github.io"
 google_scholar_stats_use_cdn : true
@@ -86,7 +86,7 @@ author:
   avatar           : "yeying.jpg"
   bio              : "<a href='/files/yeyingjin_20260812.pdf' target='_blank'>Curriculum Vitae</a>"
   location         : "Singapore"
-  employer         :
+  employer         : "Tencent"
   pubmed           : 
   googlescholar    : "https://scholar.google.com/citations?user=Z8PYhA4AAAAJ&hl=en&oi=ao"
   email            : "jinyeying@u.nus.edu"

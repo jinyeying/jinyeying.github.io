@@ -2,6 +2,7 @@
 permalink: /
 title: ""
 excerpt: "About me"
+description: "Staff Researcher at Tencent and Adjunct Faculty at NUS, leading research on game world models, agentic AI, and AIGC for games."
 author_profile: true
 redirect_from: 
   - /about/
@@ -387,9 +388,7 @@ function _applyProjFilter() {
         </div>
       </td>
       <td class="info">
-        <a href="http://16.78.125.86:7890/">
-          <span class="papertitle_just">AI Photobooth</span>
-        </a><br>
+        <span class="papertitle_just">AI Photobooth</span><br>
         <span class="sub"><em>AI Photobooth</em> • 2025.12 </span>
         <p class="kpis">
           <strong>370+</strong> Generated AI Images in 1 hour · <strong>Top 3</strong> Popular<br>
@@ -397,7 +396,6 @@ function _applyProjFilter() {
         </p>
         <div class="links">
           <span class="label">Demo:</span>
-          <a class="pill" href="http://16.78.125.86:7890">Online Generation</a>
           <a class="pill" href="https://www.bilibili.com/video/BV114B5ByEbg/?share_source=copy_web&vd_source=2da049ce4677af057256ebc4a00a8292">Video (CN)</a>
           <a class="pill" href="https://youtu.be/barpL674x7Q?si=mZQf9cKKFnzQcefj">Video (EN)</a>
         </div>
