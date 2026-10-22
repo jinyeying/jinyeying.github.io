@@ -663,7 +663,7 @@ function _applyPubFilter() {
   <br>
   Yixin Yang<sup class="eq-contrib">*</sup>, <strong>Yeying Jin</strong><sup class="eq-contrib">*</sup>, Jiawei Zhang, Long Sun, Xu Cheng<sup class="corr-lead">‡</sup>, Jinshan Pan<sup class="corr-lead">†</sup>
   <br>
-  <em>ACM SIGGRAPH Asia</em>, 2026, Kuala Lumpur, Malaysia <br>
+  <em>SIGGRAPH Asia</em>, 2026, Kuala Lumpur, Malaysia <br>
 <a href="https://github.com/yyang181/LatentDance/blob/main/assets/paper/LatentDance_paper.pdf">paper</a>
 |
 <a href="https://github.com/yyang181/LatentDance"><img src="https://img.shields.io/badge/%E2%98%85-5-blue?style=social&logo=github"></a>
@@ -693,7 +693,7 @@ function _applyPubFilter() {
   <br>
   Wei Zhang, Xin Li, Peishu Shi, Jialin Gao, Xuekang Peng, Zhichao Lian<sup class="corr-lead">†</sup>, <strong>Yeying Jin</strong><sup class="corr-lead">†‡</sup>
   <br>
-  <em>ACM Multimedia (ACM MM)</em>, 2026, Rio de Janeiro, Brazil <br>
+  <em>ACM MM</em>, 2026, Rio de Janeiro, Brazil <br>
 <a href="https://arxiv.org/abs/2609.04120">arXiv</a>
 |
 <a href="https://boomvvt.github.io/boomvvt/">Project Page</a>
@@ -788,7 +788,7 @@ arxiv26_AgenticWM_stop()
   <br>
   Yinhan Zhang<sup class="eq-contrib">*</sup>, Dingwei Tan<sup class="eq-contrib">*</sup>, Xianghao Kong, Yue Ma<sup class="corr-lead">‡</sup>, <strong>Yeying Jin</strong><sup class="corr-lead">†</sup>, Anyi Rao<sup class="corr-lead">†</sup>
   <br>
-  <em>European Conference on Computer Vision (ECCV)</em>, 2026, Malmö, Sweden <br>
+  <em>ECCV</em>, 2026, Malmö, Sweden <br>
 <a href="https://arxiv.org/abs/2607.14595">arXiv</a>
 |
 <a href="https://github.com/YinHan-Zhang/MagicPrompt"><img src="https://img.shields.io/badge/%E2%98%85-11-blue?style=social&logo=github"></a>
@@ -815,7 +815,7 @@ arxiv26_AgenticWM_stop()
   <br>
   Haoyu Zhao, Jiaxi Gu, Haoran Chen, Qingping Zheng, <strong>Yeying Jin</strong>, Hongyi Yang, Junqi Cheng, Yuang Zhang, Zenghui Lu, Huan Yu, Jie Jiang, Peng Shu, Zuxuan Wu<sup class="corr-lead">†</sup>, Yu-Gang Jiang<sup class="corr-lead">†</sup>
   <br>
-  <em>International Conference on Machine Learning (ICML)</em>, 2026, Seoul, South Korea<br>
+  <em>ICML</em>, 2026, Seoul, South Korea<br>
   <a href="https://arxiv.org/abs/2605.30774">arXiv</a>
   |
   <a href="https://github.com/gulucaptain/CameraNoise"><img src="https://img.shields.io/badge/%E2%98%85-221-blue?style=social&logo=github"></a>
@@ -844,7 +844,7 @@ arxiv26_AgenticWM_stop()
   <br>
   Haoyu Zhao, Zihao Zhang, Jiaxi Gu, Haoran Chen, Qingping Zheng, Pin Tang, <strong>Yeying Jin</strong>, Yuang Zhang, Junqi Cheng, Zenghui Lu, Peng Shu, Zuxuan Wu<sup class="corr-lead">†</sup>, Yu-Gang Jiang<sup class="corr-lead">†</sup>
   <br>
-  <em>ACM Multimedia (ACM MM)</em>, 2026, Rio de Janeiro, Brazil<br>
+  <em>ACM MM</em>, 2026, Rio de Janeiro, Brazil<br>
   <a href="https://arxiv.org/abs/2604.09201">arXiv</a>
   |
   <a href="https://github.com/gulucaptain/Camera-Transformer-1"><img src="https://img.shields.io/badge/%E2%98%85-314-blue?style=social&logo=github"></a>
@@ -915,7 +915,7 @@ icml26_zerase_stop()
   <br>
   Nanxiang Jiang, Zhaoxin Fan<sup class="corr-lead">†</sup>, Baisen Wang, Daiheng Gao, Junhang Cheng, Jifeng Guo, Yalan Qin, <strong>Yeying Jin</strong><sup class="corr-lead">‡</sup>, Hongwei Zheng, Faguo Wu<sup class="corr-lead">†</sup>, Wenjun Wu
   <br>
-  <em>International Conference on Machine Learning (ICML)</em>, 2026, Seoul, South Korea<br>
+  <em>ICML</em>, 2026, Seoul, South Korea<br>
   <a href="https://arxiv.org/abs/2603.25074">arXiv</a> |
   <a href="https://github.com/nxjiang-jnx/Z-Erase"><img src="https://img.shields.io/badge/%E2%98%85-38-blue?style=social&logo=github"></a>
   <p></p>
@@ -949,7 +949,7 @@ cvpr26_ReFlux_stop()
   <br>
   Nanxiang Jiang, Zhaoxin Fan<sup class="corr-lead">†</sup>, Enhan Kang, Daiheng Gao, Yun Zhou, Yanxia Chang, Zheng Zhu, <strong>Yeying Jin</strong>, Wenjun Wu
   <br>
-  <em>Conference on Computer Vision and Pattern Recognition (CVPR) Findings</em>, 2026, Denver, USA<br>
+  <em>CVPR Findings</em>, 2026, Denver, USA<br>
 <a href="https://arxiv.org/abs/2510.00635">arXiv</a> |
 <a href="https://github.com/nxjiang-jnx/ReFlux"><img src="https://img.shields.io/badge/%E2%98%85-17-blue?style=social&logo=github"></a>
 <p></p>
@@ -983,7 +983,7 @@ cvpr26_VLM_stop()
   <br>
   Xiaoran Sun<sup class="eq-contrib">*</sup>, Liyan Wang<sup class="eq-contrib">*</sup>, <strong>Yeying Jin</strong><sup class="corr-lead">‡</sup>, Kin-man Lam, Zhixun Su<sup class="corr-lead">†</sup>, Yang Yang, Jinshan Pan, Cong Wang<sup class="corr-lead">‡</sup>
   <br>
-  <em>Conference on Computer Vision and Pattern Recognition (CVPR) Findings</em>, 2026, Denver, USA<br>
+  <em>CVPR Findings</em>, 2026, Denver, USA<br>
 <a href="https://arxiv.org/abs/2507.18064">arXiv</a> |
 <a href="https://github.com/sunxiaoran01/VLM-IMI"><img src="https://img.shields.io/badge/%E2%98%85-5-blue?style=social&logo=github"></a>
 <p></p>
@@ -1009,7 +1009,7 @@ cvpr26_VLM_stop()
   <br>
   Chenghao Qian, Nedko Savov, Lingdong Kong, <strong>Yeying Jin</strong>, Rui Song, Wenjing Li, Zhun Zhong, Jiaqi Ma, Gustav Markkula, Luc Van Gool
   <br>
-  <em>European Conference on Computer Vision (ECCV)</em>, 2026, Malmö, Sweden <br>
+  <em>ECCV</em>, 2026, Malmö, Sweden <br>
 <a href="https://arxiv.org/abs/2606.29020">arXiv</a>
 |
 <a href="https://github.com/Jumponthemoon/WeatherVideo"><img src="https://img.shields.io/badge/%E2%98%85-40-blue?style=social&logo=github"></a>
@@ -1046,7 +1046,7 @@ aaai26_UniFit_stop()
   <br>
   Wei Zhang<sup class="eq-contrib">*</sup>, <strong>Yeying Jin</strong><sup class="eq-contrib">*</sup>, Xin Li, Yan Zhang, Xiaofeng Cong, Cong Wang, Fengcai Qiao, Zhichao Lian<sup class="corr-lead">†</sup>
   <br>
-<em>AAAI Conference on Artificial Intelligence (AAAI)</em>, 2026, Singapore <br>
+<em>AAAI</em>, 2026, Singapore <br>
 <a href="https://arxiv.org/abs/2511.15831">arXiv</a>
 |
 <a href="https://github.com/zwplus/UniFit"><img src="https://img.shields.io/badge/%E2%98%85-12-blue?style=social&logo=github"></a>
@@ -1121,7 +1121,7 @@ arxiv25_PosterCraft_stop()
   <br>
   Sixiang Chen<sup class="eq-contrib">*</sup>, Jianyu Lai<sup class="eq-contrib">*</sup>, Jialin Gao<sup class="eq-contrib">*</sup>, Tian Ye, Haoyu Chen, Hengyu Shi, Shitong Shao, Yunlong Lin, Song Fei, Zhaohu Xing, <strong>Yeying Jin</strong>, Junfeng Luo, Xiaoming Wei, Lei Zhu<sup class="corr-lead">†</sup>
   <br>
-<em>International Conference on Learning Representations (ICLR)</em>, 2026, Rio de Janeiro, Brazil <br>
+<em>ICLR</em>, 2026, Rio de Janeiro, Brazil <br>
 <a href="https://arxiv.org/abs/2506.10741">arXiv</a>
 |
 <a href="https://github.com/Ephemeral182/PosterCraft"><img src="https://img.shields.io/badge/%E2%98%85-546-blue?style=social&logo=github"></a>
@@ -1192,7 +1192,7 @@ cvpr26_Deraining_stop()
   <br>
   Yinghao Chen, <strong>Yeying Jin</strong><sup class="corr-lead">†‡</sup>, Xiang Chen, Yanyan Wei<sup class="corr-lead">†</sup>, Ziyang Yan, Yaowen Fu
   <br>
-  <em>Conference on Computer Vision and Pattern Recognition (CVPR)</em>, 2026, Denver, USA<br>
+  <em>CVPR</em>, 2026, Denver, USA<br>
 <a href="https://arxiv.org/abs/2605.00719">arXiv</a>
 <p></p>
 </td>
@@ -1224,7 +1224,7 @@ iccv25_GenHaze_stop()
   <br>
  Sixiang Chen, Tian Ye, Yunlong Lin, <strong>Yeying Jin</strong>, Yijun Yang, Haoyu Chen, Jianyu Lai, Song Fei, Zhaohu Xing, Fugee Tsung, Lei Zhu<sup class="corr-lead">†</sup>
   <br>
-<em>International Conference on Computer Vision (ICCV)</em>, 2025, Honolulu, USA <br>
+<em>ICCV</em>, 2025, Honolulu, USA <br>
 <a href="https://openaccess.thecvf.com/content/ICCV2025/papers/Chen_GenHaze_Pioneering_Controllable_One-Step_Realistic_Haze_Generation_for_Real-World_Dehazing_ICCV_2025_paper.pdf">paper</a>
 | 
 <a href="./files/iccv25_GenHaze_bibtex.txt">bibtex</a>  
@@ -1258,7 +1258,7 @@ acm25_DSDNet_stop()
   <br>
   Qirui Yang<sup class="eq-contrib">*</sup>, Fangpu Zhang<sup class="eq-contrib">*</sup>, <strong>Yeying Jin</strong>, Qihua Cheng, Pengtao Jiang, Huanjing Yue<sup class="corr-lead">†</sup>, Jingyu Yang<sup class="corr-lead">†</sup>
   <br>
-<em>ACM Multimedia (ACM MM)</em>, 2025, Dublin, Ireland <br>
+<em>ACM MM</em>, 2025, Dublin, Ireland <br>
 <a href="https://arxiv.org/abs/2504.15756">arXiv</a>
 |
 <a href="https://github.com/FangpuZhang/DSDNet-official"><img src="https://img.shields.io/badge/%E2%98%85-3-blue?style=social&logo=github"></a>
@@ -1295,7 +1295,7 @@ cvpr25_JarvisIR_stop()
   <br>
   Yunlong Lin<sup class="eq-contrib">*</sup>, Zixu Lin<sup class="eq-contrib">*</sup>, Haoyu Chen<sup class="eq-contrib">*</sup>, Panwang Pan<sup class="eq-contrib">*</sup>, Chenxin Li, Sixiang Chen, <strong>Yeying Jin</strong>, Wenbo Li<sup class="corr-lead">†</sup>, Xinghao Ding<sup class="corr-lead">†</sup>
   <br>
-<em>Conference on Computer Vision and Pattern Recognition (CVPR)</em>, 2025, Nashville, USA <br>
+<em>CVPR</em>, 2025, Nashville, USA <br>
 <a href="https://arxiv.org/abs/2504.04158">arXiv</a>
 |
 <a href="https://github.com/LYL1015/JarvisIR"><img src="https://img.shields.io/badge/%E2%98%85-247-blue?style=social&logo=github"></a>
@@ -1337,7 +1337,7 @@ cvpr26_lovif_stop()
   <br>
   Chenghao Qian, Xin Li, <strong>Yeying Jin</strong><sup class="corr-lead">†</sup>, Shangquan Sun, Yilian Zhong, et al. <span style="color:#888;font-size:0.92em;">(Organizer & Corresponding Author)</span>
   <br>
-  <em>Conference on Computer Vision and Pattern Recognition Workshops (CVPRW)</em>, 2026, Denver, USA <br>
+  <em>CVPR Workshops (CVPRW)</em>, 2026, Denver, USA <br>
   <a href="https://arxiv.org/abs/2604.10655">arXiv</a>
   <p></p>
 </td>
@@ -1369,7 +1369,7 @@ ntire26_rd_stop()
   <br>
   Xin Li, <strong>Yeying Jin</strong><sup class="corr-lead">†</sup>, Suhang Yao, et al. <span style="color:#888;font-size:0.92em;">(Organizer & Corresponding Author)</span>
   <br>
-  <em>Conference on Computer Vision and Pattern Recognition Workshops (CVPRW)</em>, 2026, Denver, USA <br>
+  <em>CVPR Workshops (CVPRW)</em>, 2026, Denver, USA <br>
   <a href="https://arxiv.org/abs/2604.10634">arXiv</a>
   |
   <a href="https://github.com/jinyeying/RaindropClarity"><img src="https://img.shields.io/badge/%E2%98%85-76-blue?style=social&logo=github"></a>
@@ -1407,7 +1407,7 @@ ntire25_rd_stop()
   <br>
   Xin Li, <strong>Yeying Jin</strong><sup class="corr-lead">†</sup>, Xin Jin, et al. <span style="color:#888;font-size:0.92em;">(Organizer & Corresponding Author)</span>
   <br>
-  <em>Conference on Computer Vision and Pattern Recognition Workshops (CVPRW)</em>, 2025, Nashville, USA <br>
+  <em>CVPR Workshops (CVPRW)</em>, 2025, Nashville, USA <br>
   <a href="https://arxiv.org/abs/2504.12711">arXiv</a>
   |
   <a href="https://github.com/jinyeying/RaindropClarity"><img src="https://img.shields.io/badge/%E2%98%85-76-blue?style=social&logo=github"></a>
@@ -1451,7 +1451,7 @@ eccv24_rd_stop()
   <br>
   <strong>Yeying Jin</strong>, Xin Li, Jiadong Wang, Yan Zhang, Malu Zhang
   <br>
-  <em>European Conference on Computer Vision (ECCV)</em>, 2024, Milan, Italy <br>
+  <em>ECCV</em>, 2024, Milan, Italy <br>
   <a href="https://arxiv.org/abs/2407.16957">arXiv</a>
   |
   <a href="https://github.com/jinyeying/RaindropClarity"><img src="https://img.shields.io/badge/%E2%98%85-76-blue?style=social&logo=github"></a>
@@ -1497,7 +1497,7 @@ acl25_hscr_stop()
   <br>
   Songtao Jiang, Yan Zhang, <strong>Yeying Jin</strong>, Zhihang Tang, Yangyang Wu, Yang Feng, Jian Wu, Zuozhu Liu<sup class="corr-lead">†</sup>
   <br>
-  <em>Annual Meeting of the Association for Computational Linguistics (ACL)</em>, 2025, Vienna, Austria <br>
+  <em>ACL</em>, 2025, Vienna, Austria <br>
   <a href="https://arxiv.org/abs/2506.00805">arXiv</a>
   |
   <a href="./files/HSCR25_bibtex.txt">bibtex</a>
@@ -1531,7 +1531,7 @@ acl25_vqa_stop()
   <br>
   Songtao Jiang<sup class="eq-contrib">*</sup>, Chenyi Zhou<sup class="eq-contrib">*</sup>, Yan Zhang, <strong>Yeying Jin</strong>, Zuozhu Liu<sup class="corr-lead">†</sup>
   <br>
-  <em>Annual Meeting of the Association for Computational Linguistics (ACL)</em>, 2025, Vienna, Austria <br>
+  <em>ACL</em>, 2025, Vienna, Austria <br>
   <a href="https://arxiv.org/abs/2506.00806">arXiv</a>
   |
   <a href="./files/VQA25_bibtex.txt">bibtex</a>
@@ -1565,7 +1565,7 @@ arxiv24_dpo_stop()
   <br>
   Songtao Jiang, Yan Zhang, Ruizhe Chen, Tianxiang Hu, <strong>Yeying Jin</strong>, Qinglin He, Yang Feng, Jian Wu, Zuozhu Liu<sup class="corr-lead">†</sup>
   <br>
-  <em>International Joint Conference on Artificial Intelligence (IJCAI)</em>, 2025, Montreal, Canada <br>
+  <em>IJCAI</em>, 2025, Montreal, Canada <br>
   <a href="https://arxiv.org/abs/2410.15334">arXiv</a>
   |
   <a href="./files/MFDPO24_bibtex.txt">bibtex</a>
@@ -1599,7 +1599,7 @@ arxiv24_CGSAM_stop()
   <br>
   Songtao Jiang<sup class="eq-contrib">*</sup>, Yan Zhang<sup class="eq-contrib">*</sup>, Chenyi Zhou, <strong>Yeying Jin</strong>, Yang Feng, Jian Wu, Zuozhu Liu<sup class="corr-lead">†</sup>
   <br>
-  <em>EAI International Conference on Advanced Hybrid Information Processing (ADHIP)</em>, 2024, Jiaxing, China, <strong>Best Paper Award</strong> <br>
+  <em>ADHIP</em>, 2024, Jiaxing, China, <strong>Best Paper Award</strong> <br>
   <a href="https://arxiv.org/abs/2404.04514">arXiv</a>
   |
   <a href="https://github.com/jiangsongtao/VTprompt"><img src="https://img.shields.io/badge/%E2%98%85-4-blue?style=social&logo=github"></a>
@@ -1635,7 +1635,7 @@ emnlp24_moe_stop()
   <br>
   Songtao Jiang<sup class="eq-contrib">*</sup>, Tuo Zheng<sup class="eq-contrib">*</sup>, Yan Zhang, <strong>Yeying Jin</strong>, Li Yuan, Zuozhu Liu<sup class="corr-lead">†</sup>
   <br>
-  <em>Findings of the Association for Computational Linguistics: EMNLP</em>, 2024, Miami, USA <br>
+  <em>EMNLP Findings</em>, 2024, Miami, USA <br>
   <a href="https://arxiv.org/abs/2404.10237">arXiv</a>
   |
   <a href="https://github.com/jiangsongtao/Med-MoE"><img src="https://img.shields.io/badge/%E2%98%85-158-blue?style=social&logo=github"></a>
@@ -1671,7 +1671,7 @@ eccv24_dualrain_stop()
   <br>
   Tingting Chen<sup class="eq-contrib">*</sup>, Beibei Lin<sup class="eq-contrib">*</sup>, <strong>Yeying Jin</strong><sup class="eq-contrib">*</sup>, Wending Yan, Wei Ye, Yuan Yuan, Robby T. Tan
   <br>
-<em>European Conference on Computer Vision (ECCV)</em>, 2024, Milan, Italy <br>
+<em>ECCV</em>, 2024, Milan, Italy <br>
 <a href="https://www.ecva.net/papers/eccv_2024/papers_ECCV/papers/08521.pdf">paper</a>
 |
 <a href="./files/eccv24_dualrain_bibtex.txt">bibtex</a>
@@ -1705,7 +1705,7 @@ eccv24_sr_stop()
   <br>
   Xin Li<sup class="eq-contrib">*</sup>, Bingchen Li<sup class="eq-contrib">*</sup>, <strong>Yeying Jin</strong>, Cuiling Lan, Hanxin Zhu, Yulin Ren, Zhibo Chen<sup class="corr-lead">†</sup>
   <br>
-<em>European Conference on Computer Vision (ECCV)</em>, 2024, Milan, Italy <br>
+<em>ECCV</em>, 2024, Milan, Italy <br>
 <a href="https://arxiv.org/abs/2407.13108">arXiv</a>
 |
 <a href="https://github.com/lixinustc/UCIP_MLP_source_code/tree/main"><img src="https://img.shields.io/badge/%E2%98%85-5-blue?style=social&logo=github"></a>
@@ -1741,7 +1741,7 @@ submit24_nighthaze_stop()
   <br>
   Beibei Lin<sup class="eq-contrib">*</sup>, <strong>Yeying Jin</strong><sup class="eq-contrib">*</sup>, Wending Yan, Wei Ye, Yuan Yuan, Robby T. Tan
   <br>
-<em>AAAI Conference on Artificial Intelligence (AAAI)</em>, 2025, Philadelphia, USA <br>
+<em>AAAI</em>, 2025, Philadelphia, USA <br>
 <a href="https://arxiv.org/abs/2403.07408">arXiv</a>
 |
 <a href="https://github.com/bb12346/nighthaze_codes"><img src="https://img.shields.io/badge/%E2%98%85-10-blue?style=social&logo=github"></a> 
@@ -1779,7 +1779,7 @@ cvpr24_sr_stop()
   <br>
   Bingchen Li<sup class="eq-contrib">*</sup>, Xin Li<sup class="eq-contrib">*</sup>, Hanxin Zhu, <strong>Yeying Jin</strong>, Ruoyu Feng, Zhizheng Zhang, Zhibo Chen<sup class="corr-lead">†</sup>
   <br>
-<em>Conference on Computer Vision and Pattern Recognition (CVPR)</em>, 2024, Seattle, USA <br>
+<em>CVPR</em>, 2024, Seattle, USA <br>
 <a href="https://arxiv.org/abs/2402.19387">arXiv</a>
 |
 <a href="https://github.com/lbc12345/SeD"><img src="https://img.shields.io/badge/%E2%98%85-163-blue?style=social&logo=github"></a>
@@ -1815,7 +1815,7 @@ aaai24_des3_stop()
   <br>
   <strong>Yeying Jin</strong>, Wei Ye, Wenhan Yang, Yuan Yuan, Robby T. Tan
   <br>
-<em>AAAI Conference on Artificial Intelligence (AAAI)</em>, 2024, Vancouver, Canada <br>
+<em>AAAI</em>, 2024, Vancouver, Canada <br>
 <a href="https://arxiv.org/abs/2211.08089">arXiv</a>
 |
 <a href="https://github.com/jinyeying/DeS3_Deshadow"><img src="https://img.shields.io/badge/%E2%98%85-26-blue?style=social&logo=github"></a>
@@ -1858,7 +1858,7 @@ aaai24_nightrain_stop()
   <br>
   Beibei Lin<sup class="eq-contrib">*</sup>, <strong>Yeying Jin</strong><sup class="eq-contrib">*</sup>, Wending Yan, Wei Ye, Yuan Yuan, Shunli Zhang, Robby T. Tan
   <br>
-<em>AAAI Conference on Artificial Intelligence (AAAI)</em>, 2024, Vancouver, Canada <br>
+<em>AAAI</em>, 2024, Vancouver, Canada <br>
 <a href="https://arxiv.org/abs/2401.00729">arXiv</a>
 |
 <a href="./files/aaai24_nightrain_bibtex.txt">bibtex</a>
@@ -1894,7 +1894,7 @@ eccv22_nightenhance_stop()
   <br>
   <strong>Yeying Jin</strong>, Wenhan Yang, Robby T. Tan
   <br>
-<em>European Conference on Computer Vision (ECCV)</em>, 2022, Tel Aviv, Israel <br>
+<em>ECCV</em>, 2022, Tel Aviv, Israel <br>
 <a href="https://arxiv.org/abs/2207.10564">arXiv</a>
 |
 <a href="https://github.com/jinyeying/night-enhancement"><img src="https://img.shields.io/badge/%E2%98%85-467-blue?style=social&logo=github"></a>
@@ -1947,7 +1947,7 @@ iccv21_dcshadownet_stop()
   <br>
   <strong>Yeying Jin</strong>, Aashish Sharma, Robby T. Tan
   <br>
-<em>International Conference on Computer Vision (ICCV)</em>, 2021, Montreal, Canada <br>
+<em>ICCV</em>, 2021, Montreal, Canada <br>
 <a href="https://arxiv.org/abs/2207.10434">arXiv</a>
 |  
 <a href="https://github.com/jinyeying/DC-ShadowNet-Hard-and-Soft-Shadow-Removal"><img src="https://img.shields.io/badge/%E2%98%85-256-blue?style=social&logo=github"></a>
@@ -1993,7 +1993,7 @@ acmmm23_nightdehaze_stop()
   <br>
   <strong>Yeying Jin</strong><sup class="eq-contrib">*</sup>, Beibei Lin<sup class="eq-contrib">*</sup>, Wending Yan, Yuan Yuan, Wei Ye, Robby T. Tan
   <br>
-<em>ACM Multimedia (ACM MM)</em>, 2023, Ottawa, Canada <br>
+<em>ACM MM</em>, 2023, Ottawa, Canada <br>
 <a href="https://arxiv.org/abs/2308.01738">arXiv</a>
 |
 <a href="https://github.com/jinyeying/nighttime_dehaze"><img src="https://img.shields.io/badge/%E2%98%85-186-blue?style=social&logo=github"></a>
@@ -2038,7 +2038,7 @@ aaai23_reflectance_stop()
   <br>
   <strong>Yeying Jin</strong>, Ruoteng Li, Wenhan Yang, Robby T. Tan
   <br>
-<em>AAAI Conference on Artificial Intelligence (AAAI)</em>, 2023, Washington, DC, USA <br>
+<em>AAAI</em>, 2023, Washington, DC, USA <br>
 <a href="https://arxiv.org/abs/2211.14751">arXiv</a>
 |
 <a href="https://github.com/jinyeying/S-Aware-network"><img src="https://img.shields.io/badge/%E2%98%85-89-blue?style=social&logo=github"></a>
@@ -2082,7 +2082,7 @@ accv22_defog_stop()
   <br>
   <strong>Yeying Jin</strong>, Wending Yan, Wenhan Yang, Robby T. Tan
   <br>
-<em>Asian Conference on Computer Vision (ACCV)</em>, 2022, Macao, China <br>
+<em>ACCV</em>, 2022, Macao, China <br>
 <a href="https://arxiv.org/abs/2210.03061">arXiv</a>
 |
 <a href="https://github.com/jinyeying/FogRemoval"><img src="https://img.shields.io/badge/%E2%98%85-164-blue?style=social&logo=github"></a>
