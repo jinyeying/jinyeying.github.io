@@ -15,13 +15,14 @@ redirect_from:
 {% assign gsDataBaseUrl = "https://raw.githubusercontent.com/" | append: site.repository | append: "/" %}
 {% endif %}
 {% assign url = gsDataBaseUrl | append: "google-scholar-stats/gs_data_shieldsio.json" %}
+{% assign hurl = gsDataBaseUrl | append: "google-scholar-stats/gs_hindex_shieldsio.json" %}
 <span class='anchor' id='about-me'></span>
 
 I am a Staff Researcher at [Tencent](https://www.tencent.com/en-us/about.html) (青云计划 'Project Up' Talent Programme), where I serve as Research Lead for World Models, Agentic AI, and AIGC for Games. I am also Adjunct Faculty at <img src="/files/NUS.png" alt="NUS" width="42.5" height="20"> [National University of Singapore (NUS), Department of Electrical and Computer Engineering (ECE)](https://cde.nus.edu.sg/ece/).
 
 I received my Ph.D. from NUS ECE, supervised by [Prof. Robby T. Tan](http://tanrobby.github.io/), and previously interned at <img src="/files/adobe.png" alt="Adobe" width="20" height="20"> [Adobe Research](https://research.adobe.com/), mentored by [Prof. Connelly Barnes](http://www.connellybarnes.com/work/) and [Prof. Eli Shechtman](https://scholar.google.com/citations?user=B_FTboQAAAAJ). I hold an M.Sc. from NUS ECE and a B.Eng. from <img src="/files/UESTC.png" alt="UESTC" width="20.842" height="20"> [UESTC](https://en.uestc.edu.cn/).
 
-I have published papers at top international venues including SIGGRAPH Asia, CVPR, ICCV, ECCV, ICML, NeurIPS, ICLR and ACL, with <a href='https://scholar.google.com/citations?user=Z8PYhA4AAAAJ' target="_blank"><img src="https://img.shields.io/endpoint?url={{ url | url_encode }}&logo=Google%20Scholar&labelColor=f6f6f6&color=9cf&style=flat&label=citations" alt="Google Scholar citations"></a>.
+I have published papers at top international venues including SIGGRAPH Asia, CVPR, ICCV, ECCV, ICML, NeurIPS, ICLR and ACL, with <a href='https://scholar.google.com/citations?user=Z8PYhA4AAAAJ' target="_blank"><img src="https://img.shields.io/endpoint?url={{ url | url_encode }}&logo=Google%20Scholar&labelColor=f6f6f6&color=9cf&style=flat&label=citations" alt="Google Scholar citations"></a> <a href='https://scholar.google.com/citations?user=Z8PYhA4AAAAJ' target="_blank"><img src="https://img.shields.io/endpoint?url={{ hurl | url_encode }}&logo=Google%20Scholar&labelColor=f6f6f6&color=9cf&style=flat&label=h-index" alt="Google Scholar h-index"></a>.
 📢 I'm [hiring](https://zhuanlan.zhihu.com/p/2070315664162689467) self-motivated interns.
 
 # 📜 Research {#research}
@@ -30,9 +31,6 @@ I have published papers at top international venues including SIGGRAPH Asia, CVP
 3. AIGC for Games
 4. Multimodal Learning & VLMs
 
-<p style="margin:0.4rem 0 0.2rem;">
-  Also on <a href="https://x.com/auyeying" target="_blank" rel="noopener">X</a>:
-</p>
 
 # 🔬 Projects {#projects}
 <div class="pub-filters" id="proj-topic-filters">
@@ -160,7 +158,7 @@ function _applyProjFilter() {
     .project-row td { display:block; width:100% !important; box-sizing:border-box; }
     .project-row .thumb { width:100% !important; margin-bottom:8px; padding:0; }
     .side-by-side { flex-direction: row; width:100%; }
-    .side-by-side img { width:50%; flex: none; }
+    .side-by-side img { width: calc(50% - 3px); flex: none; }
     .project-row .info { padding-left: 0; padding-top:0; font-size: 0.9em; }
   }
 </style>
@@ -192,7 +190,6 @@ function _applyProjFilter() {
           <a class="pill" href="https://arxiv.org/abs/2610.25861">arXiv</a>
           <a href="https://github.com/TeaWhiteBro/ActionRoPE"><img src="https://img.shields.io/badge/%E2%98%85-4-blue?style=social&logo=github" alt="GitHub stars"></a>
           <a class="pill" href="https://huggingface.co/teawhite/ActionRoPE">Model</a>
-          <a class="pill" href="https://huggingface.co/papers/2610.25861">Daily Paper</a>
         </div>
         <span class="sub" style="display:block; margin-top:8px; line-height:1.5;">Encodes actions as world-coordinate rotary positions: 66% less revisit drift than the best baseline, across 1.3B–33B backbones.</span>
       </td>
@@ -604,6 +601,7 @@ function _applyProjFilter() {
 <!-- ################################  CONTENT START  ##################################################-->
 <div class="pub-filters" id="pub-topic-filters">
   <button class="pub-filter-btn active" data-cat="all" onclick="filterPubs('all')">All</button>
+  <button class="pub-filter-btn" data-cat="selected" onclick="filterPubs('selected')">Selected</button>
   <button class="pub-filter-btn" data-cat="world-model" onclick="filterPubs('world-model')">World Model</button>
   <button class="pub-filter-btn" data-cat="agentic-vlm" onclick="filterPubs('agentic-vlm')">Agentic VLM</button>
   <button class="pub-filter-btn" data-cat="gen-vision" onclick="filterPubs('gen-vision')">Gen & Vision</button>
@@ -648,7 +646,7 @@ function _applyPubFilter() {
 
 <!-- ###################################################################################################-->
 <!-- Paper SIGGRAPH26 LatentDance -->
-<tr data-category="gen-vision" data-role="eq-contrib" >
+<tr data-category="selected gen-vision" data-role="eq-contrib" >
 <td width="20%">
 <div style="position:relative;">
 <span class="venue-badge">SIGGRAPH Asia 2026</span>
@@ -1169,7 +1167,7 @@ arxiv25_PosterCraft_stop()
 
 <!-- ###################################################################################################-->
 <!-- Paper CVPR26 Deraining -->
-<tr data-category="gen-vision" data-role="corr-author proj-lead" onmouseout="cvpr26_Deraining_stop()" onmouseover="cvpr26_Deraining_start()" >
+<tr data-category="selected gen-vision" data-role="corr-author proj-lead" onmouseout="cvpr26_Deraining_stop()" onmouseover="cvpr26_Deraining_start()" >
 <td width="20%">
 <div class="one">
 <div class="two" id='cvpr26_Deraining_image'>
@@ -1429,7 +1427,7 @@ ntire25_rd_stop()
 
 <!-- ###################################################################################################-->
 <!-- Paper 17 RaindropClarity -->
-<tr data-category="gen-vision" data-role="first-author" onmouseout="eccv24_rd_stop()" onmouseover="eccv24_rd_start()" >  
+<tr data-category="selected gen-vision" data-role="first-author" onmouseout="eccv24_rd_stop()" onmouseover="eccv24_rd_start()" >  
 <td width="20%">
 <div class="one">
 <div class="two" id = 'eccv24_rd_image'><img src='./files/eccv24_raindropclarify_after.png'></div>
@@ -1793,7 +1791,7 @@ cvpr24_sr_stop()
 
 <!-- ###################################################################################################-->
 <!-- Paper 7 DeS3 -->
-<tr data-category="gen-vision" data-role="first-author" onmouseout="aaai24_des3_stop()" onmouseover="aaai24_des3_start()" >
+<tr data-category="selected gen-vision" data-role="first-author" onmouseout="aaai24_des3_stop()" onmouseover="aaai24_des3_start()" >
 <td width="20%">
 <div class="one">
 <div class="two" id = 'submit23_shadowdiffusion_image'><img src='./files/submit23_after.png'></div>
@@ -1872,7 +1870,7 @@ aaai24_nightrain_stop()
 
 <!-- ###################################################################################################-->
 <!-- Paper 5 NightEnhance, ECCV'22 -->
-<tr data-category="gen-vision" data-role="first-author" onmouseout="eccv22_nightenhance_stop()" onmouseover="eccv22_nightenhance_start()" >
+<tr data-category="selected gen-vision" data-role="first-author" onmouseout="eccv22_nightenhance_stop()" onmouseover="eccv22_nightenhance_start()" >
 <td width="20%">
 <div class="one">
 <div class="two" id = 'eccv22_nightenhance_image'><img src='./files/eccv22_after.jpg'></div>
@@ -1925,7 +1923,7 @@ eccv22_nightenhance_stop()
 
 <!-- ###################################################################################################-->
 <!-- Paper 4 DC-ShadowNet, ICCV'21 -->
-<tr data-category="gen-vision" data-role="first-author" onmouseout="iccv21_dcshadownet_stop()" onmouseover="iccv21_dcshadownet_start()" >
+<tr data-category="selected gen-vision" data-role="first-author" onmouseout="iccv21_dcshadownet_stop()" onmouseover="iccv21_dcshadownet_start()" >
 <td width="20%">
 <div class="one">
 <div class="two" id = 'iccv21_dcshadownet_image'><img src='./files/iccv21_after.png'></div>
@@ -1971,7 +1969,7 @@ iccv21_dcshadownet_stop()
 <!-- ###################################################################################################-->
 
 <!-- Paper 3 NightFog-->
-<tr data-category="gen-vision" data-role="first-author eq-contrib" onmouseout="acmmm23_nightdehaze_stop()" onmouseover="acmmm23_nightdehaze_start()" >
+<tr data-category="selected gen-vision" data-role="first-author eq-contrib" onmouseout="acmmm23_nightdehaze_stop()" onmouseover="acmmm23_nightdehaze_start()" >
 <td width="20%">
 <div class="one">
 <div class="two" id = 'acmmm23_nightdehaze_image'><img src='./files/acmmm23_after.png'></div>
@@ -2140,7 +2138,9 @@ accv22_defog_stop()
 
   /* 窄屏：日期列允许换行，避免 Organizer 表撑出横向滚动 */
   @media (max-width: 600px) {
-    .organizer-table td, .organizer-table th {
+    /* 表头 .talks-table th 设了 white-space:nowrap，"Date & Venue" 不换行会撑出横向滚动 */
+    .talks-table th { white-space: normal; }
+    .talks-table td, .talks-table th {
       word-break: break-word;
       overflow-wrap: anywhere;
     }
@@ -2530,6 +2530,7 @@ function filterBlogs(cat) {
 - [AI Singapore (AISG) Ph.D. Fellowship](https://aisingapore.org/research/phd-fellowship-programme/) *(Singapore’s most prestigious Ph.D. scholarship)* — Theme: Continuous Learning AI, Self-supervised Learning
 
 # 💻 Professional Services {#services}
+- Organizer: 6 workshops and 2 NTIRE challenges at CVPR / ICCV / ECCV / AAAI; 9 invited talks at top-tier venues.
 - Journal Reviewer: TPAMI, IJCV, TIP, TNNLS, TMM, TCSVT, TVCJ, NEUCOM, CVIU, etc.
 - Conference Reviewer: ICML, NeurIPS, ICLR, CVPR, ICCV, ECCV, AAAI, ACM MM, ACL, MICCAI, ACCV, IJCAI, IJCNN, etc.
 - Teaching Assistant: [EE5731 Visual Computing](https://tanrobby.github.io/teaching/ece_visual/index.html), EE5904 Neural Networks (NUS ECE)

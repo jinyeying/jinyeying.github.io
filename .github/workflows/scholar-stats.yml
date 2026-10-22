@@ -33,6 +33,7 @@ jobs:
           git reset
           cp results/gs_data.json gs_data.json
           cp results/gs_data_shieldsio.json gs_data_shieldsio.json
-          git add gs_data.json gs_data_shieldsio.json
+          cp results/gs_hindex_shieldsio.json gs_hindex_shieldsio.json
+          git add gs_data.json gs_data_shieldsio.json gs_hindex_shieldsio.json
           git commit -m "Update Google Scholar stats $(date -u '+%Y-%m-%d')" || echo "No changes"
           git push origin google-scholar-stats --force
