@@ -15,13 +15,14 @@ redirect_from:
 {% assign gsDataBaseUrl = "https://raw.githubusercontent.com/" | append: site.repository | append: "/" %}
 {% endif %}
 {% assign url = gsDataBaseUrl | append: "google-scholar-stats/gs_data_shieldsio.json" %}
+{% assign hurl = gsDataBaseUrl | append: "google-scholar-stats/gs_hindex_shieldsio.json" %}
 <span class='anchor' id='about-me'></span>
 
 I am a Staff Researcher at [Tencent](https://www.tencent.com/en-us/about.html) (青云计划 'Project Up' Talent Programme), where I serve as Research Lead for World Models, Agentic AI, and AIGC for Games. I am also Adjunct Faculty at <img src="/files/NUS.png" alt="NUS" width="42.5" height="20"> [National University of Singapore (NUS), Department of Electrical and Computer Engineering (ECE)](https://cde.nus.edu.sg/ece/).
 
 I received my Ph.D. from NUS ECE, supervised by [Prof. Robby T. Tan](http://tanrobby.github.io/), and previously interned at <img src="/files/adobe.png" alt="Adobe" width="20" height="20"> [Adobe Research](https://research.adobe.com/), mentored by [Prof. Connelly Barnes](http://www.connellybarnes.com/work/) and [Prof. Eli Shechtman](https://scholar.google.com/citations?user=B_FTboQAAAAJ). I hold an M.Sc. from NUS ECE and a B.Eng. from <img src="/files/UESTC.png" alt="UESTC" width="20.842" height="20"> [UESTC](https://en.uestc.edu.cn/).
 
-I have published papers at top international venues including SIGGRAPH Asia, CVPR, ICCV, ECCV, ICML, NeurIPS, ICLR and ACL, with <a href='https://scholar.google.com/citations?user=Z8PYhA4AAAAJ' target="_blank"><img src="https://img.shields.io/endpoint?url={{ url | url_encode }}&logo=Google%20Scholar&labelColor=f6f6f6&color=9cf&style=flat&label=citations" alt="Google Scholar citations"></a>.
+I have published papers at top international venues including SIGGRAPH Asia, CVPR, ICCV, ECCV, ICML, NeurIPS, ICLR and ACL, with <a href='https://scholar.google.com/citations?user=Z8PYhA4AAAAJ' target="_blank"><img src="https://img.shields.io/endpoint?url={{ url | url_encode }}&logo=Google%20Scholar&labelColor=f6f6f6&color=9cf&style=flat&label=citations" alt="Google Scholar citations"></a> <a href='https://scholar.google.com/citations?user=Z8PYhA4AAAAJ' target="_blank"><img src="https://img.shields.io/endpoint?url={{ hurl | url_encode }}&logo=Google%20Scholar&labelColor=f6f6f6&color=9cf&style=flat&label=h-index" alt="Google Scholar h-index"></a>.
 📢 I'm [hiring](https://zhuanlan.zhihu.com/p/2070315664162689467) self-motivated interns.
 
 # 📜 Research {#research}
