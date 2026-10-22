@@ -243,6 +243,7 @@ function _applyProjFilter() {
           <a class="pill" href="https://danzer1xxxxchan.github.io/H3-World/">Project Page</a>
           <a class="pill" href="https://arxiv.org/abs/2609.01560">arXiv</a>
           <a href="https://github.com/Danzer1xxxxChan/H3-World"><img src="https://img.shields.io/badge/%E2%98%85-325-blue?style=social&logo=github" alt="GitHub stars"></a>
+          <a class="pill" href="https://mp.weixin.qq.com/s/BzcLaXzD3AAS73LZXtTY6Q">Link</a>
         </div>
         <span class="sub" style="display:block; margin-top:8px; line-height:1.5;">Turns a video generator's own language understanding into grounded character and camera control, at 0.199% params.</span>
       </td>
