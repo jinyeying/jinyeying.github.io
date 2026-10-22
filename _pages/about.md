@@ -2526,9 +2526,9 @@ function filterBlogs(cat) {
 
 # 🎖 Honors and Awards {#awards}
 - [“Yayoi Kusama × Wukong”](https://modelscope.cn/brand/view/game-wan?branch=0&tree=4), *ModelScope Wan 2.1 Video Generation Challenge* — 2nd Place  
-- Tencent [Knowledge Award](https://zhuanlan.zhihu.com/p/686681635), [Excellent R&D Award](https://www.dropbox.com/scl/fi/h32jdvfrftrdls3rwjesi/Tencent_Excellent_R-D_Award.jpg?rlkey=xw5225oazo9kkoziuznsnhtpz&st=apklpn9u&dl=0), [Outstanding Mentor Award](https://www.dropbox.com/scl/fi/kcszrth49835tfvcirjot/Mentor.jpg?rlkey=mf4zo301alayou3tvr7yaedpk&st=je6i1qgd&dl=0), Outstanding Contributor Award
+- Tencent [Knowledge](https://zhuanlan.zhihu.com/p/686681635), [Excellent R&D](https://www.dropbox.com/scl/fi/h32jdvfrftrdls3rwjesi/Tencent_Excellent_R-D_Award.jpg?rlkey=xw5225oazo9kkoziuznsnhtpz&st=apklpn9u&dl=0), [Outstanding Mentor](https://www.dropbox.com/scl/fi/kcszrth49835tfvcirjot/Mentor.jpg?rlkey=mf4zo301alayou3tvr7yaedpk&st=je6i1qgd&dl=0) and Outstanding Contributor Awards
 - ICML 2026 Gold Reviewer Award
-- Best Paper Award, ADHIP 2024 (co-author, *Joint Visual and Text Prompting for Improved Object-Centric Perception with MLLMs*)
+- Best Paper Award, ADHIP 2024
 - CVPR Student Mentor
 - [AI Singapore (AISG) Ph.D. Fellowship](https://aisingapore.org/research/phd-fellowship-programme/) — Theme: Continuous Learning AI, Self-supervised Learning
 
