@@ -1,2 +1,18 @@
 _site/
 
+# macOS
+.DS_Store
+
+# Jekyll / Sass build caches
+.sass-cache/
+.jekyll-cache/
+.jekyll-metadata
+
+# Local backups of hand-edited pages
+_pages/*.bak.*
+
+# Bundler
+vendor/
+
+# Local-only, not for the public repo
+X_STRATEGY.md
