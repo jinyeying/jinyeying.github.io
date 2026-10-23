@@ -26,14 +26,14 @@ I have published papers at top international venues including SIGGRAPH Asia, CVP
 I have organized **6 workshops** and **2 NTIRE challenges** at CVPR, ECCV and AAAI, and given **33 invited talks**, 9 of them at CVPR, ICCV, ICLR and AAAI.
 📢 I'm [hiring](https://zhuanlan.zhihu.com/p/2070315664162689467) self-motivated interns.
 
-# 📜 Research {#research}
+# Research {#research}
 1. Game World Models: Persistent State, Mechanics Consistency, and Controllable Agents
 2. Agentic AI: Coding Agents, Agentic VLMs, and Video Generation
 3. AIGC for Games
 4. Multimodal Learning & VLMs
 
 
-# 🔬 Projects {#projects}
+# Projects {#projects}
 <div class="pub-filters" id="proj-topic-filters">
   <button class="pub-filter-btn proj-filter-btn active" data-cat="all" onclick="filterProjects('all')">All</button>
   <button class="pub-filter-btn proj-filter-btn" data-cat="world-model" onclick="filterProjects('world-model')">World Model</button>
@@ -195,8 +195,6 @@ function _applyProjFilter() {
         <span class="sub" style="display:block; margin-top:8px; line-height:1.5;">Encodes actions as world-coordinate rotary positions: 66% less revisit drift than the best baseline, across 1.3B–33B backbones.</span>
       </td>
     </tr>
-
-    <!-- GameDirector -->
     <tr class="project-row" data-proj-cat="world-model" data-proj-role="corr-author proj-lead">
       <td class="thumb">
         <div class="video-wrap" style="position:relative;">
@@ -221,8 +219,6 @@ function _applyProjFilter() {
         <span class="sub" style="display:block; margin-top:8px; line-height:1.5;">An agent runs game rules, states and NPC tactics; a video world model renders them, raising boss action quality by 39.9%+.</span>
       </td>
     </tr>
-
-    <!-- H3-World -->
     <tr class="project-row" data-proj-cat="world-model" data-proj-role="corr-author proj-lead">
       <td class="thumb">
         <div class="video-wrap" style="position:relative;">
@@ -246,8 +242,6 @@ function _applyProjFilter() {
         <span class="sub" style="display:block; margin-top:8px; line-height:1.5;">Turns a video generator's own language understanding into grounded character and camera control, at 0.199% params.</span>
       </td>
     </tr>
-
-    <!-- WorldMind -->
     <tr class="project-row" data-proj-cat="world-model" data-proj-role="corr-author proj-lead">
       <td class="thumb">
         <div class="video-wrap" style="position:relative;">
@@ -270,8 +264,6 @@ function _applyProjFilter() {
         <span class="sub" style="display:block; margin-top:8px; line-height:1.5;">The first decoupled game world model, closing the loop from understanding to generation; preferred in ~70% of comparisons.</span>
       </td>
     </tr>
-
-    <!-- StatePlay -->
     <tr class="project-row" data-proj-cat="world-model" data-proj-role="corr-author proj-lead">
       <td class="thumb">
         <div class="video-wrap" style="position:relative;">
@@ -296,8 +288,6 @@ function _applyProjFilter() {
         <span class="sub" style="display:block; margin-top:8px; line-height:1.5;">Jointly generates frames and internal game states (health, meters, timers), improving mechanics fidelity by 18.6%.</span>
       </td>
     </tr>
-
-    <!-- ReactiveGWM -->
     <tr class="project-row" data-proj-cat="world-model" data-proj-role="corr-author proj-lead">
       <td class="thumb">
         <div class="video-wrap" style="position:relative;">
@@ -322,8 +312,6 @@ function _applyProjFilter() {
         <span class="sub" style="display:block; margin-top:8px; line-height:1.5;">NPCs follow high-level strategies (Offense / Defense / Control), transferring zero-shot to unseen games.</span>
       </td>
     </tr>
-
-    <!-- SCOPE -->
     <tr class="project-row" data-proj-cat="world-model" data-proj-role="corr-author proj-lead">
       <td class="thumb">
         <div class="video-wrap" style="position:relative;">
@@ -349,8 +337,6 @@ function _applyProjFilter() {
         <span class="sub" style="display:block; margin-top:8px; line-height:1.5;">An interactive FPS world model trained on CrossFPS, the first multi-game FPS dataset: 69K clips, 7 titles, 10-DoF controls.</span>
       </td>
     </tr>
-
-    <!-- Incantation -->
     <tr class="project-row" data-proj-cat="world-model" data-proj-role="proj-lead">
       <td class="thumb">
         <div class="video-wrap" style="position:relative;">
@@ -376,73 +362,22 @@ function _applyProjFilter() {
         <span class="sub" style="display:block; margin-top:8px; line-height:1.5;">A natural-language action interface for multi-entity control: 89% cross-entity transfer success vs. 43% for action-ID baselines.</span>
       </td>
     </tr>
-
-    <!--  Hero 1 -->
     <tr class="project-row" data-proj-cat="gen-vision" data-proj-role="first-author">
       <td class="thumb">
         <div class="side-by-side">
-          <img src="./files/Hero_before.png" alt="Hero before">
-          <img src="./files/Hero_after.png"  alt="Hero after">
-        </div>
-      </td>
-      <td class="info">
-        <span class="papertitle_just">AI Photobooth</span><br>
-        <span class="sub"><em>AI Photobooth</em> • 2025.12 </span>
-        <p class="kpis">
-          <strong>370+</strong> Generated AI Images in 1 hour · <strong>Top 3</strong> Popular<br>
-          <strong>6</strong> Heroes · <strong>2</strong> Styles · <strong>3</strong> Games
-        </p>
-        <div class="links">
-          <span class="label">Demo:</span>
-          <a class="pill" href="https://www.bilibili.com/video/BV114B5ByEbg/?share_source=copy_web&vd_source=2da049ce4677af057256ebc4a00a8292">Video (CN)</a>
-          <a class="pill" href="https://youtu.be/barpL674x7Q?si=mZQf9cKKFnzQcefj">Video (EN)</a>
-        </div>
-      </td>
-    </tr>
-  
-    <!--  HOK Poster 2, 3 -->
-    <tr class="project-row" data-proj-cat="gen-vision" data-proj-role="first-author">
-      <td class="thumb">
-        <div class="side-by-side">
-          <img src="./files/HOK_AI_before.png" alt="HOK Conan before">
-          <img src="./files/HOK_Conan_after.png"  alt="HOK Conan after">
+          <img src="./files/HOK_Poster_before.png" alt="HOK poster before">
+          <img src="./files/HOK_Poster_after.png"  alt="HOK poster after">
         </div>
       </td>
       <td class="info">
         <a href="https://camp.honorofkings.com/h5/app/index.html#/poster-design/home">
-          <span class="papertitle_just">Honor of Kings (HOK) AIUGC Detective & Esports Poster</span>
+          <span class="papertitle_just">Honor of Kings &mdash; AI Portrait, Detective &amp; Esports Posters</span>
         </a><br>
-        <span class="sub"><em>HOK Flowborn Dimensional Editor</em> • 2025.08–Present</span>
+        <span class="sub"><em>HOK Flowborn Dimensional Editor</em> &bull; 2025.06&ndash;Present</span>
         <p class="kpis">
-          <strong>Shared DIY Poster platform:</strong> <strong>22.5K</strong> players · <strong>2.1M</strong> posters across Portrait, Detective & Esports<br>
-          <strong>Battle Loading, In-Game Hero,</strong> In-Game Popup<br>
-          <strong>One-Click</strong> Sharing on HOK Camp, X, Instagram, Facebook<br>
-        </p>
-        <div class="links">
-          <span class="label">Demo:</span>
-          <a class="pill" href="https://camp.honorofkings.com/h5/app/index.html#/poster-design/home">Online Generation</a>
-          <a class="pill" href="https://www.bilibili.com/video/BV1CpuPzxEGf/?share_source=copy_web&vd_source=2da049ce4677af057256ebc4a00a8292">Video (CN)</a>
-          <a class="pill" href="https://youtube.com/shorts/AUhqPP_0NIU?si=jNKspwxoQAlRcjA-">Video (EN)</a>
-        </div>
-      </td>
-    </tr>
-    
-    <!--  HOK Poster 1 -->
-    <tr class="project-row" data-proj-cat="gen-vision" data-proj-role="first-author">
-      <td class="thumb">
-        <div class="side-by-side">
-          <img src="./files/HOK_Poster_before.png" alt="HOK Poster before">
-          <img src="./files/HOK_Poster_after.png"  alt="HOK Poster after">
-        </div>
-      </td>
-      <td class="info">
-        <a href="https://camp.honorofkings.com/h5/app/index.html#/poster-design/home">
-          <span class="papertitle_just">Honor of Kings (HOK) AIUGC Portrait Poster</span>
-        </a><br>
-        <span class="sub"><em>HOK Flowborn Dimensional Editor</em> • 2025.06–Present</span>
-        <p class="kpis">
-          <strong>Avg. 9</strong> AI posters per player · <strong>Thousands+</strong> overseas & domestic mentions<br>
-          <strong>80%</strong> In-Game Display · <strong>99%</strong> Positive Sentiment
+          <span class="kpi-n">22.5K</span> players &middot; <span class="kpi-n">2.1M</span> posters generated<br>
+          Shipped in-game &mdash; Battle Loading, In-Game Hero, In-Game Popup &middot; <span class="kpi-n">80%</span> in-game display<br>
+          <span class="kpi-n">99%</span> positive sentiment &middot; one-click sharing to HOK Camp, X, Instagram, Facebook
         </p>
         <div class="links">
           <span class="label">Demo:</span>
@@ -452,8 +387,6 @@ function _applyProjFilter() {
         </div>
       </td>
     </tr>
-
-    <!-- HOK Creator -->
     <tr class="project-row" data-proj-cat="gen-vision" data-proj-role="first-author">
       <td class="thumb">
         <div class="side-by-side">
@@ -467,9 +400,9 @@ function _applyProjFilter() {
         </a><br>
         <span class="sub"><em>HOK Creator Studio</em> • 2024.12–Present</span>
         <p class="kpis">
-          <strong>58K</strong> Generated AI Images · <strong>22%</strong> Save Rate<br>
-          <strong>35K+</strong> Active Users<br>
-          <strong>98</strong> Heroes · <strong>12</strong> Styles · <strong>13s</strong> Generation Time
+          <span class="kpi-n">58K</span> Generated AI Images · <span class="kpi-n">22%</span> Save Rate<br>
+          <span class="kpi-n">35K+</span> Active Users<br>
+          <span class="kpi-n">98</span> Heroes · <span class="kpi-n">12</span> Styles · <span class="kpi-n">13s</span> Generation Time
         </p>
         <div class="links">
           <span class="label">Demo:</span>
@@ -479,8 +412,6 @@ function _applyProjFilter() {
         </div>
       </td>
     </tr>
-
-    <!-- HOK PGC -->
     <tr class="project-row" data-proj-cat="gen-vision" data-proj-role="first-author">
       <td class="thumb">
         <div class="side-by-side">
@@ -494,8 +425,8 @@ function _applyProjFilter() {
         </a><br>
         <span class="sub"><em>HOK Avatar Center</em> • 2024.07–2024.11</span>
         <p class="kpis">
-          <strong>12×</strong> Launch · <strong>98</strong> Heroes · <strong>2</strong> Styles · <strong>2</strong> Halloween Topics <br>
-          <strong>600K+</strong> Exposure · <strong>60K</strong> Engagements <br>
+          <span class="kpi-n">12×</span> Launch · <span class="kpi-n">98</span> Heroes · <span class="kpi-n">2</span> Styles · <span class="kpi-n">2</span> Halloween Topics <br>
+          <span class="kpi-n">600K+</span> Exposure · <span class="kpi-n">60K</span> Engagements <br>
           Available on HOK Camp, VK, X, Instagram, Facebook,<br>
           WhatsApp, Discord, Sticker
         </p>
@@ -512,7 +443,7 @@ function _applyProjFilter() {
 
 
 
-# 📝 Publications {#publications}
+# Publications {#publications}
 <style type="text/css">
     /* Color scheme stolen from Sergey Karayev */
     a {
@@ -663,7 +594,7 @@ function _applyPubFilter() {
   <br>
   Yixin Yang<sup class="eq-contrib">*</sup>, <strong>Yeying Jin</strong><sup class="eq-contrib">*</sup>, Jiawei Zhang, Long Sun, Xu Cheng<sup class="corr-lead">‡</sup>, Jinshan Pan<sup class="corr-lead">†</sup>
   <br>
-  <em>ACM SIGGRAPH Asia</em>, 2026, Kuala Lumpur, Malaysia <br>
+  <em>SIGGRAPH Asia</em>, 2026, Kuala Lumpur, Malaysia <br>
 <a href="https://github.com/yyang181/LatentDance/blob/main/assets/paper/LatentDance_paper.pdf">paper</a>
 |
 <a href="https://github.com/yyang181/LatentDance"><img src="https://img.shields.io/badge/%E2%98%85-5-blue?style=social&logo=github"></a>
@@ -693,7 +624,7 @@ function _applyPubFilter() {
   <br>
   Wei Zhang, Xin Li, Peishu Shi, Jialin Gao, Xuekang Peng, Zhichao Lian<sup class="corr-lead">†</sup>, <strong>Yeying Jin</strong><sup class="corr-lead">†‡</sup>
   <br>
-  <em>ACM Multimedia (ACM MM)</em>, 2026, Rio de Janeiro, Brazil <br>
+  <em>ACM MM</em>, 2026, Rio de Janeiro, Brazil <br>
 <a href="https://arxiv.org/abs/2609.04120">arXiv</a>
 |
 <a href="https://boomvvt.github.io/boomvvt/">Project Page</a>
@@ -788,7 +719,7 @@ arxiv26_AgenticWM_stop()
   <br>
   Yinhan Zhang<sup class="eq-contrib">*</sup>, Dingwei Tan<sup class="eq-contrib">*</sup>, Xianghao Kong, Yue Ma<sup class="corr-lead">‡</sup>, <strong>Yeying Jin</strong><sup class="corr-lead">†</sup>, Anyi Rao<sup class="corr-lead">†</sup>
   <br>
-  <em>European Conference on Computer Vision (ECCV)</em>, 2026, Malmö, Sweden <br>
+  <em>ECCV</em>, 2026, Malmö, Sweden <br>
 <a href="https://arxiv.org/abs/2607.14595">arXiv</a>
 |
 <a href="https://github.com/YinHan-Zhang/MagicPrompt"><img src="https://img.shields.io/badge/%E2%98%85-11-blue?style=social&logo=github"></a>
@@ -815,7 +746,7 @@ arxiv26_AgenticWM_stop()
   <br>
   Haoyu Zhao, Jiaxi Gu, Haoran Chen, Qingping Zheng, <strong>Yeying Jin</strong>, Hongyi Yang, Junqi Cheng, Yuang Zhang, Zenghui Lu, Huan Yu, Jie Jiang, Peng Shu, Zuxuan Wu<sup class="corr-lead">†</sup>, Yu-Gang Jiang<sup class="corr-lead">†</sup>
   <br>
-  <em>International Conference on Machine Learning (ICML)</em>, 2026, Seoul, South Korea<br>
+  <em>ICML</em>, 2026, Seoul, South Korea<br>
   <a href="https://arxiv.org/abs/2605.30774">arXiv</a>
   |
   <a href="https://github.com/gulucaptain/CameraNoise"><img src="https://img.shields.io/badge/%E2%98%85-221-blue?style=social&logo=github"></a>
@@ -844,7 +775,7 @@ arxiv26_AgenticWM_stop()
   <br>
   Haoyu Zhao, Zihao Zhang, Jiaxi Gu, Haoran Chen, Qingping Zheng, Pin Tang, <strong>Yeying Jin</strong>, Yuang Zhang, Junqi Cheng, Zenghui Lu, Peng Shu, Zuxuan Wu<sup class="corr-lead">†</sup>, Yu-Gang Jiang<sup class="corr-lead">†</sup>
   <br>
-  <em>ACM Multimedia (ACM MM)</em>, 2026, Rio de Janeiro, Brazil<br>
+  <em>ACM MM</em>, 2026, Rio de Janeiro, Brazil<br>
   <a href="https://arxiv.org/abs/2604.09201">arXiv</a>
   |
   <a href="https://github.com/gulucaptain/Camera-Transformer-1"><img src="https://img.shields.io/badge/%E2%98%85-314-blue?style=social&logo=github"></a>
@@ -915,7 +846,7 @@ icml26_zerase_stop()
   <br>
   Nanxiang Jiang, Zhaoxin Fan<sup class="corr-lead">†</sup>, Baisen Wang, Daiheng Gao, Junhang Cheng, Jifeng Guo, Yalan Qin, <strong>Yeying Jin</strong><sup class="corr-lead">‡</sup>, Hongwei Zheng, Faguo Wu<sup class="corr-lead">†</sup>, Wenjun Wu
   <br>
-  <em>International Conference on Machine Learning (ICML)</em>, 2026, Seoul, South Korea<br>
+  <em>ICML</em>, 2026, Seoul, South Korea<br>
   <a href="https://arxiv.org/abs/2603.25074">arXiv</a> |
   <a href="https://github.com/nxjiang-jnx/Z-Erase"><img src="https://img.shields.io/badge/%E2%98%85-38-blue?style=social&logo=github"></a>
   <p></p>
@@ -949,7 +880,7 @@ cvpr26_ReFlux_stop()
   <br>
   Nanxiang Jiang, Zhaoxin Fan<sup class="corr-lead">†</sup>, Enhan Kang, Daiheng Gao, Yun Zhou, Yanxia Chang, Zheng Zhu, <strong>Yeying Jin</strong>, Wenjun Wu
   <br>
-  <em>Conference on Computer Vision and Pattern Recognition (CVPR) Findings</em>, 2026, Denver, USA<br>
+  <em>CVPR Findings</em>, 2026, Denver, USA<br>
 <a href="https://arxiv.org/abs/2510.00635">arXiv</a> |
 <a href="https://github.com/nxjiang-jnx/ReFlux"><img src="https://img.shields.io/badge/%E2%98%85-17-blue?style=social&logo=github"></a>
 <p></p>
@@ -983,7 +914,7 @@ cvpr26_VLM_stop()
   <br>
   Xiaoran Sun<sup class="eq-contrib">*</sup>, Liyan Wang<sup class="eq-contrib">*</sup>, <strong>Yeying Jin</strong><sup class="corr-lead">‡</sup>, Kin-man Lam, Zhixun Su<sup class="corr-lead">†</sup>, Yang Yang, Jinshan Pan, Cong Wang<sup class="corr-lead">‡</sup>
   <br>
-  <em>Conference on Computer Vision and Pattern Recognition (CVPR) Findings</em>, 2026, Denver, USA<br>
+  <em>CVPR Findings</em>, 2026, Denver, USA<br>
 <a href="https://arxiv.org/abs/2507.18064">arXiv</a> |
 <a href="https://github.com/sunxiaoran01/VLM-IMI"><img src="https://img.shields.io/badge/%E2%98%85-5-blue?style=social&logo=github"></a>
 <p></p>
@@ -1009,7 +940,7 @@ cvpr26_VLM_stop()
   <br>
   Chenghao Qian, Nedko Savov, Lingdong Kong, <strong>Yeying Jin</strong>, Rui Song, Wenjing Li, Zhun Zhong, Jiaqi Ma, Gustav Markkula, Luc Van Gool
   <br>
-  <em>European Conference on Computer Vision (ECCV)</em>, 2026, Malmö, Sweden <br>
+  <em>ECCV</em>, 2026, Malmö, Sweden <br>
 <a href="https://arxiv.org/abs/2606.29020">arXiv</a>
 |
 <a href="https://github.com/Jumponthemoon/WeatherVideo"><img src="https://img.shields.io/badge/%E2%98%85-40-blue?style=social&logo=github"></a>
@@ -1046,7 +977,7 @@ aaai26_UniFit_stop()
   <br>
   Wei Zhang<sup class="eq-contrib">*</sup>, <strong>Yeying Jin</strong><sup class="eq-contrib">*</sup>, Xin Li, Yan Zhang, Xiaofeng Cong, Cong Wang, Fengcai Qiao, Zhichao Lian<sup class="corr-lead">†</sup>
   <br>
-<em>AAAI Conference on Artificial Intelligence (AAAI)</em>, 2026, Singapore <br>
+<em>AAAI</em>, 2026, Singapore <br>
 <a href="https://arxiv.org/abs/2511.15831">arXiv</a>
 |
 <a href="https://github.com/zwplus/UniFit"><img src="https://img.shields.io/badge/%E2%98%85-12-blue?style=social&logo=github"></a>
@@ -1121,7 +1052,7 @@ arxiv25_PosterCraft_stop()
   <br>
   Sixiang Chen<sup class="eq-contrib">*</sup>, Jianyu Lai<sup class="eq-contrib">*</sup>, Jialin Gao<sup class="eq-contrib">*</sup>, Tian Ye, Haoyu Chen, Hengyu Shi, Shitong Shao, Yunlong Lin, Song Fei, Zhaohu Xing, <strong>Yeying Jin</strong>, Junfeng Luo, Xiaoming Wei, Lei Zhu<sup class="corr-lead">†</sup>
   <br>
-<em>International Conference on Learning Representations (ICLR)</em>, 2026, Rio de Janeiro, Brazil <br>
+<em>ICLR</em>, 2026, Rio de Janeiro, Brazil <br>
 <a href="https://arxiv.org/abs/2506.10741">arXiv</a>
 |
 <a href="https://github.com/Ephemeral182/PosterCraft"><img src="https://img.shields.io/badge/%E2%98%85-546-blue?style=social&logo=github"></a>
@@ -1192,7 +1123,7 @@ cvpr26_Deraining_stop()
   <br>
   Yinghao Chen, <strong>Yeying Jin</strong><sup class="corr-lead">†‡</sup>, Xiang Chen, Yanyan Wei<sup class="corr-lead">†</sup>, Ziyang Yan, Yaowen Fu
   <br>
-  <em>Conference on Computer Vision and Pattern Recognition (CVPR)</em>, 2026, Denver, USA<br>
+  <em>CVPR</em>, 2026, Denver, USA<br>
 <a href="https://arxiv.org/abs/2605.00719">arXiv</a>
 <p></p>
 </td>
@@ -1224,7 +1155,7 @@ iccv25_GenHaze_stop()
   <br>
  Sixiang Chen, Tian Ye, Yunlong Lin, <strong>Yeying Jin</strong>, Yijun Yang, Haoyu Chen, Jianyu Lai, Song Fei, Zhaohu Xing, Fugee Tsung, Lei Zhu<sup class="corr-lead">†</sup>
   <br>
-<em>International Conference on Computer Vision (ICCV)</em>, 2025, Honolulu, USA <br>
+<em>ICCV</em>, 2025, Honolulu, USA <br>
 <a href="https://openaccess.thecvf.com/content/ICCV2025/papers/Chen_GenHaze_Pioneering_Controllable_One-Step_Realistic_Haze_Generation_for_Real-World_Dehazing_ICCV_2025_paper.pdf">paper</a>
 | 
 <a href="./files/iccv25_GenHaze_bibtex.txt">bibtex</a>  
@@ -1258,7 +1189,7 @@ acm25_DSDNet_stop()
   <br>
   Qirui Yang<sup class="eq-contrib">*</sup>, Fangpu Zhang<sup class="eq-contrib">*</sup>, <strong>Yeying Jin</strong>, Qihua Cheng, Pengtao Jiang, Huanjing Yue<sup class="corr-lead">†</sup>, Jingyu Yang<sup class="corr-lead">†</sup>
   <br>
-<em>ACM Multimedia (ACM MM)</em>, 2025, Dublin, Ireland <br>
+<em>ACM MM</em>, 2025, Dublin, Ireland <br>
 <a href="https://arxiv.org/abs/2504.15756">arXiv</a>
 |
 <a href="https://github.com/FangpuZhang/DSDNet-official"><img src="https://img.shields.io/badge/%E2%98%85-3-blue?style=social&logo=github"></a>
@@ -1295,7 +1226,7 @@ cvpr25_JarvisIR_stop()
   <br>
   Yunlong Lin<sup class="eq-contrib">*</sup>, Zixu Lin<sup class="eq-contrib">*</sup>, Haoyu Chen<sup class="eq-contrib">*</sup>, Panwang Pan<sup class="eq-contrib">*</sup>, Chenxin Li, Sixiang Chen, <strong>Yeying Jin</strong>, Wenbo Li<sup class="corr-lead">†</sup>, Xinghao Ding<sup class="corr-lead">†</sup>
   <br>
-<em>Conference on Computer Vision and Pattern Recognition (CVPR)</em>, 2025, Nashville, USA <br>
+<em>CVPR</em>, 2025, Nashville, USA <br>
 <a href="https://arxiv.org/abs/2504.04158">arXiv</a>
 |
 <a href="https://github.com/LYL1015/JarvisIR"><img src="https://img.shields.io/badge/%E2%98%85-247-blue?style=social&logo=github"></a>
@@ -1337,7 +1268,7 @@ cvpr26_lovif_stop()
   <br>
   Chenghao Qian, Xin Li, <strong>Yeying Jin</strong><sup class="corr-lead">†</sup>, Shangquan Sun, Yilian Zhong, et al. <span style="color:#888;font-size:0.92em;">(Organizer & Corresponding Author)</span>
   <br>
-  <em>Conference on Computer Vision and Pattern Recognition Workshops (CVPRW)</em>, 2026, Denver, USA <br>
+  <em>CVPR Workshops (CVPRW)</em>, 2026, Denver, USA <br>
   <a href="https://arxiv.org/abs/2604.10655">arXiv</a>
   <p></p>
 </td>
@@ -1369,7 +1300,7 @@ ntire26_rd_stop()
   <br>
   Xin Li, <strong>Yeying Jin</strong><sup class="corr-lead">†</sup>, Suhang Yao, et al. <span style="color:#888;font-size:0.92em;">(Organizer & Corresponding Author)</span>
   <br>
-  <em>Conference on Computer Vision and Pattern Recognition Workshops (CVPRW)</em>, 2026, Denver, USA <br>
+  <em>CVPR Workshops (CVPRW)</em>, 2026, Denver, USA <br>
   <a href="https://arxiv.org/abs/2604.10634">arXiv</a>
   |
   <a href="https://github.com/jinyeying/RaindropClarity"><img src="https://img.shields.io/badge/%E2%98%85-76-blue?style=social&logo=github"></a>
@@ -1407,7 +1338,7 @@ ntire25_rd_stop()
   <br>
   Xin Li, <strong>Yeying Jin</strong><sup class="corr-lead">†</sup>, Xin Jin, et al. <span style="color:#888;font-size:0.92em;">(Organizer & Corresponding Author)</span>
   <br>
-  <em>Conference on Computer Vision and Pattern Recognition Workshops (CVPRW)</em>, 2025, Nashville, USA <br>
+  <em>CVPR Workshops (CVPRW)</em>, 2025, Nashville, USA <br>
   <a href="https://arxiv.org/abs/2504.12711">arXiv</a>
   |
   <a href="https://github.com/jinyeying/RaindropClarity"><img src="https://img.shields.io/badge/%E2%98%85-76-blue?style=social&logo=github"></a>
@@ -1451,7 +1382,7 @@ eccv24_rd_stop()
   <br>
   <strong>Yeying Jin</strong>, Xin Li, Jiadong Wang, Yan Zhang, Malu Zhang
   <br>
-  <em>European Conference on Computer Vision (ECCV)</em>, 2024, Milan, Italy <br>
+  <em>ECCV</em>, 2024, Milan, Italy <br>
   <a href="https://arxiv.org/abs/2407.16957">arXiv</a>
   |
   <a href="https://github.com/jinyeying/RaindropClarity"><img src="https://img.shields.io/badge/%E2%98%85-76-blue?style=social&logo=github"></a>
@@ -1497,7 +1428,7 @@ acl25_hscr_stop()
   <br>
   Songtao Jiang, Yan Zhang, <strong>Yeying Jin</strong>, Zhihang Tang, Yangyang Wu, Yang Feng, Jian Wu, Zuozhu Liu<sup class="corr-lead">†</sup>
   <br>
-  <em>Annual Meeting of the Association for Computational Linguistics (ACL)</em>, 2025, Vienna, Austria <br>
+  <em>ACL</em>, 2025, Vienna, Austria <br>
   <a href="https://arxiv.org/abs/2506.00805">arXiv</a>
   |
   <a href="./files/HSCR25_bibtex.txt">bibtex</a>
@@ -1531,7 +1462,7 @@ acl25_vqa_stop()
   <br>
   Songtao Jiang<sup class="eq-contrib">*</sup>, Chenyi Zhou<sup class="eq-contrib">*</sup>, Yan Zhang, <strong>Yeying Jin</strong>, Zuozhu Liu<sup class="corr-lead">†</sup>
   <br>
-  <em>Annual Meeting of the Association for Computational Linguistics (ACL)</em>, 2025, Vienna, Austria <br>
+  <em>ACL</em>, 2025, Vienna, Austria <br>
   <a href="https://arxiv.org/abs/2506.00806">arXiv</a>
   |
   <a href="./files/VQA25_bibtex.txt">bibtex</a>
@@ -1565,7 +1496,7 @@ arxiv24_dpo_stop()
   <br>
   Songtao Jiang, Yan Zhang, Ruizhe Chen, Tianxiang Hu, <strong>Yeying Jin</strong>, Qinglin He, Yang Feng, Jian Wu, Zuozhu Liu<sup class="corr-lead">†</sup>
   <br>
-  <em>International Joint Conference on Artificial Intelligence (IJCAI)</em>, 2025, Montreal, Canada <br>
+  <em>IJCAI</em>, 2025, Montreal, Canada <br>
   <a href="https://arxiv.org/abs/2410.15334">arXiv</a>
   |
   <a href="./files/MFDPO24_bibtex.txt">bibtex</a>
@@ -1599,7 +1530,7 @@ arxiv24_CGSAM_stop()
   <br>
   Songtao Jiang<sup class="eq-contrib">*</sup>, Yan Zhang<sup class="eq-contrib">*</sup>, Chenyi Zhou, <strong>Yeying Jin</strong>, Yang Feng, Jian Wu, Zuozhu Liu<sup class="corr-lead">†</sup>
   <br>
-  <em>EAI International Conference on Advanced Hybrid Information Processing (ADHIP)</em>, 2024, Jiaxing, China, <strong>Best Paper Award</strong> <br>
+  <em>ADHIP</em>, 2024, Jiaxing, China, <strong>Best Paper Award</strong> <br>
   <a href="https://arxiv.org/abs/2404.04514">arXiv</a>
   |
   <a href="https://github.com/jiangsongtao/VTprompt"><img src="https://img.shields.io/badge/%E2%98%85-4-blue?style=social&logo=github"></a>
@@ -1635,7 +1566,7 @@ emnlp24_moe_stop()
   <br>
   Songtao Jiang<sup class="eq-contrib">*</sup>, Tuo Zheng<sup class="eq-contrib">*</sup>, Yan Zhang, <strong>Yeying Jin</strong>, Li Yuan, Zuozhu Liu<sup class="corr-lead">†</sup>
   <br>
-  <em>Findings of the Association for Computational Linguistics: EMNLP</em>, 2024, Miami, USA <br>
+  <em>EMNLP Findings</em>, 2024, Miami, USA <br>
   <a href="https://arxiv.org/abs/2404.10237">arXiv</a>
   |
   <a href="https://github.com/jiangsongtao/Med-MoE"><img src="https://img.shields.io/badge/%E2%98%85-158-blue?style=social&logo=github"></a>
@@ -1671,7 +1602,7 @@ eccv24_dualrain_stop()
   <br>
   Tingting Chen<sup class="eq-contrib">*</sup>, Beibei Lin<sup class="eq-contrib">*</sup>, <strong>Yeying Jin</strong><sup class="eq-contrib">*</sup>, Wending Yan, Wei Ye, Yuan Yuan, Robby T. Tan
   <br>
-<em>European Conference on Computer Vision (ECCV)</em>, 2024, Milan, Italy <br>
+<em>ECCV</em>, 2024, Milan, Italy <br>
 <a href="https://www.ecva.net/papers/eccv_2024/papers_ECCV/papers/08521.pdf">paper</a>
 |
 <a href="./files/eccv24_dualrain_bibtex.txt">bibtex</a>
@@ -1705,7 +1636,7 @@ eccv24_sr_stop()
   <br>
   Xin Li<sup class="eq-contrib">*</sup>, Bingchen Li<sup class="eq-contrib">*</sup>, <strong>Yeying Jin</strong>, Cuiling Lan, Hanxin Zhu, Yulin Ren, Zhibo Chen<sup class="corr-lead">†</sup>
   <br>
-<em>European Conference on Computer Vision (ECCV)</em>, 2024, Milan, Italy <br>
+<em>ECCV</em>, 2024, Milan, Italy <br>
 <a href="https://arxiv.org/abs/2407.13108">arXiv</a>
 |
 <a href="https://github.com/lixinustc/UCIP_MLP_source_code/tree/main"><img src="https://img.shields.io/badge/%E2%98%85-5-blue?style=social&logo=github"></a>
@@ -1741,7 +1672,7 @@ submit24_nighthaze_stop()
   <br>
   Beibei Lin<sup class="eq-contrib">*</sup>, <strong>Yeying Jin</strong><sup class="eq-contrib">*</sup>, Wending Yan, Wei Ye, Yuan Yuan, Robby T. Tan
   <br>
-<em>AAAI Conference on Artificial Intelligence (AAAI)</em>, 2025, Philadelphia, USA <br>
+<em>AAAI</em>, 2025, Philadelphia, USA <br>
 <a href="https://arxiv.org/abs/2403.07408">arXiv</a>
 |
 <a href="https://github.com/bb12346/nighthaze_codes"><img src="https://img.shields.io/badge/%E2%98%85-10-blue?style=social&logo=github"></a> 
@@ -1779,7 +1710,7 @@ cvpr24_sr_stop()
   <br>
   Bingchen Li<sup class="eq-contrib">*</sup>, Xin Li<sup class="eq-contrib">*</sup>, Hanxin Zhu, <strong>Yeying Jin</strong>, Ruoyu Feng, Zhizheng Zhang, Zhibo Chen<sup class="corr-lead">†</sup>
   <br>
-<em>Conference on Computer Vision and Pattern Recognition (CVPR)</em>, 2024, Seattle, USA <br>
+<em>CVPR</em>, 2024, Seattle, USA <br>
 <a href="https://arxiv.org/abs/2402.19387">arXiv</a>
 |
 <a href="https://github.com/lbc12345/SeD"><img src="https://img.shields.io/badge/%E2%98%85-163-blue?style=social&logo=github"></a>
@@ -1815,7 +1746,7 @@ aaai24_des3_stop()
   <br>
   <strong>Yeying Jin</strong>, Wei Ye, Wenhan Yang, Yuan Yuan, Robby T. Tan
   <br>
-<em>AAAI Conference on Artificial Intelligence (AAAI)</em>, 2024, Vancouver, Canada <br>
+<em>AAAI</em>, 2024, Vancouver, Canada <br>
 <a href="https://arxiv.org/abs/2211.08089">arXiv</a>
 |
 <a href="https://github.com/jinyeying/DeS3_Deshadow"><img src="https://img.shields.io/badge/%E2%98%85-26-blue?style=social&logo=github"></a>
@@ -1858,7 +1789,7 @@ aaai24_nightrain_stop()
   <br>
   Beibei Lin<sup class="eq-contrib">*</sup>, <strong>Yeying Jin</strong><sup class="eq-contrib">*</sup>, Wending Yan, Wei Ye, Yuan Yuan, Shunli Zhang, Robby T. Tan
   <br>
-<em>AAAI Conference on Artificial Intelligence (AAAI)</em>, 2024, Vancouver, Canada <br>
+<em>AAAI</em>, 2024, Vancouver, Canada <br>
 <a href="https://arxiv.org/abs/2401.00729">arXiv</a>
 |
 <a href="./files/aaai24_nightrain_bibtex.txt">bibtex</a>
@@ -1894,7 +1825,7 @@ eccv22_nightenhance_stop()
   <br>
   <strong>Yeying Jin</strong>, Wenhan Yang, Robby T. Tan
   <br>
-<em>European Conference on Computer Vision (ECCV)</em>, 2022, Tel Aviv, Israel <br>
+<em>ECCV</em>, 2022, Tel Aviv, Israel <br>
 <a href="https://arxiv.org/abs/2207.10564">arXiv</a>
 |
 <a href="https://github.com/jinyeying/night-enhancement"><img src="https://img.shields.io/badge/%E2%98%85-467-blue?style=social&logo=github"></a>
@@ -1947,7 +1878,7 @@ iccv21_dcshadownet_stop()
   <br>
   <strong>Yeying Jin</strong>, Aashish Sharma, Robby T. Tan
   <br>
-<em>International Conference on Computer Vision (ICCV)</em>, 2021, Montreal, Canada <br>
+<em>ICCV</em>, 2021, Montreal, Canada <br>
 <a href="https://arxiv.org/abs/2207.10434">arXiv</a>
 |  
 <a href="https://github.com/jinyeying/DC-ShadowNet-Hard-and-Soft-Shadow-Removal"><img src="https://img.shields.io/badge/%E2%98%85-256-blue?style=social&logo=github"></a>
@@ -1993,7 +1924,7 @@ acmmm23_nightdehaze_stop()
   <br>
   <strong>Yeying Jin</strong><sup class="eq-contrib">*</sup>, Beibei Lin<sup class="eq-contrib">*</sup>, Wending Yan, Yuan Yuan, Wei Ye, Robby T. Tan
   <br>
-<em>ACM Multimedia (ACM MM)</em>, 2023, Ottawa, Canada <br>
+<em>ACM MM</em>, 2023, Ottawa, Canada <br>
 <a href="https://arxiv.org/abs/2308.01738">arXiv</a>
 |
 <a href="https://github.com/jinyeying/nighttime_dehaze"><img src="https://img.shields.io/badge/%E2%98%85-186-blue?style=social&logo=github"></a>
@@ -2038,7 +1969,7 @@ aaai23_reflectance_stop()
   <br>
   <strong>Yeying Jin</strong>, Ruoteng Li, Wenhan Yang, Robby T. Tan
   <br>
-<em>AAAI Conference on Artificial Intelligence (AAAI)</em>, 2023, Washington, DC, USA <br>
+<em>AAAI</em>, 2023, Washington, DC, USA <br>
 <a href="https://arxiv.org/abs/2211.14751">arXiv</a>
 |
 <a href="https://github.com/jinyeying/S-Aware-network"><img src="https://img.shields.io/badge/%E2%98%85-89-blue?style=social&logo=github"></a>
@@ -2082,7 +2013,7 @@ accv22_defog_stop()
   <br>
   <strong>Yeying Jin</strong>, Wending Yan, Wenhan Yang, Robby T. Tan
   <br>
-<em>Asian Conference on Computer Vision (ACCV)</em>, 2022, Macao, China <br>
+<em>ACCV</em>, 2022, Macao, China <br>
 <a href="https://arxiv.org/abs/2210.03061">arXiv</a>
 |
 <a href="https://github.com/jinyeying/FogRemoval"><img src="https://img.shields.io/badge/%E2%98%85-164-blue?style=social&logo=github"></a>
@@ -2108,7 +2039,7 @@ accv22_defog_stop()
 <!-- ############################ Put your publications above this! ####################################-->
 </tbody></table>
 
-# 💬 Organizer {#organizer}
+# Organizer {#organizer}
 <style>
   .section-count {
     margin: -2px 0 10px; color: #667085; font-size: 0.92em; line-height: 1.45;
@@ -2158,6 +2089,8 @@ accv22_defog_stop()
   .talks-table .dt, .organizer-table .dt { font-weight: 600; color: #344054; }
   .talks-table .vn, .organizer-table .vn { display: inline-block; margin-top: 1px; }
   .talks-table .vn, .organizer-table .vn { color: #98a2b3; font-size: 0.92em; }
+  .talks-table .inv { color: #98a2b3; font-size: 0.9em; }
+  .kpis .kpi-n { font-weight: 600; color: #344054; }
 
   /* 窄屏：日期列允许换行，避免 Organizer 表撑出横向滚动 */
   @media (max-width: 600px) {
@@ -2230,7 +2163,7 @@ accv22_defog_stop()
   </tr>
 </table>
 
-# 🎤 Invited Talks {#invited-talks}
+# Invited Talks {#invited-talks}
 <p class="section-count"><strong>9</strong> talks at CVPR, ICCV, ICLR and AAAI, among <strong>33</strong> invited talks in total.</p>
 <div class="pub-filters">
   <button class="pub-filter-btn talk-filter-btn active" data-cat="all" onclick="filterTalks('all')">All</button>
@@ -2267,22 +2200,22 @@ function filterTalks(cat) {
   </tr>
    <tr class="year-row" data-year="2026"><td colspan="3">2026</td></tr>
  <tr data-talk-cat="world-model">
-    <td>NUS CEG5304 Deep Learning Guest Lecture (invited by <a href="https://xuyu0010.wixsite.com/xuyu0010">Yuecong Xu</a>)</td>
+    <td>NUS CEG5304 Deep Learning Guest Lecture<br><span class="inv">invited by <a href="https://xuyu0010.wixsite.com/xuyu0010">Yuecong Xu</a></span></td>
     <td>World Model and Agentic Video Generation</td>
     <td><span class="dt">11.2026</span><br><span class="vn">Singapore</span></td>
  </tr>
  <tr data-talk-cat="world-model">
-    <td><a href="https://www.ntu.edu.sg/">NTU</a> PhD Course: Deep Learning for Data Science, Guest Lecture (invited by <a href="https://liuziwei7.github.io/">Ziwei Liu</a>)</td>
+    <td><a href="https://www.ntu.edu.sg/">NTU</a> PhD Course: Deep Learning for Data Science, Guest Lecture<br><span class="inv">invited by <a href="https://liuziwei7.github.io/">Ziwei Liu</a></span></td>
     <td>Game World Model</td>
     <td><span class="dt">10.15.2026</span><br><span class="vn">Singapore</span></td>
  </tr>
  <tr data-talk-cat="world-model">
-    <td><a href="https://cde.nus.edu.sg/ece/">NUS ECE SAMI Seminar</a> (invited by <a href="https://xuyu0010.wixsite.com/xuyu0010">Yuecong Xu</a>)</td>
+    <td><a href="https://cde.nus.edu.sg/ece/">NUS ECE SAMI Seminar</a><br><span class="inv">invited by <a href="https://xuyu0010.wixsite.com/xuyu0010">Yuecong Xu</a></span></td>
     <td>Game World Model and Coding Agents</td>
     <td><span class="dt">10.14.2026</span><br><span class="vn">Singapore</span></td>
  </tr>
  <tr data-talk-cat="world-model">
-    <td><a href="https://runwayml.com/">Runway</a> (invited by <a href="https://www.linkedin.com/in/robin-kahlow/">Robin Kahlow</a>)</td>
+    <td><a href="https://runwayml.com/">Runway</a><br><span class="inv">invited by <a href="https://www.linkedin.com/in/robin-kahlow/">Robin Kahlow</a></span></td>
     <td>Game World Model</td>
     <td><span class="dt">06.26.2026</span><br><span class="vn">Singapore</span></td>
  </tr>
@@ -2292,22 +2225,22 @@ function filterTalks(cat) {
     <td><span class="dt">06.06.2026</span><br><span class="vn">Denver, USA</span></td>
  </tr>
  <tr data-talk-cat="world-model">
-    <td><a href="https://urvis-workshop.github.io/">CVPR 2026 URVIS</a> (invited by <a href="https://sites.google.com/view/zwwu/accueil">Zongwei Wu</a>)</td>
+    <td><a href="https://urvis-workshop.github.io/">CVPR 2026 URVIS</a><br><span class="inv">invited by <a href="https://sites.google.com/view/zwwu/accueil">Zongwei Wu</a></span></td>
     <td>World Model</td>
     <td><span class="dt">06.04.2026</span><br><span class="vn">Denver, USA</span></td>
  </tr>
  <tr data-talk-cat="world-model">
-    <td><a href="https://agentic-visual-media.insait.ai/">CVPR 2026 AGENTIC</a> (invited by <a href="https://www.jasongt.com/">Jinjin Gu</a>)</td>
+    <td><a href="https://agentic-visual-media.insait.ai/">CVPR 2026 AGENTIC</a><br><span class="inv">invited by <a href="https://www.jasongt.com/">Jinjin Gu</a></span></td>
     <td>Game World Model</td>
     <td><span class="dt">06.03.2026</span><br><span class="vn">Denver, USA</span></td>
  </tr>
  <tr data-talk-cat="world-model">
-    <td><a href="https://ai4streaming-workshop.github.io/">CVPR 2026 AIGENS</a> (invited by <a href="https://mv-lab.github.io/">Marcos V. Conde</a>)</td>
+    <td><a href="https://ai4streaming-workshop.github.io/">CVPR 2026 AIGENS</a><br><span class="inv">invited by <a href="https://mv-lab.github.io/">Marcos V. Conde</a></span></td>
     <td>Game World Model for Video Generation</td>
     <td><span class="dt">06.03.2026</span><br><span class="vn">Denver, USA</span></td>
  </tr>
  <tr data-talk-cat="world-model">
-    <td><a href="https://cvlai.net/ntire/2026/">CVPR 2026 NTIRE</a> (invited by <a href="https://sites.google.com/view/zwwu/accueil">Zongwei Wu</a>)</td>
+    <td><a href="https://cvlai.net/ntire/2026/">CVPR 2026 NTIRE</a><br><span class="inv">invited by <a href="https://sites.google.com/view/zwwu/accueil">Zongwei Wu</a></span></td>
     <td>Game World Model</td>
     <td><span class="dt">06.03.2026</span><br><span class="vn">Denver, USA</span></td>
  </tr>
@@ -2317,7 +2250,7 @@ function filterTalks(cat) {
     <td><span class="dt">05.22.2026</span><br><span class="vn">Singapore</span></td>
  </tr>
  <tr data-talk-cat="world-model">
-    <td><a href="https://singaporevisionday.github.io/svd2026/">Singapore Vision Day</a> (invited by <a href="https://www.comp.nus.edu.sg/~leegh/">Gim Hee Lee</a>)</td>
+    <td><a href="https://singaporevisionday.github.io/svd2026/">Singapore Vision Day</a><br><span class="inv">invited by <a href="https://www.comp.nus.edu.sg/~leegh/">Gim Hee Lee</a></span></td>
     <td><a href="https://singaporevisionday.github.io/svd2026/">Game World Model</a><br>World Model Panel Discussion (w/ <a href="https://v3alab.github.io/#about">Qi Wu</a><sup style="color:#888;font-size:0.75em;"> U Adelaide</sup>, <a href="https://www.3dunderstanding.org/">Angela Dai</a><sup style="color:#888;font-size:0.75em;"> TUM</sup>, <a href="https://xingangpan.github.io/">Xingang Pan</a><sup style="color:#888;font-size:0.75em;"> NTU</sup>)</td>
     <td><span class="dt">05.16.2026</span><br><span class="vn">Singapore</span></td>
  </tr>
@@ -2327,17 +2260,17 @@ function filterTalks(cat) {
     <td><span class="dt">04.25.2026</span><br><span class="vn">Rio de Janeiro, Brazil</span></td>
  </tr>
  <tr data-talk-cat="world-model">
-    <td>NUS EE6934 Emerging Topics in AI and Deep Learning Guest Lecture (invited by <a href="https://sites.google.com/site/sitexinchaowang/">Xinchao Wang</a>)</td>
+    <td>NUS EE6934 Emerging Topics in AI and Deep Learning Guest Lecture<br><span class="inv">invited by <a href="https://sites.google.com/site/sitexinchaowang/">Xinchao Wang</a></span></td>
     <td>From AIGC to World Model</td>
     <td><span class="dt">03.17.2026</span><br><span class="vn">Singapore</span></td>
  </tr>
  <tr data-talk-cat="gen-vision">
-    <td>AAAI (invited by <a href="https://lixinustc.github.io/">Xin Li</a>)</td>
+    <td>AAAI<br><span class="inv">invited by <a href="https://lixinustc.github.io/">Xin Li</a></span></td>
     <td><a href="https://lixinustc.github.io/GenAI-Agents-for-Low-level-Vision.github.io/">From Creation to Perception: Generative AI for Content Generation</a></td>
     <td><span class="dt">01.2026</span><br><span class="vn">Singapore</span></td>
  </tr>
  <tr data-talk-cat="gen-vision">
-    <td>Low-level Community (invited by <a href="https://cschenxiang.github.io/">Xiang Chen</a>)</td>
+    <td>Low-level Community<br><span class="inv">invited by <a href="https://cschenxiang.github.io/">Xiang Chen</a></span></td>
     <td><a href="https://mp.weixin.qq.com/s/4hsDsLlJG-JAacAwvlm4XA">AIGC-Powered Game Marketing: From Generation to Deployment</a></td>
     <td><span class="dt">01.2026</span><br><span class="vn">Singapore</span></td>
  </tr>
@@ -2349,23 +2282,23 @@ function filterTalks(cat) {
     <td><span class="dt">11.2025</span><br><span class="vn">Singapore</span></td>
  </tr>
  <tr data-talk-cat="gen-vision">
-    <td><a href="https://ai4streaming-workshop.github.io/">ICCV AIGENS</a> (invited by <a href="https://mv-lab.github.io/">Marcos V. Conde</a>)</td>
+    <td><a href="https://ai4streaming-workshop.github.io/">ICCV AIGENS</a><br><span class="inv">invited by <a href="https://mv-lab.github.io/">Marcos V. Conde</a></span></td>
     <td><a href="https://ai4streaming-workshop.github.io/">From Creation to Perception: Generative AI for Content Generation</a></td>
     <td><span class="dt">10.2025</span><br><span class="vn">Honolulu, USA</span></td>
  </tr>
   <tr data-talk-cat="gen-vision">
-    <td><img src="/files/tencent.png" alt="Tencent" width="85" height="20"></td>
+    <td><img src="/files/tencent.png" alt="Tencent" width="85" height="20"> Tencent</td>
     <td>AI Video Gen | When Wukong meets Yayoi Kusama</td>
     <td><span class="dt">05.2025</span><br><span class="vn">Singapore</span></td>
   </tr>
   <tr data-talk-cat="gen-vision">
-    <td>ICLR (invited by <a href="https://qhlin.me/">Kevin Qinghong Lin</a>)</td>
+    <td>ICLR<br><span class="inv">invited by <a href="https://qhlin.me/">Kevin Qinghong Lin</a></span></td>
     <td><a href="https://showlab.github.io/omg/">AI × Gaming: Creative Applications of AIGC</a>
       [<a href="https://www.bilibili.com/video/BV1dzJfzbEmh/?share_source=copy_web&vd_source=2da049ce4677af057256ebc4a00a8292" target="_blank">Video</a>]</td>
     <td><span class="dt">04.2025</span><br><span class="vn">Singapore</span></td>
   </tr>
   <tr data-talk-cat="gen-vision">
-    <td><img src="/files/tencent.png" alt="Tencent" width="85" height="20"></td>
+    <td><img src="/files/tencent.png" alt="Tencent" width="85" height="20"> Tencent</td>
     <td>AI Generation: Inspiring Game Marketing and Development</td>
     <td><span class="dt">02.2025</span><br><span class="vn">Singapore</span></td>
   </tr>
@@ -2382,7 +2315,7 @@ function filterTalks(cat) {
   </tr>
    <tr class="year-row" data-year="2023"><td colspan="3">2023</td></tr>
   <tr data-talk-cat="gen-vision">
-    <td><img src="/files/tencent.png" alt="Tencent" width="85" height="20"></td>
+    <td><img src="/files/tencent.png" alt="Tencent" width="85" height="20"> Tencent</td>
     <td>Applications of Generative AI</td>
     <td><span class="dt">11.2023</span><br><span class="vn">Singapore</span></td>
   </tr>
@@ -2392,7 +2325,7 @@ function filterTalks(cat) {
     <td>07.2023</td>
   </tr>
   <tr data-talk-cat="gen-vision">
-    <td><img src="/files/adobe.png" alt="Adobe" width="20" height="20"> Adobe (invited by <a href="https://www.erickee.com/">Eric Kee</a>)</td>
+    <td><img src="/files/adobe.png" alt="Adobe" width="20" height="20"> Adobe<br><span class="inv">invited by <a href="https://www.erickee.com/">Eric Kee</a></span></td>
     <td>NextCam Reading Group: Light-effects Suppression</td>
     <td><span class="dt">07.2023</span><br><span class="vn">USA</span></td>
   </tr>
@@ -2407,7 +2340,7 @@ function filterTalks(cat) {
     <td>02.2023</td>
   </tr>
   <tr data-talk-cat="gen-vision">
-    <td><img src="/files/ByteDance.png" alt="ByteDance" width="100" height="20"> (invited by <a href="https://hanshuyan.github.io/">Hanshu Yan</a>)</td>
+    <td><img src="/files/ByteDance.png" alt="ByteDance" width="100" height="20"> ByteDance<br><span class="inv">invited by <a href="https://hanshuyan.github.io/">Hanshu Yan</a></span></td>
     <td>Diffusion Model in Image Processing</td>
     <td>01.2023</td>
   </tr>
@@ -2447,7 +2380,7 @@ function filterTalks(cat) {
   </tr>
 </table>
 
-# ✍️ Blogs {#blogs}
+# Blogs {#blogs}
 <div class="pub-filters" id="blog-topic-filters">
   <button class="pub-filter-btn blog-filter-btn active" data-cat="all" onclick="filterBlogs('all')">All</button>
   <button class="pub-filter-btn blog-filter-btn" data-cat="world-model" onclick="filterBlogs('world-model')">World Model</button>
@@ -2514,25 +2447,25 @@ function filterBlogs(cat) {
   </tr>
 </table>
 
-# 🏫 Education {#education}
+# Education {#education}
 - 01.2020-01.2024: Ph.D. (AI and Deep Learning), <img src="/files/NUS.png" alt="NUS" width="42.5" height="20"> NUS, Singapore (CAP: 4.75/5.00)
 - 08.2017-08.2018: M.Sc. (Electrical and Computer Engineering), <img src="/files/NUS.png" alt="NUS" width="42.5" height="20"> NUS, Singapore
 - 09.2013-07.2017: B.Eng. (Electronic Information Engineering), <img src="/files/UESTC.png" alt="UESTC" width="20.842" height="20"> UESTC, China (GPA: 3.93/4.00)
 
-# 👔 Work and Internship Experience {#work}
+# Work and Internship Experience {#work}
 - 11.2023-Present: Staff Researcher and Research Lead for World Models, Agentic AI, and AIGC at <img src="/files/tencent.png" alt="Tencent" width="85" height="20"> IEG Global, Singapore.
 - 06.2023-09.2023: <img src="/files/adobe.png" alt="Adobe" width="20" height="20"> [Adobe Research Intern](https://www.adobe.com/), Creative Intelligence Lab, mentored by [Prof. Connelly Barnes](http://www.connellybarnes.com/work/), [Prof. Eli Shechtman](https://research.adobe.com/person/eli-shechtman/), worked with [Yuqian Zhou](https://yzhouas.github.io/), [Lingzhi Zhang](https://owenzlz.github.io/), [Sohrab Amirghodsi](https://www.linkedin.com/in/sohrab-amirghodsi-a89548a3/), [Eric Kee](https://www.erickee.com/).
-- 01.2019-01.2020: Machine Learning Researcher at <img src="/files/biomind.png" alt="Biomind" width="80" height="20">, Singapore, advised by [Prof. Jiashi Feng](https://sites.google.com/site/jshfeng/), worked on Biomedical Image Synthesis, Super-resolution, Tumor Segmentation and Classification, expo demo for ["Deep Learning-Based End-to-end Automatic Contouring and Automated Radiation Therapy Treatment Planning System"](https://media.neurips.cc/Conferences/NeurIPS2019/NeurIPS_Expo_Book_2019.pdf).
+- 01.2019-01.2020: Machine Learning Researcher at <img src="/files/biomind.png" alt="Biomind" width="80" height="20">, Singapore, advised by [Prof. Jiashi Feng](https://sites.google.com/site/jshfeng/), worked on Biomedical Image Synthesis, Super-resolution, Tumor Segmentation and Classification, [NeurIPS 2019 Expo demo](https://media.neurips.cc/Conferences/NeurIPS2019/NeurIPS_Expo_Book_2019.pdf).
 
-# 🎖 Honors and Awards {#awards}
+# Honors and Awards {#awards}
 - [“Yayoi Kusama × Wukong”](https://modelscope.cn/brand/view/game-wan?branch=0&tree=4), *ModelScope Wan 2.1 Video Generation Challenge* — 2nd Place  
-- Tencent [Knowledge Award](https://zhuanlan.zhihu.com/p/686681635), [Excellent R&D Award](https://www.dropbox.com/scl/fi/h32jdvfrftrdls3rwjesi/Tencent_Excellent_R-D_Award.jpg?rlkey=xw5225oazo9kkoziuznsnhtpz&st=apklpn9u&dl=0), [Outstanding Mentor Award](https://www.dropbox.com/scl/fi/kcszrth49835tfvcirjot/Mentor.jpg?rlkey=mf4zo301alayou3tvr7yaedpk&st=je6i1qgd&dl=0), Outstanding Contributor Award
+- Tencent [Knowledge](https://zhuanlan.zhihu.com/p/686681635), [Excellent R&D](https://www.dropbox.com/scl/fi/h32jdvfrftrdls3rwjesi/Tencent_Excellent_R-D_Award.jpg?rlkey=xw5225oazo9kkoziuznsnhtpz&st=apklpn9u&dl=0), [Outstanding Mentor](https://www.dropbox.com/scl/fi/kcszrth49835tfvcirjot/Mentor.jpg?rlkey=mf4zo301alayou3tvr7yaedpk&st=je6i1qgd&dl=0) and Outstanding Contributor Awards
 - ICML 2026 Gold Reviewer Award
-- Best Paper Award, ADHIP 2024 (co-author, *Joint Visual and Text Prompting for Improved Object-Centric Perception with MLLMs*)
-- CVPR Student Mentor
-- [AI Singapore (AISG) Ph.D. Fellowship](https://aisingapore.org/research/phd-fellowship-programme/) *(Singapore’s most prestigious Ph.D. scholarship)* — Theme: Continuous Learning AI, Self-supervised Learning
+- Best Paper Award, ADHIP 2024
+- [AI Singapore (AISG) Ph.D. Fellowship](https://aisingapore.org/research/phd-fellowship-programme/) — Theme: Continuous Learning AI, Self-supervised Learning
 
-# 💻 Professional Services {#services}
+# Professional Services {#services}
+- CVPR Student Mentor (Doctoral Consortium)
 - Journal Reviewer: TPAMI, IJCV, TIP, TNNLS, TMM, TCSVT, TVCJ, NEUCOM, CVIU, etc.
 - Conference Reviewer: ICML, NeurIPS, ICLR, CVPR, ICCV, ECCV, AAAI, ACM MM, ACL, MICCAI, ACCV, IJCAI, IJCNN, etc.
 - Teaching Assistant: [EE5731 Visual Computing](https://tanrobby.github.io/teaching/ece_visual/index.html), EE5904 Neural Networks (NUS ECE)
