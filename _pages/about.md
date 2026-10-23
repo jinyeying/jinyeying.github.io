@@ -23,7 +23,7 @@ I am a Staff Researcher at [Tencent](https://www.tencent.com/en-us/about.html) (
 I received my Ph.D. from NUS ECE, supervised by [Prof. Robby T. Tan](http://tanrobby.github.io/), and previously interned at <img src="/files/adobe.png" alt="Adobe" width="20" height="20"> [Adobe Research](https://research.adobe.com/), mentored by [Prof. Connelly Barnes](http://www.connellybarnes.com/work/) and [Prof. Eli Shechtman](https://scholar.google.com/citations?user=B_FTboQAAAAJ). I hold an M.Sc. from NUS ECE and a B.Eng. from <img src="/files/UESTC.png" alt="UESTC" width="20.842" height="20"> [UESTC](https://en.uestc.edu.cn/).
 
 I have published papers at top international venues including SIGGRAPH Asia, CVPR, ICCV, ECCV, ICML, NeurIPS, ICLR and ACL, with <a href='https://scholar.google.com/citations?user=Z8PYhA4AAAAJ' target="_blank"><img src="https://img.shields.io/endpoint?url={{ url | url_encode }}&logo=Google%20Scholar&labelColor=f6f6f6&color=9cf&style=flat&label=citations" alt="Google Scholar citations"></a> <a href='https://scholar.google.com/citations?user=Z8PYhA4AAAAJ' target="_blank"><img src="https://img.shields.io/endpoint?url={{ hurl | url_encode }}&logo=Google%20Scholar&labelColor=f6f6f6&color=9cf&style=flat&label=h-index" alt="Google Scholar h-index"></a>.
-I have organized **6 workshops** and **2 NTIRE challenges** at CVPR, ECCV and AAAI, and given **33 invited talks**, 9 of them at CVPR, ICCV, ICLR and AAAI.
+I have organized **6 workshops** and **2 NTIRE challenges** at CVPR, ECCV and AAAI, and given **30 invited talks**, 9 of them at CVPR, ICCV, ICLR and AAAI.
 📢 I'm [hiring](https://zhuanlan.zhihu.com/p/2070315664162689467) self-motivated interns.
 
 # Research {#research}
@@ -529,27 +529,62 @@ function _applyProjFilter() {
     }
     .role-filter-btn:hover { border-color: #888; color: #333; }
     .role-filter-btn.active { background: #eef3fb; color: #1772d0; border-color: #1772d0; font-weight: 600; }
+    .pub-views { display: flex; flex-wrap: wrap; align-items: center; gap: 6px; margin-bottom: 6px; }
+    .pub-view-btn {
+      border: 1px solid #d0d5dd; background: #fff; color: #475467;
+      border-radius: 999px; padding: 4px 13px; font-size: 13px; font-weight: 600;
+      cursor: pointer; line-height: 1.5;
+    }
+    .pub-view-btn:hover { border-color: #1772d0; color: #1772d0; }
+    .pub-view-btn.active { background: #1772d0; border-color: #1772d0; color: #fff; }
+    .pub-views-label { margin-left: auto; color: #98a2b3; font-size: 12px; letter-spacing: 0.04em; }
+    @media (max-width: 600px) { .pub-views-label { margin-left: 0; width: 100%; } }
+    /* 默认只显示 Selected；JS 接管后移除 pubs-initial，无 JS 时也有合理回退 */
+    table.pubs-initial tr[data-category]:not([data-category~="selected"]) { display: none; }
+    .publication-authors { margin: 0; }
+    .publication-authors summary { display: block; list-style: none; cursor: pointer; }
+    .publication-authors summary::-webkit-details-marker { display: none; }
+    .publication-authors summary:focus-visible { outline: 2px solid #1772d0; outline-offset: 3px; }
+    .publication-authors .authors-show,
+    .publication-authors .authors-hide { color: #1772d0; font-size: 12px; }
+    .publication-authors .authors-show { display: block; margin-top: 3px; }
+    .publication-authors .authors-hide { display: none; }
+    .publication-authors[open] .authors-preview,
+    .publication-authors[open] .authors-show { display: none; }
+    .publication-authors[open] .authors-hide { display: inline; }
+    .publication-authors .authors-full { margin-top: 4px; overflow-wrap: anywhere; }
 </style>
 <!-- ################################  CONTENT START  ##################################################-->
+<div class="pub-views" id="pub-view-filters">
+  <button class="pub-view-btn active" data-view="selected" onclick="filterPubView('selected')">Selected</button>
+  <button class="pub-view-btn" data-view="all" onclick="filterPubView('all')">All Publications</button>
+  <button class="pub-view-btn" data-view="surveys-challenges" onclick="filterPubView('surveys-challenges')">Surveys &amp; Challenges</button>
+  <span class="pub-views-label">Filters</span>
+</div>
 <div class="pub-filters" id="pub-topic-filters">
-  <button class="pub-filter-btn active" data-cat="all" onclick="filterPubs('all')">All</button>
-  <button class="pub-filter-btn" data-cat="selected" onclick="filterPubs('selected')">Selected</button>
-  <button class="pub-filter-btn" data-cat="world-model" onclick="filterPubs('world-model')">World Model</button>
-  <button class="pub-filter-btn" data-cat="agentic-vlm" onclick="filterPubs('agentic-vlm')">Agentic VLM</button>
-  <button class="pub-filter-btn" data-cat="gen-vision" onclick="filterPubs('gen-vision')">Gen & Vision</button>
-  <button class="pub-filter-btn" data-cat="multimodal" onclick="filterPubs('multimodal')">Multimodal</button>
-  <button class="pub-filter-btn" data-cat="workshop" onclick="filterPubs('workshop')">Workshops</button>
+  <button class="pub-filter-btn active" data-cat="all" onclick="filterPubs('all')">All Topics</button>
+  <button class="pub-filter-btn" data-cat="world-model" onclick="filterPubs('world-model')">World Models</button>
+  <button class="pub-filter-btn" data-cat="agentic-ai" onclick="filterPubs('agentic-ai')">Agentic AI</button>
+  <button class="pub-filter-btn" data-cat="gen-vision" onclick="filterPubs('gen-vision')">Generation &amp; Vision</button>
+  <button class="pub-filter-btn" data-cat="multimodal" onclick="filterPubs('multimodal')">Multimodal Learning</button>
   <button class="pub-filter-btn" data-cat="security" onclick="filterPubs('security')">Security</button>
 </div>
 <div class="pub-filters" style="margin-top:4px;">
   <button class="role-filter-btn pub-role-btn active" data-role="all" onclick="filterPubRole('all')">All Roles</button>
   <button class="role-filter-btn pub-role-btn" data-role="first-author" onclick="filterPubRole('first-author')">First Author</button>
   <button class="role-filter-btn pub-role-btn" data-role="eq-contrib" onclick="filterPubRole('eq-contrib')"><sup class="eq-contrib">*</sup> Equal Contribution</button>
-  <button class="role-filter-btn pub-role-btn" data-role="corr-author" onclick="filterPubRole('corr-author')"><sup class="corr-lead">†</sup> Corresponding Author</button>
-  <button class="role-filter-btn pub-role-btn" data-role="proj-lead" onclick="filterPubRole('proj-lead')"><sup class="corr-lead">‡</sup> Project Lead</button>
+  <button class="role-filter-btn pub-role-btn" data-role="corr-author" onclick="filterPubRole('corr-author')"><sup class="corr-lead">&dagger;</sup> Corresponding Author</button>
+  <button class="role-filter-btn pub-role-btn" data-role="proj-lead" onclick="filterPubRole('proj-lead')"><sup class="corr-lead">&Dagger;</sup> Project Lead</button>
 </div>
 <script>
-var _pubTopic = 'all', _pubRole = 'all';
+var _pubView = 'selected', _pubTopic = 'all', _pubRole = 'all';
+function filterPubView(v) {
+  _pubView = v;
+  _applyPubFilter();
+  document.querySelectorAll('#pub-view-filters .pub-view-btn').forEach(function(btn) {
+    btn.classList.toggle('active', btn.dataset.view === v);
+  });
+}
 function filterPubs(cat) {
   _pubTopic = cat;
   _applyPubFilter();
@@ -565,14 +600,21 @@ function filterPubRole(role) {
   });
 }
 function _applyPubFilter() {
+  var tbl = document.getElementById('pub-table');
+  if (tbl) { tbl.classList.remove('pubs-initial'); }
   document.querySelectorAll('tr[data-category]').forEach(function(tr) {
-    var topicOk = _pubTopic === 'all' || (tr.dataset.category || '').split(' ').indexOf(_pubTopic) !== -1;
+    var cats    = (tr.dataset.category || '').split(' ');
+    var viewOk  = _pubView === 'all'
+      || (_pubView === 'surveys-challenges'
+            ? (cats.indexOf('survey') !== -1 || cats.indexOf('workshop') !== -1)
+            : cats.indexOf(_pubView) !== -1);
+    var topicOk = _pubTopic === 'all' || cats.indexOf(_pubTopic) !== -1;
     var roleOk  = _pubRole  === 'all' || (tr.dataset.role || '').split(' ').indexOf(_pubRole) !== -1;
-    tr.style.display = (topicOk && roleOk) ? '' : 'none';
+    tr.style.display = (viewOk && topicOk && roleOk) ? '' : 'none';
   });
 }
 </script>
-<table width="100%" align="center" border="0" cellspacing="0" cellpadding="10">
+<table id="pub-table" class="pubs-initial" width="100%" align="center" border="0" cellspacing="0" cellpadding="10">
 <tbody>
 <!-- ############################ Put your publications below this! ####################################-->
 
@@ -608,7 +650,7 @@ function _applyPubFilter() {
 
 <!-- ###################################################################################################-->
 <!-- Paper ACMMM26 BooM-VVT -->
-<tr data-category="gen-vision" data-role="corr-author proj-lead" >
+<tr data-category="gen-vision selected" data-role="corr-author proj-lead" >
 <td width="20%">
 <div style="position:relative;">
 <span class="venue-badge">ACM MM 2026</span>
@@ -636,7 +678,7 @@ function _applyPubFilter() {
 
 <!-- ###################################################################################################-->
 <!-- Paper StoryEngine -->
-<tr data-category="agentic-vlm gen-vision" data-role="corr-author proj-lead" >
+<tr data-category="agentic-ai gen-vision selected" data-role="corr-author proj-lead" >
 <td width="20%">
 <div style="position:relative;">
 <span class="venue-badge">arXiv 2026</span>
@@ -666,9 +708,9 @@ function _applyPubFilter() {
 
 <!-- ###################################################################################################-->
 <!-- Paper Agentic World Modeling -->
-<tr data-category="world-model" onmouseout="arxiv26_AgenticWM_stop()" onmouseover="arxiv26_AgenticWM_start()" >
+<tr data-category="world-model agentic-ai survey" onmouseout="arxiv26_AgenticWM_stop()" onmouseover="arxiv26_AgenticWM_start()" >
 <td width="20%">
-<div class="one">
+<div class="one"><span class="venue-badge">arXiv 2026</span>
 <div class="two" id='arxiv26_AgenticWM_image'>
 <img src="./files/arxiv26_AgenticWM.png" style="width: 100%; aspect-ratio: 1 / 1; object-fit: cover;"></div>
 <img src="./files/arxiv26_AgenticWM.png" style="width: 100%; aspect-ratio: 1 / 1; object-fit: cover;">
@@ -688,7 +730,14 @@ arxiv26_AgenticWM_stop()
     <papertitle_just>Agentic World Modeling: Foundations, Capabilities, Laws, and Beyond</papertitle_just>
   </a>
   <br>
-  Meng Chu<sup class="eq-contrib">*</sup>, Xuan Billy Zhang<sup class="eq-contrib">*</sup>, Kevin Qinghong Lin<sup class="eq-contrib">*</sup>, Lingdong Kong<sup class="eq-contrib">*</sup>, Jize Zhang<sup class="eq-contrib">*</sup>, Teng Tu<sup class="eq-contrib">*</sup>, Weijian Ma<sup class="eq-contrib">*</sup>, Ziqi Huang, Senqiao Yang, Wei Huang, <strong>Yeying Jin</strong>, Zhefan Rao, Jinhui Ye, Xinyu Lin, Xichen Zhang, Qisheng Hu, Shuai Yang, Leyang Shen, Wei Chow, Yifei Dong, Fengyi Wu, Quanyu Long, Bin Xia, Shaozuo Yu, Mingkang Zhu, Wenhu Zhang, Jiehui Huang, Haokun Gui, Haoxuan Che<sup class="corr-lead">†</sup>, Long Chen<sup class="corr-lead">†</sup>, Qifeng Chen<sup class="corr-lead">†</sup>, Wenxuan Zhang<sup class="corr-lead">†</sup>, Wenya Wang<sup class="corr-lead">†</sup>, Xiaojuan Qi<sup class="corr-lead">†</sup>, Yang Deng<sup class="corr-lead">†</sup>, Yanwei Li<sup class="corr-lead">†</sup>, Mike Zheng Shou<sup class="corr-lead">†</sup>, Zhi-Qi Cheng<sup class="corr-lead">†</sup>, See-Kiong Ng<sup class="corr-lead">†</sup>, Ziwei Liu<sup class="corr-lead">†</sup>, Philip Torr<sup class="corr-lead">†</sup>, Jiaya Jia<sup class="corr-lead">†</sup>
+<details class="publication-authors" id="agentic-wm-authors">
+    <summary>
+      <span class="authors-preview">Meng Chu<sup class="eq-contrib">*</sup>, Xuan Billy Zhang<sup class="eq-contrib">*</sup>, Kevin Qinghong Lin<sup class="eq-contrib">*</sup>, &hellip;, <strong>Yeying Jin</strong>, &hellip;, Ziwei Liu<sup class="corr-lead">†</sup>, Philip Torr<sup class="corr-lead">†</sup>, Jiaya Jia<sup class="corr-lead">†</sup></span>
+      <span class="authors-show">Show All Authors</span>
+      <span class="authors-hide">Show Fewer</span>
+    </summary>
+    <div class="authors-full">Meng Chu<sup class="eq-contrib">*</sup>, Xuan Billy Zhang<sup class="eq-contrib">*</sup>, Kevin Qinghong Lin<sup class="eq-contrib">*</sup>, Lingdong Kong<sup class="eq-contrib">*</sup>, Jize Zhang<sup class="eq-contrib">*</sup>, Teng Tu<sup class="eq-contrib">*</sup>, Weijian Ma<sup class="eq-contrib">*</sup>, Ziqi Huang, Senqiao Yang, Wei Huang, <strong>Yeying Jin</strong>, Zhefan Rao, Jinhui Ye, Xinyu Lin, Xichen Zhang, Qisheng Hu, Shuai Yang, Leyang Shen, Wei Chow, Yifei Dong, Fengyi Wu, Quanyu Long, Bin Xia, Shaozuo Yu, Mingkang Zhu, Wenhu Zhang, Jiehui Huang, Haokun Gui, Haoxuan Che<sup class="corr-lead">†</sup>, Long Chen<sup class="corr-lead">†</sup>, Qifeng Chen<sup class="corr-lead">†</sup>, Wenxuan Zhang<sup class="corr-lead">†</sup>, Wenya Wang<sup class="corr-lead">†</sup>, Xiaojuan Qi<sup class="corr-lead">†</sup>, Yang Deng<sup class="corr-lead">†</sup>, Yanwei Li<sup class="corr-lead">†</sup>, Mike Zheng Shou<sup class="corr-lead">†</sup>, Zhi-Qi Cheng<sup class="corr-lead">†</sup>, See-Kiong Ng<sup class="corr-lead">†</sup>, Ziwei Liu<sup class="corr-lead">†</sup>, Philip Torr<sup class="corr-lead">†</sup>, Jiaya Jia<sup class="corr-lead">†</sup></div>
+  </details>
   <br>
   <em>arXiv preprint</em>, 2026<br>
 <a href="https://arxiv.org/abs/2604.22748">arXiv</a>
@@ -699,11 +748,37 @@ arxiv26_AgenticWM_stop()
 <p></p>
 </td>
 </tr>
+<tr data-category="survey world-model" >
+<td width="20%">
+<div style="position:relative;">
+<span class="venue-badge">arXiv 2026</span>
+<video autoplay loop muted playsinline style="width:100%; height:auto; display:block;">
+  <source src="./files/aiforgames_demo.mp4" type="video/mp4">
+</video>
+</div>
+</td>
+<td valign="top" width="80%">
+  <a href="https://eurekaleo.github.io/awesome-ai-for-games/">
+    <papertitle_just>AI for Games in the Foundation Model Era</papertitle_just>
+  </a>
+  <br>
+  Meng Luo, Yanlin Li, Hao Li, Hongzhan Lin, Pengfei Zhou, Tianjie Ju, Ran Zhang, <strong>Yeying Jin</strong>, Mong-Li Lee, Wynne Hsu
+  <br>
+  <em>arXiv preprint</em>, 2026<br>
+<a href="https://arxiv.org/abs/2609.16679">arXiv</a>
+|
+<a href="https://github.com/Eurekaleo/awesome-ai-for-games"><img src="https://img.shields.io/github/stars/Eurekaleo/awesome-ai-for-games?style=social&label=%E2%98%85"></a>
+|
+<a href="https://eurekaleo.github.io/awesome-ai-for-games/">Project Page</a>
+<p></p>
+<p>Organizes AI across the whole game lifecycle into six roles &mdash; playing, modeling, designing, building, runtime adaptation and evaluation &mdash; and maps how outputs transfer between them.</p>
+</td>
+</tr>
 <!-- ###################################################################################################-->
 
 <!-- ###################################################################################################-->
 <!-- Paper ECCV26 MagicPrompt -->
-<tr data-category="gen-vision" data-role="corr-author" >
+<tr data-category="gen-vision selected" data-role="corr-author" >
 <td width="20%">
 <div style="position:relative;">
 <span class="venue-badge">ECCV 2026</span>
@@ -790,7 +865,7 @@ arxiv26_AgenticWM_stop()
 <!-- Paper InstanceAnimator -->
 <tr data-category="gen-vision" data-role="proj-lead" onmouseout="arxiv25_InstanceAnimator_stop()" onmouseover="arxiv25_InstanceAnimator_start()" >
 <td width="20%">
-<div class="one">
+<div class="one"><span class="venue-badge">arXiv 2026</span>
 <div class="two" id='arxiv25_InstanceAnimator_image'>
 <img src="./files/arxiv25_InstanceAnimator_after.png" style="width: 100%; aspect-ratio: 1 / 1; object-fit: cover;"></div>
 <img src="./files/arxiv25_InstanceAnimator_before.png" style="width: 100%; aspect-ratio: 1 / 1; object-fit: cover;">
@@ -824,7 +899,7 @@ arxiv25_InstanceAnimator_stop()
 <!-- Paper Z-Erase -->
 <tr data-category="gen-vision security" data-role="proj-lead" onmouseout="icml26_zerase_stop()" onmouseover="icml26_zerase_start()" >
 <td width="20%">
-<div class="one">
+<div class="one"><span class="venue-badge">ICML 2026</span>
 <div class="two" id='icml26_zerase_image'>
 <img src="./files/icml26_zerase_after.png" style="width: 100%; aspect-ratio: 1 / 1; object-fit: cover;"></div>
 <img src="./files/icml26_zerase_before.png" style="width: 100%; aspect-ratio: 1 / 1; object-fit: cover;">
@@ -858,7 +933,7 @@ icml26_zerase_stop()
 <!-- Paper ReFlux -->
 <tr data-category="gen-vision security" onmouseout="cvpr26_ReFlux_stop()" onmouseover="cvpr26_ReFlux_start()" >
 <td width="20%">
-<div class="one">
+<div class="one"><span class="venue-badge">CVPR Findings 2026</span>
 <div class="two" id='cvpr26_ReFlux_image'>
 <img src="./files/cvpr26_ReFlux_after.png" style="width: 100%; aspect-ratio: 1 / 1; object-fit: cover;"></div>
 <img src="./files/cvpr26_ReFlux_before.png" style="width: 100%; aspect-ratio: 1 / 1; object-fit: cover;">
@@ -892,7 +967,7 @@ cvpr26_ReFlux_stop()
 <!-- Paper VLM-IMI -->
 <tr data-category="gen-vision" data-role="proj-lead" onmouseout="cvpr26_VLM_stop()" onmouseover="cvpr26_VLM_start()" >
 <td width="20%">
-<div class="one">
+<div class="one"><span class="venue-badge">CVPR Findings 2026</span>
 <div class="two" id='cvpr26_VLM_image'>
 <img src="./files/cvpr26_VLM_after.png" style="width: 100%; aspect-ratio: 1 / 1; object-fit: cover;"></div>
 <img src="./files/cvpr26_VLM_before.png" style="width: 100%; aspect-ratio: 1 / 1; object-fit: cover;">
@@ -955,7 +1030,7 @@ cvpr26_VLM_stop()
 <!-- Paper UniFit -->
 <tr data-category="gen-vision" data-role="eq-contrib" onmouseout="aaai26_UniFit_stop()" onmouseover="aaai26_UniFit_start()" >
 <td width="20%">
-<div class="one">
+<div class="one"><span class="venue-badge">AAAI 2026</span>
 <div class="two" id = 'aaai26_UniFit_image'>
 <img src="./files/aaai26_UniFit_after.png" style="width: 100%; aspect-ratio: 1 / 1; object-fit: cover;"></div>
 <img src="./files/aaai26_UniFit_before.png" style="width: 100%; aspect-ratio: 1 / 1; object-fit: cover;">
@@ -1028,9 +1103,9 @@ tcsvt25_MMGT_stop()
 
 <!-- ###################################################################################################-->
 <!-- Paper 23 PosterCraft -->
-<tr data-category="agentic-vlm gen-vision" onmouseout="arxiv25_PosterCraft_stop()" onmouseover="arxiv25_PosterCraft_start()" >
+<tr data-category="gen-vision" onmouseout="arxiv25_PosterCraft_stop()" onmouseover="arxiv25_PosterCraft_start()" >
 <td width="20%">
-<div class="one">
+<div class="one"><span class="venue-badge">ICLR 2026</span>
 <div class="two" id = 'arxiv25_PosterCraft_image'>
 <img src="./files/arxiv25_PosterCraft_after.png" style="width: 100%; aspect-ratio: 1 / 1; object-fit: cover;"></div>
 <img src="./files/arxiv25_PosterCraft_before.png" style="width: 100%; aspect-ratio: 1 / 1; object-fit: cover;">
@@ -1075,7 +1150,7 @@ arxiv25_PosterCraft_stop()
 <!-- Paper Security: Adversarial Attacks -->
 <tr data-category="security" data-role="eq-contrib" >
 <td width="20%">
-<div class="one">
+<div class="one"><span class="venue-badge">PR 2025</span>
 <img src="./files/pr25_Attacks.png" style="width: 100%; aspect-ratio: 1 / 1; object-fit: cover;">
 </div>
 </td>
@@ -1099,9 +1174,9 @@ arxiv25_PosterCraft_stop()
 
 <!-- ###################################################################################################-->
 <!-- Paper CVPR26 Deraining -->
-<tr data-category="selected gen-vision" data-role="corr-author proj-lead" onmouseout="cvpr26_Deraining_stop()" onmouseover="cvpr26_Deraining_start()" >
+<tr data-category="gen-vision" data-role="corr-author proj-lead" onmouseout="cvpr26_Deraining_stop()" onmouseover="cvpr26_Deraining_start()" >
 <td width="20%">
-<div class="one">
+<div class="one"><span class="venue-badge">CVPR 2026</span>
 <div class="two" id='cvpr26_Deraining_image'>
 <img src="./files/cvpr26_Deraining_after.png" style="width: 100%; aspect-ratio: 1 / 1; object-fit: cover;"></div>
 <img src="./files/cvpr26_Deraining_before.png" style="width: 100%; aspect-ratio: 1 / 1; object-fit: cover;">
@@ -1134,7 +1209,7 @@ cvpr26_Deraining_stop()
 <!-- Paper 20 GenHaze -->
 <tr data-category="gen-vision" onmouseout="iccv25_GenHaze_stop()" onmouseover="iccv25_GenHaze_start()" >
 <td width="20%">
-<div class="one">
+<div class="one"><span class="venue-badge">ICCV 2025</span>
 <div class="two" id = 'iccv25_GenHaze_image'>
 <img src="./files/iccv25_GenHaze_after.png" style="width: 100%; aspect-ratio: 1 / 1; object-fit: cover;"></div>
 <img src="./files/iccv25_GenHaze_before.png" style="width: 100%; aspect-ratio: 1 / 1; object-fit: cover;"></div>
@@ -1168,7 +1243,7 @@ iccv25_GenHaze_stop()
 <!-- Paper 22 DSDNet -->
 <tr data-category="gen-vision" onmouseout="acm25_DSDNet_stop()" onmouseover="acm25_DSDNet_start()" >
 <td width="20%">
-<div class="one">
+<div class="one"><span class="venue-badge">ACM MM 2025</span>
 <div class="two" id = 'acm25_DSDNet_image'><img src='./files/acm25_DSDNet_after.png'></div>
 <img src='./files/acm25_DSDNet_before.png'>
 </div>
@@ -1203,9 +1278,9 @@ acm25_DSDNet_stop()
 
 <!-- ###################################################################################################-->
 <!-- Paper 19 JarvisIR -->
-<tr data-category="agentic-vlm" onmouseout="cvpr25_JarvisIR_stop()" onmouseover="cvpr25_JarvisIR_start()" >
+<tr data-category="agentic-ai" onmouseout="cvpr25_JarvisIR_stop()" onmouseover="cvpr25_JarvisIR_start()" >
 <td width="20%">
-<div class="one">
+<div class="one"><span class="venue-badge">CVPR 2025</span>
 <div class="two" id = 'cvpr25_JarvisIR_image'><img src='./files/cvpr25_JarvisIR_after.png'></div>
 <img src='./files/cvpr25_JarvisIR_before.png'>
 </div>
@@ -1247,7 +1322,7 @@ cvpr25_JarvisIR_stop()
 <!-- Paper LoViF 2026 Challenge -->
 <tr data-category="workshop" data-role="corr-author" onmouseout="cvpr26_lovif_stop()" onmouseover="cvpr26_lovif_start()" >
 <td width="20%">
-<div class="one">
+<div class="one"><span class="venue-badge">CVPRW 2026</span>
 <div class="two" id='cvpr26_lovif_image'><img src='./files/cvpr26_LoViF_after.png' style="width:100%;aspect-ratio:1/1;object-fit:cover;"></div>
 <img src='./files/cvpr26_LoViF_before.png' style="width:100%;aspect-ratio:1/1;object-fit:cover;">
 </div>
@@ -1279,7 +1354,7 @@ cvpr26_lovif_stop()
 <!-- Paper NTIRE 2026 -->
 <tr data-category="workshop" data-role="corr-author" onmouseout="ntire26_rd_stop()" onmouseover="ntire26_rd_start()" >
 <td width="20%">
-<div class="one">
+<div class="one"><span class="venue-badge">CVPRW 2026</span>
 <div class="two" id='ntire26_rd_image'><img src='./files/ntire26_raindropclarify_after.png'></div>
 <img src='./files/ntire26_raindropclarify_before.png'>
 </div>
@@ -1317,7 +1392,7 @@ ntire26_rd_stop()
 <!-- Paper 18 ntire -->
 <tr data-category="workshop" data-role="corr-author" onmouseout="ntire25_rd_stop()" onmouseover="ntire25_rd_start()" >
 <td width="20%">
-<div class="one">
+<div class="one"><span class="venue-badge">CVPRW 2025</span>
 <div class="two" id = 'ntire25_rd_image'><img src='./files/ntire25_raindropclarify_after.png'></div>
 <img src='./files/ntire25_raindropclarify_before.png'>
 </div>
@@ -1359,9 +1434,9 @@ ntire25_rd_stop()
 
 <!-- ###################################################################################################-->
 <!-- Paper 17 RaindropClarity -->
-<tr data-category="selected gen-vision" data-role="first-author" onmouseout="eccv24_rd_stop()" onmouseover="eccv24_rd_start()" >  
+<tr data-category="gen-vision" data-role="first-author" onmouseout="eccv24_rd_stop()" onmouseover="eccv24_rd_start()" >  
 <td width="20%">
-<div class="one">
+<div class="one"><span class="venue-badge">ECCV 2024</span>
 <div class="two" id = 'eccv24_rd_image'><img src='./files/eccv24_raindropclarify_after.png'></div>
 <img src='./files/eccv24_raindropclarify_before.png'>
 </div>
@@ -1407,7 +1482,7 @@ eccv24_rd_stop()
 <!-- Paper 16 HSCR -->
 <tr data-category="multimodal" onmouseout="acl25_hscr_stop()" onmouseover="acl25_hscr_start()" >
 <td width="20%">
-<div class="one">
+<div class="one"><span class="venue-badge">ACL 2025</span>
 <div class="two" id = 'acl25_hscr_image'>
 <img src='./files/HSCR_after.png' style="width: 100%; aspect-ratio: 1 / 1; object-fit: cover;"></div>
 <img src='./files/HSCR_before.png' style="width: 100%; aspect-ratio: 1 / 1; object-fit: cover;"></div>
@@ -1441,7 +1516,7 @@ acl25_hscr_stop()
 <!-- Paper 15 VQA -->
 <tr data-category="multimodal" onmouseout="acl25_vqa_stop()" onmouseover="acl25_vqa_start()" >
 <td width="20%">
-<div class="one">
+<div class="one"><span class="venue-badge">ACL 2025</span>
 <div class="two" id = 'acl25_vqa_image'>
 <img src="./files/VQA_after.png" style="width: 100%; aspect-ratio: 1 / 1; object-fit: cover;"></div>
 <img src="./files/VQA_before.png" style="width: 100%; aspect-ratio: 1 / 1; object-fit: cover;"></div>
@@ -1475,7 +1550,7 @@ acl25_vqa_stop()
 <!-- Paper 14 MFDPO -->
 <tr data-category="multimodal" onmouseout="arxiv24_dpo_stop()" onmouseover="arxiv24_dpo_start()" >
 <td width="20%">
-<div class="one">
+<div class="one"><span class="venue-badge">IJCAI 2025</span>
 <div class="two" id = 'arxiv24_dpo_image'>
 <img src="./files/MFDPO_after.png" style="width: 100%; aspect-ratio: 1 / 1; object-fit: cover;"></div>
 <img src="./files/MFDPO_before.png" style="width: 100%; aspect-ratio: 1 / 1; object-fit: cover;"></div>
@@ -1509,7 +1584,7 @@ arxiv24_dpo_stop()
 <!-- Paper 13 CGSAM -->
 <tr data-category="multimodal" onmouseout="arxiv24_CGSAM_stop()" onmouseover="arxiv24_CGSAM_start()" >
 <td width="20%">
-<div class="one">
+<div class="one"><span class="venue-badge">ADHIP 2024</span>
 <div class="two" id = 'arxiv24_CGSAM_image'>
 <img src="./files/CGSAM_after.png" style="width: 100%; aspect-ratio: 1 / 1; object-fit: cover;"></div>
 <img src="./files/CGSAM_before.png" style="width: 100%; aspect-ratio: 1 / 1; object-fit: cover;"></div>
@@ -1545,7 +1620,7 @@ arxiv24_CGSAM_stop()
 <!-- Paper 12 Med-MoE -->
 <tr data-category="multimodal" onmouseout="emnlp24_moe_stop()" onmouseover="emnlp24_moe_start()" >
 <td width="20%">
-<div class="one">
+<div class="one"><span class="venue-badge">EMNLP Findings 2024</span>
 <div class="two" id = 'emnlp24_moe_image'>
 <img src="./files/emnlp24_moe_after.png" style="width: 100%; aspect-ratio: 1 / 1; object-fit: cover;"></div>
 <img src="./files/emnlp24_moe_before.png" style="width: 100%; aspect-ratio: 1 / 1; object-fit: cover;"></div>
@@ -1581,7 +1656,7 @@ emnlp24_moe_stop()
 <!-- Paper 11 Dualrain -->
 <tr data-category="gen-vision" data-role="eq-contrib" onmouseout="eccv24_dualrain_stop()" onmouseover="eccv24_dualrain_start()" >
 <td width="20%">
-<div class="one">
+<div class="one"><span class="venue-badge">ECCV 2024</span>
 <div class="two" id = 'eccv24_dualrain_image'><img src='./files/eccv24_dualrain_after.png'></div>
 <img src='./files/eccv24_dualrain_before.png'>
 </div>
@@ -1615,7 +1690,7 @@ eccv24_dualrain_stop()
 <!-- Paper 10 Super-resolution -->
 <tr data-category="gen-vision" onmouseout="eccv24_sr_stop()" onmouseover="eccv24_sr_start()" >
 <td width="20%">
-<div class="one">
+<div class="one"><span class="venue-badge">ECCV 2024</span>
 <div class="two" id = 'eccv24_sr_image'><img src='./files/eccv24_ucip_after.png'></div>
 <img src='./files/eccv24_ucip_before.png'>
 </div>
@@ -1651,7 +1726,7 @@ eccv24_sr_stop()
 <!-- Paper 9 NightHaze -->
 <tr data-category="gen-vision" data-role="eq-contrib" onmouseout="submit24_nighthaze_stop()" onmouseover="submit24_nighthaze_start()" >
 <td width="20%">
-<div class="one">
+<div class="one"><span class="venue-badge">AAAI 2025</span>
 <div class="two" id = 'submit24_nighthaze_image'><img src='./files/submit24_after.png'></div>
 <img src='./files/submit24_before.png'>
 </div>
@@ -1689,7 +1764,7 @@ submit24_nighthaze_stop()
 <!-- Paper 8 Super-resolution -->
 <tr data-category="gen-vision" onmouseout="cvpr24_sr_stop()" onmouseover="cvpr24_sr_start()" >
 <td width="20%">
-<div class="one">
+<div class="one"><span class="venue-badge">CVPR 2024</span>
 <div class="two" id = 'cvpr24_sr_image'><img src='./files/cvpr24_after.png'></div>
 <img src='./files/cvpr24_before.png'>
 </div>
@@ -1723,9 +1798,9 @@ cvpr24_sr_stop()
 
 <!-- ###################################################################################################-->
 <!-- Paper 7 DeS3 -->
-<tr data-category="selected gen-vision" data-role="first-author" onmouseout="aaai24_des3_stop()" onmouseover="aaai24_des3_start()" >
+<tr data-category="gen-vision" data-role="first-author" onmouseout="aaai24_des3_stop()" onmouseover="aaai24_des3_start()" >
 <td width="20%">
-<div class="one">
+<div class="one"><span class="venue-badge">AAAI 2024</span>
 <div class="two" id = 'submit23_shadowdiffusion_image'><img src='./files/submit23_after.png'></div>
 <img src='./files/submit23_before.png'>
 </div>
@@ -1768,7 +1843,7 @@ aaai24_des3_stop()
 <!-- Paper 6 NightRain -->
 <tr data-category="gen-vision" data-role="eq-contrib" onmouseout="aaai24_nightrain_stop()" onmouseover="aaai24_nightrain_start()" >
 <td width="20%">
-<div class="one">
+<div class="one"><span class="venue-badge">AAAI 2024</span>
 <div class="two" id = 'aaai24_nightrain_image'><img src='./files/nightrain_after.png'></div>
 <img src='./files/nightrain_before.png'>
 </div>
@@ -1804,7 +1879,7 @@ aaai24_nightrain_stop()
 <!-- Paper 5 NightEnhance, ECCV'22 -->
 <tr data-category="selected gen-vision" data-role="first-author" onmouseout="eccv22_nightenhance_stop()" onmouseover="eccv22_nightenhance_start()" >
 <td width="20%">
-<div class="one">
+<div class="one"><span class="venue-badge">ECCV 2022</span>
 <div class="two" id = 'eccv22_nightenhance_image'><img src='./files/eccv22_after.jpg'></div>
 <img src='./files/eccv22_before.jpg'>
 </div>
@@ -1857,7 +1932,7 @@ eccv22_nightenhance_stop()
 <!-- Paper 4 DC-ShadowNet, ICCV'21 -->
 <tr data-category="selected gen-vision" data-role="first-author" onmouseout="iccv21_dcshadownet_stop()" onmouseover="iccv21_dcshadownet_start()" >
 <td width="20%">
-<div class="one">
+<div class="one"><span class="venue-badge">ICCV 2021</span>
 <div class="two" id = 'iccv21_dcshadownet_image'><img src='./files/iccv21_after.png'></div>
 <img src='./files/iccv21_before.png'>
 </div>
@@ -1901,9 +1976,9 @@ iccv21_dcshadownet_stop()
 <!-- ###################################################################################################-->
 
 <!-- Paper 3 NightFog-->
-<tr data-category="selected gen-vision" data-role="first-author eq-contrib" onmouseout="acmmm23_nightdehaze_stop()" onmouseover="acmmm23_nightdehaze_start()" >
+<tr data-category="gen-vision" data-role="first-author eq-contrib" onmouseout="acmmm23_nightdehaze_stop()" onmouseover="acmmm23_nightdehaze_start()" >
 <td width="20%">
-<div class="one">
+<div class="one"><span class="venue-badge">ACM MM 2023</span>
 <div class="two" id = 'acmmm23_nightdehaze_image'><img src='./files/acmmm23_after.png'></div>
 <img src='./files/acmmm23_before.png'>
 </div>
@@ -1948,7 +2023,7 @@ acmmm23_nightdehaze_stop()
 <!-- Paper 2 Reflectance, AAAI'23 -->
 <tr data-category="gen-vision" data-role="first-author" onmouseout="aaai23_reflectance_stop()" onmouseover="aaai23_reflectance_start()" >
 <td width="20%">
-<div class="one">
+<div class="one"><span class="venue-badge">AAAI 2023</span>
 <div class="two" id = 'aaai23_reflectance_image'><img src='./files/aaai23_after.jpg'></div>
 <img src='./files/aaai23_before.jpg'>
 </div>
@@ -1992,7 +2067,7 @@ aaai23_reflectance_stop()
 <!-- Paper 1 defog, ACCV'22 -->
 <tr data-category="gen-vision" data-role="first-author" onmouseout="accv22_defog_stop()" onmouseover="accv22_defog_start()" >
 <td width="20%">
-<div class="one">
+<div class="one"><span class="venue-badge">ACCV 2022</span>
 <div class="two" id = 'accv22_defog_image'><img src='./files/accv22_after.png'></div>
 <img src='./files/accv22_before.png'>
 </div>
@@ -2053,7 +2128,7 @@ accv22_defog_stop()
     border-collapse: collapse;
     table-layout: fixed;
     font-size: 0.88em;
-    line-height: 1.35;
+    line-height: 1.28;
   }
   .talks-table th {
     background: #f5f6fa;
@@ -2064,21 +2139,21 @@ accv22_defog_stop()
     white-space: nowrap;
   }
   .talks-table td {
-    padding: 4px 4px;
+    padding: 3px 4px;
     vertical-align: top;
     border-bottom: 1px solid #f0f0f0;
   }
   .talks-table td:last-child {
     color: #667085;
     font-size: 0.88em;
-    line-height: 1.4;
+    line-height: 1.32;
   }
   .talks-table tr:hover td { background: #fafbff; }
 
   /* 年份分组标题 */
   .talks-table tr.year-row td {
     background: #fff; border-bottom: 1px solid #e4e7ec;
-    padding: 14px 4px 4px; font-weight: 700; font-size: 0.9em;
+    padding: 12px 4px 3px; font-weight: 700; font-size: 0.9em;
     color: #1772d0; letter-spacing: 0.04em;
   }
   .talks-table tr.year-row:hover td { background: #fff; }
@@ -2090,6 +2165,14 @@ accv22_defog_stop()
   .talks-table .vn, .organizer-table .vn { display: inline-block; margin-top: 1px; }
   .talks-table .vn, .organizer-table .vn { color: #98a2b3; font-size: 0.92em; }
   .talks-table .inv { color: #98a2b3; font-size: 0.9em; }
+  /* 少数早期场次暂无确认的地点。与其填入未经核实的文字，不如用样式补一条
+     等高的空行，让整张表的行节奏一致，早期报告不会显得比近期的“薄”。
+     :has() 不支持时自动退回原样，不影响内容。 */
+  .talks-table tr[data-talk-cat] td:last-child:not(:has(.vn))::after {
+    content: "";
+    display: block;
+    height: 1.62em;
+  }
   .kpis .kpi-n { font-weight: 600; color: #344054; }
 
   /* 窄屏：日期列允许换行，避免 Organizer 表撑出横向滚动 */
@@ -2164,7 +2247,7 @@ accv22_defog_stop()
 </table>
 
 # Invited Talks {#invited-talks}
-<p class="section-count"><strong>9</strong> talks at CVPR, ICCV, ICLR and AAAI, among <strong>33</strong> invited talks in total.</p>
+<p class="section-count"><strong>9</strong> talks at CVPR, ICCV, ICLR and AAAI, among <strong>30</strong> invited talks in total.</p>
 <div class="pub-filters">
   <button class="pub-filter-btn talk-filter-btn active" data-cat="all" onclick="filterTalks('all')">All</button>
   <button class="pub-filter-btn talk-filter-btn" data-cat="world-model" onclick="filterTalks('world-model')">World Model</button>
@@ -2202,158 +2285,158 @@ function filterTalks(cat) {
  <tr data-talk-cat="world-model">
     <td>NUS CEG5304 Deep Learning Guest Lecture<br><span class="inv">invited by <a href="https://xuyu0010.wixsite.com/xuyu0010">Yuecong Xu</a></span></td>
     <td>World Model and Agentic Video Generation</td>
-    <td><span class="dt">11.2026</span><br><span class="vn">Singapore</span></td>
+    <td><span class="dt">Nov</span><br><span class="vn">Singapore</span></td>
  </tr>
  <tr data-talk-cat="world-model">
     <td><a href="https://www.ntu.edu.sg/">NTU</a> PhD Course: Deep Learning for Data Science, Guest Lecture<br><span class="inv">invited by <a href="https://liuziwei7.github.io/">Ziwei Liu</a></span></td>
     <td>Game World Model</td>
-    <td><span class="dt">10.15.2026</span><br><span class="vn">Singapore</span></td>
+    <td><span class="dt">Oct 15</span><br><span class="vn">Singapore</span></td>
  </tr>
  <tr data-talk-cat="world-model">
     <td><a href="https://cde.nus.edu.sg/ece/">NUS ECE SAMI Seminar</a><br><span class="inv">invited by <a href="https://xuyu0010.wixsite.com/xuyu0010">Yuecong Xu</a></span></td>
     <td>Game World Model and Coding Agents</td>
-    <td><span class="dt">10.14.2026</span><br><span class="vn">Singapore</span></td>
+    <td><span class="dt">Oct 14</span><br><span class="vn">Singapore</span></td>
  </tr>
  <tr data-talk-cat="world-model">
     <td><a href="https://runwayml.com/">Runway</a><br><span class="inv">invited by <a href="https://www.linkedin.com/in/robin-kahlow/">Robin Kahlow</a></span></td>
     <td>Game World Model</td>
-    <td><span class="dt">06.26.2026</span><br><span class="vn">Singapore</span></td>
+    <td><span class="dt">Jun 26</span><br><span class="vn">Singapore</span></td>
  </tr>
  <tr data-talk-cat="world-model">
     <td><a href="https://www.jiqizhixin.com/">CVPR 机器之心</a></td>
     <td>Invited Talk (w/ <a href="https://liuziwei7.github.io/">Ziwei Liu</a><sup style="color:#888;font-size:0.75em;"> NTU</sup>, <a href="https://sites.google.com/view/showlab">Mike Zheng Shou</a><sup style="color:#888;font-size:0.75em;"> NUS</sup>, <a href="https://ruoshiliu.github.io/">Ruoshi Liu</a><sup style="color:#888;font-size:0.75em;"> UMD</sup>)</td>
-    <td><span class="dt">06.06.2026</span><br><span class="vn">Denver, USA</span></td>
+    <td><span class="dt">Jun 6</span><br><span class="vn">Denver, USA</span></td>
  </tr>
  <tr data-talk-cat="world-model">
     <td><a href="https://urvis-workshop.github.io/">CVPR 2026 URVIS</a><br><span class="inv">invited by <a href="https://sites.google.com/view/zwwu/accueil">Zongwei Wu</a></span></td>
     <td>World Model</td>
-    <td><span class="dt">06.04.2026</span><br><span class="vn">Denver, USA</span></td>
+    <td><span class="dt">Jun 4</span><br><span class="vn">Denver, USA</span></td>
  </tr>
  <tr data-talk-cat="world-model">
     <td><a href="https://agentic-visual-media.insait.ai/">CVPR 2026 AGENTIC</a><br><span class="inv">invited by <a href="https://www.jasongt.com/">Jinjin Gu</a></span></td>
     <td>Game World Model</td>
-    <td><span class="dt">06.03.2026</span><br><span class="vn">Denver, USA</span></td>
+    <td><span class="dt">Jun 3</span><br><span class="vn">Denver, USA</span></td>
  </tr>
  <tr data-talk-cat="world-model">
     <td><a href="https://ai4streaming-workshop.github.io/">CVPR 2026 AIGENS</a><br><span class="inv">invited by <a href="https://mv-lab.github.io/">Marcos V. Conde</a></span></td>
     <td>Game World Model for Video Generation</td>
-    <td><span class="dt">06.03.2026</span><br><span class="vn">Denver, USA</span></td>
+    <td><span class="dt">Jun 3</span><br><span class="vn">Denver, USA</span></td>
  </tr>
  <tr data-talk-cat="world-model">
     <td><a href="https://cvlai.net/ntire/2026/">CVPR 2026 NTIRE</a><br><span class="inv">invited by <a href="https://sites.google.com/view/zwwu/accueil">Zongwei Wu</a></span></td>
     <td>Game World Model</td>
-    <td><span class="dt">06.03.2026</span><br><span class="vn">Denver, USA</span></td>
+    <td><span class="dt">Jun 3</span><br><span class="vn">Denver, USA</span></td>
  </tr>
  <tr data-talk-cat="world-model">
     <td><img src="/files/tencent.png" alt="Tencent" width="85" height="20"> SPARK Share</td>
     <td>From Video Generation to World Model</td>
-    <td><span class="dt">05.22.2026</span><br><span class="vn">Singapore</span></td>
+    <td><span class="dt">May 22</span><br><span class="vn">Singapore</span></td>
  </tr>
  <tr data-talk-cat="world-model">
     <td><a href="https://singaporevisionday.github.io/svd2026/">Singapore Vision Day</a><br><span class="inv">invited by <a href="https://www.comp.nus.edu.sg/~leegh/">Gim Hee Lee</a></span></td>
     <td><a href="https://singaporevisionday.github.io/svd2026/">Game World Model</a><br>World Model Panel Discussion (w/ <a href="https://v3alab.github.io/#about">Qi Wu</a><sup style="color:#888;font-size:0.75em;"> U Adelaide</sup>, <a href="https://www.3dunderstanding.org/">Angela Dai</a><sup style="color:#888;font-size:0.75em;"> TUM</sup>, <a href="https://xingangpan.github.io/">Xingang Pan</a><sup style="color:#888;font-size:0.75em;"> NTU</sup>)</td>
-    <td><span class="dt">05.16.2026</span><br><span class="vn">Singapore</span></td>
+    <td><span class="dt">May 16</span><br><span class="vn">Singapore</span></td>
  </tr>
  <tr data-talk-cat="world-model">
     <td><img src="/files/tencent.png" alt="Tencent" width="85" height="20"> ICLR Booth Talk<br><img src="/files/tencent.png" alt="Tencent" width="85" height="20"> Game Session Talk</td>
     <td><a href="https://www.linkedin.com/posts/jinyeying_iclr-2026-sharing-our-work-on-world-activity-7454451566251765760-pHR1?utm_source=share&utm_medium=member_desktop&rcm=ACoAACNosSgBI_KUO4Duouy2mfHXSwk8Ap0YHFE">From AIGC to World Model</a></td>
-    <td><span class="dt">04.25.2026</span><br><span class="vn">Rio de Janeiro, Brazil</span></td>
+    <td><span class="dt">Apr 25</span><br><span class="vn">Rio de Janeiro, Brazil</span></td>
  </tr>
  <tr data-talk-cat="world-model">
     <td>NUS EE6934 Emerging Topics in AI and Deep Learning Guest Lecture<br><span class="inv">invited by <a href="https://sites.google.com/site/sitexinchaowang/">Xinchao Wang</a></span></td>
     <td>From AIGC to World Model</td>
-    <td><span class="dt">03.17.2026</span><br><span class="vn">Singapore</span></td>
+    <td><span class="dt">Mar 17</span><br><span class="vn">Singapore</span></td>
  </tr>
  <tr data-talk-cat="gen-vision">
     <td>AAAI<br><span class="inv">invited by <a href="https://lixinustc.github.io/">Xin Li</a></span></td>
     <td><a href="https://lixinustc.github.io/GenAI-Agents-for-Low-level-Vision.github.io/">From Creation to Perception: Generative AI for Content Generation</a></td>
-    <td><span class="dt">01.2026</span><br><span class="vn">Singapore</span></td>
+    <td><span class="dt">Jan</span><br><span class="vn">Singapore</span></td>
  </tr>
  <tr data-talk-cat="gen-vision">
     <td>Low-level Community<br><span class="inv">invited by <a href="https://cschenxiang.github.io/">Xiang Chen</a></span></td>
     <td><a href="https://mp.weixin.qq.com/s/4hsDsLlJG-JAacAwvlm4XA">AIGC-Powered Game Marketing: From Generation to Deployment</a></td>
-    <td><span class="dt">01.2026</span><br><span class="vn">Singapore</span></td>
+    <td><span class="dt">Jan</span><br><span class="vn">Singapore</span></td>
  </tr>
    <tr class="year-row" data-year="2025"><td colspan="3">2025</td></tr>
  <tr data-talk-cat="gen-vision">
     <td><img src="/files/tencent.png" alt="Tencent" width="85" height="20"> Programmers Video</td>
     <td>Exploring Sora: Unlocking the Core of AI Video Creation
       [<a href="https://www.bilibili.com/video/BV1Ymy7BJEmy/?share_source=copy_web&vd_source=2da049ce4677af057256ebc4a00a8292" target="_blank">Video</a>]</td>
-    <td><span class="dt">11.2025</span><br><span class="vn">Singapore</span></td>
+    <td><span class="dt">Nov</span><br><span class="vn">Singapore</span></td>
  </tr>
  <tr data-talk-cat="gen-vision">
     <td><a href="https://ai4streaming-workshop.github.io/">ICCV AIGENS</a><br><span class="inv">invited by <a href="https://mv-lab.github.io/">Marcos V. Conde</a></span></td>
     <td><a href="https://ai4streaming-workshop.github.io/">From Creation to Perception: Generative AI for Content Generation</a></td>
-    <td><span class="dt">10.2025</span><br><span class="vn">Honolulu, USA</span></td>
+    <td><span class="dt">Oct</span><br><span class="vn">Honolulu, USA</span></td>
  </tr>
   <tr data-talk-cat="gen-vision">
-    <td><img src="/files/tencent.png" alt="Tencent" width="85" height="20"> Tencent</td>
+    <td><img src="/files/tencent.png" alt="" width="85" height="20"> Tencent</td>
     <td>AI Video Gen | When Wukong meets Yayoi Kusama</td>
-    <td><span class="dt">05.2025</span><br><span class="vn">Singapore</span></td>
+    <td><span class="dt">May</span><br><span class="vn">Singapore</span></td>
   </tr>
   <tr data-talk-cat="gen-vision">
     <td>ICLR<br><span class="inv">invited by <a href="https://qhlin.me/">Kevin Qinghong Lin</a></span></td>
     <td><a href="https://showlab.github.io/omg/">AI × Gaming: Creative Applications of AIGC</a>
       [<a href="https://www.bilibili.com/video/BV1dzJfzbEmh/?share_source=copy_web&vd_source=2da049ce4677af057256ebc4a00a8292" target="_blank">Video</a>]</td>
-    <td><span class="dt">04.2025</span><br><span class="vn">Singapore</span></td>
+    <td><span class="dt">Apr</span><br><span class="vn">Singapore</span></td>
   </tr>
   <tr data-talk-cat="gen-vision">
-    <td><img src="/files/tencent.png" alt="Tencent" width="85" height="20"> Tencent</td>
+    <td><img src="/files/tencent.png" alt="" width="85" height="20"> Tencent</td>
     <td>AI Generation: Inspiring Game Marketing and Development</td>
-    <td><span class="dt">02.2025</span><br><span class="vn">Singapore</span></td>
+    <td><span class="dt">Feb</span><br><span class="vn">Singapore</span></td>
   </tr>
    <tr class="year-row" data-year="2024"><td colspan="3">2024</td></tr>
   <tr data-talk-cat="gen-vision">
-    <td><img src="/files/AITIME.png" alt="AITIME" width="19.778" height="20"> AI TIME</td>
+    <td><img src="/files/AITIME.png" alt="" width="19.778" height="20"> AI TIME</td>
     <td><a href="https://www.bilibili.com/video/BV1p5bFevEgP/?spm_id_from=333.999.0.0&vd_source=8ae1cd92e40b380c0296eb6843da79a4">Raindrop Clarity: Dual-Focused, Day and Night</a></td>
-    <td>09.2024</td>
+    <td><span class="dt">Sep</span></td>
   </tr>
   <tr data-talk-cat="gen-vision">
-    <td><img src="/files/AITIME.png" alt="AITIME" width="19.778" height="20"> AI TIME</td>
+    <td><img src="/files/AITIME.png" alt="" width="19.778" height="20"> AI TIME</td>
     <td><a href="https://www.bilibili.com/video/BV1wc411v7zf/?spm_id_from=333.999.0.0&vd_source=8ae1cd92e40b380c0296eb6843da79a4">Shadow Removal using Diffusion Model</a></td>
-    <td>01.2024</td>
+    <td><span class="dt">Jan</span></td>
   </tr>
    <tr class="year-row" data-year="2023"><td colspan="3">2023</td></tr>
   <tr data-talk-cat="gen-vision">
-    <td><img src="/files/tencent.png" alt="Tencent" width="85" height="20"> Tencent</td>
+    <td><img src="/files/tencent.png" alt="" width="85" height="20"> Tencent</td>
     <td>Applications of Generative AI</td>
-    <td><span class="dt">11.2023</span><br><span class="vn">Singapore</span></td>
+    <td><span class="dt">Nov</span><br><span class="vn">Singapore</span></td>
   </tr>
   <tr data-talk-cat="gen-vision">
-    <td><img src="/files/huawei.png" alt="Huawei" width="19.978" height="20"> Huawei</td>
+    <td><img src="/files/huawei.png" alt="" width="19.978" height="20"> Huawei</td>
     <td>Visibility Enhancement using Generative Model</td>
-    <td>07.2023</td>
+    <td><span class="dt">Jul</span></td>
   </tr>
   <tr data-talk-cat="gen-vision">
-    <td><img src="/files/adobe.png" alt="Adobe" width="20" height="20"> Adobe<br><span class="inv">invited by <a href="https://www.erickee.com/">Eric Kee</a></span></td>
+    <td><img src="/files/adobe.png" alt="" width="20" height="20"> Adobe<br><span class="inv">invited by <a href="https://www.erickee.com/">Eric Kee</a></span></td>
     <td>NextCam Reading Group: Light-effects Suppression</td>
-    <td><span class="dt">07.2023</span><br><span class="vn">USA</span></td>
+    <td><span class="dt">Jul</span><br><span class="vn">USA</span></td>
   </tr>
   <tr data-talk-cat="gen-vision">
-    <td><img src="/files/huawei.png" alt="Huawei" width="19.978" height="20"> Huawei</td>
+    <td><img src="/files/huawei.png" alt="" width="19.978" height="20"> Huawei</td>
     <td>Image/Video Restoration and Generation</td>
-    <td>03.2023</td>
+    <td><span class="dt">Mar</span></td>
   </tr>
   <tr data-talk-cat="gen-vision">
-    <td><img src="/files/AITIME.png" alt="AITIME" width="19.778" height="20"> AI TIME</td>
+    <td><img src="/files/AITIME.png" alt="" width="19.778" height="20"> AI TIME</td>
     <td><a href="https://www.bilibili.com/video/BV1Ca4y1C7xi/?spm_id_from=333.999.0.0&vd_source=8ae1cd92e40b380c0296eb6843da79a4">Intrinsic Image Decomposition</a></td>
-    <td>02.2023</td>
+    <td><span class="dt">Feb</span></td>
   </tr>
   <tr data-talk-cat="gen-vision">
-    <td><img src="/files/ByteDance.png" alt="ByteDance" width="100" height="20"> ByteDance<br><span class="inv">invited by <a href="https://hanshuyan.github.io/">Hanshu Yan</a></span></td>
+    <td><img src="/files/ByteDance.png" alt="" width="100" height="20"> ByteDance<br><span class="inv">invited by <a href="https://hanshuyan.github.io/">Hanshu Yan</a></span></td>
     <td>Diffusion Model in Image Processing</td>
-    <td>01.2023</td>
+    <td><span class="dt">Jan</span></td>
   </tr>
    <tr class="year-row" data-year="2022"><td colspan="3">2022</td></tr>
   <tr data-talk-cat="gen-vision">
-    <td><img src="/files/huawei.png" alt="Huawei" width="19.978" height="20"> Huawei</td>
+    <td><img src="/files/huawei.png" alt="" width="19.978" height="20"> Huawei</td>
     <td>Visibility Enhancement in Nighttime</td>
-    <td><span class="dt">12.2022</span><br><span class="vn">Singapore</span></td>
+    <td><span class="dt">Dec</span><br><span class="vn">Singapore</span></td>
   </tr>
   <tr data-talk-cat="gen-vision">
-    <td><img src="/files/AITIME.png" alt="AITIME" width="19.778" height="20"> AI TIME</td>
+    <td><img src="/files/AITIME.png" alt="" width="19.778" height="20"> AI TIME</td>
     <td><a href="https://www.bilibili.com/video/BV1Ec411s7at/?spm_id_from=333.999.0.0&vd_source=8ae1cd92e40b380c0296eb6843da79a4">Unsupervised Image Restoration and Generation</a></td>
-    <td>11.2022</td>
+    <td><span class="dt">Nov</span></td>
   </tr>
 </table>
 
@@ -2448,9 +2531,9 @@ function filterBlogs(cat) {
 </table>
 
 # Education {#education}
-- 01.2020-01.2024: Ph.D. (AI and Deep Learning), <img src="/files/NUS.png" alt="NUS" width="42.5" height="20"> NUS, Singapore (CAP: 4.75/5.00)
-- 08.2017-08.2018: M.Sc. (Electrical and Computer Engineering), <img src="/files/NUS.png" alt="NUS" width="42.5" height="20"> NUS, Singapore
-- 09.2013-07.2017: B.Eng. (Electronic Information Engineering), <img src="/files/UESTC.png" alt="UESTC" width="20.842" height="20"> UESTC, China (GPA: 3.93/4.00)
+- 01.2020-01.2024: Ph.D. (AI and Deep Learning), <img src="/files/NUS.png" alt="" width="42.5" height="20"> NUS, Singapore (CAP: 4.75/5.00)
+- 08.2017-08.2018: M.Sc. (Electrical and Computer Engineering), <img src="/files/NUS.png" alt="" width="42.5" height="20"> NUS, Singapore
+- 09.2013-07.2017: B.Eng. (Electronic Information Engineering), <img src="/files/UESTC.png" alt="" width="20.842" height="20"> UESTC, China (GPA: 3.93/4.00)
 
 # Work and Internship Experience {#work}
 - 11.2023-Present: Staff Researcher and Research Lead for World Models, Agentic AI, and AIGC at <img src="/files/tencent.png" alt="Tencent" width="85" height="20"> IEG Global, Singapore.
