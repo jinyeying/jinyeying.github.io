@@ -195,8 +195,6 @@ function _applyProjFilter() {
         <span class="sub" style="display:block; margin-top:8px; line-height:1.5;">Encodes actions as world-coordinate rotary positions: 66% less revisit drift than the best baseline, across 1.3B–33B backbones.</span>
       </td>
     </tr>
-
-    <!-- GameDirector -->
     <tr class="project-row" data-proj-cat="world-model" data-proj-role="corr-author proj-lead">
       <td class="thumb">
         <div class="video-wrap" style="position:relative;">
@@ -221,8 +219,6 @@ function _applyProjFilter() {
         <span class="sub" style="display:block; margin-top:8px; line-height:1.5;">An agent runs game rules, states and NPC tactics; a video world model renders them, raising boss action quality by 39.9%+.</span>
       </td>
     </tr>
-
-    <!-- H3-World -->
     <tr class="project-row" data-proj-cat="world-model" data-proj-role="corr-author proj-lead">
       <td class="thumb">
         <div class="video-wrap" style="position:relative;">
@@ -246,8 +242,6 @@ function _applyProjFilter() {
         <span class="sub" style="display:block; margin-top:8px; line-height:1.5;">Turns a video generator's own language understanding into grounded character and camera control, at 0.199% params.</span>
       </td>
     </tr>
-
-    <!-- WorldMind -->
     <tr class="project-row" data-proj-cat="world-model" data-proj-role="corr-author proj-lead">
       <td class="thumb">
         <div class="video-wrap" style="position:relative;">
@@ -270,8 +264,6 @@ function _applyProjFilter() {
         <span class="sub" style="display:block; margin-top:8px; line-height:1.5;">The first decoupled game world model, closing the loop from understanding to generation; preferred in ~70% of comparisons.</span>
       </td>
     </tr>
-
-    <!-- StatePlay -->
     <tr class="project-row" data-proj-cat="world-model" data-proj-role="corr-author proj-lead">
       <td class="thumb">
         <div class="video-wrap" style="position:relative;">
@@ -296,8 +288,6 @@ function _applyProjFilter() {
         <span class="sub" style="display:block; margin-top:8px; line-height:1.5;">Jointly generates frames and internal game states (health, meters, timers), improving mechanics fidelity by 18.6%.</span>
       </td>
     </tr>
-
-    <!-- ReactiveGWM -->
     <tr class="project-row" data-proj-cat="world-model" data-proj-role="corr-author proj-lead">
       <td class="thumb">
         <div class="video-wrap" style="position:relative;">
@@ -322,8 +312,6 @@ function _applyProjFilter() {
         <span class="sub" style="display:block; margin-top:8px; line-height:1.5;">NPCs follow high-level strategies (Offense / Defense / Control), transferring zero-shot to unseen games.</span>
       </td>
     </tr>
-
-    <!-- SCOPE -->
     <tr class="project-row" data-proj-cat="world-model" data-proj-role="corr-author proj-lead">
       <td class="thumb">
         <div class="video-wrap" style="position:relative;">
@@ -349,8 +337,6 @@ function _applyProjFilter() {
         <span class="sub" style="display:block; margin-top:8px; line-height:1.5;">An interactive FPS world model trained on CrossFPS, the first multi-game FPS dataset: 69K clips, 7 titles, 10-DoF controls.</span>
       </td>
     </tr>
-
-    <!-- Incantation -->
     <tr class="project-row" data-proj-cat="world-model" data-proj-role="proj-lead">
       <td class="thumb">
         <div class="video-wrap" style="position:relative;">
@@ -376,73 +362,22 @@ function _applyProjFilter() {
         <span class="sub" style="display:block; margin-top:8px; line-height:1.5;">A natural-language action interface for multi-entity control: 89% cross-entity transfer success vs. 43% for action-ID baselines.</span>
       </td>
     </tr>
-
-    <!--  Hero 1 -->
     <tr class="project-row" data-proj-cat="gen-vision" data-proj-role="first-author">
       <td class="thumb">
         <div class="side-by-side">
-          <img src="./files/Hero_before.png" alt="Hero before">
-          <img src="./files/Hero_after.png"  alt="Hero after">
-        </div>
-      </td>
-      <td class="info">
-        <span class="papertitle_just">AI Photobooth</span><br>
-        <span class="sub"><em>AI Photobooth</em> • 2025.12 </span>
-        <p class="kpis">
-          <span class="kpi-n">370+</span> Generated AI Images in 1 hour · <span class="kpi-n">Top 3</span> Popular<br>
-          <span class="kpi-n">6</span> Heroes · <span class="kpi-n">2</span> Styles · <span class="kpi-n">3</span> Games
-        </p>
-        <div class="links">
-          <span class="label">Demo:</span>
-          <a class="pill" href="https://www.bilibili.com/video/BV114B5ByEbg/?share_source=copy_web&vd_source=2da049ce4677af057256ebc4a00a8292">Video (CN)</a>
-          <a class="pill" href="https://youtu.be/barpL674x7Q?si=mZQf9cKKFnzQcefj">Video (EN)</a>
-        </div>
-      </td>
-    </tr>
-  
-    <!--  HOK Poster 2, 3 -->
-    <tr class="project-row" data-proj-cat="gen-vision" data-proj-role="first-author">
-      <td class="thumb">
-        <div class="side-by-side">
-          <img src="./files/HOK_AI_before.png" alt="HOK Conan before">
-          <img src="./files/HOK_Conan_after.png"  alt="HOK Conan after">
+          <img src="./files/HOK_Poster_before.png" alt="HOK poster before">
+          <img src="./files/HOK_Poster_after.png"  alt="HOK poster after">
         </div>
       </td>
       <td class="info">
         <a href="https://camp.honorofkings.com/h5/app/index.html#/poster-design/home">
-          <span class="papertitle_just">Honor of Kings (HOK) AIUGC Detective & Esports Poster</span>
+          <span class="papertitle_just">Honor of Kings &mdash; AI Portrait, Detective &amp; Esports Posters</span>
         </a><br>
-        <span class="sub"><em>HOK Flowborn Dimensional Editor</em> • 2025.08–Present</span>
+        <span class="sub"><em>HOK Flowborn Dimensional Editor</em> &bull; 2025.06&ndash;Present</span>
         <p class="kpis">
-          <span class="kpi-n">Shared DIY Poster platform:</span> <span class="kpi-n">22.5K</span> players · <span class="kpi-n">2.1M</span> posters across Portrait, Detective & Esports<br>
-          <span class="kpi-n">Battle Loading, In-Game Hero,</span> In-Game Popup<br>
-          <span class="kpi-n">One-Click</span> Sharing on HOK Camp, X, Instagram, Facebook<br>
-        </p>
-        <div class="links">
-          <span class="label">Demo:</span>
-          <a class="pill" href="https://camp.honorofkings.com/h5/app/index.html#/poster-design/home">Online Generation</a>
-          <a class="pill" href="https://www.bilibili.com/video/BV1CpuPzxEGf/?share_source=copy_web&vd_source=2da049ce4677af057256ebc4a00a8292">Video (CN)</a>
-          <a class="pill" href="https://youtube.com/shorts/AUhqPP_0NIU?si=jNKspwxoQAlRcjA-">Video (EN)</a>
-        </div>
-      </td>
-    </tr>
-    
-    <!--  HOK Poster 1 -->
-    <tr class="project-row" data-proj-cat="gen-vision" data-proj-role="first-author">
-      <td class="thumb">
-        <div class="side-by-side">
-          <img src="./files/HOK_Poster_before.png" alt="HOK Poster before">
-          <img src="./files/HOK_Poster_after.png"  alt="HOK Poster after">
-        </div>
-      </td>
-      <td class="info">
-        <a href="https://camp.honorofkings.com/h5/app/index.html#/poster-design/home">
-          <span class="papertitle_just">Honor of Kings (HOK) AIUGC Portrait Poster</span>
-        </a><br>
-        <span class="sub"><em>HOK Flowborn Dimensional Editor</em> • 2025.06–Present</span>
-        <p class="kpis">
-          <span class="kpi-n">Avg. 9</span> AI posters per player · <span class="kpi-n">Thousands+</span> overseas & domestic mentions<br>
-          <span class="kpi-n">80%</span> In-Game Display · <span class="kpi-n">99%</span> Positive Sentiment
+          <span class="kpi-n">22.5K</span> players &middot; <span class="kpi-n">2.1M</span> posters generated across Portrait, Detective &amp; Esports<br>
+          Shipped in-game &mdash; Battle Loading, In-Game Hero, In-Game Popup &middot; <span class="kpi-n">80%</span> in-game display<br>
+          <span class="kpi-n">99%</span> positive sentiment &middot; one-click sharing to HOK Camp, X, Instagram, Facebook
         </p>
         <div class="links">
           <span class="label">Demo:</span>
@@ -452,8 +387,6 @@ function _applyProjFilter() {
         </div>
       </td>
     </tr>
-
-    <!-- HOK Creator -->
     <tr class="project-row" data-proj-cat="gen-vision" data-proj-role="first-author">
       <td class="thumb">
         <div class="side-by-side">
@@ -479,8 +412,6 @@ function _applyProjFilter() {
         </div>
       </td>
     </tr>
-
-    <!-- HOK PGC -->
     <tr class="project-row" data-proj-cat="gen-vision" data-proj-role="first-author">
       <td class="thumb">
         <div class="side-by-side">
