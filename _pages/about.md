@@ -26,14 +26,14 @@ I have published papers at top international venues including SIGGRAPH Asia, CVP
 I have organized **6 workshops** and **2 NTIRE challenges** at CVPR, ECCV and AAAI, and given **33 invited talks**, 9 of them at CVPR, ICCV, ICLR and AAAI.
 📢 I'm [hiring](https://zhuanlan.zhihu.com/p/2070315664162689467) self-motivated interns.
 
-# 📜 Research {#research}
+# Research {#research}
 1. Game World Models: Persistent State, Mechanics Consistency, and Controllable Agents
 2. Agentic AI: Coding Agents, Agentic VLMs, and Video Generation
 3. AIGC for Games
 4. Multimodal Learning & VLMs
 
 
-# 🔬 Projects {#projects}
+# Projects {#projects}
 <div class="pub-filters" id="proj-topic-filters">
   <button class="pub-filter-btn proj-filter-btn active" data-cat="all" onclick="filterProjects('all')">All</button>
   <button class="pub-filter-btn proj-filter-btn" data-cat="world-model" onclick="filterProjects('world-model')">World Model</button>
@@ -389,8 +389,8 @@ function _applyProjFilter() {
         <span class="papertitle_just">AI Photobooth</span><br>
         <span class="sub"><em>AI Photobooth</em> • 2025.12 </span>
         <p class="kpis">
-          <strong>370+</strong> Generated AI Images in 1 hour · <strong>Top 3</strong> Popular<br>
-          <strong>6</strong> Heroes · <strong>2</strong> Styles · <strong>3</strong> Games
+          <span class="kpi-n">370+</span> Generated AI Images in 1 hour · <span class="kpi-n">Top 3</span> Popular<br>
+          <span class="kpi-n">6</span> Heroes · <span class="kpi-n">2</span> Styles · <span class="kpi-n">3</span> Games
         </p>
         <div class="links">
           <span class="label">Demo:</span>
@@ -414,9 +414,9 @@ function _applyProjFilter() {
         </a><br>
         <span class="sub"><em>HOK Flowborn Dimensional Editor</em> • 2025.08–Present</span>
         <p class="kpis">
-          <strong>Shared DIY Poster platform:</strong> <strong>22.5K</strong> players · <strong>2.1M</strong> posters across Portrait, Detective & Esports<br>
-          <strong>Battle Loading, In-Game Hero,</strong> In-Game Popup<br>
-          <strong>One-Click</strong> Sharing on HOK Camp, X, Instagram, Facebook<br>
+          <span class="kpi-n">Shared DIY Poster platform:</span> <span class="kpi-n">22.5K</span> players · <span class="kpi-n">2.1M</span> posters across Portrait, Detective & Esports<br>
+          <span class="kpi-n">Battle Loading, In-Game Hero,</span> In-Game Popup<br>
+          <span class="kpi-n">One-Click</span> Sharing on HOK Camp, X, Instagram, Facebook<br>
         </p>
         <div class="links">
           <span class="label">Demo:</span>
@@ -441,8 +441,8 @@ function _applyProjFilter() {
         </a><br>
         <span class="sub"><em>HOK Flowborn Dimensional Editor</em> • 2025.06–Present</span>
         <p class="kpis">
-          <strong>Avg. 9</strong> AI posters per player · <strong>Thousands+</strong> overseas & domestic mentions<br>
-          <strong>80%</strong> In-Game Display · <strong>99%</strong> Positive Sentiment
+          <span class="kpi-n">Avg. 9</span> AI posters per player · <span class="kpi-n">Thousands+</span> overseas & domestic mentions<br>
+          <span class="kpi-n">80%</span> In-Game Display · <span class="kpi-n">99%</span> Positive Sentiment
         </p>
         <div class="links">
           <span class="label">Demo:</span>
@@ -467,9 +467,9 @@ function _applyProjFilter() {
         </a><br>
         <span class="sub"><em>HOK Creator Studio</em> • 2024.12–Present</span>
         <p class="kpis">
-          <strong>58K</strong> Generated AI Images · <strong>22%</strong> Save Rate<br>
-          <strong>35K+</strong> Active Users<br>
-          <strong>98</strong> Heroes · <strong>12</strong> Styles · <strong>13s</strong> Generation Time
+          <span class="kpi-n">58K</span> Generated AI Images · <span class="kpi-n">22%</span> Save Rate<br>
+          <span class="kpi-n">35K+</span> Active Users<br>
+          <span class="kpi-n">98</span> Heroes · <span class="kpi-n">12</span> Styles · <span class="kpi-n">13s</span> Generation Time
         </p>
         <div class="links">
           <span class="label">Demo:</span>
@@ -494,8 +494,8 @@ function _applyProjFilter() {
         </a><br>
         <span class="sub"><em>HOK Avatar Center</em> • 2024.07–2024.11</span>
         <p class="kpis">
-          <strong>12×</strong> Launch · <strong>98</strong> Heroes · <strong>2</strong> Styles · <strong>2</strong> Halloween Topics <br>
-          <strong>600K+</strong> Exposure · <strong>60K</strong> Engagements <br>
+          <span class="kpi-n">12×</span> Launch · <span class="kpi-n">98</span> Heroes · <span class="kpi-n">2</span> Styles · <span class="kpi-n">2</span> Halloween Topics <br>
+          <span class="kpi-n">600K+</span> Exposure · <span class="kpi-n">60K</span> Engagements <br>
           Available on HOK Camp, VK, X, Instagram, Facebook,<br>
           WhatsApp, Discord, Sticker
         </p>
@@ -512,7 +512,7 @@ function _applyProjFilter() {
 
 
 
-# 📝 Publications {#publications}
+# Publications {#publications}
 <style type="text/css">
     /* Color scheme stolen from Sergey Karayev */
     a {
@@ -2108,7 +2108,7 @@ accv22_defog_stop()
 <!-- ############################ Put your publications above this! ####################################-->
 </tbody></table>
 
-# 💬 Organizer {#organizer}
+# Organizer {#organizer}
 <style>
   .section-count {
     margin: -2px 0 10px; color: #667085; font-size: 0.92em; line-height: 1.45;
@@ -2159,6 +2159,7 @@ accv22_defog_stop()
   .talks-table .vn, .organizer-table .vn { display: inline-block; margin-top: 1px; }
   .talks-table .vn, .organizer-table .vn { color: #98a2b3; font-size: 0.92em; }
   .talks-table .inv { color: #98a2b3; font-size: 0.9em; }
+  .kpis .kpi-n { font-weight: 600; color: #344054; }
 
   /* 窄屏：日期列允许换行，避免 Organizer 表撑出横向滚动 */
   @media (max-width: 600px) {
@@ -2231,7 +2232,7 @@ accv22_defog_stop()
   </tr>
 </table>
 
-# 🎤 Invited Talks {#invited-talks}
+# Invited Talks {#invited-talks}
 <p class="section-count"><strong>9</strong> talks at CVPR, ICCV, ICLR and AAAI, among <strong>33</strong> invited talks in total.</p>
 <div class="pub-filters">
   <button class="pub-filter-btn talk-filter-btn active" data-cat="all" onclick="filterTalks('all')">All</button>
@@ -2448,7 +2449,7 @@ function filterTalks(cat) {
   </tr>
 </table>
 
-# ✍️ Blogs {#blogs}
+# Blogs {#blogs}
 <div class="pub-filters" id="blog-topic-filters">
   <button class="pub-filter-btn blog-filter-btn active" data-cat="all" onclick="filterBlogs('all')">All</button>
   <button class="pub-filter-btn blog-filter-btn" data-cat="world-model" onclick="filterBlogs('world-model')">World Model</button>
@@ -2515,24 +2516,24 @@ function filterBlogs(cat) {
   </tr>
 </table>
 
-# 🏫 Education {#education}
+# Education {#education}
 - 01.2020-01.2024: Ph.D. (AI and Deep Learning), <img src="/files/NUS.png" alt="NUS" width="42.5" height="20"> NUS, Singapore (CAP: 4.75/5.00)
 - 08.2017-08.2018: M.Sc. (Electrical and Computer Engineering), <img src="/files/NUS.png" alt="NUS" width="42.5" height="20"> NUS, Singapore
 - 09.2013-07.2017: B.Eng. (Electronic Information Engineering), <img src="/files/UESTC.png" alt="UESTC" width="20.842" height="20"> UESTC, China (GPA: 3.93/4.00)
 
-# 👔 Work and Internship Experience {#work}
+# Work and Internship Experience {#work}
 - 11.2023-Present: Staff Researcher and Research Lead for World Models, Agentic AI, and AIGC at <img src="/files/tencent.png" alt="Tencent" width="85" height="20"> IEG Global, Singapore.
 - 06.2023-09.2023: <img src="/files/adobe.png" alt="Adobe" width="20" height="20"> [Adobe Research Intern](https://www.adobe.com/), Creative Intelligence Lab, mentored by [Prof. Connelly Barnes](http://www.connellybarnes.com/work/), [Prof. Eli Shechtman](https://research.adobe.com/person/eli-shechtman/), worked with [Yuqian Zhou](https://yzhouas.github.io/), [Lingzhi Zhang](https://owenzlz.github.io/), [Sohrab Amirghodsi](https://www.linkedin.com/in/sohrab-amirghodsi-a89548a3/), [Eric Kee](https://www.erickee.com/).
-- 01.2019-01.2020: Machine Learning Researcher at <img src="/files/biomind.png" alt="Biomind" width="80" height="20">, Singapore, advised by [Prof. Jiashi Feng](https://sites.google.com/site/jshfeng/), worked on Biomedical Image Synthesis, Super-resolution, Tumor Segmentation and Classification, expo demo for ["Deep Learning-Based End-to-end Automatic Contouring and Automated Radiation Therapy Treatment Planning System"](https://media.neurips.cc/Conferences/NeurIPS2019/NeurIPS_Expo_Book_2019.pdf).
+- 01.2019-01.2020: Machine Learning Researcher at <img src="/files/biomind.png" alt="Biomind" width="80" height="20">, Singapore, advised by [Prof. Jiashi Feng](https://sites.google.com/site/jshfeng/), worked on Biomedical Image Synthesis, Super-resolution, Tumor Segmentation and Classification, [NeurIPS 2019 Expo demo](https://media.neurips.cc/Conferences/NeurIPS2019/NeurIPS_Expo_Book_2019.pdf).
 
-# 🎖 Honors and Awards {#awards}
+# Honors and Awards {#awards}
 - [“Yayoi Kusama × Wukong”](https://modelscope.cn/brand/view/game-wan?branch=0&tree=4), *ModelScope Wan 2.1 Video Generation Challenge* — 2nd Place  
 - Tencent [Knowledge](https://zhuanlan.zhihu.com/p/686681635), [Excellent R&D](https://www.dropbox.com/scl/fi/h32jdvfrftrdls3rwjesi/Tencent_Excellent_R-D_Award.jpg?rlkey=xw5225oazo9kkoziuznsnhtpz&st=apklpn9u&dl=0), [Outstanding Mentor](https://www.dropbox.com/scl/fi/kcszrth49835tfvcirjot/Mentor.jpg?rlkey=mf4zo301alayou3tvr7yaedpk&st=je6i1qgd&dl=0) and Outstanding Contributor Awards
 - ICML 2026 Gold Reviewer Award
 - Best Paper Award, ADHIP 2024
 - [AI Singapore (AISG) Ph.D. Fellowship](https://aisingapore.org/research/phd-fellowship-programme/) — Theme: Continuous Learning AI, Self-supervised Learning
 
-# 💻 Professional Services {#services}
+# Professional Services {#services}
 - CVPR Student Mentor (Doctoral Consortium)
 - Journal Reviewer: TPAMI, IJCV, TIP, TNNLS, TMM, TCSVT, TVCJ, NEUCOM, CVIU, etc.
 - Conference Reviewer: ICML, NeurIPS, ICLR, CVPR, ICCV, ECCV, AAAI, ACM MM, ACL, MICCAI, ACCV, IJCAI, IJCNN, etc.
