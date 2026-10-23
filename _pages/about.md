@@ -23,7 +23,7 @@ I am a Staff Researcher at [Tencent](https://www.tencent.com/en-us/about.html) (
 I received my Ph.D. from NUS ECE, supervised by [Prof. Robby T. Tan](http://tanrobby.github.io/), and previously interned at <img src="/files/adobe.png" alt="Adobe" width="20" height="20"> [Adobe Research](https://research.adobe.com/), mentored by [Prof. Connelly Barnes](http://www.connellybarnes.com/work/) and [Prof. Eli Shechtman](https://scholar.google.com/citations?user=B_FTboQAAAAJ). I hold an M.Sc. from NUS ECE and a B.Eng. from <img src="/files/UESTC.png" alt="UESTC" width="20.842" height="20"> [UESTC](https://en.uestc.edu.cn/).
 
 I have published papers at top international venues including SIGGRAPH Asia, CVPR, ICCV, ECCV, ICML, NeurIPS, ICLR and ACL, with <a href='https://scholar.google.com/citations?user=Z8PYhA4AAAAJ' target="_blank"><img src="https://img.shields.io/endpoint?url={{ url | url_encode }}&logo=Google%20Scholar&labelColor=f6f6f6&color=9cf&style=flat&label=citations" alt="Google Scholar citations"></a> <a href='https://scholar.google.com/citations?user=Z8PYhA4AAAAJ' target="_blank"><img src="https://img.shields.io/endpoint?url={{ hurl | url_encode }}&logo=Google%20Scholar&labelColor=f6f6f6&color=9cf&style=flat&label=h-index" alt="Google Scholar h-index"></a>.
-I have organized **6 workshops** and **2 NTIRE challenges** at CVPR, ECCV and AAAI, and given **33 invited talks**, 9 of them at CVPR, ICCV, ICLR and AAAI.
+I have organized **6 workshops** and **2 NTIRE challenges** at CVPR, ECCV and AAAI, and given **30 invited talks**, 9 of them at CVPR, ICCV, ICLR and AAAI.
 📢 I'm [hiring](https://zhuanlan.zhihu.com/p/2070315664162689467) self-motivated interns.
 
 # Research {#research}
@@ -558,7 +558,7 @@ function _applyProjFilter() {
 <div class="pub-views" id="pub-view-filters">
   <button class="pub-view-btn active" data-view="selected" onclick="filterPubView('selected')">Selected</button>
   <button class="pub-view-btn" data-view="all" onclick="filterPubView('all')">All Publications</button>
-  <button class="pub-view-btn" data-view="survey" onclick="filterPubView('survey')">Surveys</button>
+  <button class="pub-view-btn" data-view="surveys-challenges" onclick="filterPubView('surveys-challenges')">Surveys &amp; Challenges</button>
   <span class="pub-views-label">Filters</span>
 </div>
 <div class="pub-filters" id="pub-topic-filters">
@@ -604,7 +604,10 @@ function _applyPubFilter() {
   if (tbl) { tbl.classList.remove('pubs-initial'); }
   document.querySelectorAll('tr[data-category]').forEach(function(tr) {
     var cats    = (tr.dataset.category || '').split(' ');
-    var viewOk  = _pubView  === 'all' || cats.indexOf(_pubView) !== -1;
+    var viewOk  = _pubView === 'all'
+      || (_pubView === 'surveys-challenges'
+            ? (cats.indexOf('survey') !== -1 || cats.indexOf('workshop') !== -1)
+            : cats.indexOf(_pubView) !== -1);
     var topicOk = _pubTopic === 'all' || cats.indexOf(_pubTopic) !== -1;
     var roleOk  = _pubRole  === 'all' || (tr.dataset.role || '').split(' ').indexOf(_pubRole) !== -1;
     tr.style.display = (viewOk && topicOk && roleOk) ? '' : 'none';
@@ -707,7 +710,7 @@ function _applyPubFilter() {
 <!-- Paper Agentic World Modeling -->
 <tr data-category="world-model agentic-ai survey" onmouseout="arxiv26_AgenticWM_stop()" onmouseover="arxiv26_AgenticWM_start()" >
 <td width="20%">
-<div class="one">
+<div class="one"><span class="venue-badge">arXiv 2026</span>
 <div class="two" id='arxiv26_AgenticWM_image'>
 <img src="./files/arxiv26_AgenticWM.png" style="width: 100%; aspect-ratio: 1 / 1; object-fit: cover;"></div>
 <img src="./files/arxiv26_AgenticWM.png" style="width: 100%; aspect-ratio: 1 / 1; object-fit: cover;">
@@ -743,6 +746,32 @@ arxiv26_AgenticWM_stop()
 |
 <a href="https://agentic-world-modeling.xyz/">Project Page</a>
 <p></p>
+</td>
+</tr>
+<tr data-category="survey world-model" >
+<td width="20%">
+<div style="position:relative;">
+<span class="venue-badge">arXiv 2026</span>
+<video autoplay loop muted playsinline style="width:100%; height:auto; display:block;">
+  <source src="./files/aiforgames_demo.mp4" type="video/mp4">
+</video>
+</div>
+</td>
+<td valign="top" width="80%">
+  <a href="https://eurekaleo.github.io/awesome-ai-for-games/">
+    <papertitle_just>AI for Games in the Foundation Model Era</papertitle_just>
+  </a>
+  <br>
+  Meng Luo, Yanlin Li, Hao Li, Hongzhan Lin, Pengfei Zhou, Tianjie Ju, Ran Zhang, <strong>Yeying Jin</strong>, Mong-Li Lee, Wynne Hsu
+  <br>
+  <em>arXiv preprint</em>, 2026<br>
+<a href="https://arxiv.org/abs/2609.16679">arXiv</a>
+|
+<a href="https://github.com/Eurekaleo/awesome-ai-for-games"><img src="https://img.shields.io/github/stars/Eurekaleo/awesome-ai-for-games?style=social&label=%E2%98%85"></a>
+|
+<a href="https://eurekaleo.github.io/awesome-ai-for-games/">Project Page</a>
+<p></p>
+<p>Organizes AI across the whole game lifecycle into six roles &mdash; playing, modeling, designing, building, runtime adaptation and evaluation &mdash; and maps how outputs transfer between them.</p>
 </td>
 </tr>
 <!-- ###################################################################################################-->
@@ -836,7 +865,7 @@ arxiv26_AgenticWM_stop()
 <!-- Paper InstanceAnimator -->
 <tr data-category="gen-vision" data-role="proj-lead" onmouseout="arxiv25_InstanceAnimator_stop()" onmouseover="arxiv25_InstanceAnimator_start()" >
 <td width="20%">
-<div class="one">
+<div class="one"><span class="venue-badge">arXiv 2026</span>
 <div class="two" id='arxiv25_InstanceAnimator_image'>
 <img src="./files/arxiv25_InstanceAnimator_after.png" style="width: 100%; aspect-ratio: 1 / 1; object-fit: cover;"></div>
 <img src="./files/arxiv25_InstanceAnimator_before.png" style="width: 100%; aspect-ratio: 1 / 1; object-fit: cover;">
@@ -870,7 +899,7 @@ arxiv25_InstanceAnimator_stop()
 <!-- Paper Z-Erase -->
 <tr data-category="gen-vision security" data-role="proj-lead" onmouseout="icml26_zerase_stop()" onmouseover="icml26_zerase_start()" >
 <td width="20%">
-<div class="one">
+<div class="one"><span class="venue-badge">ICML 2026</span>
 <div class="two" id='icml26_zerase_image'>
 <img src="./files/icml26_zerase_after.png" style="width: 100%; aspect-ratio: 1 / 1; object-fit: cover;"></div>
 <img src="./files/icml26_zerase_before.png" style="width: 100%; aspect-ratio: 1 / 1; object-fit: cover;">
@@ -904,7 +933,7 @@ icml26_zerase_stop()
 <!-- Paper ReFlux -->
 <tr data-category="gen-vision security" onmouseout="cvpr26_ReFlux_stop()" onmouseover="cvpr26_ReFlux_start()" >
 <td width="20%">
-<div class="one">
+<div class="one"><span class="venue-badge">CVPR Findings 2026</span>
 <div class="two" id='cvpr26_ReFlux_image'>
 <img src="./files/cvpr26_ReFlux_after.png" style="width: 100%; aspect-ratio: 1 / 1; object-fit: cover;"></div>
 <img src="./files/cvpr26_ReFlux_before.png" style="width: 100%; aspect-ratio: 1 / 1; object-fit: cover;">
@@ -938,7 +967,7 @@ cvpr26_ReFlux_stop()
 <!-- Paper VLM-IMI -->
 <tr data-category="gen-vision" data-role="proj-lead" onmouseout="cvpr26_VLM_stop()" onmouseover="cvpr26_VLM_start()" >
 <td width="20%">
-<div class="one">
+<div class="one"><span class="venue-badge">CVPR Findings 2026</span>
 <div class="two" id='cvpr26_VLM_image'>
 <img src="./files/cvpr26_VLM_after.png" style="width: 100%; aspect-ratio: 1 / 1; object-fit: cover;"></div>
 <img src="./files/cvpr26_VLM_before.png" style="width: 100%; aspect-ratio: 1 / 1; object-fit: cover;">
@@ -1001,7 +1030,7 @@ cvpr26_VLM_stop()
 <!-- Paper UniFit -->
 <tr data-category="gen-vision" data-role="eq-contrib" onmouseout="aaai26_UniFit_stop()" onmouseover="aaai26_UniFit_start()" >
 <td width="20%">
-<div class="one">
+<div class="one"><span class="venue-badge">AAAI 2026</span>
 <div class="two" id = 'aaai26_UniFit_image'>
 <img src="./files/aaai26_UniFit_after.png" style="width: 100%; aspect-ratio: 1 / 1; object-fit: cover;"></div>
 <img src="./files/aaai26_UniFit_before.png" style="width: 100%; aspect-ratio: 1 / 1; object-fit: cover;">
@@ -1076,7 +1105,7 @@ tcsvt25_MMGT_stop()
 <!-- Paper 23 PosterCraft -->
 <tr data-category="gen-vision" onmouseout="arxiv25_PosterCraft_stop()" onmouseover="arxiv25_PosterCraft_start()" >
 <td width="20%">
-<div class="one">
+<div class="one"><span class="venue-badge">ICLR 2026</span>
 <div class="two" id = 'arxiv25_PosterCraft_image'>
 <img src="./files/arxiv25_PosterCraft_after.png" style="width: 100%; aspect-ratio: 1 / 1; object-fit: cover;"></div>
 <img src="./files/arxiv25_PosterCraft_before.png" style="width: 100%; aspect-ratio: 1 / 1; object-fit: cover;">
@@ -1121,7 +1150,7 @@ arxiv25_PosterCraft_stop()
 <!-- Paper Security: Adversarial Attacks -->
 <tr data-category="security" data-role="eq-contrib" >
 <td width="20%">
-<div class="one">
+<div class="one"><span class="venue-badge">PR 2025</span>
 <img src="./files/pr25_Attacks.png" style="width: 100%; aspect-ratio: 1 / 1; object-fit: cover;">
 </div>
 </td>
@@ -1147,7 +1176,7 @@ arxiv25_PosterCraft_stop()
 <!-- Paper CVPR26 Deraining -->
 <tr data-category="gen-vision" data-role="corr-author proj-lead" onmouseout="cvpr26_Deraining_stop()" onmouseover="cvpr26_Deraining_start()" >
 <td width="20%">
-<div class="one">
+<div class="one"><span class="venue-badge">CVPR 2026</span>
 <div class="two" id='cvpr26_Deraining_image'>
 <img src="./files/cvpr26_Deraining_after.png" style="width: 100%; aspect-ratio: 1 / 1; object-fit: cover;"></div>
 <img src="./files/cvpr26_Deraining_before.png" style="width: 100%; aspect-ratio: 1 / 1; object-fit: cover;">
@@ -1180,7 +1209,7 @@ cvpr26_Deraining_stop()
 <!-- Paper 20 GenHaze -->
 <tr data-category="gen-vision" onmouseout="iccv25_GenHaze_stop()" onmouseover="iccv25_GenHaze_start()" >
 <td width="20%">
-<div class="one">
+<div class="one"><span class="venue-badge">ICCV 2025</span>
 <div class="two" id = 'iccv25_GenHaze_image'>
 <img src="./files/iccv25_GenHaze_after.png" style="width: 100%; aspect-ratio: 1 / 1; object-fit: cover;"></div>
 <img src="./files/iccv25_GenHaze_before.png" style="width: 100%; aspect-ratio: 1 / 1; object-fit: cover;"></div>
@@ -1214,7 +1243,7 @@ iccv25_GenHaze_stop()
 <!-- Paper 22 DSDNet -->
 <tr data-category="gen-vision" onmouseout="acm25_DSDNet_stop()" onmouseover="acm25_DSDNet_start()" >
 <td width="20%">
-<div class="one">
+<div class="one"><span class="venue-badge">ACM MM 2025</span>
 <div class="two" id = 'acm25_DSDNet_image'><img src='./files/acm25_DSDNet_after.png'></div>
 <img src='./files/acm25_DSDNet_before.png'>
 </div>
@@ -1251,7 +1280,7 @@ acm25_DSDNet_stop()
 <!-- Paper 19 JarvisIR -->
 <tr data-category="agentic-ai" onmouseout="cvpr25_JarvisIR_stop()" onmouseover="cvpr25_JarvisIR_start()" >
 <td width="20%">
-<div class="one">
+<div class="one"><span class="venue-badge">CVPR 2025</span>
 <div class="two" id = 'cvpr25_JarvisIR_image'><img src='./files/cvpr25_JarvisIR_after.png'></div>
 <img src='./files/cvpr25_JarvisIR_before.png'>
 </div>
@@ -1293,7 +1322,7 @@ cvpr25_JarvisIR_stop()
 <!-- Paper LoViF 2026 Challenge -->
 <tr data-category="workshop" data-role="corr-author" onmouseout="cvpr26_lovif_stop()" onmouseover="cvpr26_lovif_start()" >
 <td width="20%">
-<div class="one">
+<div class="one"><span class="venue-badge">CVPRW 2026</span>
 <div class="two" id='cvpr26_lovif_image'><img src='./files/cvpr26_LoViF_after.png' style="width:100%;aspect-ratio:1/1;object-fit:cover;"></div>
 <img src='./files/cvpr26_LoViF_before.png' style="width:100%;aspect-ratio:1/1;object-fit:cover;">
 </div>
@@ -1325,7 +1354,7 @@ cvpr26_lovif_stop()
 <!-- Paper NTIRE 2026 -->
 <tr data-category="workshop" data-role="corr-author" onmouseout="ntire26_rd_stop()" onmouseover="ntire26_rd_start()" >
 <td width="20%">
-<div class="one">
+<div class="one"><span class="venue-badge">CVPRW 2026</span>
 <div class="two" id='ntire26_rd_image'><img src='./files/ntire26_raindropclarify_after.png'></div>
 <img src='./files/ntire26_raindropclarify_before.png'>
 </div>
@@ -1363,7 +1392,7 @@ ntire26_rd_stop()
 <!-- Paper 18 ntire -->
 <tr data-category="workshop" data-role="corr-author" onmouseout="ntire25_rd_stop()" onmouseover="ntire25_rd_start()" >
 <td width="20%">
-<div class="one">
+<div class="one"><span class="venue-badge">CVPRW 2025</span>
 <div class="two" id = 'ntire25_rd_image'><img src='./files/ntire25_raindropclarify_after.png'></div>
 <img src='./files/ntire25_raindropclarify_before.png'>
 </div>
@@ -1407,7 +1436,7 @@ ntire25_rd_stop()
 <!-- Paper 17 RaindropClarity -->
 <tr data-category="gen-vision" data-role="first-author" onmouseout="eccv24_rd_stop()" onmouseover="eccv24_rd_start()" >  
 <td width="20%">
-<div class="one">
+<div class="one"><span class="venue-badge">ECCV 2024</span>
 <div class="two" id = 'eccv24_rd_image'><img src='./files/eccv24_raindropclarify_after.png'></div>
 <img src='./files/eccv24_raindropclarify_before.png'>
 </div>
@@ -1453,7 +1482,7 @@ eccv24_rd_stop()
 <!-- Paper 16 HSCR -->
 <tr data-category="multimodal" onmouseout="acl25_hscr_stop()" onmouseover="acl25_hscr_start()" >
 <td width="20%">
-<div class="one">
+<div class="one"><span class="venue-badge">ACL 2025</span>
 <div class="two" id = 'acl25_hscr_image'>
 <img src='./files/HSCR_after.png' style="width: 100%; aspect-ratio: 1 / 1; object-fit: cover;"></div>
 <img src='./files/HSCR_before.png' style="width: 100%; aspect-ratio: 1 / 1; object-fit: cover;"></div>
@@ -1487,7 +1516,7 @@ acl25_hscr_stop()
 <!-- Paper 15 VQA -->
 <tr data-category="multimodal" onmouseout="acl25_vqa_stop()" onmouseover="acl25_vqa_start()" >
 <td width="20%">
-<div class="one">
+<div class="one"><span class="venue-badge">ACL 2025</span>
 <div class="two" id = 'acl25_vqa_image'>
 <img src="./files/VQA_after.png" style="width: 100%; aspect-ratio: 1 / 1; object-fit: cover;"></div>
 <img src="./files/VQA_before.png" style="width: 100%; aspect-ratio: 1 / 1; object-fit: cover;"></div>
@@ -1521,7 +1550,7 @@ acl25_vqa_stop()
 <!-- Paper 14 MFDPO -->
 <tr data-category="multimodal" onmouseout="arxiv24_dpo_stop()" onmouseover="arxiv24_dpo_start()" >
 <td width="20%">
-<div class="one">
+<div class="one"><span class="venue-badge">IJCAI 2025</span>
 <div class="two" id = 'arxiv24_dpo_image'>
 <img src="./files/MFDPO_after.png" style="width: 100%; aspect-ratio: 1 / 1; object-fit: cover;"></div>
 <img src="./files/MFDPO_before.png" style="width: 100%; aspect-ratio: 1 / 1; object-fit: cover;"></div>
@@ -1555,7 +1584,7 @@ arxiv24_dpo_stop()
 <!-- Paper 13 CGSAM -->
 <tr data-category="multimodal" onmouseout="arxiv24_CGSAM_stop()" onmouseover="arxiv24_CGSAM_start()" >
 <td width="20%">
-<div class="one">
+<div class="one"><span class="venue-badge">ADHIP 2024</span>
 <div class="two" id = 'arxiv24_CGSAM_image'>
 <img src="./files/CGSAM_after.png" style="width: 100%; aspect-ratio: 1 / 1; object-fit: cover;"></div>
 <img src="./files/CGSAM_before.png" style="width: 100%; aspect-ratio: 1 / 1; object-fit: cover;"></div>
@@ -1591,7 +1620,7 @@ arxiv24_CGSAM_stop()
 <!-- Paper 12 Med-MoE -->
 <tr data-category="multimodal" onmouseout="emnlp24_moe_stop()" onmouseover="emnlp24_moe_start()" >
 <td width="20%">
-<div class="one">
+<div class="one"><span class="venue-badge">EMNLP Findings 2024</span>
 <div class="two" id = 'emnlp24_moe_image'>
 <img src="./files/emnlp24_moe_after.png" style="width: 100%; aspect-ratio: 1 / 1; object-fit: cover;"></div>
 <img src="./files/emnlp24_moe_before.png" style="width: 100%; aspect-ratio: 1 / 1; object-fit: cover;"></div>
@@ -1627,7 +1656,7 @@ emnlp24_moe_stop()
 <!-- Paper 11 Dualrain -->
 <tr data-category="gen-vision" data-role="eq-contrib" onmouseout="eccv24_dualrain_stop()" onmouseover="eccv24_dualrain_start()" >
 <td width="20%">
-<div class="one">
+<div class="one"><span class="venue-badge">ECCV 2024</span>
 <div class="two" id = 'eccv24_dualrain_image'><img src='./files/eccv24_dualrain_after.png'></div>
 <img src='./files/eccv24_dualrain_before.png'>
 </div>
@@ -1661,7 +1690,7 @@ eccv24_dualrain_stop()
 <!-- Paper 10 Super-resolution -->
 <tr data-category="gen-vision" onmouseout="eccv24_sr_stop()" onmouseover="eccv24_sr_start()" >
 <td width="20%">
-<div class="one">
+<div class="one"><span class="venue-badge">ECCV 2024</span>
 <div class="two" id = 'eccv24_sr_image'><img src='./files/eccv24_ucip_after.png'></div>
 <img src='./files/eccv24_ucip_before.png'>
 </div>
@@ -1697,7 +1726,7 @@ eccv24_sr_stop()
 <!-- Paper 9 NightHaze -->
 <tr data-category="gen-vision" data-role="eq-contrib" onmouseout="submit24_nighthaze_stop()" onmouseover="submit24_nighthaze_start()" >
 <td width="20%">
-<div class="one">
+<div class="one"><span class="venue-badge">AAAI 2025</span>
 <div class="two" id = 'submit24_nighthaze_image'><img src='./files/submit24_after.png'></div>
 <img src='./files/submit24_before.png'>
 </div>
@@ -1735,7 +1764,7 @@ submit24_nighthaze_stop()
 <!-- Paper 8 Super-resolution -->
 <tr data-category="gen-vision" onmouseout="cvpr24_sr_stop()" onmouseover="cvpr24_sr_start()" >
 <td width="20%">
-<div class="one">
+<div class="one"><span class="venue-badge">CVPR 2024</span>
 <div class="two" id = 'cvpr24_sr_image'><img src='./files/cvpr24_after.png'></div>
 <img src='./files/cvpr24_before.png'>
 </div>
@@ -1771,7 +1800,7 @@ cvpr24_sr_stop()
 <!-- Paper 7 DeS3 -->
 <tr data-category="gen-vision" data-role="first-author" onmouseout="aaai24_des3_stop()" onmouseover="aaai24_des3_start()" >
 <td width="20%">
-<div class="one">
+<div class="one"><span class="venue-badge">AAAI 2024</span>
 <div class="two" id = 'submit23_shadowdiffusion_image'><img src='./files/submit23_after.png'></div>
 <img src='./files/submit23_before.png'>
 </div>
@@ -1814,7 +1843,7 @@ aaai24_des3_stop()
 <!-- Paper 6 NightRain -->
 <tr data-category="gen-vision" data-role="eq-contrib" onmouseout="aaai24_nightrain_stop()" onmouseover="aaai24_nightrain_start()" >
 <td width="20%">
-<div class="one">
+<div class="one"><span class="venue-badge">AAAI 2024</span>
 <div class="two" id = 'aaai24_nightrain_image'><img src='./files/nightrain_after.png'></div>
 <img src='./files/nightrain_before.png'>
 </div>
@@ -1850,7 +1879,7 @@ aaai24_nightrain_stop()
 <!-- Paper 5 NightEnhance, ECCV'22 -->
 <tr data-category="selected gen-vision" data-role="first-author" onmouseout="eccv22_nightenhance_stop()" onmouseover="eccv22_nightenhance_start()" >
 <td width="20%">
-<div class="one">
+<div class="one"><span class="venue-badge">ECCV 2022</span>
 <div class="two" id = 'eccv22_nightenhance_image'><img src='./files/eccv22_after.jpg'></div>
 <img src='./files/eccv22_before.jpg'>
 </div>
@@ -1903,7 +1932,7 @@ eccv22_nightenhance_stop()
 <!-- Paper 4 DC-ShadowNet, ICCV'21 -->
 <tr data-category="selected gen-vision" data-role="first-author" onmouseout="iccv21_dcshadownet_stop()" onmouseover="iccv21_dcshadownet_start()" >
 <td width="20%">
-<div class="one">
+<div class="one"><span class="venue-badge">ICCV 2021</span>
 <div class="two" id = 'iccv21_dcshadownet_image'><img src='./files/iccv21_after.png'></div>
 <img src='./files/iccv21_before.png'>
 </div>
@@ -1949,7 +1978,7 @@ iccv21_dcshadownet_stop()
 <!-- Paper 3 NightFog-->
 <tr data-category="gen-vision" data-role="first-author eq-contrib" onmouseout="acmmm23_nightdehaze_stop()" onmouseover="acmmm23_nightdehaze_start()" >
 <td width="20%">
-<div class="one">
+<div class="one"><span class="venue-badge">ACM MM 2023</span>
 <div class="two" id = 'acmmm23_nightdehaze_image'><img src='./files/acmmm23_after.png'></div>
 <img src='./files/acmmm23_before.png'>
 </div>
@@ -1994,7 +2023,7 @@ acmmm23_nightdehaze_stop()
 <!-- Paper 2 Reflectance, AAAI'23 -->
 <tr data-category="gen-vision" data-role="first-author" onmouseout="aaai23_reflectance_stop()" onmouseover="aaai23_reflectance_start()" >
 <td width="20%">
-<div class="one">
+<div class="one"><span class="venue-badge">AAAI 2023</span>
 <div class="two" id = 'aaai23_reflectance_image'><img src='./files/aaai23_after.jpg'></div>
 <img src='./files/aaai23_before.jpg'>
 </div>
@@ -2038,7 +2067,7 @@ aaai23_reflectance_stop()
 <!-- Paper 1 defog, ACCV'22 -->
 <tr data-category="gen-vision" data-role="first-author" onmouseout="accv22_defog_stop()" onmouseover="accv22_defog_start()" >
 <td width="20%">
-<div class="one">
+<div class="one"><span class="venue-badge">ACCV 2022</span>
 <div class="two" id = 'accv22_defog_image'><img src='./files/accv22_after.png'></div>
 <img src='./files/accv22_before.png'>
 </div>
@@ -2210,7 +2239,7 @@ accv22_defog_stop()
 </table>
 
 # Invited Talks {#invited-talks}
-<p class="section-count"><strong>9</strong> talks at CVPR, ICCV, ICLR and AAAI, among <strong>33</strong> invited talks in total.</p>
+<p class="section-count"><strong>9</strong> talks at CVPR, ICCV, ICLR and AAAI, among <strong>30</strong> invited talks in total.</p>
 <div class="pub-filters">
   <button class="pub-filter-btn talk-filter-btn active" data-cat="all" onclick="filterTalks('all')">All</button>
   <button class="pub-filter-btn talk-filter-btn" data-cat="world-model" onclick="filterTalks('world-model')">World Model</button>
