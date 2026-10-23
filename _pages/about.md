@@ -375,7 +375,7 @@ function _applyProjFilter() {
         </a><br>
         <span class="sub"><em>HOK Flowborn Dimensional Editor</em> &bull; 2025.06&ndash;Present</span>
         <p class="kpis">
-          <span class="kpi-n">22.5K</span> players &middot; <span class="kpi-n">2.1M</span> posters generated across Portrait, Detective &amp; Esports<br>
+          <span class="kpi-n">22.5K</span> players &middot; <span class="kpi-n">2.1M</span> posters generated<br>
           Shipped in-game &mdash; Battle Loading, In-Game Hero, In-Game Popup &middot; <span class="kpi-n">80%</span> in-game display<br>
           <span class="kpi-n">99%</span> positive sentiment &middot; one-click sharing to HOK Camp, X, Instagram, Facebook
         </p>
