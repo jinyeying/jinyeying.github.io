@@ -529,27 +529,62 @@ function _applyProjFilter() {
     }
     .role-filter-btn:hover { border-color: #888; color: #333; }
     .role-filter-btn.active { background: #eef3fb; color: #1772d0; border-color: #1772d0; font-weight: 600; }
+    .pub-views { display: flex; flex-wrap: wrap; align-items: center; gap: 6px; margin-bottom: 6px; }
+    .pub-view-btn {
+      border: 1px solid #d0d5dd; background: #fff; color: #475467;
+      border-radius: 999px; padding: 4px 13px; font-size: 13px; font-weight: 600;
+      cursor: pointer; line-height: 1.5;
+    }
+    .pub-view-btn:hover { border-color: #1772d0; color: #1772d0; }
+    .pub-view-btn.active { background: #1772d0; border-color: #1772d0; color: #fff; }
+    .pub-views-label { margin-left: auto; color: #98a2b3; font-size: 12px; letter-spacing: 0.04em; }
+    @media (max-width: 600px) { .pub-views-label { margin-left: 0; width: 100%; } }
+    /* 默认只显示 Selected；JS 接管后移除 pubs-initial，无 JS 时也有合理回退 */
+    table.pubs-initial tr[data-category]:not([data-category~="selected"]) { display: none; }
+    .publication-authors { margin: 0; }
+    .publication-authors summary { display: block; list-style: none; cursor: pointer; }
+    .publication-authors summary::-webkit-details-marker { display: none; }
+    .publication-authors summary:focus-visible { outline: 2px solid #1772d0; outline-offset: 3px; }
+    .publication-authors .authors-show,
+    .publication-authors .authors-hide { color: #1772d0; font-size: 12px; }
+    .publication-authors .authors-show { display: block; margin-top: 3px; }
+    .publication-authors .authors-hide { display: none; }
+    .publication-authors[open] .authors-preview,
+    .publication-authors[open] .authors-show { display: none; }
+    .publication-authors[open] .authors-hide { display: inline; }
+    .publication-authors .authors-full { margin-top: 4px; overflow-wrap: anywhere; }
 </style>
 <!-- ################################  CONTENT START  ##################################################-->
+<div class="pub-views" id="pub-view-filters">
+  <button class="pub-view-btn active" data-view="selected" onclick="filterPubView('selected')">Selected</button>
+  <button class="pub-view-btn" data-view="all" onclick="filterPubView('all')">All Publications</button>
+  <button class="pub-view-btn" data-view="survey" onclick="filterPubView('survey')">Surveys</button>
+  <span class="pub-views-label">Filters</span>
+</div>
 <div class="pub-filters" id="pub-topic-filters">
-  <button class="pub-filter-btn active" data-cat="all" onclick="filterPubs('all')">All</button>
-  <button class="pub-filter-btn" data-cat="selected" onclick="filterPubs('selected')">Selected</button>
-  <button class="pub-filter-btn" data-cat="world-model" onclick="filterPubs('world-model')">World Model</button>
-  <button class="pub-filter-btn" data-cat="agentic-vlm" onclick="filterPubs('agentic-vlm')">Agentic VLM</button>
-  <button class="pub-filter-btn" data-cat="gen-vision" onclick="filterPubs('gen-vision')">Gen & Vision</button>
-  <button class="pub-filter-btn" data-cat="multimodal" onclick="filterPubs('multimodal')">Multimodal</button>
-  <button class="pub-filter-btn" data-cat="workshop" onclick="filterPubs('workshop')">Workshops</button>
+  <button class="pub-filter-btn active" data-cat="all" onclick="filterPubs('all')">All Topics</button>
+  <button class="pub-filter-btn" data-cat="world-model" onclick="filterPubs('world-model')">World Models</button>
+  <button class="pub-filter-btn" data-cat="agentic-ai" onclick="filterPubs('agentic-ai')">Agentic AI</button>
+  <button class="pub-filter-btn" data-cat="gen-vision" onclick="filterPubs('gen-vision')">Generation &amp; Vision</button>
+  <button class="pub-filter-btn" data-cat="multimodal" onclick="filterPubs('multimodal')">Multimodal Learning</button>
   <button class="pub-filter-btn" data-cat="security" onclick="filterPubs('security')">Security</button>
 </div>
 <div class="pub-filters" style="margin-top:4px;">
   <button class="role-filter-btn pub-role-btn active" data-role="all" onclick="filterPubRole('all')">All Roles</button>
   <button class="role-filter-btn pub-role-btn" data-role="first-author" onclick="filterPubRole('first-author')">First Author</button>
   <button class="role-filter-btn pub-role-btn" data-role="eq-contrib" onclick="filterPubRole('eq-contrib')"><sup class="eq-contrib">*</sup> Equal Contribution</button>
-  <button class="role-filter-btn pub-role-btn" data-role="corr-author" onclick="filterPubRole('corr-author')"><sup class="corr-lead">†</sup> Corresponding Author</button>
-  <button class="role-filter-btn pub-role-btn" data-role="proj-lead" onclick="filterPubRole('proj-lead')"><sup class="corr-lead">‡</sup> Project Lead</button>
+  <button class="role-filter-btn pub-role-btn" data-role="corr-author" onclick="filterPubRole('corr-author')"><sup class="corr-lead">&dagger;</sup> Corresponding Author</button>
+  <button class="role-filter-btn pub-role-btn" data-role="proj-lead" onclick="filterPubRole('proj-lead')"><sup class="corr-lead">&Dagger;</sup> Project Lead</button>
 </div>
 <script>
-var _pubTopic = 'all', _pubRole = 'all';
+var _pubView = 'selected', _pubTopic = 'all', _pubRole = 'all';
+function filterPubView(v) {
+  _pubView = v;
+  _applyPubFilter();
+  document.querySelectorAll('#pub-view-filters .pub-view-btn').forEach(function(btn) {
+    btn.classList.toggle('active', btn.dataset.view === v);
+  });
+}
 function filterPubs(cat) {
   _pubTopic = cat;
   _applyPubFilter();
@@ -565,14 +600,18 @@ function filterPubRole(role) {
   });
 }
 function _applyPubFilter() {
+  var tbl = document.getElementById('pub-table');
+  if (tbl) { tbl.classList.remove('pubs-initial'); }
   document.querySelectorAll('tr[data-category]').forEach(function(tr) {
-    var topicOk = _pubTopic === 'all' || (tr.dataset.category || '').split(' ').indexOf(_pubTopic) !== -1;
+    var cats    = (tr.dataset.category || '').split(' ');
+    var viewOk  = _pubView  === 'all' || cats.indexOf(_pubView) !== -1;
+    var topicOk = _pubTopic === 'all' || cats.indexOf(_pubTopic) !== -1;
     var roleOk  = _pubRole  === 'all' || (tr.dataset.role || '').split(' ').indexOf(_pubRole) !== -1;
-    tr.style.display = (topicOk && roleOk) ? '' : 'none';
+    tr.style.display = (viewOk && topicOk && roleOk) ? '' : 'none';
   });
 }
 </script>
-<table width="100%" align="center" border="0" cellspacing="0" cellpadding="10">
+<table id="pub-table" class="pubs-initial" width="100%" align="center" border="0" cellspacing="0" cellpadding="10">
 <tbody>
 <!-- ############################ Put your publications below this! ####################################-->
 
@@ -608,7 +647,7 @@ function _applyPubFilter() {
 
 <!-- ###################################################################################################-->
 <!-- Paper ACMMM26 BooM-VVT -->
-<tr data-category="gen-vision" data-role="corr-author proj-lead" >
+<tr data-category="gen-vision selected" data-role="corr-author proj-lead" >
 <td width="20%">
 <div style="position:relative;">
 <span class="venue-badge">ACM MM 2026</span>
@@ -636,7 +675,7 @@ function _applyPubFilter() {
 
 <!-- ###################################################################################################-->
 <!-- Paper StoryEngine -->
-<tr data-category="agentic-vlm gen-vision" data-role="corr-author proj-lead" >
+<tr data-category="agentic-ai gen-vision selected" data-role="corr-author proj-lead" >
 <td width="20%">
 <div style="position:relative;">
 <span class="venue-badge">arXiv 2026</span>
@@ -666,7 +705,7 @@ function _applyPubFilter() {
 
 <!-- ###################################################################################################-->
 <!-- Paper Agentic World Modeling -->
-<tr data-category="world-model" onmouseout="arxiv26_AgenticWM_stop()" onmouseover="arxiv26_AgenticWM_start()" >
+<tr data-category="world-model agentic-ai survey" onmouseout="arxiv26_AgenticWM_stop()" onmouseover="arxiv26_AgenticWM_start()" >
 <td width="20%">
 <div class="one">
 <div class="two" id='arxiv26_AgenticWM_image'>
@@ -688,7 +727,14 @@ arxiv26_AgenticWM_stop()
     <papertitle_just>Agentic World Modeling: Foundations, Capabilities, Laws, and Beyond</papertitle_just>
   </a>
   <br>
-  Meng Chu<sup class="eq-contrib">*</sup>, Xuan Billy Zhang<sup class="eq-contrib">*</sup>, Kevin Qinghong Lin<sup class="eq-contrib">*</sup>, Lingdong Kong<sup class="eq-contrib">*</sup>, Jize Zhang<sup class="eq-contrib">*</sup>, Teng Tu<sup class="eq-contrib">*</sup>, Weijian Ma<sup class="eq-contrib">*</sup>, Ziqi Huang, Senqiao Yang, Wei Huang, <strong>Yeying Jin</strong>, Zhefan Rao, Jinhui Ye, Xinyu Lin, Xichen Zhang, Qisheng Hu, Shuai Yang, Leyang Shen, Wei Chow, Yifei Dong, Fengyi Wu, Quanyu Long, Bin Xia, Shaozuo Yu, Mingkang Zhu, Wenhu Zhang, Jiehui Huang, Haokun Gui, Haoxuan Che<sup class="corr-lead">†</sup>, Long Chen<sup class="corr-lead">†</sup>, Qifeng Chen<sup class="corr-lead">†</sup>, Wenxuan Zhang<sup class="corr-lead">†</sup>, Wenya Wang<sup class="corr-lead">†</sup>, Xiaojuan Qi<sup class="corr-lead">†</sup>, Yang Deng<sup class="corr-lead">†</sup>, Yanwei Li<sup class="corr-lead">†</sup>, Mike Zheng Shou<sup class="corr-lead">†</sup>, Zhi-Qi Cheng<sup class="corr-lead">†</sup>, See-Kiong Ng<sup class="corr-lead">†</sup>, Ziwei Liu<sup class="corr-lead">†</sup>, Philip Torr<sup class="corr-lead">†</sup>, Jiaya Jia<sup class="corr-lead">†</sup>
+<details class="publication-authors" id="agentic-wm-authors">
+    <summary>
+      <span class="authors-preview">Meng Chu<sup class="eq-contrib">*</sup>, Xuan Billy Zhang<sup class="eq-contrib">*</sup>, Kevin Qinghong Lin<sup class="eq-contrib">*</sup>, &hellip;, <strong>Yeying Jin</strong>, &hellip;, Ziwei Liu<sup class="corr-lead">†</sup>, Philip Torr<sup class="corr-lead">†</sup>, Jiaya Jia<sup class="corr-lead">†</sup></span>
+      <span class="authors-show">Show All Authors</span>
+      <span class="authors-hide">Show Fewer</span>
+    </summary>
+    <div class="authors-full">Meng Chu<sup class="eq-contrib">*</sup>, Xuan Billy Zhang<sup class="eq-contrib">*</sup>, Kevin Qinghong Lin<sup class="eq-contrib">*</sup>, Lingdong Kong<sup class="eq-contrib">*</sup>, Jize Zhang<sup class="eq-contrib">*</sup>, Teng Tu<sup class="eq-contrib">*</sup>, Weijian Ma<sup class="eq-contrib">*</sup>, Ziqi Huang, Senqiao Yang, Wei Huang, <strong>Yeying Jin</strong>, Zhefan Rao, Jinhui Ye, Xinyu Lin, Xichen Zhang, Qisheng Hu, Shuai Yang, Leyang Shen, Wei Chow, Yifei Dong, Fengyi Wu, Quanyu Long, Bin Xia, Shaozuo Yu, Mingkang Zhu, Wenhu Zhang, Jiehui Huang, Haokun Gui, Haoxuan Che<sup class="corr-lead">†</sup>, Long Chen<sup class="corr-lead">†</sup>, Qifeng Chen<sup class="corr-lead">†</sup>, Wenxuan Zhang<sup class="corr-lead">†</sup>, Wenya Wang<sup class="corr-lead">†</sup>, Xiaojuan Qi<sup class="corr-lead">†</sup>, Yang Deng<sup class="corr-lead">†</sup>, Yanwei Li<sup class="corr-lead">†</sup>, Mike Zheng Shou<sup class="corr-lead">†</sup>, Zhi-Qi Cheng<sup class="corr-lead">†</sup>, See-Kiong Ng<sup class="corr-lead">†</sup>, Ziwei Liu<sup class="corr-lead">†</sup>, Philip Torr<sup class="corr-lead">†</sup>, Jiaya Jia<sup class="corr-lead">†</sup></div>
+  </details>
   <br>
   <em>arXiv preprint</em>, 2026<br>
 <a href="https://arxiv.org/abs/2604.22748">arXiv</a>
@@ -703,7 +749,7 @@ arxiv26_AgenticWM_stop()
 
 <!-- ###################################################################################################-->
 <!-- Paper ECCV26 MagicPrompt -->
-<tr data-category="gen-vision" data-role="corr-author" >
+<tr data-category="gen-vision selected" data-role="corr-author" >
 <td width="20%">
 <div style="position:relative;">
 <span class="venue-badge">ECCV 2026</span>
@@ -1028,7 +1074,7 @@ tcsvt25_MMGT_stop()
 
 <!-- ###################################################################################################-->
 <!-- Paper 23 PosterCraft -->
-<tr data-category="agentic-vlm gen-vision" onmouseout="arxiv25_PosterCraft_stop()" onmouseover="arxiv25_PosterCraft_start()" >
+<tr data-category="gen-vision" onmouseout="arxiv25_PosterCraft_stop()" onmouseover="arxiv25_PosterCraft_start()" >
 <td width="20%">
 <div class="one">
 <div class="two" id = 'arxiv25_PosterCraft_image'>
@@ -1099,7 +1145,7 @@ arxiv25_PosterCraft_stop()
 
 <!-- ###################################################################################################-->
 <!-- Paper CVPR26 Deraining -->
-<tr data-category="selected gen-vision" data-role="corr-author proj-lead" onmouseout="cvpr26_Deraining_stop()" onmouseover="cvpr26_Deraining_start()" >
+<tr data-category="gen-vision" data-role="corr-author proj-lead" onmouseout="cvpr26_Deraining_stop()" onmouseover="cvpr26_Deraining_start()" >
 <td width="20%">
 <div class="one">
 <div class="two" id='cvpr26_Deraining_image'>
@@ -1203,7 +1249,7 @@ acm25_DSDNet_stop()
 
 <!-- ###################################################################################################-->
 <!-- Paper 19 JarvisIR -->
-<tr data-category="agentic-vlm" onmouseout="cvpr25_JarvisIR_stop()" onmouseover="cvpr25_JarvisIR_start()" >
+<tr data-category="agentic-ai" onmouseout="cvpr25_JarvisIR_stop()" onmouseover="cvpr25_JarvisIR_start()" >
 <td width="20%">
 <div class="one">
 <div class="two" id = 'cvpr25_JarvisIR_image'><img src='./files/cvpr25_JarvisIR_after.png'></div>
@@ -1359,7 +1405,7 @@ ntire25_rd_stop()
 
 <!-- ###################################################################################################-->
 <!-- Paper 17 RaindropClarity -->
-<tr data-category="selected gen-vision" data-role="first-author" onmouseout="eccv24_rd_stop()" onmouseover="eccv24_rd_start()" >  
+<tr data-category="gen-vision" data-role="first-author" onmouseout="eccv24_rd_stop()" onmouseover="eccv24_rd_start()" >  
 <td width="20%">
 <div class="one">
 <div class="two" id = 'eccv24_rd_image'><img src='./files/eccv24_raindropclarify_after.png'></div>
@@ -1723,7 +1769,7 @@ cvpr24_sr_stop()
 
 <!-- ###################################################################################################-->
 <!-- Paper 7 DeS3 -->
-<tr data-category="selected gen-vision" data-role="first-author" onmouseout="aaai24_des3_stop()" onmouseover="aaai24_des3_start()" >
+<tr data-category="gen-vision" data-role="first-author" onmouseout="aaai24_des3_stop()" onmouseover="aaai24_des3_start()" >
 <td width="20%">
 <div class="one">
 <div class="two" id = 'submit23_shadowdiffusion_image'><img src='./files/submit23_after.png'></div>
@@ -1901,7 +1947,7 @@ iccv21_dcshadownet_stop()
 <!-- ###################################################################################################-->
 
 <!-- Paper 3 NightFog-->
-<tr data-category="selected gen-vision" data-role="first-author eq-contrib" onmouseout="acmmm23_nightdehaze_stop()" onmouseover="acmmm23_nightdehaze_start()" >
+<tr data-category="gen-vision" data-role="first-author eq-contrib" onmouseout="acmmm23_nightdehaze_stop()" onmouseover="acmmm23_nightdehaze_start()" >
 <td width="20%">
 <div class="one">
 <div class="two" id = 'acmmm23_nightdehaze_image'><img src='./files/acmmm23_after.png'></div>
