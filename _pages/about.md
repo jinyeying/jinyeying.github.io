@@ -2158,6 +2158,7 @@ accv22_defog_stop()
   .talks-table .dt, .organizer-table .dt { font-weight: 600; color: #344054; }
   .talks-table .vn, .organizer-table .vn { display: inline-block; margin-top: 1px; }
   .talks-table .vn, .organizer-table .vn { color: #98a2b3; font-size: 0.92em; }
+  .talks-table .inv { color: #98a2b3; font-size: 0.9em; }
 
   /* 窄屏：日期列允许换行，避免 Organizer 表撑出横向滚动 */
   @media (max-width: 600px) {
@@ -2267,22 +2268,22 @@ function filterTalks(cat) {
   </tr>
    <tr class="year-row" data-year="2026"><td colspan="3">2026</td></tr>
  <tr data-talk-cat="world-model">
-    <td>NUS CEG5304 Deep Learning Guest Lecture (invited by <a href="https://xuyu0010.wixsite.com/xuyu0010">Yuecong Xu</a>)</td>
+    <td>NUS CEG5304 Deep Learning Guest Lecture<br><span class="inv">invited by <a href="https://xuyu0010.wixsite.com/xuyu0010">Yuecong Xu</a></span></td>
     <td>World Model and Agentic Video Generation</td>
     <td><span class="dt">11.2026</span><br><span class="vn">Singapore</span></td>
  </tr>
  <tr data-talk-cat="world-model">
-    <td><a href="https://www.ntu.edu.sg/">NTU</a> PhD Course: Deep Learning for Data Science, Guest Lecture (invited by <a href="https://liuziwei7.github.io/">Ziwei Liu</a>)</td>
+    <td><a href="https://www.ntu.edu.sg/">NTU</a> PhD Course: Deep Learning for Data Science, Guest Lecture<br><span class="inv">invited by <a href="https://liuziwei7.github.io/">Ziwei Liu</a></span></td>
     <td>Game World Model</td>
     <td><span class="dt">10.15.2026</span><br><span class="vn">Singapore</span></td>
  </tr>
  <tr data-talk-cat="world-model">
-    <td><a href="https://cde.nus.edu.sg/ece/">NUS ECE SAMI Seminar</a> (invited by <a href="https://xuyu0010.wixsite.com/xuyu0010">Yuecong Xu</a>)</td>
+    <td><a href="https://cde.nus.edu.sg/ece/">NUS ECE SAMI Seminar</a><br><span class="inv">invited by <a href="https://xuyu0010.wixsite.com/xuyu0010">Yuecong Xu</a></span></td>
     <td>Game World Model and Coding Agents</td>
     <td><span class="dt">10.14.2026</span><br><span class="vn">Singapore</span></td>
  </tr>
  <tr data-talk-cat="world-model">
-    <td><a href="https://runwayml.com/">Runway</a> (invited by <a href="https://www.linkedin.com/in/robin-kahlow/">Robin Kahlow</a>)</td>
+    <td><a href="https://runwayml.com/">Runway</a><br><span class="inv">invited by <a href="https://www.linkedin.com/in/robin-kahlow/">Robin Kahlow</a></span></td>
     <td>Game World Model</td>
     <td><span class="dt">06.26.2026</span><br><span class="vn">Singapore</span></td>
  </tr>
@@ -2292,22 +2293,22 @@ function filterTalks(cat) {
     <td><span class="dt">06.06.2026</span><br><span class="vn">Denver, USA</span></td>
  </tr>
  <tr data-talk-cat="world-model">
-    <td><a href="https://urvis-workshop.github.io/">CVPR 2026 URVIS</a> (invited by <a href="https://sites.google.com/view/zwwu/accueil">Zongwei Wu</a>)</td>
+    <td><a href="https://urvis-workshop.github.io/">CVPR 2026 URVIS</a><br><span class="inv">invited by <a href="https://sites.google.com/view/zwwu/accueil">Zongwei Wu</a></span></td>
     <td>World Model</td>
     <td><span class="dt">06.04.2026</span><br><span class="vn">Denver, USA</span></td>
  </tr>
  <tr data-talk-cat="world-model">
-    <td><a href="https://agentic-visual-media.insait.ai/">CVPR 2026 AGENTIC</a> (invited by <a href="https://www.jasongt.com/">Jinjin Gu</a>)</td>
+    <td><a href="https://agentic-visual-media.insait.ai/">CVPR 2026 AGENTIC</a><br><span class="inv">invited by <a href="https://www.jasongt.com/">Jinjin Gu</a></span></td>
     <td>Game World Model</td>
     <td><span class="dt">06.03.2026</span><br><span class="vn">Denver, USA</span></td>
  </tr>
  <tr data-talk-cat="world-model">
-    <td><a href="https://ai4streaming-workshop.github.io/">CVPR 2026 AIGENS</a> (invited by <a href="https://mv-lab.github.io/">Marcos V. Conde</a>)</td>
+    <td><a href="https://ai4streaming-workshop.github.io/">CVPR 2026 AIGENS</a><br><span class="inv">invited by <a href="https://mv-lab.github.io/">Marcos V. Conde</a></span></td>
     <td>Game World Model for Video Generation</td>
     <td><span class="dt">06.03.2026</span><br><span class="vn">Denver, USA</span></td>
  </tr>
  <tr data-talk-cat="world-model">
-    <td><a href="https://cvlai.net/ntire/2026/">CVPR 2026 NTIRE</a> (invited by <a href="https://sites.google.com/view/zwwu/accueil">Zongwei Wu</a>)</td>
+    <td><a href="https://cvlai.net/ntire/2026/">CVPR 2026 NTIRE</a><br><span class="inv">invited by <a href="https://sites.google.com/view/zwwu/accueil">Zongwei Wu</a></span></td>
     <td>Game World Model</td>
     <td><span class="dt">06.03.2026</span><br><span class="vn">Denver, USA</span></td>
  </tr>
@@ -2317,7 +2318,7 @@ function filterTalks(cat) {
     <td><span class="dt">05.22.2026</span><br><span class="vn">Singapore</span></td>
  </tr>
  <tr data-talk-cat="world-model">
-    <td><a href="https://singaporevisionday.github.io/svd2026/">Singapore Vision Day</a> (invited by <a href="https://www.comp.nus.edu.sg/~leegh/">Gim Hee Lee</a>)</td>
+    <td><a href="https://singaporevisionday.github.io/svd2026/">Singapore Vision Day</a><br><span class="inv">invited by <a href="https://www.comp.nus.edu.sg/~leegh/">Gim Hee Lee</a></span></td>
     <td><a href="https://singaporevisionday.github.io/svd2026/">Game World Model</a><br>World Model Panel Discussion (w/ <a href="https://v3alab.github.io/#about">Qi Wu</a><sup style="color:#888;font-size:0.75em;"> U Adelaide</sup>, <a href="https://www.3dunderstanding.org/">Angela Dai</a><sup style="color:#888;font-size:0.75em;"> TUM</sup>, <a href="https://xingangpan.github.io/">Xingang Pan</a><sup style="color:#888;font-size:0.75em;"> NTU</sup>)</td>
     <td><span class="dt">05.16.2026</span><br><span class="vn">Singapore</span></td>
  </tr>
@@ -2327,17 +2328,17 @@ function filterTalks(cat) {
     <td><span class="dt">04.25.2026</span><br><span class="vn">Rio de Janeiro, Brazil</span></td>
  </tr>
  <tr data-talk-cat="world-model">
-    <td>NUS EE6934 Emerging Topics in AI and Deep Learning Guest Lecture (invited by <a href="https://sites.google.com/site/sitexinchaowang/">Xinchao Wang</a>)</td>
+    <td>NUS EE6934 Emerging Topics in AI and Deep Learning Guest Lecture<br><span class="inv">invited by <a href="https://sites.google.com/site/sitexinchaowang/">Xinchao Wang</a></span></td>
     <td>From AIGC to World Model</td>
     <td><span class="dt">03.17.2026</span><br><span class="vn">Singapore</span></td>
  </tr>
  <tr data-talk-cat="gen-vision">
-    <td>AAAI (invited by <a href="https://lixinustc.github.io/">Xin Li</a>)</td>
+    <td>AAAI<br><span class="inv">invited by <a href="https://lixinustc.github.io/">Xin Li</a></span></td>
     <td><a href="https://lixinustc.github.io/GenAI-Agents-for-Low-level-Vision.github.io/">From Creation to Perception: Generative AI for Content Generation</a></td>
     <td><span class="dt">01.2026</span><br><span class="vn">Singapore</span></td>
  </tr>
  <tr data-talk-cat="gen-vision">
-    <td>Low-level Community (invited by <a href="https://cschenxiang.github.io/">Xiang Chen</a>)</td>
+    <td>Low-level Community<br><span class="inv">invited by <a href="https://cschenxiang.github.io/">Xiang Chen</a></span></td>
     <td><a href="https://mp.weixin.qq.com/s/4hsDsLlJG-JAacAwvlm4XA">AIGC-Powered Game Marketing: From Generation to Deployment</a></td>
     <td><span class="dt">01.2026</span><br><span class="vn">Singapore</span></td>
  </tr>
@@ -2349,23 +2350,23 @@ function filterTalks(cat) {
     <td><span class="dt">11.2025</span><br><span class="vn">Singapore</span></td>
  </tr>
  <tr data-talk-cat="gen-vision">
-    <td><a href="https://ai4streaming-workshop.github.io/">ICCV AIGENS</a> (invited by <a href="https://mv-lab.github.io/">Marcos V. Conde</a>)</td>
+    <td><a href="https://ai4streaming-workshop.github.io/">ICCV AIGENS</a><br><span class="inv">invited by <a href="https://mv-lab.github.io/">Marcos V. Conde</a></span></td>
     <td><a href="https://ai4streaming-workshop.github.io/">From Creation to Perception: Generative AI for Content Generation</a></td>
     <td><span class="dt">10.2025</span><br><span class="vn">Honolulu, USA</span></td>
  </tr>
   <tr data-talk-cat="gen-vision">
-    <td><img src="/files/tencent.png" alt="Tencent" width="85" height="20"></td>
+    <td><img src="/files/tencent.png" alt="Tencent" width="85" height="20"> Tencent</td>
     <td>AI Video Gen | When Wukong meets Yayoi Kusama</td>
     <td><span class="dt">05.2025</span><br><span class="vn">Singapore</span></td>
   </tr>
   <tr data-talk-cat="gen-vision">
-    <td>ICLR (invited by <a href="https://qhlin.me/">Kevin Qinghong Lin</a>)</td>
+    <td>ICLR<br><span class="inv">invited by <a href="https://qhlin.me/">Kevin Qinghong Lin</a></span></td>
     <td><a href="https://showlab.github.io/omg/">AI × Gaming: Creative Applications of AIGC</a>
       [<a href="https://www.bilibili.com/video/BV1dzJfzbEmh/?share_source=copy_web&vd_source=2da049ce4677af057256ebc4a00a8292" target="_blank">Video</a>]</td>
     <td><span class="dt">04.2025</span><br><span class="vn">Singapore</span></td>
   </tr>
   <tr data-talk-cat="gen-vision">
-    <td><img src="/files/tencent.png" alt="Tencent" width="85" height="20"></td>
+    <td><img src="/files/tencent.png" alt="Tencent" width="85" height="20"> Tencent</td>
     <td>AI Generation: Inspiring Game Marketing and Development</td>
     <td><span class="dt">02.2025</span><br><span class="vn">Singapore</span></td>
   </tr>
@@ -2382,7 +2383,7 @@ function filterTalks(cat) {
   </tr>
    <tr class="year-row" data-year="2023"><td colspan="3">2023</td></tr>
   <tr data-talk-cat="gen-vision">
-    <td><img src="/files/tencent.png" alt="Tencent" width="85" height="20"></td>
+    <td><img src="/files/tencent.png" alt="Tencent" width="85" height="20"> Tencent</td>
     <td>Applications of Generative AI</td>
     <td><span class="dt">11.2023</span><br><span class="vn">Singapore</span></td>
   </tr>
@@ -2392,7 +2393,7 @@ function filterTalks(cat) {
     <td>07.2023</td>
   </tr>
   <tr data-talk-cat="gen-vision">
-    <td><img src="/files/adobe.png" alt="Adobe" width="20" height="20"> Adobe (invited by <a href="https://www.erickee.com/">Eric Kee</a>)</td>
+    <td><img src="/files/adobe.png" alt="Adobe" width="20" height="20"> Adobe<br><span class="inv">invited by <a href="https://www.erickee.com/">Eric Kee</a></span></td>
     <td>NextCam Reading Group: Light-effects Suppression</td>
     <td><span class="dt">07.2023</span><br><span class="vn">USA</span></td>
   </tr>
@@ -2407,7 +2408,7 @@ function filterTalks(cat) {
     <td>02.2023</td>
   </tr>
   <tr data-talk-cat="gen-vision">
-    <td><img src="/files/ByteDance.png" alt="ByteDance" width="100" height="20"> (invited by <a href="https://hanshuyan.github.io/">Hanshu Yan</a>)</td>
+    <td><img src="/files/ByteDance.png" alt="ByteDance" width="100" height="20"> ByteDance<br><span class="inv">invited by <a href="https://hanshuyan.github.io/">Hanshu Yan</a></span></td>
     <td>Diffusion Model in Image Processing</td>
     <td>01.2023</td>
   </tr>
@@ -2529,10 +2530,10 @@ function filterBlogs(cat) {
 - Tencent [Knowledge](https://zhuanlan.zhihu.com/p/686681635), [Excellent R&D](https://www.dropbox.com/scl/fi/h32jdvfrftrdls3rwjesi/Tencent_Excellent_R-D_Award.jpg?rlkey=xw5225oazo9kkoziuznsnhtpz&st=apklpn9u&dl=0), [Outstanding Mentor](https://www.dropbox.com/scl/fi/kcszrth49835tfvcirjot/Mentor.jpg?rlkey=mf4zo301alayou3tvr7yaedpk&st=je6i1qgd&dl=0) and Outstanding Contributor Awards
 - ICML 2026 Gold Reviewer Award
 - Best Paper Award, ADHIP 2024
-- CVPR Student Mentor
 - [AI Singapore (AISG) Ph.D. Fellowship](https://aisingapore.org/research/phd-fellowship-programme/) — Theme: Continuous Learning AI, Self-supervised Learning
 
 # 💻 Professional Services {#services}
+- CVPR Student Mentor (Doctoral Consortium)
 - Journal Reviewer: TPAMI, IJCV, TIP, TNNLS, TMM, TCSVT, TVCJ, NEUCOM, CVIU, etc.
 - Conference Reviewer: ICML, NeurIPS, ICLR, CVPR, ICCV, ECCV, AAAI, ACM MM, ACL, MICCAI, ACCV, IJCAI, IJCNN, etc.
 - Teaching Assistant: [EE5731 Visual Computing](https://tanrobby.github.io/teaching/ece_visual/index.html), EE5904 Neural Networks (NUS ECE)
