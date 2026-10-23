@@ -2165,6 +2165,14 @@ accv22_defog_stop()
   .talks-table .vn, .organizer-table .vn { display: inline-block; margin-top: 1px; }
   .talks-table .vn, .organizer-table .vn { color: #98a2b3; font-size: 0.92em; }
   .talks-table .inv { color: #98a2b3; font-size: 0.9em; }
+  /* 少数早期场次暂无确认的地点。与其填入未经核实的文字，不如用样式补一条
+     等高的空行，让整张表的行节奏一致，早期报告不会显得比近期的“薄”。
+     :has() 不支持时自动退回原样，不影响内容。 */
+  .talks-table tr[data-talk-cat] td:last-child:not(:has(.vn))::after {
+    content: "";
+    display: block;
+    height: 1.62em;
+  }
   .kpis .kpi-n { font-weight: 600; color: #344054; }
 
   /* 窄屏：日期列允许换行，避免 Organizer 表撑出横向滚动 */
