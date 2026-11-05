@@ -20,10 +20,10 @@ redirect_from:
 
 I am a Staff Researcher at [Tencent](https://www.tencent.com/en-us/about.html) (青云计划 'Project Up' Talent Programme), where I serve as Research Lead for World Models, Agentic AI, and AIGC for Games. I am also Adjunct Faculty at the <img src="/files/NUS.png" alt="NUS" width="42.5" height="20"> [National University of Singapore (NUS), Department of Electrical and Computer Engineering (ECE)](https://cde.nus.edu.sg/ece/).
 
-I received my Ph.D. from NUS ECE, supervised by [Prof. Robby T. Tan](http://tanrobby.github.io/), and previously interned at <img src="/files/adobe.png" alt="Adobe" width="20" height="20"> [Adobe Research](https://research.adobe.com/), mentored by [Prof. Connelly Barnes](http://www.connellybarnes.com/work/) and [Prof. Eli Shechtman](https://scholar.google.com/citations?user=B_FTboQAAAAJ). I hold an M.Sc. from NUS ECE and a B.Eng. from <img src="/files/UESTC.png" alt="UESTC" width="20.842" height="20"> [UESTC](https://en.uestc.edu.cn/).
+I received my Ph.D. from NUS ECE, supervised by [Prof. Robby T. Tan](http://tanrobby.github.io/), and previously interned at <img src="/files/adobe.png" alt="Adobe" width="20" height="20"> [Adobe Research](https://research.adobe.com/), mentored by [Dr. Connelly Barnes](http://www.connellybarnes.com/work/) and [Dr. Eli Shechtman](https://scholar.google.com/citations?user=B_FTboQAAAAJ). I hold an M.Sc. from NUS ECE and a B.Eng. from <img src="/files/UESTC.png" alt="UESTC" width="20.842" height="20"> [UESTC](https://en.uestc.edu.cn/).
 
 I have published papers at top international venues including SIGGRAPH Asia, CVPR, ICCV, ECCV, ICML, NeurIPS, ICLR and ACL, with <a href='https://scholar.google.com/citations?user=Z8PYhA4AAAAJ' target="_blank"><img src="https://img.shields.io/endpoint?url={{ url | url_encode }}&logo=Google%20Scholar&labelColor=f6f6f6&color=9cf&style=flat&label=citations" alt="Google Scholar citations"></a> <a href='https://scholar.google.com/citations?user=Z8PYhA4AAAAJ' target="_blank"><img src="https://img.shields.io/endpoint?url={{ hurl | url_encode }}&logo=Google%20Scholar&labelColor=f6f6f6&color=9cf&style=flat&label=h-index" alt="Google Scholar h-index"></a>.
-I have organized **6 workshops** and **2 NTIRE challenges** at CVPR, ECCV and AAAI, and given **32 invited talks**, 10 of them at SIGGRAPH Asia, CVPR, ICCV, ICLR and AAAI.
+I have organized **5 workshops**, **1 tutorial** and **2 NTIRE challenges** at CVPR, ECCV and AAAI, and given **30 invited talks**, 9 of them at CVPR, ICCV, ICLR and AAAI, with 2 more upcoming.
 📢 I'm hiring 6-month research interns in [world models](https://www.linkedin.com/jobs/view/4471500956/) and [coding agents](https://www.linkedin.com/jobs/view/4471507743/) in Singapore, and through [Tencent campus recruiting](https://join.qq.com/post_detail.html?postid=1210646470286783493) in China ([details](https://zhuanlan.zhihu.com/p/2070315664162689467)).
 
 # Research {#research}
@@ -36,7 +36,7 @@ I have organized **6 workshops** and **2 NTIRE challenges** at CVPR, ECCV and AA
 # Projects {#projects}
 <div class="pub-filters" id="proj-topic-filters">
   <button class="pub-filter-btn proj-filter-btn active" data-cat="all" onclick="filterProjects('all')">All</button>
-  <button class="pub-filter-btn proj-filter-btn" data-cat="world-model" onclick="filterProjects('world-model')">World Model</button>
+  <button class="pub-filter-btn proj-filter-btn" data-cat="world-model" onclick="filterProjects('world-model')">World Models</button>
   <button class="pub-filter-btn proj-filter-btn" data-cat="gen-vision" onclick="filterProjects('gen-vision')">Generation & Vision</button>
 </div>
 <div class="pub-filters" style="margin-top:4px;">
@@ -214,7 +214,7 @@ function _applyProjFilter() {
           <a class="pill" href="https://github.com/TeaWhiteBro/GameCrafter/blob/main/paper/GameCrafter.pdf">Paper</a>
           <a href="https://github.com/TeaWhiteBro/GameCrafter"><img src="https://img.shields.io/badge/%E2%98%85-6-blue?style=social&logo=github" alt="GitHub stars"></a>
         </div>
-        <span class="sub" style="display:block; margin-top:8px; line-height:1.5;">One prompt builds a multi-gameplay 3D game world; 87.77 overall on a ten-task benchmark, the best of all compared systems.</span>
+        <span class="sub" style="display:block; margin-top:8px; line-height:1.5;">One prompt builds a multi-gameplay 3D game world; best overall score (87.77) on a ten-task benchmark.</span>
       </td>
     </tr>
 
@@ -239,7 +239,7 @@ function _applyProjFilter() {
           <a href="https://github.com/TeaWhiteBro/ActionRoPE"><img src="https://img.shields.io/badge/%E2%98%85-4-blue?style=social&logo=github" alt="GitHub stars"></a>
           <a class="pill" href="https://huggingface.co/teawhite/ActionRoPE">Model</a>
         </div>
-        <span class="sub" style="display:block; margin-top:8px; line-height:1.5;">Encodes actions as world-coordinate rotary positions: 66% less revisit drift than the best baseline, across 1.3B–33B backbones.</span>
+        <span class="sub" style="display:block; margin-top:8px; line-height:1.5;">Encodes actions as world-coordinate rotary positions: 66% less revisit drift than the best baseline, on 1.3B–33B backbones.</span>
       </td>
     </tr>
     <tr class="project-row" data-proj-cat="world-model" data-proj-role="corr-author proj-lead">
@@ -283,10 +283,10 @@ function _applyProjFilter() {
         <div class="links">
           <a class="pill" href="https://danzer1xxxxchan.github.io/H3-World/">Project</a>
           <a class="pill" href="https://arxiv.org/abs/2609.01560">arXiv</a>
-          <a href="https://github.com/Danzer1xxxxChan/H3-World"><img src="https://img.shields.io/badge/%E2%98%85-325-blue?style=social&logo=github" alt="GitHub stars"></a>
+          <a href="https://github.com/Danzer1xxxxChan/H3-World"><img src="https://img.shields.io/badge/%E2%98%85-339-blue?style=social&logo=github" alt="GitHub stars"></a>
           <a class="pill" href="https://mp.weixin.qq.com/s/BzcLaXzD3AAS73LZXtTY6Q">Link</a>
         </div>
-        <span class="sub" style="display:block; margin-top:8px; line-height:1.5;">Turns a video generator's own language understanding into grounded character and camera control, at 0.199% params.</span>
+        <span class="sub" style="display:block; margin-top:8px; line-height:1.5;">Turns a video generator's language understanding into character and camera control with only 0.199% trainable parameters.</span>
       </td>
     </tr>
     <tr class="project-row" data-proj-cat="world-model" data-proj-role="corr-author proj-lead">
@@ -473,7 +473,7 @@ function _applyProjFilter() {
         <span class="sub"><em>HOK Avatar Center</em> • Jul 2024 – Nov 2024</span>
         <p class="kpis">
           <span class="kpi-n">12</span> launches · <span class="kpi-n">98</span> heroes · <span class="kpi-n">2</span> styles · <span class="kpi-n">2</span> Halloween themes<br>
-          <span class="kpi-n">600K+</span> exposures · <span class="kpi-n">60K</span> engagements<br>
+          <span class="kpi-n">600K+</span> impressions · <span class="kpi-n">60K</span> engagements<br>
           Shared as avatars and sticker packs on HOK Camp, VK, X, Instagram, Facebook, WhatsApp and Discord
         </p>
         <div class="links">
@@ -587,6 +587,10 @@ function _applyProjFilter() {
     @media (max-width: 600px) { .pub-views-label { margin-left: 0; width: 100%; } }
     /* 默认只显示 Selected；JS 接管后移除 pubs-initial，无 JS 时也有合理回退 */
     table.pubs-initial tr[data-category]:not([data-category~="selected"]) { display: none; }
+    .pub-note { margin: 2px 0 10px; padding: 8px 12px; border-radius: 8px; background: #f5f8fc; color: #475467; font-size: 13px; line-height: 1.5; }
+    .pub-note[hidden] { display: none; }
+    .pub-note button { margin-left: 8px; border: 1px solid #1772d0; background: #fff; color: #1772d0; border-radius: 999px; padding: 2px 12px; font-size: 12px; font-weight: 600; cursor: pointer; }
+    .pub-note button:hover { background: #eef3fb; }
     .publication-authors { margin: 0; }
     .publication-authors summary { display: block; list-style: none; cursor: pointer; }
     .publication-authors summary::-webkit-details-marker { display: none; }
@@ -648,6 +652,7 @@ function filterPubRole(role) {
 function _applyPubFilter() {
   var tbl = document.getElementById('pub-table');
   if (tbl) { tbl.classList.remove('pubs-initial'); }
+  var shown = 0;
   document.querySelectorAll('tr[data-category]').forEach(function(tr) {
     var cats    = (tr.dataset.category || '').split(' ');
     var viewOk  = _pubView === 'all'
@@ -656,10 +661,29 @@ function _applyPubFilter() {
             : cats.indexOf(_pubView) !== -1);
     var topicOk = _pubTopic === 'all' || cats.indexOf(_pubTopic) !== -1;
     var roleOk  = _pubRole  === 'all' || (tr.dataset.role || '').split(' ').indexOf(_pubRole) !== -1;
-    tr.style.display = (viewOk && topicOk && roleOk) ? '' : 'none';
+    var show = viewOk && topicOk && roleOk;
+    tr.style.display = show ? '' : 'none';
+    if (show) { shown++; }
   });
+  var empty = document.getElementById('pub-empty');
+  if (empty) { empty.hidden = shown > 0; }
+  var wm = document.getElementById('pub-wm-note');
+  if (wm) { wm.hidden = _pubTopic !== 'world-model'; }
+}
+function resetPubFilters() {
+  _pubRole = 'all';
+  document.querySelectorAll('.pub-role-btn').forEach(function(btn) {
+    btn.classList.toggle('active', btn.dataset.role === 'all');
+  });
+  _pubTopic = 'all';
+  document.querySelectorAll('#pub-topic-filters .pub-filter-btn').forEach(function(btn) {
+    btn.classList.toggle('active', btn.dataset.cat === 'all');
+  });
+  filterPubView('all');
 }
 </script>
+<p class="pub-note" id="pub-wm-note" hidden>Game world model papers (Wizard, GameCrafter, GameDirector, WorldMind, StatePlay and more) are listed in <a href="#projects">Projects</a>.</p>
+<p class="pub-note" id="pub-empty" hidden>No papers match these filters.<button type="button" onclick="resetPubFilters()">Reset filters</button></p>
 <table id="pub-table" class="pubs-initial" width="100%" align="center" border="0" cellspacing="0" cellpadding="10">
 <tbody>
 <!-- ############################ Put your publications below this! ####################################-->
@@ -689,7 +713,7 @@ function _applyPubFilter() {
 |
 <a href="https://yyang181.github.io/LatentDance">Project</a>
 <p></p>
-<p>Warps the reference character's own latents along the skeleton instead of sparse-to-dense pose alignment; best FVD on TikTok.</p>
+<p>Warps the reference character's own latents along the skeleton, not sparse-to-dense pose alignment; best FVD on TikTok.</p>
 </td>
 </tr>
 <!-- ###################################################################################################-->
@@ -747,7 +771,7 @@ function _applyPubFilter() {
 |
 <a href="https://wwwtaylor.github.io/StoryEngine">Project</a>
 <p></p>
-<p>Tracks story state across shots so each event carries forward, keeping long multi-shot videos causally coherent and consistent.</p>
+<p>Tracks story state across shots so each event carries forward, keeping long multi-shot videos causally coherent.</p>
 </td>
 </tr>
 <!-- ###################################################################################################-->
@@ -788,7 +812,7 @@ arxiv26_AgenticWM_stop()
   <em>arXiv preprint</em>, 2026<br>
 <a href="https://arxiv.org/abs/2604.22748">arXiv</a>
 |
-<a href="https://github.com/matrix-agent/awesome-agentic-world-modeling"><img src="https://img.shields.io/badge/%E2%98%85-329-blue?style=social&logo=github"></a>
+<a href="https://github.com/matrix-agent/awesome-agentic-world-modeling"><img src="https://img.shields.io/badge/%E2%98%85-337-blue?style=social&logo=github"></a>
 |
 <a href="https://agentic-world-modeling.xyz/">Project</a>
 <p></p>
@@ -817,7 +841,7 @@ arxiv26_AgenticWM_stop()
 |
 <a href="https://eurekaleo.github.io/awesome-ai-for-games/">Project</a>
 <p></p>
-<p>Organizes AI across the whole game lifecycle into six roles &mdash; playing, modeling, designing, building, runtime adaptation and evaluation &mdash; and maps how outputs transfer between them.</p>
+<p>Organizes AI across the game lifecycle into six roles, and maps how outputs transfer between them.</p>
 </td>
 </tr>
 <!-- ###################################################################################################-->
@@ -1064,9 +1088,7 @@ cvpr26_VLM_stop()
   <em>ECCV</em>, 2026, Malmö, Sweden <br>
 <a href="https://arxiv.org/abs/2606.29020">arXiv</a>
 |
-<a href="https://github.com/Jumponthemoon/WeatherVideo"><img src="https://img.shields.io/badge/%E2%98%85-40-blue?style=social&logo=github"></a>
-|
-<a href="https://jumponthemoon.github.io/w-crafter/">Project</a>
+<a href="https://github.com/Jumponthemoon/WeatherCrafter"><img src="https://img.shields.io/badge/%E2%98%85-42-blue?style=social&logo=github"></a>
 <p></p>
 </td>
 </tr>
@@ -2167,7 +2189,7 @@ accv22_defog_stop()
   }
   .section-count strong { color: #1772d0; font-weight: 700; }
 </style>
-<p class="section-count"><strong>6</strong> workshops and <strong>2</strong> NTIRE challenges at CVPR, ECCV and AAAI.</p>
+<p class="section-count"><strong>5</strong> workshops, <strong>1</strong> tutorial and <strong>2</strong> NTIRE challenges at CVPR, ECCV and AAAI.</p>
 <style>
   .talks-table {
     width: 100%;
@@ -2207,6 +2229,7 @@ accv22_defog_stop()
   .talks-table tr[data-talk-cat]:nth-of-type(even) td,
   .organizer-table tr:nth-of-type(even) td { background: #fcfcfd; }
   /* 日期为主、地点为次 */
+  .tag-upcoming { display: inline-block; margin-left: 4px; padding: 1px 6px; border-radius: 4px; background: #eef3fb; color: #1772d0; font-size: 0.78em; font-weight: 600; line-height: 1.4; vertical-align: 1px; white-space: nowrap; }
   .talks-table .dt, .organizer-table .dt { font-weight: 600; color: #344054; }
   .talks-table .vn, .organizer-table .vn { display: inline-block; margin-top: 1px; }
   .talks-table .vn, .organizer-table .vn { color: #98a2b3; font-size: 0.92em; }
@@ -2221,14 +2244,20 @@ accv22_defog_stop()
   }
   .kpis .kpi-n { font-weight: 600; color: #344054; }
 
-  /* 窄屏：日期列允许换行，避免 Organizer 表撑出横向滚动 */
+  /* 窄屏：三列挤不下，改成每行一张小卡片（名称 / 题目 / 日期 · 地点），不再把单词拆成单个字母 */
   @media (max-width: 600px) {
-    /* 表头 .talks-table th 设了 white-space:nowrap，"Date & Venue" 不换行会撑出横向滚动 */
-    .talks-table th { white-space: normal; }
-    .talks-table td, .talks-table th {
-      word-break: break-word;
-      overflow-wrap: anywhere;
-    }
+    .talks-table, .talks-table tbody, .talks-table tr, .talks-table td { display: block; width: 100% !important; box-sizing: border-box; }
+    .talks-table colgroup, .talks-table th { display: none; }
+    .talks-table tr:has(> th) { display: none; }
+    .talks-table tr { padding: 7px 0; border-bottom: 1px solid #f0f0f0; }
+    .talks-table tr.year-row { padding: 0; border-bottom: none; }
+    .talks-table td { padding: 1px 0; border-bottom: none; background: transparent !important; overflow-wrap: break-word; }
+    .talks-table td:first-child { font-weight: 600; }
+    .talks-table td:first-child .inv { font-weight: 400; }
+    .talks-table td:last-child br { display: none; }
+    .talks-table td:last-child .vn::before { content: "\00B7\00A0"; }
+    .talks-table td:last-child .vn { margin-left: 4px; }
+    .talks-table tr[data-talk-cat] td:last-child:not(:has(.vn))::after { display: none; }
   }
 </style>
 <table class="organizer-table talks-table">
@@ -2238,7 +2267,7 @@ accv22_defog_stop()
     <col style="width:14%">
   </colgroup>
   <tr>
-    <th>Workshop</th>
+    <th>Event</th>
     <th>Title</th>
     <th>Date & Venue</th>
   </tr>
@@ -2280,7 +2309,7 @@ accv22_defog_stop()
   </tr>
 
   <tr>
-    <td><a href="https://aaai.org/conference/aaai/aaai-26/tutorial-and-lab-list/" target="_blank">AAAI 2026 Workshop</a></td>
+    <td><a href="https://aaai.org/conference/aaai/aaai-26/tutorial-and-lab-list/" target="_blank">AAAI 2026 Tutorial</a></td>
     <td><a href="https://lixinustc.github.io/GenAI-Agents-for-Low-level-Vision.github.io/" target="_blank">The Application of Generative AI and Intelligent Agents in Low-level Vision</a></td>
     <td><span class="dt">Jan 2026</span><br><span class="vn">Singapore</span></td>
   </tr>
@@ -2293,10 +2322,10 @@ accv22_defog_stop()
 </table>
 
 # Invited Talks {#invited-talks}
-<p class="section-count"><strong>10</strong> talks at SIGGRAPH Asia, CVPR, ICCV, ICLR and AAAI, among <strong>32</strong> invited talks in total.</p>
+<p class="section-count"><strong>9</strong> talks at CVPR, ICCV, ICLR and AAAI, among <strong>30</strong> invited talks given, plus <strong>2</strong> upcoming.</p>
 <div class="pub-filters">
   <button class="pub-filter-btn talk-filter-btn active" data-cat="all" onclick="filterTalks('all')">All</button>
-  <button class="pub-filter-btn talk-filter-btn" data-cat="world-model" onclick="filterTalks('world-model')">World Model</button>
+  <button class="pub-filter-btn talk-filter-btn" data-cat="world-model" onclick="filterTalks('world-model')">World Models</button>
   <button class="pub-filter-btn talk-filter-btn" data-cat="gen-vision" onclick="filterTalks('gen-vision')">Generation & Vision</button>
 </div>
 <script>
@@ -2329,13 +2358,13 @@ function filterTalks(cat) {
   </tr>
    <tr class="year-row" data-year="2027"><td colspan="3">2027</td></tr>
  <tr data-talk-cat="world-model">
-    <td>NUS AI4S Seminar<br><span class="inv">invited by <a href="https://www.physics.nus.edu.sg/faculty/yang-bing/">Bing Yang</a></span></td>
+    <td>NUS AI4S Seminar <span class="tag-upcoming">Upcoming</span><br><span class="inv">invited by <a href="https://www.physics.nus.edu.sg/faculty/yang-bing/">Bing Yang</a></span></td>
     <td>Code World Model for Gaming</td>
     <td><span class="dt">Apr</span><br><span class="vn">Singapore</span></td>
  </tr>
    <tr class="year-row" data-year="2026"><td colspan="3">2026</td></tr>
  <tr data-talk-cat="world-model">
-    <td><a href="https://asia.siggraph.org/2026/">SIGGRAPH Asia 2026</a> Workshop</td>
+    <td><a href="https://asia.siggraph.org/2026/">SIGGRAPH Asia 2026</a> Workshop <span class="tag-upcoming">Upcoming</span></td>
     <td>Toward Playable Generative Worlds: Consistent Mechanics and Controllable Interaction</td>
     <td><span class="dt">Dec</span><br><span class="vn">Kuala Lumpur, Malaysia</span></td>
  </tr>
@@ -2523,7 +2552,7 @@ function filterTalks(cat) {
 # Blogs {#blogs}
 <div class="pub-filters" id="blog-topic-filters">
   <button class="pub-filter-btn blog-filter-btn active" data-cat="all" onclick="filterBlogs('all')">All</button>
-  <button class="pub-filter-btn blog-filter-btn" data-cat="world-model" onclick="filterBlogs('world-model')">World Model</button>
+  <button class="pub-filter-btn blog-filter-btn" data-cat="world-model" onclick="filterBlogs('world-model')">World Models</button>
   <button class="pub-filter-btn blog-filter-btn" data-cat="gen-vision" onclick="filterBlogs('gen-vision')">Generation & Vision</button>
 </div>
 <script>
@@ -2594,7 +2623,7 @@ function filterBlogs(cat) {
 
 # Work and Internship Experience {#work}
 - Nov 2023 – Present: Staff Researcher and Research Lead for World Models, Agentic AI, and AIGC at <img src="/files/tencent.png" alt="Tencent" width="85" height="20"> IEG Global, Singapore.
-- Jun 2023 – Sep 2023: <img src="/files/adobe.png" alt="Adobe" width="20" height="20"> [Adobe Research Intern](https://www.adobe.com/), Creative Intelligence Lab, mentored by [Prof. Connelly Barnes](http://www.connellybarnes.com/work/), [Prof. Eli Shechtman](https://research.adobe.com/person/eli-shechtman/), worked with [Yuqian Zhou](https://yzhouas.github.io/), [Lingzhi Zhang](https://owenzlz.github.io/), [Sohrab Amirghodsi](https://www.linkedin.com/in/sohrab-amirghodsi-a89548a3/), [Eric Kee](https://www.erickee.com/).
+- Jun 2023 – Sep 2023: <img src="/files/adobe.png" alt="Adobe" width="20" height="20"> [Adobe Research Intern](https://www.adobe.com/), Creative Intelligence Lab, mentored by [Dr. Connelly Barnes](http://www.connellybarnes.com/work/), [Dr. Eli Shechtman](https://research.adobe.com/person/eli-shechtman/), worked with [Yuqian Zhou](https://yzhouas.github.io/), [Lingzhi Zhang](https://owenzlz.github.io/), [Sohrab Amirghodsi](https://www.linkedin.com/in/sohrab-amirghodsi-a89548a3/), [Eric Kee](https://www.erickee.com/).
 - Jan 2019 – Jan 2020: Machine Learning Researcher at <img src="/files/biomind.png" alt="Biomind" width="80" height="20">, Singapore, advised by [Prof. Jiashi Feng](https://sites.google.com/site/jshfeng/), worked on Biomedical Image Synthesis, Super-resolution, Tumor Segmentation and Classification, [NeurIPS 2019 Expo demo](https://media.neurips.cc/Conferences/NeurIPS2019/NeurIPS_Expo_Book_2019.pdf).
 
 # Honors and Awards {#awards}
