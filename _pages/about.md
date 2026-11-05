@@ -18,13 +18,13 @@ redirect_from:
 {% assign hurl = gsDataBaseUrl | append: "google-scholar-stats/gs_hindex_shieldsio.json" %}
 <span class='anchor' id='about-me'></span>
 
-I am a Staff Researcher at [Tencent](https://www.tencent.com/en-us/about.html) (青云计划 'Project Up' Talent Programme), where I serve as Research Lead for World Models, Agentic AI, and AIGC for Games. I am also Adjunct Faculty at <img src="/files/NUS.png" alt="NUS" width="42.5" height="20"> [National University of Singapore (NUS), Department of Electrical and Computer Engineering (ECE)](https://cde.nus.edu.sg/ece/).
+I am a Staff Researcher at [Tencent](https://www.tencent.com/en-us/about.html) (青云计划 'Project Up' Talent Programme), where I serve as Research Lead for World Models, Agentic AI, and AIGC for Games. I am also Adjunct Faculty at the <img src="/files/NUS.png" alt="NUS" width="42.5" height="20"> [National University of Singapore (NUS), Department of Electrical and Computer Engineering (ECE)](https://cde.nus.edu.sg/ece/).
 
 I received my Ph.D. from NUS ECE, supervised by [Prof. Robby T. Tan](http://tanrobby.github.io/), and previously interned at <img src="/files/adobe.png" alt="Adobe" width="20" height="20"> [Adobe Research](https://research.adobe.com/), mentored by [Prof. Connelly Barnes](http://www.connellybarnes.com/work/) and [Prof. Eli Shechtman](https://scholar.google.com/citations?user=B_FTboQAAAAJ). I hold an M.Sc. from NUS ECE and a B.Eng. from <img src="/files/UESTC.png" alt="UESTC" width="20.842" height="20"> [UESTC](https://en.uestc.edu.cn/).
 
 I have published papers at top international venues including SIGGRAPH Asia, CVPR, ICCV, ECCV, ICML, NeurIPS, ICLR and ACL, with <a href='https://scholar.google.com/citations?user=Z8PYhA4AAAAJ' target="_blank"><img src="https://img.shields.io/endpoint?url={{ url | url_encode }}&logo=Google%20Scholar&labelColor=f6f6f6&color=9cf&style=flat&label=citations" alt="Google Scholar citations"></a> <a href='https://scholar.google.com/citations?user=Z8PYhA4AAAAJ' target="_blank"><img src="https://img.shields.io/endpoint?url={{ hurl | url_encode }}&logo=Google%20Scholar&labelColor=f6f6f6&color=9cf&style=flat&label=h-index" alt="Google Scholar h-index"></a>.
-I have organized **6 workshops** and **2 NTIRE challenges** at CVPR, ECCV and AAAI, and given **30 invited talks**, 9 of them at CVPR, ICCV, ICLR and AAAI.
-📢 I'm [hiring](https://zhuanlan.zhihu.com/p/2070315664162689467) self-motivated interns.
+I have organized **6 workshops** and **2 NTIRE challenges** at CVPR, ECCV and AAAI, and given **32 invited talks**, 10 of them at SIGGRAPH Asia, CVPR, ICCV, ICLR and AAAI.
+📢 I'm hiring 6-month research interns in [world models](https://www.linkedin.com/jobs/view/4471500956/) and [coding agents](https://www.linkedin.com/jobs/view/4471507743/) in Singapore, and through [Tencent campus recruiting](https://join.qq.com/post_detail.html?postid=1210646470286783493) in China ([details](https://zhuanlan.zhihu.com/p/2070315664162689467)).
 
 # Research {#research}
 1. Game World Models: Persistent State, Mechanics Consistency, and Controllable Agents
@@ -171,6 +171,53 @@ function _applyProjFilter() {
   <tbody>
 
 
+    <!-- Wizard -->
+    <tr class="project-row" data-proj-cat="world-model" data-proj-role="corr-author proj-lead">
+      <td class="thumb">
+        <div class="video-wrap" style="position:relative;">
+          <span class="venue-badge">arXiv 2026</span>
+          <video autoplay loop muted playsinline style="width:100%; height:auto; display:block;">
+            <source src="./files/wizard_demo.mp4" type="video/mp4" />
+          </video>
+        </div>
+      </td>
+      <td class="info">
+        <a href="https://wyzardwu.github.io/wizard/">
+          <span class="papertitle_just">Wizard: Manipulate Any World in Real Time via Agentic Control</span>
+        </a><br>
+        Yuzhe Wu<sup class="eq-contrib">*</sup>, Zijun Lin<sup class="eq-contrib">*</sup>, <strong>Yeying Jin</strong><sup class="corr-lead">†‡</sup><br>
+        <div class="links">
+          <a class="pill" href="https://wyzardwu.github.io/wizard/">Project</a>
+          <a class="pill" href="https://arxiv.org/abs/2610.40339">arXiv</a>
+        </div>
+        <span class="sub" style="display:block; margin-top:8px; line-height:1.5;">Reshape any world in plain language: agents build proxies that a video model renders at 24 FPS in 2 steps.</span>
+      </td>
+    </tr>
+
+    <!-- GameCrafter -->
+    <tr class="project-row" data-proj-cat="world-model" data-proj-role="corr-author proj-lead">
+      <td class="thumb">
+        <div class="video-wrap" style="position:relative;">
+          <span class="venue-badge">Preprint 2026</span>
+          <video autoplay loop muted playsinline style="width:100%; height:auto; display:block;">
+            <source src="./files/gamecrafter_demo.mp4" type="video/mp4" />
+          </video>
+        </div>
+      </td>
+      <td class="info">
+        <a href="https://teawhite.cn/GameCrafter/">
+          <span class="papertitle_just">GameCrafter: An Agentic Framework for Multi-Gameplay Game World Generation</span>
+        </a><br>
+        Zhiyang Deng<sup class="eq-contrib">*</sup>, Xiyao Deng<sup class="eq-contrib">*</sup>, <strong>Yeying Jin</strong><sup class="corr-lead">†‡</sup><br>
+        <div class="links">
+          <a class="pill" href="https://teawhite.cn/GameCrafter/">Project</a>
+          <a class="pill" href="https://github.com/TeaWhiteBro/GameCrafter/blob/main/paper/GameCrafter.pdf">Paper</a>
+          <a href="https://github.com/TeaWhiteBro/GameCrafter"><img src="https://img.shields.io/badge/%E2%98%85-6-blue?style=social&logo=github" alt="GitHub stars"></a>
+        </div>
+        <span class="sub" style="display:block; margin-top:8px; line-height:1.5;">One prompt builds a multi-gameplay 3D game world; 87.77 overall on a ten-task benchmark, the best of all compared systems.</span>
+      </td>
+    </tr>
+
     <!-- ActionRoPE -->
     <tr class="project-row" data-proj-cat="world-model" data-proj-role="corr-author proj-lead">
       <td class="thumb">
@@ -187,7 +234,7 @@ function _applyProjFilter() {
         </a><br>
         Zhiyang Deng, Yuzhe Wu, Zijun Lin, <strong>Yeying Jin</strong><sup class="corr-lead">†‡</sup><br>
         <div class="links">
-          <a class="pill" href="https://teawhite.cn/ActionRoPE/">Project Page</a>
+          <a class="pill" href="https://teawhite.cn/ActionRoPE/">Project</a>
           <a class="pill" href="https://arxiv.org/abs/2610.25861">arXiv</a>
           <a href="https://github.com/TeaWhiteBro/ActionRoPE"><img src="https://img.shields.io/badge/%E2%98%85-4-blue?style=social&logo=github" alt="GitHub stars"></a>
           <a class="pill" href="https://huggingface.co/teawhite/ActionRoPE">Model</a>
@@ -210,7 +257,7 @@ function _applyProjFilter() {
         </a><br>
         Zijun Lin, Zhiyang Deng, Yuzhe Wu, Bihan Wen, <strong>Yeying Jin</strong><sup class="corr-lead">†‡</sup><br>
         <div class="links">
-          <a class="pill" href="https://jimntu.github.io/gamedirector/">Project Page</a>
+          <a class="pill" href="https://jimntu.github.io/gamedirector/">Project</a>
           <a class="pill" href="https://arxiv.org/abs/2609.25652">arXiv</a>
           <a href="https://github.com/Jimntu/GameDirector_code"><img src="https://img.shields.io/badge/%E2%98%85-6-blue?style=social&logo=github" alt="GitHub stars"></a>
           <a class="pill" href="https://huggingface.co/onepiece1999/GameDirector">Model</a>
@@ -234,7 +281,7 @@ function _applyProjFilter() {
         </a><br>
         Danze Chen<sup class="eq-contrib">*</sup>, Zeqing Wang<sup class="eq-contrib">*</sup>, Ziyue Lin, Xingyi Yang<sup class="corr-lead">†</sup>, <strong>Yeying Jin</strong><sup class="corr-lead">†‡</sup><br>
         <div class="links">
-          <a class="pill" href="https://danzer1xxxxchan.github.io/H3-World/">Project Page</a>
+          <a class="pill" href="https://danzer1xxxxchan.github.io/H3-World/">Project</a>
           <a class="pill" href="https://arxiv.org/abs/2609.01560">arXiv</a>
           <a href="https://github.com/Danzer1xxxxChan/H3-World"><img src="https://img.shields.io/badge/%E2%98%85-325-blue?style=social&logo=github" alt="GitHub stars"></a>
           <a class="pill" href="https://mp.weixin.qq.com/s/BzcLaXzD3AAS73LZXtTY6Q">Link</a>
@@ -257,7 +304,7 @@ function _applyProjFilter() {
         </a><br>
         Zhiyang Deng, Boran Zhang, Danze Chen, <strong>Yeying Jin</strong><sup class="corr-lead">†‡</sup><br>
         <div class="links">
-          <a class="pill" href="https://teawhite.cn/worldmind_projectpage/">Project Page</a>
+          <a class="pill" href="https://teawhite.cn/worldmind_projectpage/">Project</a>
           <a class="pill" href="https://arxiv.org/abs/2608.21439">arXiv</a>
           <a href="https://github.com/TeaWhiteBro/WorldMind"><img src="https://img.shields.io/badge/%E2%98%85-11-blue?style=social&logo=github" alt="GitHub stars"></a>
         </div>
@@ -279,7 +326,7 @@ function _applyProjFilter() {
         </a><br>
         Zijun Lin, Zeqing Wang, Cheston Tan, Bihan Wen, <strong>Yeying Jin</strong><sup class="corr-lead">†‡</sup><br>
         <div class="links">
-          <a class="pill" href="https://jimntu.github.io/stateplay_page/">Project Page</a>
+          <a class="pill" href="https://jimntu.github.io/stateplay_page/">Project</a>
           <a class="pill" href="https://arxiv.org/abs/2607.26754">arXiv</a>
           <a href="https://github.com/Jimntu/StatePlay"><img src="https://img.shields.io/badge/%E2%98%85-24-blue?style=social&logo=github" alt="GitHub stars"></a>
           <a class="pill" href="https://huggingface.co/onepiece1999/StatePlay">Model</a>
@@ -303,7 +350,7 @@ function _applyProjFilter() {
         </a><br>
         Zeqing Wang, Danze Chen, Zhaohu Xing, Zizhao Tong, Yinhan Zhang, Xingyi Yang<sup class="corr-lead">†</sup>, <strong>Yeying Jin</strong><sup class="corr-lead">†‡</sup><br>
         <div class="links">
-          <a class="pill" href="https://inv-wzq.github.io/ReactiveGWM/">Project Page</a>
+          <a class="pill" href="https://inv-wzq.github.io/ReactiveGWM/">Project</a>
           <a class="pill" href="https://arxiv.org/abs/2605.15256">arXiv</a>
           <a href="https://github.com/INV-WZQ/ReactiveGWM"><img src="https://img.shields.io/badge/%E2%98%85-102-blue?style=social&logo=github" alt="GitHub stars"></a>
           <a class="pill" href="https://huggingface.co/INV-WZQ/ReactiveGWM-Models">Model</a>
@@ -327,7 +374,7 @@ function _applyProjFilter() {
         </a><br>
         Zizhao Tong, <strong>Yeying Jin</strong><sup class="corr-lead">†‡</sup>, Hongfeng Lai, Zeqing Wang, Zhaohu Xing, Kexu Cheng, Haoran Xu, Zhao Pu, Shangwen Zhu, Ruili Feng, Jian Zhao, Yan Zhang, Hao Tang, Ling Shao<sup class="corr-lead">†</sup><br>
         <div class="links">
-          <a class="pill" href="https://z2tong.github.io/SCOPE/">Project Page</a>
+          <a class="pill" href="https://z2tong.github.io/SCOPE/">Project</a>
           <a class="pill" href="https://arxiv.org/abs/2605.23345">arXiv</a>
           <a href="https://github.com/z2tong/SCOPE"><img src="https://img.shields.io/badge/%E2%98%85-81-blue?style=social&logo=github" alt="GitHub stars"></a>
           <a class="pill" href="https://huggingface.co/zizhaotong/SCOPE">Model</a>
@@ -352,7 +399,7 @@ function _applyProjFilter() {
         </a><br>
         Shangwen Zhu, Qianyu Peng, Zhao Pu, Zhilei Shu, Xiangrui Ke, Zhaohu Xing, Zizhao Tong, Zeqing Wang, Xinyu Cui, Huangji Wang, Jian Zhao, <strong>Yeying Jin</strong><sup class="corr-lead">‡</sup>, Fan Cheng<sup class="corr-lead">†</sup>, Ruili Feng<sup class="corr-lead">†</sup><br>
         <div class="links">
-          <a class="pill" href="https://matrixteam-ai.github.io/pages/Incanation">Project Page</a>
+          <a class="pill" href="https://matrixteam-ai.github.io/pages/Incanation">Project</a>
           <a class="pill" href="https://arxiv.org/abs/2605.18601">arXiv</a>
           <a href="https://github.com/zhushangwen/Incantation"><img src="https://img.shields.io/badge/%E2%98%85-34-blue?style=social&logo=github" alt="GitHub stars"></a>
           <a class="pill" href="https://www.reactor.inc/incantation">Play</a>
@@ -371,9 +418,9 @@ function _applyProjFilter() {
       </td>
       <td class="info">
         <a href="https://camp.honorofkings.com/h5/app/index.html#/poster-design/home">
-          <span class="papertitle_just">Honor of Kings &mdash; AI Portrait, Detective &amp; Esports Posters</span>
+          <span class="papertitle_just">Honor of Kings (HOK) &mdash; AI Portrait, Detective &amp; Esports Posters</span>
         </a><br>
-        <span class="sub"><em>HOK Flowborn Dimensional Editor</em> &bull; 2025.06&ndash;Present</span>
+        <span class="sub"><em>HOK Flowborn Dimensional Editor</em> &bull; Jun 2025 &ndash; Present</span>
         <p class="kpis">
           <span class="kpi-n">22.5K</span> players &middot; <span class="kpi-n">2.1M</span> posters generated<br>
           Shipped in-game &mdash; Battle Loading, In-Game Hero, In-Game Popup &middot; <span class="kpi-n">80%</span> in-game display<br>
@@ -396,13 +443,13 @@ function _applyProjFilter() {
       </td>
       <td class="info">
         <a href="https://camp.honorofkings.com/studio?creator-tools=%2Fout%2Fhok-tools#/create-tools">
-          <span class="papertitle_just">Honor of Kings (HOK) AIUGC Online Hero Generation</span>
+          <span class="papertitle_just">Honor of Kings &mdash; AIUGC Online Hero Generation</span>
         </a><br>
-        <span class="sub"><em>HOK Creator Studio</em> • 2024.12–Present</span>
+        <span class="sub"><em>HOK Creator Studio</em> • Dec 2024 – Present</span>
         <p class="kpis">
-          <span class="kpi-n">58K</span> Generated AI Images · <span class="kpi-n">22%</span> Save Rate<br>
-          <span class="kpi-n">35K+</span> Active Users<br>
-          <span class="kpi-n">98</span> Heroes · <span class="kpi-n">12</span> Styles · <span class="kpi-n">13s</span> Generation Time
+          <span class="kpi-n">58K</span> AI images generated · <span class="kpi-n">22%</span> save rate<br>
+          <span class="kpi-n">35K+</span> active users<br>
+          <span class="kpi-n">98</span> heroes · <span class="kpi-n">12</span> styles · <span class="kpi-n">13s</span> generation time
         </p>
         <div class="links">
           <span class="label">Demo:</span>
@@ -421,14 +468,13 @@ function _applyProjFilter() {
       </td>
       <td class="info">
         <a href="https://camp.honorofkings.com/studio?creator-tools=%2Fout%2Fhok-tools#/library?oneLevelTabs=51">
-          <span class="papertitle_just">Honor of Kings (HOK) AIPGC Avatars/Stickers</span>
+          <span class="papertitle_just">Honor of Kings &mdash; AIPGC Avatars &amp; Stickers</span>
         </a><br>
-        <span class="sub"><em>HOK Avatar Center</em> • 2024.07–2024.11</span>
+        <span class="sub"><em>HOK Avatar Center</em> • Jul 2024 – Nov 2024</span>
         <p class="kpis">
-          <span class="kpi-n">12×</span> Launch · <span class="kpi-n">98</span> Heroes · <span class="kpi-n">2</span> Styles · <span class="kpi-n">2</span> Halloween Topics <br>
-          <span class="kpi-n">600K+</span> Exposure · <span class="kpi-n">60K</span> Engagements <br>
-          Available on HOK Camp, VK, X, Instagram, Facebook,<br>
-          WhatsApp, Discord, Sticker
+          <span class="kpi-n">12</span> launches · <span class="kpi-n">98</span> heroes · <span class="kpi-n">2</span> styles · <span class="kpi-n">2</span> Halloween themes<br>
+          <span class="kpi-n">600K+</span> exposures · <span class="kpi-n">60K</span> engagements<br>
+          Shared as avatars and sticker packs on HOK Camp, VK, X, Instagram, Facebook, WhatsApp and Discord
         </p>
         <div class="links">
           <span class="label">Demo:</span>
@@ -637,11 +683,11 @@ function _applyPubFilter() {
   Yixin Yang<sup class="eq-contrib">*</sup>, <strong>Yeying Jin</strong><sup class="eq-contrib">*</sup>, Jiawei Zhang, Long Sun, Xu Cheng<sup class="corr-lead">‡</sup>, Jinshan Pan<sup class="corr-lead">†</sup>
   <br>
   <em>SIGGRAPH Asia</em>, 2026, Kuala Lumpur, Malaysia <br>
-<a href="https://github.com/yyang181/LatentDance/blob/main/assets/paper/LatentDance_paper.pdf">paper</a>
+<a href="https://github.com/yyang181/LatentDance/blob/main/assets/paper/LatentDance_paper.pdf">Paper</a>
 |
 <a href="https://github.com/yyang181/LatentDance"><img src="https://img.shields.io/badge/%E2%98%85-5-blue?style=social&logo=github"></a>
 |
-<a href="https://yyang181.github.io/LatentDance">Project Page</a>
+<a href="https://yyang181.github.io/LatentDance">Project</a>
 <p></p>
 <p>Warps the reference character's own latents along the skeleton instead of sparse-to-dense pose alignment; best FVD on TikTok.</p>
 </td>
@@ -669,7 +715,7 @@ function _applyPubFilter() {
   <em>ACM MM</em>, 2026, Rio de Janeiro, Brazil <br>
 <a href="https://arxiv.org/abs/2609.04120">arXiv</a>
 |
-<a href="https://boomvvt.github.io/boomvvt/">Project Page</a>
+<a href="https://boomvvt.github.io/boomvvt/">Project</a>
 <p></p>
 <p>Mask-free video try-on learned from image-level pseudo data; released with the OmniView dataset.</p>
 </td>
@@ -699,7 +745,7 @@ function _applyPubFilter() {
 |
 <a href="https://github.com/wwwTaylor/StoryEngine"><img src="https://img.shields.io/badge/%E2%98%85-19-blue?style=social&logo=github"></a>
 |
-<a href="https://wwwtaylor.github.io/StoryEngine">Project Page</a>
+<a href="https://wwwtaylor.github.io/StoryEngine">Project</a>
 <p></p>
 <p>Tracks story state across shots so each event carries forward, keeping long multi-shot videos causally coherent and consistent.</p>
 </td>
@@ -744,7 +790,7 @@ arxiv26_AgenticWM_stop()
 |
 <a href="https://github.com/matrix-agent/awesome-agentic-world-modeling"><img src="https://img.shields.io/badge/%E2%98%85-329-blue?style=social&logo=github"></a>
 |
-<a href="https://agentic-world-modeling.xyz/">Project Page</a>
+<a href="https://agentic-world-modeling.xyz/">Project</a>
 <p></p>
 </td>
 </tr>
@@ -769,7 +815,7 @@ arxiv26_AgenticWM_stop()
 |
 <a href="https://github.com/Eurekaleo/awesome-ai-for-games"><img src="https://img.shields.io/github/stars/Eurekaleo/awesome-ai-for-games?style=social&label=%E2%98%85"></a>
 |
-<a href="https://eurekaleo.github.io/awesome-ai-for-games/">Project Page</a>
+<a href="https://eurekaleo.github.io/awesome-ai-for-games/">Project</a>
 <p></p>
 <p>Organizes AI across the whole game lifecycle into six roles &mdash; playing, modeling, designing, building, runtime adaptation and evaluation &mdash; and maps how outputs transfer between them.</p>
 </td>
@@ -826,7 +872,7 @@ arxiv26_AgenticWM_stop()
   |
   <a href="https://github.com/gulucaptain/CameraNoise"><img src="https://img.shields.io/badge/%E2%98%85-221-blue?style=social&logo=github"></a>
   |
-  <a href="https://gulucaptain.github.io/CameraNoise/">Project Page</a>
+  <a href="https://gulucaptain.github.io/CameraNoise/">Project</a>
   <p></p>
 </td>
 </tr>
@@ -855,7 +901,7 @@ arxiv26_AgenticWM_stop()
   |
   <a href="https://github.com/gulucaptain/Camera-Transformer-1"><img src="https://img.shields.io/badge/%E2%98%85-314-blue?style=social&logo=github"></a>
   |
-  <a href="https://gulucaptain.github.io/Camera-Transformer-1/">Project Page</a>
+  <a href="https://gulucaptain.github.io/Camera-Transformer-1/">Project</a>
   <p></p>
 </td>
 </tr>
@@ -1020,7 +1066,7 @@ cvpr26_VLM_stop()
 |
 <a href="https://github.com/Jumponthemoon/WeatherVideo"><img src="https://img.shields.io/badge/%E2%98%85-40-blue?style=social&logo=github"></a>
 |
-<a href="https://jumponthemoon.github.io/w-crafter/">Project Page</a>
+<a href="https://jumponthemoon.github.io/w-crafter/">Project</a>
 <p></p>
 </td>
 </tr>
@@ -1057,7 +1103,7 @@ aaai26_UniFit_stop()
 |
 <a href="https://github.com/zwplus/UniFit"><img src="https://img.shields.io/badge/%E2%98%85-12-blue?style=social&logo=github"></a>
 | 
-<a href="./files/aaai26_UniFit_bibtex.txt">bibtex</a>
+<a href="./files/aaai26_UniFit_bibtex.txt">BibTeX</a>
 <p></p>
 </td>
 </tr>
@@ -1095,7 +1141,7 @@ tcsvt25_MMGT_stop()
 |
 <a href="https://github.com/SIA-IDE/MMGT"><img src="https://img.shields.io/badge/%E2%98%85-15-blue?style=social&logo=github"></a> 
 | 
-<a href="./files/tcsvt25_MMGT_bibtex.txt">bibtex</a>
+<a href="./files/tcsvt25_MMGT_bibtex.txt">BibTeX</a>
 <p></p>
 </td>
 </tr>
@@ -1132,15 +1178,15 @@ arxiv25_PosterCraft_stop()
 |
 <a href="https://github.com/Ephemeral182/PosterCraft"><img src="https://img.shields.io/badge/%E2%98%85-546-blue?style=social&logo=github"></a>
 | 
-<a href="./files/arxiv25_PosterCraft_bibtex.txt">bibtex</a>
+<a href="./files/arxiv25_PosterCraft_bibtex.txt">BibTeX</a>
 |
-<a href="https://ephemeral182.github.io/PosterCraft/">Project Page</a>  
+<a href="https://ephemeral182.github.io/PosterCraft/">Project</a>  
 |
-<a href="https://huggingface.co/spaces/Ephemeral182/PosterCraft">online demo</a>    
+<a href="https://huggingface.co/spaces/Ephemeral182/PosterCraft">Demo</a>    
 |
-<a href="https://www.youtube.com/watch?v=92wMU4D7qx0">video</a>
+<a href="https://www.youtube.com/watch?v=92wMU4D7qx0">Video</a>
 |
-<a href="https://mp.weixin.qq.com/s/gq6DwohKP0z333OSDRe7Xw">link</a>  
+<a href="https://mp.weixin.qq.com/s/gq6DwohKP0z333OSDRe7Xw">Link</a>  
 <p></p>
 </td>
 </tr>
@@ -1164,9 +1210,9 @@ arxiv25_PosterCraft_stop()
 <em>Pattern Recognition (PR)</em>, 2025 <br>
 <a href="https://arxiv.org/abs/2504.17457">arXiv</a>
 | 
-<a href="./files/pr25_Attacks_bibtex.txt">bibtex</a>  
+<a href="./files/pr25_Attacks_bibtex.txt">BibTeX</a>  
 |
-<a href="https://mp.weixin.qq.com/s/xviRfqXDHGhBUOHhYuiy9A">link</a> 
+<a href="https://mp.weixin.qq.com/s/xviRfqXDHGhBUOHhYuiy9A">Link</a> 
 <p></p>
 </td>
 </tr>
@@ -1231,9 +1277,9 @@ iccv25_GenHaze_stop()
  Sixiang Chen, Tian Ye, Yunlong Lin, <strong>Yeying Jin</strong>, Yijun Yang, Haoyu Chen, Jianyu Lai, Song Fei, Zhaohu Xing, Fugee Tsung, Lei Zhu<sup class="corr-lead">†</sup>
   <br>
 <em>ICCV</em>, 2025, Honolulu, USA <br>
-<a href="https://openaccess.thecvf.com/content/ICCV2025/papers/Chen_GenHaze_Pioneering_Controllable_One-Step_Realistic_Haze_Generation_for_Real-World_Dehazing_ICCV_2025_paper.pdf">paper</a>
+<a href="https://openaccess.thecvf.com/content/ICCV2025/papers/Chen_GenHaze_Pioneering_Controllable_One-Step_Realistic_Haze_Generation_for_Real-World_Dehazing_ICCV_2025_paper.pdf">Paper</a>
 | 
-<a href="./files/iccv25_GenHaze_bibtex.txt">bibtex</a>  
+<a href="./files/iccv25_GenHaze_bibtex.txt">BibTeX</a>  
 <p></p>
 </td>
 </tr>
@@ -1269,7 +1315,7 @@ acm25_DSDNet_stop()
 |
 <a href="https://github.com/FangpuZhang/DSDNet-official"><img src="https://img.shields.io/badge/%E2%98%85-3-blue?style=social&logo=github"></a>
 |
-<a href="./files/acm25_DSDNet_bibtex.txt">bibtex</a>   
+<a href="./files/acm25_DSDNet_bibtex.txt">BibTeX</a>   
 <p></p>
 </td>
 </tr>
@@ -1306,13 +1352,13 @@ cvpr25_JarvisIR_stop()
 |
 <a href="https://github.com/LYL1015/JarvisIR"><img src="https://img.shields.io/badge/%E2%98%85-247-blue?style=social&logo=github"></a>
 | 
-<a href="./files/cvpr25_JarvisIR_bibtex.txt">bibtex</a>
+<a href="./files/cvpr25_JarvisIR_bibtex.txt">BibTeX</a>
 |
-<a href="https://cvpr2025-jarvisir.github.io/">Project Page</a>  
+<a href="https://cvpr2025-jarvisir.github.io/">Project</a>  
 |
-<a href="https://huggingface.co/spaces/LYL1015/JarvisIR">online demo</a>  
+<a href="https://huggingface.co/spaces/LYL1015/JarvisIR">Demo</a>  
 |
-<a href="https://mp.weixin.qq.com/s/zYhqjMfThwwTK9nhXwYu4g">link</a>    
+<a href="https://mp.weixin.qq.com/s/zYhqjMfThwwTK9nhXwYu4g">Link</a>    
 <p></p>
 </td>
 </tr>
@@ -1380,9 +1426,9 @@ ntire26_rd_stop()
   |
   <a href="https://github.com/jinyeying/RaindropClarity"><img src="https://img.shields.io/badge/%E2%98%85-76-blue?style=social&logo=github"></a>
   |
-  <a href="https://www.codabench.org/competitions/12808/">competition</a>
+  <a href="https://www.codabench.org/competitions/12808/">Competition</a>
   |
-  <a href="https://lixinustc.github.io/CVPR-NTIRE2026-RainDrop-Competition.github.io/">challenge</a>
+  <a href="https://lixinustc.github.io/CVPR-NTIRE2026-RainDrop-Competition.github.io/">Challenge</a>
   <p></p>
 </td>
 </tr>
@@ -1418,15 +1464,15 @@ ntire25_rd_stop()
   |
   <a href="https://github.com/jinyeying/RaindropClarity"><img src="https://img.shields.io/badge/%E2%98%85-76-blue?style=social&logo=github"></a>
   |
-  <a href="./files/ntire25_raindropclarify_bibtex.txt">bibtex</a>
+  <a href="./files/ntire25_raindropclarify_bibtex.txt">BibTeX</a>
   |
-  <a href="https://github.com/jinyeying/RaindropClarity/blob/main/poster_slides/RaindropClarity_PPT.pdf">slides</a>
+  <a href="https://github.com/jinyeying/RaindropClarity/blob/main/poster_slides/RaindropClarity_PPT.pdf">Slides</a>
   |
-  <a href="https://youtu.be/YaPL0dI5l0U?si=pVniAaheEXsf5CNW">video</a>
+  <a href="https://youtu.be/YaPL0dI5l0U?si=pVniAaheEXsf5CNW">Video</a>
   |
-  <a href="https://codalab.lisn.upsaclay.fr/competitions/21345">competition</a>
+  <a href="https://codalab.lisn.upsaclay.fr/competitions/21345">Competition</a>
   |
-  <a href="https://lixinustc.github.io/CVPR-NTIRE2025-RainDrop-Competition.github.io/">challenge</a>
+  <a href="https://lixinustc.github.io/CVPR-NTIRE2025-RainDrop-Competition.github.io/">Challenge</a>
   <p></p>
 </td>
 </tr>
@@ -1462,17 +1508,17 @@ eccv24_rd_stop()
   |
   <a href="https://github.com/jinyeying/RaindropClarity"><img src="https://img.shields.io/badge/%E2%98%85-76-blue?style=social&logo=github"></a>
   |
-  <a href="./files/eccv24_raindropclarify_bibtex.txt">bibtex</a>
+  <a href="./files/eccv24_raindropclarify_bibtex.txt">BibTeX</a>
   |
-  <a href="https://github.com/jinyeying/RaindropClarity/blob/main/poster_slides/RaindropClarity_poster.pdf">poster</a>
+  <a href="https://github.com/jinyeying/RaindropClarity/blob/main/poster_slides/RaindropClarity_poster.pdf">Poster</a>
   |
-  <a href="https://github.com/jinyeying/RaindropClarity/blob/main/poster_slides/RaindropClarity_PPT.pdf">slides</a>
+  <a href="https://github.com/jinyeying/RaindropClarity/blob/main/poster_slides/RaindropClarity_PPT.pdf">Slides</a>
   |
-  <a href="https://www.youtube.com/watch?v=LSGvCuT46XU">video</a>
+  <a href="https://www.youtube.com/watch?v=LSGvCuT46XU">Video</a>
   |
-  <a href="https://codalab.lisn.upsaclay.fr/competitions/21345">competition</a>
+  <a href="https://codalab.lisn.upsaclay.fr/competitions/21345">Competition</a>
   |
-  <a href="https://lixinustc.github.io/CVPR-NTIRE2025-RainDrop-Competition.github.io/">challenge</a>
+  <a href="https://lixinustc.github.io/CVPR-NTIRE2025-RainDrop-Competition.github.io/">Challenge</a>
   <p></p>
 </td>
 </tr>
@@ -1506,7 +1552,7 @@ acl25_hscr_stop()
   <em>ACL</em>, 2025, Vienna, Austria <br>
   <a href="https://arxiv.org/abs/2506.00805">arXiv</a>
   |
-  <a href="./files/HSCR25_bibtex.txt">bibtex</a>
+  <a href="./files/HSCR25_bibtex.txt">BibTeX</a>
   <p></p>
 </td>
 </tr>
@@ -1540,7 +1586,7 @@ acl25_vqa_stop()
   <em>ACL</em>, 2025, Vienna, Austria <br>
   <a href="https://arxiv.org/abs/2506.00806">arXiv</a>
   |
-  <a href="./files/VQA25_bibtex.txt">bibtex</a>
+  <a href="./files/VQA25_bibtex.txt">BibTeX</a>
   <p></p>
 </td>
 </tr>
@@ -1574,7 +1620,7 @@ arxiv24_dpo_stop()
   <em>IJCAI</em>, 2025, Montreal, Canada <br>
   <a href="https://arxiv.org/abs/2410.15334">arXiv</a>
   |
-  <a href="./files/MFDPO24_bibtex.txt">bibtex</a>
+  <a href="./files/MFDPO24_bibtex.txt">BibTeX</a>
   <p></p>
 </td>
 </tr>
@@ -1610,7 +1656,7 @@ arxiv24_CGSAM_stop()
   |
   <a href="https://github.com/jiangsongtao/VTprompt"><img src="https://img.shields.io/badge/%E2%98%85-4-blue?style=social&logo=github"></a>
   |
-  <a href="./files/CGSAM24_bibtex.txt">bibtex</a>
+  <a href="./files/CGSAM24_bibtex.txt">BibTeX</a>
   <p></p>
 </td>
 </tr>
@@ -1646,7 +1692,7 @@ emnlp24_moe_stop()
   |
   <a href="https://github.com/jiangsongtao/Med-MoE"><img src="https://img.shields.io/badge/%E2%98%85-158-blue?style=social&logo=github"></a>
   |
-  <a href="./files/emnlp24_moe_bibtex.txt">bibtex</a>
+  <a href="./files/emnlp24_moe_bibtex.txt">BibTeX</a>
   <p></p>
 </td>
 </tr>
@@ -1678,9 +1724,9 @@ eccv24_dualrain_stop()
   Tingting Chen<sup class="eq-contrib">*</sup>, Beibei Lin<sup class="eq-contrib">*</sup>, <strong>Yeying Jin</strong><sup class="eq-contrib">*</sup>, Wending Yan, Wei Ye, Yuan Yuan, Robby T. Tan
   <br>
 <em>ECCV</em>, 2024, Milan, Italy <br>
-<a href="https://www.ecva.net/papers/eccv_2024/papers_ECCV/papers/08521.pdf">paper</a>
+<a href="https://www.ecva.net/papers/eccv_2024/papers_ECCV/papers/08521.pdf">Paper</a>
 |
-<a href="./files/eccv24_dualrain_bibtex.txt">bibtex</a>
+<a href="./files/eccv24_dualrain_bibtex.txt">BibTeX</a>
 <p></p>
 </td>
 </tr>
@@ -1716,7 +1762,7 @@ eccv24_sr_stop()
 |
 <a href="https://github.com/lixinustc/UCIP_MLP_source_code/tree/main"><img src="https://img.shields.io/badge/%E2%98%85-5-blue?style=social&logo=github"></a>
 |
-<a href="./files/eccv24_ucip_bibtex.txt">bibtex</a>
+<a href="./files/eccv24_ucip_bibtex.txt">BibTeX</a>
 <p></p>
 </td>
 </tr>
@@ -1752,9 +1798,9 @@ submit24_nighthaze_stop()
 |
 <a href="https://github.com/bb12346/nighthaze_codes"><img src="https://img.shields.io/badge/%E2%98%85-10-blue?style=social&logo=github"></a> 
 |
-<a href="./files/submit24_nighthaze_bibtex.txt">bibtex</a> 
+<a href="./files/submit24_nighthaze_bibtex.txt">BibTeX</a> 
 |
-<a href="https://bb12346.github.io/NightHaze/">Project Page</a>  
+<a href="https://bb12346.github.io/NightHaze/">Project</a>  
 <p></p>
 </td>
 </tr>
@@ -1790,7 +1836,7 @@ cvpr24_sr_stop()
 |
 <a href="https://github.com/lbc12345/SeD"><img src="https://img.shields.io/badge/%E2%98%85-163-blue?style=social&logo=github"></a>
 |
-<a href="./files/cvpr24_sr_bibtex.txt">bibtex</a>
+<a href="./files/cvpr24_sr_bibtex.txt">BibTeX</a>
 <p></p>
 </td>
 </tr>
@@ -1826,13 +1872,13 @@ aaai24_des3_stop()
 |
 <a href="https://github.com/jinyeying/DeS3_Deshadow"><img src="https://img.shields.io/badge/%E2%98%85-26-blue?style=social&logo=github"></a>
 |
-<a href="./files/submit23_shadowdiffusion_bibtex.txt">bibtex</a>
+<a href="./files/submit23_shadowdiffusion_bibtex.txt">BibTeX</a>
 |
-<a href="https://ojs.aaai.org/index.php/AAAI/article/view/28041">paper</a>
+<a href="https://ojs.aaai.org/index.php/AAAI/article/view/28041">Paper</a>
 |
-<a href="https://www.dropbox.com/scl/fi/tutat8lsd2qc172tvq0ak/DeS3_poster.pdf?rlkey=71arx5ph6cnqez6yclqtmolay&dl=0">poster</a>
+<a href="https://www.dropbox.com/scl/fi/tutat8lsd2qc172tvq0ak/DeS3_poster.pdf?rlkey=71arx5ph6cnqez6yclqtmolay&dl=0">Poster</a>
 |  
-<a href="https://www.dropbox.com/scl/fi/x0hup1n9veohk6olc8j5e/DeS3_slides.pdf?rlkey=kquyhmx67lrs2st52324283o5&dl=0">slides</a>
+<a href="https://www.dropbox.com/scl/fi/x0hup1n9veohk6olc8j5e/DeS3_slides.pdf?rlkey=kquyhmx67lrs2st52324283o5&dl=0">Slides</a>
 <p></p>
 <p>The first diffusion-based shadow removal method, robust to hard, soft and self shadows.</p>
 </td>
@@ -1867,9 +1913,9 @@ aaai24_nightrain_stop()
 <em>AAAI</em>, 2024, Vancouver, Canada <br>
 <a href="https://arxiv.org/abs/2401.00729">arXiv</a>
 |
-<a href="./files/aaai24_nightrain_bibtex.txt">bibtex</a>
+<a href="./files/aaai24_nightrain_bibtex.txt">BibTeX</a>
 |
-<a href="https://www.dropbox.com/scl/fi/pe8qn2cw9lb90shfxhxp5/nightrain_poster.pdf?rlkey=dzr1wtdyxc9aq4wlc1pnucr3y&dl=0">poster</a>
+<a href="https://www.dropbox.com/scl/fi/pe8qn2cw9lb90shfxhxp5/nightrain_poster.pdf?rlkey=dzr1wtdyxc9aq4wlc1pnucr3y&dl=0">Poster</a>
 <p></p>
 </td>
 </tr>
@@ -1905,23 +1951,23 @@ eccv22_nightenhance_stop()
 |
 <a href="https://github.com/jinyeying/night-enhancement"><img src="https://img.shields.io/badge/%E2%98%85-467-blue?style=social&logo=github"></a>
 |
-<a href="./files/eccv22_nightenhance_bibtex.txt">bibtex</a>
+<a href="./files/eccv22_nightenhance_bibtex.txt">BibTeX</a>
 |  
-<a href="https://www.ecva.net/papers/eccv_2022/papers_ECCV/papers/136970396.pdf">paper</a>
+<a href="https://www.ecva.net/papers/eccv_2022/papers_ECCV/papers/136970396.pdf">Paper</a>
 |
-<a href="https://www.ecva.net/papers/eccv_2022/papers_ECCV/papers/136970396-supp.pdf">supp</a>  
+<a href="https://www.ecva.net/papers/eccv_2022/papers_ECCV/papers/136970396-supp.pdf">Supp</a>  
 |
-<a href="https://github.com/jinyeying/night-enhancement/blob/main/poster_slides/0982_poster.pdf">poster</a>
+<a href="https://github.com/jinyeying/night-enhancement/blob/main/poster_slides/0982_poster.pdf">Poster</a>
 |
-<a href="https://github.com/jinyeying/night-enhancement/blob/main/poster_slides/0982_slides.pdf">slides</a>
+<a href="https://github.com/jinyeying/night-enhancement/blob/main/poster_slides/0982_slides.pdf">Slides</a>
 |
-<a href="https://www.youtube.com/watch?v=0_3RiwQ8u20">video</a>
+<a href="https://www.youtube.com/watch?v=0_3RiwQ8u20">Video</a>
 |
-<a href="https://www.dropbox.com/sh/ro8fs629ldebzc2/AAD1BnNSR51_tCq7DVaLSC3Fa/light-effects?dl=0&subfolder_nav_tracking=1">data</a>
+<a href="https://www.dropbox.com/sh/ro8fs629ldebzc2/AAD1BnNSR51_tCq7DVaLSC3Fa/light-effects?dl=0&subfolder_nav_tracking=1">Data</a>
 |
-<a href="https://mp.weixin.qq.com/s/5wjV6R95SrQHXxqMnENAAw">link</a> 
+<a href="https://mp.weixin.qq.com/s/5wjV6R95SrQHXxqMnENAAw">Link</a> 
 |
-<a href="https://replicate.com/cjwbw/night-enhancement">online demo</a> 
+<a href="https://replicate.com/cjwbw/night-enhancement">Demo</a> 
 <p></p>
 <p>Unsupervised night image enhancement that boosts low-light regions while suppressing glare and glow.</p>
 </td>
@@ -1958,17 +2004,17 @@ iccv21_dcshadownet_stop()
 |  
 <a href="https://github.com/jinyeying/DC-ShadowNet-Hard-and-Soft-Shadow-Removal"><img src="https://img.shields.io/badge/%E2%98%85-256-blue?style=social&logo=github"></a>
 |  
-<a href="./files/iccv21_shadow_bibtex.txt">bibtex</a>
+<a href="./files/iccv21_shadow_bibtex.txt">BibTeX</a>
 |
-<a href="https://openaccess.thecvf.com/content/ICCV2021/papers/Jin_DC-ShadowNet_Single-Image_Hard_and_Soft_Shadow_Removal_Using_Unsupervised_Domain-Classifier_ICCV_2021_paper.pdf">paper</a>
+<a href="https://openaccess.thecvf.com/content/ICCV2021/papers/Jin_DC-ShadowNet_Single-Image_Hard_and_Soft_Shadow_Removal_Using_Unsupervised_Domain-Classifier_ICCV_2021_paper.pdf">Paper</a>
 |
-<a href="https://openaccess.thecvf.com/content/ICCV2021/supplemental/Jin_DC-ShadowNet_Single-Image_Hard_ICCV_2021_supplemental.pdf">supp</a>
+<a href="https://openaccess.thecvf.com/content/ICCV2021/supplemental/Jin_DC-ShadowNet_Single-Image_Hard_ICCV_2021_supplemental.pdf">Supp</a>
 |
-<a href="https://github.com/jinyeying/DC-ShadowNet-Hard-and-Soft-Shadow-Removal/blob/main/poster_slides/DC-ShadowNet_poster.pdf">poster</a>
+<a href="https://github.com/jinyeying/DC-ShadowNet-Hard-and-Soft-Shadow-Removal/blob/main/poster_slides/DC-ShadowNet_poster.pdf">Poster</a>
 |
-<a href="https://github.com/jinyeying/DC-ShadowNet-Hard-and-Soft-Shadow-Removal/blob/main/poster_slides/DC-ShadowNet_slides.pdf">slides</a>
+<a href="https://github.com/jinyeying/DC-ShadowNet-Hard-and-Soft-Shadow-Removal/blob/main/poster_slides/DC-ShadowNet_slides.pdf">Slides</a>
 |
-<a href="https://www.youtube.com/watch?v=NGftPijWLGA">video</a>
+<a href="https://www.youtube.com/watch?v=NGftPijWLGA">Video</a>
 <p></p>
 <p>The first unsupervised method to remove both hard and soft shadows from a single image.</p>
 </td>
@@ -2004,15 +2050,15 @@ acmmm23_nightdehaze_stop()
 |
 <a href="https://github.com/jinyeying/nighttime_dehaze"><img src="https://img.shields.io/badge/%E2%98%85-186-blue?style=social&logo=github"></a>
 |
-<a href="./files/acmmm23_nightdehaze_bibtex.txt">bibtex</a>
+<a href="./files/acmmm23_nightdehaze_bibtex.txt">BibTeX</a>
 |
-<a href="https://dl.acm.org/doi/10.1145/3581783.3611884">paper</a>
+<a href="https://dl.acm.org/doi/10.1145/3581783.3611884">Paper</a>
 |  
-<a href="https://www.dropbox.com/scl/fi/2wo8q4y2la58a3f2kvum0/0859_poster.pdf?rlkey=7x8jbdh0o550r8pvzqugt4szs&dl=0">poster</a>
+<a href="https://www.dropbox.com/scl/fi/2wo8q4y2la58a3f2kvum0/0859_poster.pdf?rlkey=7x8jbdh0o550r8pvzqugt4szs&dl=0">Poster</a>
 |
-<a href="https://www.dropbox.com/scl/fi/z0jn6qvr1yo8snlctg67g/0859_slides.pdf?rlkey=5g9j15xz180ayw8u3f0rwb6d2&st=y78ih372&dl=0">slides</a>
+<a href="https://www.dropbox.com/scl/fi/z0jn6qvr1yo8snlctg67g/0859_slides.pdf?rlkey=5g9j15xz180ayw8u3f0rwb6d2&st=y78ih372&dl=0">Slides</a>
 | 
-<a href="https://www.dropbox.com/sh/7qzmb3y9akejape/AABYf2ZAqn_5vmPsOPg7KqoMa?dl=0">data</a>  
+<a href="https://www.dropbox.com/sh/7qzmb3y9akejape/AABYf2ZAqn_5vmPsOPg7KqoMa?dl=0">Data</a>  
 <p></p>
 <p>The first learning-based method to remove nighttime haze and glow jointly, guided by the APSF.</p>
 </td>
@@ -2049,13 +2095,13 @@ aaai23_reflectance_stop()
 |
 <a href="https://github.com/jinyeying/S-Aware-network"><img src="https://img.shields.io/badge/%E2%98%85-89-blue?style=social&logo=github"></a>
 |
-<a href="./files/aaai23_reflectance_bibtex.txt">bibtex</a> 
+<a href="./files/aaai23_reflectance_bibtex.txt">BibTeX</a> 
 |
-<a href="https://ojs.aaai.org/index.php/AAAI/article/view/25188">paper</a> 
+<a href="https://ojs.aaai.org/index.php/AAAI/article/view/25188">Paper</a> 
 |  
-<a href="https://www.dropbox.com/s/epc69nk2aqsdi7v/SAware_poster.pdf?dl=0">poster</a>
+<a href="https://www.dropbox.com/s/epc69nk2aqsdi7v/SAware_poster.pdf?dl=0">Poster</a>
 |
-<a href="https://www.dropbox.com/s/7f3j2d5ugifpftv/SAware_ppt.pdf?dl=0">slides</a> 
+<a href="https://www.dropbox.com/s/7f3j2d5ugifpftv/SAware_ppt.pdf?dl=0">Slides</a> 
 <p></p>
 <p>The first single-image reflectance estimation that stays robust under shadows and specular highlights.</p>
 </td>
@@ -2093,17 +2139,17 @@ accv22_defog_stop()
 |
 <a href="https://github.com/jinyeying/FogRemoval"><img src="https://img.shields.io/badge/%E2%98%85-164-blue?style=social&logo=github"></a>
 |
-<a href="./files/accv22_defog_bibtex.txt">bibtex</a>
+<a href="./files/accv22_defog_bibtex.txt">BibTeX</a>
 |  
-<a href="https://openaccess.thecvf.com/content/ACCV2022/papers/Jin_Structure_Representation_Network_and_Uncertainty_Feedback_Learning_for_Dense_Non-Uniform_ACCV_2022_paper.pdf">paper</a>
+<a href="https://openaccess.thecvf.com/content/ACCV2022/papers/Jin_Structure_Representation_Network_and_Uncertainty_Feedback_Learning_for_Dense_Non-Uniform_ACCV_2022_paper.pdf">Paper</a>
 |
-<a href="https://openaccess.thecvf.com/content/ACCV2022/supplemental/Jin_Structure_Representation_Network_ACCV_2022_supplemental.pdf">supp</a>
+<a href="https://openaccess.thecvf.com/content/ACCV2022/supplemental/Jin_Structure_Representation_Network_ACCV_2022_supplemental.pdf">Supp</a>
 |  
-<a href="https://www.dropbox.com/s/f3qjxx9jf3o7b6j/0393_poster.pdf?dl=0">poster</a>
+<a href="https://www.dropbox.com/s/f3qjxx9jf3o7b6j/0393_poster.pdf?dl=0">Poster</a>
 |
-<a href="https://www.dropbox.com/s/fowkes8wnyr6rb1/0393_release.pdf?dl=0">slides</a>
+<a href="https://www.dropbox.com/s/fowkes8wnyr6rb1/0393_release.pdf?dl=0">Slides</a>
 |  
-<a href="https://www.dropbox.com/home/badweather/ACCV2022_defog/Dataset_day/Smoke">data</a>
+<a href="https://www.dropbox.com/home/badweather/ACCV2022_defog/Dataset_day/Smoke">Data</a>
 <p></p>
 <p>Removes dense, non-uniform fog using structure representation and uncertainty feedback learning.</p>
 </td>
@@ -2200,54 +2246,54 @@ accv22_defog_stop()
   <tr>
     <td><a href="https://lovif-eccv2026-workshop.github.io/" target="_blank">ECCV 2026 LoViF Workshop</a></td>
     <td>The 2nd Workshop on Low‑Level Vision Frontiers (Generative AI, Preference Optimization, and Agentic Systems)</td>
-    <td><span class="dt">09.2026</span><br><span class="vn">Malmö, Sweden</span></td>
+    <td><span class="dt">Sep 2026</span><br><span class="vn">Malmö, Sweden</span></td>
   </tr>
 
   <tr>
     <td><a href="https://lovif-cvpr2026-workshop.github.io/" target="_blank">CVPR 2026 LoViF Workshop</a></td>
     <td>The 1st Workshop on Low‑Level Vision Frontiers (Generative AI, Preference Optimization, and Agentic Systems)</td>
-    <td><span class="dt">06.04.2026</span><br><span class="vn">Denver, USA</span></td>
+    <td><span class="dt">Jun 4, 2026</span><br><span class="vn">Denver, USA</span></td>
   </tr>
 
   <tr>
     <td><a href="https://agentic-visual-media.insait.ai/" target="_blank">CVPR 2026 AGENTIC Workshop</a></td>
     <td>Workshop on Agentic AI for Visual Media</td>
-    <td><span class="dt">06.03.2026</span><br><span class="vn">Denver, USA</span></td>
+    <td><span class="dt">Jun 3, 2026</span><br><span class="vn">Denver, USA</span></td>
   </tr>
 
   <tr>
     <td><a href="https://urvis-workshop.github.io/" target="_blank">CVPR 2026 URVIS Workshop</a></td>
     <td>Unified Robotic Vision with Cross-Modal Sensing and Alignment</td>
-    <td><span class="dt">06.04.2026</span><br><span class="vn">Denver, USA</span></td>
+    <td><span class="dt">Jun 4, 2026</span><br><span class="vn">Denver, USA</span></td>
   </tr>
 
   <tr>
     <td><a href="https://ai4streaming-workshop.github.io/" target="_blank">CVPR 2026 AIGENS Workshop</a></td>
     <td>The 3rd Workshop on AI for Content Generation, Quality Enhancement and Streaming</td>
-    <td><span class="dt">06.03.2026</span><br><span class="vn">Denver, USA</span></td>
+    <td><span class="dt">Jun 3, 2026</span><br><span class="vn">Denver, USA</span></td>
   </tr>
 
   <tr>
     <td><a href="https://www.codabench.org/competitions/12808/" target="_blank">CVPR 2026 NTIRE Challenge</a></td>
     <td><a href="https://lixinustc.github.io/CVPR-NTIRE2026-RainDrop-Competition.github.io/" target="_blank">The 2nd Challenge on Day and Night Raindrop Removal for Dual-Focused Images</a></td>
-    <td><span class="dt">06.04.2026</span><br><span class="vn">Denver, USA</span></td>
+    <td><span class="dt">Jun 4, 2026</span><br><span class="vn">Denver, USA</span></td>
   </tr>
 
   <tr>
     <td><a href="https://aaai.org/conference/aaai/aaai-26/tutorial-and-lab-list/" target="_blank">AAAI 2026 Workshop</a></td>
     <td><a href="https://lixinustc.github.io/GenAI-Agents-for-Low-level-Vision.github.io/" target="_blank">The Application of Generative AI and Intelligent Agents in Low-level Vision</a></td>
-    <td><span class="dt">01.2026</span><br><span class="vn">Singapore</span></td>
+    <td><span class="dt">Jan 2026</span><br><span class="vn">Singapore</span></td>
   </tr>
 
   <tr>
     <td><a href="https://codalab.lisn.upsaclay.fr/competitions/21345" target="_blank">CVPR 2025 NTIRE Challenge</a></td>
     <td><a href="https://lixinustc.github.io/CVPR-NTIRE2025-RainDrop-Competition.github.io" target="_blank">The 1st Challenge on Day and Night Raindrop Removal for Dual-Focused Images</a></td>
-    <td><span class="dt">06.2025</span><br><span class="vn">Nashville, USA</span></td>
+    <td><span class="dt">Jun 2025</span><br><span class="vn">Nashville, USA</span></td>
   </tr>
 </table>
 
 # Invited Talks {#invited-talks}
-<p class="section-count"><strong>9</strong> talks at CVPR, ICCV, ICLR and AAAI, among <strong>30</strong> invited talks in total.</p>
+<p class="section-count"><strong>10</strong> talks at SIGGRAPH Asia, CVPR, ICCV, ICLR and AAAI, among <strong>32</strong> invited talks in total.</p>
 <div class="pub-filters">
   <button class="pub-filter-btn talk-filter-btn active" data-cat="all" onclick="filterTalks('all')">All</button>
   <button class="pub-filter-btn talk-filter-btn" data-cat="world-model" onclick="filterTalks('world-model')">World Model</button>
@@ -2281,7 +2327,18 @@ function filterTalks(cat) {
     <th>Topic</th>
     <th>Date & Venue</th>
   </tr>
+   <tr class="year-row" data-year="2027"><td colspan="3">2027</td></tr>
+ <tr data-talk-cat="world-model">
+    <td>NUS AI4S Seminar<br><span class="inv">invited by <a href="https://www.physics.nus.edu.sg/faculty/yang-bing/">Bing Yang</a></span></td>
+    <td>Code World Model for Gaming</td>
+    <td><span class="dt">Apr</span><br><span class="vn">Singapore</span></td>
+ </tr>
    <tr class="year-row" data-year="2026"><td colspan="3">2026</td></tr>
+ <tr data-talk-cat="world-model">
+    <td><a href="https://asia.siggraph.org/2026/">SIGGRAPH Asia 2026</a> Workshop</td>
+    <td>Toward Playable Generative Worlds: Consistent Mechanics and Controllable Interaction</td>
+    <td><span class="dt">Dec</span><br><span class="vn">Kuala Lumpur, Malaysia</span></td>
+ </tr>
  <tr data-talk-cat="world-model">
     <td>NUS CEG5304 Deep Learning Guest Lecture<br><span class="inv">invited by <a href="https://xuyu0010.wixsite.com/xuyu0010">Yuecong Xu</a></span></td>
     <td>World Model and Agentic Video Generation</td>
@@ -2328,7 +2385,7 @@ function filterTalks(cat) {
     <td><span class="dt">Jun 3</span><br><span class="vn">Denver, USA</span></td>
  </tr>
  <tr data-talk-cat="world-model">
-    <td><img src="/files/tencent.png" alt="Tencent" width="85" height="20"> SPARK Share</td>
+    <td>Tencent SPARK Share</td>
     <td>From Video Generation to World Model</td>
     <td><span class="dt">May 22</span><br><span class="vn">Singapore</span></td>
  </tr>
@@ -2338,7 +2395,7 @@ function filterTalks(cat) {
     <td><span class="dt">May 16</span><br><span class="vn">Singapore</span></td>
  </tr>
  <tr data-talk-cat="world-model">
-    <td><img src="/files/tencent.png" alt="Tencent" width="85" height="20"> ICLR Booth Talk<br><img src="/files/tencent.png" alt="Tencent" width="85" height="20"> Game Session Talk</td>
+    <td>Tencent ICLR Booth Talk<br>Tencent Game Session Talk</td>
     <td><a href="https://www.linkedin.com/posts/jinyeying_iclr-2026-sharing-our-work-on-world-activity-7454451566251765760-pHR1?utm_source=share&utm_medium=member_desktop&rcm=ACoAACNosSgBI_KUO4Duouy2mfHXSwk8Ap0YHFE">From AIGC to World Model</a></td>
     <td><span class="dt">Apr 25</span><br><span class="vn">Rio de Janeiro, Brazil</span></td>
  </tr>
@@ -2359,7 +2416,7 @@ function filterTalks(cat) {
  </tr>
    <tr class="year-row" data-year="2025"><td colspan="3">2025</td></tr>
  <tr data-talk-cat="gen-vision">
-    <td><img src="/files/tencent.png" alt="Tencent" width="85" height="20"> Programmers Video</td>
+    <td>Tencent Programmers Video</td>
     <td>Exploring Sora: Unlocking the Core of AI Video Creation
       [<a href="https://www.bilibili.com/video/BV1Ymy7BJEmy/?share_source=copy_web&vd_source=2da049ce4677af057256ebc4a00a8292" target="_blank">Video</a>]</td>
     <td><span class="dt">Nov</span><br><span class="vn">Singapore</span></td>
@@ -2370,8 +2427,8 @@ function filterTalks(cat) {
     <td><span class="dt">Oct</span><br><span class="vn">Honolulu, USA</span></td>
  </tr>
   <tr data-talk-cat="gen-vision">
-    <td><img src="/files/tencent.png" alt="" width="85" height="20"> Tencent</td>
-    <td>AI Video Gen | When Wukong meets Yayoi Kusama</td>
+    <td>Tencent</td>
+    <td>AI Video Gen | When Wukong Meets Yayoi Kusama</td>
     <td><span class="dt">May</span><br><span class="vn">Singapore</span></td>
   </tr>
   <tr data-talk-cat="gen-vision">
@@ -2381,60 +2438,60 @@ function filterTalks(cat) {
     <td><span class="dt">Apr</span><br><span class="vn">Singapore</span></td>
   </tr>
   <tr data-talk-cat="gen-vision">
-    <td><img src="/files/tencent.png" alt="" width="85" height="20"> Tencent</td>
+    <td>Tencent</td>
     <td>AI Generation: Inspiring Game Marketing and Development</td>
     <td><span class="dt">Feb</span><br><span class="vn">Singapore</span></td>
   </tr>
    <tr class="year-row" data-year="2024"><td colspan="3">2024</td></tr>
   <tr data-talk-cat="gen-vision">
-    <td><img src="/files/AITIME.png" alt="" width="19.778" height="20"> AI TIME</td>
+    <td>AI TIME</td>
     <td><a href="https://www.bilibili.com/video/BV1p5bFevEgP/?spm_id_from=333.999.0.0&vd_source=8ae1cd92e40b380c0296eb6843da79a4">Raindrop Clarity: Dual-Focused, Day and Night</a></td>
     <td><span class="dt">Sep</span></td>
   </tr>
   <tr data-talk-cat="gen-vision">
-    <td><img src="/files/AITIME.png" alt="" width="19.778" height="20"> AI TIME</td>
+    <td>AI TIME</td>
     <td><a href="https://www.bilibili.com/video/BV1wc411v7zf/?spm_id_from=333.999.0.0&vd_source=8ae1cd92e40b380c0296eb6843da79a4">Shadow Removal using Diffusion Model</a></td>
     <td><span class="dt">Jan</span></td>
   </tr>
    <tr class="year-row" data-year="2023"><td colspan="3">2023</td></tr>
   <tr data-talk-cat="gen-vision">
-    <td><img src="/files/tencent.png" alt="" width="85" height="20"> Tencent</td>
+    <td>Tencent</td>
     <td>Applications of Generative AI</td>
     <td><span class="dt">Nov</span><br><span class="vn">Singapore</span></td>
   </tr>
   <tr data-talk-cat="gen-vision">
-    <td><img src="/files/huawei.png" alt="" width="19.978" height="20"> Huawei</td>
+    <td>Huawei</td>
     <td>Visibility Enhancement using Generative Model</td>
     <td><span class="dt">Jul</span></td>
   </tr>
   <tr data-talk-cat="gen-vision">
-    <td><img src="/files/adobe.png" alt="" width="20" height="20"> Adobe<br><span class="inv">invited by <a href="https://www.erickee.com/">Eric Kee</a></span></td>
+    <td>Adobe<br><span class="inv">invited by <a href="https://www.erickee.com/">Eric Kee</a></span></td>
     <td>NextCam Reading Group: Light-effects Suppression</td>
     <td><span class="dt">Jul</span><br><span class="vn">USA</span></td>
   </tr>
   <tr data-talk-cat="gen-vision">
-    <td><img src="/files/huawei.png" alt="" width="19.978" height="20"> Huawei</td>
+    <td>Huawei</td>
     <td>Image/Video Restoration and Generation</td>
     <td><span class="dt">Mar</span></td>
   </tr>
   <tr data-talk-cat="gen-vision">
-    <td><img src="/files/AITIME.png" alt="" width="19.778" height="20"> AI TIME</td>
+    <td>AI TIME</td>
     <td><a href="https://www.bilibili.com/video/BV1Ca4y1C7xi/?spm_id_from=333.999.0.0&vd_source=8ae1cd92e40b380c0296eb6843da79a4">Intrinsic Image Decomposition</a></td>
     <td><span class="dt">Feb</span></td>
   </tr>
   <tr data-talk-cat="gen-vision">
-    <td><img src="/files/ByteDance.png" alt="" width="100" height="20"> ByteDance<br><span class="inv">invited by <a href="https://hanshuyan.github.io/">Hanshu Yan</a></span></td>
+    <td>ByteDance<br><span class="inv">invited by <a href="https://hanshuyan.github.io/">Hanshu Yan</a></span></td>
     <td>Diffusion Model in Image Processing</td>
     <td><span class="dt">Jan</span></td>
   </tr>
    <tr class="year-row" data-year="2022"><td colspan="3">2022</td></tr>
   <tr data-talk-cat="gen-vision">
-    <td><img src="/files/huawei.png" alt="" width="19.978" height="20"> Huawei</td>
+    <td>Huawei</td>
     <td>Visibility Enhancement in Nighttime</td>
     <td><span class="dt">Dec</span><br><span class="vn">Singapore</span></td>
   </tr>
   <tr data-talk-cat="gen-vision">
-    <td><img src="/files/AITIME.png" alt="" width="19.778" height="20"> AI TIME</td>
+    <td>AI TIME</td>
     <td><a href="https://www.bilibili.com/video/BV1Ec411s7at/?spm_id_from=333.999.0.0&vd_source=8ae1cd92e40b380c0296eb6843da79a4">Unsupervised Image Restoration and Generation</a></td>
     <td><span class="dt">Nov</span></td>
   </tr>
@@ -2450,16 +2507,16 @@ function filterTalks(cat) {
     <th>Date & Venue</th>
   </tr>
   <tr>
-    <td><img src="/files/VALSE.png" alt="VALSE" width="23.2" height="20"> <a href="https://valser.org/2024/#/poster">VALSE</a></td>
-    <td>05.2024, Chongqing, China</td>
+    <td><a href="https://valser.org/2024/#/poster">VALSE</a></td>
+    <td>May 2024, Chongqing, China</td>
   </tr>
   <tr>
-    <td><img src="/files/NUS.png" alt="NUS" width="42.5" height="20"> <a href="https://www.comp.nus.edu.sg/~leegh/svd/">Singapore Vision Day</a></td>
-    <td>05.2023, Singapore</td>
+    <td><a href="https://www.comp.nus.edu.sg/~leegh/svd/">Singapore Vision Day</a></td>
+    <td>May 2023, Singapore</td>
   </tr>
   <tr>
-    <td><img src="/files/aisg.png" alt="AISG" width="20" height="20"> <a href="https://aisingapore.org/ai-governance/aisg-ai-governance-research-symposium-2023/">AI Research Symposium</a></td>
-    <td>01.2023, Singapore</td>
+    <td><a href="https://aisingapore.org/ai-governance/aisg-ai-governance-research-symposium-2023/">AI Research Symposium</a></td>
+    <td>Jan 2023, Singapore</td>
   </tr>
 </table>
 
@@ -2490,55 +2547,55 @@ function filterBlogs(cat) {
   </tr>
   <tr class="blog-row" data-blog-cat="world-model">
     <td><a href="https://zhuanlan.zhihu.com/p/2048576625860670425">Google 又放大招：Gemini Omni 和 Gemini 3.5 同日登场，文生视频屠榜</a></td>
-    <td>05.2026</td>
+    <td>May 2026</td>
   </tr>
   <tr class="blog-row" data-blog-cat="world-model">
     <td><a href="https://zhuanlan.zhihu.com/p/2049628105157895122">一图胜千言！GPT Image 2 联手 HappyOyster 秒出世界模型，再战 Nano Banana 2 谁更能打？</a></td>
-    <td>04.2026</td>
+    <td>Apr 2026</td>
   </tr>
   <tr class="blog-row" data-blog-cat="world-model">
     <td><a href="https://zhuanlan.zhihu.com/p/2035741904558634682">一键创世，遥遥领先？快乐生蚝HappyOyster到底有多快乐</a></td>
-    <td>04.2026</td>
+    <td>Apr 2026</td>
   </tr>
   <tr class="blog-row" data-blog-cat="world-model">
     <td><a href="https://zhuanlan.zhihu.com/p/2027169068495456204">世界模型再添王炸，Marble 1.1一手测评来了！</a></td>
-    <td>04.2026</td>
+    <td>Apr 2026</td>
   </tr>
   <tr class="blog-row" data-blog-cat="world-model">
     <td><a href="https://zhuanlan.zhihu.com/p/2004490330423174448">AI视频的大结局？Seedance 2.0掀桌子了! 下一站在哪?</a></td>
-    <td>02.2026</td>
+    <td>Feb 2026</td>
   </tr>
   <tr class="blog-row" data-blog-cat="world-model">
     <td><a href="https://zhuanlan.zhihu.com/p/1957164727273784702">Sora2：视频生成一年半的变化与展望</a></td>
-    <td>10.2025</td>
+    <td>Oct 2025</td>
   </tr>
   <tr class="blog-row" data-blog-cat="gen-vision">
     <td><a href="https://zhuanlan.zhihu.com/p/24492948611">CVPR 2025 NTIRE赛事 | 首届多场景雨滴去除挑战赛</a></td>
-    <td>06.2025</td>
+    <td>Jun 2025</td>
   </tr>
   <tr class="blog-row" data-blog-cat="gen-vision">
     <td><a href="https://zhuanlan.zhihu.com/p/1925607245346996265">AI赋能UGC | 点亮每一位玩家的英雄梦</a></td>
-    <td>05.2025</td>
+    <td>May 2025</td>
   </tr>
   <tr class="blog-row" data-blog-cat="world-model">
     <td><a href="https://zhuanlan.zhihu.com/p/686681635">Sora揭秘: OpenAI文生视频模型, Diffusion+Transformer带来的思考</a></td>
-    <td>02.2024</td>
+    <td>Feb 2024</td>
   </tr>
   <tr class="blog-row" data-blog-cat="gen-vision">
     <td><a href="https://zhuanlan.zhihu.com/p/595440529">ECCV 2022 | 夜间图像增强: 层分解遇到光效应抑制网络</a></td>
-    <td>10.2022</td>
+    <td>Oct 2022</td>
   </tr>
 </table>
 
 # Education {#education}
-- 01.2020-01.2024: Ph.D. (AI and Deep Learning), <img src="/files/NUS.png" alt="" width="42.5" height="20"> NUS, Singapore (CAP: 4.75/5.00)
-- 08.2017-08.2018: M.Sc. (Electrical and Computer Engineering), <img src="/files/NUS.png" alt="" width="42.5" height="20"> NUS, Singapore
-- 09.2013-07.2017: B.Eng. (Electronic Information Engineering), <img src="/files/UESTC.png" alt="" width="20.842" height="20"> UESTC, China (GPA: 3.93/4.00)
+- Jan 2020 – Jan 2024: Ph.D. (AI and Deep Learning), <img src="/files/NUS.png" alt="" width="42.5" height="20"> NUS, Singapore (CAP: 4.75/5.00)
+- Aug 2017 – Aug 2018: M.Sc. (Electrical and Computer Engineering), <img src="/files/NUS.png" alt="" width="42.5" height="20"> NUS, Singapore
+- Sep 2013 – Jul 2017: B.Eng. (Electronic Information Engineering), <img src="/files/UESTC.png" alt="" width="20.842" height="20"> UESTC, China (GPA: 3.93/4.00)
 
 # Work and Internship Experience {#work}
-- 11.2023-Present: Staff Researcher and Research Lead for World Models, Agentic AI, and AIGC at <img src="/files/tencent.png" alt="Tencent" width="85" height="20"> IEG Global, Singapore.
-- 06.2023-09.2023: <img src="/files/adobe.png" alt="Adobe" width="20" height="20"> [Adobe Research Intern](https://www.adobe.com/), Creative Intelligence Lab, mentored by [Prof. Connelly Barnes](http://www.connellybarnes.com/work/), [Prof. Eli Shechtman](https://research.adobe.com/person/eli-shechtman/), worked with [Yuqian Zhou](https://yzhouas.github.io/), [Lingzhi Zhang](https://owenzlz.github.io/), [Sohrab Amirghodsi](https://www.linkedin.com/in/sohrab-amirghodsi-a89548a3/), [Eric Kee](https://www.erickee.com/).
-- 01.2019-01.2020: Machine Learning Researcher at <img src="/files/biomind.png" alt="Biomind" width="80" height="20">, Singapore, advised by [Prof. Jiashi Feng](https://sites.google.com/site/jshfeng/), worked on Biomedical Image Synthesis, Super-resolution, Tumor Segmentation and Classification, [NeurIPS 2019 Expo demo](https://media.neurips.cc/Conferences/NeurIPS2019/NeurIPS_Expo_Book_2019.pdf).
+- Nov 2023 – Present: Staff Researcher and Research Lead for World Models, Agentic AI, and AIGC at <img src="/files/tencent.png" alt="Tencent" width="85" height="20"> IEG Global, Singapore.
+- Jun 2023 – Sep 2023: <img src="/files/adobe.png" alt="Adobe" width="20" height="20"> [Adobe Research Intern](https://www.adobe.com/), Creative Intelligence Lab, mentored by [Prof. Connelly Barnes](http://www.connellybarnes.com/work/), [Prof. Eli Shechtman](https://research.adobe.com/person/eli-shechtman/), worked with [Yuqian Zhou](https://yzhouas.github.io/), [Lingzhi Zhang](https://owenzlz.github.io/), [Sohrab Amirghodsi](https://www.linkedin.com/in/sohrab-amirghodsi-a89548a3/), [Eric Kee](https://www.erickee.com/).
+- Jan 2019 – Jan 2020: Machine Learning Researcher at <img src="/files/biomind.png" alt="Biomind" width="80" height="20">, Singapore, advised by [Prof. Jiashi Feng](https://sites.google.com/site/jshfeng/), worked on Biomedical Image Synthesis, Super-resolution, Tumor Segmentation and Classification, [NeurIPS 2019 Expo demo](https://media.neurips.cc/Conferences/NeurIPS2019/NeurIPS_Expo_Book_2019.pdf).
 
 # Honors and Awards {#awards}
 - [“Yayoi Kusama × Wukong”](https://modelscope.cn/brand/view/game-wan?branch=0&tree=4), *ModelScope Wan 2.1 Video Generation Challenge* — 2nd Place  
