@@ -24,7 +24,7 @@ I received my Ph.D. from NUS ECE, supervised by [Prof. Robby T. Tan](http://tanr
 
 I have published papers at top international venues including SIGGRAPH Asia, CVPR, ICCV, ECCV, ICML, NeurIPS, ICLR and ACL, with <a href='https://scholar.google.com/citations?user=Z8PYhA4AAAAJ' target="_blank"><img src="https://img.shields.io/endpoint?url={{ url | url_encode }}&logo=Google%20Scholar&labelColor=f6f6f6&color=9cf&style=flat&label=citations" alt="Google Scholar citations"></a> <a href='https://scholar.google.com/citations?user=Z8PYhA4AAAAJ' target="_blank"><img src="https://img.shields.io/endpoint?url={{ hurl | url_encode }}&logo=Google%20Scholar&labelColor=f6f6f6&color=9cf&style=flat&label=h-index" alt="Google Scholar h-index"></a>.
 I have organized **5 workshops**, **1 tutorial** and **2 NTIRE challenges** at CVPR, ECCV and AAAI, and given **30 invited talks**, 9 of them at CVPR, ICCV, ICLR and AAAI, with 2 more upcoming.
-📢 I'm hiring 6-month research interns in [world models](https://www.linkedin.com/jobs/view/4471500956/) and [coding agents](https://www.linkedin.com/jobs/view/4471507743/) in Singapore, and through [Tencent campus recruiting](https://join.qq.com/post_detail.html?postid=1210646470286783493) in China ([details](https://zhuanlan.zhihu.com/p/2070315664162689467)).
+📢 I'm hiring 6-month research interns in [world models](https://www.linkedin.com/jobs/view/4471500956/) and [coding agents](https://www.linkedin.com/jobs/view/4486774656/) in Singapore, and through [Tencent campus recruiting](https://join.qq.com/post_detail.html?postid=1210646470286783493) in China ([details](https://zhuanlan.zhihu.com/p/2070315664162689467)).
 
 # Research {#research}
 1. Game World Models: Persistent State, Mechanics Consistency, and Controllable Agents
