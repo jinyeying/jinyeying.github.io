@@ -18,7 +18,9 @@ redirect_from:
 {% assign hurl = gsDataBaseUrl | append: "google-scholar-stats/gs_hindex_shieldsio.json" %}
 <span class='anchor' id='about-me'></span>
 
-I am a Staff Researcher at [Tencent](https://www.tencent.com/en-us/about.html) (青云计划 'Project Up' Talent Programme), where I serve as Research Lead for World Models, Agentic AI, and AIGC for Games. I am also Adjunct Faculty at the <img src="/files/NUS.png" alt="NUS" width="42.5" height="20"> [National University of Singapore (NUS), Department of Electrical and Computer Engineering (ECE)](https://cde.nus.edu.sg/ece/).
+I am a Staff Researcher at [Tencent](https://www.tencent.com/en-us/about.html), where I serve as Research Lead for World Models, Agentic AI, and AIGC for Games. I am also Adjunct Faculty at the <img src="/files/NUS.png" alt="NUS" width="42.5" height="20"> [National University of Singapore (NUS), Department of Electrical and Computer Engineering (ECE)](https://cde.nus.edu.sg/ece/).
+
+I lead [Yeying Lab](https://github.com/YeyingLab), with <a href="https://github.com/YeyingLab" target="_blank"><img src="https://raw.githubusercontent.com/YeyingLab/.github/main/profile/badges/orgstars-yeyinglab.svg" alt="Yeying Lab GitHub stars"></a> <a href="https://github.com/YeyingLab" target="_blank"><img src="https://raw.githubusercontent.com/YeyingLab/.github/main/profile/badges/sumhfdl-data-yeyinglab.svg" alt="Yeying Lab Hugging Face dataset downloads"></a> <a href="https://github.com/YeyingLab" target="_blank"><img src="https://raw.githubusercontent.com/YeyingLab/.github/main/profile/badges/sumhfpaper-yeyinglab.svg" alt="Yeying Lab Hugging Face paper upvotes"></a>.
 
 I received my Ph.D. from NUS ECE, supervised by [Prof. Robby T. Tan](http://tanrobby.github.io/), and previously interned at <img src="/files/adobe.png" alt="Adobe" width="20" height="20"> [Adobe Research](https://research.adobe.com/), mentored by [Dr. Connelly Barnes](http://www.connellybarnes.com/work/) and [Dr. Eli Shechtman](https://scholar.google.com/citations?user=B_FTboQAAAAJ). I hold an M.Sc. from NUS ECE and a B.Eng. from <img src="/files/UESTC.png" alt="UESTC" width="20.842" height="20"> [UESTC](https://en.uestc.edu.cn/).
 
@@ -175,6 +177,28 @@ function _applyProjFilter() {
     <tr class="project-row" data-proj-cat="world-model" data-proj-role="corr-author proj-lead">
       <td class="thumb">
         <div class="video-wrap" style="position:relative;">
+          <span class="venue-badge">Open Source 2026</span>
+          <video autoplay loop muted playsinline style="width:100%; height:auto; display:block;">
+            <source src="./files/maliang_demo.mp4" type="video/mp4" />
+          </video>
+        </div>
+      </td>
+      <td class="info">
+        <a href="https://yeyinglab.github.io/MaLiang/">
+          <span class="papertitle_just">MaLiang: Painting Playable Game Worlds from Numbers</span>
+        </a><br>
+        Zhiyang Deng<sup class="eq-contrib">*</sup>, Shushan Xu<sup class="eq-contrib">*</sup>, <strong>Yeying Jin</strong><sup class="corr-lead">†‡</sup><br>
+        <div class="links">
+          <a class="pill" href="https://yeyinglab.github.io/MaLiang/">Project</a>
+          <a href="https://github.com/YeyingLab/MaLiang"><img src="https://img.shields.io/github/stars/YeyingLab/MaLiang?style=social&label=%E2%98%85" alt="GitHub stars"></a>
+          <a class="pill" href="https://huggingface.co/15y6u87/MaLiang">Model</a>
+        </div>
+        <span class="sub" style="display:block; margin-top:8px; line-height:1.5;">Paint a map, and the world follows: the game writes one number per pixel, and a 5B video model paints it live at 22 FPS on one GPU.</span>
+      </td>
+    </tr>
+    <tr class="project-row" data-proj-cat="world-model" data-proj-role="corr-author proj-lead">
+      <td class="thumb">
+        <div class="video-wrap" style="position:relative;">
           <span class="venue-badge">arXiv 2026</span>
           <video autoplay loop muted playsinline style="width:100%; height:auto; display:block;">
             <source src="./files/wizard_demo.mp4" type="video/mp4" />
@@ -211,8 +235,8 @@ function _applyProjFilter() {
         Zhiyang Deng<sup class="eq-contrib">*</sup>, Xiyao Deng<sup class="eq-contrib">*</sup>, <strong>Yeying Jin</strong><sup class="corr-lead">†‡</sup><br>
         <div class="links">
           <a class="pill" href="https://teawhite.cn/GameCrafter/">Project</a>
-          <a class="pill" href="https://github.com/TeaWhiteBro/GameCrafter/blob/main/paper/GameCrafter.pdf">Paper</a>
-          <a href="https://github.com/TeaWhiteBro/GameCrafter"><img src="https://img.shields.io/badge/%E2%98%85-6-blue?style=social&logo=github" alt="GitHub stars"></a>
+          <a class="pill" href="https://github.com/YeyingLab/GameCrafter/blob/main/paper/GameCrafter.pdf">Paper</a>
+          <a href="https://github.com/YeyingLab/GameCrafter"><img src="https://img.shields.io/github/stars/YeyingLab/GameCrafter?style=social&label=%E2%98%85" alt="GitHub stars"></a>
         </div>
         <span class="sub" style="display:block; margin-top:8px; line-height:1.5;">One prompt builds a multi-gameplay 3D game world; best overall score (87.77) on a ten-task benchmark.</span>
       </td>
@@ -236,7 +260,7 @@ function _applyProjFilter() {
         <div class="links">
           <a class="pill" href="https://teawhite.cn/ActionRoPE/">Project</a>
           <a class="pill" href="https://arxiv.org/abs/2610.25861">arXiv</a>
-          <a href="https://github.com/TeaWhiteBro/ActionRoPE"><img src="https://img.shields.io/badge/%E2%98%85-4-blue?style=social&logo=github" alt="GitHub stars"></a>
+          <a href="https://github.com/YeyingLab/ActionRoPE"><img src="https://img.shields.io/github/stars/YeyingLab/ActionRoPE?style=social&label=%E2%98%85" alt="GitHub stars"></a>
           <a class="pill" href="https://huggingface.co/teawhite/ActionRoPE">Model</a>
         </div>
         <span class="sub" style="display:block; margin-top:8px; line-height:1.5;">Encodes actions as world-coordinate rotary positions: 66% less revisit drift than the best baseline, on 1.3B–33B backbones.</span>
@@ -259,7 +283,7 @@ function _applyProjFilter() {
         <div class="links">
           <a class="pill" href="https://jimntu.github.io/gamedirector/">Project</a>
           <a class="pill" href="https://arxiv.org/abs/2609.25652">arXiv</a>
-          <a href="https://github.com/Jimntu/GameDirector_code"><img src="https://img.shields.io/badge/%E2%98%85-6-blue?style=social&logo=github" alt="GitHub stars"></a>
+          <a href="https://github.com/Jimntu/GameDirector_code"><img src="https://img.shields.io/github/stars/Jimntu/GameDirector_code?style=social&label=%E2%98%85" alt="GitHub stars"></a>
           <a class="pill" href="https://huggingface.co/onepiece1999/GameDirector">Model</a>
           <a class="pill" href="https://huggingface.co/datasets/onepiece1999/GameDirector-Training-Data">Dataset</a>
         </div>
@@ -283,7 +307,7 @@ function _applyProjFilter() {
         <div class="links">
           <a class="pill" href="https://danzer1xxxxchan.github.io/H3-World/">Project</a>
           <a class="pill" href="https://arxiv.org/abs/2609.01560">arXiv</a>
-          <a href="https://github.com/Danzer1xxxxChan/H3-World"><img src="https://img.shields.io/badge/%E2%98%85-339-blue?style=social&logo=github" alt="GitHub stars"></a>
+          <a href="https://github.com/YeyingLab/H3-World"><img src="https://img.shields.io/github/stars/YeyingLab/H3-World?style=social&label=%E2%98%85" alt="GitHub stars"></a>
           <a class="pill" href="https://mp.weixin.qq.com/s/BzcLaXzD3AAS73LZXtTY6Q">Link</a>
         </div>
         <span class="sub" style="display:block; margin-top:8px; line-height:1.5;">Turns a video generator's language understanding into character and camera control with only 0.199% trainable parameters.</span>
@@ -306,7 +330,7 @@ function _applyProjFilter() {
         <div class="links">
           <a class="pill" href="https://teawhite.cn/worldmind_projectpage/">Project</a>
           <a class="pill" href="https://arxiv.org/abs/2608.21439">arXiv</a>
-          <a href="https://github.com/TeaWhiteBro/WorldMind"><img src="https://img.shields.io/badge/%E2%98%85-11-blue?style=social&logo=github" alt="GitHub stars"></a>
+          <a href="https://github.com/YeyingLab/WorldMind"><img src="https://img.shields.io/github/stars/YeyingLab/WorldMind?style=social&label=%E2%98%85" alt="GitHub stars"></a>
         </div>
         <span class="sub" style="display:block; margin-top:8px; line-height:1.5;">The first decoupled game world model, closing the loop from understanding to generation; preferred in ~70% of comparisons.</span>
       </td>
@@ -328,7 +352,7 @@ function _applyProjFilter() {
         <div class="links">
           <a class="pill" href="https://jimntu.github.io/stateplay_page/">Project</a>
           <a class="pill" href="https://arxiv.org/abs/2607.26754">arXiv</a>
-          <a href="https://github.com/Jimntu/StatePlay"><img src="https://img.shields.io/badge/%E2%98%85-24-blue?style=social&logo=github" alt="GitHub stars"></a>
+          <a href="https://github.com/Jimntu/StatePlay"><img src="https://img.shields.io/github/stars/Jimntu/StatePlay?style=social&label=%E2%98%85" alt="GitHub stars"></a>
           <a class="pill" href="https://huggingface.co/onepiece1999/StatePlay">Model</a>
           <a class="pill" href="https://huggingface.co/datasets/onepiece1999/StatePlay-Dataset">Dataset</a>
         </div>
@@ -352,7 +376,7 @@ function _applyProjFilter() {
         <div class="links">
           <a class="pill" href="https://inv-wzq.github.io/ReactiveGWM/">Project</a>
           <a class="pill" href="https://arxiv.org/abs/2605.15256">arXiv</a>
-          <a href="https://github.com/INV-WZQ/ReactiveGWM"><img src="https://img.shields.io/badge/%E2%98%85-102-blue?style=social&logo=github" alt="GitHub stars"></a>
+          <a href="https://github.com/YeyingLab/ReactiveGWM"><img src="https://img.shields.io/github/stars/YeyingLab/ReactiveGWM?style=social&label=%E2%98%85" alt="GitHub stars"></a>
           <a class="pill" href="https://huggingface.co/INV-WZQ/ReactiveGWM-Models">Model</a>
           <a class="pill" href="https://huggingface.co/datasets/INV-WZQ/ReactiveGWM-Datasets">Dataset</a>
         </div>
@@ -376,7 +400,7 @@ function _applyProjFilter() {
         <div class="links">
           <a class="pill" href="https://z2tong.github.io/SCOPE/">Project</a>
           <a class="pill" href="https://arxiv.org/abs/2605.23345">arXiv</a>
-          <a href="https://github.com/z2tong/SCOPE"><img src="https://img.shields.io/badge/%E2%98%85-81-blue?style=social&logo=github" alt="GitHub stars"></a>
+          <a href="https://github.com/YeyingLab/SCOPE"><img src="https://img.shields.io/github/stars/YeyingLab/SCOPE?style=social&label=%E2%98%85" alt="GitHub stars"></a>
           <a class="pill" href="https://huggingface.co/zizhaotong/SCOPE">Model</a>
           <a class="pill" href="https://huggingface.co/collections/zizhaotong/crossfps">Dataset</a>
           <a class="pill" href="https://mp.weixin.qq.com/s/G-MkB84-rH8rEVT3m4UPTw">Link</a>
@@ -608,7 +632,7 @@ function _applyProjFilter() {
 <div class="pub-views" id="pub-view-filters">
   <button class="pub-view-btn active" data-view="selected" onclick="filterPubView('selected')">Selected</button>
   <button class="pub-view-btn" data-view="all" onclick="filterPubView('all')">All Publications</button>
-  <button class="pub-view-btn" data-view="surveys-challenges" onclick="filterPubView('surveys-challenges')">Surveys &amp; Challenges</button>
+  <button class="pub-view-btn" data-view="surveys-challenges" onclick="filterPubView('surveys-challenges')">Surveys, Benchmarks &amp; Challenges</button>
   <span class="pub-views-label">Filters</span>
 </div>
 <div class="pub-filters" id="pub-topic-filters">
@@ -657,7 +681,7 @@ function _applyPubFilter() {
     var cats    = (tr.dataset.category || '').split(' ');
     var viewOk  = _pubView === 'all'
       || (_pubView === 'surveys-challenges'
-            ? (cats.indexOf('survey') !== -1 || cats.indexOf('workshop') !== -1)
+            ? (cats.indexOf('survey') !== -1 || cats.indexOf('benchmark') !== -1 || cats.indexOf('workshop') !== -1)
             : cats.indexOf(_pubView) !== -1);
     var topicOk = _pubTopic === 'all' || cats.indexOf(_pubTopic) !== -1;
     var roleOk  = _pubRole  === 'all' || (tr.dataset.role || '').split(' ').indexOf(_pubRole) !== -1;
@@ -767,11 +791,46 @@ function resetPubFilters() {
   <em>arXiv preprint</em>, 2026<br>
 <a href="https://arxiv.org/abs/2609.33627">arXiv</a>
 |
-<a href="https://github.com/wwwTaylor/StoryEngine"><img src="https://img.shields.io/badge/%E2%98%85-19-blue?style=social&logo=github"></a>
+<a href="https://github.com/YeyingLab/StoryEngine"><img src="https://img.shields.io/github/stars/YeyingLab/StoryEngine?style=social&label=%E2%98%85"></a>
 |
 <a href="https://wwwtaylor.github.io/StoryEngine">Project</a>
 <p></p>
 <p>Tracks story state across shots so each event carries forward, keeping long multi-shot videos causally coherent.</p>
+</td>
+</tr>
+<!-- ###################################################################################################-->
+
+<!-- ###################################################################################################-->
+<!-- Paper WorldFoundry -->
+<tr data-category="world-model benchmark" >
+<td width="20%">
+<div style="position:relative;">
+<span class="venue-badge">arXiv 2026</span>
+<img src="./files/worldfoundry.jpg" alt="WorldFoundry" style="width:100%; height:auto; display:block;">
+</div>
+</td>
+<td valign="top" width="80%">
+  <a href="https://openenvision.org/WorldFoundry">
+    <papertitle_just>WorldFoundry: Towards Unified Infrastructure for World Intelligence</papertitle_just>
+  </a>
+  <br>
+<details class="publication-authors" id="worldfoundry-authors">
+    <summary>
+      <span class="authors-preview">Juanxi Tian, Jiadong Hou, Baiang Li, &hellip;, <strong>Yeying Jin</strong>, &hellip;, Wei Xiong, Enze Xie, Wanhua Li</span>
+      <span class="authors-show">Show All Authors</span>
+      <span class="authors-hide">Show Fewer</span>
+    </summary>
+    <div class="authors-full">Juanxi Tian, Jiadong Hou, Baiang Li, Xin Lin, Zhengbo Jiao, Weijia Zhang, <strong>Yeying Jin</strong>, Truong Nguyen, Haitian Zheng, Zhifei Zhang, Jianfei Yang, Ming-Hsuan Yang, Felix Heide, Wei Xiong, Enze Xie, Wanhua Li</div>
+  </details>
+  <br>
+  <em>arXiv preprint</em>, 2026<br>
+<a href="https://arxiv.org/abs/2611.10771">arXiv</a>
+|
+<a href="https://github.com/OpenEnvision/WorldFoundry"><img src="https://img.shields.io/github/stars/OpenEnvision/WorldFoundry?style=social&label=%E2%98%85"></a>
+|
+<a href="https://openenvision.org/WorldFoundry">Project</a>
+<p></p>
+<p>One framework to run and evaluate world models: 270 models, 74 benchmarks and 62 metrics across video, 3D, 4D, interactive and embodied worlds.</p>
 </td>
 </tr>
 <!-- ###################################################################################################-->
@@ -1123,7 +1182,7 @@ aaai26_UniFit_stop()
 <em>AAAI</em>, 2026, Singapore <br>
 <a href="https://arxiv.org/abs/2511.15831">arXiv</a>
 |
-<a href="https://github.com/zwplus/UniFit"><img src="https://img.shields.io/badge/%E2%98%85-12-blue?style=social&logo=github"></a>
+<a href="https://github.com/YeyingLab/UniFit"><img src="https://img.shields.io/github/stars/YeyingLab/UniFit?style=social&label=%E2%98%85"></a>
 | 
 <a href="./files/aaai26_UniFit_bibtex.txt">BibTeX</a>
 <p></p>
@@ -1446,7 +1505,7 @@ ntire26_rd_stop()
   <em>CVPR Workshops (CVPRW)</em>, 2026, Denver, USA <br>
   <a href="https://arxiv.org/abs/2604.10634">arXiv</a>
   |
-  <a href="https://github.com/jinyeying/RaindropClarity"><img src="https://img.shields.io/badge/%E2%98%85-76-blue?style=social&logo=github"></a>
+  <a href="https://github.com/YeyingLab/RaindropClarity"><img src="https://img.shields.io/github/stars/YeyingLab/RaindropClarity?style=social&label=%E2%98%85"></a>
   |
   <a href="https://www.codabench.org/competitions/12808/">Competition</a>
   |
@@ -1484,11 +1543,11 @@ ntire25_rd_stop()
   <em>CVPR Workshops (CVPRW)</em>, 2025, Nashville, USA <br>
   <a href="https://arxiv.org/abs/2504.12711">arXiv</a>
   |
-  <a href="https://github.com/jinyeying/RaindropClarity"><img src="https://img.shields.io/badge/%E2%98%85-76-blue?style=social&logo=github"></a>
+  <a href="https://github.com/YeyingLab/RaindropClarity"><img src="https://img.shields.io/github/stars/YeyingLab/RaindropClarity?style=social&label=%E2%98%85"></a>
   |
   <a href="./files/ntire25_raindropclarify_bibtex.txt">BibTeX</a>
   |
-  <a href="https://github.com/jinyeying/RaindropClarity/blob/main/poster_slides/RaindropClarity_PPT.pdf">Slides</a>
+  <a href="https://github.com/YeyingLab/RaindropClarity/blob/main/poster_slides/RaindropClarity_PPT.pdf">Slides</a>
   |
   <a href="https://youtu.be/YaPL0dI5l0U?si=pVniAaheEXsf5CNW">Video</a>
   |
@@ -1528,13 +1587,13 @@ eccv24_rd_stop()
   <em>ECCV</em>, 2024, Milan, Italy <br>
   <a href="https://arxiv.org/abs/2407.16957">arXiv</a>
   |
-  <a href="https://github.com/jinyeying/RaindropClarity"><img src="https://img.shields.io/badge/%E2%98%85-76-blue?style=social&logo=github"></a>
+  <a href="https://github.com/YeyingLab/RaindropClarity"><img src="https://img.shields.io/github/stars/YeyingLab/RaindropClarity?style=social&label=%E2%98%85"></a>
   |
   <a href="./files/eccv24_raindropclarify_bibtex.txt">BibTeX</a>
   |
-  <a href="https://github.com/jinyeying/RaindropClarity/blob/main/poster_slides/RaindropClarity_poster.pdf">Poster</a>
+  <a href="https://github.com/YeyingLab/RaindropClarity/blob/main/poster_slides/RaindropClarity_poster.pdf">Poster</a>
   |
-  <a href="https://github.com/jinyeying/RaindropClarity/blob/main/poster_slides/RaindropClarity_PPT.pdf">Slides</a>
+  <a href="https://github.com/YeyingLab/RaindropClarity/blob/main/poster_slides/RaindropClarity_PPT.pdf">Slides</a>
   |
   <a href="https://www.youtube.com/watch?v=LSGvCuT46XU">Video</a>
   |
@@ -1892,7 +1951,7 @@ aaai24_des3_stop()
 <em>AAAI</em>, 2024, Vancouver, Canada <br>
 <a href="https://arxiv.org/abs/2211.08089">arXiv</a>
 |
-<a href="https://github.com/jinyeying/DeS3_Deshadow"><img src="https://img.shields.io/badge/%E2%98%85-26-blue?style=social&logo=github"></a>
+<a href="https://github.com/YeyingLab/DeS3_Deshadow"><img src="https://img.shields.io/github/stars/YeyingLab/DeS3_Deshadow?style=social&label=%E2%98%85"></a>
 |
 <a href="./files/submit23_shadowdiffusion_bibtex.txt">BibTeX</a>
 |
@@ -1971,7 +2030,7 @@ eccv22_nightenhance_stop()
 <em>ECCV</em>, 2022, Tel Aviv, Israel <br>
 <a href="https://arxiv.org/abs/2207.10564">arXiv</a>
 |
-<a href="https://github.com/jinyeying/night-enhancement"><img src="https://img.shields.io/badge/%E2%98%85-467-blue?style=social&logo=github"></a>
+<a href="https://github.com/YeyingLab/night-enhancement"><img src="https://img.shields.io/github/stars/YeyingLab/night-enhancement?style=social&label=%E2%98%85"></a>
 |
 <a href="./files/eccv22_nightenhance_bibtex.txt">BibTeX</a>
 |  
@@ -1979,9 +2038,9 @@ eccv22_nightenhance_stop()
 |
 <a href="https://www.ecva.net/papers/eccv_2022/papers_ECCV/papers/136970396-supp.pdf">Supp</a>  
 |
-<a href="https://github.com/jinyeying/night-enhancement/blob/main/poster_slides/0982_poster.pdf">Poster</a>
+<a href="https://github.com/YeyingLab/night-enhancement/blob/main/poster_slides/0982_poster.pdf">Poster</a>
 |
-<a href="https://github.com/jinyeying/night-enhancement/blob/main/poster_slides/0982_slides.pdf">Slides</a>
+<a href="https://github.com/YeyingLab/night-enhancement/blob/main/poster_slides/0982_slides.pdf">Slides</a>
 |
 <a href="https://www.youtube.com/watch?v=0_3RiwQ8u20">Video</a>
 |
@@ -2024,7 +2083,7 @@ iccv21_dcshadownet_stop()
 <em>ICCV</em>, 2021, Montreal, Canada <br>
 <a href="https://arxiv.org/abs/2207.10434">arXiv</a>
 |  
-<a href="https://github.com/jinyeying/DC-ShadowNet-Hard-and-Soft-Shadow-Removal"><img src="https://img.shields.io/badge/%E2%98%85-256-blue?style=social&logo=github"></a>
+<a href="https://github.com/YeyingLab/DC-ShadowNet-Hard-and-Soft-Shadow-Removal"><img src="https://img.shields.io/github/stars/YeyingLab/DC-ShadowNet-Hard-and-Soft-Shadow-Removal?style=social&label=%E2%98%85"></a>
 |  
 <a href="./files/iccv21_shadow_bibtex.txt">BibTeX</a>
 |
@@ -2032,9 +2091,9 @@ iccv21_dcshadownet_stop()
 |
 <a href="https://openaccess.thecvf.com/content/ICCV2021/supplemental/Jin_DC-ShadowNet_Single-Image_Hard_ICCV_2021_supplemental.pdf">Supp</a>
 |
-<a href="https://github.com/jinyeying/DC-ShadowNet-Hard-and-Soft-Shadow-Removal/blob/main/poster_slides/DC-ShadowNet_poster.pdf">Poster</a>
+<a href="https://github.com/YeyingLab/DC-ShadowNet-Hard-and-Soft-Shadow-Removal/blob/main/poster_slides/DC-ShadowNet_poster.pdf">Poster</a>
 |
-<a href="https://github.com/jinyeying/DC-ShadowNet-Hard-and-Soft-Shadow-Removal/blob/main/poster_slides/DC-ShadowNet_slides.pdf">Slides</a>
+<a href="https://github.com/YeyingLab/DC-ShadowNet-Hard-and-Soft-Shadow-Removal/blob/main/poster_slides/DC-ShadowNet_slides.pdf">Slides</a>
 |
 <a href="https://www.youtube.com/watch?v=NGftPijWLGA">Video</a>
 <p></p>
@@ -2070,7 +2129,7 @@ acmmm23_nightdehaze_stop()
 <em>ACM MM</em>, 2023, Ottawa, Canada <br>
 <a href="https://arxiv.org/abs/2308.01738">arXiv</a>
 |
-<a href="https://github.com/jinyeying/nighttime_dehaze"><img src="https://img.shields.io/badge/%E2%98%85-186-blue?style=social&logo=github"></a>
+<a href="https://github.com/YeyingLab/nighttime_dehaze"><img src="https://img.shields.io/github/stars/YeyingLab/nighttime_dehaze?style=social&label=%E2%98%85"></a>
 |
 <a href="./files/acmmm23_nightdehaze_bibtex.txt">BibTeX</a>
 |
@@ -2115,7 +2174,7 @@ aaai23_reflectance_stop()
 <em>AAAI</em>, 2023, Washington, DC, USA <br>
 <a href="https://arxiv.org/abs/2211.14751">arXiv</a>
 |
-<a href="https://github.com/jinyeying/S-Aware-network"><img src="https://img.shields.io/badge/%E2%98%85-89-blue?style=social&logo=github"></a>
+<a href="https://github.com/YeyingLab/S-Aware-network"><img src="https://img.shields.io/github/stars/YeyingLab/S-Aware-network?style=social&label=%E2%98%85"></a>
 |
 <a href="./files/aaai23_reflectance_bibtex.txt">BibTeX</a> 
 |
@@ -2159,7 +2218,7 @@ accv22_defog_stop()
 <em>ACCV</em>, 2022, Macao, China <br>
 <a href="https://arxiv.org/abs/2210.03061">arXiv</a>
 |
-<a href="https://github.com/jinyeying/FogRemoval"><img src="https://img.shields.io/badge/%E2%98%85-164-blue?style=social&logo=github"></a>
+<a href="https://github.com/YeyingLab/FogRemoval"><img src="https://img.shields.io/github/stars/YeyingLab/FogRemoval?style=social&label=%E2%98%85"></a>
 |
 <a href="./files/accv22_defog_bibtex.txt">BibTeX</a>
 |  
@@ -2628,6 +2687,7 @@ function filterBlogs(cat) {
 
 # Honors and Awards {#awards}
 - [“Yayoi Kusama × Wukong”](https://modelscope.cn/brand/view/game-wan?branch=0&tree=4), *ModelScope Wan 2.1 Video Generation Challenge* — 2nd Place  
+- Tencent Project Up (青云计划) Talent Programme
 - Tencent [Knowledge](https://zhuanlan.zhihu.com/p/686681635), [Excellent R&D](https://www.dropbox.com/scl/fi/h32jdvfrftrdls3rwjesi/Tencent_Excellent_R-D_Award.jpg?rlkey=xw5225oazo9kkoziuznsnhtpz&st=apklpn9u&dl=0), [Outstanding Mentor](https://www.dropbox.com/scl/fi/kcszrth49835tfvcirjot/Mentor.jpg?rlkey=mf4zo301alayou3tvr7yaedpk&st=je6i1qgd&dl=0) and Outstanding Contributor Awards
 - ICML 2026 Gold Reviewer Award
 - Best Paper Award, ADHIP 2024
